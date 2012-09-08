@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-06 07:47+0000\n"
-"PO-Revision-Date: 2012-09-04 17:46+0200\n"
-"Last-Translator: Molly <molly@dubizzle.com>\n"
+"PO-Revision-Date: 2012-09-06 16:06+0200\n"
+"Last-Translator: Pilar <pilar@dubizzle.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr "كلمة السر"
 #: authentication/forms.py:29
 msgid "Eeek, the password you entered isn't right. Try again."
 msgstr ""
-"كلمة السر غير صحيحة (لا تكون سرحان؟؟  تأكد من كون الحروف الانجليزية كبيرة أو "
+"كلمة السر غير صحيحة (لا تكون سرحان؟؟ تأكد من كون الحروف الانجليزية كبيرة أو "
 "صغيرة)."
 
 #: authentication/forms.py:44 authentication/forms.py:68
@@ -125,7 +125,7 @@ msgstr "بحرين"
 
 #: fuego/bahrain_settings.py:269
 msgid "BHD"
-msgstr ""
+msgstr "د. ب."
 
 #: fuego/bahrain_settings.py:275 fuego/egypt_settings.py:262
 msgid "Unknown"
@@ -1631,22 +1631,19 @@ msgstr "أضف إعلان"
 
 # not too clear
 #: templates/generic.html:23
-#, fuzzy
 msgid "My account"
 msgstr "الحساب"
 
 #: templates/generic.html:25 templates/generic.html.py:35
 msgid "Home"
-msgstr ""
+msgstr "الصفحة الرئيسية"
 
 #: templates/generic.html:41
-#, fuzzy
 msgid "View all"
 msgstr "اظهر الجميع"
 
 # not too clear
 #: templates/generic.html:50
-#, fuzzy
 msgid "My Account"
 msgstr "الحساب"
 
@@ -1675,7 +1672,6 @@ msgid "Don&#39;t have an account"
 msgstr "ليس لديك حساب؟"
 
 #: templates/authentication/login.html:68
-#, fuzzy
 msgid "Place an ad</a> to create one on the fly!"
 msgstr "أضف اعلان أولاً لإنشاء حساب جديد."
 
@@ -1867,7 +1863,6 @@ msgid "Confirm"
 msgstr "تأكيد "
 
 #: templates/listings/get_listing.html:25
-#, fuzzy
 msgid "Back to results"
 msgstr "العودة إلى صفحة الإعلانات"
 
@@ -1876,12 +1871,10 @@ msgid "Report this ad"
 msgstr "بلغ عن هذا الإعلان"
 
 #: templates/listings/get_listing.html:32
-#, fuzzy
 msgid "Edit this ad"
 msgstr "تعديل"
 
 #: templates/listings/get_listing.html:33
-#, fuzzy
 msgid "Delete this ad"
 msgstr "حذف الإعلان "
 
@@ -1911,6 +1904,9 @@ msgid ""
 "or your financial details (e.g. cheques, deposit, etc.); 3) Ask for relevant "
 "documentation, if applicable (e.g. warranties, ID)."
 msgstr ""
+"من أجل سلامتك:1. تعامل مع معلنين من مدينتك وقم بإجراء جميع معاملات البيع "
+"والشراء وجهاً لوجه. 2. لا ترسل الأموال أو معلوماتك المصرفية إلى أي شخص تعرفت "
+"عليه عبر الإنترنت تحت أي ظرف من الظروف."
 
 #: templates/listings/get_listing.html:127
 #: templates/listings/report_listing.html:40
@@ -1971,7 +1967,6 @@ msgid "Hooray! Congratulations, your ad will go live very very soon."
 msgstr "مبروك! لقد اضفت إعلانك بنجاح وسنقوم بنشره قريبا."
 
 #: templates/listings/listing_complete.html:13
-#, fuzzy
 msgid ""
 "\n"
 "\t    \t\t<p>\n"
@@ -1989,7 +1984,7 @@ msgstr ""
 
 #: templates/listings/listing_complete.html:23
 msgid "Back to home page"
-msgstr "العودة الى الصفحة الرئيسية."
+msgstr "العودة الى الصفحة الرئيسية"
 
 #: templates/listings/listing_complete.html:25
 msgid "Place another ad"
@@ -2144,15 +2139,13 @@ msgstr ""
 
 #: templates/listings/report_listing.html:16
 msgid "Thank you for reporting an ad on our site!"
-msgstr ""
+msgstr "شكرا لمساهمتك"
 
 #: templates/listings/report_listing.html:34
-#, fuzzy
 msgid "Report"
 msgstr "بلغ عن هذا الإعلان"
 
 #: templates/listings/report_listing.html:111
-#, fuzzy
 msgid "Report ad"
 msgstr "بلغ عن هذا الإعلان"
 
@@ -2193,7 +2186,7 @@ msgstr ""
 
 #: templates/public/home.html:12
 msgid "Buy, sell and find anything"
-msgstr ""
+msgstr "بيع واشتري وأعثر على أى شيء "
 
 #: templates/public/home.html:20
 #, python-format
@@ -2302,7 +2295,7 @@ msgstr[5] ""
 
 #: templates/search/search_bar.html:13
 msgid "Search"
-msgstr ""
+msgstr "إبحث"
 
 #: templates/search/search_bar.html:19
 #, python-format
@@ -2310,7 +2303,7 @@ msgid ""
 "\n"
 "                        Show only %(current_language)s ads\n"
 "                    "
-msgstr ""
+msgstr "اظهر فقط الإعلانات المضافة بال%(current_language)"
 
 #: templates/search/search_listings.html:7
 msgid "Load previous"
@@ -2322,27 +2315,26 @@ msgstr "لا يوجد نتائج."
 
 #: templates/shared/listings.html:42
 msgid "Oh camel droppings!"
-msgstr ""
+msgstr "يا للهوووول!!"
 
 #: templates/shared/listings.html:43
 msgid "We couldn't find anything to match your search."
-msgstr ""
+msgstr "لم نجد أي نتائج لبحثك!"
 
 #: templates/shared/listings.html:45
-#, fuzzy
 msgid ""
 "Try using different keywords or widening your seach and it should be more "
 "fruitful."
-msgstr "يا للهول!! لم نجد أي نتائج لبحثك! جرب كلمات بحث اخرى لتسهل البحث. "
+msgstr "جرب كلمات بحث اخرى لتسهل البحث. "
 
 #: templates/user_profiles/my_listings.html:17
 #, python-format
 msgid "Not %(email)s?"
-msgstr ""
+msgstr "لست %(email)؟"
 
 #: templates/user_profiles/my_listings.html:18
 msgid "Logout"
-msgstr ""
+msgstr "الخروج من الحساب"
 
 #: templates/user_profiles/my_listings.html:21
 msgid "Account settings"
@@ -2357,7 +2349,6 @@ msgid ""
 msgstr "حسابك كالصحراء - يبدو خالي من أي نشاط. احيي ربعك الخالي باعلاناتك! "
 
 #: templates/user_profiles/my_listings.html:36
-#, fuzzy
 msgid "Place an ad"
 msgstr "أضف إعلان"
 
@@ -2385,15 +2376,14 @@ msgid_plural ""
 "\n"
 "                            You've got %(counter)s ads\n"
 "                        "
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "ليس لديك إعلانات"
+msgstr[1] "لديك إعلان واحد"
+msgstr[2] "لديك إعلانين"
+msgstr[3] "لديك %d إعلانات"
+msgstr[4] "لديك %d إعلان"
+msgstr[5] "لديك %d إعلان"
 
 #: templates/user_profiles/my_listings.html:80
-#, fuzzy
 msgid "These ads are awaiting approval and will be live soon."
 msgstr "جاري الآن الموافقة على الإعلان وسيتم نشره في أقرب وقت."
 
