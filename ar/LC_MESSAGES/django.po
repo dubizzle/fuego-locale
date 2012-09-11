@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-11 19:44+0000\n"
+"POT-Creation-Date: 2012-09-11 20:04+0000\n"
 "PO-Revision-Date: 2012-09-11 17:20+0200\n"
 "Last-Translator: dubizzle <dubizzle@dubizzle.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1904,7 +1904,7 @@ msgid "Change country"
 msgstr "تغيير الدولة"
 
 #: templates/generic.html:106
-msgid "Dubizzle.com 2012, All Rights Reserved."
+msgid "dubizzle.com 2012, All Rights Reserved."
 msgstr "dubizzle.com 2012، جميع الحقوق محفوظة."
 
 #: templates/terms_ar.html:8
@@ -2159,9 +2159,8 @@ msgid "Select a category"
 msgstr "نوع الإعلان؟"
 
 #: templates/listings/manage_listing.html:62
-#, fuzzy
 msgid "Choose"
-msgstr "إختر المدينة"
+msgstr "إختر"
 
 #: templates/listings/manage_listing.html:82
 msgid "We're almost there... please review the points below."
@@ -2248,23 +2247,23 @@ msgstr ""
 msgid "A valid email address ensures your ad will go live."
 msgstr "تأكد من ادخال عنوان ايميل صحيح حتى يتم نشر إعلانك."
 
-#: templates/listings/manage_listing.html:384
+#: templates/listings/manage_listing.html:385
 msgid "I'm new to dubizzle. I need a password."
 msgstr "ليس لدي حساب على دوبيزل"
 
-#: templates/listings/manage_listing.html:387
+#: templates/listings/manage_listing.html:389
 msgid "I have a dubizzle password"
 msgstr "لدي حساب وكلمة سر"
 
-#: templates/listings/manage_listing.html:394
+#: templates/listings/manage_listing.html:397
 msgid "Confirm email"
 msgstr "تأكيد عنوان الإيميل"
 
-#: templates/listings/manage_listing.html:409
+#: templates/listings/manage_listing.html:412
 msgid "Password (cAse SenSiTIvE)"
 msgstr "كلمة السر"
 
-#: templates/listings/manage_listing.html:429
+#: templates/listings/manage_listing.html:432
 msgid ""
 "Make it safe and secure. Use a mix of numbers and letters, and don't use "
 "something obvious like your auntie's friend's cat - well, maybe that's OK."
@@ -2272,11 +2271,11 @@ msgstr ""
 "اختر كلمة سر قوية وآمنة ويستحسن ان لا تكون كلمة السر تخص إسمك أو تاريخ "
 "ميلادك أو أي من افراد عائلتك."
 
-#: templates/listings/manage_listing.html:439
+#: templates/listings/manage_listing.html:442
 msgid "Confirm password"
 msgstr "تأكيد كلمة السر"
 
-#: templates/listings/manage_listing.html:467
+#: templates/listings/manage_listing.html:470
 #, python-format
 msgid ""
 "\n"
@@ -2290,11 +2289,11 @@ msgstr ""
 "وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\">سياسة الخصوصية</"
 "a>.                                "
 
-#: templates/listings/manage_listing.html:476
+#: templates/listings/manage_listing.html:479
 msgid "Yalla! Publish my ad"
 msgstr "يلا...انشر اعلاني!"
 
-#: templates/listings/manage_listing.html:480
+#: templates/listings/manage_listing.html:483
 msgid "What's the model?"
 msgstr "ماركة السيارة"
 
@@ -2397,7 +2396,7 @@ msgstr "أرسل"
 msgid "Buy, sell and find anything"
 msgstr "بيع واشتري وأعثر على أى شيء "
 
-#: templates/public/home.html:20 templates/search/search.html:32
+#: templates/public/home.html:20
 #, python-format
 msgid ""
 "\n"
@@ -2509,6 +2508,41 @@ msgstr ""
 #: templates/search/search.html:21
 msgid "in"
 msgstr ""
+
+#: templates/search/search.html:32
+#, python-format
+msgid ""
+"\n"
+"                    We found <span class=\"red\">%(counter)s</span> ad\n"
+"                "
+msgid_plural ""
+"\n"
+"                    We found <span class=\"red\">%(counter)s</span> ads\n"
+"                "
+msgstr[0] ""
+"\n"
+"لم نجد اي اعلانات\n"
+"                "
+msgstr[1] ""
+"\n"
+"وجدنا اعلان\n"
+"                "
+msgstr[2] ""
+"\n"
+"وجدنا اعلانين\n"
+"                "
+msgstr[3] ""
+"\n"
+"وجدنا <span class=\"red\">%(counter)s</span> اعلانات\n"
+"                "
+msgstr[4] ""
+"\n"
+"وجدنا <span class=\"red\">%(counter)s</span> اعلان\n"
+"                "
+msgstr[5] ""
+"\n"
+"وجدنا <span class=\"red\">%(counter)s</span> اعلان\n"
+"                "
 
 #: templates/search/search_bar.html:10 templates/search/search_bar.html:13
 msgid "Search"
