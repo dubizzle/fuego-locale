@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-11 20:04+0000\n"
+"POT-Creation-Date: 2012-09-13 09:01+0000\n"
 "PO-Revision-Date: 2012-09-11 17:20+0200\n"
 "Last-Translator: dubizzle <dubizzle@dubizzle.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -362,7 +362,9 @@ msgid ""
 "dubizzle is your free and friendly local classifieds website in Bahrain. "
 "Jobs, property, real estate, cars and classifieds in Bahrain. Post an ad, "
 "browse ads, buy, sell or rent."
-msgstr "دوبيزل هو خيارك الأول للاعلانات المبوبة المجانية في بحرين. ايجاد وظائف , عقارات للبيع و للايجار , سيارات للبيع في بحرين"
+msgstr ""
+"دوبيزل هو خيارك الأول للاعلانات المبوبة المجانية في بحرين. ايجاد وظائف , "
+"عقارات للبيع و للايجار , سيارات للبيع في بحرين"
 
 #: fuego/bahrain_settings.py:849 fuego/egypt_settings.py:886
 msgid ""
@@ -1659,14 +1661,14 @@ msgstr ""
 msgid "The neighborhood you have selected is not in the city you selected."
 msgstr "يبدو أن هذه المنطقة ليست فى المدينة المحددة."
 
-#: listings/forms.py:279 listings/forms.py:325 listings/forms.py:338
+#: listings/forms.py:279 listings/forms.py:324 listings/forms.py:337
 #: listings/models.py:264 listings/models.py:288 listings/models.py:308
 #: listings/models.py:325 listings/models.py:342 listings/models.py:369
 #: listings/models.py:386 listings/models.py:413
 msgid "Price"
 msgstr "السعر"
 
-#: listings/forms.py:280 listings/forms.py:326 listings/forms.py:339
+#: listings/forms.py:280 listings/forms.py:325 listings/forms.py:338
 #, python-format
 msgid ""
 "When in doubt, check out other ads to see the price range of your item. "
@@ -1675,27 +1677,27 @@ msgstr ""
 "لو محتار في تحديد السعر إبحث عن أسعار أشياء مماثلة على الموقع. يرجى التأكد "
 "أن السعر المطلوب في عملة %(currency)s"
 
-#: listings/forms.py:283 listings/forms.py:329 listings/forms.py:342
+#: listings/forms.py:283 listings/forms.py:328 listings/forms.py:341
 msgid "You forgot to add the price."
 msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 
-#: listings/forms.py:305 listings/models.py:285
+#: listings/forms.py:301 listings/models.py:285
 msgid "Year"
 msgstr "السنة"
 
-#: listings/forms.py:309
+#: listings/forms.py:308
 msgid "How many KM?"
 msgstr "عدد الكيلومترات"
 
-#: listings/forms.py:310
+#: listings/forms.py:309
 msgid "Great ride, how far has it gone?"
 msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
 
-#: listings/forms.py:361 listings/forms.py:379
+#: listings/forms.py:360 listings/forms.py:378
 msgid "Number of bedrooms"
 msgstr "عدد غرف النوم"
 
-#: listings/forms.py:362 listings/forms.py:380
+#: listings/forms.py:361 listings/forms.py:379
 msgid "Nice property, but how many bedrooms?"
 msgstr "حدثنا عن عقارك. كم عدد غرف النوم؟"
 
@@ -1828,7 +1830,7 @@ msgstr "الصفحة السابقة"
 
 #: templates/404-web.html:20 templates/generic.html:36
 #: templates/privacy_ar.html:55 templates/terms_ar.html:311
-#: templates/shared/listings.html:52
+#: templates/shared/listings.html:49
 msgid "Home"
 msgstr "الصفحة الرئيسية"
 
@@ -1840,7 +1842,7 @@ msgstr ""
 msgid ""
 "\n"
 "\t\t    <h1>Well, darn.</h1>\n"
-"\t\t    <p>Our wise dubizzle guy couldn't handle the strain. We'll resurrect "
+"\t\t    <p>Our wize dubizzle guy couldn't handle the strain. We'll resurrect "
 "him soon.</p>\n"
 "\t\t    <span>If anyone asks, it was a measly 500 error.</span>\n"
 "\t\t    "
@@ -1855,7 +1857,7 @@ msgid "Browse"
 msgstr "تصفح"
 
 #: templates/generic.html:17 templates/generic.html.py:55
-#: templates/search/search.html:21
+#: templates/search/search.html:19
 msgid ","
 msgstr "،"
 
@@ -1904,7 +1906,8 @@ msgid "Change country"
 msgstr "تغيير الدولة"
 
 #: templates/generic.html:106
-msgid "dubizzle.com 2012, All Rights Reserved."
+#, fuzzy
+msgid "2012, dubizzle.com, All Rights Reserved."
 msgstr "dubizzle.com 2012، جميع الحقوق محفوظة."
 
 #: templates/terms_ar.html:8
@@ -2388,51 +2391,49 @@ msgstr "المدينة/الدولة"
 msgid "Message: What's on your mind?"
 msgstr "موضوع الرسالة"
 
-#: templates/public/contact_us.html:184
+#: templates/public/contact_us.html:183
 msgid "Send"
 msgstr "أرسل"
 
-#: templates/public/home.html:12 templates/search/search.html:23
+#: templates/public/home.html:12 templates/search/search.html:22
 msgid "Buy, sell and find anything"
 msgstr "بيع واشتري وأعثر على أى شيء "
 
-#: templates/public/home.html:20
-#, python-format
+#: templates/public/home.html:23
+#, fuzzy, python-format
 msgid ""
 "\n"
-"                    We found %(counter)s ad\n"
-"                "
-msgid_plural ""
+"                                We found %(counter)s ad\n"
+"                            "
+msgstr ""
 "\n"
-"                    with over %(counter)s listings of cars, jobs, "
-"properties, classifieds and so much more!\n"
-"                "
-msgstr[0] ""
-"\n"
-"لم نجد اي اعلانات\n"
-"                "
-msgstr[1] ""
-"\n"
-"وجدنا اعلان\n"
-"                "
-msgstr[2] ""
-"\n"
-"وجدنا اعلانين\n"
-"                "
-msgstr[3] ""
-"\n"
-"وجدنا %(counter)s اعلانات\n"
-"                "
-msgstr[4] ""
-"\n"
-"وجدنا %(counter)s اعلان\n"
-"                "
-msgstr[5] ""
-"\n"
-"وجدنا %(counter)s اعلان\n"
-"                "
+"ليس لديك إعلانات\n"
+"                        "
 
-#: templates/public/home.html:32 templates/search/search_listings.html:18
+#: templates/public/home.html:27
+#, fuzzy, python-format
+msgid ""
+"\n"
+"                                We found %(counter)s ads\n"
+"                            "
+msgstr ""
+"\n"
+"ليس لديك إعلانات\n"
+"                        "
+
+#: templates/public/home.html:32
+#, fuzzy, python-format
+msgid ""
+"\n"
+"                            with over %(counter)s listings of cars, jobs, "
+"properties, classifieds and so much more!\n"
+"                        "
+msgstr ""
+"\n"
+"ليس لديك إعلانات\n"
+"                        "
+
+#: templates/public/home.html:43 templates/search/search_listings.html:18
 msgid "Load more"
 msgstr "ارني المزيد"
 
@@ -2499,15 +2500,15 @@ msgstr "تصفية البحث"
 
 #: templates/search/category_widget.html:51
 msgid "All of"
-msgstr ""
+msgstr "كل"
 
 #: templates/search/category_widget.html:71 templates/search/widget.html:66
 msgid "Go"
-msgstr ""
+msgstr "عرض"
 
-#: templates/search/search.html:21
+#: templates/search/search.html:19
 msgid "in"
-msgstr ""
+msgstr "في"
 
 #: templates/search/search.html:32
 #, python-format
@@ -2567,15 +2568,15 @@ msgstr "أرني الإعلانات السابقة"
 msgid "No results..."
 msgstr "لا يوجد نتائج..."
 
-#: templates/shared/listings.html:46
+#: templates/shared/listings.html:43
 msgid "Oh camel droppings!"
 msgstr "يا للهوووول!!"
 
-#: templates/shared/listings.html:47
+#: templates/shared/listings.html:44
 msgid "We couldn't find anything to match your search."
 msgstr "لم نجد أي نتائج لبحثك!"
 
-#: templates/shared/listings.html:49
+#: templates/shared/listings.html:46
 msgid ""
 "Try using different keywords or widening your seach and it should be more "
 "fruitful."
@@ -2774,6 +2775,40 @@ msgstr[5] ""
 #, python-format
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
+
+#~ msgid ""
+#~ "\n"
+#~ "                    We found %(counter)s ad\n"
+#~ "                "
+#~ msgid_plural ""
+#~ "\n"
+#~ "                    with over %(counter)s listings of cars, jobs, "
+#~ "properties, classifieds and so much more!\n"
+#~ "                "
+#~ msgstr[0] ""
+#~ "\n"
+#~ "لم نجد اي اعلانات\n"
+#~ "                "
+#~ msgstr[1] ""
+#~ "\n"
+#~ "وجدنا اعلان\n"
+#~ "                "
+#~ msgstr[2] ""
+#~ "\n"
+#~ "وجدنا اعلانين\n"
+#~ "                "
+#~ msgstr[3] ""
+#~ "\n"
+#~ "وجدنا %(counter)s اعلانات\n"
+#~ "                "
+#~ msgstr[4] ""
+#~ "\n"
+#~ "وجدنا %(counter)s اعلان\n"
+#~ "                "
+#~ msgstr[5] ""
+#~ "\n"
+#~ "وجدنا %(counter)s اعلان\n"
+#~ "                "
 
 #~ msgctxt "country_name"
 #~ msgid "All of %s"
