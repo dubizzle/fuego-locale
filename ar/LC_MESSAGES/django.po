@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-13 09:01+0000\n"
+"POT-Creation-Date: 2012-09-16 07:56+0000\n"
 "PO-Revision-Date: 2012-09-11 17:20+0200\n"
 "Last-Translator: dubizzle <dubizzle@dubizzle.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,11 +19,14 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Pootle 2.1.6\n"
 
-#: authentication/forms.py:17 templates/authentication/login.html:30
+#: authentication/forms.py:17 authentication/forms.py:132
+#: templates/authentication/forget_password.html:27
+#: templates/authentication/login.html:30
 msgid "Email address"
 msgstr "عنوان الإيميل"
 
-#: authentication/forms.py:18 fuego/forms/__init__.py:45 public/forms.py:17
+#: authentication/forms.py:18 authentication/forms.py:133
+#: fuego/forms/__init__.py:45 public/forms.py:17
 msgid "Oh no! Your email is invalid. Try again."
 msgstr "لا تنسى إدخال عنوان إيميل صحيح!"
 
@@ -40,6 +43,7 @@ msgstr ""
 "صغيرة)."
 
 #: authentication/forms.py:44 authentication/forms.py:68
+#: authentication/forms.py:141 authentication/forms.py:163
 msgid "Your password must be a minimum 6 characters. Try again."
 msgstr "يجب ادخال كلمة سر لا تقل عن 6 أحرف!"
 
@@ -55,13 +59,42 @@ msgstr "تأكيد كلمة السر"
 msgid "Huh... that's not the same one! Try again."
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
-#: authentication/forms.py:111 listings/tests.py:874
+#: authentication/forms.py:111 authentication/forms.py:155
+#: listings/tests.py:874
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
 
-#: authentication/views.py:62
+#: authentication/forms.py:139
+#, fuzzy
+msgid "New Password"
+msgstr "كلمة السر"
+
+#: authentication/forms.py:142
+#, fuzzy
+msgid "Confirm New Password"
+msgstr "تأكيد كلمة السر"
+
+#: authentication/forms.py:161
+#, fuzzy
+msgid "Old Password"
+msgstr "كلمة السر"
+
+#: authentication/views.py:78
 msgid "Please enter the correct Username and Password combination."
 msgstr "البيانات التي ادخلتها غير صحيحة."
+
+#: authentication/views.py:166 authentication/views.py:262
+msgid "No account associated with the provided email"
+msgstr ""
+
+#: authentication/views.py:179 authentication/views.py:270
+#, fuzzy
+msgid "This email address no longer allowed to login"
+msgstr "تأكد من ادخال عنوان ايميل صحيح حتى يتم نشر إعلانك."
+
+#: authentication/views.py:347
+msgid "Your password dosen't match the account password"
+msgstr ""
 
 #: captcha/fields.py:70
 msgid "Hmm... this doesn't match up. Try again"
@@ -121,235 +154,235 @@ msgid ""
 "again."
 msgstr ""
 
-#: fuego/bahrain_settings.py:275 templates/public/landing.html:46
+#: fuego/bahrain_settings.py:267 templates/public/landing.html:46
 msgid "Bahrain"
 msgstr "البحرين"
 
-#: fuego/bahrain_settings.py:277
+#: fuego/bahrain_settings.py:269
 msgid "BHD"
 msgstr "د. ب."
 
-#: fuego/bahrain_settings.py:283 fuego/egypt_settings.py:262
+#: fuego/bahrain_settings.py:275 fuego/egypt_settings.py:262
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/bahrain_settings.py:297 fuego/bahrain_settings.py:314
+#: fuego/bahrain_settings.py:289 fuego/bahrain_settings.py:306
 #: fuego/egypt_settings.py:281 fuego/egypt_settings.py:298
 msgid "Manama"
 msgstr "المنامة"
 
-#: fuego/bahrain_settings.py:319 fuego/egypt_settings.py:303
+#: fuego/bahrain_settings.py:311 fuego/egypt_settings.py:303
 msgid "Adliya"
 msgstr "العدلية"
 
-#: fuego/bahrain_settings.py:324 fuego/egypt_settings.py:308
+#: fuego/bahrain_settings.py:316 fuego/egypt_settings.py:308
 msgid "Mahooz"
 msgstr "ماحوس"
 
-#: fuego/bahrain_settings.py:329 fuego/egypt_settings.py:313
+#: fuego/bahrain_settings.py:321 fuego/egypt_settings.py:313
 msgid "Umm Alhassam"
 msgstr "ام الحصم"
 
-#: fuego/bahrain_settings.py:334 fuego/egypt_settings.py:318
+#: fuego/bahrain_settings.py:326 fuego/egypt_settings.py:318
 msgid "Juffair"
 msgstr "جفير"
 
-#: fuego/bahrain_settings.py:339 fuego/egypt_settings.py:323
+#: fuego/bahrain_settings.py:331 fuego/egypt_settings.py:323
 msgid "Zinj"
 msgstr "الزنج"
 
-#: fuego/bahrain_settings.py:344 fuego/egypt_settings.py:328
+#: fuego/bahrain_settings.py:336 fuego/egypt_settings.py:328
 msgid "Bilad Al Qadeem"
 msgstr "البلاد القديم"
 
-#: fuego/bahrain_settings.py:349 fuego/egypt_settings.py:333
+#: fuego/bahrain_settings.py:341 fuego/egypt_settings.py:333
 msgid "Salmabad"
 msgstr "سلمباد"
 
-#: fuego/bahrain_settings.py:354 fuego/egypt_settings.py:338
+#: fuego/bahrain_settings.py:346 fuego/egypt_settings.py:338
 msgid "Seef"
 msgstr "السيف"
 
-#: fuego/bahrain_settings.py:359 fuego/egypt_settings.py:343
+#: fuego/bahrain_settings.py:351 fuego/egypt_settings.py:343
 msgid "Barbar"
 msgstr "بار بار"
 
-#: fuego/bahrain_settings.py:364 fuego/egypt_settings.py:348
+#: fuego/bahrain_settings.py:356 fuego/egypt_settings.py:348
 msgid "Budaiya"
 msgstr "البديع"
 
-#: fuego/bahrain_settings.py:369 fuego/egypt_settings.py:353
+#: fuego/bahrain_settings.py:361 fuego/egypt_settings.py:353
 msgid "Janabiyah"
 msgstr "جانبية"
 
-#: fuego/bahrain_settings.py:374 fuego/egypt_settings.py:358
+#: fuego/bahrain_settings.py:366 fuego/egypt_settings.py:358
 msgid "Saar"
 msgstr "سار"
 
-#: fuego/bahrain_settings.py:379 fuego/egypt_settings.py:363
+#: fuego/bahrain_settings.py:371 fuego/egypt_settings.py:363
 msgid "Bani Jamra"
 msgstr "بني جمرة"
 
-#: fuego/bahrain_settings.py:384 fuego/egypt_settings.py:368
+#: fuego/bahrain_settings.py:376 fuego/egypt_settings.py:368
 msgid "Sanabis"
 msgstr "السنابس"
 
-#: fuego/bahrain_settings.py:389 fuego/egypt_settings.py:373
+#: fuego/bahrain_settings.py:381 fuego/egypt_settings.py:373
 msgid "Burhama"
 msgstr "بو رحامه"
 
-#: fuego/bahrain_settings.py:394 fuego/egypt_settings.py:378
+#: fuego/bahrain_settings.py:386 fuego/egypt_settings.py:378
 msgid "Jidhafs"
 msgstr "جد حفص"
 
-#: fuego/bahrain_settings.py:399 fuego/egypt_settings.py:383
+#: fuego/bahrain_settings.py:391 fuego/egypt_settings.py:383
 msgid "Salihiya"
 msgstr "الصالحية"
 
-#: fuego/bahrain_settings.py:404 fuego/egypt_settings.py:388
+#: fuego/bahrain_settings.py:396 fuego/egypt_settings.py:388
 msgid "Gudaibiya"
 msgstr "القضيبية"
 
-#: fuego/bahrain_settings.py:409 fuego/egypt_settings.py:393
+#: fuego/bahrain_settings.py:401 fuego/egypt_settings.py:393
 msgid "Hoora"
 msgstr "الحورة"
 
-#: fuego/bahrain_settings.py:414 fuego/egypt_settings.py:398
+#: fuego/bahrain_settings.py:406 fuego/egypt_settings.py:398
 msgid "Ras Rumman"
 msgstr "راس رمان"
 
-#: fuego/bahrain_settings.py:419 fuego/egypt_settings.py:403
+#: fuego/bahrain_settings.py:411 fuego/egypt_settings.py:403
 msgid "Manama Souk"
 msgstr "سوق المنامة"
 
-#: fuego/bahrain_settings.py:424 fuego/egypt_settings.py:408
+#: fuego/bahrain_settings.py:416 fuego/egypt_settings.py:408
 msgid "A'Ali"
 msgstr "عالي"
 
-#: fuego/bahrain_settings.py:429 fuego/egypt_settings.py:413
+#: fuego/bahrain_settings.py:421 fuego/egypt_settings.py:413
 msgid "Sanad"
 msgstr "سند"
 
-#: fuego/bahrain_settings.py:434 fuego/egypt_settings.py:418
+#: fuego/bahrain_settings.py:426 fuego/egypt_settings.py:418
 msgid "Awali"
 msgstr "عوالي"
 
-#: fuego/bahrain_settings.py:439 fuego/egypt_settings.py:423
+#: fuego/bahrain_settings.py:431 fuego/egypt_settings.py:423
 msgid "Dumistan"
 msgstr "دومستان"
 
-#: fuego/bahrain_settings.py:444 fuego/egypt_settings.py:428
+#: fuego/bahrain_settings.py:436 fuego/egypt_settings.py:428
 msgid "Busaytin"
 msgstr "البسيتين"
 
-#: fuego/bahrain_settings.py:449 fuego/egypt_settings.py:433
+#: fuego/bahrain_settings.py:441 fuego/egypt_settings.py:433
 msgid "Amwaj Island"
 msgstr "جزر امواج "
 
-#: fuego/bahrain_settings.py:454 fuego/egypt_settings.py:438
+#: fuego/bahrain_settings.py:446 fuego/egypt_settings.py:438
 msgid "Jid Ali"
 msgstr "جد علي"
 
-#: fuego/bahrain_settings.py:459 fuego/egypt_settings.py:443
+#: fuego/bahrain_settings.py:451 fuego/egypt_settings.py:443
 msgid "Bu Kawarah"
 msgstr "بو كواره"
 
-#: fuego/bahrain_settings.py:464 fuego/egypt_settings.py:448
+#: fuego/bahrain_settings.py:456 fuego/egypt_settings.py:448
 msgid "Abu Baham"
 msgstr "أبو بهام"
 
-#: fuego/bahrain_settings.py:469 fuego/egypt_settings.py:453
+#: fuego/bahrain_settings.py:461 fuego/egypt_settings.py:453
 msgid "Al Musalla"
 msgstr " المصلى"
 
-#: fuego/bahrain_settings.py:474 fuego/egypt_settings.py:458
+#: fuego/bahrain_settings.py:466 fuego/egypt_settings.py:458
 msgid "Awadhiya"
 msgstr "عوادية"
 
-#: fuego/bahrain_settings.py:479 fuego/egypt_settings.py:463
+#: fuego/bahrain_settings.py:471 fuego/egypt_settings.py:463
 msgid "Bu Ashira"
 msgstr "بو عشيرة"
 
-#: fuego/bahrain_settings.py:484 fuego/egypt_settings.py:468
+#: fuego/bahrain_settings.py:476 fuego/egypt_settings.py:468
 msgid "Fereej Al Fadhel"
 msgstr "فريج الفاضل"
 
-#: fuego/bahrain_settings.py:489 fuego/egypt_settings.py:473
+#: fuego/bahrain_settings.py:481 fuego/egypt_settings.py:473
 msgid "Ghuraifa"
 msgstr "الغريفة"
 
-#: fuego/bahrain_settings.py:494 fuego/egypt_settings.py:478
+#: fuego/bahrain_settings.py:486 fuego/egypt_settings.py:478
 msgid "Gufool"
 msgstr "جفول"
 
-#: fuego/bahrain_settings.py:499 fuego/egypt_settings.py:483
+#: fuego/bahrain_settings.py:491 fuego/egypt_settings.py:483
 msgid "Khamis"
 msgstr "خميس"
 
-#: fuego/bahrain_settings.py:504 fuego/egypt_settings.py:488
+#: fuego/bahrain_settings.py:496 fuego/egypt_settings.py:488
 msgid "Naim"
 msgstr "النعيم"
 
-#: fuego/bahrain_settings.py:509 fuego/egypt_settings.py:493
+#: fuego/bahrain_settings.py:501 fuego/egypt_settings.py:493
 msgid "South Sehla"
 msgstr "السهلة الجنوبية"
 
-#: fuego/bahrain_settings.py:514 fuego/egypt_settings.py:498
+#: fuego/bahrain_settings.py:506 fuego/egypt_settings.py:498
 msgid "Tashan"
 msgstr "طشان"
 
-#: fuego/bahrain_settings.py:519 fuego/egypt_settings.py:503
+#: fuego/bahrain_settings.py:511 fuego/egypt_settings.py:503
 msgid "Tubli"
 msgstr "توبلي"
 
-#: fuego/bahrain_settings.py:545 fuego/egypt_settings.py:529
+#: fuego/bahrain_settings.py:537 fuego/egypt_settings.py:529
 msgid "English"
 msgstr ""
 
-#: fuego/bahrain_settings.py:546 fuego/egypt_settings.py:530
+#: fuego/bahrain_settings.py:538 fuego/egypt_settings.py:530
 msgid "Arabic"
 msgstr "عربي"
 
-#: fuego/bahrain_settings.py:597 fuego/egypt_settings.py:581
+#: fuego/bahrain_settings.py:577 fuego/egypt_settings.py:581
 #: templates/search/browse_widget.html:20
 #: templates/search/browse_widget.html:38 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/bahrain_settings.py:610 fuego/egypt_settings.py:594
+#: fuego/bahrain_settings.py:590 fuego/egypt_settings.py:594
 msgid "Inorganic"
 msgstr ""
 
-#: fuego/bahrain_settings.py:611 fuego/egypt_settings.py:595
+#: fuego/bahrain_settings.py:591 fuego/egypt_settings.py:595
 msgid "Payed Organic"
 msgstr ""
 
-#: fuego/bahrain_settings.py:612 fuego/egypt_settings.py:596
+#: fuego/bahrain_settings.py:592 fuego/egypt_settings.py:596
 msgid "Free Orgainic"
 msgstr ""
 
-#: fuego/bahrain_settings.py:668 fuego/egypt_settings.py:676
+#: fuego/bahrain_settings.py:648 fuego/egypt_settings.py:676
 msgid "Active"
 msgstr ""
 
-#: fuego/bahrain_settings.py:669 fuego/egypt_settings.py:677
+#: fuego/bahrain_settings.py:649 fuego/egypt_settings.py:677
 msgid "Deactive"
 msgstr ""
 
-#: fuego/bahrain_settings.py:670 fuego/egypt_settings.py:678
+#: fuego/bahrain_settings.py:650 fuego/egypt_settings.py:678
 msgid "Blocked"
 msgstr ""
 
-#: fuego/bahrain_settings.py:671 fuego/egypt_settings.py:679
+#: fuego/bahrain_settings.py:651 fuego/egypt_settings.py:679
 msgid "Suspended"
 msgstr ""
 
-#: fuego/bahrain_settings.py:704 fuego/egypt_settings.py:712
+#: fuego/bahrain_settings.py:684 fuego/egypt_settings.py:712
 msgid "Studio"
 msgstr "ستوديو "
 
-#: fuego/bahrain_settings.py:842 fuego/egypt_settings.py:879
+#: fuego/bahrain_settings.py:825 fuego/egypt_settings.py:879
 msgid ""
 "Jobs in Bahrain, Property & Real Estate For Sale & Rent, Cars for Sale - "
 "Free Classifieds in Bahrain | dubizzle Bahrain"
@@ -357,7 +390,7 @@ msgstr ""
 "وظائف في البحرين، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في "
 "البحرين | دوبيزل البحرين"
 
-#: fuego/bahrain_settings.py:845 fuego/egypt_settings.py:882
+#: fuego/bahrain_settings.py:828 fuego/egypt_settings.py:882
 msgid ""
 "dubizzle is your free and friendly local classifieds website in Bahrain. "
 "Jobs, property, real estate, cars and classifieds in Bahrain. Post an ad, "
@@ -366,7 +399,7 @@ msgstr ""
 "دوبيزل هو خيارك الأول للاعلانات المبوبة المجانية في بحرين. ايجاد وظائف , "
 "عقارات للبيع و للايجار , سيارات للبيع في بحرين"
 
-#: fuego/bahrain_settings.py:849 fuego/egypt_settings.py:886
+#: fuego/bahrain_settings.py:832 fuego/egypt_settings.py:886
 msgid ""
 "dubizzle Bahrain, free classifieds, online classifieds, Bahrain classifieds, "
 "free classifieds in Bahrain"
@@ -1638,7 +1671,7 @@ msgstr "اظهر رقمي في الإعلان"
 msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
-#: listings/forms.py:96 templates/listings/get_listing.html:80
+#: listings/forms.py:96 templates/listings/get_listing.html:79
 #: templates/listings/manage_listing.html:231
 msgid "Description"
 msgstr "مواصفات الإعلان"
@@ -1828,7 +1861,7 @@ msgstr ""
 msgid "Go back"
 msgstr "الصفحة السابقة"
 
-#: templates/404-web.html:20 templates/generic.html:36
+#: templates/404-web.html:20 templates/generic.html:38
 #: templates/privacy_ar.html:55 templates/terms_ar.html:311
 #: templates/shared/listings.html:49
 msgid "Home"
@@ -1856,13 +1889,13 @@ msgstr ""
 msgid "Browse"
 msgstr "تصفح"
 
-#: templates/generic.html:17 templates/generic.html.py:55
+#: templates/generic.html:17 templates/generic.html.py:57
 #: templates/search/search.html:19
 msgid ","
 msgstr "،"
 
 #: templates/generic.html:23 templates/generic.html.py:24
-#: templates/generic.html:80 templates/generic.html.py:81
+#: templates/generic.html:82 templates/generic.html.py:83
 msgid "Place An Ad"
 msgstr "أضف إعلان"
 
@@ -1871,44 +1904,42 @@ msgstr "أضف إعلان"
 msgid "My account"
 msgstr "الحساب"
 
-#: templates/generic.html:42
+#: templates/generic.html:44
 msgid "View all"
 msgstr "اظهر الجميع - "
 
 # not too clear
-#: templates/generic.html:51
+#: templates/generic.html:53
 msgid "My Account"
 msgstr "الحساب"
 
-#: templates/generic.html:66
+#: templates/generic.html:68
 msgid "View all in"
 msgstr "اظهر الجميع في"
 
-#: templates/generic.html:97
-#, fuzzy
+#: templates/generic.html:99
 msgid "Back to top"
-msgstr "العودة الى الصفحة الرئيسية"
+msgstr "العودة الى بداية الصفحة"
 
-#: templates/generic.html:100
+#: templates/generic.html:102
 msgid "Contact"
 msgstr "راسلنا"
 
-#: templates/generic.html:101
+#: templates/generic.html:103
 msgid "Terms of Use"
 msgstr "شروط وأحكام إستخدام موقع دوبيزل"
 
-#: templates/generic.html:102
+#: templates/generic.html:104
 msgid "Privacy Policy"
 msgstr "سياسة الخصوصية"
 
-#: templates/generic.html:103
+#: templates/generic.html:105
 msgid "Change country"
 msgstr "تغيير الدولة"
 
-#: templates/generic.html:106
-#, fuzzy
+#: templates/generic.html:108
 msgid "2012, dubizzle.com, All Rights Reserved."
-msgstr "dubizzle.com 2012، جميع الحقوق محفوظة."
+msgstr "2012, dubizzle.com, جميع الحقوق محفوظة."
 
 #: templates/terms_ar.html:8
 msgid ""
@@ -1926,6 +1957,67 @@ msgstr ""
 "هذه الشروط والأحكام بالكامل: الإضافات والتعديلات والإزالات غير مقبولة. في "
 "حال عدم الإلتزام بأي من شروط هذه الاتفاقية قد ترفض dubizzle منح الإستخدام."
 
+#: templates/authentication/change_password.html:9
+#, fuzzy
+msgid "Change password"
+msgstr "تأكيد كلمة السر"
+
+#: templates/authentication/change_password.html:11
+#: templates/user_profiles/my_listings.html:17
+#, python-format
+msgid "Not %(email)s?"
+msgstr "لست %(email)s؟"
+
+#: templates/authentication/change_password.html:12
+#: templates/user_profiles/my_listings.html:19
+msgid "Logout"
+msgstr "الخروج من الحساب"
+
+#: templates/authentication/change_password.html:27
+#: templates/authentication/forget_password.html:18
+#: templates/authentication/login.html:20
+#: templates/authentication/reset_password.html:18
+#: templates/listings/reply_to_listing_include.html:19
+#: templates/listings/report_listing.html:27
+#: templates/public/contact_us.html:51
+msgid "Please fix the errors below"
+msgstr "من فضلك راجع وصحح الاخطاء أدناه. "
+
+#: templates/authentication/change_password.html:37
+#, fuzzy
+msgid "Old password"
+msgstr "كلمة السر"
+
+#: templates/authentication/change_password.html:52
+#: templates/authentication/reset_password.html:28
+#, fuzzy
+msgid "New password"
+msgstr "كلمة السر"
+
+#: templates/authentication/change_password.html:67
+#: templates/authentication/reset_password.html:43
+#, fuzzy
+msgid "Confirm new password"
+msgstr "تأكيد كلمة السر"
+
+#: templates/authentication/change_password.html:82
+#, fuzzy
+msgid "Change my password"
+msgstr "تأكيد كلمة السر"
+
+#: templates/authentication/forget_password.html:5
+#: templates/authentication/reset_password.html:7
+#, fuzzy
+msgid "Reset password"
+msgstr "كلمة السر"
+
+#: templates/authentication/forget_password.html:44
+#: templates/authentication/reset_password.html:60
+#: templates/user_profiles/my_listings.html:18
+#, fuzzy
+msgid "Reset my password"
+msgstr "تأكيد كلمة السر"
+
 # this needs a full stop at end; it's followed by 271
 #: templates/authentication/login.html:5
 msgid "Sign in"
@@ -1935,27 +2027,25 @@ msgstr "سجل دخولك"
 msgid "It's as fast as saying &#34;Open Sesame&#34;"
 msgstr "أسهل من سلق بيضة :)"
 
-#: templates/authentication/login.html:20
-#: templates/listings/get_listing.html:118
-#: templates/listings/report_listing.html:27
-#: templates/public/contact_us.html:51
-msgid "Please fix the errors below"
-msgstr "من فضلك راجع وصحح الاخطاء أدناه. "
+#: templates/authentication/login.html:41
+#, fuzzy
+msgid "Forget password"
+msgstr "تأكيد كلمة السر"
 
-#: templates/authentication/login.html:43
+#: templates/authentication/login.html:44
 msgid "Sign in – show me my stuff"
 msgstr "ادخل حسابك وراجع اعلاناتك"
 
-#: templates/authentication/login.html:49
+#: templates/authentication/login.html:50
 msgid "Don't have an account?"
 msgstr "ليس لديك حساب؟"
 
-#: templates/authentication/login.html:50
-#: templates/user_profiles/my_listings.html:36
+#: templates/authentication/login.html:51
+#: templates/user_profiles/my_listings.html:37
 msgid "Place an ad"
 msgstr "أضف إعلان"
 
-#: templates/authentication/login.html:50
+#: templates/authentication/login.html:51
 msgid " to create one on the fly!"
 msgstr "لإنشاء حساب جديد"
 
@@ -1966,6 +2056,14 @@ msgstr ""
 #: templates/authentication/logout.html:6
 msgid "You have been Logged Out!"
 msgstr "لقد تم تسجيل خروجك."
+
+#: templates/authentication/reset_password_complete.html:11
+msgid "Phew! Your password has now been changed."
+msgstr ""
+
+#: templates/authentication/reset_password_ready.html:11
+msgid "Help is on the way. We've e-mailed you a link to reset your password."
+msgstr ""
 
 #: templates/cpanel/manage_workspace.html:7
 msgid "Cpanel Ad moderation."
@@ -2032,7 +2130,7 @@ msgstr ""
 "عفواً، لن تستطيع تعديل اعلانك حتى تتم الموافقة على نشره. سنرسل لك إيميل عند "
 "نشره. لن نتأخر عليك!"
 
-#: templates/listings/get_listing.html:70
+#: templates/listings/get_listing.html:71
 msgid "Details"
 msgstr "التفاصيل"
 
@@ -2040,75 +2138,9 @@ msgstr "التفاصيل"
 msgid "Show mobile number"
 msgstr "اظهر رقم الموبايل"
 
-#: templates/listings/get_listing.html:102
-msgid "or"
-msgstr "أو"
-
-#: templates/listings/get_listing.html:129
-msgid ""
-"Tips from dubizzle: <br/>1) Meet in person in a public place. <br/>2) Don't "
-"send money or your financial details (e.g. cheques, deposit, etc.) <br/>3) "
-"Ask for relevant documentation, if applicable (e.g. warranties, ID)."
-msgstr ""
-"من أجل سلامتك:1. تعامل مع معلنين من مدينتك وقم بإجراء جميع معاملات البيع "
-"والشراء وجهاً لوجه. 2. لا ترسل الأموال أو معلوماتك المصرفية إلى أي شخص تعرفت "
-"عليه عبر الإنترنت تحت أي ظرف من الظروف."
-
-#: templates/listings/get_listing.html:139
-#: templates/listings/report_listing.html:40
-msgid "Your name is?"
-msgstr "الإسم"
-
-#: templates/listings/get_listing.html:154
-#: templates/listings/report_listing.html:56
-msgid "What's your email?"
-msgstr "عنوان الإيميل"
-
-#: templates/listings/get_listing.html:169
-#: templates/listings/report_listing.html:72
-msgid "Your mobile number"
-msgstr "رقم الموبايل"
-
-#: templates/listings/get_listing.html:184
-msgid "What do you want to tell them?"
-msgstr "رسالتك للمعلن"
-
-#: templates/listings/get_listing.html:199
-#: templates/listings/report_listing.html:104
-#: templates/public/contact_us.html:168
-msgid "Please enter the 4 letters as shown in the image below"
-msgstr "من فضلك أدخل الحروف في الصورة أدناه"
-
-#: templates/listings/get_listing.html:214
-msgid "Send my reply"
-msgstr "أرسل رسالتي"
-
-#: templates/listings/get_listing.html:221
-#, python-format
-msgid ""
-"By clicking on 'Send my reply' I agree to the dubizzle <a href="
-"\"%(terms_url)s\"> terms and conditions</a> and the dubizzle <a href="
-"\"%(privacy_url)s\">privacy policy</a>"
-msgstr ""
-"عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\">شروط "
-"وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\">سياسة الخصوصية</a>."
-
-#: templates/listings/get_listing.html:227
-msgid "Bravo!"
-msgstr "مبروك وبالتوفيق!"
-
-#: templates/listings/get_listing.html:228
-msgid ""
-"You did it...you're one step closer to getting what you want. Never stop "
-"searching and you'll find more of what you want."
-msgstr ""
-"اضغط على \"العودة إلى صفحة الإعلانات\" لمتابعة البحث وكما قال الشاعر: اصبر "
-"على الحصرم يصير عنب"
-
-#: templates/listings/get_listing.html:229
-#: templates/listings/report_listing.html:17
-msgid "Back to listings"
-msgstr "العودة إلى صفحة الإعلانات"
+#: templates/listings/get_listing.html:99
+msgid "Send an email"
+msgstr "ارسل إيميل"
 
 #: templates/listings/listing_complete.html:11
 msgid "Hooray! Congratulations, your ad will go live very very soon."
@@ -2145,7 +2177,7 @@ msgid "Place another ad"
 msgstr "اضف إعلان آخر"
 
 #: templates/listings/manage_inorganic_listing.html:7
-msgid "Inorganic Place an Ad."
+msgid "CrysTelCall Listing Interface."
 msgstr ""
 
 #: templates/listings/manage_listing.html:12
@@ -2300,6 +2332,72 @@ msgstr "يلا...انشر اعلاني!"
 msgid "What's the model?"
 msgstr "ماركة السيارة"
 
+#: templates/listings/reply_to_listing_include.html:30
+msgid ""
+"Tips from dubizzle: <br/>1) Meet in person in a public place. <br/>2) Don't "
+"send money or your financial details (e.g. cheques, deposit, etc.) <br/>3) "
+"Ask for relevant documentation, if applicable (e.g. warranties, ID)."
+msgstr ""
+"من أجل سلامتك:1. تعامل مع معلنين من مدينتك وقم بإجراء جميع معاملات البيع "
+"والشراء وجهاً لوجه. 2. لا ترسل الأموال أو معلوماتك المصرفية إلى أي شخص تعرفت "
+"عليه عبر الإنترنت تحت أي ظرف من الظروف."
+
+#: templates/listings/reply_to_listing_include.html:40
+#: templates/listings/report_listing.html:40
+msgid "Your name is?"
+msgstr "الإسم"
+
+#: templates/listings/reply_to_listing_include.html:55
+#: templates/listings/report_listing.html:56
+msgid "What's your email?"
+msgstr "عنوان الإيميل"
+
+#: templates/listings/reply_to_listing_include.html:70
+#: templates/listings/report_listing.html:72
+msgid "Your mobile number"
+msgstr "رقم الموبايل"
+
+#: templates/listings/reply_to_listing_include.html:85
+msgid "What do you want to tell them?"
+msgstr "رسالتك للمعلن"
+
+#: templates/listings/reply_to_listing_include.html:100
+#: templates/listings/report_listing.html:104
+#: templates/public/contact_us.html:168
+msgid "Please enter the 4 letters as shown in the image below"
+msgstr "من فضلك أدخل الحروف في الصورة أدناه"
+
+#: templates/listings/reply_to_listing_include.html:115
+msgid "Send my reply"
+msgstr "أرسل رسالتي"
+
+#: templates/listings/reply_to_listing_include.html:122
+#, python-format
+msgid ""
+"By clicking on 'Send my reply' I agree to the dubizzle <a href="
+"\"%(terms_url)s\"> terms and conditions</a> and the dubizzle <a href="
+"\"%(privacy_url)s\">privacy policy</a>"
+msgstr ""
+"عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\">شروط "
+"وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\">سياسة الخصوصية</a>."
+
+#: templates/listings/reply_to_listing_include.html:128
+msgid "Bravo!"
+msgstr "مبروك وبالتوفيق!"
+
+#: templates/listings/reply_to_listing_include.html:129
+msgid ""
+"You did it...you're one step closer to getting what you want. Never stop "
+"searching and you'll find more of what you want."
+msgstr ""
+"اضغط على \"العودة إلى صفحة الإعلانات\" لمتابعة البحث وكما قال الشاعر: اصبر "
+"على الحصرم يصير عنب"
+
+#: templates/listings/reply_to_listing_include.html:130
+#: templates/listings/report_listing.html:17
+msgid "Back to listings"
+msgstr "العودة إلى صفحة الإعلانات"
+
 #: templates/listings/report_listing.html:16
 msgid "Thank you for reporting an ad on our site!"
 msgstr "شكرا لمساهمتك!"
@@ -2422,7 +2520,7 @@ msgstr ""
 "                        "
 
 #: templates/public/home.html:32
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "                            with over %(counter)s listings of cars, jobs, "
@@ -2430,7 +2528,8 @@ msgid ""
 "                        "
 msgstr ""
 "\n"
-"ليس لديك إعلانات\n"
+"اكثر من %(counter)s اعلان مبوبة - عقارات وسيارت وإلكترونيات وفرص عمل والكثير "
+"الكثير غيرها!\n"
 "                        "
 
 #: templates/public/home.html:43 templates/search/search_listings.html:18
@@ -2586,42 +2685,33 @@ msgstr "جرب كلمات بحث اخرى لتسهل البحث. "
 msgid "My stuff"
 msgstr "إعلاناتي"
 
-#: templates/user_profiles/my_listings.html:17
-#, python-format
-msgid "Not %(email)s?"
-msgstr "لست %(email)s؟"
-
-#: templates/user_profiles/my_listings.html:18
-msgid "Logout"
-msgstr "الخروج من الحساب"
-
-#: templates/user_profiles/my_listings.html:21
+#: templates/user_profiles/my_listings.html:22
 msgid "Account settings"
 msgstr "إعدادات الحساب"
 
-#: templates/user_profiles/my_listings.html:34
-#: templates/user_profiles/my_listings.html:111
-#: templates/user_profiles/my_listings.html:199
+#: templates/user_profiles/my_listings.html:35
+#: templates/user_profiles/my_listings.html:112
+#: templates/user_profiles/my_listings.html:200
 msgid ""
 "This page is emptier than the Sahara. Come on, let's fill it up by placing "
 "some awesome ads."
 msgstr "حسابك كالصحراء - يبدو خالي من أي نشاط. احيي ربعك الخالي باعلاناتك! "
 
-#: templates/user_profiles/my_listings.html:47
+#: templates/user_profiles/my_listings.html:48
 msgid "All my ads"
 msgstr "جميع إعلاناتي"
 
-#: templates/user_profiles/my_listings.html:50
-#: templates/user_profiles/my_listings.html:72
+#: templates/user_profiles/my_listings.html:51
+#: templates/user_profiles/my_listings.html:73
 msgid "My pending ads"
 msgstr "إعلانات تحت المراجعة"
 
-#: templates/user_profiles/my_listings.html:53
-#: templates/user_profiles/my_listings.html:126
+#: templates/user_profiles/my_listings.html:54
+#: templates/user_profiles/my_listings.html:127
 msgid "My live ads"
 msgstr "إعلاناتي المنشورة"
 
-#: templates/user_profiles/my_listings.html:61
+#: templates/user_profiles/my_listings.html:62
 #, python-format
 msgid ""
 "\n"
@@ -2656,43 +2746,43 @@ msgstr[5] ""
 "لديك %(counter)s إعلان\n"
 "                        "
 
-#: templates/user_profiles/my_listings.html:80
+#: templates/user_profiles/my_listings.html:81
 msgid "These ads are awaiting approval and will be live soon."
 msgstr "جاري الآن الموافقة على الإعلان وسيتم نشره في أقرب وقت."
 
-#: templates/user_profiles/my_listings.html:116
+#: templates/user_profiles/my_listings.html:117
 msgid "Show all my pending ads"
 msgstr "اظهر جميع إعلاناتي التي لا زالت تحت المراجعة"
 
-#: templates/user_profiles/my_listings.html:131
+#: templates/user_profiles/my_listings.html:132
 msgid "Your ad has been sucessfully deleted"
 msgstr "لقد تم حذف إعلانك بنجاح."
 
-#: templates/user_profiles/my_listings.html:167
+#: templates/user_profiles/my_listings.html:168
 msgid "Your edits will go live soon."
 msgstr "سنقوم بنشر تعديلاتك قريبا."
 
-#: templates/user_profiles/my_listings.html:174
+#: templates/user_profiles/my_listings.html:175
 msgid "Edit"
 msgstr "تعديل"
 
-#: templates/user_profiles/my_listings.html:180
+#: templates/user_profiles/my_listings.html:181
 msgid "Delete"
 msgstr "احذفها "
 
-#: templates/user_profiles/my_listings.html:185
+#: templates/user_profiles/my_listings.html:186
 msgid "Are you sure you want to delete this listing?"
 msgstr "من فضلك أكد طلبك لحذف الإعلان."
 
-#: templates/user_profiles/my_listings.html:189
+#: templates/user_profiles/my_listings.html:190
 msgid "Yes, delete it."
 msgstr "نعم، احذفه."
 
-#: templates/user_profiles/my_listings.html:192
+#: templates/user_profiles/my_listings.html:193
 msgid "No, keep it live."
 msgstr "لا تحذف اعلاني."
 
-#: templates/user_profiles/my_listings.html:205
+#: templates/user_profiles/my_listings.html:206
 msgid "Show all my live ads"
 msgstr "اظهر جميع اعلاناتي المنشورة"
 
@@ -2775,6 +2865,9 @@ msgstr[5] ""
 #, python-format
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
+
+#~ msgid "or"
+#~ msgstr "أو"
 
 #~ msgid ""
 #~ "\n"
@@ -2950,9 +3043,6 @@ msgstr "%(city)s، %(country)s "
 
 #~ msgid "Congratulations! Your listing is live now."
 #~ msgstr "مبروك! لقد نشر إعلانك بنجاح."
-
-#~ msgid "Send email"
-#~ msgstr "ارسل إيميل"
 
 #~ msgid "Call"
 #~ msgstr "إتصل بالمعلن"
