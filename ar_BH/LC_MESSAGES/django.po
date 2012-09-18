@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-17 15:49+0000\n"
+"POT-Creation-Date: 2012-09-18 11:08+0000\n"
 "PO-Revision-Date: 2012-09-11 17:20+0200\n"
 "Last-Translator: dubizzle <dubizzle@dubizzle.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,6 +54,14 @@ msgstr "تأكيد عنوان الإيميل"
 msgid "Confirm Password"
 msgstr "تأكيد كلمة السر"
 
+#: authentication/forms.py:86 listings/tests.py:782
+msgid ""
+"This email address is already in use. Click 'I have a dubizzle password', or "
+"use a different email."
+msgstr ""
+"عنوان الإيميل هذا مسجل لدينا. إختر \"لدي حساب وكلمة سر\" اعلاه أو ادخل عنوان "
+"ايميل آخر."
+
 #: authentication/forms.py:103 listings/tests.py:828
 msgid "Huh... that's not the same one! Try again."
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
@@ -62,34 +70,35 @@ msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
 
-#: authentication/forms.py:148
-#, fuzzy
-msgid "Oops! Are you sure you're part of the dubizzle family?"
+#: authentication/forms.py:149
+msgid ""
+"Something's not right. This email address is not associated with a dubizzle "
+"account."
 msgstr ""
-"المتابعة بنشر الإعلان يؤكد موافقتك على ***شروط وأحكام*** دوبيزل وعلى "
-"***سياسة الخصوصية***."
+"يوجد خطآ ما. للأسف لا يوجد لدينا حساب مسجل تحت عنوان الإيميل الذي أدخلته. "
+"حاول مرة أخرى."
 
-#: authentication/forms.py:159
+#: authentication/forms.py:161
 msgid "Shiny new password"
 msgstr "كلمة السر الجديدة (هالوو!)"
 
-#: authentication/forms.py:161 authentication/forms.py:190
+#: authentication/forms.py:163 authentication/forms.py:193
 msgid "Your password must be a minimum 6 characters. Try again."
 msgstr "يجب ادخال كلمة سر لا تقل عن 6 أحرف!"
 
-#: authentication/forms.py:162 templates/listings/manage_listing.html:442
+#: authentication/forms.py:165 templates/listings/manage_listing.html:442
 msgid "Confirm password"
 msgstr "تأكيد كلمة السر"
 
-#: authentication/forms.py:175
+#: authentication/forms.py:178
 msgid "Hmm... that doesn't match up!"
 msgstr "كلمات السر لا تتطابق! حاول مرة أخرى..."
 
-#: authentication/forms.py:188
+#: authentication/forms.py:191
 msgid "Ye olde password"
 msgstr "كلمة السر القديمة (باي باي!)"
 
-#: authentication/forms.py:206
+#: authentication/forms.py:208
 msgid "Ooops, the password you entered is incorrect."
 msgstr ""
 "كلمة السر غير صحيحة (ألو.. ؟! خليك معانا .. تأكد من كون الحروف الانجليزية  "
@@ -161,233 +170,233 @@ msgstr ""
 msgid "dubizzle Feedbox"
 msgstr ""
 
-#: fuego/bahrain_settings.py:274 templates/public/landing.html:46
+#: fuego/bahrain_settings.py:276 templates/public/landing.html:46
 msgid "Bahrain"
 msgstr "البحرين"
 
-#: fuego/bahrain_settings.py:276
+#: fuego/bahrain_settings.py:278
 msgid "BHD"
 msgstr "د. ب."
 
-#: fuego/bahrain_settings.py:282
+#: fuego/bahrain_settings.py:284
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/bahrain_settings.py:296 fuego/bahrain_settings.py:313
+#: fuego/bahrain_settings.py:298 fuego/bahrain_settings.py:315
 msgid "Manama"
 msgstr "المنامة"
 
-#: fuego/bahrain_settings.py:318
+#: fuego/bahrain_settings.py:320
 msgid "Adliya"
 msgstr "العدلية"
 
-#: fuego/bahrain_settings.py:323
+#: fuego/bahrain_settings.py:325
 msgid "Mahooz"
 msgstr "ماحوس"
 
-#: fuego/bahrain_settings.py:328
+#: fuego/bahrain_settings.py:330
 msgid "Umm Alhassam"
 msgstr "ام الحصم"
 
-#: fuego/bahrain_settings.py:333
+#: fuego/bahrain_settings.py:335
 msgid "Juffair"
 msgstr "جفير"
 
-#: fuego/bahrain_settings.py:338
+#: fuego/bahrain_settings.py:340
 msgid "Zinj"
 msgstr "الزنج"
 
-#: fuego/bahrain_settings.py:343
+#: fuego/bahrain_settings.py:345
 msgid "Bilad Al Qadeem"
 msgstr "البلاد القديم"
 
-#: fuego/bahrain_settings.py:348
+#: fuego/bahrain_settings.py:350
 msgid "Salmabad"
 msgstr "سلمباد"
 
-#: fuego/bahrain_settings.py:353
+#: fuego/bahrain_settings.py:355
 msgid "Seef"
 msgstr "السيف"
 
-#: fuego/bahrain_settings.py:358
+#: fuego/bahrain_settings.py:360
 msgid "Barbar"
 msgstr "بار بار"
 
-#: fuego/bahrain_settings.py:363
+#: fuego/bahrain_settings.py:365
 msgid "Budaiya"
 msgstr "البديع"
 
-#: fuego/bahrain_settings.py:368
+#: fuego/bahrain_settings.py:370
 msgid "Janabiyah"
 msgstr "جانبية"
 
-#: fuego/bahrain_settings.py:373
+#: fuego/bahrain_settings.py:375
 msgid "Saar"
 msgstr "سار"
 
-#: fuego/bahrain_settings.py:378
+#: fuego/bahrain_settings.py:380
 msgid "Bani Jamra"
 msgstr "بني جمرة"
 
-#: fuego/bahrain_settings.py:383
+#: fuego/bahrain_settings.py:385
 msgid "Sanabis"
 msgstr "السنابس"
 
-#: fuego/bahrain_settings.py:388
+#: fuego/bahrain_settings.py:390
 msgid "Burhama"
 msgstr "بو رحامه"
 
-#: fuego/bahrain_settings.py:393
+#: fuego/bahrain_settings.py:395
 msgid "Jidhafs"
 msgstr "جد حفص"
 
-#: fuego/bahrain_settings.py:398
+#: fuego/bahrain_settings.py:400
 msgid "Salihiya"
 msgstr "الصالحية"
 
-#: fuego/bahrain_settings.py:403
+#: fuego/bahrain_settings.py:405
 msgid "Gudaibiya"
 msgstr "القضيبية"
 
-#: fuego/bahrain_settings.py:408
+#: fuego/bahrain_settings.py:410
 msgid "Hoora"
 msgstr "الحورة"
 
-#: fuego/bahrain_settings.py:413
+#: fuego/bahrain_settings.py:415
 msgid "Ras Rumman"
 msgstr "راس رمان"
 
-#: fuego/bahrain_settings.py:418
+#: fuego/bahrain_settings.py:420
 msgid "Manama Souk"
 msgstr "سوق المنامة"
 
-#: fuego/bahrain_settings.py:423
+#: fuego/bahrain_settings.py:425
 msgid "A'Ali"
 msgstr "عالي"
 
-#: fuego/bahrain_settings.py:428
+#: fuego/bahrain_settings.py:430
 msgid "Sanad"
 msgstr "سند"
 
-#: fuego/bahrain_settings.py:433
+#: fuego/bahrain_settings.py:435
 msgid "Awali"
 msgstr "عوالي"
 
-#: fuego/bahrain_settings.py:438
+#: fuego/bahrain_settings.py:440
 msgid "Dumistan"
 msgstr "دومستان"
 
-#: fuego/bahrain_settings.py:443
+#: fuego/bahrain_settings.py:445
 msgid "Busaytin"
 msgstr "البسيتين"
 
-#: fuego/bahrain_settings.py:448
+#: fuego/bahrain_settings.py:450
 msgid "Amwaj Island"
 msgstr "جزر امواج "
 
-#: fuego/bahrain_settings.py:453
+#: fuego/bahrain_settings.py:455
 msgid "Jid Ali"
 msgstr "جد علي"
 
-#: fuego/bahrain_settings.py:458
+#: fuego/bahrain_settings.py:460
 msgid "Bu Kawarah"
 msgstr "بو كواره"
 
-#: fuego/bahrain_settings.py:463
+#: fuego/bahrain_settings.py:465
 msgid "Abu Baham"
 msgstr "أبو بهام"
 
-#: fuego/bahrain_settings.py:468
+#: fuego/bahrain_settings.py:470
 msgid "Al Musalla"
 msgstr " المصلى"
 
-#: fuego/bahrain_settings.py:473
+#: fuego/bahrain_settings.py:475
 msgid "Awadhiya"
 msgstr "عوادية"
 
-#: fuego/bahrain_settings.py:478
+#: fuego/bahrain_settings.py:480
 msgid "Bu Ashira"
 msgstr "بو عشيرة"
 
-#: fuego/bahrain_settings.py:483
+#: fuego/bahrain_settings.py:485
 msgid "Fereej Al Fadhel"
 msgstr "فريج الفاضل"
 
-#: fuego/bahrain_settings.py:488
+#: fuego/bahrain_settings.py:490
 msgid "Ghuraifa"
 msgstr "الغريفة"
 
-#: fuego/bahrain_settings.py:493
+#: fuego/bahrain_settings.py:495
 msgid "Gufool"
 msgstr "جفول"
 
-#: fuego/bahrain_settings.py:498
+#: fuego/bahrain_settings.py:500
 msgid "Khamis"
 msgstr "خميس"
 
-#: fuego/bahrain_settings.py:503
+#: fuego/bahrain_settings.py:505
 msgid "Naim"
 msgstr "النعيم"
 
-#: fuego/bahrain_settings.py:508
+#: fuego/bahrain_settings.py:510
 msgid "South Sehla"
 msgstr "السهلة الجنوبية"
 
-#: fuego/bahrain_settings.py:513
+#: fuego/bahrain_settings.py:515
 msgid "Tashan"
 msgstr "طشان"
 
-#: fuego/bahrain_settings.py:518
+#: fuego/bahrain_settings.py:520
 msgid "Tubli"
 msgstr "توبلي"
 
-#: fuego/bahrain_settings.py:548
+#: fuego/bahrain_settings.py:550
 msgid "English"
 msgstr ""
 
-#: fuego/bahrain_settings.py:549
+#: fuego/bahrain_settings.py:551
 msgid "Arabic"
 msgstr "عربي"
 
-#: fuego/bahrain_settings.py:600 templates/search/browse_widget.html:20
+#: fuego/bahrain_settings.py:602 templates/search/browse_widget.html:20
 #: templates/search/browse_widget.html:38 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/bahrain_settings.py:613
+#: fuego/bahrain_settings.py:615
 msgid "Inorganic"
 msgstr ""
 
-#: fuego/bahrain_settings.py:614
+#: fuego/bahrain_settings.py:616
 msgid "Payed Organic"
 msgstr ""
 
-#: fuego/bahrain_settings.py:615
+#: fuego/bahrain_settings.py:617
 msgid "Free Orgainic"
 msgstr ""
 
-#: fuego/bahrain_settings.py:671
+#: fuego/bahrain_settings.py:673
 msgid "Active"
 msgstr ""
 
-#: fuego/bahrain_settings.py:672
+#: fuego/bahrain_settings.py:674
 msgid "Deactive"
 msgstr ""
 
-#: fuego/bahrain_settings.py:673
+#: fuego/bahrain_settings.py:675
 msgid "Blocked"
 msgstr ""
 
-#: fuego/bahrain_settings.py:674
+#: fuego/bahrain_settings.py:676
 msgid "Suspended"
 msgstr ""
 
-#: fuego/bahrain_settings.py:707
+#: fuego/bahrain_settings.py:709
 msgid "Studio"
 msgstr "ستوديو "
 
-#: fuego/bahrain_settings.py:854
+#: fuego/bahrain_settings.py:856
 msgid ""
 "Jobs in Bahrain, Property & Real Estate For Sale & Rent, Cars for Sale - "
 "Free Classifieds in Bahrain | dubizzle Bahrain"
@@ -395,7 +404,7 @@ msgstr ""
 "وظائف في البحرين، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في "
 "البحرين | دوبيزل البحرين"
 
-#: fuego/bahrain_settings.py:858
+#: fuego/bahrain_settings.py:860
 msgid ""
 "dubizzle is your free and friendly local classifieds website in Bahrain. "
 "Jobs, property, real estate, cars and classifieds in Bahrain. Post an ad, "
@@ -404,7 +413,7 @@ msgstr ""
 "دوبيزل هو خيارك الأول للاعلانات المبوبة المجانية في بحرين. ايجاد وظائف , "
 "عقارات للبيع و للايجار , سيارات للبيع في بحرين"
 
-#: fuego/bahrain_settings.py:863
+#: fuego/bahrain_settings.py:865
 msgid ""
 "dubizzle Bahrain, free classifieds, online classifieds, Bahrain classifieds, "
 "free classifieds in Bahrain"
@@ -1735,14 +1744,6 @@ msgstr "كيلومترات"
 msgid "Bedrooms"
 msgstr "غرف نوم"
 
-#: listings/tests.py:782
-msgid ""
-"This email address is already in use. Click 'I have a dubizzle password', or "
-"use a different email."
-msgstr ""
-"عنوان الإيميل هذا مسجل لدينا. إختر \"لدي حساب وكلمة سر\" اعلاه أو ادخل عنوان "
-"ايميل آخر."
-
 #: public/forms.py:13
 msgid "Enter a subject please"
 msgstr "نوع الاستفسار"
@@ -2806,264 +2807,3 @@ msgstr[5] ""
 #, python-format
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
-
-#, fuzzy
-#~ msgid "This email address is no longer allowed to login."
-#~ msgstr "تأكد من ادخال عنوان ايميل صحيح حتى يتم نشر إعلانك."
-
-#~ msgid "Egypt"
-#~ msgstr "مصر"
-
-#~ msgid "EGYPT"
-#~ msgstr "مصر"
-
-#~ msgid "All of "
-#~ msgstr "كل"
-
-#~ msgid "[dubizzle] - Somebody is interested in a listing you posted"
-#~ msgstr " [دوبيزل] - شخص ما مهتم بإعلانك."
-
-#~ msgid "[dubizzle] - Your listing will go live soon"
-#~ msgstr "[دوبيزل] - لقد اضفت إعلانك بنجاح وسنقوم بنشره قريبا."
-
-#~ msgid "[dubizzle] - Welcome to Dubizzle, your listing will live soon"
-#~ msgstr "[دوبيزل] - اهلا وسهلا بكم في دوبيزل. سنقوم بنشر إعلانك قريبا."
-
-#~ msgid "[dubizzle] - Congratulations! Your listing is live now."
-#~ msgstr "[دوبيزل] - مبروك! لقد نُشر إعلانك بنجاح."
-
-#~ msgid "[dubizzle] - Your listing has been updated"
-#~ msgstr "[دوبيزل] - مبروك! لقد تم تعديل إعلانك بنجاح."
-
-#, fuzzy
-#~ msgid ""
-#~ "\n"
-#~ "                                We found %(counter)s ad\n"
-#~ "                            "
-#~ msgstr ""
-#~ "\n"
-#~ "ليس لديك إعلانات\n"
-#~ "                        "
-
-#, fuzzy
-#~ msgid ""
-#~ "\n"
-#~ "                                We found %(counter)s ads\n"
-#~ "                            "
-#~ msgstr ""
-#~ "\n"
-#~ "ليس لديك إعلانات\n"
-#~ "                        "
-
-#, fuzzy
-#~ msgid "This email address no longer allowed to login"
-#~ msgstr "تأكد من ادخال عنوان ايميل صحيح حتى يتم نشر إعلانك."
-
-#, fuzzy
-#~ msgid "New Password"
-#~ msgstr "كلمة السر"
-
-#, fuzzy
-#~ msgid "Confirm New Password"
-#~ msgstr "تأكيد كلمة السر"
-
-#, fuzzy
-#~ msgid "Old Password"
-#~ msgstr "كلمة السر"
-
-#, fuzzy
-#~ msgid "New password"
-#~ msgstr "كلمة السر"
-
-#, fuzzy
-#~ msgid "Change my password"
-#~ msgstr "تأكيد كلمة السر"
-
-#, fuzzy
-#~ msgid "Reset my password"
-#~ msgstr "تأكيد كلمة السر"
-
-#~ msgid "or"
-#~ msgstr "أو"
-
-#~ msgid ""
-#~ "\n"
-#~ "                    We found %(counter)s ad\n"
-#~ "                "
-#~ msgid_plural ""
-#~ "\n"
-#~ "                    with over %(counter)s listings of cars, jobs, "
-#~ "properties, classifieds and so much more!\n"
-#~ "                "
-#~ msgstr[0] ""
-#~ "\n"
-#~ "لم نجد اي اعلانات\n"
-#~ "                "
-#~ msgstr[1] ""
-#~ "\n"
-#~ "وجدنا اعلان\n"
-#~ "                "
-#~ msgstr[2] ""
-#~ "\n"
-#~ "وجدنا اعلانين\n"
-#~ "                "
-#~ msgstr[3] ""
-#~ "\n"
-#~ "وجدنا %(counter)s اعلانات\n"
-#~ "                "
-#~ msgstr[4] ""
-#~ "\n"
-#~ "وجدنا %(counter)s اعلان\n"
-#~ "                "
-#~ msgstr[5] ""
-#~ "\n"
-#~ "وجدنا %(counter)s اعلان\n"
-#~ "                "
-
-#~ msgctxt "country_name"
-#~ msgid "All of %s"
-#~ msgstr "%s بالكامل"
-
-#~ msgid "terms & conditions"
-#~ msgstr "شروط وأحكام"
-
-#~ msgid "and the dubizzle "
-#~ msgstr "في كامل الموقع"
-
-#~ msgid "privacy policy"
-#~ msgstr "سياسة الخصوصية"
-
-#~ msgid "By clicking on 'Send my reply' I agree to the dubizzle "
-#~ msgstr "عند المتابعة بالإرسال فإنك تُأكد موافقتك على"
-
-#~ msgid "terms and conditions"
-#~ msgstr "شروط وأحكام"
-
-#~ msgid "View all "
-#~ msgstr "اظهر الجميع - "
-
-#~ msgid ""
-#~ "In order for the website to provide a safe and useful service, it is "
-#~ "important for dubizzle.com to collect, use, and share personal "
-#~ "information."
-#~ msgstr ""
-#~ "من أجل أن يقدم الموقع خدمة آمنة ومفيدة، يجب علينا جمع واستخدام ومشاركة "
-#~ "المعلومات الشخصية."
-
-#~ msgid "Collection."
-#~ msgstr "جمع "
-
-#~ msgid ""
-#~ "Information posted on dubizzle.com is publicly available. Our servers are "
-#~ "located in the United States and the United Arab Emirates, therefore, if "
-#~ "you choose to provide us with personal information, you are consenting to "
-#~ "the transfer and storage of that information on our servers in the United "
-#~ "States and the United Arab Emirates. We collect and store the following "
-#~ "personal information:"
-#~ msgstr ""
-#~ "إنّ المعلومات المنشورة على موقع دوبيزل متاحة للعموم. تقع الخوادم (سيرفر) "
-#~ "الخاصة بنا في الولايات المتحدة والإمارات العربية المتحدة، لذا إذا اخترت "
-#~ "أن تزودنا بمعلومات شخصية، فأنت توافق على نقل هذه البيانات إلى خوادمنا في "
-#~ "الولايات المتحدة والإمارات العربية المتحدة وحفظها. نحن نجمع ونحفظ "
-#~ "المعلومات الشخصية التالية:"
-
-#~ msgid ""
-#~ "Physical Address: Office 3011, Shatha Tower, Dubai Media City, Dubai, "
-#~ "United Arab Emirates"
-#~ msgstr ""
-#~ "العنوان: مكتب 3011، برج شذى، مدينة دبي للإعلام، دبي، الإمارات العربية "
-#~ "المتحدة"
-
-#~ msgid "Telephone: (+971) 04 427 9779"
-#~ msgstr "الهاتف: 9779 427 04 (+971)"
-
-#~ msgid "Customer Support Email: support@dubizzle.com"
-#~ msgstr "إيميل دعم العملاء: support@dubizzle.com"
-
-#~ msgid ""
-#~ "\n"
-#~ "                    %(counter)s result found.\n"
-#~ "                "
-#~ msgid_plural ""
-#~ "\n"
-#~ "                    with over %(counter)s listings of cars, jobs, "
-#~ "properties, classifieds and so much more!\n"
-#~ "                "
-#~ msgstr[0] ""
-#~ "\n"
-#~ "لا يوجد نتائج.\n"
-#~ "                "
-#~ msgstr[1] ""
-#~ "\n"
-#~ "اكثر من اعلان مبوبة - عقارات وسيارت وإلكترونيات وفرص عمل والكثير الكثير "
-#~ "غيرها! \n"
-#~ "                "
-#~ msgstr[2] ""
-#~ "\n"
-#~ "اكثر من اعلان مبوبة - عقارات وسيارت وإلكترونيات وفرص عمل والكثير الكثير "
-#~ "غيرها! \n"
-#~ "                "
-#~ msgstr[3] ""
-#~ "\n"
-#~ "اكثر من %(counter)s اعلانات مبوبة - عقارات وسيارت وإلكترونيات وفرص عمل "
-#~ "والكثير الكثير غيرها! \n"
-#~ "                "
-#~ msgstr[4] ""
-#~ "\n"
-#~ "اكثر من %(counter)s اعلانات مبوبة - عقارات وسيارت وإلكترونيات وفرص عمل "
-#~ "والكثير الكثير غيرها! \n"
-#~ "                "
-#~ msgstr[5] ""
-#~ "\n"
-#~ "اكثر من %(counter)s اعلانات مبوبة - عقارات وسيارت وإلكترونيات وفرص عمل "
-#~ "والكثير الكثير غيرها! \n"
-#~ "                "
-
-#~ msgid "Confirm your email"
-#~ msgstr "تأكيد عنوان الإيميل"
-
-#~ msgid "All of Dubizzle"
-#~ msgstr "الموقع بالكامل"
-
-#~ msgid ""
-#~ "When in doubt, check out other ads to see the price  range of your item. "
-#~ "Please remember to price your ad in %(currency)s."
-#~ msgstr ""
-#~ "لو محتار في تحديد السعر إبحث عن أسعار أشياء مماثلة على الموقع. يرجى "
-#~ "التأكد أن السعر المطلوب في عملة %(currency)s"
-
-#~ msgid "The changes to your listings have been approved"
-#~ msgstr "لقد تم الموافقة على تعديلات إعلانك"
-
-#~ msgid "You can view your ad at"
-#~ msgstr "يمكنك مشاهدة إعلانك هنا "
-
-#~ msgid "Electronics"
-#~ msgstr "إلكترونيات"
-
-#~ msgid "Sweet wheels, but how old?"
-#~ msgstr "المحروسة... موديل سنة كم؟"
-
-#~ msgid "home"
-#~ msgstr "الصفحة الرئيسية"
-
-#~ msgid "Wo0t, welcome to dubizzle!"
-#~ msgstr "مرحبا بك في دوبيزل!"
-
-#~ msgid "Congratulations! Your listing will go live soon."
-#~ msgstr "مبروك! سيتم نشر إعلانك قريبا."
-
-#~ msgid "Congratulations! Your listing is live now."
-#~ msgstr "مبروك! لقد نشر إعلانك بنجاح."
-
-#~ msgid "Call"
-#~ msgstr "إتصل بالمعلن"
-
-#~ msgid "Reply"
-#~ msgstr "راسل المعلن"
-
-#~ msgid "Show only arabic ads"
-#~ msgstr "اظهر فقط الإعلانات باللغة العربية"
-
-#~ msgid "<span>Not %(user.email)s? <a href=\"#\">Logout</a></span>"
-#~ msgstr "لست %(user.email)s؟ الخروج من الحساب"
