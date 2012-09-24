@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-24 13:30+0000\n"
+"POT-Creation-Date: 2012-09-24 15:02+0000\n"
 "PO-Revision-Date: 2012-09-11 17:20+0200\n"
 "Last-Translator: dubizzle <dubizzle@dubizzle.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -613,7 +613,6 @@ msgid "Studio"
 msgstr "ستوديو"
 
 #: fuego/lebanon_settings.py:1058
-#, fuzzy
 msgid ""
 "Jobs in Lebanon, Property & Real Estate For Sale & Rent, Cars for Sale - "
 "Free Classifieds in Lebanon | dubizzle Lebanon"
@@ -622,7 +621,6 @@ msgstr ""
 "البحرين | دوبيزل البحرين"
 
 #: fuego/lebanon_settings.py:1062
-#, fuzzy
 msgid ""
 "dubizzle is your free and friendly local classifieds website in Lebanon. "
 "Jobs, property, real estate, cars and classifieds in Lebanon. Post an ad, "
@@ -632,7 +630,6 @@ msgstr ""
 "عقارات للبيع و للايجار , سيارات للبيع في بحرين"
 
 #: fuego/lebanon_settings.py:1067
-#, fuzzy
 msgid ""
 "dubizzle Lebanon, free classifieds, online classifieds, Lebanon classifieds, "
 "free classifieds in Lebanon"
@@ -1794,15 +1791,15 @@ msgstr ""
 
 #: listings/forms.py:36
 msgid "Upload CV"
-msgstr ""
+msgstr "تحميل السيرة الذاتية"
 
 #: listings/forms.py:50
 msgid "Sorry, but your file format is not supported."
-msgstr ""
+msgstr "نوع الملف غير مدعوم، يرجى تحميل ملف من النوع التالي: rtf/doc/pdf/docx"
 
 #: listings/forms.py:53
 msgid "That's a bit too heavy. Please keep your file size under 2MB."
-msgstr ""
+msgstr "من فضلك تأكد أن حجم الملف لا يزيد عن 2 ميغا"
 
 #: listings/forms.py:65
 msgid "Tell us why you are reporting this ad."
@@ -2521,9 +2518,9 @@ msgstr "رقم الموبايل"
 msgid "What do you want to tell them?"
 msgstr "رسالتك للمعلن"
 
-#: templates/listings/reply_to_listing_include.html:105
+#: templates/listings/reply_to_listing_include.html:102
 msgid "Accepted formats: pdf, doc, txt, rtf"
-msgstr ""
+msgstr "الملفات المدعومة: rtf/doc/pdf/docx"
 
 #: templates/listings/reply_to_listing_include.html:119
 #: templates/listings/report_listing.html:104
@@ -2715,8 +2712,8 @@ msgid "Property for Sale"
 msgstr "عقارات للبيع"
 
 #: templates/public/landing.html:116
-msgid "Mobile Phones"
-msgstr "موبايلات"
+msgid "Jobs"
+msgstr "وظائف"
 
 #: templates/public/landing.html:130
 msgid "Select the city closest to where you live"
@@ -3038,342 +3035,3 @@ msgstr[5] ""
 #, python-format
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
-
-#~ msgid "Jordan"
-#~ msgstr "الأردن"
-
-#~ msgid "JOD"
-#~ msgstr "دينار أردني"
-
-#~ msgid "Amman"
-#~ msgstr "عمان"
-
-#~ msgid "Aqaba"
-#~ msgstr "العقبة"
-
-#~ msgid "Irbid"
-#~ msgstr "إربد"
-
-#~ msgid "Al Zarqa"
-#~ msgstr "الزرقاء"
-
-#~ msgid "City Centre"
-#~ msgstr "وسط المدينة"
-
-#~ msgid "North Beach"
-#~ msgstr "الساحل الشمالي"
-
-#~ msgid "Al Safa"
-#~ msgstr "الصفا"
-
-#~ msgid "Al Dustur"
-#~ msgstr "الدستور"
-
-#~ msgid "Al Ridwan"
-#~ msgstr "الرضوان"
-
-#~ msgid "Al-Taybeh"
-#~ msgstr "طيبة"
-
-#~ msgid "Al Husn"
-#~ msgstr "الحصن"
-
-#~ msgid "Al-Rabia"
-#~ msgstr "الرابية"
-
-#~ msgid "Al-Sareeh"
-#~ msgstr "الصريح"
-
-#~ msgid "Barha"
-#~ msgstr "البارحة"
-
-#~ msgid "Beit Ras"
-#~ msgstr "راس"
-
-#~ msgid "Bushra"
-#~ msgstr "بشرى"
-
-#~ msgid "Edun"
-#~ msgstr "إيدون"
-
-#~ msgid "Soom"
-#~ msgstr "سوم"
-
-#~ msgid "Hakama"
-#~ msgstr "حكما"
-
-#~ msgid "Hawar"
-#~ msgstr "حور"
-
-#~ msgid "Huwwarah"
-#~ msgstr "بو كواره"
-
-#~ msgid "Kitim"
-#~ msgstr "كتم"
-
-#~ msgid "Kufr Jayez"
-#~ msgstr "جايز"
-
-#~ msgid "Murow"
-#~ msgstr "مرو"
-
-#~ msgid "Mughayer"
-#~ msgstr "المغير"
-
-#~ msgid "Naser"
-#~ msgstr "النصر"
-
-#~ msgid "Rowdah"
-#~ msgstr "الروضة"
-
-#~ msgid "Sal Area"
-#~ msgstr "سال"
-
-#~ msgid "Nu'aimah"
-#~ msgstr "النعيمة"
-
-#~ msgid "Nuzha"
-#~ msgstr "النزهة"
-
-#~ msgid "City center"
-#~ msgstr "وسط المدينة"
-
-#~ msgid "Althawra Al-Arabiya"
-#~ msgstr "الثورة العربية"
-
-#~ msgid "Ewajan"
-#~ msgstr "عوجان"
-
-#~ msgid "Zawahreh"
-#~ msgstr "الزواهرة"
-
-#~ msgid "New Zarqa"
-#~ msgstr "الزرقاء الجديدة"
-
-#~ msgid "Sports Complex"
-#~ msgstr "المدينة الرياضية"
-
-#~ msgid "Zarqa City Gardens"
-#~ msgstr "منطقة الزرقاء الحدائقية"
-
-#~ msgid "Abdoun"
-#~ msgstr "عبدون"
-
-#~ msgid "Abu Nusair"
-#~ msgstr "ابو نصير"
-
-#~ msgid "Al Abdali"
-#~ msgstr "العبدلي"
-
-#~ msgid "Al Awdah"
-#~ msgstr "العوده"
-
-#~ msgid "Al Furousiyeh"
-#~ msgstr "الفروسية"
-
-#~ msgid "Al Hassanieh"
-#~ msgstr "الحسانيه"
-
-#~ msgid "Al Hilal"
-#~ msgstr "الهلال"
-
-#~ msgid "Al Himraniyeh"
-#~ msgstr "الحمرانية"
-
-#~ msgid "Al Hizam Al Da`ari"
-#~ msgstr "الحزام الدائري"
-
-#~ msgid "Al Hummar"
-#~ msgstr "الحمر"
-
-#~ msgid "Al Jandweel"
-#~ msgstr "الجندويل"
-
-#~ msgid "Al Jiza"
-#~ msgstr "الجيزا"
-
-#~ msgid "Al Jubayha"
-#~ msgstr "الجبيهه"
-
-#~ msgid "Al Karamah"
-#~ msgstr "الكرامه"
-
-#~ msgid "Al Khaldeen"
-#~ msgstr "الخالدين"
-
-#~ msgid "Al Madinah Al Tebieh"
-#~ msgstr "المدينه الطبيه"
-
-#~ msgid "Al Mahata"
-#~ msgstr "المحطه"
-
-#~ msgid "Al Mahata 2"
-#~ msgstr "المحطه 2"
-
-#~ msgid "Al Moqabalen"
-#~ msgstr "المقابلين"
-
-#~ msgid "Al Naser"
-#~ msgstr "النصر"
-
-#~ msgid "Al Nuzha"
-#~ msgstr "النزهه"
-
-#~ msgid "Al Quaismeh"
-#~ msgstr "القويسمه"
-
-#~ msgid "Al Qusor"
-#~ msgstr "القصور"
-
-#~ msgid "Al Rabwah"
-#~ msgstr "الربوه"
-
-#~ msgid "Al Rawabi"
-#~ msgstr "الروابي"
-
-#~ msgid "Al Ridhwan"
-#~ msgstr "الرضوان"
-
-#~ msgid "Al Sahabeh"
-#~ msgstr "الصحابه"
-
-#~ msgid "Al Shmeisani"
-#~ msgstr "الشميساني"
-
-#~ msgid "Al Sweifieh"
-#~ msgstr "الصويفيه"
-
-#~ msgid "Al Taj"
-#~ msgstr "التاج"
-
-#~ msgid "Al Tatweer Authority"
-#~ msgstr "هيئة التطوير"
-
-#~ msgid "Al Thair"
-#~ msgstr "الثائر"
-
-#~ msgid "Al Thira"
-#~ msgstr "الثراء"
-
-#~ msgid "Arjan"
-#~ msgstr "عرجان"
-
-#~ msgid "Byader Wadi Al Seer"
-#~ msgstr "بيادر وادي السير"
-
-#~ msgid "Dear Ghbar"
-#~ msgstr "دير غبار"
-
-#~ msgid "Down Town & First Circle"
-#~ msgstr "وسط البلد و الدوار الأول"
-
-#~ msgid "Jabal Al Akhdar"
-#~ msgstr "جبل الاخضر"
-
-#~ msgid "Jabal Al Hussein"
-#~ msgstr "جبل الحسين"
-
-#~ msgid "Jabal Al Natheef"
-#~ msgstr "جبل النظيف"
-
-#~ msgid "Jabal Al Weibdeh"
-#~ msgstr "جبل اللويبده"
-
-#~ msgid "Jabal Amman 2nd Circle"
-#~ msgstr "جبل عمان الدوار الثاني"
-
-#~ msgid "Jabal Amman 3rd Circle"
-#~ msgstr "جبل عمان الدوار الثالث"
-
-#~ msgid "Khrebet Al Soq, Jawa and Yadodah"
-#~ msgstr "خريبة السوق و جاوا و اليادودة"
-
-#~ msgid "Naour"
-#~ msgstr "ناعور"
-
-#~ msgid "North Abdoun"
-#~ msgstr "عبدون الشمالي"
-
-#~ msgid "North Hashmi"
-#~ msgstr "الهشمي الشمالي"
-
-#~ msgid "North Marka"
-#~ msgstr "ماركا الشمالية"
-
-#~ msgid "Ras Al Ain"
-#~ msgstr "راس العين"
-
-#~ msgid "Shafa Badran"
-#~ msgstr "شفا بدران"
-
-#~ msgid "South Abdoun"
-#~ msgstr "عبدون الجنوبي"
-
-#~ msgid "South Hashmi"
-#~ msgstr "الهاشمي الجنوبي"
-
-#~ msgid "Swieleh"
-#~ msgstr "صويلح"
-
-#~ msgid "Tarek"
-#~ msgstr "طارق"
-
-#~ msgid "Tatweer"
-#~ msgstr "التطوير"
-
-#~ msgid "Tela Al Ali Al Shamali"
-#~ msgstr "تلاع العلي الشمالي"
-
-#~ msgid "Tela` Al Ali"
-#~ msgstr "تلاع العلي"
-
-#~ msgid "Um Al Summaq"
-#~ msgstr "ام السماق"
-
-#~ msgid "Um Uthaina"
-#~ msgstr "ام اذينة 2"
-
-#~ msgid "Umm Uthaina"
-#~ msgstr "ام اذينة"
-
-#~ msgid "Yajooz"
-#~ msgstr "ياجوز"
-
-#~ msgid "Place An Ad"
-#~ msgstr "أضف إعلان"
-
-#, fuzzy
-#~ msgid ""
-#~ "Jobs in %(country)s, Property & Real Estate For Sale & Rent, Cars for "
-#~ "Sale - Free Classifieds in %(country)s | dubizzle %(country)s"
-#~ msgstr ""
-#~ "وظائف في البحرين، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في "
-#~ "البحرين | دوبيزل البحرين"
-
-#, fuzzy
-#~ msgid ""
-#~ "Buy & Sell Car Accessories & Auto Parts in %(city_comma_country)s | "
-#~ "dubizzle %(country)s"
-#~ msgstr ""
-#~ "بيع وشراء زينة و قطع سيارات في %(city_or_country)s | دوبيزل %(country)s"
-
-#, fuzzy
-#~ msgid ""
-#~ "Wanted - Careers & Jobs in %(city_or_country)s | dubizzle %(country)s"
-#~ msgstr "مطلوب للعمل في %(city_comma_country)s | دوبيزل %(country)s"
-
-#, fuzzy
-#~ msgid ""
-#~ "post job ads in %(country)s, job ads for free, job classified listings"
-#~ msgstr ""
-#~ "أضف اعلان التوظيف في %(city_or_country)s، اعلانات توظيف مجانية، أعلان "
-#~ "وظائف شاغرة"
-
-#, fuzzy
-#~ msgid ""
-#~ "Looking for %(category_leaf)s jobs in %(city_comma_country)s? Search for "
-#~ "%(category_leaf)s jobs with dubizzle %(city_or_country)s. Submit your CV "
-#~ "for FREE."
-#~ msgstr ""
-#~ "هل تبحث عن وظائف %(category_leaf)s في %(city_comma_country)s؟ أبحث عن "
-#~ "وظائف %(category_leaf)s على دوبيزل وأرسل سيرتك الذاتية مجاناً."
