@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-24 15:02+0000\n"
+"POT-Creation-Date: 2012-09-27 14:14+0000\n"
 "PO-Revision-Date: 2012-09-11 17:20+0200\n"
 "Last-Translator: dubizzle <dubizzle@dubizzle.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,13 +19,13 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Pootle 2.1.6\n"
 
-#: authentication/forms.py:17 authentication/forms.py:135
+#: authentication/forms.py:17 authentication/forms.py:153
 #: templates/authentication/forgot_password.html:25
 #: templates/authentication/login.html:30
 msgid "Email address"
 msgstr "عنوان الإيميل"
 
-#: authentication/forms.py:18 authentication/forms.py:136
+#: authentication/forms.py:18 authentication/forms.py:154
 #: fuego/forms/__init__.py:45 public/forms.py:17
 msgid "Oh no! Your email is invalid. Try again."
 msgstr "لا تنسى إدخال عنوان إيميل صحيح!"
@@ -54,7 +54,11 @@ msgstr "تأكيد عنوان الإيميل"
 msgid "Confirm Password"
 msgstr "تأكيد كلمة السر"
 
-#: authentication/forms.py:86 listings/tests.py:802
+#: authentication/forms.py:86 authentication/forms.py:197
+msgid "Sorry, please re-enter your password using only English characters."
+msgstr "عفوا, كلمة السر يجب أن تتكون من حروف لاتينية (English)"
+
+#: authentication/forms.py:104 listings/tests.py:802
 msgid ""
 "This email address is already in use. Click 'I have a dubizzle password', or "
 "use a different email."
@@ -62,15 +66,15 @@ msgstr ""
 "عنوان الإيميل هذا مسجل لدينا. إختر \"لدي حساب وكلمة سر\" اعلاه أو ادخل عنوان "
 "ايميل آخر."
 
-#: authentication/forms.py:103 listings/tests.py:843
+#: authentication/forms.py:121 listings/tests.py:843
 msgid "Huh... that's not the same one! Try again."
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
-#: authentication/forms.py:111 listings/tests.py:884
+#: authentication/forms.py:129 listings/tests.py:884
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
 
-#: authentication/forms.py:149
+#: authentication/forms.py:167
 msgid ""
 "Something's not right. This email address is not associated with a dubizzle "
 "account."
@@ -78,27 +82,27 @@ msgstr ""
 "يوجد خطآ ما. للأسف لا يوجد لدينا حساب مسجل تحت عنوان الإيميل الذي أدخلته. "
 "حاول مرة أخرى."
 
-#: authentication/forms.py:161
+#: authentication/forms.py:179
 msgid "Shiny new password"
 msgstr "كلمة السر الجديدة (هالوو!)"
 
-#: authentication/forms.py:163 authentication/forms.py:193
+#: authentication/forms.py:181 authentication/forms.py:229
 msgid "Your password must be a minimum 6 characters. Try again."
 msgstr "يجب ادخال كلمة سر لا تقل عن 6 أحرف!"
 
-#: authentication/forms.py:165 templates/listings/manage_listing.html:428
+#: authentication/forms.py:183 templates/listings/manage_listing.html:428
 msgid "Confirm password"
 msgstr "تأكيد كلمة السر"
 
-#: authentication/forms.py:178
+#: authentication/forms.py:214
 msgid "Hmm... that doesn't match up!"
 msgstr "كلمات السر لا تتطابق! حاول مرة أخرى..."
 
-#: authentication/forms.py:191
+#: authentication/forms.py:227
 msgid "Ye olde password"
 msgstr "كلمة السر القديمة (باي باي!)"
 
-#: authentication/forms.py:208
+#: authentication/forms.py:244
 msgid "Ooops, the password you entered is incorrect."
 msgstr ""
 "كلمة السر غير صحيحة (ألو.. ؟! خليك معانا .. تأكد من كون الحروف الانجليزية  "
@@ -681,7 +685,8 @@ msgid ""
 "Jobs in Jordan, Property & Real Estate For Sale & Rent, Cars for Sale - Free "
 "Classifieds in Jordan | dubizzle Jordan"
 msgstr ""
-"وظائف في الأردن، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في الأردن | دوبيزل الأردن"
+"وظائف في الأردن، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في "
+"الأردن | دوبيزل الأردن"
 
 #: fuego/jordan_settings.py:1154
 msgid ""
@@ -689,14 +694,16 @@ msgid ""
 "Jobs, property, real estate, cars and classifieds in Jordan. Post an ad, "
 "browse ads, buy, sell or rent."
 msgstr ""
-"وظائف، عقارات، سيارات و اعلانات مبوبة في الأردن. اضف اعلان، تصفح اعلانات، بيع واشتري وأجر على دوبيزل"
+"وظائف، عقارات، سيارات و اعلانات مبوبة في الأردن. اضف اعلان، تصفح اعلانات، "
+"بيع واشتري وأجر على دوبيزل"
 
 #: fuego/jordan_settings.py:1159
 msgid ""
 "dubizzle Jordan, free classifieds, online classifieds, Jordan classifieds, "
 "free classifieds in Jordan"
 msgstr ""
-"دوبيزل الأردن، مبوبة مجانيه، اعلانات مبوبة عبر الإنترنت، مبوبة الأردن، اعلانات مبوبة مجانيه في الأردن"
+"دوبيزل الأردن، مبوبة مجانيه، اعلانات مبوبة عبر الإنترنت، مبوبة الأردن، "
+"اعلانات مبوبة مجانيه في الأردن"
 
 #: fuego/meta_settings.py:61
 #, python-format
@@ -1925,9 +1932,9 @@ msgstr ""
 msgid "The neighborhood you have selected is not in the city you selected."
 msgstr "يبدو أن هذه المنطقة ليست فى المدينة المحددة."
 
-#: listings/forms.py:313 listings/models.py:264 listings/models.py:288
-#: listings/models.py:308 listings/models.py:325 listings/models.py:342
-#: listings/models.py:369 listings/models.py:386 listings/models.py:413
+#: listings/forms.py:313 listings/models.py:252 listings/models.py:276
+#: listings/models.py:296 listings/models.py:313 listings/models.py:330
+#: listings/models.py:357 listings/models.py:374 listings/models.py:401
 msgid "Price"
 msgstr "السعر"
 
@@ -1948,7 +1955,7 @@ msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
 
-#: listings/forms.py:350 listings/models.py:285
+#: listings/forms.py:350 listings/models.py:273
 msgid "Year"
 msgstr "السنة"
 
@@ -1964,7 +1971,7 @@ msgstr "عدد الكيلومترات"
 msgid "Great ride, how far has it gone?"
 msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
 
-#: listings/forms.py:405 listings/models.py:368 listings/models.py:412
+#: listings/forms.py:405 listings/models.py:356 listings/models.py:400
 msgid "Bedrooms"
 msgstr "غرف نوم"
 
@@ -1980,23 +1987,19 @@ msgstr "عدد غرف النوم"
 msgid "Posted On"
 msgstr "نُشر بتاريخ"
 
-#: listings/models.py:109 listings/models.py:263 listings/models.py:287
-#: listings/models.py:307 listings/models.py:324 listings/models.py:341
-#: listings/models.py:367 listings/models.py:385 listings/models.py:411
+#: listings/models.py:109 listings/models.py:251 listings/models.py:275
+#: listings/models.py:295 listings/models.py:312 listings/models.py:329
+#: listings/models.py:355 listings/models.py:373 listings/models.py:399
 msgid "Neighbourhood"
 msgstr "المنطقة"
 
-#: listings/models.py:218
-msgid "Listing has not yet been created"
-msgstr ""
-
-#: listings/models.py:262 listings/models.py:284 listings/models.py:306
-#: listings/models.py:323 listings/models.py:340 listings/models.py:366
-#: listings/models.py:384 listings/models.py:410
+#: listings/models.py:250 listings/models.py:272 listings/models.py:294
+#: listings/models.py:311 listings/models.py:328 listings/models.py:354
+#: listings/models.py:372 listings/models.py:398
 msgid "Posted on"
 msgstr "نُشر بتاريخ"
 
-#: listings/models.py:286
+#: listings/models.py:274
 msgid "Kilometers"
 msgstr "كيلومترات"
 
