@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-27 14:14+0000\n"
+"POT-Creation-Date: 2012-09-30 13:33+0000\n"
 "PO-Revision-Date: 2012-09-11 17:20+0200\n"
 "Last-Translator: dubizzle <dubizzle@dubizzle.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,7 +58,7 @@ msgstr "تأكيد كلمة السر"
 msgid "Sorry, please re-enter your password using only English characters."
 msgstr "عفوا, كلمة السر يجب أن تتكون من حروف لاتينية (English)"
 
-#: authentication/forms.py:104 listings/tests.py:802
+#: authentication/forms.py:104 listings/tests.py:804
 msgid ""
 "This email address is already in use. Click 'I have a dubizzle password', or "
 "use a different email."
@@ -66,11 +66,11 @@ msgstr ""
 "عنوان الإيميل هذا مسجل لدينا. إختر \"لدي حساب وكلمة سر\" اعلاه أو ادخل عنوان "
 "ايميل آخر."
 
-#: authentication/forms.py:121 listings/tests.py:843
+#: authentication/forms.py:121 listings/tests.py:845
 msgid "Huh... that's not the same one! Try again."
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
-#: authentication/forms.py:129 listings/tests.py:884
+#: authentication/forms.py:129 listings/tests.py:886
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
 
@@ -124,7 +124,7 @@ msgstr "خطأ"
 msgid "Please enter the correct letters"
 msgstr "من فضلك اكتب الحروف بشكل صحيح"
 
-#: cpanel/filters.py:151 cpanel/tests.py:178
+#: cpanel/filters.py:151 cpanel/tests.py:187
 msgid "Geo IP"
 msgstr "GEOIPPPPP"
 
@@ -132,7 +132,7 @@ msgstr "GEOIPPPPP"
 msgid "Ad is being placed from outside the chosen country."
 msgstr ""
 
-#: cpanel/filters.py:169 cpanel/tests.py:201
+#: cpanel/filters.py:169 cpanel/tests.py:210
 msgid "Restricted Keywords"
 msgstr ""
 
@@ -140,7 +140,7 @@ msgstr ""
 msgid "Restricted keywords were found in title or description."
 msgstr ""
 
-#: cpanel/filters.py:196 cpanel/tests.py:224
+#: cpanel/filters.py:196 cpanel/tests.py:233
 msgid "Phone Number"
 msgstr ""
 
@@ -148,7 +148,7 @@ msgstr ""
 msgid "Incorrect phone number for the current country."
 msgstr ""
 
-#: cpanel/filters.py:213 cpanel/tests.py:246
+#: cpanel/filters.py:213 cpanel/tests.py:255
 msgid "Flagged User"
 msgstr ""
 
@@ -156,7 +156,7 @@ msgstr ""
 msgid "The user was previously flagged"
 msgstr ""
 
-#: cpanel/filters.py:229 cpanel/tests.py:260
+#: cpanel/filters.py:229 cpanel/tests.py:269
 msgid "New User"
 msgstr ""
 
@@ -164,7 +164,7 @@ msgstr ""
 msgid "This user is a new user."
 msgstr ""
 
-#: cpanel/views.py:136
+#: cpanel/views.py:142
 msgid ""
 "Edit failed. Your lock on this listing has probably expired. Please try "
 "again."
@@ -2160,7 +2160,7 @@ msgstr "نسيت أن تضيف إسم منطقتك."
 msgid "Which section should we put your ad in?"
 msgstr "ما هو أنسب قسم لعرض إعلانك؟"
 
-#: listings/forms.py:94 templates/public/contact_us.html:92
+#: listings/forms.py:94 templates/public/contact_us.html:90
 msgid "Mobile number"
 msgstr "رقم الموبايل"
 
@@ -2176,12 +2176,12 @@ msgstr "اظهر رقمي في الإعلان"
 msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
-#: listings/forms.py:131 templates/listings/get_listing.html:86
+#: listings/forms.py:131 templates/listings/get_listing.html:85
 #: templates/listings/manage_listing.html:229
 msgid "Description"
 msgstr "مواصفات الإعلان"
 
-#: listings/forms.py:169 listings/views.py:136
+#: listings/forms.py:169 listings/views.py:137
 msgid "Please select a valid category."
 msgstr "ما هو أنسب قسم لعرض إعلانك ؟"
 
@@ -2199,9 +2199,9 @@ msgstr ""
 msgid "The neighborhood you have selected is not in the city you selected."
 msgstr "يبدو أن هذه المنطقة ليست فى المدينة المحددة."
 
-#: listings/forms.py:313 listings/models.py:252 listings/models.py:276
-#: listings/models.py:296 listings/models.py:313 listings/models.py:330
-#: listings/models.py:357 listings/models.py:374 listings/models.py:401
+#: listings/forms.py:313 listings/models.py:258 listings/models.py:282
+#: listings/models.py:302 listings/models.py:319 listings/models.py:336
+#: listings/models.py:363 listings/models.py:380 listings/models.py:407
 msgid "Price"
 msgstr "السعر"
 
@@ -2222,7 +2222,7 @@ msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
 
-#: listings/forms.py:350 listings/models.py:273
+#: listings/forms.py:350 listings/models.py:279
 msgid "Year"
 msgstr "السنة"
 
@@ -2238,7 +2238,7 @@ msgstr "عدد الكيلومترات"
 msgid "Great ride, how far has it gone?"
 msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
 
-#: listings/forms.py:405 listings/models.py:356 listings/models.py:400
+#: listings/forms.py:405 listings/models.py:362 listings/models.py:406
 msgid "Bedrooms"
 msgstr "غرف نوم"
 
@@ -2250,23 +2250,33 @@ msgstr "حدثنا عن عقارك. كم عدد غرف النوم؟"
 msgid "Number of bedrooms"
 msgstr "عدد غرف النوم"
 
-#: listings/models.py:108
+#: listings/models.py:100
 msgid "Posted On"
 msgstr "نُشر بتاريخ"
 
-#: listings/models.py:109 listings/models.py:251 listings/models.py:275
-#: listings/models.py:295 listings/models.py:312 listings/models.py:329
-#: listings/models.py:355 listings/models.py:373 listings/models.py:399
+#: listings/models.py:101 listings/models.py:257 listings/models.py:281
+#: listings/models.py:301 listings/models.py:318 listings/models.py:335
+#: listings/models.py:361 listings/models.py:379 listings/models.py:405
 msgid "Neighbourhood"
 msgstr "المنطقة"
 
-#: listings/models.py:250 listings/models.py:272 listings/models.py:294
-#: listings/models.py:311 listings/models.py:328 listings/models.py:354
-#: listings/models.py:372 listings/models.py:398
+#: listings/models.py:197
+#, python-format
+msgid "%(neighbourhood)s, %(city)s"
+msgstr "%(neighbourhood)s، %(city)s"
+
+#: listings/models.py:203
+#, python-format
+msgid "%(currency)s %(price)s"
+msgstr "%(currency)s %(price)s"
+
+#: listings/models.py:256 listings/models.py:278 listings/models.py:300
+#: listings/models.py:317 listings/models.py:334 listings/models.py:360
+#: listings/models.py:378 listings/models.py:404
 msgid "Posted on"
 msgstr "نُشر بتاريخ"
 
-#: listings/models.py:274
+#: listings/models.py:280
 msgid "Kilometers"
 msgstr "كيلومترات"
 
@@ -2277,7 +2287,7 @@ msgstr "نوع الاستفسار"
 #: public/forms.py:16 templates/listings/manage_inorganic_listing.html:22
 #: templates/listings/manage_listing.html:342
 #: templates/listings/manage_listing.html:350
-#: templates/public/contact_us.html:106
+#: templates/public/contact_us.html:104
 msgid "Email"
 msgstr "عنوان الإيميل"
 
@@ -2363,7 +2373,7 @@ msgstr "الصفحة السابقة"
 
 #: templates/404-web.html:20 templates/generic.html:37
 #: templates/privacy_ar.html:55 templates/terms_ar.html:311
-#: templates/shared/listings.html:54
+#: templates/shared/listings.html:51
 msgid "Home"
 msgstr "الصفحة الرئيسية"
 
@@ -2397,7 +2407,7 @@ msgstr "،"
 #: templates/generic.html:22 templates/generic.html.py:23
 #: templates/generic.html:82 templates/generic.html.py:83
 #: templates/authentication/login.html:51
-#: templates/user_profiles/my_listings.html:40
+#: templates/user_profiles/my_listings.html:39
 msgid "Place an ad"
 msgstr "أضف إعلان"
 
@@ -2464,13 +2474,13 @@ msgid "Change password"
 msgstr "تأكيد كلمة السر"
 
 #: templates/authentication/change_password.html:11
-#: templates/user_profiles/my_listings.html:18
+#: templates/user_profiles/my_listings.html:17
 #, python-format
 msgid "Not %(email)s?"
 msgstr "لست %(email)s؟"
 
 #: templates/authentication/change_password.html:12
-#: templates/user_profiles/my_listings.html:20
+#: templates/user_profiles/my_listings.html:19
 msgid "Logout"
 msgstr "الخروج من الحساب"
 
@@ -2480,7 +2490,7 @@ msgstr "الخروج من الحساب"
 #: templates/authentication/reset_password.html:17
 #: templates/listings/reply_to_listing_include.html:19
 #: templates/listings/report_listing.html:27
-#: templates/public/contact_us.html:51
+#: templates/public/contact_us.html:49
 msgid "Please fix the errors below"
 msgstr "من فضلك راجع وصحح الاخطاء أدناه. "
 
@@ -2604,23 +2614,23 @@ msgstr "العودة إلى الإعلان"
 msgid "Confirm"
 msgstr "تأكيد "
 
-#: templates/listings/get_listing.html:28
+#: templates/listings/get_listing.html:27
 msgid "Back to results"
 msgstr "العودة إلى صفحة الإعلانات"
 
-#: templates/listings/get_listing.html:39
+#: templates/listings/get_listing.html:38
 msgid "Report this ad"
 msgstr "بلغ عن هذا الإعلان"
 
-#: templates/listings/get_listing.html:40
+#: templates/listings/get_listing.html:39
 msgid "Edit this ad"
 msgstr "تعديل"
 
-#: templates/listings/get_listing.html:41
+#: templates/listings/get_listing.html:40
 msgid "Delete this ad"
 msgstr "حذف الإعلان "
 
-#: templates/listings/get_listing.html:49
+#: templates/listings/get_listing.html:48
 msgid ""
 "This ad has already been edited and is awaiting approval. You'll get an "
 "email once the changes are live."
@@ -2628,15 +2638,15 @@ msgstr ""
 "عفواً، لن تستطيع تعديل اعلانك حتى تتم الموافقة على نشره. سنرسل لك إيميل عند "
 "نشره. لن نتأخر عليك!"
 
-#: templates/listings/get_listing.html:78
+#: templates/listings/get_listing.html:77
 msgid "Details"
 msgstr "التفاصيل"
 
-#: templates/listings/get_listing.html:101
+#: templates/listings/get_listing.html:100
 msgid "Show mobile number"
 msgstr "اظهر رقم الموبايل"
 
-#: templates/listings/get_listing.html:107
+#: templates/listings/get_listing.html:106
 msgid "Send an email"
 msgstr "ارسل إيميل"
 
@@ -2826,9 +2836,9 @@ msgid ""
 "send money or your financial details (e.g. cheques, deposit, etc.) <br/>3) "
 "Ask for relevant documentation, if applicable (e.g. warranties, ID)."
 msgstr ""
-"من أجل سلامتك:1. تعامل مع معلنين من مدينتك وقم بإجراء جميع معاملات البيع "
-"والشراء وجهاً لوجه. 2. لا ترسل الأموال أو معلوماتك المصرفية إلى أي شخص تعرفت "
-"عليه عبر الإنترنت تحت أي ظرف من الظروف."
+"من أجل سلامتك:<br/>1. تعامل مع معلنين من مدينتك وقم بإجراء جميع معاملات "
+"البيع والشراء وجهاً لوجه. <br/>2. لا ترسل الأموال أو معلوماتك المصرفية إلى أي "
+"شخص تعرفت عليه عبر الإنترنت تحت أي ظرف من الظروف."
 
 #: templates/listings/reply_to_listing_include.html:40
 #: templates/listings/report_listing.html:40
@@ -2855,7 +2865,7 @@ msgstr "الملفات المدعومة: rtf/doc/pdf/docx"
 
 #: templates/listings/reply_to_listing_include.html:119
 #: templates/listings/report_listing.html:104
-#: templates/public/contact_us.html:168
+#: templates/public/contact_us.html:166
 msgid "Please enter the 4 letters as shown in the image below"
 msgstr "من فضلك أدخل الحروف في الصورة أدناه"
 
@@ -2930,11 +2940,11 @@ msgstr ""
 "واذا كان هناك طلب آخر.. فتفضلوا.. نحن في خدمتكم.\n"
 "                "
 
-#: templates/public/contact_us.html:26
+#: templates/public/contact_us.html:25
 msgid "Contact us"
 msgstr "راسلنا"
 
-#: templates/public/contact_us.html:32
+#: templates/public/contact_us.html:30
 msgid ""
 "\n"
 "            <p>\n"
@@ -2961,27 +2971,27 @@ msgstr ""
 "</ol>\n"
 "            "
 
-#: templates/public/contact_us.html:61
+#: templates/public/contact_us.html:59
 msgid "Subject: what's this about?"
 msgstr "نوع الاستفسار (ساعدنا في سرعة الرد عليك!)"
 
-#: templates/public/contact_us.html:78
+#: templates/public/contact_us.html:76
 msgid "Your name (or nickname)"
 msgstr "الإسم"
 
-#: templates/public/contact_us.html:120
+#: templates/public/contact_us.html:118
 msgid "Email address (again)"
 msgstr "تأكيد عنوان الإيميل"
 
-#: templates/public/contact_us.html:137
+#: templates/public/contact_us.html:135
 msgid "City/Country"
 msgstr "المدينة/الدولة"
 
-#: templates/public/contact_us.html:153
+#: templates/public/contact_us.html:151
 msgid "Message: What's on your mind?"
 msgstr "موضوع الرسالة"
 
-#: templates/public/contact_us.html:183
+#: templates/public/contact_us.html:181
 msgid "Send"
 msgstr "أرسل"
 
@@ -3163,56 +3173,56 @@ msgstr "أرني الإعلانات السابقة"
 msgid "No results..."
 msgstr "لا يوجد نتائج..."
 
-#: templates/shared/listings.html:48
+#: templates/shared/listings.html:45
 msgid "Oh camel droppings!"
 msgstr "يا للهوووول!!"
 
-#: templates/shared/listings.html:49
+#: templates/shared/listings.html:46
 msgid "We couldn't find anything to match your search."
 msgstr "لم نجد أي نتائج لبحثك!"
 
-#: templates/shared/listings.html:51
+#: templates/shared/listings.html:48
 msgid ""
 "Try using different keywords or widening your seach and it should be more "
 "fruitful."
 msgstr "جرب كلمات بحث اخرى لتسهل البحث. "
 
-#: templates/user_profiles/my_listings.html:16
+#: templates/user_profiles/my_listings.html:15
 msgid "My stuff"
 msgstr "إعلاناتي"
 
-#: templates/user_profiles/my_listings.html:21
+#: templates/user_profiles/my_listings.html:20
 msgctxt "my_listings"
 msgid "Change password"
 msgstr "غير كلمة السر"
 
-#: templates/user_profiles/my_listings.html:25
+#: templates/user_profiles/my_listings.html:24
 msgid "Account settings"
 msgstr "إعدادات الحساب"
 
-#: templates/user_profiles/my_listings.html:38
-#: templates/user_profiles/my_listings.html:115
-#: templates/user_profiles/my_listings.html:203
+#: templates/user_profiles/my_listings.html:37
+#: templates/user_profiles/my_listings.html:114
+#: templates/user_profiles/my_listings.html:202
 msgid ""
 "This page is emptier than the Sahara. Come on, let's fill it up by placing "
 "some awesome ads."
 msgstr "حسابك كالصحراء - يبدو خالي من أي نشاط. احيي ربعك الخالي باعلاناتك! "
 
-#: templates/user_profiles/my_listings.html:51
+#: templates/user_profiles/my_listings.html:50
 msgid "All my ads"
 msgstr "جميع إعلاناتي"
 
-#: templates/user_profiles/my_listings.html:54
-#: templates/user_profiles/my_listings.html:76
+#: templates/user_profiles/my_listings.html:53
+#: templates/user_profiles/my_listings.html:75
 msgid "My pending ads"
 msgstr "إعلانات تحت المراجعة"
 
-#: templates/user_profiles/my_listings.html:57
-#: templates/user_profiles/my_listings.html:130
+#: templates/user_profiles/my_listings.html:56
+#: templates/user_profiles/my_listings.html:129
 msgid "My live ads"
 msgstr "إعلاناتي المنشورة"
 
-#: templates/user_profiles/my_listings.html:65
+#: templates/user_profiles/my_listings.html:64
 #, python-format
 msgid ""
 "\n"
@@ -3247,43 +3257,43 @@ msgstr[5] ""
 "لديك %(counter)s إعلان\n"
 "                        "
 
-#: templates/user_profiles/my_listings.html:84
+#: templates/user_profiles/my_listings.html:83
 msgid "These ads are awaiting approval and will be live soon."
 msgstr "جاري الآن الموافقة على الإعلان وسيتم نشره في أقرب وقت."
 
-#: templates/user_profiles/my_listings.html:120
+#: templates/user_profiles/my_listings.html:119
 msgid "Show all my pending ads"
 msgstr "اظهر جميع إعلاناتي التي لا زالت تحت المراجعة"
 
-#: templates/user_profiles/my_listings.html:135
+#: templates/user_profiles/my_listings.html:134
 msgid "Your ad has been sucessfully deleted"
 msgstr "لقد تم حذف إعلانك بنجاح."
 
-#: templates/user_profiles/my_listings.html:171
+#: templates/user_profiles/my_listings.html:170
 msgid "Your edits will go live soon."
 msgstr "سنقوم بنشر تعديلاتك قريبا."
 
-#: templates/user_profiles/my_listings.html:178
+#: templates/user_profiles/my_listings.html:177
 msgid "Edit"
 msgstr "تعديل"
 
-#: templates/user_profiles/my_listings.html:184
+#: templates/user_profiles/my_listings.html:183
 msgid "Delete"
 msgstr "احذفها "
 
-#: templates/user_profiles/my_listings.html:189
+#: templates/user_profiles/my_listings.html:188
 msgid "Are you sure you want to delete this listing?"
 msgstr "من فضلك أكد طلبك لحذف الإعلان."
 
-#: templates/user_profiles/my_listings.html:193
+#: templates/user_profiles/my_listings.html:192
 msgid "Yes, delete it."
 msgstr "نعم، احذفه."
 
-#: templates/user_profiles/my_listings.html:196
+#: templates/user_profiles/my_listings.html:195
 msgid "No, keep it live."
 msgstr "لا تحذف اعلاني."
 
-#: templates/user_profiles/my_listings.html:209
+#: templates/user_profiles/my_listings.html:208
 msgid "Show all my live ads"
 msgstr "اظهر جميع اعلاناتي المنشورة"
 
