@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-02 07:31+0000\n"
+"POT-Creation-Date: 2012-10-09 12:49+0400\n"
 "PO-Revision-Date: 2012-09-11 17:20+0200\n"
 "Last-Translator: dubizzle <dubizzle@dubizzle.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,9 +30,10 @@ msgstr "عنوان الإيميل"
 msgid "Oh no! Your email is invalid. Try again."
 msgstr "لا تنسى إدخال عنوان إيميل صحيح!"
 
+#. Translators: This is in CrystelCalls new listing interface
 #: authentication/forms.py:20 authentication/forms.py:42
 #: authentication/forms.py:66 templates/authentication/login.html:36
-#: templates/listings/manage_inorganic_listing.html:43
+#: templates/listings/manage_inorganic_listing.html:47
 msgid "Password"
 msgstr "كلمة السر"
 
@@ -123,52 +124,6 @@ msgstr "خطأ"
 #: captcha/conf/settings.py:21
 msgid "Please enter the correct letters"
 msgstr "من فضلك اكتب الحروف بشكل صحيح"
-
-#: cpanel/filters.py:151 cpanel/tests.py:187
-msgid "Geo IP"
-msgstr "GEOIPPPPP"
-
-#: cpanel/filters.py:152
-msgid "Ad is being placed from outside the chosen country."
-msgstr ""
-
-#: cpanel/filters.py:169 cpanel/tests.py:210
-msgid "Restricted Keywords"
-msgstr ""
-
-#: cpanel/filters.py:170
-msgid "Restricted keywords were found in title or description."
-msgstr ""
-
-#: cpanel/filters.py:196 cpanel/tests.py:233
-msgid "Phone Number"
-msgstr ""
-
-#: cpanel/filters.py:197
-msgid "Incorrect phone number for the current country."
-msgstr ""
-
-#: cpanel/filters.py:213 cpanel/tests.py:255
-msgid "Flagged User"
-msgstr ""
-
-#: cpanel/filters.py:214
-msgid "The user was previously flagged"
-msgstr ""
-
-#: cpanel/filters.py:229 cpanel/tests.py:269
-msgid "New User"
-msgstr ""
-
-#: cpanel/filters.py:230
-msgid "This user is a new user."
-msgstr ""
-
-#: cpanel/views.py:142
-msgid ""
-"Edit failed. Your lock on this listing has probably expired. Please try "
-"again."
-msgstr ""
 
 #: feedbox/conf/settings.py:27
 msgid "dubizzle Feedbox"
@@ -1948,9 +1903,9 @@ msgstr ""
 msgid "The neighborhood you have selected is not in the city you selected."
 msgstr "يبدو أن هذه المنطقة ليست فى المدينة المحددة."
 
-#: listings/forms.py:313 listings/models.py:258 listings/models.py:282
-#: listings/models.py:302 listings/models.py:319 listings/models.py:336
-#: listings/models.py:363 listings/models.py:380 listings/models.py:407
+#: listings/forms.py:313 listings/models.py:263 listings/models.py:287
+#: listings/models.py:307 listings/models.py:324 listings/models.py:341
+#: listings/models.py:368 listings/models.py:385 listings/models.py:412
 msgid "Price"
 msgstr "السعر"
 
@@ -1971,7 +1926,7 @@ msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
 
-#: listings/forms.py:350 listings/models.py:279
+#: listings/forms.py:350 listings/models.py:284
 msgid "Year"
 msgstr "السنة"
 
@@ -1987,7 +1942,7 @@ msgstr "عدد الكيلومترات"
 msgid "Great ride, how far has it gone?"
 msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
 
-#: listings/forms.py:405 listings/models.py:362 listings/models.py:406
+#: listings/forms.py:405 listings/models.py:367 listings/models.py:411
 msgid "Bedrooms"
 msgstr "غرف نوم"
 
@@ -1999,33 +1954,33 @@ msgstr "حدثنا عن عقارك. كم عدد غرف النوم؟"
 msgid "Number of bedrooms"
 msgstr "عدد غرف النوم"
 
-#: listings/models.py:100
+#: listings/models.py:105
 msgid "Posted On"
 msgstr "نُشر بتاريخ"
 
-#: listings/models.py:101 listings/models.py:257 listings/models.py:281
-#: listings/models.py:301 listings/models.py:318 listings/models.py:335
-#: listings/models.py:361 listings/models.py:379 listings/models.py:405
+#: listings/models.py:106 listings/models.py:262 listings/models.py:286
+#: listings/models.py:306 listings/models.py:323 listings/models.py:340
+#: listings/models.py:366 listings/models.py:384 listings/models.py:410
 msgid "Neighbourhood"
 msgstr "المنطقة"
 
-#: listings/models.py:197
+#: listings/models.py:202
 #, python-format
 msgid "%(neighbourhood)s, %(city)s"
 msgstr "%(neighbourhood)s، %(city)s"
 
-#: listings/models.py:203
+#: listings/models.py:208
 #, python-format
 msgid "%(currency)s %(price)s"
 msgstr "%(currency)s %(price)s"
 
-#: listings/models.py:256 listings/models.py:278 listings/models.py:300
-#: listings/models.py:317 listings/models.py:334 listings/models.py:360
-#: listings/models.py:378 listings/models.py:404
+#: listings/models.py:261 listings/models.py:283 listings/models.py:305
+#: listings/models.py:322 listings/models.py:339 listings/models.py:365
+#: listings/models.py:383 listings/models.py:409
 msgid "Posted on"
 msgstr "نُشر بتاريخ"
 
-#: listings/models.py:280
+#: listings/models.py:285
 msgid "Kilometers"
 msgstr "كيلومترات"
 
@@ -2033,7 +1988,8 @@ msgstr "كيلومترات"
 msgid "Enter a subject please"
 msgstr "نوع الاستفسار"
 
-#: public/forms.py:16 templates/listings/manage_inorganic_listing.html:22
+#. Translators: This is in CrystelCalls new listing interface
+#: public/forms.py:16 templates/listings/manage_inorganic_listing.html:25
 #: templates/listings/manage_listing.html:342
 #: templates/listings/manage_listing.html:350
 #: templates/public/contact_us.html:104
@@ -2125,24 +2081,6 @@ msgstr "الصفحة السابقة"
 #: templates/shared/listings.html:51
 msgid "Home"
 msgstr "الصفحة الرئيسية"
-
-#: templates/500-web.html:7
-msgid "Dubizzle.com - 500 - Invalid Request"
-msgstr ""
-
-#: templates/500-web.html:15
-msgid ""
-"\n"
-"\t\t    <h1>Well, darn.</h1>\n"
-"\t\t    <p>Our wize dubizzle guy couldn't handle the strain. We'll resurrect "
-"him soon.</p>\n"
-"\t\t    <span>If anyone asks, it was a measly 500 error.</span>\n"
-"\t\t    "
-msgstr ""
-
-#: templates/500-web.html:20
-msgid "In the meantime, you can find us on:"
-msgstr ""
 
 #: templates/generic.html:15
 msgid "Browse"
@@ -2310,40 +2248,49 @@ msgstr "غير كلمة السر"
 msgid "Phew! Your password has now been changed."
 msgstr "وأخيرا. تم تغيير كلمة السر الخاصة بك."
 
-#: templates/cpanel/manage_workspace.html:9
+#. Translators: This is in Customer Supports edit listing interface
+#: templates/cpanel/manage_workspace.html:10
 msgid "Cpanel Ad moderation."
 msgstr ""
 
-#: templates/cpanel/manage_workspace.html:13
-#: templates/listings/manage_inorganic_listing.html:11
+#. Translators: This is in Customer Supports edit listing interface
+#. Translators: This is in CrystelCalls new listing interface
+#: templates/cpanel/manage_workspace.html:15
+#: templates/listings/manage_inorganic_listing.html:13
 msgid "Make this awesome."
 msgstr ""
 
-#: templates/cpanel/manage_workspace.html:40
+#. Translators: This is in Customer Supports edit listing interface
+#: templates/cpanel/manage_workspace.html:43
 #: templates/listings/manage_listing.html:41
 #: templates/listings/manage_listing.html:127
 msgid "Select a category"
 msgstr "نوع الإعلان؟"
 
-#: templates/cpanel/manage_workspace.html:48
+#. Translators: This is in Customer Supports edit listing interface
+#: templates/cpanel/manage_workspace.html:52
 #: templates/listings/manage_listing.html:135
 #: templates/search/category_widget.html:78
 msgid "Show all"
 msgstr "اظهر الجميع"
 
-#: templates/cpanel/manage_workspace.html:77
+#. Translators: This is in Customer Supports edit listing interface
+#: templates/cpanel/manage_workspace.html:82
 msgid "Existing Photos"
 msgstr ""
 
-#: templates/cpanel/manage_workspace.html:78
+#. Translators: This is in Customer Supports edit listing interface
+#: templates/cpanel/manage_workspace.html:84
 msgid "These photos can be moderated in Cpanel"
 msgstr ""
 
-#: templates/cpanel/manage_workspace.html:94
+#. Translators: This is in Customer Supports edit listing interface
+#: templates/cpanel/manage_workspace.html:101
 msgid "User's Email Address"
 msgstr ""
 
-#: templates/cpanel/manage_workspace.html:101
+#. Translators: This is in Customer Supports edit listing interface
+#: templates/cpanel/manage_workspace.html:109
 msgid "Please remember to go back to Cpanel to approve this edit."
 msgstr ""
 
@@ -2433,7 +2380,8 @@ msgstr "العودة الى الصفحة الرئيسية"
 msgid "Place another ad"
 msgstr "اضف إعلان آخر"
 
-#: templates/listings/manage_inorganic_listing.html:7
+#. Translators: This is in CrystelCalls new listing interface
+#: templates/listings/manage_inorganic_listing.html:8
 msgid "CrysTelCall Listing Interface."
 msgstr ""
 
@@ -2770,10 +2718,10 @@ msgstr ""
 "آلاف السيارات والوظائف والعقار والمبوبات والكثير الكثير.\n"
 "                    "
 
-#: templates/public/home.html:37 templates/search/search_listings.html:48
-#: templates/search/search_listings.html:52
-#: templates/search/search_listings.html:59
-#: templates/search/search_listings.html:63
+#: templates/public/home.html:37 templates/search/search_listings.html:49
+#: templates/search/search_listings.html:53
+#: templates/search/search_listings.html:60
+#: templates/search/search_listings.html:64
 msgid "Load more"
 msgstr "ارني المزيد"
 
@@ -2911,10 +2859,10 @@ msgstr ""
 "اظهر فقط الإعلانات المضافة بال%(CURRENT_LANGUAGE)s\n"
 "                    "
 
-#: templates/search/search_listings.html:18
-#: templates/search/search_listings.html:22
-#: templates/search/search_listings.html:29
-#: templates/search/search_listings.html:33
+#: templates/search/search_listings.html:19
+#: templates/search/search_listings.html:23
+#: templates/search/search_listings.html:30
+#: templates/search/search_listings.html:34
 msgid "Load previous"
 msgstr "أرني الإعلانات السابقة"
 
@@ -3125,3 +3073,6 @@ msgstr[5] ""
 #, python-format
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
+
+#~ msgid "Geo IP"
+#~ msgstr "GEOIPPPPP"
