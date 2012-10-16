@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-16 17:19+0400\n"
-"PO-Revision-Date: 2012-10-16 17:49+0400\n"
-"Last-Translator: Mohammad Alazzeh <alazzeh@dubizzle.com>\n"
+"PO-Revision-Date: 2012-10-16 18:59+0400\n"
+"Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian "
 "<http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_TN/>\n"
 "Language: fr_TN\n"
@@ -2179,12 +2179,12 @@ msgstr "Oh... ce n'est pas la męme chose!?"
 #: search/forms.py:33
 #, python-format
 msgid "All of %(city)s"
-msgstr "Tout %(city)s"
+msgstr "Tout - %(city)s"
 
 #: search/forms.py:41
 #, python-format
 msgid "All of %(country)s"
-msgstr "Tout %(country)s"
+msgstr "Toute la %(country)s"
 
 #: search/forms.py:130
 msgid "Keywords"
@@ -2275,7 +2275,7 @@ msgstr "Revenir en haut"
 
 #: templates/generic.html:107
 msgid "Contact"
-msgstr "Contact"
+msgstr "Contactez nous"
 
 #: templates/generic.html:108
 msgid "Terms of Use"
@@ -2370,9 +2370,8 @@ msgid "Sign in"
 msgstr "Se connecter"
 
 #: templates/authentication/login.html:6
-#, fuzzy
 msgid "It's as fast as saying &#34;Open Sesame&#34;"
-msgstr "C'est aussi rapide que de dire"
+msgstr "C'est aussi rapide que de dire \"Sésame ouvre-toi\""
 
 #: templates/authentication/login.html:44
 msgid "Sign in – show me my stuff"
@@ -2552,7 +2551,7 @@ msgstr "Créer une annonce gratuite en un rien de temps ."
 
 #: templates/listings/manage_listing.html:16
 msgid "Then go party!"
-msgstr "Puis allez faire la fęte!"
+msgstr "Puis allez faire la fête!"
 
 #: templates/listings/manage_listing.html:60
 msgid "Choose"
@@ -2660,11 +2659,11 @@ msgstr "J'ai un mot de passe dubizzle"
 
 #: templates/listings/manage_listing.html:387
 msgid "Confirm email"
-msgstr "Email de confirmation"
+msgstr "Confirmez votre adresse email"
 
 #: templates/listings/manage_listing.html:400
 msgid "Password (cAse SenSiTIvE)"
-msgstr "Mot de passe (sensible à la police de caractere)"
+msgstr "Mot de passe (sensible à la police de caractères)"
 
 #: templates/listings/manage_listing.html:418
 msgid ""
@@ -2833,25 +2832,16 @@ msgid ""
 "            </ol>\n"
 "            "
 msgstr ""
-"\n"
-"            <p>\n"
-"\n"
-"                Bonjour à tous, <br/>\n"
-"\n"
-"                Voici 3 raisons pour nous contacter:\n"
-"\n"
-"            </p>\n"
-"\n"
-"            <ol>\n"
-"\n"
-"                <li> nous aimons aider nos dubizzleurs </li>\n"
-"\n"
-"                <li> c'est plus sympa quand on sait qui vous ętes </li>\n"
-"\n"
-"                <li> nous avons embauché un personnel aimable  pour répondre "
-"à vos questions (et non pas pour surfer sur le net toute la journée) </li>\n"
-"\n"
-"            </ol>"
+"<p>\n"
+"Bonjour à tous, <br/>\n"
+"Voici 3 raisons pour nous contacter:\n"
+"</p>\n"
+"<ol>\n"
+"<li>nous aimons aider nos dubizzleurs</li>\n"
+"<li>c'est plus sympa quand on sait qui vous ętes</li>\n"
+"<li>nous avons embauché un personnel aimable pour répondre à vos questions "
+"(et non pas pour surfer sur le net toute la journée)</li>\n"
+"</ol>"
 
 #: templates/public/contact_us.html:59
 msgid "Subject: what's this about?"
@@ -3001,7 +2991,7 @@ msgid "in"
 msgstr "en"
 
 #: templates/search/search.html:32
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "                    We found <span class=\"red\">%(counter)s</span> ad\n"
@@ -3011,12 +3001,10 @@ msgid_plural ""
 "                    We found <span class=\"red\">%(counter)s</span> ads\n"
 "                "
 msgstr[0] ""
-"                    Nous avons trouvé une annonce <span class=\"red\">"
-"%(counter)s</span> \n"
+"Nous avons trouvé <span class=\"red\">%(counter)s</span> annonce\n"
 "                "
 msgstr[1] ""
-"                    Nous avons trouvé une annonce <span class=\"red\">"
-"%(counter)s</span> \n"
+"Nous avons trouvé <span class=\"red\">%(counter)s</span> annonces\n"
 "                "
 
 #: templates/search/search_bar.html:10 templates/search/search_bar.html:13
@@ -3109,8 +3097,8 @@ msgid_plural ""
 "\n"
 "                            You've got %(counter)s ads\n"
 "                        "
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Vous avez %(counter)s annonce"
+msgstr[1] "Vous avez %(counter)s annonces"
 
 #: templates/user_profiles/my_listings.html:83
 msgid "These ads are awaiting approval and will be live soon."
@@ -3162,14 +3150,8 @@ msgid_plural ""
 "\n"
 "        You've got %(counter)s live ads\n"
 "    "
-msgstr[0] ""
-"\n"
-"        Vous avez %(counter)s annonce en ligne\n"
-"    "
-msgstr[1] ""
-"\n"
-"        Vous avez %(counter)s annonce en ligne\n"
-"    "
+msgstr[0] "Vous avez %(counter)s annonce en ligne"
+msgstr[1] "Vous avez %(counter)s annonces en ligne\n"
 
 #: templates/user_profiles/my_live_listings.html:22
 #: templates/user_profiles/my_pending_listings.html:22
@@ -3186,16 +3168,8 @@ msgid_plural ""
 "\n"
 "        You've got %(counter)s pending ads\n"
 "    "
-msgstr[0] ""
-"\n"
-"        Vous avez %(counter)s  annonce attente\n"
-"\n"
-"    "
-msgstr[1] ""
-"\n"
-"        Vous avez %(counter)s  annonce attente\n"
-"\n"
-"    "
+msgstr[0] "Vous avez %(counter)s annonce attente    "
+msgstr[1] "Vous avez %(counter)s annonces attente    "
 
 #: utils/meta_builder.py:92 utils/meta_builder.py:97
 #, python-format
