@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-16 17:05+0400\n"
+"POT-Creation-Date: 2012-10-16 17:18+0400\n"
 "PO-Revision-Date: 2012-10-04 12:36+0200\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Saudi <http://example.com/projects/fuego/fuego/ar_SA/"
@@ -140,10 +140,13 @@ msgstr ""
 #. Translators: description - Cars - Detail Page
 #. Translators: description - Jobs - Detail Page
 #. Translators: description - Jobs Wanted - Detail Page
+#. Translators: description - Property for Sale - Detail Page
+#. Translators: description - Property for Rent - Detail Page
+#. Translators: description - Items for Sale - Detail Page
 #: fuego/meta_settings.py:64 fuego/meta_settings.py:72
 #: fuego/meta_settings.py:80 fuego/meta_settings.py:88
-#: fuego/meta_settings.py:94 fuego/meta_settings.py:99
-#: fuego/meta_settings.py:104
+#: fuego/meta_settings.py:96 fuego/meta_settings.py:104
+#: fuego/meta_settings.py:112
 #, python-format
 msgid "%(ad_description)s"
 msgstr "%(ad_description)s"
@@ -203,13 +206,15 @@ msgid ""
 "ads in %(city)s"
 msgstr ""
 
-#: fuego/meta_settings.py:93
+#. Translators: title - Property for Sale - Detail Page
+#: fuego/meta_settings.py:94
 #, python-format
 msgid ""
 "%(ad_title)s - %(category_leaf)s property-for-sale | dubizzle %(country)s"
 msgstr "%(ad_title)s - %(category_leaf)s عقارات للبيع | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:95
+#. Translators: keywords - Property for Sale - Detail Page
+#: fuego/meta_settings.py:98
 #, python-format
 msgid ""
 "%(ad_title)s, %(category_leaf)s property-for-sale, %(category_leaf)s in "
@@ -218,13 +223,15 @@ msgstr ""
 "%(ad_title)s, %(category_leaf)s عقارات للبيع، %(category_leaf)s في "
 "%(country)s"
 
-#: fuego/meta_settings.py:98
+#. Translators: title - Property for Rent - Detail Page
+#: fuego/meta_settings.py:102
 #, python-format
 msgid ""
 "%(ad_title)s - %(category_leaf)s property-for-rent | dubizzle %(country)s"
 msgstr "%(ad_title)s - %(category_leaf)s عقارات للايجار | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:100
+#. Translators: keywords - Property for Rent - Detail Page
+#: fuego/meta_settings.py:106
 #, python-format
 msgid ""
 "%(ad_title)s, %(category_leaf)s property-for-rent, %(category_leaf)s in "
@@ -233,13 +240,15 @@ msgstr ""
 "%(ad_title)s, %(category_leaf)s عقارات للايجار، %(category_leaf)s في "
 "%(country)s"
 
-#: fuego/meta_settings.py:103
+#. Translators: title - Items for Sale - Detail Page
+#: fuego/meta_settings.py:110
 #, python-format
 msgid "%(ad_title)s - %(category_leaf)s items-for-sale | dubizzle %(country)s"
 msgstr ""
 "%(ad_title)s - %(category_leaf)s اعلانات مبوبة مجانية | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:105
+#. Translators: keywords - Items for Sale - Detail Page
+#: fuego/meta_settings.py:114
 #, python-format
 msgid ""
 "%(ad_title)s, %(category_leaf)s items-for-sale, %(category_leaf)s in "
@@ -248,14 +257,16 @@ msgstr ""
 "%(ad_title)s, %(category_leaf)s اعلانات مبوبة مجانية، %(category_leaf)s في "
 "%(country)s"
 
-#: fuego/meta_settings.py:112
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:122
 #, python-format
 msgid ""
 "Second Hand Vehicles & Used Cars for Sale in %(city_comma_country)s | "
 "dubizzle %(country)s"
 msgstr "سيارات مستعملة للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:113
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:124
 #, python-format
 msgid ""
 "Find second hand & used cars for sale directly from owners. Click here to "
@@ -264,7 +275,8 @@ msgstr ""
 "ابحث عن سيارات مستعملة وجديدة من المالك مباشرة على دوبيزل. أضغط هنا لمشاهدة "
 "صور وأسعار السيارات في %(city_comma_country)s"
 
-#: fuego/meta_settings.py:114
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:126
 #, python-format
 msgid ""
 "used cars, cars for sale, cars for sale, used cars %(country)s, %(country)s "
@@ -273,7 +285,8 @@ msgstr ""
 "سيارات مستعملة، سيارات للبيع، سيارات مستعملة %(country)s, %(country)s سيارات "
 "للبيع"
 
-#: fuego/meta_settings.py:117
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:130
 #, python-format
 msgid ""
 "Buy & Sell Car Accessories & Auto Parts in %(city_or_country)s | dubizzle "
@@ -281,7 +294,8 @@ msgid ""
 msgstr ""
 "بيع وشراء زينة و قطع سيارات في %(city_or_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:118
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:132
 #, python-format
 msgid ""
 "Buy & sell new and used car accessories and parts including seat covers, "
@@ -290,14 +304,16 @@ msgstr ""
 "بيع وشراء زينة وقطع سيارات جديدة ومستعملة , أغطية مقاعد, مقاعد أطفال, قطع "
 "محركات وغيرها في %(city_comma_country)s."
 
-#: fuego/meta_settings.py:119
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:134
 #, python-format
 msgid ""
 "car parts, auto parts, auto accessories, sale items automobiles to "
 "%(city_or_country)s"
 msgstr "زينة وقطع سيارات في %(city_or_country)s"
 
-#: fuego/meta_settings.py:122
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:138
 #, python-format
 msgid ""
 "%(category_leaf)s Cars for Sale in %(city_comma_country)s | dubizzle "
@@ -305,7 +321,8 @@ msgid ""
 msgstr ""
 "%(category_leaf)s سيارات للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:123
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:140
 #, python-format
 msgid ""
 "Click here to see prices and photos of used %(category_leaf)s cars for sale "
@@ -314,7 +331,8 @@ msgstr ""
 "أضغط ها لمشاهدة صور وأسعار سيارات %(category_leaf)s مستعملة للبيع في "
 "%(city_comma_country)s. الشراء من البائع مباشرة بسهولة. "
 
-#: fuego/meta_settings.py:124
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:142
 #, python-format
 msgid ""
 "Cars %(category_leaf)s, Used cars, %(category_leaf)s for sale, "
@@ -323,12 +341,14 @@ msgstr ""
 "سيارات %(category_leaf)s، سيارات مستعملة، %(category_leaf)s للبيع، سيارات "
 "%(category_leaf)s للبيع في %(city_or_country)s"
 
-#: fuego/meta_settings.py:127
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:146
 #, python-format
 msgid "Careers & Jobs in %(city_comma_country)s | dubizzle %(country)s"
 msgstr "وظائف شاغرة في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:128
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:148
 #, python-format
 msgid ""
 "Looking for vacancies and jobs in %(city_or_country)s? Search for job "
@@ -337,7 +357,8 @@ msgstr ""
 "هل تبحث عن وظيفة شاغرة في %(city_or_country)s؟ أبحث عن الوظائف الخالية أولاً "
 "بأول على دوبيزل %(country)s وارسل سيرتك الذاتية مجاناً."
 
-#: fuego/meta_settings.py:129
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:150
 #, python-format
 msgid ""
 "jobs in %(city_or_country)s, careers in %(city_or_country)s, "
@@ -346,13 +367,15 @@ msgstr ""
 "وظائف شاغرة في %(city_or_country)s، وظائف خالية في %(city_or_country)s، توظيف"
 "%(city_or_country)s، فرص عمل "
 
-#: fuego/meta_settings.py:132
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:154
 #, python-format
 msgid "%(category_leaf)s Jobs in %(city_comma_country)s | dubizzle %(country)s"
 msgstr ""
 "وظائف %(category_leaf)s شاغرة في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:133
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:156
 #, python-format
 msgid ""
 "Looking for %(category_leaf)s jobs in %(city_comma_country)s? Search for "
@@ -362,7 +385,8 @@ msgstr ""
 "هل تبحث عن وظائف %(category_leaf)s في %(city_comma_country)s؟ أبحث عن وظائف "
 "%(category_leaf)s على دوبيزل وأرسل سيرتك الذاتية مجاناً."
 
-#: fuego/meta_settings.py:134
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:158
 #, python-format
 msgid ""
 "%(category_leaf)s jobs in %(city_or_country)s, %(category_leaf)s careers in "
@@ -373,13 +397,15 @@ msgstr ""
 "%(category_leaf)s الشاغرة في %(city_or_country)s، وظائف %(category_leaf)s "
 "خالية، توظيف %(category_leaf)s"
 
-#: fuego/meta_settings.py:137
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:162
 #, python-format
 msgid ""
 "Wanted - Careers & Jobs in %(city_comma_country)s | dubizzle %(country)s"
 msgstr "مطلوب للعمل في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:138
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:164
 #, python-format
 msgid ""
 "Looking to land a job in %(city_comma_country)s? Post Your skills and "
@@ -388,7 +414,8 @@ msgstr ""
 "هل تبحث عن وظيفة في %(city_comma_country)s؟ أضف خبراتك وسيرتك الذاتية على "
 "دوبيزل %(country)s لتشاهد مجموعة من الوظائف الشاغرة"
 
-#: fuego/meta_settings.py:139
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:166
 #, python-format
 msgid ""
 "post job ads in %(city_or_country)s, job ads for free, job classified "
@@ -397,7 +424,8 @@ msgstr ""
 "أضف اعلان التوظيف في %(city_or_country)s، اعلانات توظيف مجانية، أعلان وظائف "
 "شاغرة"
 
-#: fuego/meta_settings.py:142
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:170
 #, python-format
 msgid ""
 "Wanted %(category_leaf)s Jobs in %(city_or_country)s | dubizzle %(country)s"
@@ -405,16 +433,18 @@ msgstr ""
 "مطلوب للعمل - وظائف %(category_leaf)s في %(city_or_country)s | دوبيزل "
 "%(country)s"
 
-#: fuego/meta_settings.py:143
-#, python-format
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:172
+#, fuzzy, python-format
 msgid ""
 "Looking to land a %(category_leaf)s job in %(city_comma_country)s ? Post "
-"Your skills and experience on dubizzle [Country]'s Free Job Classifieds."
+"Your skills and experience on dubizzle's Free Job Classifieds."
 msgstr ""
 "هل تبحث عن اضافة اعلان توظيف %(category_leaf)s في %(city_comma_country)s؟ "
 "أضف خبراتك وسيرتك الذاتية على دوبيزل [Country]'s لاعلانات التوظيف المجانية"
 
-#: fuego/meta_settings.py:144
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:174
 #, python-format
 msgid ""
 "post %(category_leaf)s job ads in %(city_or_country)s, %(category_leaf)s job "
@@ -423,14 +453,16 @@ msgstr ""
 "أضف اعلان توظيف %(category_leaf)s في %(city_or_country)s، اعلانات وظائف "
 "%(category_leaf)s مجانية"
 
-#: fuego/meta_settings.py:147
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:178
 #, python-format
 msgid ""
 "Real Estate & Property for Sale in %(city_comma_country)s | dubizzle "
 "%(country)s"
 msgstr "عقارات للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:148
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:180
 #, python-format
 msgid ""
 "Buy & sell real estate & properties in %(city_comma_country)s including "
@@ -439,7 +471,8 @@ msgstr ""
 "بيع وشراء العقارات في %(city_comma_country)s، فلل، شقق، منازل، أراضي، محلات "
 "تجارية، مباني وغيرها "
 
-#: fuego/meta_settings.py:149
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:182
 #, python-format
 msgid ""
 "Homes for sale in %(city_or_country)s, properties for sale in "
@@ -448,13 +481,15 @@ msgstr ""
 "منازل للبيع في %(city_or_country)s، عقارات للبيع في %(city_or_country)s، "
 "عقارات للايجار في %(country)s"
 
-#: fuego/meta_settings.py:152
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:186
 #, python-format
 msgid ""
 "House & Villas For Sale in %(city_comma_country)s | dubizzle %(country)s"
 msgstr "بيوت وفلل للايجار في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:153
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:188
 #, python-format
 msgid ""
 "Buy and sell houses and villas in %(city_comma_country)s Search for holiday "
@@ -463,7 +498,8 @@ msgstr ""
 "بيع وشراء الفلل في %(city_comma_country)s، ابحث عن فلل للعطلات، فلل فاخرة "
 "للبيع"
 
-#: fuego/meta_settings.py:154
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:190
 #, python-format
 msgid ""
 "house for sale, house for sale, houses %(city_or_country)s villas "
@@ -473,13 +509,15 @@ msgstr ""
 "منازل للبيع، فلل للبيت، منازل في %(city_or_country)s، فلل للبيع، فلل في "
 "%(city_or_country)s للبيع، بيع فلل في %(city_or_country)s"
 
-#: fuego/meta_settings.py:157
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:194
 #, python-format
 msgid ""
 "Flats & Apartments for Sale in %(city_comma_country)s | dubizzle %(country)s"
 msgstr "شقق للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:158
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:196
 #, python-format
 msgid ""
 "Buy & sell flats apartments in %(city_comma_country)s Search for hotel "
@@ -489,7 +527,8 @@ msgstr ""
 "بيع وشراء شقق في %(city_comma_country)s. أبحث عن شقق فندقية، غرف مفروشة، غرف "
 "للايجار، استديوهات وغيرها "
 
-#: fuego/meta_settings.py:159
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:198
 #, python-format
 msgid ""
 "apartment for sale, apartment for sale, apartments for %(city_or_country)s, "
@@ -500,14 +539,16 @@ msgstr ""
 "شقق للبيع، شقة للبيع، شقق للبيع في %(city_or_country)s، شقق في "
 "%(city_or_country)s، فلل للبيع %(city_or_country)s"
 
-#: fuego/meta_settings.py:162
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:202
 #, python-format
 msgid ""
 "Commercial Property for Sale - Offices, Shops & Buildings | dubizzle "
 "%(country)s"
 msgstr "عقارات ومحلات تجارية للبيع - مكاتب، مقاهي، عمارات | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:163
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:204
 #, python-format
 msgid ""
 "Buy & sell commercial property in %(city_comma_country)s Search for offices, "
@@ -516,7 +557,8 @@ msgstr ""
 "بيع وشراء العقارات التجارية في %(city_comma_country)s. ابحث عن مكاتب، مقاهي، "
 "عمارات، أراضي ومخازن"
 
-#: fuego/meta_settings.py:164
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:206
 #, python-format
 msgid ""
 "commercial property for sale, commercial property for sale in "
@@ -529,13 +571,15 @@ msgstr ""
 "تجارية، مباني تجارية للبيع، مباني تجارية للبيع %(city_or_country)s، عقارات "
 "تجارية للبيع في %(city_or_country)s"
 
-#: fuego/meta_settings.py:167
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:210
 #, python-format
 msgid ""
 "Towers & Buildings for Sale in %(city_comma_country)s | dubizzle %(country)s"
 msgstr "أبراج ومباني للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:168
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:212
 #, python-format
 msgid ""
 "Buy & sell full towers and  %(city_comma_country)s buildings. Search for "
@@ -545,7 +589,8 @@ msgstr ""
 "بيع وشراء أبراج ومباني في %(city_comma_country)s. ابحث عن وحدات سكنية "
 "متعددة، عمارات و عقارات تجارية في %(city_comma_country)s"
 
-#: fuego/meta_settings.py:169
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:214
 #, python-format
 msgid ""
 "Buildings for Sale, levels buildings, %(city_or_country)s Buildings, "
@@ -555,12 +600,14 @@ msgstr ""
 "عمارات للبيع، وحدات سكنية في %(city_or_country)s، عقارات تجارية للبيع، "
 "عقارات تجارية للبيع في %(city_or_country)s"
 
-#: fuego/meta_settings.py:172
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:218
 #, python-format
 msgid "Plots & Land for Sale in %(city_comma_country)s | dubizzle %(country)s"
 msgstr "أراضي للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:173
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:220
 #, python-format
 msgid ""
 "Buy & sell plots and land in %(city_comma_country)s. Search for land for "
@@ -569,7 +616,8 @@ msgstr ""
 "بيع وشراء الاراضي في %(city_comma_country)s. أبحث عن اراضي للبيع من المالك "
 "مباشرة."
 
-#: fuego/meta_settings.py:174
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:222
 #, python-format
 msgid ""
 "Land for sale in %(city_or_country)s, land %(city_or_country)s, sale "
@@ -578,14 +626,16 @@ msgstr ""
 "أراضي للبيع في %(city_or_country)s، أرض في %(city_or_country)s، أراضي للبيع "
 "%(city_or_country)s"
 
-#: fuego/meta_settings.py:177
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:226
 #, python-format
 msgid ""
 "Real Estate & Property for Rent in %(city_comma_country)s | dubizzle "
 "%(country)s"
 msgstr "عقارات للايجار في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:178
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:228
 #, python-format
 msgid ""
 "Click here to view listings on real estate & properties for rent in "
@@ -595,7 +645,8 @@ msgstr ""
 "أضغط هنا لمشاهدة اعلانات تأجير العقارات في %(city_comma_country)s - فلل، "
 "شقق، منازل، أراضي، محلات تجارية، مباني وغيرها "
 
-#: fuego/meta_settings.py:179
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:230
 #, python-format
 msgid ""
 "properties in %(city_or_country)s, properties %(city_or_country)s, "
@@ -606,12 +657,14 @@ msgstr ""
 "عقارات في %(city_or_country)s، عقارات للايجار في %(city_or_country)s، عقارات "
 "للايجار، عقار للايجار، ايجار عقارات %(city_or_country)s"
 
-#: fuego/meta_settings.py:182
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:234
 #, python-format
 msgid "Houss & Villas for Ren in %(city_comma_country)s | dubizzle %(country)s"
 msgstr "بيوت وفلل للايجار في %(city_comma_country)s - دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:183
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:236
 #, python-format
 msgid ""
 "Click here to view listings of houses and villas for rent in "
@@ -621,7 +674,8 @@ msgstr ""
 "أضغط هنا لمشاهدة اعلانات البيوت والفلل للايجار في %(city_comma_country)s، - "
 "فلل للعطلات، فلل فاخرة للبيع، فلل بجميع أنواعها هنا "
 
-#: fuego/meta_settings.py:184
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:238
 #, python-format
 msgid ""
 "house for rent, villa for rent, homes in %(city_or_country)s, villas "
@@ -632,13 +686,15 @@ msgstr ""
 "بيوت للايجار، فلل للايجار في %(city_or_country)s، فلل في "
 "%(city_or_country)s، بيوت للايجار في %(city_or_country)s"
 
-#: fuego/meta_settings.py:187
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:242
 #, python-format
 msgid ""
 "Flats & Apartments for Rent in %(city_comma_country)s | dubizzle %(country)s"
 msgstr "شقق للايجار في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:188
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:244
 #, python-format
 msgid ""
 "Click here to view flats & apartments for rent in %(city_comma_country)s - "
@@ -647,7 +703,8 @@ msgstr ""
 "أضغط هنا لمشاهدة الشقق للايجار في %(city_comma_country)s - شقق مفروشة، "
 "ستوديوهات، شقق فندقية وغيرها"
 
-#: fuego/meta_settings.py:189
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:246
 #, python-format
 msgid ""
 "apartment for rent, apartment for rent, apartments for %(city_or_country)s "
@@ -656,7 +713,8 @@ msgstr ""
 "شقق للايجار، شقق في %(city_or_country)s، شقق للايجار في %(city_or_country)s، "
 "شقة للايجار في %(city_or_country)s"
 
-#: fuego/meta_settings.py:192
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:250
 #, python-format
 msgid ""
 "Commercial Property for Rent - Offices, Shops & Buildings | dubizzle "
@@ -664,7 +722,8 @@ msgid ""
 msgstr ""
 "عقارات ومحلات تجارية للايجار - مكاتب، مقاهي، عمارات | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:193
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:252
 #, python-format
 msgid ""
 "Click here to view commercial properties for rent in %(city_comma_country)s "
@@ -674,7 +733,8 @@ msgstr ""
 "أضغط هنا لمشاهدة العقارات التجارية المعروضة للايجار في "
 "%(city_comma_country)s. ابحث عن مكاتب، مقاهي، عمارات، أراضي ومخازن"
 
-#: fuego/meta_settings.py:194
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:254
 #, python-format
 msgid ""
 "commercial property to rent, commercial property for rent in "
@@ -686,14 +746,16 @@ msgstr ""
 "تجارية للايجار في %(city_or_country)s، محلات تجارية للايجار "
 "%(city_or_country)s"
 
-#: fuego/meta_settings.py:197
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:258
 #, python-format
 msgid ""
 "Room for Rent %(city_comma_country)s - Villas & Apartments | dubizzle "
 "%(country)s"
 msgstr "غرف للايجار في %(city_comma_country)s - شقق وفلل | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:198
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:260
 #, python-format
 msgid ""
 "Click here to view available rooms for rent in flats, villas, houses, and "
@@ -702,7 +764,8 @@ msgstr ""
 "أضغط هنا لمشاهدة الغرف المتاحة للايجار داخل الشقق والفلل والمنازل في "
 "%(city_comma_country)s"
 
-#: fuego/meta_settings.py:199
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:262
 #, python-format
 msgid ""
 "room for rent in %(city_or_country)s, rooms for rent, room for one person, "
@@ -711,7 +774,8 @@ msgstr ""
 "غرف للايجار في %(city_or_country)s، غرف للايجار، غرفة مفردة، ايجار غرفة في "
 "%(city_or_country)s"
 
-#: fuego/meta_settings.py:202
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:266
 #, python-format
 msgid ""
 "Short Term & Vacation Rentals in %(city_comma_country)s | dubizzle "
@@ -720,7 +784,8 @@ msgstr ""
 "شقق بعقود قصيرة الأمد و شقق سياحية في %(city_comma_country)s | دوبيزل "
 "%(country)s"
 
-#: fuego/meta_settings.py:203
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:268
 #, python-format
 msgid ""
 "Find short term & vacation rentals in %(city_comma_country)s including short "
@@ -730,7 +795,8 @@ msgstr ""
 "هنا تجد شقق سياحية وشقق بعقود قصيرة الأمد في %(city_comma_country)s - شقق "
 "سياحية، غرف و شقق بعقود يومية او اسبوعية، شقق فندقية وغيرها "
 
-#: fuego/meta_settings.py:204
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:270
 msgid ""
 "Holiday rentals, short stay rental, apartment for short stay, short stay "
 "contract, rent short stay, short stay rental, short stay apartment for rent"
@@ -738,13 +804,15 @@ msgstr ""
 "شقق بعقود قصيرة الأمد و شقق سياحية، شقق بعقود يومية او اسبوعية، شقق فندقية "
 "وغيرها"
 
-#: fuego/meta_settings.py:207
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:274
 #, python-format
 msgid ""
 "Wanted - Properties for Rent in %(city_comma_country)s | dubizzle %(country)s"
 msgstr "مطلوب عقارات للايجار في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:208
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:276
 #, python-format
 msgid ""
 "Looking to rent properties and real estate in %(city_comma_country)s "
@@ -754,7 +822,8 @@ msgstr ""
 " هل تبحث عن أجار عقارات في %(city_comma_country)s - فلل، منازل، شقق، عقارات "
 "تجارية وغيرها؟ أضف اعلانك الان على دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:209
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:278
 #, python-format
 msgid ""
 "looking to rent short stay, short stay rental, short stay rental ads, short "
@@ -763,7 +832,8 @@ msgstr ""
 "هنا تبحث عن شقق سياحية وشقق بعقود قصيرة الأمد في %(city_or_country)s - شقق "
 "سياحية، غرف و شقق بعقود يومية او اسبوعية، شقق فندقية وغيرها "
 
-#: fuego/meta_settings.py:212
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:282
 #, python-format
 msgid ""
 "Items for Sale in %(city_comma_country)s - Find, Buy & Sell Anything | "
@@ -772,7 +842,8 @@ msgstr ""
 "اعلانات مبوبة مجانية في %(city_comma_country)s - بيع وشراء اي شيء | دوبيزل "
 "%(country)s"
 
-#: fuego/meta_settings.py:213
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:284
 #, python-format
 msgid ""
 "Free classifieds in %(city_comma_country)s  - Find cars for sale, items for "
@@ -782,12 +853,14 @@ msgstr ""
 "اعلانات مبوبة مجانية في %(city_comma_country)s - سيارات للبيع، الكترونيات، "
 "ملابس، أثاث، كمبيوترات، ألعاب، موبايلات وغيرها الكثير من السلع للبيع"
 
-#: fuego/meta_settings.py:214
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:286
 #, python-format
 msgid "ads, free ads, %(country)s classifieds"
 msgstr "اعلانات مبوبة، اعلانات مجانية، اعلانات %(country)s"
 
-#: fuego/meta_settings.py:217
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:290
 #, python-format
 msgid ""
 "Buy & Sell Baby Clothes & Items in %(city_comma_country)s | dubizzle "
@@ -796,7 +869,8 @@ msgstr ""
 "بيع وشراء ملابس ومستلزمات الاطفال في %(city_comma_country)s | دوبيزل "
 "%(country)s"
 
-#: fuego/meta_settings.py:218
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:292
 #, python-format
 msgid ""
 "Find new and used baby items including clothes, toys, car seats, feeding "
@@ -806,7 +880,8 @@ msgstr ""
 "ابحث و جد مستلزمات جديدة ومستعملة للأطفال، ألعاب، مقاعد جلوس وغيرها في "
 "%(city_comma_country)s. اضعط هنا لمشاهدة الصور والأسعار"
 
-#: fuego/meta_settings.py:219
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:294
 #, python-format
 msgid ""
 "baby items, clothing, toys, car seats, bottles, nursery furniture in "
@@ -815,13 +890,15 @@ msgstr ""
 "ملابس ومستلزمات الأطفال، ألعاب، مقاعد السيارات للأطفال في "
 "%(city_or_country)s، في %(country)s"
 
-#: fuego/meta_settings.py:222
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:298
 #, python-format
 msgid ""
 "Yachts & Boats for sale in %(city_comma_country)s | dubizzle %(country)s"
 msgstr "يخوت وقوارب للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:223
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:300
 #, python-format
 msgid ""
 "Buy or sell a wide range of new and used boats and yachts from direct "
@@ -831,14 +908,16 @@ msgstr ""
 "بيع وشراء مجموعة واسعة من القوارب واليخوت الجديدة والمستعملة ومن المالك "
 "مباشرة في %(city_comma_country)s. أضغط هنا لمشاهدة الصور والأسعار"
 
-#: fuego/meta_settings.py:224
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:302
 #, python-format
 msgid ""
 "boats for sale, yachts for sale, fishing boat, boats, boats for sale, boats "
 "in %(city_or_country)s"
 msgstr "يخوت وقوارب للبيع، قوارب صيد الأسماك في %(city_or_country)s"
 
-#: fuego/meta_settings.py:227
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:306
 #, python-format
 msgid ""
 "Buy & Sell New & Used Books in %(city_comma_country)s | dubizzle %(country)s"
@@ -846,7 +925,8 @@ msgstr ""
 "بيع وشراء الكتب الجديدة والمستعملة في %(city_comma_country)s | دوبيزل "
 "%(country)s"
 
-#: fuego/meta_settings.py:228
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:308
 #, python-format
 msgid ""
 "Buy & sell new and used books including audio books, e-books, fiction & non-"
@@ -857,7 +937,8 @@ msgstr ""
 "روايات، وغيرها الكثير في %(city_comma_country)s. اضغط هنا لمشاهدة الصور "
 "والأسعار"
 
-#: fuego/meta_settings.py:229
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:310
 #, python-format
 msgid ""
 "selling books, e-books, textbooks, bestsellers, new and used books for sale "
@@ -868,14 +949,16 @@ msgstr ""
 "%(city_or_country)s، بيع كتب في %(city_or_country)s، كتب مدرسية للبيع في "
 "%(city_or_country)s "
 
-#: fuego/meta_settings.py:232
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:314
 #, python-format
 msgid ""
 "Business & Industrial Equipment for Sale in %(city_comma_country)s | "
 "dubizzle %(country)s"
 msgstr "معدات صناعية للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:233
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:316
 #, python-format
 msgid ""
 "Buy & sell business & industrial equipment including heavy equipment, "
@@ -885,20 +968,23 @@ msgstr ""
 "بيع وشراء المعدات الصناعية الثقيلة من رافعات وغيرها في "
 "%(city_comma_country)s. أضغط هنا لمشاهدة الصور والأسعار وكافة التفاصيل"
 
-#: fuego/meta_settings.py:234
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:318
 msgid ""
 "Industrial Equipment, Professional Equipment, Heavy Equipment, agricultural "
 "equipment, and manufacturing equipment, equipment for sale"
 msgstr "معدات صناعية، معدات ثقيلة، رافعات، خلاطات، معدات ثقيلة للبيع "
 
-#: fuego/meta_settings.py:237
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:322
 #, python-format
 msgid ""
 "Camcorders & Cameras for Sale in %(city_comma_country)s | dubizzle "
 "%(country)s"
 msgstr "كاميرات للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:238
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:324
 #, python-format
 msgid ""
 "Buy & sell used cameras, digital cameras, dslr cameras camcorders, "
@@ -908,14 +994,15 @@ msgstr ""
 "بيع وشراء كاميرات، كاميرات رقمية، كاميرات ديجيتال، اكسسوارات الكاميرا في "
 "%(city_comma_country)s. أضغط هنا لمشاهدة الصور والأسعار."
 
-#: fuego/meta_settings.py:239
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:326
 msgid ""
 "Cameras for sale, camcorders, digital cameras, cameras, nikon, canon, fuji"
 msgstr ""
 "كاميرات للبيع، كاميرات ديجيتال، كاميرات رقمية، كاميرات فيديو، كاميرة نيكون، "
 "فوجي، كانون "
 
-#: fuego/meta_settings.py:242
+#: fuego/meta_settings.py:329
 #, python-format
 msgid ""
 "Accessories, Clothes & Dresses for Sale in %(city_comma_country)s | dubizzle "
@@ -923,7 +1010,8 @@ msgid ""
 msgstr ""
 "أكسسوارات, ملابس فساتين للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:243
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:331
 #, python-format
 msgid ""
 "Buy & sell clothing & accessories including dresses, sunglasses, jewelry, "
@@ -933,13 +1021,15 @@ msgstr ""
 "بيع وشراء ملابس واكسسوارات، نظارات شمسية، مجوهرات، حقائب يد، أحذية، عطور "
 "وغيرها في %(city_comma_country)s. أضغط هنا لمشاهدة الصور والأسعار."
 
-#: fuego/meta_settings.py:244
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:333
 msgid ""
 "dresses for sale, clothing, accessories, fashion, men's clothing, women's "
 "clothing"
 msgstr "فساتين للبيع، ملابس للبيع، موضة، ملابس ستاتي، ملابس رجال، اكسسوارات"
 
-#: fuego/meta_settings.py:247
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:337
 #, python-format
 msgid ""
 "Laptops, Tablets & Computers for Sale in %(city_comma_country)s | dubizzle "
@@ -947,7 +1037,8 @@ msgid ""
 msgstr ""
 "كمبيوترات ولابتوبات للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:248
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:339
 #, python-format
 msgid ""
 "Buy & sell computers, pc, laptops, tablets, ipads, printers, monitors, hard "
@@ -957,11 +1048,13 @@ msgstr ""
 "بيع وشراء الكمبيوترات، لابتوبات، كمبيوترات محمولة، آيباد و اكسسوارات "
 "الكمبيوتر في %(city_comma_country)s. أضغط هنا لمشاهدة الصور والأسعار."
 
-#: fuego/meta_settings.py:249
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:341
 msgid "laptops for sale, computer, computers, ipad, mac, printers"
 msgstr "لابتوبات للبيع، كمبيوترات محمولة، ايباد، طابعة، ماك للبيع"
 
-#: fuego/meta_settings.py:252
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:345
 #, python-format
 msgid ""
 "Home Appliances & Electronics for Sale in %(city_comma_country)s | dubizzle "
@@ -970,7 +1063,8 @@ msgstr ""
 "أدوات منزلية و ألكترونيات للبيع في %(city_comma_country)s | دوبيزل "
 "%(country)s"
 
-#: fuego/meta_settings.py:253
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:347
 #, python-format
 msgid ""
 "Discover great deals on used electronics, gadgets, tv's, refrigerators, home "
@@ -981,7 +1075,8 @@ msgstr ""
 "وجميع أدوات المنزل في %(city_comma_country)s. أضغط هنا لمشاهدة الصور "
 "والأسعار."
 
-#: fuego/meta_settings.py:254
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:349
 #, python-format
 msgid ""
 "Electronics devices, electronic selling, televisions, home theater speakers, "
@@ -991,7 +1086,8 @@ msgstr ""
 "أداوت منزلية و ألكترونيات للبيع، تلفزيونات، سماعات، غسالات، ثلاجات في "
 "%(city_or_country)s"
 
-#: fuego/meta_settings.py:257
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:353
 #, python-format
 msgid ""
 "Garden & Home Furniture for Sale in %(city_comma_country)s | dubizzle "
@@ -999,7 +1095,8 @@ msgid ""
 msgstr ""
 "أثاث المنزل والحدائق للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:258
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:355
 #, python-format
 msgid ""
 "Find brand new and used home and garden furniture in %(city_comma_country)s "
@@ -1010,7 +1107,8 @@ msgstr ""
 "- مقاعد، كنبايات، طاولات وغيرها من المفروشات. أضغط هنا لمشاهدة الصور "
 "والأسعار."
 
-#: fuego/meta_settings.py:259
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:357
 #, python-format
 msgid ""
 "furniture for sale, home, garden, bed, tables, sofa, wardrobe, lounge, "
@@ -1019,13 +1117,15 @@ msgstr ""
 "أثاث المنزل والحدائق للبيع، طاولات، أريكة، سرير، خزانة، غرفة الجلوس في "
 "%(city_or_country)s"
 
-#: fuego/meta_settings.py:262
+#. Translators: title -  - Search Page
+#: fuego/meta_settings.py:361
 #, python-format
 msgid ""
 "Jewelry & Watches for Sale in %(city_comma_country)s | dubizzle %(country)s"
 msgstr "مجوهرات وساعات للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:263
+#. Translators: description -  - Search Page
+#: fuego/meta_settings.py:363
 msgid ""
 "Buy & sell a wide range of jewelry and watches including earrings, "
 "necklaces, rings, men's and women's watches. Click here to see prices and "
@@ -1034,7 +1134,8 @@ msgstr ""
 "بيع وشراء مجموعة كبيرة من الساعات و المجوهرات بما فيها عقود، حلق، خواتم، "
 "ساعات للرجال و النساء. أضغط هنا لمشاهدة الصورة والأسعار."
 
-#: fuego/meta_settings.py:264
+#. Translators: keywords -  - Search Page
+#: fuego/meta_settings.py:365
 #, python-format
 msgid ""
 "watches for sale, jewelry, rings, watches for men, watches for women, "
@@ -1043,7 +1144,8 @@ msgstr ""
 "ساعات للبيع، مجوهرات للبيع، خواتم للبيع، ساعات رجالي، ساعات للنساء، ألماس "
 "للبيع في %(city_or_country)s"
 
-#: fuego/meta_settings.py:267
+#. Translators: title - items-for-sale/motorcycles-bikes - Search Page
+#: fuego/meta_settings.py:369
 #, python-format
 msgid ""
 "Motorcycle & Bikes for Sale in %(city_comma_country)s | dubizzle %(country)s"
@@ -1051,7 +1153,8 @@ msgstr ""
 "دراجات هوائية ودراجات نارية للبيع في %(city_comma_country)s | دوبيزل "
 "%(country)s"
 
-#: fuego/meta_settings.py:268
+#. Translators: description - items-for-sale/motorcycles-bikes - Search Page
+#: fuego/meta_settings.py:371
 #, python-format
 msgid ""
 "Buy & Sell motorcycles and bikes in %(city_comma_country)s. Find photos and "
@@ -1060,7 +1163,8 @@ msgstr ""
 "دراجات هوائية ودراجات نارية للبيع في %(city_comma_country)s. ابحث و جد صور "
 "وأسعار الدراجات الجديدة والمستعملة واشتري من البائع مباشرة"
 
-#: fuego/meta_settings.py:269
+#. Translators: keywords - items-for-sale/motorcycles-bikes - Search Page
+#: fuego/meta_settings.py:373
 #, python-format
 msgid ""
 "bikes for sale, motorcycles for sale, honda, suzuzki, harley, kawasaki, "
@@ -1069,7 +1173,8 @@ msgstr ""
 "دراجات للبيع، دراجات هوائية للبيع، دراجات نارية للبيع، هوندا، سوزوكي، "
 "موتوسيكل للبيع في %(city_or_country)s"
 
-#: fuego/meta_settings.py:272
+#. Translators: title - items-for-sale/mobile-phones - Search Page
+#: fuego/meta_settings.py:377
 #, python-format
 msgid ""
 "Mobile Phones, PDA's & iPhones for Sale in %(city_comma_country)s | dubizzle "
@@ -1077,7 +1182,8 @@ msgid ""
 msgstr ""
 "هواتف محمولة و آيفونات للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:273
+#. Translators: description - items-for-sale/mobile-phones - Search Page
+#: fuego/meta_settings.py:379
 #, python-format
 msgid ""
 "Buy & sell a wide range of mobile phones, pda's and iphones including mobile "
@@ -1087,7 +1193,8 @@ msgstr ""
 "بيع وشراء مجموعة كبيرة من الهواتف المحمولة و مستلزماتها، أيفون أيباد وغيرها "
 "في %(city_comma_country)s. أضغط هنا لمشاهدة الصور والأسعار."
 
-#: fuego/meta_settings.py:274
+#. Translators: keywords - items-for-sale/mobile-phones - Search Page
+#: fuego/meta_settings.py:381
 msgid ""
 "iphone for sale, mobile phones, cell phone, smart phone, pda, android "
 "phones, handheld, samsung, nokia"
@@ -1095,14 +1202,16 @@ msgstr ""
 "أيفون للبيع، موبايل للبيع، موبايلات للبيع، هواتف ذكية للبيع، موبايل اندرويد، "
 "سامسونج، نوكيا"
 
-#: fuego/meta_settings.py:277
+#. Translators: title - items-for-sale/movies-music - Search Page
+#: fuego/meta_settings.py:385
 #, python-format
 msgid ""
 "Music & DVD Movies for Sale in %(city_comma_country)s | dubizzle %(country)s"
 msgstr ""
 "موسيقى وأفلام ديفيدي للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:278
+#. Translators: description - items-for-sale/movies-music - Search Page
+#: fuego/meta_settings.py:387
 #, python-format
 msgid ""
 "Buy & sell dvd, blu ray, and high definition movies, cd's, mp3 music, and "
@@ -1111,17 +1220,20 @@ msgstr ""
 "بيع وشراء أفلام ديفيدي، سيديات، موسيقى ام بي ثري وغيرها في "
 "%(city_comma_country)s. أضغط هنا لمشاهدة الصور والأسعار."
 
-#: fuego/meta_settings.py:279
+#. Translators: keywords - items-for-sale/movies-music - Search Page
+#: fuego/meta_settings.py:389
 msgid "dvd for sale, cd's, mp3 music"
 msgstr "أفلام ديفيدي، أفلام ديفيدي للبيع، موسيقى للبيع، أغاني ام بي ثري للبيع"
 
-#: fuego/meta_settings.py:282
+#. Translators: title - items-for-sale/musical-instruments - Search Page
+#: fuego/meta_settings.py:393
 #, python-format
 msgid ""
 "Musical Instruments for Sale in %(city_comma_country)s | dubizzle %(country)s"
 msgstr "آلات موسيقية للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:283
+#. Translators: description - items-for-sale/musical-instruments - Search Page
+#: fuego/meta_settings.py:395
 #, python-format
 msgid ""
 "Buy & sell new and used musical instruments including pianos, guitars, "
@@ -1131,7 +1243,8 @@ msgstr ""
 "بيع وشراء آلات موسيقية جديدة ومستعملة بما فيها بيانو، جيتار، كمنجة وغيرها "
 "الكثير في %(city_comma_country)s. أضغط هنا لمشاهدة الصور والأسعار."
 
-#: fuego/meta_settings.py:284
+#. Translators: keywords - items-for-sale/musical-instruments - Search Page
+#: fuego/meta_settings.py:397
 #, python-format
 msgid ""
 "Musical Instruments for sale, guitars, violins, drums, speakers, musical "
@@ -1140,12 +1253,14 @@ msgstr ""
 "آلات موسيقية للبيع، جيتار، كمنجة، طبل، بيانو، مكبرات الصوت للبيع في "
 "%(city_or_country)s"
 
-#: fuego/meta_settings.py:287
+#. Translators: title - items-for-sale/pets - Search Page
+#: fuego/meta_settings.py:401
 #, python-format
 msgid "Animals & Pets in %(city_comma_country)s | dubizzle %(country)s"
 msgstr "حيوانات أليفة للتبني في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:288
+#. Translators: description - items-for-sale/pets - Search Page
+#: fuego/meta_settings.py:403
 #, python-format
 msgid ""
 "Want to buy or adopt pets in %(city_comma_country)s Find dogs, puppies, "
@@ -1154,18 +1269,21 @@ msgstr ""
 "تبني حيوانات أليفة، كلاب، قطط، طيور وغيرها في %(city_comma_country)s اليوم. "
 "أضغط هنا لمشاهدة الصور."
 
-#: fuego/meta_settings.py:289
+#. Translators: keywords - items-for-sale/pets - Search Page
+#: fuego/meta_settings.py:405
 msgid "pets, dogs, cats, puppies, kittens, pets, pet adoption"
 msgstr "حيوانات أليفة للتبني، كلاب، قطط، طيور، حيوانات، حيوانات أليفة للتبني"
 
-#: fuego/meta_settings.py:292
+#. Translators: title - items-for-sale/sports-equipment - Search Page
+#: fuego/meta_settings.py:409
 #, python-format
 msgid ""
 "Sports & Gym Equipment for Sale in %(city_comma_country)s | dubizzle "
 "%(country)s"
 msgstr "معدات رياضية للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:293
+#. Translators: description - items-for-sale/sports-equipment - Search Page
+#: fuego/meta_settings.py:411
 #, python-format
 msgid ""
 "Buy & sell new and used sports & gym equipment including treadmills, "
@@ -1175,11 +1293,13 @@ msgstr ""
 "بيع وشراء أجهزة و معدات رياضية مثل جهاز المشي وجهاز المعدة و تقوية العضلات "
 "والأثقال وغيرها في %(city_comma_country)s . أضغط هنا لمشاهدة الصور والأسعار."
 
-#: fuego/meta_settings.py:294
+#. Translators: keywords - items-for-sale/sports-equipment - Search Page
+#: fuego/meta_settings.py:413
 msgid "Gym equipment, treadmill, sports, fitness, weight, weights"
 msgstr "معدات رياضية، أجهزة رياضة، جهاز مشي، جهاز معدة، جهاز تقوية عضلا، أثقال"
 
-#: fuego/meta_settings.py:297
+#. Translators: title - items-for-sale/tickets-vouchers - Search Page
+#: fuego/meta_settings.py:417
 #, python-format
 msgid ""
 "Vouchers, Concert & Airline Tickets for Sale in %(city_comma_country)s | "
@@ -1188,7 +1308,8 @@ msgstr ""
 "كوبونات وقسائم و تذاكر طيارات للبيع في %(city_comma_country)s | دوبيزل  "
 "%(country)s"
 
-#: fuego/meta_settings.py:298
+#. Translators: description - items-for-sale/tickets-vouchers - Search Page
+#: fuego/meta_settings.py:419
 #, python-format
 msgid ""
 "Buy & sell tickets & vouchers including airline tickets, concert tickets, "
@@ -1198,20 +1319,23 @@ msgstr ""
 "بيع وشراء كوبونات وقسائم، تذاكر طيارات، تذاكر حفلات، تذاكر سينما، وغيرها "
 "الكثير في %(city_comma_country)s. أضغط لمشاهدة الصور والأسعار."
 
-#: fuego/meta_settings.py:299
+#. Translators: keywords - items-for-sale/tickets-vouchers - Search Page
+#: fuego/meta_settings.py:421
 #, python-format
 msgid ""
 "concert tickets, vouchersfor sale, Events and Tickets, Concert tickets for "
 "sale in %(city_or_country)s"
 msgstr "كوبونات وقسائم وتذاكر طيارات. تذاكر خفلات للبيع في %(city_or_country)s"
 
-#: fuego/meta_settings.py:302
+#. Translators: title - items-for-sale/toys-collectibles - Search Page
+#: fuego/meta_settings.py:425
 #, python-format
 msgid ""
 "Collectibles & Toys for Sale in %(city_comma_country)s | dubizzle %(country)s"
 msgstr "ألعاب للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:303
+#. Translators: description - items-for-sale/toys-collectibles - Search Page
+#: fuego/meta_settings.py:427
 #, python-format
 msgid ""
 "Buy & sell new and used collectibles and toys including action figures, "
@@ -1221,11 +1345,13 @@ msgstr ""
 "بيع وشراء الألعاب والألغار والحزازير في %(city_comma_country)s. أضغط هنا "
 "لمشاهدة الصور والأسعار."
 
-#: fuego/meta_settings.py:304
+#. Translators: keywords - items-for-sale/toys-collectibles - Search Page
+#: fuego/meta_settings.py:429
 msgid "Toys for sale, collectibles, gifts, collectibles, antiques"
 msgstr "ألعاب للبيع، حزازير، ألغاز، المقتنيات"
 
-#: fuego/meta_settings.py:307
+#. Translators: title - items-for-sale/video-games - Search Page
+#: fuego/meta_settings.py:433
 #, python-format
 msgid ""
 "Game Consoles & Video Games for Sale in %(city_comma_country)s | dubizzle "
@@ -1233,7 +1359,8 @@ msgid ""
 msgstr ""
 "أجهزة و ألعاب فيديو للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:308
+#. Translators: description - items-for-sale/video-games - Search Page
+#: fuego/meta_settings.py:435
 #, python-format
 msgid ""
 "Buy & sell video games, game consoles, and game accessories in "
@@ -1243,36 +1370,43 @@ msgstr ""
 "بيع وشراء أجهزة و ألعاب الفيديو ومستلزماتها في %(city_comma_country)s بما "
 "فيها اكس بوكس، بلايستيشن، وغيرها الكثير. أضغط هنا لمشاهدة الصور والأسعار."
 
-#: fuego/meta_settings.py:309
+#. Translators: keywords - items-for-sale/video-games - Search Page
+#: fuego/meta_settings.py:437
 msgid "video games, xbox 360, playstation, ps3, psp, nintendo, pc games"
 msgstr "ألعاب فيديو، بليستيشن، بلايستيشن، أكس بوكس، ألعاب كمبيوتر "
 
-#: fuego/meta_settings.py:312
+#. Translators: title - items-for-sale/items-wanted - Search Page
+#: fuego/meta_settings.py:441
 #, python-format
 msgid "Items Wanted in %(city_comma_country)s | dubizzle %(country)s"
 msgstr "أشياء مطلوبة في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:313
+#. Translators: description - items-for-sale/items-wanted - Search Page
+#: fuego/meta_settings.py:443
 #, python-format
 msgid "List your wanted items & stuff for free on dubizzle %(country)s."
 msgstr "أضف اعلان بالأشياء المطلوبة التي تحتاجها مجاناً على دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:314
+#. Translators: keywords - items-for-sale/items-wanted - Search Page
+#: fuego/meta_settings.py:445
 msgid "Items wanted, looking for"
 msgstr "أشياء مطلوبة، سلع مطلوبة"
 
-#: fuego/meta_settings.py:317
+#. Translators: title - items-for-sale/other-items - Search Page
+#: fuego/meta_settings.py:449
 #, python-format
 msgid "Other Items for Sale in  %(city_comma_country)s | dubizzle %(country)s"
 msgstr "أشياء أخرى للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:318
+#. Translators: description - items-for-sale/other-items - Search Page
+#: fuego/meta_settings.py:451
 #, python-format
 msgid ""
 "Buy & sell any other items. List your ads for free on dubizzle %(country)s."
 msgstr "بيع وشراء أشياء أخرى. أضف اعلانك مجاناً على دوبيزل %(country)s"
 
-#: fuego/meta_settings.py:319
+#. Translators: keywords - items-for-sale/other-items - Search Page
+#: fuego/meta_settings.py:453
 #, python-format
 msgid ""
 "Other items, items for sale, Other Items for Sale in %(city_or_country)s"
