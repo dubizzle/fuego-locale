@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-16 19:49+0400\n"
-"PO-Revision-Date: 2012-09-11 17:20+0200\n"
-"Last-Translator: dubizzle <dubizzle@dubizzle.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: ar\n"
+"PO-Revision-Date: 2012-10-16 18:13+0400\n"
+"Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
+"Language-Team: Arabic - Tunisian <http://translate.dubizzlecloud.com/"
+"projects/fuego/fuego/ar_TN/>\n"
+"Language: ar_TN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Pootle 2.1.6\n"
+"X-Generator: Weblate 1.3\n"
 
 #: authentication/forms.py:17 authentication/forms.py:153
 #: templates/authentication/forgot_password.html:25
@@ -434,13 +435,13 @@ msgstr ""
 
 #. Translators: description -  - Search Page
 #: fuego/meta_settings.py:172
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Looking to land a %(category_leaf)s job in %(city_comma_country)s ? Post "
 "Your skills and experience on dubizzle's Free Job Classifieds."
 msgstr ""
-"هل تبحث عن اضافة اعلان توظيف %(category_leaf)s في %(city_comma_country)s؟ "
-"أضف خبراتك وسيرتك الذاتية على دوبيزل [Country]'s لاعلانات التوظيف المجانية"
+"هل تبحث عن اضافة اعلان توظيف %(category_leaf)s في %(city_comma_country)s ؟ "
+"أضف خبراتك وسيرتك الذاتية على دوبيزل لاعلانات التوظيف المجانية"
 
 #. Translators: keywords -  - Search Page
 #: fuego/meta_settings.py:174
@@ -1411,280 +1412,6 @@ msgid ""
 "Other items, items for sale, Other Items for Sale in %(city_or_country)s"
 msgstr "أشياء للبيع، سلع للبيع، أغراض للبيع في %(city_or_country)s"
 
-#: fuego/qatar_settings.py:34
-msgid "Qatar"
-msgstr "قطر"
-
-#: fuego/qatar_settings.py:36
-msgid "QAR"
-msgstr "ريال قطري"
-
-#: fuego/qatar_settings.py:46
-msgid "Doha"
-msgstr "الدوحة"
-
-#: fuego/qatar_settings.py:66
-msgid "West Bay"
-msgstr "الخليج الغربي"
-
-#: fuego/qatar_settings.py:71
-msgid "Madinat Khalifa"
-msgstr "مدينة خليفة"
-
-#: fuego/qatar_settings.py:76
-msgid "Fereej Bin Mahmoud"
-msgstr "فريج بن محمود"
-
-#: fuego/qatar_settings.py:81
-msgid "Wadi Al Sail"
-msgstr "وادي السيل"
-
-#: fuego/qatar_settings.py:86
-msgid "Al Salata"
-msgstr "السلطة"
-
-#: fuego/qatar_settings.py:91
-msgid "Al Souq"
-msgstr "السوق"
-
-#: fuego/qatar_settings.py:96
-msgid "Al Hitmi"
-msgstr "الهتمي"
-
-#: fuego/qatar_settings.py:101
-msgid "Al Jasra"
-msgstr "الجسرة"
-
-#: fuego/qatar_settings.py:106
-msgid "Al Najada"
-msgstr "النجادة"
-
-#: fuego/qatar_settings.py:111
-msgid "Doha Port"
-msgstr "ميناء دوحة"
-
-#: fuego/qatar_settings.py:116
-msgid "Al Hilal"
-msgstr "الهلال"
-
-#: fuego/qatar_settings.py:121
-msgid "Old Airport"
-msgstr "المطار القديم"
-
-#: fuego/qatar_settings.py:126
-msgid "Nuaija"
-msgstr "النعيجة"
-
-#: fuego/qatar_settings.py:131
-msgid "Fereej Al Ali"
-msgstr "فريج العلي"
-
-#: fuego/qatar_settings.py:136
-msgid "New Slata"
-msgstr "السلطة الجديدة"
-
-#: fuego/qatar_settings.py:141
-msgid "Al Asiri"
-msgstr "العسيري"
-
-#: fuego/qatar_settings.py:146
-msgid "Al Nasr"
-msgstr "النصر"
-
-#: fuego/qatar_settings.py:151
-msgid "Al Mirqab Al Jadeed"
-msgstr "المرقاب الجديد"
-
-#: fuego/qatar_settings.py:156
-msgid "Hamad Medical City"
-msgstr "مدينة حمد الطبية"
-
-#: fuego/qatar_settings.py:161
-msgid "Al Sadd"
-msgstr "السد"
-
-#: fuego/qatar_settings.py:166
-msgid "Al Rumaila West"
-msgstr "الرميلة -غرب"
-
-#: fuego/qatar_settings.py:171
-msgid "Al Rumaila East"
-msgstr "الرميلة -شرق"
-
-#: fuego/qatar_settings.py:176
-msgid "Al Bida"
-msgstr "البدا"
-
-#: fuego/qatar_settings.py:181
-msgid "Al Dafna"
-msgstr "الدفنة"
-
-#: fuego/qatar_settings.py:186
-msgid "Al khuwair"
-msgstr "الخوير"
-
-#: fuego/qatar_settings.py:191
-msgid "Onaiza"
-msgstr "عنيزة"
-
-#: fuego/qatar_settings.py:196
-msgid "Al Corniche"
-msgstr "الكورنيش"
-
-#: fuego/qatar_settings.py:201
-msgid "Diplomatic Area"
-msgstr "المنطقة الدبلوماسية"
-
-#: fuego/qatar_settings.py:206
-msgid "Onaiza 65"
-msgstr "عنيزة 65"
-
-#: fuego/qatar_settings.py:211
-msgid "Onaiza 63"
-msgstr "عنيزة 63"
-
-#: fuego/qatar_settings.py:216
-msgid "The Pearl-Qatar"
-msgstr "الؤلؤة -قطر"
-
-#: fuego/qatar_settings.py:221
-msgid "Al Tarfa"
-msgstr "الطرفة"
-
-#: fuego/qatar_settings.py:226
-msgid "Jeryan Nejaima"
-msgstr "جريان نجيمة"
-
-#: fuego/qatar_settings.py:231
-msgid "Jelaiah"
-msgstr "جلية"
-
-#: fuego/qatar_settings.py:236
-msgid "Al Markhiya"
-msgstr "المرخية"
-
-#: fuego/qatar_settings.py:241
-msgid "Al Duhail"
-msgstr "الدحيل"
-
-#: fuego/qatar_settings.py:246
-msgid "Fereej Kulaib"
-msgstr "فريج كليب"
-
-#: fuego/qatar_settings.py:251
-msgid "Fereej Bin Omran"
-msgstr "فريج بن عمران"
-
-#: fuego/qatar_settings.py:256
-msgid "Al Messila"
-msgstr "المسيلة"
-
-#: fuego/qatar_settings.py:261
-msgid "Fereej Al Amir"
-msgstr "فريج الأمير"
-
-#: fuego/qatar_settings.py:266
-msgid "Al Soudan"
-msgstr "السودان"
-
-#: fuego/qatar_settings.py:271
-msgid "Al Mansoura"
-msgstr "المنصورة"
-
-#: fuego/qatar_settings.py:276
-msgid "Najma"
-msgstr "نجمة"
-
-#: fuego/qatar_settings.py:281
-msgid "Al Muntazah"
-msgstr "المنتزه"
-
-#: fuego/qatar_settings.py:286
-msgid "Musherib"
-msgstr "المشيرب"
-
-#: fuego/qatar_settings.py:291
-msgid "Fereej Abdul Aziz"
-msgstr "فريج عبدالعزيز"
-
-#: fuego/qatar_settings.py:296
-msgid "Al Doha Al Jadeeda"
-msgstr "الدوحة الجديدة"
-
-#: fuego/qatar_settings.py:301
-msgid "Al Ghanim"
-msgstr "الغانم"
-
-#: fuego/qatar_settings.py:306
-msgid "Umm Ghuwailina"
-msgstr "ام غويلينه"
-
-#: fuego/qatar_settings.py:311
-msgid "Al Khulaifat"
-msgstr "الخليفات"
-
-#: fuego/qatar_settings.py:316
-msgid "Doha Airport"
-msgstr "مطار الدوحة"
-
-#: fuego/qatar_settings.py:321
-msgid "Ras Abu Abboud"
-msgstr "راس أبو عبود"
-
-#: fuego/qatar_settings.py:326
-msgid "Al Thumama"
-msgstr "الثمامة"
-
-#: fuego/qatar_settings.py:331
-msgid "The Heart Of Doha"
-msgstr "قلب الدوحة"
-
-#: fuego/qatar_settings.py:336
-msgid "Emiri Diwan"
-msgstr "الديوان الأميري"
-
-#: fuego/qatar_settings.py:341
-msgid "Al Khalifa Al Jadeeda"
-msgstr "الخليفة الجديدة"
-
-#: fuego/qatar_settings.py:346
-msgid "Al Maamoura"
-msgstr "المعمورة"
-
-#: fuego/qatar_settings.py:366
-msgid "English"
-msgstr ""
-
-#: fuego/qatar_settings.py:367
-msgid "Arabic"
-msgstr "عربي"
-
-#: fuego/qatar_settings.py:377
-msgid ""
-"Jobs in Qatar, Property & Real Estate For Sale & Rent, Cars for Sale - Free "
-"Classifieds in Qatar | dubizzle Qatar"
-msgstr ""
-"وظائف في قطر، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في قطر | "
-"دوبيزل قطر"
-
-#: fuego/qatar_settings.py:381
-msgid ""
-"dubizzle is your free and friendly local classifieds website in Qatar. Jobs, "
-"property, real estate, cars and classifieds in Qatar. Post an ad, browse "
-"ads, buy, sell or rent."
-msgstr ""
-"دوبيزل قطر موقع الإعلانات المبوبة المجانية المحلية - منتهى السهولة والبساطة. "
-"وظائف، عقارات، سيارات و اعلانات مبوبة في قطر. اضف اعلان، تصفح اعلانات، بيع "
-"واشتري وأجر."
-
-#: fuego/qatar_settings.py:386
-msgid ""
-"dubizzle Qatar, free classifieds, online classifieds, Qatar classifieds, "
-"free classifieds in Qatar"
-msgstr ""
-"دوبيزل قطر، مبوبة مجانيه، اعلانات مبوبة عبر الإنترنت، مبوبة قطر، اعلانات "
-"مبوبة مجانيه في قطر"
-
 #: fuego/shared_settings.py:168
 msgid "Unknown"
 msgstr "مجهول"
@@ -1698,6 +1425,428 @@ msgstr "الموقع بالكامل"
 #: fuego/shared_settings.py:384
 msgid "Studio"
 msgstr "ستوديو"
+
+#: fuego/tunisie_settings.py:34
+msgid "Tunisie"
+msgstr "تونس"
+
+#: fuego/tunisie_settings.py:36
+msgid "TND"
+msgstr "دينار تونسي"
+
+#: fuego/tunisie_settings.py:46
+msgid "Tunis"
+msgstr "تونس‎"
+
+#: fuego/tunisie_settings.py:62 fuego/tunisie_settings.py:467
+msgid "Sfax"
+msgstr "صفاقس"
+
+#: fuego/tunisie_settings.py:70 fuego/tunisie_settings.py:544
+msgid "Sousse"
+msgstr "سوسة"
+
+#: fuego/tunisie_settings.py:85
+msgid "Carthage"
+msgstr "قرطاج"
+
+#: fuego/tunisie_settings.py:90
+msgid "Sidi Bou Said"
+msgstr "سيدي بوسعيد"
+
+#: fuego/tunisie_settings.py:95
+msgid "Al Marsa"
+msgstr "المرسى"
+
+#: fuego/tunisie_settings.py:100
+msgid "Gammarth"
+msgstr "الغمارث"
+
+#: fuego/tunisie_settings.py:105
+msgid "La soukra"
+msgstr "سكرة"
+
+#: fuego/tunisie_settings.py:110
+msgid "Charguia"
+msgstr "الشرقية"
+
+#: fuego/tunisie_settings.py:115
+msgid "Le Kram"
+msgstr "الكرم"
+
+#: fuego/tunisie_settings.py:120
+msgid "Sidi Daoud"
+msgstr "سيدي داوود"
+
+#: fuego/tunisie_settings.py:125
+msgid "La Goulette"
+msgstr "حلق الوادي"
+
+#: fuego/tunisie_settings.py:130
+msgid "Megrine"
+msgstr "مقرين"
+
+#: fuego/tunisie_settings.py:135
+msgid "Ben Arous"
+msgstr "بن عروس"
+
+#: fuego/tunisie_settings.py:140
+msgid "Rades"
+msgstr "راديس"
+
+#: fuego/tunisie_settings.py:145
+msgid "Ez Zahra"
+msgstr "الزهراء"
+
+#: fuego/tunisie_settings.py:150
+msgid "Hammam lif"
+msgstr "حمام الأنف"
+
+#: fuego/tunisie_settings.py:155
+msgid "Bou Mhel el-Basatine"
+msgstr "بومهل البساتين"
+
+#: fuego/tunisie_settings.py:160
+msgid "Nouvelle Medina"
+msgstr "المدينة الجديدة"
+
+#: fuego/tunisie_settings.py:165
+msgid "El Mourouj"
+msgstr "المروج"
+
+#: fuego/tunisie_settings.py:170
+msgid "Tahar Haddad"
+msgstr "طاهر الحداد"
+
+#: fuego/tunisie_settings.py:175
+msgid "La Cagna"
+msgstr "لاكانيا"
+
+#: fuego/tunisie_settings.py:180
+msgid "Sayda El Manoubia"
+msgstr "السيدة المانوبية"
+
+#: fuego/tunisie_settings.py:185
+msgid "Bab El Gorjani"
+msgstr "باب الغرجيني"
+
+#: fuego/tunisie_settings.py:190
+msgid "Montfleury"
+msgstr "مونفلوري"
+
+#: fuego/tunisie_settings.py:195
+msgid "Bab Alioua"
+msgstr "باب عليوة"
+
+#: fuego/tunisie_settings.py:200
+msgid "Bab Al Jazera"
+msgstr "باب الجزيرة"
+
+#: fuego/tunisie_settings.py:205
+msgid "Nouvelle Ville"
+msgstr "المدينة الجديدة"
+
+#: fuego/tunisie_settings.py:210
+msgid "Sidi El Bichir"
+msgstr "سيدي البشير"
+
+#: fuego/tunisie_settings.py:215
+msgid "Souks"
+msgstr "السوق"
+
+#: fuego/tunisie_settings.py:220
+msgid "El Hafsia"
+msgstr "الحفصية"
+
+#: fuego/tunisie_settings.py:225
+msgid "Le Passage"
+msgstr "الباساج"
+
+#: fuego/tunisie_settings.py:230
+msgid "La Rabta"
+msgstr "الربطة"
+
+#: fuego/tunisie_settings.py:235
+msgid "El Halfaouine"
+msgstr "الهلفاوين"
+
+#: fuego/tunisie_settings.py:240
+msgid "Lafayette"
+msgstr "لافاييت"
+
+#: fuego/tunisie_settings.py:245
+msgid "Montplaisir"
+msgstr "مونبليزير"
+
+#: fuego/tunisie_settings.py:250
+msgid "Bourgil"
+msgstr "بورجيل"
+
+#: fuego/tunisie_settings.py:255
+msgid "An Najah"
+msgstr "النجاح"
+
+#: fuego/tunisie_settings.py:260
+msgid "Attayarane"
+msgstr "الطيران"
+
+#: fuego/tunisie_settings.py:265
+msgid "Bou Choucha"
+msgstr "بو شوشة"
+
+#: fuego/tunisie_settings.py:270
+msgid "Bab Saadoune"
+msgstr "باب سعدون"
+
+#: fuego/tunisie_settings.py:275
+msgid "Sous officiers"
+msgstr "ضباط الصف"
+
+#: fuego/tunisie_settings.py:280
+msgid "El Agba"
+msgstr "العقبة"
+
+#: fuego/tunisie_settings.py:285
+msgid "Dendan"
+msgstr "دندان"
+
+#: fuego/tunisie_settings.py:290
+msgid "La Manouba"
+msgstr "منوبة"
+
+#: fuego/tunisie_settings.py:295
+msgid "El Habib"
+msgstr "الحبيب"
+
+#: fuego/tunisie_settings.py:300
+msgid "Le Bardo"
+msgstr "الباردو"
+
+#: fuego/tunisie_settings.py:305
+msgid "Ras Ettabia"
+msgstr "راس العطابية"
+
+#: fuego/tunisie_settings.py:310
+msgid "Rommana"
+msgstr "رمانية"
+
+#: fuego/tunisie_settings.py:315
+msgid "Jbal Lahmar"
+msgstr "جبل الحمر"
+
+#: fuego/tunisie_settings.py:320 fuego/tunisie_settings.py:325
+msgid "El Omrane"
+msgstr "العمران"
+
+#: fuego/tunisie_settings.py:330
+msgid "Mutuelleville"
+msgstr "موتوالفيل"
+
+#: fuego/tunisie_settings.py:335
+msgid "Cite Jardins"
+msgstr "الحدائق"
+
+#: fuego/tunisie_settings.py:340
+msgid "Cite El Khadra"
+msgstr "حي الخضراء"
+
+#: fuego/tunisie_settings.py:345
+msgid "Cite Olympique"
+msgstr "الحي الأولمبي"
+
+#: fuego/tunisie_settings.py:350
+msgid "Al Manzah"
+msgstr "المنزه"
+
+#: fuego/tunisie_settings.py:355
+msgid "Al Manar"
+msgstr "المنار"
+
+#: fuego/tunisie_settings.py:360
+msgid "Cite Ibn Khaldoun"
+msgstr "حي إبن خلدون"
+
+#: fuego/tunisie_settings.py:365
+msgid "Cite Ettahrir"
+msgstr "حي التحرير"
+
+#: fuego/tunisie_settings.py:370
+msgid "Ariana"
+msgstr "أريانة‎"
+
+#: fuego/tunisie_settings.py:375
+msgid "Chotrana"
+msgstr "شوطرانة"
+
+#: fuego/tunisie_settings.py:380
+msgid "Sidi Salah"
+msgstr "سيدي صالح"
+
+#: fuego/tunisie_settings.py:385
+msgid "Al Rafaha"
+msgstr "الرفاهة"
+
+#: fuego/tunisie_settings.py:390
+msgid "Ceti Al Faouz"
+msgstr "حي الفوز"
+
+#: fuego/tunisie_settings.py:397
+msgid "Agareb"
+msgstr "عڨارب"
+
+#: fuego/tunisie_settings.py:402
+msgid "Bir Ali Ben Khelifa"
+msgstr "بير علي بن خليفة"
+
+#: fuego/tunisie_settings.py:407
+msgid "Bir Salah"
+msgstr "بير صالح"
+
+#: fuego/tunisie_settings.py:412
+msgid "Chihia"
+msgstr "الشيحية"
+
+#: fuego/tunisie_settings.py:417
+msgid "El Ain"
+msgstr "العين"
+
+#: fuego/tunisie_settings.py:422
+msgid "Graiba"
+msgstr "الغرابة"
+
+#: fuego/tunisie_settings.py:427
+msgid "Gremda"
+msgstr "ڨرمدة"
+
+#: fuego/tunisie_settings.py:432
+msgid "Jebiniana"
+msgstr "جبنيانة"
+
+#: fuego/tunisie_settings.py:437
+msgid "Kerkennah"
+msgstr "قرقنة"
+
+#: fuego/tunisie_settings.py:442
+msgid "El Hencha"
+msgstr "الحنشة"
+
+#: fuego/tunisie_settings.py:447
+msgid "Mahres"
+msgstr "المحرس"
+
+#: fuego/tunisie_settings.py:452
+msgid "Menzel Chaker"
+msgstr "منزل شاكر"
+
+#: fuego/tunisie_settings.py:457
+msgid "Sakiet Eddaier"
+msgstr "ساقية الداير"
+
+#: fuego/tunisie_settings.py:462
+msgid "Sakiet Ezzit"
+msgstr "ساقية الزيت"
+
+#: fuego/tunisie_settings.py:472
+msgid "Skhira"
+msgstr "الصخيرة"
+
+#: fuego/tunisie_settings.py:477
+msgid "Thyna"
+msgstr "طينة"
+
+#: fuego/tunisie_settings.py:484
+msgid "Akouda"
+msgstr "اكودة"
+
+#: fuego/tunisie_settings.py:489
+msgid "Bouficha"
+msgstr "بوفيشة"
+
+#: fuego/tunisie_settings.py:494
+msgid "Enfida"
+msgstr "النفيضة"
+
+#: fuego/tunisie_settings.py:499
+msgid "Ezzouhour"
+msgstr "الزهور"
+
+#: fuego/tunisie_settings.py:504
+msgid "Hammam Sousse"
+msgstr "حمام سوسة"
+
+#: fuego/tunisie_settings.py:509
+msgid "Hergla"
+msgstr "هيرقلة"
+
+#: fuego/tunisie_settings.py:514
+msgid "Kalaa Kebira"
+msgstr "القلعة الكبيرة"
+
+#: fuego/tunisie_settings.py:519
+msgid "Kalaa Seghira"
+msgstr "القلعة الصغيرة"
+
+#: fuego/tunisie_settings.py:524
+msgid "Kondar"
+msgstr "كندار"
+
+#: fuego/tunisie_settings.py:529
+msgid "Ksibet Thrayet"
+msgstr "قصيبة ثريات"
+
+#: fuego/tunisie_settings.py:534
+msgid "Messaadine"
+msgstr "المسعدين"
+
+#: fuego/tunisie_settings.py:539
+msgid "M'saken"
+msgstr "مساكن"
+
+#: fuego/tunisie_settings.py:549
+msgid "Sidi Bou Ali"
+msgstr "سيدي بوعلي"
+
+#: fuego/tunisie_settings.py:554
+msgid "Sidi El Hani"
+msgstr "سيدي الهاني"
+
+#: fuego/tunisie_settings.py:559
+msgid "Zaouiet Sousse"
+msgstr "زاوية سوسة"
+
+#: fuego/tunisie_settings.py:578
+msgid "French"
+msgstr ""
+
+#: fuego/tunisie_settings.py:579
+msgid "Arabic"
+msgstr "عربي"
+
+#: fuego/tunisie_settings.py:589
+msgid ""
+"Jobs in Tunisie, Property & Real Estate For Sale & Rent, Cars for Sale - "
+"Free Classifieds in Tunisie | dubizzle Tunisie"
+msgstr ""
+"وظائف في تونس، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في تونس | "
+"دوبيزل تونس"
+
+#: fuego/tunisie_settings.py:593
+#, fuzzy
+msgid ""
+"dubizzle is your free and friendly local classifieds website in Tunisie. "
+"Jobs, property, real estate, cars and classifieds in Tunisie. Post an ad, "
+"browse ads, buy, sell or rent."
+msgstr ""
+"وظائف، عقارات، سيارات و اعلانات مبوبة في تونس. اضف اعلان، تصفح اعلانات، بيع "
+"واشتري وأجر على دوبيزل"
+
+#: fuego/tunisie_settings.py:598
+msgid ""
+"dubizzle Tunisie, free classifieds, online classifieds, Tunisie classifieds, "
+"free classifieds in Tunisie"
+msgstr ""
+"دوبيزل تونس، مبوبة مجانيه، اعلانات مبوبة عبر الإنترنت، مبوبة تونس، اعلانات "
+"مبوبة مجانيه في تونس"
 
 #: fuego/forms/__init__.py:42
 msgid "Enter your name please, nobody likes to talk to a stranger ;)"
@@ -2957,5 +3106,413 @@ msgstr[5] ""
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
 
+#~ msgid "Maqrin"
+#~ msgstr "ماكرين"
+
 #~ msgid "Geo IP"
-#~ msgstr "GEOIPPPPP"
+#~ msgstr "GeooIP"
+
+#~ msgid "Egypt"
+#~ msgstr "مصر"
+
+#~ msgid "EGP"
+#~ msgstr "جنيه مصري"
+
+#~ msgid "Port Said"
+#~ msgstr "بور سعيد"
+
+#~ msgid "Tanta"
+#~ msgstr "طنطا"
+
+#~ msgid "Sharm el-Sheikh"
+#~ msgstr "شرم الشيخ"
+
+#~ msgid "Hurghada"
+#~ msgstr "الغردقة"
+
+#~ msgid "Luxor"
+#~ msgstr "الأقصر"
+
+#~ msgid "Asyut"
+#~ msgstr "أسيوط"
+
+#~ msgid "Aswan"
+#~ msgstr "أسوان"
+
+#~ msgid "Cairo"
+#~ msgstr "القاهرة"
+
+#~ msgid "Alexandria"
+#~ msgstr "الإسكندرية"
+
+#~ msgid "Haram"
+#~ msgstr "الهرم"
+
+#~ msgid "Nasr City"
+#~ msgstr "مدينة نصر"
+
+#~ msgid "Masr el Gedida"
+#~ msgstr "مصر الجديدة"
+
+#~ msgid "Mehwar 26 July - Sheikh Zayed"
+#~ msgstr "محور 26 يوليو - الشيخ زايد"
+
+#~ msgid "Dokki"
+#~ msgstr "دقي"
+
+#~ msgid "Downtown"
+#~ msgstr "وسط البلد"
+
+#~ msgid "New Cairo"
+#~ msgstr "التجمع الخامس"
+
+#~ msgid "Shorouq City"
+#~ msgstr "مدينة الشروق"
+
+#~ msgid "Oboor City"
+#~ msgstr "مدينة العبور"
+
+#~ msgid "Autostrad"
+#~ msgstr "أوتوستراد"
+
+#~ msgid "Abasiya"
+#~ msgstr "العباسية"
+
+#~ msgid "Ramses + Ramses Extension"
+#~ msgstr "رمسيس و امتداد رمسيس"
+
+#~ msgid "Zamalek"
+#~ msgstr "الزمالك"
+
+#~ msgid "Giza"
+#~ msgstr "الجيزة"
+
+#~ msgid "Moqatam"
+#~ msgstr "المقطم"
+
+#~ msgid "Bahtim"
+#~ msgstr "بهتيم"
+
+#~ msgid "Al Rehab City"
+#~ msgstr "مدينة الرحاب"
+
+#~ msgid "Cairo Airport"
+#~ msgstr "المطار"
+
+#~ msgid "Abu Zaabal"
+#~ msgstr "أبو زعبل"
+
+#~ msgid "10th Ramadan City"
+#~ msgstr "العاشر من رمضان "
+
+#~ msgid "Mariotia Rd"
+#~ msgstr "طريق المريوطية"
+
+#~ msgid "Al Manial"
+#~ msgstr "روضة - المنيل"
+
+#~ msgid "Al Katamiya"
+#~ msgstr "القطامية"
+
+#~ msgid "Tahrir"
+#~ msgstr "تحرير"
+
+#~ msgid "Shabramant"
+#~ msgstr "شبرمنت"
+
+#~ msgid "Kerdasa"
+#~ msgstr "كرداسة"
+
+#~ msgid "Tura"
+#~ msgstr "طرة"
+
+#~ msgid "6th of October"
+#~ msgstr "6 أوكتوبر"
+
+#~ msgid "Helwan"
+#~ msgstr "حلوان"
+
+#~ msgid "Kafr Tuhurmus"
+#~ msgstr "كفر تهرمس"
+
+#~ msgid "Al Badrashin"
+#~ msgstr "البدرشين"
+
+#~ msgid "Corniche El Nile"
+#~ msgstr "كورنيش النيل"
+
+#~ msgid "Ein Shams"
+#~ msgstr "عين شمس"
+
+#~ msgid "Al Helmeyah"
+#~ msgstr "الحلمية"
+
+#~ msgid "Abu Qir"
+#~ msgstr "أبو قير"
+
+#~ msgid "Tosson"
+#~ msgstr "طوسون"
+
+#~ msgid "Maamoura"
+#~ msgstr "المعمورة"
+
+#~ msgid "Montazah"
+#~ msgstr "المنتزه"
+
+#~ msgid "Miami"
+#~ msgstr "ميامي"
+
+#~ msgid "Mandara - Asafra"
+#~ msgstr "مندرة - عصافرة"
+
+#~ msgid "Al Sioof"
+#~ msgstr "سيوف"
+
+#~ msgid "San Stefano - Glim"
+#~ msgstr "جليم - سان ستيفانو"
+
+#~ msgid "Stanley"
+#~ msgstr "ستانلي"
+
+#~ msgid "Kafr Abdo"
+#~ msgstr "كفر عبدو"
+
+#~ msgid "Somooha"
+#~ msgstr "سموحة"
+
+#~ msgid "Shatby"
+#~ msgstr "شاطبي"
+
+#~ msgid "Raml Station"
+#~ msgstr "محطة الرمل"
+
+#~ msgid "Moharam Bik"
+#~ msgstr "محرّم بيك"
+
+#~ msgid "Bahari"
+#~ msgstr "بحري"
+
+#~ msgid "Dekheila"
+#~ msgstr "الدخيلة"
+
+#~ msgid "Agami"
+#~ msgstr "عجمي"
+
+#~ msgid "Burg el Arab"
+#~ msgstr "يرج العرب"
+
+#~ msgid "Alamein"
+#~ msgstr "لأمين"
+
+#~ msgid "Al Tabia"
+#~ msgstr "الطابية"
+
+#~ msgid "Al Sadd al Aali"
+#~ msgstr "السد العالي"
+
+#~ msgid "Al Zohour"
+#~ msgstr "الزهور"
+
+#~ msgid "Al Dawahy"
+#~ msgstr "الضواحي"
+
+#~ msgid "Al Sharq"
+#~ msgstr "الشرق"
+
+#~ msgid "Al Arab"
+#~ msgstr "العرب"
+
+#~ msgid "Port Fouad city"
+#~ msgstr "بور فؤاد"
+
+#~ msgid "Al Bahr Street"
+#~ msgstr "شارع البحر"
+
+#~ msgid "Al Galaa Street"
+#~ msgstr "شارع الجلاء"
+
+#~ msgid "Al Nahaas Street"
+#~ msgstr "شارع النحاس"
+
+#~ msgid "Hassan Radwan Street"
+#~ msgstr "شارع حسن رضوان"
+
+#~ msgid "Alnady street"
+#~ msgstr "شارع النادي"
+
+#~ msgid "Saeed Street"
+#~ msgstr "شارع سعيد"
+
+#~ msgid "Na'ama Bay"
+#~ msgstr "خليج نعمة"
+
+#~ msgid "Ras Um Sid Cliff"
+#~ msgstr "رأس أم سيد"
+
+#~ msgid "Um Marikha Bay "
+#~ msgstr "ام مريخة"
+
+#~ msgid "Al Pasha Coast "
+#~ msgstr "ساحل الباشا"
+
+#~ msgid "Om El Sid Hill "
+#~ msgstr "هضبة أم السيد"
+
+#~ msgid "El Nour District"
+#~ msgstr "حى النور"
+
+#~ msgid "El Ruwaisat"
+#~ msgstr "رويسات"
+
+#~ msgid "El Souk El Kadim"
+#~ msgstr "السوق القديم"
+
+#~ msgid "Garden Bay"
+#~ msgstr "جاردن باي"
+
+#~ msgid "Marsa El Dekheila"
+#~ msgstr "مرسى الدخيلة"
+
+#~ msgid "White Knight Bay"
+#~ msgstr "وايت نايت باي"
+
+#~ msgid "Ras Nasrani"
+#~ msgstr "رأس نصرانى"
+
+#~ msgid "St. Catherine"
+#~ msgstr "سانت كاترين"
+
+#~ msgid "Tiger Bay"
+#~ msgstr "خليج النمر"
+
+#~ msgid "Tower Bay"
+#~ msgstr "خليج البرج "
+
+#~ msgid "Shark's Bay"
+#~ msgstr "شاركس باي"
+
+#~ msgid "Nabq"
+#~ msgstr "نبق"
+
+#~ msgid "Dahar"
+#~ msgstr "الدهار"
+
+#~ msgid "Sakalla"
+#~ msgstr "سقالة"
+
+#~ msgid "Village Road"
+#~ msgstr "طريق القرى"
+
+#~ msgid "Abou Mungad Island"
+#~ msgstr "جزيرة ابو منجد"
+
+#~ msgid "El Ahyaa Area"
+#~ msgstr "حي الأحياء"
+
+#~ msgid "El Kawther"
+#~ msgstr "الكوثر"
+
+#~ msgid "Giftun Island"
+#~ msgstr "جزيرة جفتون"
+
+#~ msgid "Magawish Island"
+#~ msgstr "قرية مجاويش"
+
+#~ msgid "Makadi Bay"
+#~ msgstr "مكادى باى"
+
+#~ msgid "Sahl Hashish"
+#~ msgstr "سهل حشيش"
+
+#~ msgid "Arment"
+#~ msgstr "أرمنت"
+
+#~ msgid "El Bayadeya"
+#~ msgstr "البياضية"
+
+#~ msgid "Esna"
+#~ msgstr "إسنا"
+
+#~ msgid "Abnub"
+#~ msgstr "أبنوب"
+
+#~ msgid "Abutig"
+#~ msgstr "أبوتيج"
+
+#~ msgid "Dairut"
+#~ msgstr "ديروط"
+
+#~ msgid "Al Badari"
+#~ msgstr "البداري"
+
+#~ msgid "Al Fateh"
+#~ msgstr "الفتح"
+
+#~ msgid "Al Ghanayem"
+#~ msgstr "الغنايم"
+
+#~ msgid "Manfalut"
+#~ msgstr "منفلوط"
+
+#~ msgid "El Qusiya"
+#~ msgstr "قوصية"
+
+#~ msgid "Sahel Selim"
+#~ msgstr "ساحل سليم"
+
+#~ msgid "Sodfa"
+#~ msgstr "صدفا"
+
+#~ msgid "Abou El Reish"
+#~ msgstr "أبو الريش"
+
+#~ msgid "Abou Simbel"
+#~ msgstr "ابو سمبل"
+
+#~ msgid "Daraw"
+#~ msgstr "دراو"
+
+#~ msgid "Edfou"
+#~ msgstr "ادفو"
+
+#~ msgid "El Bosaileya"
+#~ msgstr "البصيلية"
+
+#~ msgid "El Corniche"
+#~ msgstr "الكورنيش"
+
+#~ msgid "El Radeseya Qebly"
+#~ msgstr "الرديسية قبلي"
+
+#~ msgid "El Sail Gharb"
+#~ msgstr "السيل غرب"
+
+#~ msgid "El Sail Shark"
+#~ msgstr "السيل شرق"
+
+#~ msgid "El Sherouk District"
+#~ msgstr "مدينة الشروق"
+
+#~ msgid "El Shima Gharb"
+#~ msgstr "الشيما غرب "
+
+#~ msgid "El Sibaayia Gharb"
+#~ msgstr "السباعية غرب"
+
+#~ msgid "Eneiba"
+#~ msgstr "عنيبه"
+
+#~ msgid "Kom Ombo"
+#~ msgstr "كوم امبو"
+
+#~ msgid "Lake Nasser"
+#~ msgstr "بحيرة ناصر"
+
+#~ msgid "Nasr El Noba"
+#~ msgstr "نصر النوبة"
+
+#~ msgid "Sahary"
+#~ msgstr "صحارى"
+
+#~ msgid "Shamal"
+#~ msgstr "شمال"
