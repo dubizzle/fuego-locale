@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-16 19:03+0400\n"
+"POT-Creation-Date: 2012-10-16 19:37+0400\n"
 "PO-Revision-Date: 2012-10-16 19:23+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: French - Tunisian "
-"<http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_TN/>\n"
+"Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/"
+"projects/fuego/fuego/fr_TN/>\n"
 "Language: fr_TN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1977,90 +1977,84 @@ msgstr ""
 "Ne soyez pas timide... si vous avez des questions au sujet de l'annonce, "
 "c'est le moment de les poser"
 
-#: listings/forms.py:36
+#: listings/forms.py:33
 msgid "Upload CV"
 msgstr "Déposez votre CV"
 
-#: listings/forms.py:50
+#: listings/forms.py:47
 msgid "Sorry, but your file format is not supported."
 msgstr "Désolé, mais votre format de fichier n'est pas pris en charge."
 
-#: listings/forms.py:53
+#: listings/forms.py:50
 msgid "That's a bit too heavy. Please keep your file size under 2MB."
 msgstr ""
 "C'est un peu trop lourd. Veillez a ce que la taille de votre fichier reste "
 "inférieure à 2 Mo."
 
-#: listings/forms.py:65
+#: listings/forms.py:62
 msgid "Tell us why you are reporting this ad."
 msgstr "Dites-nous pourquoi vous signalez cette annonce."
 
-#: listings/forms.py:79
+#: listings/forms.py:76
 msgid "Choose City"
 msgstr "Choisir la ville"
 
-#: listings/forms.py:82
+#: listings/forms.py:79
 msgid "Hey, you forgot to tell us where you are."
 msgstr "Hep! Vous avez oublié de nous dire oů vous ętes."
 
-#: listings/forms.py:85 templates/listings/manage_listing.html:279
+#: listings/forms.py:82 templates/listings/manage_listing.html:279
 msgid "Neighborhood"
 msgstr "Quartier"
 
-#: listings/forms.py:88
+#: listings/forms.py:85
 msgid "We need you to be a little more specific."
 msgstr "Soyez un peu plus précis."
 
-#: listings/forms.py:91
+#: listings/forms.py:88
 msgid "Which section should we put your ad in?"
 msgstr "Dans quelle section doit-on placer votre annonce?"
 
-#: listings/forms.py:94 templates/public/contact_us.html:90
+#: listings/forms.py:91 templates/public/contact_us.html:90
 msgid "Mobile number"
 msgstr "Numéro de téléphone portable"
 
-#: listings/forms.py:95
+#: listings/forms.py:92
 msgid "We need your mobile number for verification."
 msgstr "Merci de nous communiquer votre numéro de portable pour vérification."
 
-#: listings/forms.py:98 templates/listings/manage_listing.html:333
+#: listings/forms.py:95 templates/listings/manage_listing.html:333
 msgid "Show this number on my ad"
 msgstr "Afficher ce numéro sur mon annonce"
 
-#: listings/forms.py:126
+#: listings/forms.py:123
 msgid "Ad Title"
 msgstr "Titre de l'annonce"
 
-#: listings/forms.py:131 templates/listings/get_listing.html:85
+#: listings/forms.py:128 templates/listings/get_listing.html:85
 #: templates/listings/manage_listing.html:229
 msgid "Description"
 msgstr "Description"
 
-#: listings/forms.py:169 listings/views.py:137
+#: listings/forms.py:166 listings/views.py:137
 msgid "Please select a valid category."
 msgstr "Veuillez choisir une catégorie valide."
 
-#: listings/forms.py:199
+#: listings/forms.py:196
 msgid "You're going to need a title."
 msgstr "Vous allez avoir besoin d'un titre."
 
-#: listings/forms.py:204
+#: listings/forms.py:201
 msgid "You forgot to add a description. Go on, tell the world about your ad."
 msgstr ""
 "Vous avez oublié d'ajouter une description. Allez, informez le monde sur "
 "votre annonce."
 
-#: listings/forms.py:212
+#: listings/forms.py:209
 msgid "The neighborhood you have selected is not in the city you selected."
 msgstr "Le quartier que vous avez choisi n'est pas dans la ville sélectionnée."
 
-#: listings/forms.py:313 listings/models.py:263 listings/models.py:287
-#: listings/models.py:307 listings/models.py:324 listings/models.py:341
-#: listings/models.py:368 listings/models.py:385 listings/models.py:412
-msgid "Price"
-msgstr "Prix"
-
-#: listings/forms.py:314
+#: listings/forms.py:312
 #, python-format
 msgid ""
 "When in doubt, check out other ads to see the price range of your item. "
@@ -2070,39 +2064,45 @@ msgstr ""
 "laquelle se trouve votre article. N'oubliez pas le prix de votre annonce en "
 "%(currency)s."
 
-#: listings/forms.py:317
+#: listings/forms.py:319 listings/models.py:263 listings/models.py:287
+#: listings/models.py:307 listings/models.py:324 listings/models.py:341
+#: listings/models.py:368 listings/models.py:385 listings/models.py:412
+msgid "Price"
+msgstr "Prix"
+
+#: listings/forms.py:320
 msgid "You forgot to add the price."
 msgstr "Vous avez oublié d'ajouter le prix."
 
-#: listings/forms.py:321
+#: listings/forms.py:324
 msgid "Please enter a valid price."
 msgstr "Veuillez entrer un prix valide."
 
-#: listings/forms.py:350 listings/models.py:284
+#: listings/forms.py:353 listings/models.py:284
 msgid "Year"
 msgstr "Année"
 
-#: listings/forms.py:355
+#: listings/forms.py:358
 msgid "Sweet wheels, but how old?"
 msgstr "Jolies roues mais quelle ancienneté?"
 
-#: listings/forms.py:359
+#: listings/forms.py:362
 msgid "How many KM?"
 msgstr "Combien de KM?"
 
-#: listings/forms.py:360
+#: listings/forms.py:363
 msgid "Great ride, how far has it gone?"
 msgstr "Joli petit tour! Jusqu'ou ętes-vous allé?"
 
-#: listings/forms.py:405 listings/models.py:367 listings/models.py:411
+#: listings/forms.py:408 listings/models.py:367 listings/models.py:411
 msgid "Bedrooms"
 msgstr "Chambres à coucher"
 
-#: listings/forms.py:406 listings/forms.py:426
+#: listings/forms.py:409 listings/forms.py:429
 msgid "Nice property, but how many bedrooms?"
 msgstr "Belle propriété, mais combien de chambres?"
 
-#: listings/forms.py:425
+#: listings/forms.py:428
 msgid "Number of bedrooms"
 msgstr "Nombre de chambres à coucher"
 
@@ -2748,9 +2748,9 @@ msgid ""
 "\"%(terms_url)s\"> terms and conditions</a> and the dubizzle <a href="
 "\"%(privacy_url)s\">privacy policy</a>"
 msgstr ""
-"En cliquant sur 'Envoyer ma réponse', j'accepte les <a href=\"%"
-"(terms_url)s\">termes et conditions</a> de dubizzle et la <a href=\"%"
-"(privacy_url)s\">politique de confidentialité</a> de dubizzle."
+"En cliquant sur 'Envoyer ma réponse', j'accepte les <a href=\"%(terms_url)s"
+"\">termes et conditions</a> de dubizzle et la <a href=\"%(privacy_url)s"
+"\">politique de confidentialité</a> de dubizzle."
 
 #: templates/listings/reply_to_listing_include.html:147
 msgid "Bravo!"
@@ -3102,12 +3102,10 @@ msgid_plural ""
 "                        "
 msgstr[0] ""
 "\n"
-"Vous avez %(counter)s annonce"
-"                        "
+"Vous avez %(counter)s annonce                        "
 msgstr[1] ""
 "\n"
-"Vous avez %(counter)s annonces"
-"                        "
+"Vous avez %(counter)s annonces                        "
 
 #: templates/user_profiles/my_listings.html:83
 msgid "These ads are awaiting approval and will be live soon."
@@ -3185,12 +3183,10 @@ msgid_plural ""
 "    "
 msgstr[0] ""
 "\n"
-"Vous avez %(counter)s annonce attente"
-"    "
+"Vous avez %(counter)s annonce attente    "
 msgstr[1] ""
 "\n"
-"Vous avez %(counter)s annonces attente"
-"    "
+"Vous avez %(counter)s annonces attente    "
 
 #: utils/meta_builder.py:92 utils/meta_builder.py:97
 #, python-format

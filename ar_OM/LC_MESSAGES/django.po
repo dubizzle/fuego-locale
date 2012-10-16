@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-16 19:03+0400\n"
+"POT-Creation-Date: 2012-10-16 19:37+0400\n"
 "PO-Revision-Date: 2012-09-11 17:20+0200\n"
 "Last-Translator: dubizzle <dubizzle@dubizzle.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1591,88 +1591,82 @@ msgstr ""
 "لقد نسيت اضافة رسالتك للمعلن. هل تحتاج لمزيد من المعلومات عن هذا الإعلان؟ لا "
 "حرج في السؤال!"
 
-#: listings/forms.py:36
+#: listings/forms.py:33
 msgid "Upload CV"
 msgstr "تحميل السيرة الذاتية"
 
-#: listings/forms.py:50
+#: listings/forms.py:47
 msgid "Sorry, but your file format is not supported."
 msgstr "نوع الملف غير مدعوم، يرجى تحميل ملف من النوع التالي: rtf/doc/pdf/docx"
 
-#: listings/forms.py:53
+#: listings/forms.py:50
 msgid "That's a bit too heavy. Please keep your file size under 2MB."
 msgstr "من فضلك تأكد أن حجم الملف لا يزيد عن 2 ميغا"
 
-#: listings/forms.py:65
+#: listings/forms.py:62
 msgid "Tell us why you are reporting this ad."
 msgstr "لماذا تريد الإبلاغ عن هذا الإعلان؟"
 
-#: listings/forms.py:79
+#: listings/forms.py:76
 msgid "Choose City"
 msgstr "إختر المدينة"
 
-#: listings/forms.py:82
+#: listings/forms.py:79
 msgid "Hey, you forgot to tell us where you are."
 msgstr " من فضلك لا تنسى إضافة إسم مدينتك. (الا اذا كنت من الفضاء.)"
 
-#: listings/forms.py:85 templates/listings/manage_listing.html:279
+#: listings/forms.py:82 templates/listings/manage_listing.html:279
 msgid "Neighborhood"
 msgstr "المنطقة"
 
-#: listings/forms.py:88
+#: listings/forms.py:85
 msgid "We need you to be a little more specific."
 msgstr "نسيت أن تضيف إسم منطقتك."
 
-#: listings/forms.py:91
+#: listings/forms.py:88
 msgid "Which section should we put your ad in?"
 msgstr "ما هو أنسب قسم لعرض إعلانك؟"
 
-#: listings/forms.py:94 templates/public/contact_us.html:90
+#: listings/forms.py:91 templates/public/contact_us.html:90
 msgid "Mobile number"
 msgstr "رقم الموبايل"
 
-#: listings/forms.py:95
+#: listings/forms.py:92
 msgid "We need your mobile number for verification."
 msgstr "من فضلك ادخل رقم الموبايل لكي نتأكد من صلاحية حسابك."
 
-#: listings/forms.py:98 templates/listings/manage_listing.html:333
+#: listings/forms.py:95 templates/listings/manage_listing.html:333
 msgid "Show this number on my ad"
 msgstr "اظهر رقمي في الإعلان"
 
-#: listings/forms.py:126
+#: listings/forms.py:123
 msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
-#: listings/forms.py:131 templates/listings/get_listing.html:85
+#: listings/forms.py:128 templates/listings/get_listing.html:85
 #: templates/listings/manage_listing.html:229
 msgid "Description"
 msgstr "مواصفات الإعلان"
 
-#: listings/forms.py:169 listings/views.py:137
+#: listings/forms.py:166 listings/views.py:137
 msgid "Please select a valid category."
 msgstr "ما هو أنسب قسم لعرض إعلانك ؟"
 
-#: listings/forms.py:199
+#: listings/forms.py:196
 msgid "You're going to need a title."
 msgstr "لا تنسى إضافة عنوان لإعلانك."
 
-#: listings/forms.py:204
+#: listings/forms.py:201
 msgid "You forgot to add a description. Go on, tell the world about your ad."
 msgstr ""
 "لقد نسيت ان تضيف وصف لإعلانك. هنا يمكنك إضافة كل التفاصيل لتجذب إنتباه "
 "المشتري. "
 
-#: listings/forms.py:212
+#: listings/forms.py:209
 msgid "The neighborhood you have selected is not in the city you selected."
 msgstr "يبدو أن هذه المنطقة ليست فى المدينة المحددة."
 
-#: listings/forms.py:313 listings/models.py:263 listings/models.py:287
-#: listings/models.py:307 listings/models.py:324 listings/models.py:341
-#: listings/models.py:368 listings/models.py:385 listings/models.py:412
-msgid "Price"
-msgstr "السعر"
-
-#: listings/forms.py:314
+#: listings/forms.py:312
 #, python-format
 msgid ""
 "When in doubt, check out other ads to see the price range of your item. "
@@ -1681,39 +1675,45 @@ msgstr ""
 "لو محتار في تحديد السعر إبحث عن أسعار أشياء مماثلة على الموقع. يرجى التأكد "
 "أن السعر المطلوب في عملة %(currency)s"
 
-#: listings/forms.py:317
+#: listings/forms.py:319 listings/models.py:263 listings/models.py:287
+#: listings/models.py:307 listings/models.py:324 listings/models.py:341
+#: listings/models.py:368 listings/models.py:385 listings/models.py:412
+msgid "Price"
+msgstr "السعر"
+
+#: listings/forms.py:320
 msgid "You forgot to add the price."
 msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 
-#: listings/forms.py:321
+#: listings/forms.py:324
 msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
 
-#: listings/forms.py:350 listings/models.py:284
+#: listings/forms.py:353 listings/models.py:284
 msgid "Year"
 msgstr "السنة"
 
-#: listings/forms.py:355
+#: listings/forms.py:358
 msgid "Sweet wheels, but how old?"
 msgstr "المحروسة... موديل سنة كم؟"
 
-#: listings/forms.py:359
+#: listings/forms.py:362
 msgid "How many KM?"
 msgstr "عدد الكيلومترات"
 
-#: listings/forms.py:360
+#: listings/forms.py:363
 msgid "Great ride, how far has it gone?"
 msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
 
-#: listings/forms.py:405 listings/models.py:367 listings/models.py:411
+#: listings/forms.py:408 listings/models.py:367 listings/models.py:411
 msgid "Bedrooms"
 msgstr "غرف نوم"
 
-#: listings/forms.py:406 listings/forms.py:426
+#: listings/forms.py:409 listings/forms.py:429
 msgid "Nice property, but how many bedrooms?"
 msgstr "حدثنا عن عقارك. كم عدد غرف النوم؟"
 
-#: listings/forms.py:425
+#: listings/forms.py:428
 msgid "Number of bedrooms"
 msgstr "عدد غرف النوم"
 
