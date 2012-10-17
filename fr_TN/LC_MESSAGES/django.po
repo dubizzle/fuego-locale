@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-16 19:49+0400\n"
-"PO-Revision-Date: 2012-10-16 19:46+0400\n"
-"Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/"
-"projects/fuego/fuego/fr_TN/>\n"
+"PO-Revision-Date: 2012-10-17 15:53+0400\n"
+"Last-Translator: Molly Al Masri <molly@dubizzle.com>\n"
+"Language-Team: French - Tunisian "
+"<http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_TN/>\n"
 "Language: fr_TN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,7 +52,7 @@ msgstr "Confirmez votre mot de passe"
 #: authentication/forms.py:86 authentication/forms.py:197
 msgid "Sorry, please re-enter your password using only English characters."
 msgstr ""
-"Désolé, veuillez entrez de nouveau votre mot de passe en utilisant "
+"Désolé, veuillez entrer de nouveau votre mot de passe en utilisant "
 "uniquement des caractères anglophones."
 
 #: authentication/forms.py:104 listings/tests.py:804
@@ -94,7 +94,7 @@ msgstr "Confirmez votre mot de passe"
 
 #: authentication/forms.py:214
 msgid "Hmm... that doesn't match up!"
-msgstr "Hmm ça ne colle pas!"
+msgstr "Hmm... ça ne colle pas!"
 
 #: authentication/forms.py:227
 msgid "Ye olde password"
@@ -1967,7 +1967,7 @@ msgstr ""
 
 #: fuego/forms/__init__.py:42
 msgid "Enter your name please, nobody likes to talk to a stranger ;)"
-msgstr "Veuillez entrez votre nom - personne n'aime s'adresser à un inconnu ;)"
+msgstr "Veuillez entrer votre nom - personne n'aime s'adresser à un inconnu ;)"
 
 #: fuego/forms/__init__.py:51
 msgid ""
@@ -1975,7 +1975,7 @@ msgid ""
 "ask."
 msgstr ""
 "Ne soyez pas timide... si vous avez des questions au sujet de l'annonce, "
-"c'est le moment de les poser"
+"c'est le moment de les poser."
 
 #: listings/forms.py:33
 msgid "Upload CV"
@@ -2042,7 +2042,7 @@ msgstr "Veuillez choisir une catégorie valide."
 
 #: listings/forms.py:196
 msgid "You're going to need a title."
-msgstr "Vous allez avoir besoin d'un titre."
+msgstr "On a besoin d'un titre."
 
 #: listings/forms.py:201
 msgid "You forgot to add a description. Go on, tell the world about your ad."
@@ -2375,7 +2375,7 @@ msgstr "C'est aussi rapide que de dire \"Sésame ouvre-toi\""
 
 #: templates/authentication/login.html:44
 msgid "Sign in – show me my stuff"
-msgstr "Se connecter - affichez le résultat"
+msgstr "Se connecter - affichez mes affaires"
 
 #: templates/authentication/login.html:50
 msgid "Don't have an account?"
@@ -2416,7 +2416,7 @@ msgstr "Modération d'annonce du Cpanel."
 #: templates/cpanel/manage_workspace.html:15
 #: templates/listings/manage_inorganic_listing.html:13
 msgid "Make this awesome."
-msgstr "Rendre le tout absolument génial"
+msgstr "Rendre le tout absolument génial."
 
 #. Translators: This is in Customer Supports edit listing interface
 #: templates/cpanel/manage_workspace.html:43
@@ -2445,7 +2445,7 @@ msgstr "Ces photos peuvent ętre modérées en Cpanel"
 #. Translators: This is in Customer Supports edit listing interface
 #: templates/cpanel/manage_workspace.html:101
 msgid "User's Email Address"
-msgstr "Adresse e-mail de l'utilisateur"
+msgstr "Adresse email de l'utilisateur"
 
 #. Translators: This is in Customer Supports edit listing interface
 #: templates/cpanel/manage_workspace.html:109
@@ -2458,7 +2458,7 @@ msgstr "Ętes-vous sűr de vouloir supprimer cette annonce?"
 
 #: templates/listings/delete_listing.html:13
 msgid "Please click on confirm to delete this listing!"
-msgstr "Veuillez cliquer sur valider pour supprimer cette annonce!"
+msgstr "Veuillez cliquer sur 'valider' pour supprimer cette annonce!"
 
 #: templates/listings/delete_listing.html:17
 msgid "Back to listing"
@@ -2538,7 +2538,7 @@ msgstr "Retour à la page d'accueil"
 
 #: templates/listings/listing_complete.html:25
 msgid "Place another ad"
-msgstr "Passez une autre annonce"
+msgstr "Passer une autre annonce"
 
 #. Translators: This is in CrystelCalls new listing interface
 #: templates/listings/manage_inorganic_listing.html:8
@@ -2547,7 +2547,7 @@ msgstr "Interface Liste des CrysTelCall."
 
 #: templates/listings/manage_listing.html:12
 msgid "Create a free ad in no time at all."
-msgstr "Créer une annonce gratuite en un rien de temps ."
+msgstr "Créer une annonce gratuite en un rien de temps."
 
 #: templates/listings/manage_listing.html:16
 msgid "Then go party!"
@@ -2646,8 +2646,8 @@ msgstr ""
 #: templates/listings/manage_listing.html:364
 msgid "A valid email address ensures your ad will go live."
 msgstr ""
-"Pour que votre annonce soit mise en ligne, il faut une adresse électronique "
-"valable"
+"Pour que votre annonce soit mise en ligne, il faut une adresse email "
+"valable."
 
 #: templates/listings/manage_listing.html:375
 msgid "I'm new to dubizzle. I need a password."
@@ -2672,7 +2672,7 @@ msgid ""
 msgstr ""
 "Pour une sécurité maximum, utilisez une combinaison de chiffres et de "
 "lettres, et ne choisissez pas quelque chose de trop évident comme le chat de "
-"l'ami de votre tante  - encore que ça ça peut marcher"
+"l'ami de votre tante  - encore que ça ça peut marcher."
 
 #: templates/listings/manage_listing.html:454
 #, python-format
@@ -2705,7 +2705,7 @@ msgid ""
 msgstr ""
 "Conseils de dubizzle: <br/>1) Rencontrez-vous en personne dans un lieu "
 "public. <br/>2) N'envoyez pas d'argent ni de coordonnées financières "
-"(chèques, par exemple, dépôt, etc) <br/> 3) Demandez des pièces d'identité "
+"(chèques, par exemple, dépôt, etc.) <br/> 3) Demandez des pièces d'identité "
 "le cas échéant (par exemple, une garanties, carte d'identité)."
 
 #: templates/listings/reply_to_listing_include.html:40
@@ -2716,7 +2716,7 @@ msgstr "Votre nom est?"
 #: templates/listings/reply_to_listing_include.html:55
 #: templates/listings/report_listing.html:56
 msgid "What's your email?"
-msgstr "Quelle est votre email?"
+msgstr "Quelle est votre adresse email?"
 
 #: templates/listings/reply_to_listing_include.html:70
 #: templates/listings/report_listing.html:72
@@ -2767,7 +2767,7 @@ msgstr ""
 #: templates/listings/reply_to_listing_include.html:149
 #: templates/listings/report_listing.html:17
 msgid "Back to listings"
-msgstr "Retour à la liste"
+msgstr "Retour aux annonces"
 
 #: templates/listings/report_listing.html:16
 msgid "Thank you for reporting an ad on our site!"
@@ -2787,7 +2787,7 @@ msgstr "Signaler l'annonce"
 
 #: templates/public/about.html:7
 msgid "About Us"
-msgstr "Ŕ propos de nous"
+msgstr "À propos de nous"
 
 #: templates/public/contact_us.html:7 templates/public/landing.html:10
 msgid "Ahlan wa sahlan..."
@@ -2806,8 +2806,7 @@ msgstr ""
 "\n"
 "                Chouette!<br />\n"
 "                Un dubizzleur du service clientèle traitera votre message "
-"personnellement et reviendra vers vous dès qu'il aura une réponse ...  <br/"
-">\n"
+"personnellement et reviendra vers vous dès qu'il aura une réponse...  <br/>\n"
 "\n"
 "                D'ici là, si vous souhaitez nous recontacter, nous sommes "
 "ravis de vous aider.\n"
@@ -2846,7 +2845,7 @@ msgstr ""
 
 #: templates/public/contact_us.html:59
 msgid "Subject: what's this about?"
-msgstr "Sujet: de quoi s'agit-il?"
+msgstr "Sujet: De quoi s'agit-il?"
 
 #: templates/public/contact_us.html:76
 msgid "Your name (or nickname)"
@@ -2854,11 +2853,11 @@ msgstr "Votre nom (ou pseudo)"
 
 #: templates/public/contact_us.html:118
 msgid "Email address (again)"
-msgstr "Adresse e-mail (de nouveau)"
+msgstr "Adresse email (de nouveau)"
 
 #: templates/public/contact_us.html:135
 msgid "City/Country"
-msgstr "Ville / Pays"
+msgstr "Ville/Pays"
 
 #: templates/public/contact_us.html:151
 msgid "Message: What's on your mind?"
@@ -2892,7 +2891,7 @@ msgid ""
 "                        "
 msgstr ""
 "\n"
-"Des milliers de voitures, emplois,  propriétés, petites annonces et bien "
+"Des milliers de voitures, emplois,  immobilier, petites annonces et bien "
 "plus encore!\n"
 "                        "
 
@@ -2910,8 +2909,8 @@ msgstr "Passez votre annonce gratuite"
 #: templates/public/landing.html:69
 msgid "Select your city and find the best deals from thousands of ads!"
 msgstr ""
-"Sélectionnez votre ville et trouver les meilleurs prix parmi des milliers "
-"d'annonces!"
+"Sélectionnez votre ville et trouver les meilleurs affaires parmi des "
+"milliers d'annonces!"
 
 #: templates/public/landing.html:71 templates/public/landing.html.py:131
 msgid "Select your city"
@@ -3039,7 +3038,7 @@ msgstr "Aucun résultat..."
 
 #: templates/shared/listings.html:45
 msgid "Oh camel droppings!"
-msgstr "Zut et crotte de chameau!"
+msgstr "Zut alors!"
 
 #: templates/shared/listings.html:46
 msgid "We couldn't find anything to match your search."
@@ -3050,7 +3049,7 @@ msgid ""
 "Try using different keywords or widening your seach and it should be more "
 "fruitful."
 msgstr ""
-"Essayez avec d'autres mots clés ou en élargissant votre recherche. Vous "
+"Essayez avec d'autres mots-clés ou en élargissant votre recherche. Vous "
 "devriez avoir plus de chance."
 
 #: templates/user_profiles/my_listings.html:15
