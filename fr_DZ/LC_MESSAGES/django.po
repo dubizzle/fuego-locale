@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-23 10:47+0400\n"
-"PO-Revision-Date: 2012-10-22 16:46+0400\n"
-"Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: French - Algerian <http://translate.dubizzlecloud.com/"
-"projects/fuego/fuego/fr_DZ/>\n"
+"PO-Revision-Date: 2012-10-23 11:18+0400\n"
+"Last-Translator: Mohammad Alazzeh <alazzeh@dubizzle.com>\n"
+"Language-Team: French - Algerian "
+"<http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_DZ/>\n"
 "Language: fr_DZ\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -758,9 +758,9 @@ msgstr ""
 
 #: fuego/meta_settings.py:85 fuego/meta_settings.py:91
 #: fuego/meta_settings.py:97
-#, fuzzy, python-format
+#, python-format
 msgid "%(ad_title)s - %(category_leaf)s | dubizzle %(country)s"
-msgstr "%(ad_title)s - %(category_leaf)s Emploi | dubizzle %(country)s"
+msgstr "%(ad_title)s - %(category_leaf)s | dubizzle %(country)s"
 
 #: fuego/meta_settings.py:87
 #, python-format
@@ -962,15 +962,15 @@ msgstr ""
 "%(country)s "
 
 #: fuego/meta_settings.py:144
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Looking to land a %(category_leaf)s job in %(city_comma_country)s ? Post "
 "Your skills and experience on dubizzle %(city_comma_country)s Free Job "
 "Classifieds."
 msgstr ""
-"Vous cherchez à décrocher un emploi %(category_leaf)s à "
-"%(city_comma_country)s? Poster vos compétences et votre expérience sur les "
-"petites annonces emploi dubizzle."
+"Vous cherchez à décrocher un emploi %(category_leaf)s à %"
+"(city_comma_country)s? Poster vos compétences et votre expérience sur les "
+"petites annonces emploi dubizzle %(city_comma_country)s."
 
 #: fuego/meta_settings.py:145
 #, python-format
@@ -1187,7 +1187,7 @@ msgstr ""
 "location d'immobilier %(city_or_country)s "
 
 #: fuego/meta_settings.py:191
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "House & Villas for Rent in %(city_comma_country)s | dubizzle %(country)s"
 msgstr ""
@@ -1940,45 +1940,46 @@ msgstr ""
 "%(city_or_country)s"
 
 #: fuego/meta_settings.py:363
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Free Classifieds in %(city_comma_country)s - Jobs in %(city_comma_country)s, "
 "Property & Real Estate For Sale & Rent, Cars for Sale | dubizzle "
 "%(city_comma_country)s"
 msgstr ""
-"Immobilier à vendre - %(city_or_country)s, propriètés à vendre - "
-"%(city_or_country)s, %(city_or_country)s, immobilier à louer, propriètés à "
-"vendre - %(country)s"
+"cPetites annonces gratuits à %(city_comma_country)s - Emploi à %"
+"(city_comma_country)s, Propriètés à Vendre et à Louer, Voitures Occasion | "
+"dubizzle %(city_comma_country)s"
 
 #: fuego/meta_settings.py:364
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "dubizzle is your free and friendly local classifieds website in "
 "%(city_comma_country)s. Jobs, property, real estate, cars and classifieds in "
 "%(city_comma_country)s. Post an ad, browse ads, buy, sell or rent. "
 msgstr ""
-"dubizzle est votre premier site de petites annonces gratuites en Algerie. "
-"Trouvez un emploi, des biens et services immobiliers  la vente ainsi que "
-"des  voitures  vendre en Algerie."
+"dubizzle est votre premier site de petites annonces gratuites en %"
+"(city_comma_country)s. Trouvez un emploi, immobilier, voitures et articles à "
+"vendre à %(city_comma_country)s. Passez une annonce, achetez ou vendez. "
 
 #: fuego/meta_settings.py:365 fuego/meta_settings.py:371
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "dubizzle %(city_comma_country)s, free classifieds, online classifieds, "
 "%(city_comma_country)s classifieds, free classifieds in "
 "%(city_comma_country)s"
 msgstr ""
-"dubizzle Algerie, petites annonces gratuites, petites annonces en ligne, "
-"Algerie petites annonces, petites annonces en Algerie"
+"dubizzle %(city_comma_country)s, petites annonces gratuites, petites "
+"annonces en ligne, %(city_comma_country)s petites annonces, petites annonces "
+"en %(city_comma_country)s"
 
 #: fuego/meta_settings.py:369
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Free Classifieds in %(city_comma_country)s - Buy a car, Find a Job or Buy a "
 "house | dubizzle %(city_comma_country)s"
 msgstr ""
-"Petites Annonces Gratuites à %(city_comma_country)s - Trouvez, Achetez & "
-"Vendez ce que Vous Voulez| dubizzle %(country)s"
+"Petites Annonces Gratuites à %(city_comma_country)s - Trouvez une voiture, "
+"emploi ou immobilier | dubizzle %(city_comma_country)s"
 
 #: fuego/meta_settings.py:370
 #, python-format
@@ -1987,6 +1988,9 @@ msgid ""
 "%(city_comma_country)s to buy, sell and find anything. Find cars, jobs, "
 "properties for rent or items for sale in %(city_comma_country)s."
 msgstr ""
+"dubizzle est votre premier site de petites annonces gratuites en %"
+"(city_comma_country)s. Trouvez un emploi, des biens et services immobiliers "
+"à la vente ainsi que des  voitures à vendre en %(city_comma_country)s."
 
 #: fuego/shared_settings.py:169
 msgid "Unknown"
@@ -2732,13 +2736,13 @@ msgid "Max number of photos is"
 msgstr "Nombre maximal de photos"
 
 #: templates/listings/manage_photos.html:39
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Ads with photos sell much better. Use up to %(max_photos)s good quality "
 "photos. Accepted formats: jpg, png, or gif."
 msgstr ""
-"Les annonces avec photos ont beaucoup plus de succès. Téléchargez jusqu'à 10 "
-"photos de bonne qualité. Formats acceptés: jpg, png ou gif."
+"Les annonces avec photos ont beaucoup plus de succès. Téléchargez jusqu'à %"
+"(max_photos)s photos de bonne qualité. Formats acceptés: jpg, png ou gif."
 
 #: templates/listings/manage_photos.html:47
 msgid "Add another photo"
