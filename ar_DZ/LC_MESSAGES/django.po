@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-23 10:47+0400\n"
-"PO-Revision-Date: 2012-10-22 16:47+0400\n"
-"Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: Arabic - Algerian <http://translate.dubizzlecloud.com/"
-"projects/fuego/fuego/ar_DZ/>\n"
+"PO-Revision-Date: 2012-10-30 15:48+0400\n"
+"Last-Translator: Mohammad Alazzeh <alazzeh@dubizzle.com>\n"
+"Language-Team: Arabic - Algerian "
+"<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_DZ/>\n"
 "Language: ar_DZ\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -667,33 +667,30 @@ msgid "Arabic"
 msgstr "عربي"
 
 #: fuego/algerie_settings.py:779
-#, fuzzy
 msgid ""
 "Jobs in Algeria, Property & Real Estate For Sale & Rent, Cars for Sale - "
 "Free Classifieds in Algeria | dubizzle Algeria"
 msgstr ""
-"وظائف في لبنان، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في لبنان "
-"| دوبيزل لبنان"
+"وظائف في الجزائر، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في "
+"الجزائر | دوبيزل الجزائر"
 
 #: fuego/algerie_settings.py:783
-#, fuzzy
 msgid ""
 "dubizzle is your free and friendly local classifieds website in Algeria. "
 "Jobs, property, real estate, cars and classifieds in Algeria. Post an ad, "
 "browse ads, buy, sell or rent."
 msgstr ""
-"دوبيزل لبنان موقع الإعلانات المبوبة المجانية المحلية - منتهى السهولة "
-"والبساطة. وظائف، عقارات، سيارات و اعلانات مبوبة في لبنان. اضف اعلان، تصفح "
-"اعلانات، بيع واشتري وأجر."
+"دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(city_comma_country)s. "
+"وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في "
+"(city_comma_country)s. أضف اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
 
 #: fuego/algerie_settings.py:788
-#, fuzzy
 msgid ""
 "dubizzle Algeria, free classifieds, online classifieds, Algeria classifieds, "
 "free classifieds in Algeria"
 msgstr ""
-"دوبيزل  لبنان، مبوبة مجانيه، اعلانات مبوبة عبر الإنترنت، مبوبة  لبنان، "
-"اعلانات مبوبة مجانيه في لبنان"
+"موقع دوبيزل الجزائر، إعلانات مبوبة مجانية، الإعلانات المبوبة على الانترنت "
+"والجزائر إعلانات مبوبة، الإعلانات المبوبة مجانا في الجزائر"
 
 #: fuego/meta_settings.py:61
 #, python-format
@@ -759,12 +756,14 @@ msgid ""
 "%(ad_title)s, post %(category_leaf)s Jobs ads, post %(category_leaf)s Jobs "
 "ads in %(city)s"
 msgstr ""
+"%(ad_title)s, أضف اعلانات وظائف %(category_leaf)s, أضف اعلانات وظائف %"
+"(category_leaf)s في  %(city)s"
 
 #: fuego/meta_settings.py:85 fuego/meta_settings.py:91
 #: fuego/meta_settings.py:97
-#, fuzzy, python-format
+#, python-format
 msgid "%(ad_title)s - %(category_leaf)s | dubizzle %(country)s"
-msgstr "%(ad_title)s - %(category_leaf)s وظائف شاغرة | دوبيزل %(country)s"
+msgstr "%(ad_title)s - %(category_leaf)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:87
 #, python-format
@@ -951,14 +950,14 @@ msgstr ""
 "%(country)s"
 
 #: fuego/meta_settings.py:144
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Looking to land a %(category_leaf)s job in %(city_comma_country)s ? Post "
 "Your skills and experience on dubizzle %(city_comma_country)s Free Job "
 "Classifieds."
 msgstr ""
-"هل تبحث عن اضافة اعلان توظيف %(category_leaf)s في %(city_comma_country)s؟ "
-"أضف خبراتك وسيرتك الذاتية على دوبيزل [Country]'s لاعلانات التوظيف المجانية"
+"هل تبحث عن وظائف %(category_leaf)s في %(city_comma_country)s ? أضف خبراتك "
+"على دوبيزل %(city_comma_country)s اعلانات وظائف مجانية"
 
 #: fuego/meta_settings.py:145
 #, python-format
@@ -1153,7 +1152,7 @@ msgstr ""
 "للايجار، عقار للايجار، ايجار عقارات %(city_or_country)s"
 
 #: fuego/meta_settings.py:191
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "House & Villas for Rent in %(city_comma_country)s | dubizzle %(country)s"
 msgstr "بيوت وفلل للايجار في %(city_comma_country)s - دوبيزل %(country)s"
@@ -1826,25 +1825,26 @@ msgid ""
 msgstr "أشياء للبيع، سلع للبيع، أغراض للبيع في %(city_or_country)s"
 
 #: fuego/meta_settings.py:363
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Free Classifieds in %(city_comma_country)s - Jobs in %(city_comma_country)s, "
 "Property & Real Estate For Sale & Rent, Cars for Sale | dubizzle "
 "%(city_comma_country)s"
 msgstr ""
-"منازل للبيع في %(city_or_country)s، عقارات للبيع في %(city_or_country)s، "
-"عقارات للايجار في %(country)s"
+"اعلانات مبوبة مجانية في %(city_comma_country)s - وظائف شاغرة في %"
+"(city_comma_country)s, عقارات للبيع او الايجار, سيارات للبيع | دوبيزل %"
+"(city_comma_country)s"
 
 #: fuego/meta_settings.py:364
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "dubizzle is your free and friendly local classifieds website in "
 "%(city_comma_country)s. Jobs, property, real estate, cars and classifieds in "
 "%(city_comma_country)s. Post an ad, browse ads, buy, sell or rent. "
 msgstr ""
-"دوبيزل لبنان موقع الإعلانات المبوبة المجانية المحلية - منتهى السهولة "
-"والبساطة. وظائف، عقارات، سيارات و اعلانات مبوبة في لبنان. اضف اعلان، تصفح "
-"اعلانات، بيع واشتري وأجر."
+"دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(city_comma_country)s. "
+"وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في "
+"(city_comma_country)s. أضف اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
 
 #: fuego/meta_settings.py:365 fuego/meta_settings.py:371
 #, fuzzy, python-format
@@ -1857,13 +1857,13 @@ msgstr ""
 "اعلانات مبوبة مجانيه في لبنان"
 
 #: fuego/meta_settings.py:369
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Free Classifieds in %(city_comma_country)s - Buy a car, Find a Job or Buy a "
 "house | dubizzle %(city_comma_country)s"
 msgstr ""
-"اعلانات مبوبة مجانية في %(city_comma_country)s - بيع وشراء اي شيء | دوبيزل "
-"%(country)s"
+"اعلانات مبوبة مجانية في %(city_comma_country)s - بيع سيارات, وظائف شاغرة, "
+"بيع منازل | دوبيزل %(city_comma_country)s"
 
 #: fuego/meta_settings.py:370
 #, python-format
@@ -1872,6 +1872,9 @@ msgid ""
 "%(city_comma_country)s to buy, sell and find anything. Find cars, jobs, "
 "properties for rent or items for sale in %(city_comma_country)s."
 msgstr ""
+"دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(city_comma_country)s "
+"لبيع وشراء أي شيء. ايجاد سيارات, وظائف شاغرة, عقارات للايجار و سلع للبيع في "
+" %(city_comma_country)s."
 
 #: fuego/shared_settings.py:169
 msgid "Unknown"
