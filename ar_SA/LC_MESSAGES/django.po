@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-04 14:16+0400\n"
-"PO-Revision-Date: 2012-10-30 16:07+0400\n"
-"Last-Translator: Mohammad Alazzeh <alazzeh@dubizzle.com>\n"
-"Language-Team: Arabic - Saudi <http://translate.dubizzlecloud.com/projects/"
-"fuego/fuego/ar_SA/>\n"
+"PO-Revision-Date: 2012-12-04 14:41+0400\n"
+"Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
+"Language-Team: Arabic - Saudi "
+"<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_SA/>\n"
 "Language: ar_SA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -586,7 +586,7 @@ msgstr ""
 "للايجار، عقار للايجار، ايجار عقارات %(city_or_country)s"
 
 #: fuego/meta_settings.py:191
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "House & Villas for Rent in %(city_comma_country)s | dubizzle %(country)s"
 msgstr "بيوت وفلل للايجار في %(city_comma_country)s - دوبيزل %(country)s\n"
@@ -1270,15 +1270,15 @@ msgstr ""
 "%(city_comma_country)s"
 
 #: fuego/meta_settings.py:364
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "dubizzle is your free and friendly local classifieds website in "
 "%(city_comma_country)s. Jobs, property, real estate, cars and classifieds in "
 "%(city_comma_country)s. Post an ad, browse ads, buy, sell or rent. "
 msgstr ""
 "دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(city_comma_country)s. "
-"وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في (city_comma_country)s. "
-"أضف اعلان, تصفح الاعلانات, بيع واشتري واستأجر\n"
+"وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في "
+"(city_comma_country)s. أضف اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
 
 #: fuego/meta_settings.py:365 fuego/meta_settings.py:371
 #, python-format
@@ -2791,13 +2791,13 @@ msgid "Max number of photos is"
 msgstr "أقصى عدد من الصور هو"
 
 #: templates/listings/manage_photos.html:39
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Ads with photos sell much better. Use up to %(max_photos)s good quality "
 "photos. Accepted formats: jpg, png, or gif."
 msgstr ""
-"هل تعلم أن الصور تؤدي للبيع بمعدل أعلى بكثير؟ يمكنك إضافة ١٠ صور واضحة "
-"وأصلية. انواع الملفات المدعومة: jpg, png, gif"
+"هل تعلم أن الصور تؤدي للبيع بمعدل أعلى بكثير؟ يمكنك إضافة %(max_photos)s صور "
+"واضحة وأصلية. انواع الملفات المدعومة: jpg, png, gif."
 
 #: templates/listings/manage_photos.html:47
 msgid "Add another photo"
@@ -2973,7 +2973,6 @@ msgid "Buy, sell and find anything"
 msgstr "بيع واشتري وأعثر على أى شيء "
 
 #: templates/public/home.html:24
-#, fuzzy
 msgid ""
 "\n"
 "                                Cars, jobs, properties, classifieds and so "
@@ -2985,7 +2984,6 @@ msgstr ""
 "                    "
 
 #: templates/public/home.html:28
-#, fuzzy
 msgid ""
 "\n"
 "                                Thousands of cars, jobs, properties, "
@@ -3061,7 +3059,7 @@ msgid "More options"
 msgstr "إختيارات أكثر"
 
 #: templates/search/browse_widget.html:85
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "                                Show only %(CURRENT_LANGUAGE)s ads\n"
@@ -3084,7 +3082,7 @@ msgid "in"
 msgstr "في"
 
 #: templates/search/search.html:35
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "                        We found <span class=\"red\">%(counter)s</span> ad\n"
