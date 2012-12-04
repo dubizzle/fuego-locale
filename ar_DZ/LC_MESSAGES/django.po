@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-23 10:47+0400\n"
-"PO-Revision-Date: 2012-10-30 15:48+0400\n"
-"Last-Translator: Mohammad Alazzeh <alazzeh@dubizzle.com>\n"
+"POT-Creation-Date: 2012-12-04 14:17+0400\n"
+"PO-Revision-Date: 2012-12-04 14:28+0400\n"
+"Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Algerian "
 "<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_DZ/>\n"
 "Language: ar_DZ\n"
@@ -27,7 +27,7 @@ msgid "Email address"
 msgstr "عنوان الإيميل"
 
 #: authentication/forms.py:18 authentication/forms.py:154
-#: fuego/forms/__init__.py:45 public/forms.py:17
+#: fuego/forms/__init__.py:45 public/forms.py:20
 msgid "Oh no! Your email is invalid. Try again."
 msgstr "لا تنسى إدخال عنوان إيميل صحيح!"
 
@@ -60,7 +60,7 @@ msgstr "تأكيد كلمة السر"
 msgid "Sorry, please re-enter your password using only English characters."
 msgstr "عفوا, كلمة السر يجب أن تتكون من حروف لاتينية (English)"
 
-#: authentication/forms.py:104 listings/tests.py:856
+#: authentication/forms.py:104 listings/tests.py:922
 msgid ""
 "This email address is already in use. Click 'I have a dubizzle password', or "
 "use a different email."
@@ -68,11 +68,11 @@ msgstr ""
 "عنوان الإيميل هذا مسجل لدينا. إختر \"لدي حساب وكلمة سر\" اعلاه أو ادخل عنوان "
 "ايميل آخر."
 
-#: authentication/forms.py:121 listings/tests.py:897
+#: authentication/forms.py:121 listings/tests.py:963
 msgid "Huh... that's not the same one! Try again."
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
-#: authentication/forms.py:129 listings/tests.py:938
+#: authentication/forms.py:129 listings/tests.py:1004
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
 
@@ -110,7 +110,7 @@ msgstr ""
 "كلمة السر غير صحيحة (ألو.. ؟! خليك معانا .. تأكد من كون الحروف الانجليزية  "
 "كبيرة أو صغيرة)."
 
-#: authentication/views.py:82
+#: authentication/views.py:86
 msgid "Please enter the correct Username and Password combination."
 msgstr "البيانات التي ادخلتها غير صحيحة."
 
@@ -126,547 +126,547 @@ msgstr "خطأ"
 msgid "Please enter the correct letters"
 msgstr "من فضلك اكتب الحروف بشكل صحيح"
 
-#: fuego/algerie_settings.py:34
+#: fuego/algerie_settings.py:36
 msgid "Algeria"
 msgstr "الجزائر"
 
-#: fuego/algerie_settings.py:36
+#: fuego/algerie_settings.py:38
 msgid "DZD"
 msgstr "DZD"
 
-#: fuego/algerie_settings.py:46
+#: fuego/algerie_settings.py:48
 msgid "Algiers"
 msgstr "الجزائر"
 
-#: fuego/algerie_settings.py:56 fuego/algerie_settings.py:531
+#: fuego/algerie_settings.py:58 fuego/algerie_settings.py:533
 msgid "Setif"
 msgstr "سطيف"
 
-#: fuego/algerie_settings.py:70 fuego/algerie_settings.py:667
+#: fuego/algerie_settings.py:72 fuego/algerie_settings.py:669
 msgid "Oran"
 msgstr "وهران"
 
-#: fuego/algerie_settings.py:79 fuego/algerie_settings.py:693
+#: fuego/algerie_settings.py:81 fuego/algerie_settings.py:695
 msgid "Annaba"
 msgstr "عنابة"
 
-#: fuego/algerie_settings.py:95
+#: fuego/algerie_settings.py:97
 msgid "Alger"
 msgstr "الجزائر"
 
-#: fuego/algerie_settings.py:100
+#: fuego/algerie_settings.py:102
 msgid "El Mouradia"
 msgstr "المورادية"
 
-#: fuego/algerie_settings.py:105
+#: fuego/algerie_settings.py:107
 msgid "Alger Centre"
 msgstr "الجزائر الوسطى"
 
-#: fuego/algerie_settings.py:110
+#: fuego/algerie_settings.py:112
 msgid "Bab Ezzouar"
 msgstr "باب الزوار"
 
-#: fuego/algerie_settings.py:115
+#: fuego/algerie_settings.py:117
 msgid "Bab El Oued"
 msgstr "باب الواد"
 
-#: fuego/algerie_settings.py:120
+#: fuego/algerie_settings.py:122
 msgid "Hydra"
 msgstr "حيدرة"
 
-#: fuego/algerie_settings.py:125
+#: fuego/algerie_settings.py:127
 msgid "Bachdjerrah"
 msgstr "باش جراح"
 
-#: fuego/algerie_settings.py:130
+#: fuego/algerie_settings.py:132
 msgid "El Biar"
 msgstr "الابيار"
 
-#: fuego/algerie_settings.py:135
+#: fuego/algerie_settings.py:137
 msgid "Cheraga"
 msgstr "الشراقة"
 
-#: fuego/algerie_settings.py:140
+#: fuego/algerie_settings.py:142
 msgid "El Madania"
 msgstr "المدنية"
 
-#: fuego/algerie_settings.py:145
+#: fuego/algerie_settings.py:147
 msgid "Bains Romains"
 msgstr "الحمامات الرومانية"
 
-#: fuego/algerie_settings.py:150
+#: fuego/algerie_settings.py:152
 msgid "El Achour"
 msgstr "الاشور"
 
-#: fuego/algerie_settings.py:155
+#: fuego/algerie_settings.py:157
 msgid "Bir Mourad Rais"
 msgstr "بير مراد الرايس"
 
-#: fuego/algerie_settings.py:160
+#: fuego/algerie_settings.py:162
 msgid "El Casbah"
 msgstr "القصبة"
 
-#: fuego/algerie_settings.py:165
+#: fuego/algerie_settings.py:167
 msgid "Kouba"
 msgstr "القبة"
 
-#: fuego/algerie_settings.py:170
+#: fuego/algerie_settings.py:172
 msgid "Ben Aknoun"
 msgstr "بن عكون"
 
-#: fuego/algerie_settings.py:175
+#: fuego/algerie_settings.py:177
 msgid "Belouizdad"
 msgstr "الحامة"
 
-#: fuego/algerie_settings.py:180
+#: fuego/algerie_settings.py:182
 msgid "Ain Benian"
 msgstr "عين البنيان"
 
-#: fuego/algerie_settings.py:185
+#: fuego/algerie_settings.py:187
 msgid "Bouzareah"
 msgstr "بوزريعة"
 
-#: fuego/algerie_settings.py:190
+#: fuego/algerie_settings.py:192
 msgid "Rouiba"
 msgstr "الرويبة"
 
-#: fuego/algerie_settings.py:195
+#: fuego/algerie_settings.py:197
 msgid "Zeralda"
 msgstr "زرالدة"
 
-#: fuego/algerie_settings.py:200
+#: fuego/algerie_settings.py:202
 msgid "Beraki"
 msgstr "براقي"
 
-#: fuego/algerie_settings.py:205
+#: fuego/algerie_settings.py:207
 msgid "Dar El Beida"
 msgstr "دار البيضاء"
 
-#: fuego/algerie_settings.py:210
+#: fuego/algerie_settings.py:212
 msgid "Ain Naadja"
 msgstr "عين النعجة"
 
-#: fuego/algerie_settings.py:215
+#: fuego/algerie_settings.py:217
 msgid "Bordj El Kifan"
 msgstr "برج الكيفان"
 
-#: fuego/algerie_settings.py:220
+#: fuego/algerie_settings.py:222
 msgid "Bordj El Bahri"
 msgstr "برج البحري"
 
-#: fuego/algerie_settings.py:225
+#: fuego/algerie_settings.py:227
 msgid "Staoueli"
 msgstr "سطاوالي"
 
-#: fuego/algerie_settings.py:230
+#: fuego/algerie_settings.py:232
 msgid "Ain Taya"
 msgstr "عين طاية"
 
-#: fuego/algerie_settings.py:235
+#: fuego/algerie_settings.py:237
 msgid "Ouled Fayet"
 msgstr "ولاد فياة"
 
-#: fuego/algerie_settings.py:240
+#: fuego/algerie_settings.py:242
 msgid "Mohammadia"
 msgstr "المحمدية"
 
-#: fuego/algerie_settings.py:245
+#: fuego/algerie_settings.py:247
 msgid "Hussein Dey"
 msgstr "حسين داي"
 
-#: fuego/algerie_settings.py:250
+#: fuego/algerie_settings.py:252
 msgid "El Hamma"
 msgstr "الحامة"
 
-#: fuego/algerie_settings.py:255
+#: fuego/algerie_settings.py:257
 msgid "El Magharia"
 msgstr "المقاربة"
 
-#: fuego/algerie_settings.py:261
+#: fuego/algerie_settings.py:263
 msgid "Ain Abessa"
 msgstr "عين عباسة"
 
-#: fuego/algerie_settings.py:266
+#: fuego/algerie_settings.py:268
 msgid "Ain Arnat"
 msgstr "عين ارناط"
 
-#: fuego/algerie_settings.py:271 fuego/algerie_settings.py:281
+#: fuego/algerie_settings.py:273 fuego/algerie_settings.py:283
 msgid "Ain Azel"
 msgstr "عين ازيل"
 
-#: fuego/algerie_settings.py:276
+#: fuego/algerie_settings.py:278
 msgid "Ain El Kebira"
 msgstr "عين الكبيرة"
 
-#: fuego/algerie_settings.py:286
+#: fuego/algerie_settings.py:288
 msgid "Ain Lahdjar"
 msgstr "عين الاحجار"
 
-#: fuego/algerie_settings.py:291
+#: fuego/algerie_settings.py:293
 msgid "Ain Legraj"
 msgstr "عين لڨراج"
 
-#: fuego/algerie_settings.py:296
+#: fuego/algerie_settings.py:298
 msgid "Ain Oulmane"
 msgstr "عين ولمان"
 
-#: fuego/algerie_settings.py:301
+#: fuego/algerie_settings.py:303
 msgid "Ain Roua"
 msgstr "عين رؤى"
 
-#: fuego/algerie_settings.py:306
+#: fuego/algerie_settings.py:308
 msgid "Ain Sebt"
 msgstr "عين سبت"
 
-#: fuego/algerie_settings.py:311
+#: fuego/algerie_settings.py:313
 msgid "Ait Naoual Mezada"
 msgstr "آيت نوال مزادة"
 
-#: fuego/algerie_settings.py:316
+#: fuego/algerie_settings.py:318
 msgid "Ait Tizi"
 msgstr "آيت تيزي"
 
-#: fuego/algerie_settings.py:321
+#: fuego/algerie_settings.py:323
 msgid "Amoucha"
 msgstr "عموشة"
 
-#: fuego/algerie_settings.py:326
+#: fuego/algerie_settings.py:328
 msgid "Babor"
 msgstr "بابور"
 
-#: fuego/algerie_settings.py:331
+#: fuego/algerie_settings.py:333
 msgid "Bazer Sakhra"
 msgstr "بازر صخرة"
 
-#: fuego/algerie_settings.py:336
+#: fuego/algerie_settings.py:338
 msgid "Beidha Bordj"
 msgstr " بيضا برج"
 
-#: fuego/algerie_settings.py:341
+#: fuego/algerie_settings.py:343
 msgid "Belaa"
 msgstr "بلاعة"
 
-#: fuego/algerie_settings.py:346
+#: fuego/algerie_settings.py:348
 msgid "Beni Aziz"
 msgstr " بني عزيز"
 
-#: fuego/algerie_settings.py:351
+#: fuego/algerie_settings.py:353
 msgid "Beni Chebana"
 msgstr "بني شيبانة"
 
-#: fuego/algerie_settings.py:356
+#: fuego/algerie_settings.py:358
 msgid "Beni Fouda"
 msgstr " بني فودة"
 
-#: fuego/algerie_settings.py:361
+#: fuego/algerie_settings.py:363
 msgid "Beni Hocine"
 msgstr " بني حسين"
 
-#: fuego/algerie_settings.py:366
+#: fuego/algerie_settings.py:368
 msgid "Beni Ourtilane"
 msgstr " بني ورتيلان"
 
-#: fuego/algerie_settings.py:371
+#: fuego/algerie_settings.py:373
 msgid "Bir El Arch"
 msgstr " بئر العرش"
 
-#: fuego/algerie_settings.py:376
+#: fuego/algerie_settings.py:378
 msgid "Bir Haddada"
 msgstr " بئر حدادة"
 
-#: fuego/algerie_settings.py:381
+#: fuego/algerie_settings.py:383
 msgid "Bouandas"
 msgstr " بوعنداس"
 
-#: fuego/algerie_settings.py:386
+#: fuego/algerie_settings.py:388
 msgid "Bougaa"
 msgstr " بوقاعة"
 
-#: fuego/algerie_settings.py:391
+#: fuego/algerie_settings.py:393
 msgid "Bousselam"
 msgstr " بوسلام"
 
-#: fuego/algerie_settings.py:396
+#: fuego/algerie_settings.py:398
 msgid "Boutaleb"
 msgstr " بوطالب"
 
-#: fuego/algerie_settings.py:401
+#: fuego/algerie_settings.py:403
 msgid "Dehamcha"
 msgstr " دهامشة"
 
-#: fuego/algerie_settings.py:406
+#: fuego/algerie_settings.py:408
 msgid "Djemila"
 msgstr " جميلة"
 
-#: fuego/algerie_settings.py:411
+#: fuego/algerie_settings.py:413
 msgid "Draa Kebila"
 msgstr " ذراع قبيلة"
 
-#: fuego/algerie_settings.py:416
+#: fuego/algerie_settings.py:418
 msgid "El Eulma"
 msgstr " العلمة"
 
-#: fuego/algerie_settings.py:421
+#: fuego/algerie_settings.py:423
 msgid "El Ouldja"
 msgstr "الولجة"
 
-#: fuego/algerie_settings.py:426
+#: fuego/algerie_settings.py:428
 msgid "El Ouricia"
 msgstr "أوريسيا"
 
-#: fuego/algerie_settings.py:431
+#: fuego/algerie_settings.py:433
 msgid "Guelal"
 msgstr "قلال "
 
-#: fuego/algerie_settings.py:436
+#: fuego/algerie_settings.py:438
 msgid "Guelta Zerka"
 msgstr " القلتة الزرقاء"
 
-#: fuego/algerie_settings.py:441
+#: fuego/algerie_settings.py:443
 msgid "Guenzet"
 msgstr " قنزات"
 
-#: fuego/algerie_settings.py:446
+#: fuego/algerie_settings.py:448
 msgid "Guidjel"
 msgstr " قيجل"
 
-#: fuego/algerie_settings.py:451
+#: fuego/algerie_settings.py:453
 msgid "Hamma"
 msgstr " الحامة"
 
-#: fuego/algerie_settings.py:456
+#: fuego/algerie_settings.py:458
 msgid "Hammam Guergour"
 msgstr " حمام قرقور"
 
-#: fuego/algerie_settings.py:461
+#: fuego/algerie_settings.py:463
 msgid "Harbil"
 msgstr "حربيل"
 
-#: fuego/algerie_settings.py:466
+#: fuego/algerie_settings.py:468
 msgid "Ksar El Abtal"
 msgstr " قصر الأبطال"
 
-#: fuego/algerie_settings.py:471
+#: fuego/algerie_settings.py:473
 msgid "Maaouia"
 msgstr " معاوية"
 
-#: fuego/algerie_settings.py:476
+#: fuego/algerie_settings.py:478
 msgid "Maoklane"
 msgstr "ماوكلان"
 
-#: fuego/algerie_settings.py:481
+#: fuego/algerie_settings.py:483
 msgid "Mezloug"
 msgstr " مزلوق"
 
-#: fuego/algerie_settings.py:486
+#: fuego/algerie_settings.py:488
 msgid "Oued El Barad"
 msgstr " واد البارد"
 
-#: fuego/algerie_settings.py:491
+#: fuego/algerie_settings.py:493
 msgid "Ouled Addouane"
 msgstr " اولاد عدوان"
 
-#: fuego/algerie_settings.py:496
+#: fuego/algerie_settings.py:498
 msgid "Ouled Sabor"
 msgstr " اولاد صابر"
 
-#: fuego/algerie_settings.py:501
+#: fuego/algerie_settings.py:503
 msgid "Ouled Si Ahmed"
 msgstr " ولاد السي أحمد"
 
-#: fuego/algerie_settings.py:506
+#: fuego/algerie_settings.py:508
 msgid "Ouled Tebben"
 msgstr " اولاد تبان"
 
-#: fuego/algerie_settings.py:511
+#: fuego/algerie_settings.py:513
 msgid "Oum Ladjoul"
 msgstr "ام لعجول"
 
-#: fuego/algerie_settings.py:516
+#: fuego/algerie_settings.py:518
 msgid "Rasfa"
 msgstr " رسفة"
 
-#: fuego/algerie_settings.py:521
+#: fuego/algerie_settings.py:523
 msgid "Salah Bey"
 msgstr " صالح باي"
 
-#: fuego/algerie_settings.py:526
+#: fuego/algerie_settings.py:528
 msgid "Serdj El Ghoul"
 msgstr " سرج الغول"
 
-#: fuego/algerie_settings.py:536
+#: fuego/algerie_settings.py:538
 msgid "Tachouda"
 msgstr " تاشودة"
 
-#: fuego/algerie_settings.py:541
+#: fuego/algerie_settings.py:543
 msgid "Talaifacene"
 msgstr " تالة ايفاسن"
 
-#: fuego/algerie_settings.py:546
+#: fuego/algerie_settings.py:548
 msgid "Taya"
 msgstr " الطاية"
 
-#: fuego/algerie_settings.py:551
+#: fuego/algerie_settings.py:553
 msgid "Tella"
 msgstr "تلة"
 
-#: fuego/algerie_settings.py:556
+#: fuego/algerie_settings.py:558
 msgid "Tizi N'Bechar"
 msgstr "تيزي نبشار"
 
-#: fuego/algerie_settings.py:562
+#: fuego/algerie_settings.py:564
 msgid "Arzew"
 msgstr "ارزيو"
 
-#: fuego/algerie_settings.py:567
+#: fuego/algerie_settings.py:569
 msgid "Ain Bya"
 msgstr "عين بية"
 
-#: fuego/algerie_settings.py:572
+#: fuego/algerie_settings.py:574
 msgid "Ain El Kerma"
 msgstr "عين  الكرمة"
 
-#: fuego/algerie_settings.py:577
+#: fuego/algerie_settings.py:579
 msgid "Ain El Turk"
 msgstr "عين  الترك"
 
-#: fuego/algerie_settings.py:582
+#: fuego/algerie_settings.py:584
 msgid "Ben Freha"
 msgstr "بن فريحة"
 
-#: fuego/algerie_settings.py:587
+#: fuego/algerie_settings.py:589
 msgid "Bethioua"
 msgstr "بتحيوة"
 
-#: fuego/algerie_settings.py:592
+#: fuego/algerie_settings.py:594
 msgid "Bir El Djir"
 msgstr "بير الجير"
 
-#: fuego/algerie_settings.py:597
+#: fuego/algerie_settings.py:599
 msgid "Boufatis"
 msgstr "بوفاطيس"
 
-#: fuego/algerie_settings.py:602
+#: fuego/algerie_settings.py:604
 msgid "Bousfer"
 msgstr "بوسفير"
 
-#: fuego/algerie_settings.py:607
+#: fuego/algerie_settings.py:609
 msgid "Boutlelis"
 msgstr "بوتليليس"
 
-#: fuego/algerie_settings.py:612
+#: fuego/algerie_settings.py:614
 msgid "El Ancor"
 msgstr "الانصور"
 
-#: fuego/algerie_settings.py:617
+#: fuego/algerie_settings.py:619
 msgid "El Braya"
 msgstr "البرايا"
 
-#: fuego/algerie_settings.py:622
+#: fuego/algerie_settings.py:624
 msgid "El Kerma"
 msgstr "الكرمة"
 
-#: fuego/algerie_settings.py:627
+#: fuego/algerie_settings.py:629
 msgid "Es Senia"
 msgstr "السانية"
 
-#: fuego/algerie_settings.py:632
+#: fuego/algerie_settings.py:634
 msgid "Gdyel"
 msgstr "ڨدايل"
 
-#: fuego/algerie_settings.py:637
+#: fuego/algerie_settings.py:639
 msgid "Hassi Ben Okba"
 msgstr "حاسي بن عقبة"
 
-#: fuego/algerie_settings.py:642
+#: fuego/algerie_settings.py:644
 msgid "Hassi Bounif"
 msgstr "حاسي بونيف"
 
-#: fuego/algerie_settings.py:647
+#: fuego/algerie_settings.py:649
 msgid "Hassi Mefsoukh"
 msgstr "حاسي مفسوخ"
 
-#: fuego/algerie_settings.py:652
+#: fuego/algerie_settings.py:654
 msgid "Mers El Hadjadj"
 msgstr "مرس الحجاج"
 
-#: fuego/algerie_settings.py:657
+#: fuego/algerie_settings.py:659
 msgid "Mers El Kebir"
 msgstr "مرس الكبير"
 
-#: fuego/algerie_settings.py:662
+#: fuego/algerie_settings.py:664
 msgid "Misserghin"
 msgstr "مسرغين"
 
-#: fuego/algerie_settings.py:672
+#: fuego/algerie_settings.py:674
 msgid "Oued Tlelat"
 msgstr "واد تلاليت"
 
-#: fuego/algerie_settings.py:677
+#: fuego/algerie_settings.py:679
 msgid "Sidi Ben Yebka"
 msgstr "سيدي بن يبكى"
 
-#: fuego/algerie_settings.py:682
+#: fuego/algerie_settings.py:684
 msgid "Sidi Chami"
 msgstr "سيدي شامي"
 
-#: fuego/algerie_settings.py:687
+#: fuego/algerie_settings.py:689
 msgid "Tafraoui"
 msgstr "طفراوي"
 
-#: fuego/algerie_settings.py:698
+#: fuego/algerie_settings.py:700
 msgid "Ain Berda"
 msgstr "عين باردة"
 
-#: fuego/algerie_settings.py:703
+#: fuego/algerie_settings.py:705
 msgid "Barrahel"
 msgstr "بالراحل"
 
-#: fuego/algerie_settings.py:708
+#: fuego/algerie_settings.py:710
 msgid "Chetaibi"
 msgstr "شطايبي"
 
-#: fuego/algerie_settings.py:713
+#: fuego/algerie_settings.py:715
 msgid "Cheurfa"
 msgstr "شورفة"
 
-#: fuego/algerie_settings.py:718
+#: fuego/algerie_settings.py:720
 msgid "El Bouni"
 msgstr "البوني"
 
-#: fuego/algerie_settings.py:723
+#: fuego/algerie_settings.py:725
 msgid "El Hadjar"
 msgstr "الحجار"
 
-#: fuego/algerie_settings.py:728
+#: fuego/algerie_settings.py:730
 msgid "Eulma"
 msgstr "اولمة"
 
-#: fuego/algerie_settings.py:733
+#: fuego/algerie_settings.py:735
 msgid "Oued El Aneb"
 msgstr "واد العنب"
 
-#: fuego/algerie_settings.py:738
+#: fuego/algerie_settings.py:740
 msgid "Seraidi"
 msgstr "صرايدي"
 
-#: fuego/algerie_settings.py:743
+#: fuego/algerie_settings.py:745
 msgid "Sidi Amar"
 msgstr "سيدي عمار"
 
-#: fuego/algerie_settings.py:748
+#: fuego/algerie_settings.py:750
 msgid "Treat"
 msgstr "تريت"
 
-#: fuego/algerie_settings.py:768
+#: fuego/algerie_settings.py:770
 msgid "French"
 msgstr "French"
 
-#: fuego/algerie_settings.py:769
+#: fuego/algerie_settings.py:771
 msgid "Arabic"
 msgstr "عربي"
 
-#: fuego/algerie_settings.py:779
+#: fuego/algerie_settings.py:781
 msgid ""
 "Jobs in Algeria, Property & Real Estate For Sale & Rent, Cars for Sale - "
 "Free Classifieds in Algeria | dubizzle Algeria"
@@ -674,17 +674,17 @@ msgstr ""
 "وظائف في الجزائر، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في "
 "الجزائر | دوبيزل الجزائر"
 
-#: fuego/algerie_settings.py:783
+#: fuego/algerie_settings.py:785
 msgid ""
 "dubizzle is your free and friendly local classifieds website in Algeria. "
 "Jobs, property, real estate, cars and classifieds in Algeria. Post an ad, "
 "browse ads, buy, sell or rent."
 msgstr ""
 "دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(city_comma_country)s. "
-"وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في "
-"(city_comma_country)s. أضف اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
+"وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في (city_comma_country)s. "
+"أضف اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
 
-#: fuego/algerie_settings.py:788
+#: fuego/algerie_settings.py:790
 msgid ""
 "dubizzle Algeria, free classifieds, online classifieds, Algeria classifieds, "
 "free classifieds in Algeria"
@@ -756,8 +756,8 @@ msgid ""
 "%(ad_title)s, post %(category_leaf)s Jobs ads, post %(category_leaf)s Jobs "
 "ads in %(city)s"
 msgstr ""
-"%(ad_title)s, أضف اعلانات وظائف %(category_leaf)s, أضف اعلانات وظائف %"
-"(category_leaf)s في  %(city)s"
+"%(ad_title)s, أضف اعلانات وظائف %(category_leaf)s, أضف اعلانات وظائف "
+"%(category_leaf)s في  %(city)s"
 
 #: fuego/meta_settings.py:85 fuego/meta_settings.py:91
 #: fuego/meta_settings.py:97
@@ -1831,9 +1831,9 @@ msgid ""
 "Property & Real Estate For Sale & Rent, Cars for Sale | dubizzle "
 "%(city_comma_country)s"
 msgstr ""
-"اعلانات مبوبة مجانية في %(city_comma_country)s - وظائف شاغرة في %"
-"(city_comma_country)s, عقارات للبيع او الايجار, سيارات للبيع | دوبيزل %"
-"(city_comma_country)s"
+"اعلانات مبوبة مجانية في %(city_comma_country)s - وظائف شاغرة في "
+"%(city_comma_country)s, عقارات للبيع او الايجار, سيارات للبيع | دوبيزل "
+"%(city_comma_country)s"
 
 #: fuego/meta_settings.py:364
 #, python-format
@@ -1843,8 +1843,8 @@ msgid ""
 "%(city_comma_country)s. Post an ad, browse ads, buy, sell or rent. "
 msgstr ""
 "دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(city_comma_country)s. "
-"وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في "
-"(city_comma_country)s. أضف اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
+"وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في (city_comma_country)s. "
+"أضف اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
 
 #: fuego/meta_settings.py:365 fuego/meta_settings.py:371
 #, fuzzy, python-format
@@ -1873,20 +1873,20 @@ msgid ""
 "properties for rent or items for sale in %(city_comma_country)s."
 msgstr ""
 "دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(city_comma_country)s "
-"لبيع وشراء أي شيء. ايجاد سيارات, وظائف شاغرة, عقارات للايجار و سلع للبيع في "
-" %(city_comma_country)s."
+"لبيع وشراء أي شيء. ايجاد سيارات, وظائف شاغرة, عقارات للايجار و سلع للبيع في  "
+"%(city_comma_country)s."
 
-#: fuego/shared_settings.py:169
+#: fuego/shared_settings.py:183
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/shared_settings.py:270 templates/search/browse_widget.html:20
-#: templates/search/browse_widget.html:38 templates/search/widget.html:27
+#: fuego/shared_settings.py:286 templates/search/browse_widget.html:21
+#: templates/search/browse_widget.html:39 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/shared_settings.py:385
+#: fuego/shared_settings.py:399
 msgid "Studio"
 msgstr "ستوديو"
 
@@ -1901,6 +1901,16 @@ msgid ""
 msgstr ""
 "لقد نسيت اضافة رسالتك للمعلن. هل تحتاج لمزيد من المعلومات عن هذا الإعلان؟ لا "
 "حرج في السؤال!"
+
+#: listings/formatters.py:32
+#, python-format
+msgid "%(neighbourhood)s, %(city)s"
+msgstr "%(neighbourhood)s، %(city)s"
+
+#: listings/formatters.py:38
+#, python-format
+msgid "%(currency)s %(price)s"
+msgstr "%(currency)s %(price)s"
 
 #: listings/forms.py:33
 msgid "Upload CV"
@@ -1954,12 +1964,12 @@ msgstr "اظهر رقمي في الإعلان"
 msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
-#: listings/forms.py:128 templates/listings/get_listing.html:105
+#: listings/forms.py:128 templates/listings/get_listing.html:107
 #: templates/listings/manage_listing.html:193
 msgid "Description"
 msgstr "مواصفات الإعلان"
 
-#: listings/forms.py:166 listings/views.py:139
+#: listings/forms.py:166 listings/views.py:142
 msgid "Please select a valid category."
 msgstr "ما هو أنسب قسم لعرض إعلانك ؟"
 
@@ -1986,9 +1996,9 @@ msgstr ""
 "لو محتار في تحديد السعر إبحث عن أسعار أشياء مماثلة على الموقع. يرجى التأكد "
 "أن السعر المطلوب في عملة %(currency)s"
 
-#: listings/forms.py:319 listings/models.py:266 listings/models.py:290
-#: listings/models.py:310 listings/models.py:327 listings/models.py:344
-#: listings/models.py:371 listings/models.py:388 listings/models.py:415
+#: listings/forms.py:319 listings/models.py:288 listings/models.py:312
+#: listings/models.py:332 listings/models.py:349 listings/models.py:366
+#: listings/models.py:393 listings/models.py:410 listings/models.py:437
 msgid "Price"
 msgstr "السعر"
 
@@ -2000,7 +2010,7 @@ msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
 
-#: listings/forms.py:353 listings/models.py:287
+#: listings/forms.py:353 listings/models.py:309
 msgid "Year"
 msgstr "السنة"
 
@@ -2016,83 +2026,74 @@ msgstr "عدد الكيلومترات"
 msgid "Great ride, how far has it gone?"
 msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
 
-#: listings/forms.py:408 listings/models.py:370 listings/models.py:414
+#: listings/forms.py:408 listings/forms.py:430 listings/models.py:392
+#: listings/models.py:436
 msgid "Bedrooms"
 msgstr "غرف نوم"
 
-#: listings/forms.py:409 listings/forms.py:429
+#: listings/forms.py:409 listings/forms.py:431
 msgid "Nice property, but how many bedrooms?"
 msgstr "حدثنا عن عقارك. كم عدد غرف النوم؟"
 
-#: listings/forms.py:428
-msgid "Number of bedrooms"
-msgstr "عدد غرف النوم"
-
-#: listings/models.py:101
+#: listings/models.py:99
 msgid "Posted On"
 msgstr "نُشر بتاريخ"
 
-#: listings/models.py:102 listings/models.py:265 listings/models.py:289
-#: listings/models.py:309 listings/models.py:326 listings/models.py:343
-#: listings/models.py:369 listings/models.py:387 listings/models.py:413
+#: listings/models.py:100 listings/models.py:287 listings/models.py:311
+#: listings/models.py:331 listings/models.py:348 listings/models.py:365
+#: listings/models.py:391 listings/models.py:409 listings/models.py:435
 msgid "Neighbourhood"
 msgstr "المنطقة"
 
-#: listings/models.py:198
-#, python-format
-msgid "%(neighbourhood)s, %(city)s"
-msgstr "%(neighbourhood)s، %(city)s"
-
-#: listings/models.py:204
-#, python-format
-msgid "%(currency)s %(price)s"
-msgstr "%(currency)s %(price)s"
-
-#: listings/models.py:264 listings/models.py:286 listings/models.py:308
-#: listings/models.py:325 listings/models.py:342 listings/models.py:368
-#: listings/models.py:386 listings/models.py:412
+#: listings/models.py:286 listings/models.py:308 listings/models.py:330
+#: listings/models.py:347 listings/models.py:364 listings/models.py:390
+#: listings/models.py:408 listings/models.py:434
 msgid "Posted on"
 msgstr "نُشر بتاريخ"
 
-#: listings/models.py:288
+#: listings/models.py:310
 msgid "Kilometers"
 msgstr "كيلومترات"
 
-#: public/forms.py:13
+#: public/forms.py:16
 msgid "Enter a subject please"
 msgstr "نوع الاستفسار"
 
 #. Translators: This is in CrystelCalls new listing interface
-#: public/forms.py:16 templates/listings/manage_inorganic_listing.html:25
+#: public/forms.py:19 templates/listings/manage_inorganic_listing.html:25
 #: templates/listings/manage_listing.html:306
 #: templates/listings/manage_listing.html:314
 #: templates/public/contact_us.html:104
 msgid "Email"
 msgstr "عنوان الإيميل"
 
-#: public/forms.py:20
+#: public/forms.py:23
 msgid "Email address(again)"
 msgstr "تأكيد عنوان الإيميل"
 
-#: public/forms.py:25
+#: public/forms.py:28
 msgid "We need your location so that we can help you"
 msgstr "لا تنسى اضافة إسم المدينة/الدولة لكي نستطيع مساعدتك"
 
-#: public/forms.py:33
+#: public/forms.py:36
 msgid "You forgot to tell us who you are"
 msgstr "نسيت اضافة إسمك!"
 
-#: public/forms.py:35
+#: public/forms.py:38
 msgid "We need your mobile number so that we can help you"
 msgstr "من فضلك ادخل رقم الموبايل لكي نستطيع مساعدتك"
 
-#: public/forms.py:36
+#: public/forms.py:39
 msgid "You left the message box empty...please tell us how we can help you"
 msgstr "لقد نسيت اضافة الرسالة. عندك مشكلة؟ راسلنا وسنساعدك!"
 
-#: public/forms.py:49
+#: public/forms.py:52
 msgid "Huh... that's not the same one!?"
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
+
+#: public/forms.py:61
+msgid "Photo Count"
+msgstr ""
 
 #: search/forms.py:33
 #, python-format
@@ -2104,23 +2105,23 @@ msgstr "%(city)s بالكامل"
 msgid "All of %(country)s"
 msgstr "%(country)s بالكامل"
 
-#: search/forms.py:130
+#: search/forms.py:128
 msgid "Keywords"
 msgstr "كلمات البحث"
 
-#: search/forms.py:133
+#: search/forms.py:131
 msgid "City"
 msgstr "المدينة"
 
-#: search/forms.py:259 search/forms.py:268 search/forms.py:277
-#: search/forms.py:300 search/forms.py:322 search/forms.py:344
-#: search/forms.py:373
+#: search/forms.py:257 search/forms.py:266 search/forms.py:275
+#: search/forms.py:298 search/forms.py:320 search/forms.py:342
+#: search/forms.py:371
 msgid "From"
 msgstr "من"
 
-#: search/forms.py:264 search/forms.py:273 search/forms.py:280
-#: search/forms.py:305 search/forms.py:327 search/forms.py:349
-#: search/forms.py:378
+#: search/forms.py:262 search/forms.py:271 search/forms.py:278
+#: search/forms.py:303 search/forms.py:325 search/forms.py:347
+#: search/forms.py:376
 msgid "To"
 msgstr "إلى"
 
@@ -2152,7 +2153,7 @@ msgstr "الصفحة السابقة"
 
 #: templates/404-web.html:20 templates/generic.html:48
 #: templates/privacy_ar.html:55 templates/privacy_fr.html:57
-#: templates/terms_ar.html:311 templates/shared/listings.html:51
+#: templates/terms_ar.html:311 templates/shared/listings.html:53
 msgid "Home"
 msgstr "الصفحة الرئيسية"
 
@@ -2161,7 +2162,7 @@ msgid "Browse"
 msgstr "تصفح"
 
 #: templates/generic.html:24 templates/generic.html.py:68
-#: templates/search/search.html:23
+#: templates/search/search.html:22
 msgid ","
 msgstr "،"
 
@@ -2384,23 +2385,23 @@ msgstr "العودة إلى الإعلان"
 msgid "Confirm"
 msgstr "تأكيد "
 
-#: templates/listings/get_listing.html:44
+#: templates/listings/get_listing.html:46
 msgid "Back to results"
 msgstr "العودة إلى صفحة الإعلانات"
 
-#: templates/listings/get_listing.html:55
+#: templates/listings/get_listing.html:57
 msgid "Report this ad"
 msgstr "بلغ عن هذا الإعلان"
 
-#: templates/listings/get_listing.html:56
+#: templates/listings/get_listing.html:58
 msgid "Edit this ad"
 msgstr "تعديل"
 
-#: templates/listings/get_listing.html:57
+#: templates/listings/get_listing.html:59
 msgid "Delete this ad"
 msgstr "حذف الإعلان "
 
-#: templates/listings/get_listing.html:65
+#: templates/listings/get_listing.html:67
 msgid ""
 "This ad has already been edited and is awaiting approval. You'll get an "
 "email once the changes are live."
@@ -2408,23 +2409,23 @@ msgstr ""
 "عفواً، لن تستطيع تعديل اعلانك حتى تتم الموافقة على نشره. سنرسل لك إيميل عند "
 "نشره. لن نتأخر عليك!"
 
-#: templates/listings/get_listing.html:97
+#: templates/listings/get_listing.html:99
 msgid "Details"
 msgstr "التفاصيل"
 
-#: templates/listings/get_listing.html:120
+#: templates/listings/get_listing.html:117
 msgid "Show mobile number"
 msgstr "اظهر رقم الموبايل"
 
-#: templates/listings/get_listing.html:126
+#: templates/listings/get_listing.html:123
 msgid "Send an email"
 msgstr "ارسل إيميل"
 
-#: templates/listings/listing_complete.html:11
+#: templates/listings/listing_complete.html:12
 msgid "Hooray! Congratulations, your ad will go live very very soon."
 msgstr "مبروك! لقد اضفت إعلانك بنجاح وسنقوم بنشره قريبا."
 
-#: templates/listings/listing_complete.html:13
+#: templates/listings/listing_complete.html:14
 msgid ""
 "\n"
 "\t    \t\t<p>\n"
@@ -2446,11 +2447,11 @@ msgstr ""
 "\t\t\t</p>\n"
 "\t\t\t"
 
-#: templates/listings/listing_complete.html:23
+#: templates/listings/listing_complete.html:24
 msgid "Back to home page"
 msgstr "العودة الى الصفحة الرئيسية"
 
-#: templates/listings/listing_complete.html:25
+#: templates/listings/listing_complete.html:26
 msgid "Place another ad"
 msgstr "اضف إعلان آخر"
 
@@ -2599,13 +2600,13 @@ msgid "Max number of photos is"
 msgstr "أقصى عدد من الصور هو"
 
 #: templates/listings/manage_photos.html:39
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Ads with photos sell much better. Use up to %(max_photos)s good quality "
 "photos. Accepted formats: jpg, png, or gif."
 msgstr ""
-"هل تعلم أن الصور تؤدي للبيع بمعدل أعلى بكثير؟ يمكنك إضافة ١٠ صور واضحة "
-"وأصلية. انواع الملفات المدعومة: jpg, png, gif"
+"هل تعلم أن الصور تؤدي للبيع بمعدل أعلى بكثير؟ يمكنك إضافة %(max_photos)s صور "
+"واضحة وأصلية. انواع الملفات المدعومة: jpg, png, gif."
 
 #: templates/listings/manage_photos.html:47
 msgid "Add another photo"
@@ -2776,33 +2777,33 @@ msgstr "موضوع الرسالة"
 msgid "Send"
 msgstr "أرسل"
 
-#: templates/public/home.html:12 templates/search/search.html:26
+#: templates/public/home.html:13 templates/search/search.html:25
 msgid "Buy, sell and find anything"
 msgstr "بيع واشتري وأعثر على أى شيء "
 
-#: templates/public/home.html:22
+#: templates/public/home.html:24
 msgid ""
 "\n"
-"                            Cars, jobs, properties, classifieds and so much "
-"more!\n"
-"                        "
+"                                Cars, jobs, properties, classifieds and so "
+"much more!\n"
+"                            "
 msgstr ""
 "\n"
 "عقارات وسيارت وإلكترونيات وفرص عمل والكثير الكثير غيرها\n"
 "                    "
 
-#: templates/public/home.html:26
+#: templates/public/home.html:28
 msgid ""
 "\n"
-"                            Thousands of cars, jobs, properties, classifieds "
-"and so much more!\n"
-"                        "
+"                                Thousands of cars, jobs, properties, "
+"classifieds and so much more!\n"
+"                            "
 msgstr ""
 "\n"
 "آلاف السيارات والوظائف والعقار والمبوبات والكثير الكثير.\n"
 "                    "
 
-#: templates/public/home.html:37 templates/search/search_listings.html:49
+#: templates/public/home.html:39 templates/search/search_listings.html:49
 #: templates/search/search_listings.html:53
 #: templates/search/search_listings.html:60
 #: templates/search/search_listings.html:64
@@ -2857,27 +2858,27 @@ msgstr "أحصل على عرض رائع"
 msgid "Meet and finish your bargain face to face."
 msgstr "اتمم الصفقة وجها لوجه"
 
-#: templates/search/browse_widget.html:18
-#: templates/search/browse_widget.html:36
+#: templates/search/browse_widget.html:19
+#: templates/search/browse_widget.html:37
 msgid "in all of dubizzle"
 msgstr "في كامل الموقع"
 
-#: templates/search/browse_widget.html:46
+#: templates/search/browse_widget.html:47
 msgid "More options"
 msgstr "إختيارات أكثر"
 
-#: templates/search/browse_widget.html:83
+#: templates/search/browse_widget.html:85
 #, python-format
 msgid ""
 "\n"
-"                            Show only %(CURRENT_LANGUAGE)s ads\n"
-"                        "
+"                                Show only %(CURRENT_LANGUAGE)s ads\n"
+"                            "
 msgstr ""
 "\n"
 "اظهر فقط الإعلانات المضافة بال%(CURRENT_LANGUAGE)s\n"
 "                    "
 
-#: templates/search/browse_widget.html:89
+#: templates/search/browse_widget.html:100
 msgid "Refine"
 msgstr "تصفية البحث"
 
@@ -2885,20 +2886,20 @@ msgstr "تصفية البحث"
 msgid "Go"
 msgstr "عرض"
 
-#: templates/search/search.html:23
+#: templates/search/search.html:22
 msgid "in"
 msgstr "في"
 
-#: templates/search/search.html:36
+#: templates/search/search.html:35
 #, python-format
 msgid ""
 "\n"
-"                    We found <span class=\"red\">%(counter)s</span> ad\n"
-"                "
+"                        We found <span class=\"red\">%(counter)s</span> ad\n"
+"                    "
 msgid_plural ""
 "\n"
-"                    We found <span class=\"red\">%(counter)s</span> ads\n"
-"                "
+"                        We found <span class=\"red\">%(counter)s</span> ads\n"
+"                    "
 msgstr[0] ""
 "\n"
 "لم نجد اي اعلانات\n"
@@ -2924,11 +2925,12 @@ msgstr[5] ""
 "وجدنا <span class=\"red\">%(counter)s</span> اعلان\n"
 "                "
 
-#: templates/search/search_bar.html:10 templates/search/search_bar.html:13
+#: templates/search/search_bar_snippet.html:11
+#: templates/search/search_bar_snippet.html:14
 msgid "Search"
 msgstr "إبحث"
 
-#: templates/search/search_bar.html:19
+#: templates/search/search_bar_snippet.html:20
 #, python-format
 msgid ""
 "\n"
@@ -2950,15 +2952,15 @@ msgstr "أرني الإعلانات السابقة"
 msgid "No results..."
 msgstr "لا يوجد نتائج..."
 
-#: templates/shared/listings.html:45
+#: templates/shared/listings.html:47
 msgid "Oh camel droppings!"
 msgstr "يا للهوووول!!"
 
-#: templates/shared/listings.html:46
+#: templates/shared/listings.html:48
 msgid "We couldn't find anything to match your search."
 msgstr "لم نجد أي نتائج لبحثك!"
 
-#: templates/shared/listings.html:48
+#: templates/shared/listings.html:50
 msgid ""
 "Try using different keywords or widening your seach and it should be more "
 "fruitful."
@@ -3150,6 +3152,207 @@ msgstr[5] ""
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
 
+#~ msgid "Number of bedrooms"
+#~ msgstr "عدد غرف النوم"
+
+#~ msgid "reset form"
+#~ msgstr "إخلاء الإستمارة"
+
+#~ msgid "$"
+#~ msgstr "دولار أمريكي"
+
+#, fuzzy
+#~ msgid "Barbar"
+#~ msgstr "بربارة"
+
+#, fuzzy
+#~ msgid "Sanad"
+#~ msgstr "صنايع"
+
+#, fuzzy
+#~ msgid "Abu Baham"
+#~ msgstr "البحصاص"
+
+#, fuzzy
+#~ msgid "Al Musalla"
+#~ msgstr " المعلّقة"
+
+#, fuzzy
+#~ msgid ""
+#~ "Jobs in Test, Property & Real Estate For Sale & Rent, Cars for Sale - "
+#~ "Free Classifieds in Test | dubizzle Test"
+#~ msgstr ""
+#~ "وظائف في الجزائر، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في "
+#~ "الجزائر | دوبيزل الجزائر"
+
+#, fuzzy
+#~ msgid ""
+#~ "dubizzle is your free and friendly local classifieds website in Test. "
+#~ "Jobs, property, real estate, cars and classifieds in Test. Post an ad, "
+#~ "browse ads, buy, sell or rent."
+#~ msgstr ""
+#~ "دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(city_comma_country)"
+#~ "s. وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في "
+#~ "(city_comma_country)s. أضف اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
+
+#, fuzzy
+#~ msgid ""
+#~ "dubizzle Test, free classifieds, online classifieds, Test classifieds, "
+#~ "free classifieds in Test"
+#~ msgstr ""
+#~ "موقع دوبيزل الجزائر، إعلانات مبوبة مجانية، الإعلانات المبوبة على الانترنت "
+#~ "والجزائر إعلانات مبوبة، الإعلانات المبوبة مجانا في الجزائر"
+
+#, fuzzy
+#~ msgid "Sousse"
+#~ msgstr " بوسلام"
+
+#, fuzzy
+#~ msgid "Sidi Bou Said"
+#~ msgstr "سيدي شامي"
+
+#, fuzzy
+#~ msgid "Al Marsa"
+#~ msgstr "الميناء"
+
+#, fuzzy
+#~ msgid "Gammarth"
+#~ msgstr " الحامة"
+
+#, fuzzy
+#~ msgid "Sidi Daoud"
+#~ msgstr "سيدي عمار"
+
+#, fuzzy
+#~ msgid "Ben Arous"
+#~ msgstr "بن عكون"
+
+#, fuzzy
+#~ msgid "Hammam lif"
+#~ msgstr " الحامة"
+
+#, fuzzy
+#~ msgid "El Mourouj"
+#~ msgstr "المورادية"
+
+#, fuzzy
+#~ msgid "Tahar Haddad"
+#~ msgstr " بئر حدادة"
+
+#, fuzzy
+#~ msgid "Bab Alioua"
+#~ msgstr "باب الزوار"
+
+#, fuzzy
+#~ msgid "El Hafsia"
+#~ msgstr "الحامة"
+
+#, fuzzy
+#~ msgid "Le Passage"
+#~ msgstr "الرسالة"
+
+#, fuzzy
+#~ msgid "An Najah"
+#~ msgstr "عين النعجة"
+
+#, fuzzy
+#~ msgid "El Agba"
+#~ msgstr " قصر الأبطال"
+
+#, fuzzy
+#~ msgid "La Manouba"
+#~ msgstr "مار مطانيوس"
+
+#, fuzzy
+#~ msgid "El Habib"
+#~ msgstr "الحامة"
+
+#, fuzzy
+#~ msgid "El Omrane"
+#~ msgstr "أوريسيا"
+
+#, fuzzy
+#~ msgid "Cite El Khadra"
+#~ msgstr "تحويطة الغدير"
+
+#, fuzzy
+#~ msgid "Al Manzah"
+#~ msgstr "الميناء"
+
+#, fuzzy
+#~ msgid "Al Manar"
+#~ msgstr "الميناء"
+
+#, fuzzy
+#~ msgid "Sidi Salah"
+#~ msgstr "سيدي عمار"
+
+#, fuzzy
+#~ msgid "Al Rafaha"
+#~ msgstr "الراهبات"
+
+#, fuzzy
+#~ msgid "Ceti Al Faouz"
+#~ msgstr "حارة الفوقا"
+
+#, fuzzy
+#~ msgid "Bir Salah"
+#~ msgstr " بئر العرش"
+
+#, fuzzy
+#~ msgid "El Ain"
+#~ msgstr "الانصور"
+
+#, fuzzy
+#~ msgid "Bouficha"
+#~ msgstr "بوفاطيس"
+
+#, fuzzy
+#~ msgid "Ezzouhour"
+#~ msgstr "باب الزوار"
+
+#, fuzzy
+#~ msgid "Hammam Sousse"
+#~ msgstr " حمام قرقور"
+
+#, fuzzy
+#~ msgid "Kalaa Kebira"
+#~ msgstr " ذراع قبيلة"
+
+#, fuzzy
+#~ msgid "Messaadine"
+#~ msgstr "الرسالة"
+
+#, fuzzy
+#~ msgid "Sidi El Hani"
+#~ msgstr "سيدي شامي"
+
+#, fuzzy
+#~ msgid ""
+#~ "Jobs in Tunisie, Property & Real Estate For Sale & Rent, Cars for Sale - "
+#~ "Free Classifieds in Tunisie | dubizzle Tunisie"
+#~ msgstr ""
+#~ "وظائف في الجزائر، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في "
+#~ "الجزائر | دوبيزل الجزائر"
+
+#, fuzzy
+#~ msgid ""
+#~ "dubizzle is your free and friendly local classifieds website in Tunisie. "
+#~ "Jobs, property, real estate, cars and classifieds in Tunisie. Post an ad, "
+#~ "browse ads, buy, sell or rent."
+#~ msgstr ""
+#~ "دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(city_comma_country)"
+#~ "s. وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في "
+#~ "(city_comma_country)s. أضف اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
+
+#, fuzzy
+#~ msgid ""
+#~ "dubizzle Tunisie, free classifieds, online classifieds, Tunisie "
+#~ "classifieds, free classifieds in Tunisie"
+#~ msgstr ""
+#~ "موقع دوبيزل الجزائر، إعلانات مبوبة مجانية، الإعلانات المبوبة على الانترنت "
+#~ "والجزائر إعلانات مبوبة، الإعلانات المبوبة مجانا في الجزائر"
+
 #~ msgid ""
 #~ "%(ad_title)s - %(category_leaf)s property-for-sale | dubizzle %(country)s"
 #~ msgstr "%(ad_title)s - %(category_leaf)s عقارات للبيع | دوبيزل %(country)s"
@@ -3172,9 +3375,6 @@ msgstr "%(city)s، %(country)s "
 
 #~ msgid "Lebanon"
 #~ msgstr "لبنان"
-
-#~ msgid "$"
-#~ msgstr "دولار أمريكي"
 
 #~ msgid "Tripoli"
 #~ msgstr "طرابلس"
@@ -3287,14 +3487,8 @@ msgstr "%(city)s، %(country)s "
 #~ msgid "Sahet Al Najmeh"
 #~ msgstr "ساحة النجمة"
 
-#~ msgid "Sanayeh"
-#~ msgstr "صنايع"
-
 #~ msgid "Sodeco"
 #~ msgstr "سوديكو"
-
-#~ msgid "Tahouitet El Ghadir"
-#~ msgstr "تحويطة الغدير"
 
 #~ msgid "Tall Ez Zaatar"
 #~ msgstr "تل الزعتر"
@@ -3311,17 +3505,11 @@ msgstr "%(city)s، %(country)s "
 #~ msgid "Abou Samra"
 #~ msgstr "ابو سمراء"
 
-#~ msgid "Al Bahsas"
-#~ msgstr "البحصاص"
-
 #~ msgid "Al Beddaoui"
 #~ msgstr "البداوي"
 
 #~ msgid "Al Kouds"
 #~ msgstr "القدس"
-
-#~ msgid "Al Mina"
-#~ msgstr "الميناء"
 
 #~ msgid "Azmi"
 #~ msgstr "عزمي"
@@ -3362,17 +3550,11 @@ msgstr "%(city)s، %(country)s "
 #~ msgid "Ain el Ghossein "
 #~ msgstr "عين الغصين"
 
-#~ msgid "Al Barbara"
-#~ msgstr "بربارة"
-
 #~ msgid "Al Madina as Sinaiya "
 #~ msgstr "المدينة الصناعية"
 
 #~ msgid "Al Midan"
 #~ msgstr "الميدان"
-
-#~ msgid "Al Muallaqa "
-#~ msgstr " المعلّقة"
 
 #~ msgid "Ar Rassieh"
 #~ msgstr "الراسيـة "
@@ -3383,9 +3565,6 @@ msgstr "%(city)s، %(country)s "
 #~ msgid "Haoush ez Zaraane"
 #~ msgstr "حوش الزراعنة "
 
-#~ msgid "Haret el Faouqa"
-#~ msgstr "حارة الفوقا"
-
 #~ msgid "Haret et Tahta "
 #~ msgstr "حارة التحتا"
 
@@ -3395,17 +3574,11 @@ msgstr "%(city)s، %(country)s "
 #~ msgid "Ksara "
 #~ msgstr "كسارة"
 
-#~ msgid "Mar Mtanous "
-#~ msgstr "مار مطانيوس"
-
 #~ msgid "Saydet en Naja "
 #~ msgstr "سيدة النجاة"
 
 #~ msgid "Wadi el Aarayesh"
 #~ msgstr "وادي العرايش"
-
-#~ msgid "Al Rahebat"
-#~ msgstr "الراهبات"
 
 #~ msgid "Ghaziyeh"
 #~ msgstr "الغازية"
