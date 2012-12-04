@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-03 16:24+0400\n"
+"POT-Creation-Date: 2012-12-04 14:16+0400\n"
 "PO-Revision-Date: 2012-10-30 16:22+0400\n"
 "Last-Translator: Mohammad Alazzeh <alazzeh@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/"
@@ -27,7 +27,7 @@ msgid "Email address"
 msgstr "عنوان الإيميل"
 
 #: authentication/forms.py:18 authentication/forms.py:154
-#: fuego/forms/__init__.py:45 public/forms.py:17
+#: fuego/forms/__init__.py:45 public/forms.py:20
 msgid "Oh no! Your email is invalid. Try again."
 msgstr "لا تنسى إدخال عنوان إيميل صحيح!"
 
@@ -60,7 +60,7 @@ msgstr "تأكيد كلمة السر"
 msgid "Sorry, please re-enter your password using only English characters."
 msgstr "عفوا, كلمة السر يجب أن تتكون من حروف لاتينية (English)"
 
-#: authentication/forms.py:104 listings/tests.py:862
+#: authentication/forms.py:104 listings/tests.py:922
 msgid ""
 "This email address is already in use. Click 'I have a dubizzle password', or "
 "use a different email."
@@ -68,11 +68,11 @@ msgstr ""
 "عنوان الإيميل هذا مسجل لدينا. إختر \"لدي حساب وكلمة سر\" اعلاه أو ادخل عنوان "
 "ايميل آخر."
 
-#: authentication/forms.py:121 listings/tests.py:903
+#: authentication/forms.py:121 listings/tests.py:963
 msgid "Huh... that's not the same one! Try again."
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
-#: authentication/forms.py:129 listings/tests.py:944
+#: authentication/forms.py:129 listings/tests.py:1004
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
 
@@ -110,7 +110,7 @@ msgstr ""
 "كلمة السر غير صحيحة (ألو.. ؟! خليك معانا .. تأكد من كون الحروف الانجليزية  "
 "كبيرة أو صغيرة)."
 
-#: authentication/views.py:82
+#: authentication/views.py:86
 msgid "Please enter the correct Username and Password combination."
 msgstr "البيانات التي ادخلتها غير صحيحة."
 
@@ -126,592 +126,592 @@ msgstr "خطأ"
 msgid "Please enter the correct letters"
 msgstr "من فضلك اكتب الحروف بشكل صحيح"
 
-#: fuego/egypt_settings.py:34
+#: fuego/egypt_settings.py:36
 msgid "Egypt"
 msgstr "مصر"
 
-#: fuego/egypt_settings.py:36
+#: fuego/egypt_settings.py:38
 msgid "EGP"
 msgstr "جنيه مصري"
 
-#: fuego/egypt_settings.py:46
+#: fuego/egypt_settings.py:48
 msgid "Port Said"
 msgstr "بور سعيد"
 
-#: fuego/egypt_settings.py:52
+#: fuego/egypt_settings.py:54
 msgid "Tanta"
 msgstr "طنطا"
 
-#: fuego/egypt_settings.py:58
+#: fuego/egypt_settings.py:60
 msgid "Sharm el-Sheikh"
 msgstr "شرم الشيخ"
 
-#: fuego/egypt_settings.py:66
+#: fuego/egypt_settings.py:68
 msgid "Hurghada"
 msgstr "الغردقة"
 
-#: fuego/egypt_settings.py:73
+#: fuego/egypt_settings.py:75
 msgid "Luxor"
 msgstr "الأقصر"
 
-#: fuego/egypt_settings.py:79
+#: fuego/egypt_settings.py:81
 msgid "Asyut"
 msgstr "أسيوط"
 
-#: fuego/egypt_settings.py:86
+#: fuego/egypt_settings.py:88
 msgid "Aswan"
 msgstr "أسوان"
 
-#: fuego/egypt_settings.py:94 fuego/egypt_settings.py:245
+#: fuego/egypt_settings.py:96 fuego/egypt_settings.py:247
 msgid "Cairo"
 msgstr "القاهرة"
 
-#: fuego/egypt_settings.py:105 fuego/egypt_settings.py:300
+#: fuego/egypt_settings.py:107 fuego/egypt_settings.py:302
 msgid "Alexandria"
 msgstr "الإسكندرية"
 
-#: fuego/egypt_settings.py:120
+#: fuego/egypt_settings.py:122
 msgid "Haram"
 msgstr "الهرم"
 
-#: fuego/egypt_settings.py:125
+#: fuego/egypt_settings.py:127
 msgid "Nasr City"
 msgstr "مدينة نصر"
 
-#: fuego/egypt_settings.py:130
+#: fuego/egypt_settings.py:132
 msgid "Masr el Gedida"
 msgstr "مصر الجديدة"
 
-#: fuego/egypt_settings.py:135
+#: fuego/egypt_settings.py:137
 msgid "Mehwar 26 July - Sheikh Zayed"
 msgstr "محور 26 يوليو - الشيخ زايد"
 
-#: fuego/egypt_settings.py:140
+#: fuego/egypt_settings.py:142
 msgid "Al Maadi"
 msgstr "المعادي"
 
-#: fuego/egypt_settings.py:145
+#: fuego/egypt_settings.py:147
 msgid "Dokki"
 msgstr "دقي"
 
-#: fuego/egypt_settings.py:150 fuego/egypt_settings.py:395
-#: fuego/egypt_settings.py:605 fuego/egypt_settings.py:725
+#: fuego/egypt_settings.py:152 fuego/egypt_settings.py:397
+#: fuego/egypt_settings.py:607 fuego/egypt_settings.py:727
 msgid "Downtown"
 msgstr "وسط البلد"
 
-#: fuego/egypt_settings.py:155
+#: fuego/egypt_settings.py:157
 msgid "New Cairo"
 msgstr "التجمع الخامس"
 
-#: fuego/egypt_settings.py:160
+#: fuego/egypt_settings.py:162
 msgid "Shorouq City"
 msgstr "مدينة الشروق"
 
-#: fuego/egypt_settings.py:165
+#: fuego/egypt_settings.py:167
 msgid "Oboor City"
 msgstr "مدينة العبور"
 
-#: fuego/egypt_settings.py:170
+#: fuego/egypt_settings.py:172
 msgid "Autostrad"
 msgstr "أوتوستراد"
 
-#: fuego/egypt_settings.py:175
+#: fuego/egypt_settings.py:177
 msgid "Abasiya"
 msgstr "العباسية"
 
-#: fuego/egypt_settings.py:180
+#: fuego/egypt_settings.py:182
 msgid "Ramses + Ramses Extension"
 msgstr "رمسيس و امتداد رمسيس"
 
-#: fuego/egypt_settings.py:185
+#: fuego/egypt_settings.py:187
 msgid "Zamalek"
 msgstr "الزمالك"
 
-#: fuego/egypt_settings.py:190
+#: fuego/egypt_settings.py:192
 msgid "Giza"
 msgstr "الجيزة"
 
-#: fuego/egypt_settings.py:195
+#: fuego/egypt_settings.py:197
 msgid "Moqatam"
 msgstr "المقطم"
 
-#: fuego/egypt_settings.py:200
+#: fuego/egypt_settings.py:202
 msgid "Bahtim"
 msgstr "بهتيم"
 
-#: fuego/egypt_settings.py:205
+#: fuego/egypt_settings.py:207
 msgid "Al Rehab City"
 msgstr "مدينة الرحاب"
 
-#: fuego/egypt_settings.py:210
+#: fuego/egypt_settings.py:212
 msgid "Cairo Airport"
 msgstr "المطار"
 
-#: fuego/egypt_settings.py:215
+#: fuego/egypt_settings.py:217
 msgid "Abu Zaabal"
 msgstr "أبو زعبل"
 
-#: fuego/egypt_settings.py:220
+#: fuego/egypt_settings.py:222
 msgid "10th Ramadan City"
 msgstr "العاشر من رمضان "
 
-#: fuego/egypt_settings.py:225
+#: fuego/egypt_settings.py:227
 msgid "Mariotia Rd"
 msgstr "طريق المريوطية"
 
-#: fuego/egypt_settings.py:230
+#: fuego/egypt_settings.py:232
 msgid "Al Manial"
 msgstr "روضة - المنيل"
 
-#: fuego/egypt_settings.py:235
+#: fuego/egypt_settings.py:237
 msgid "Al Katamiya"
 msgstr "القطامية"
 
-#: fuego/egypt_settings.py:240
+#: fuego/egypt_settings.py:242
 msgid "Tahrir"
 msgstr "تحرير"
 
-#: fuego/egypt_settings.py:250
+#: fuego/egypt_settings.py:252
 msgid "Shabramant"
 msgstr "شبرمنت"
 
-#: fuego/egypt_settings.py:255
+#: fuego/egypt_settings.py:257
 msgid "Kerdasa"
 msgstr "كرداسة"
 
-#: fuego/egypt_settings.py:260
+#: fuego/egypt_settings.py:262
 msgid "Tura"
 msgstr "طرة"
 
-#: fuego/egypt_settings.py:265
+#: fuego/egypt_settings.py:267
 msgid "6th of October"
 msgstr "6 أوكتوبر"
 
-#: fuego/egypt_settings.py:270
+#: fuego/egypt_settings.py:272
 msgid "Helwan"
 msgstr "حلوان"
 
-#: fuego/egypt_settings.py:275
+#: fuego/egypt_settings.py:277
 msgid "Kafr Tuhurmus"
 msgstr "كفر تهرمس"
 
-#: fuego/egypt_settings.py:280
+#: fuego/egypt_settings.py:282
 msgid "Al Badrashin"
 msgstr "البدرشين"
 
-#: fuego/egypt_settings.py:285
+#: fuego/egypt_settings.py:287
 msgid "Corniche El Nile"
 msgstr "كورنيش النيل"
 
-#: fuego/egypt_settings.py:290
+#: fuego/egypt_settings.py:292
 msgid "Ein Shams"
 msgstr "عين شمس"
 
-#: fuego/egypt_settings.py:295
+#: fuego/egypt_settings.py:297
 msgid "Al Helmeyah"
 msgstr "الحلمية"
 
-#: fuego/egypt_settings.py:305
+#: fuego/egypt_settings.py:307
 msgid "Abu Qir"
 msgstr "أبو قير"
 
-#: fuego/egypt_settings.py:310
+#: fuego/egypt_settings.py:312
 msgid "Tosson"
 msgstr "طوسون"
 
-#: fuego/egypt_settings.py:315
+#: fuego/egypt_settings.py:317
 msgid "Maamoura"
 msgstr "المعمورة"
 
-#: fuego/egypt_settings.py:320
+#: fuego/egypt_settings.py:322
 msgid "Montazah"
 msgstr "المنتزه"
 
-#: fuego/egypt_settings.py:325
+#: fuego/egypt_settings.py:327
 msgid "Miami"
 msgstr "ميامي"
 
-#: fuego/egypt_settings.py:330
+#: fuego/egypt_settings.py:332
 msgid "Mandara - Asafra"
 msgstr "مندرة - عصافرة"
 
-#: fuego/egypt_settings.py:335
+#: fuego/egypt_settings.py:337
 msgid "Sidi Beshr"
 msgstr "سيدي بشر"
 
-#: fuego/egypt_settings.py:340
+#: fuego/egypt_settings.py:342
 msgid "Al Sioof"
 msgstr "سيوف"
 
-#: fuego/egypt_settings.py:345
+#: fuego/egypt_settings.py:347
 msgid "San Stefano - Glim"
 msgstr "جليم - سان ستيفانو"
 
-#: fuego/egypt_settings.py:350
+#: fuego/egypt_settings.py:352
 msgid "Stanley"
 msgstr "ستانلي"
 
-#: fuego/egypt_settings.py:355
+#: fuego/egypt_settings.py:357
 msgid "Sidi Gaber"
 msgstr "سيدي جابر"
 
-#: fuego/egypt_settings.py:360
+#: fuego/egypt_settings.py:362
 msgid "Kafr Abdo"
 msgstr "كفر عبدو"
 
-#: fuego/egypt_settings.py:365
+#: fuego/egypt_settings.py:367
 msgid "Somooha"
 msgstr "سموحة"
 
-#: fuego/egypt_settings.py:370
+#: fuego/egypt_settings.py:372
 msgid "Shatby"
 msgstr "شاطبي"
 
-#: fuego/egypt_settings.py:375
+#: fuego/egypt_settings.py:377
 msgid "Raml Station"
 msgstr "محطة الرمل"
 
-#: fuego/egypt_settings.py:380
+#: fuego/egypt_settings.py:382
 msgid "Moharam Bik"
 msgstr "محرّم بيك"
 
-#: fuego/egypt_settings.py:385
+#: fuego/egypt_settings.py:387
 msgid "Bahari"
 msgstr "بحري"
 
-#: fuego/egypt_settings.py:390
+#: fuego/egypt_settings.py:392
 msgid "Dekheila"
 msgstr "الدخيلة"
 
-#: fuego/egypt_settings.py:400
+#: fuego/egypt_settings.py:402
 msgid "Agami"
 msgstr "عجمي"
 
-#: fuego/egypt_settings.py:405
+#: fuego/egypt_settings.py:407
 msgid "Burg el Arab"
 msgstr "يرج العرب"
 
-#: fuego/egypt_settings.py:410
+#: fuego/egypt_settings.py:412
 msgid "Hammam"
 msgstr "حمام"
 
-#: fuego/egypt_settings.py:415
+#: fuego/egypt_settings.py:417
 msgid "Alamein"
 msgstr "لأمين"
 
-#: fuego/egypt_settings.py:420
+#: fuego/egypt_settings.py:422
 msgid "Al Tabia"
 msgstr "الطابية"
 
-#: fuego/egypt_settings.py:425
+#: fuego/egypt_settings.py:427
 msgid "Al Sadd al Aali"
 msgstr "السد العالي"
 
-#: fuego/egypt_settings.py:430
+#: fuego/egypt_settings.py:432
 msgid "Al Ganoub"
 msgstr "الجنوب"
 
-#: fuego/egypt_settings.py:435
+#: fuego/egypt_settings.py:437
 msgid "Al Zohour"
 msgstr "الزهور"
 
-#: fuego/egypt_settings.py:440
+#: fuego/egypt_settings.py:442
 msgid "Al Dawahy"
 msgstr "الضواحي"
 
-#: fuego/egypt_settings.py:445
+#: fuego/egypt_settings.py:447
 msgid "Al Sharq"
 msgstr "الشرق"
 
-#: fuego/egypt_settings.py:450
+#: fuego/egypt_settings.py:452
 msgid "Al Manakh"
 msgstr "المناخ"
 
-#: fuego/egypt_settings.py:455
+#: fuego/egypt_settings.py:457
 msgid "Al Arab"
 msgstr "العرب"
 
-#: fuego/egypt_settings.py:460
+#: fuego/egypt_settings.py:462
 msgid "Port Fouad city"
 msgstr "بور فؤاد"
 
-#: fuego/egypt_settings.py:465
+#: fuego/egypt_settings.py:467
 msgid "Al Bahr Street"
 msgstr "شارع البحر"
 
-#: fuego/egypt_settings.py:470
+#: fuego/egypt_settings.py:472
 msgid "Al Galaa Street"
 msgstr "شارع الجلاء"
 
-#: fuego/egypt_settings.py:475
+#: fuego/egypt_settings.py:477
 msgid "Al Nahaas Street"
 msgstr "شارع النحاس"
 
-#: fuego/egypt_settings.py:480
+#: fuego/egypt_settings.py:482
 msgid "Hassan Radwan Street"
 msgstr "شارع حسن رضوان"
 
-#: fuego/egypt_settings.py:485
+#: fuego/egypt_settings.py:487
 msgid "Alnady street"
 msgstr "شارع النادي"
 
-#: fuego/egypt_settings.py:490
+#: fuego/egypt_settings.py:492
 msgid "Saeed Street"
 msgstr "شارع سعيد"
 
-#: fuego/egypt_settings.py:495
+#: fuego/egypt_settings.py:497
 msgid "Na'ama Bay"
 msgstr "خليج نعمة"
 
-#: fuego/egypt_settings.py:500
+#: fuego/egypt_settings.py:502
 msgid "Ras Um Sid Cliff"
 msgstr "رأس أم سيد"
 
-#: fuego/egypt_settings.py:505
+#: fuego/egypt_settings.py:507
 msgid "Um Marikha Bay "
 msgstr "ام مريخة"
 
-#: fuego/egypt_settings.py:510
+#: fuego/egypt_settings.py:512
 msgid "Sharm El Maya"
 msgstr "شرم الميه"
 
-#: fuego/egypt_settings.py:515
+#: fuego/egypt_settings.py:517
 msgid "Al Pasha Coast "
 msgstr "ساحل الباشا"
 
-#: fuego/egypt_settings.py:520
+#: fuego/egypt_settings.py:522
 msgid "Om El Sid Hill "
 msgstr "هضبة أم السيد"
 
-#: fuego/egypt_settings.py:525
+#: fuego/egypt_settings.py:527
 msgid "El Nour District"
 msgstr "حى النور"
 
-#: fuego/egypt_settings.py:530
+#: fuego/egypt_settings.py:532
 msgid "El Ruwaisat"
 msgstr "رويسات"
 
-#: fuego/egypt_settings.py:535
+#: fuego/egypt_settings.py:537
 msgid "El Souk El Kadim"
 msgstr "السوق القديم"
 
-#: fuego/egypt_settings.py:540
+#: fuego/egypt_settings.py:542
 msgid "Garden Bay"
 msgstr "جاردن باي"
 
-#: fuego/egypt_settings.py:545
+#: fuego/egypt_settings.py:547
 msgid "Marsa El Dekheila"
 msgstr "مرسى الدخيلة"
 
-#: fuego/egypt_settings.py:550
+#: fuego/egypt_settings.py:552
 msgid "White Knight Bay"
 msgstr "وايت نايت باي"
 
-#: fuego/egypt_settings.py:555
+#: fuego/egypt_settings.py:557
 msgid "Ras Nasrani"
 msgstr "رأس نصرانى"
 
-#: fuego/egypt_settings.py:560
+#: fuego/egypt_settings.py:562
 msgid "St. Catherine"
 msgstr "سانت كاترين"
 
-#: fuego/egypt_settings.py:565
+#: fuego/egypt_settings.py:567
 msgid "Tiger Bay"
 msgstr "خليج النمر"
 
-#: fuego/egypt_settings.py:570
+#: fuego/egypt_settings.py:572
 msgid "Tower Bay"
 msgstr "خليج البرج "
 
-#: fuego/egypt_settings.py:575
+#: fuego/egypt_settings.py:577
 msgid "Shark's Bay"
 msgstr "شاركس باي"
 
-#: fuego/egypt_settings.py:580
+#: fuego/egypt_settings.py:582
 msgid "Nabq"
 msgstr "نبق"
 
-#: fuego/egypt_settings.py:585
+#: fuego/egypt_settings.py:587
 msgid "Dahar"
 msgstr "الدهار"
 
-#: fuego/egypt_settings.py:590
+#: fuego/egypt_settings.py:592
 msgid "Sakalla"
 msgstr "سقالة"
 
-#: fuego/egypt_settings.py:595
+#: fuego/egypt_settings.py:597
 msgid "Village Road"
 msgstr "طريق القرى"
 
-#: fuego/egypt_settings.py:600
+#: fuego/egypt_settings.py:602
 msgid "Abou Mungad Island"
 msgstr "جزيرة ابو منجد"
 
-#: fuego/egypt_settings.py:610
+#: fuego/egypt_settings.py:612
 msgid "El Ahyaa Area"
 msgstr "حي الأحياء"
 
-#: fuego/egypt_settings.py:615
+#: fuego/egypt_settings.py:617
 msgid "El Hadaba"
 msgstr "الهضبة"
 
-#: fuego/egypt_settings.py:620
+#: fuego/egypt_settings.py:622
 msgid "El Kawther"
 msgstr "الكوثر"
 
-#: fuego/egypt_settings.py:625
+#: fuego/egypt_settings.py:627
 msgid "Giftun Island"
 msgstr "جزيرة جفتون"
 
-#: fuego/egypt_settings.py:630
+#: fuego/egypt_settings.py:632
 msgid "Magawish Island"
 msgstr "قرية مجاويش"
 
-#: fuego/egypt_settings.py:635
+#: fuego/egypt_settings.py:637
 msgid "Makadi Bay"
 msgstr "مكادى باى"
 
-#: fuego/egypt_settings.py:640
+#: fuego/egypt_settings.py:642
 msgid "Sahl Hashish"
 msgstr "سهل حشيش"
 
-#: fuego/egypt_settings.py:645
+#: fuego/egypt_settings.py:647
 msgid "Arment"
 msgstr "أرمنت"
 
-#: fuego/egypt_settings.py:650
+#: fuego/egypt_settings.py:652
 msgid "El Bayadeya"
 msgstr "البياضية"
 
-#: fuego/egypt_settings.py:655
+#: fuego/egypt_settings.py:657
 msgid "Esna"
 msgstr "إسنا"
 
-#: fuego/egypt_settings.py:660
+#: fuego/egypt_settings.py:662
 msgid "Abnub"
 msgstr "أبنوب"
 
-#: fuego/egypt_settings.py:665
+#: fuego/egypt_settings.py:667
 msgid "Abutig"
 msgstr "أبوتيج"
 
-#: fuego/egypt_settings.py:670
+#: fuego/egypt_settings.py:672
 msgid "Dairut"
 msgstr "ديروط"
 
-#: fuego/egypt_settings.py:675
+#: fuego/egypt_settings.py:677
 msgid "Al Badari"
 msgstr "البداري"
 
-#: fuego/egypt_settings.py:680
+#: fuego/egypt_settings.py:682
 msgid "Al Fateh"
 msgstr "الفتح"
 
-#: fuego/egypt_settings.py:685
+#: fuego/egypt_settings.py:687
 msgid "Al Ghanayem"
 msgstr "الغنايم"
 
-#: fuego/egypt_settings.py:690
+#: fuego/egypt_settings.py:692
 msgid "Manfalut"
 msgstr "منفلوط"
 
-#: fuego/egypt_settings.py:695
+#: fuego/egypt_settings.py:697
 msgid "El Qusiya"
 msgstr "قوصية"
 
-#: fuego/egypt_settings.py:700
+#: fuego/egypt_settings.py:702
 msgid "Sahel Selim"
 msgstr "ساحل سليم"
 
-#: fuego/egypt_settings.py:705
+#: fuego/egypt_settings.py:707
 msgid "Sodfa"
 msgstr "صدفا"
 
-#: fuego/egypt_settings.py:710
+#: fuego/egypt_settings.py:712
 msgid "Abou El Reish"
 msgstr "أبو الريش"
 
-#: fuego/egypt_settings.py:715
+#: fuego/egypt_settings.py:717
 msgid "Abou Simbel"
 msgstr "ابو سمبل"
 
-#: fuego/egypt_settings.py:720
+#: fuego/egypt_settings.py:722
 msgid "Daraw"
 msgstr "دراو"
 
-#: fuego/egypt_settings.py:730
+#: fuego/egypt_settings.py:732
 msgid "Edfou"
 msgstr "ادفو"
 
-#: fuego/egypt_settings.py:735
+#: fuego/egypt_settings.py:737
 msgid "El Bosaileya"
 msgstr "البصيلية"
 
-#: fuego/egypt_settings.py:740
+#: fuego/egypt_settings.py:742
 msgid "El Corniche"
 msgstr "الكورنيش"
 
-#: fuego/egypt_settings.py:745
+#: fuego/egypt_settings.py:747
 msgid "El Radeseya Qebly"
 msgstr "الرديسية قبلي"
 
-#: fuego/egypt_settings.py:750
+#: fuego/egypt_settings.py:752
 msgid "El Sail Gharb"
 msgstr "السيل غرب"
 
-#: fuego/egypt_settings.py:755
+#: fuego/egypt_settings.py:757
 msgid "El Sail Shark"
 msgstr "السيل شرق"
 
-#: fuego/egypt_settings.py:760
+#: fuego/egypt_settings.py:762
 msgid "El Sherouk District"
 msgstr "مدينة الشروق"
 
-#: fuego/egypt_settings.py:765
+#: fuego/egypt_settings.py:767
 msgid "El Shima Gharb"
 msgstr "الشيما غرب "
 
-#: fuego/egypt_settings.py:770
+#: fuego/egypt_settings.py:772
 msgid "El Sibaayia Gharb"
 msgstr "السباعية غرب"
 
-#: fuego/egypt_settings.py:775
+#: fuego/egypt_settings.py:777
 msgid "Eneiba"
 msgstr "عنيبه"
 
-#: fuego/egypt_settings.py:780
+#: fuego/egypt_settings.py:782
 msgid "Kalabsha"
 msgstr "كلابشة"
 
-#: fuego/egypt_settings.py:785
+#: fuego/egypt_settings.py:787
 msgid "Kom Ombo"
 msgstr "كوم امبو"
 
-#: fuego/egypt_settings.py:790
+#: fuego/egypt_settings.py:792
 msgid "Lake Nasser"
 msgstr "بحيرة ناصر"
 
-#: fuego/egypt_settings.py:795
+#: fuego/egypt_settings.py:797
 msgid "Nasr El Noba"
 msgstr "نصر النوبة"
 
-#: fuego/egypt_settings.py:800
+#: fuego/egypt_settings.py:802
 msgid "Sahary"
 msgstr "صحارى"
 
-#: fuego/egypt_settings.py:805
+#: fuego/egypt_settings.py:807
 msgid "Shamal"
 msgstr "شمال"
 
-#: fuego/egypt_settings.py:825
+#: fuego/egypt_settings.py:827
 msgid "English"
 msgstr ""
 
-#: fuego/egypt_settings.py:826
+#: fuego/egypt_settings.py:828
 msgid "Arabic"
 msgstr "عربي"
 
-#: fuego/egypt_settings.py:836
+#: fuego/egypt_settings.py:838
 msgid ""
 "Jobs in Egypt, Property & Real Estate For Sale & Rent, Cars for Sale - Free "
 "Classifieds in Egypt | dubizzle Egypt"
@@ -719,7 +719,7 @@ msgstr ""
 "وظائف في مصر، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في مصر | "
 "دوبيزل مصر"
 
-#: fuego/egypt_settings.py:840
+#: fuego/egypt_settings.py:842
 msgid ""
 "dubizzle is your free and friendly local classifieds website in Egypt. Jobs, "
 "property, real estate, cars and classifieds in Egypt. Post an ad, browse "
@@ -728,7 +728,7 @@ msgstr ""
 "وظائف، عقارات، سيارات و اعلانات مبوبة في مصر. اضف اعلان، تصفح اعلانات، بيع "
 "واشتري وأجر على دوبيزل"
 
-#: fuego/egypt_settings.py:845
+#: fuego/egypt_settings.py:847
 msgid ""
 "dubizzle Egypt, free classifieds, online classifieds, Egypt classifieds, "
 "free classifieds in Egypt"
@@ -1921,17 +1921,17 @@ msgstr ""
 "لبيع وشراء أي شيء. ايجاد سيارات, وظائف شاغرة, عقارات للايجار و سلع للبيع في  "
 "%(city_comma_country)s."
 
-#: fuego/shared_settings.py:172
+#: fuego/shared_settings.py:183
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/shared_settings.py:275 templates/search/browse_widget.html:20
-#: templates/search/browse_widget.html:38 templates/search/widget.html:27
+#: fuego/shared_settings.py:286 templates/search/browse_widget.html:21
+#: templates/search/browse_widget.html:39 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/shared_settings.py:390
+#: fuego/shared_settings.py:399
 msgid "Studio"
 msgstr "ستوديو"
 
@@ -1946,6 +1946,16 @@ msgid ""
 msgstr ""
 "لقد نسيت اضافة رسالتك للمعلن. هل تحتاج لمزيد من المعلومات عن هذا الإعلان؟ لا "
 "حرج في السؤال!"
+
+#: listings/formatters.py:32
+#, python-format
+msgid "%(neighbourhood)s, %(city)s"
+msgstr "%(neighbourhood)s، %(city)s"
+
+#: listings/formatters.py:38
+#, python-format
+msgid "%(currency)s %(price)s"
+msgstr "%(currency)s %(price)s"
 
 #: listings/forms.py:33
 msgid "Upload CV"
@@ -1999,12 +2009,12 @@ msgstr "اظهر رقمي في الإعلان"
 msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
-#: listings/forms.py:128 templates/listings/get_listing.html:105
+#: listings/forms.py:128 templates/listings/get_listing.html:107
 #: templates/listings/manage_listing.html:193
 msgid "Description"
 msgstr "مواصفات الإعلان"
 
-#: listings/forms.py:166 listings/views.py:139
+#: listings/forms.py:166 listings/views.py:142
 msgid "Please select a valid category."
 msgstr "ما هو أنسب قسم لعرض إعلانك ؟"
 
@@ -2031,9 +2041,9 @@ msgstr ""
 "لو محتار في تحديد السعر إبحث عن أسعار أشياء مماثلة على الموقع. يرجى التأكد "
 "أن السعر المطلوب في عملة %(currency)s"
 
-#: listings/forms.py:319 listings/models.py:266 listings/models.py:290
-#: listings/models.py:310 listings/models.py:327 listings/models.py:344
-#: listings/models.py:371 listings/models.py:388 listings/models.py:415
+#: listings/forms.py:319 listings/models.py:288 listings/models.py:312
+#: listings/models.py:332 listings/models.py:349 listings/models.py:366
+#: listings/models.py:393 listings/models.py:410 listings/models.py:437
 msgid "Price"
 msgstr "السعر"
 
@@ -2045,7 +2055,7 @@ msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
 
-#: listings/forms.py:353 listings/models.py:287
+#: listings/forms.py:353 listings/models.py:309
 msgid "Year"
 msgstr "السنة"
 
@@ -2061,83 +2071,74 @@ msgstr "عدد الكيلومترات"
 msgid "Great ride, how far has it gone?"
 msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
 
-#: listings/forms.py:408 listings/models.py:370 listings/models.py:414
+#: listings/forms.py:408 listings/forms.py:430 listings/models.py:392
+#: listings/models.py:436
 msgid "Bedrooms"
 msgstr "غرف نوم"
 
-#: listings/forms.py:409 listings/forms.py:429
+#: listings/forms.py:409 listings/forms.py:431
 msgid "Nice property, but how many bedrooms?"
 msgstr "حدثنا عن عقارك. كم عدد غرف النوم؟"
 
-#: listings/forms.py:428
-msgid "Number of bedrooms"
-msgstr "عدد غرف النوم"
-
-#: listings/models.py:101
+#: listings/models.py:99
 msgid "Posted On"
 msgstr "نُشر بتاريخ"
 
-#: listings/models.py:102 listings/models.py:265 listings/models.py:289
-#: listings/models.py:309 listings/models.py:326 listings/models.py:343
-#: listings/models.py:369 listings/models.py:387 listings/models.py:413
+#: listings/models.py:100 listings/models.py:287 listings/models.py:311
+#: listings/models.py:331 listings/models.py:348 listings/models.py:365
+#: listings/models.py:391 listings/models.py:409 listings/models.py:435
 msgid "Neighbourhood"
 msgstr "المنطقة"
 
-#: listings/models.py:198
-#, python-format
-msgid "%(neighbourhood)s, %(city)s"
-msgstr "%(neighbourhood)s، %(city)s"
-
-#: listings/models.py:204
-#, python-format
-msgid "%(currency)s %(price)s"
-msgstr "%(currency)s %(price)s"
-
-#: listings/models.py:264 listings/models.py:286 listings/models.py:308
-#: listings/models.py:325 listings/models.py:342 listings/models.py:368
-#: listings/models.py:386 listings/models.py:412
+#: listings/models.py:286 listings/models.py:308 listings/models.py:330
+#: listings/models.py:347 listings/models.py:364 listings/models.py:390
+#: listings/models.py:408 listings/models.py:434
 msgid "Posted on"
 msgstr "نُشر بتاريخ"
 
-#: listings/models.py:288
+#: listings/models.py:310
 msgid "Kilometers"
 msgstr "كيلومترات"
 
-#: public/forms.py:13
+#: public/forms.py:16
 msgid "Enter a subject please"
 msgstr "نوع الاستفسار"
 
 #. Translators: This is in CrystelCalls new listing interface
-#: public/forms.py:16 templates/listings/manage_inorganic_listing.html:25
+#: public/forms.py:19 templates/listings/manage_inorganic_listing.html:25
 #: templates/listings/manage_listing.html:306
 #: templates/listings/manage_listing.html:314
 #: templates/public/contact_us.html:104
 msgid "Email"
 msgstr "عنوان الإيميل"
 
-#: public/forms.py:20
+#: public/forms.py:23
 msgid "Email address(again)"
 msgstr "تأكيد عنوان الإيميل"
 
-#: public/forms.py:25
+#: public/forms.py:28
 msgid "We need your location so that we can help you"
 msgstr "لا تنسى اضافة إسم المدينة/الدولة لكي نستطيع مساعدتك"
 
-#: public/forms.py:33
+#: public/forms.py:36
 msgid "You forgot to tell us who you are"
 msgstr "نسيت اضافة إسمك!"
 
-#: public/forms.py:35
+#: public/forms.py:38
 msgid "We need your mobile number so that we can help you"
 msgstr "من فضلك ادخل رقم الموبايل لكي نستطيع مساعدتك"
 
-#: public/forms.py:36
+#: public/forms.py:39
 msgid "You left the message box empty...please tell us how we can help you"
 msgstr "لقد نسيت اضافة الرسالة. عندك مشكلة؟ راسلنا وسنساعدك!"
 
-#: public/forms.py:49
+#: public/forms.py:52
 msgid "Huh... that's not the same one!?"
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
+
+#: public/forms.py:61
+msgid "Photo Count"
+msgstr ""
 
 #: search/forms.py:33
 #, python-format
@@ -2149,23 +2150,23 @@ msgstr "%(city)s بالكامل"
 msgid "All of %(country)s"
 msgstr "%(country)s بالكامل"
 
-#: search/forms.py:130
+#: search/forms.py:128
 msgid "Keywords"
 msgstr "كلمات البحث"
 
-#: search/forms.py:133
+#: search/forms.py:131
 msgid "City"
 msgstr "المدينة"
 
-#: search/forms.py:259 search/forms.py:268 search/forms.py:277
-#: search/forms.py:300 search/forms.py:322 search/forms.py:344
-#: search/forms.py:373
+#: search/forms.py:257 search/forms.py:266 search/forms.py:275
+#: search/forms.py:298 search/forms.py:320 search/forms.py:342
+#: search/forms.py:371
 msgid "From"
 msgstr "من"
 
-#: search/forms.py:264 search/forms.py:273 search/forms.py:280
-#: search/forms.py:305 search/forms.py:327 search/forms.py:349
-#: search/forms.py:378
+#: search/forms.py:262 search/forms.py:271 search/forms.py:278
+#: search/forms.py:303 search/forms.py:325 search/forms.py:347
+#: search/forms.py:376
 msgid "To"
 msgstr "إلى"
 
@@ -2197,7 +2198,7 @@ msgstr "الصفحة السابقة"
 
 #: templates/404-web.html:20 templates/generic.html:48
 #: templates/privacy_ar.html:55 templates/privacy_fr.html:57
-#: templates/terms_ar.html:311 templates/shared/listings.html:51
+#: templates/terms_ar.html:311 templates/shared/listings.html:53
 msgid "Home"
 msgstr "الصفحة الرئيسية"
 
@@ -2206,7 +2207,7 @@ msgid "Browse"
 msgstr "تصفح"
 
 #: templates/generic.html:24 templates/generic.html.py:68
-#: templates/search/search.html:23
+#: templates/search/search.html:22
 msgid ","
 msgstr "،"
 
@@ -2429,23 +2430,23 @@ msgstr "العودة إلى الإعلان"
 msgid "Confirm"
 msgstr "تأكيد "
 
-#: templates/listings/get_listing.html:44
+#: templates/listings/get_listing.html:46
 msgid "Back to results"
 msgstr "العودة إلى صفحة الإعلانات"
 
-#: templates/listings/get_listing.html:55
+#: templates/listings/get_listing.html:57
 msgid "Report this ad"
 msgstr "بلغ عن هذا الإعلان"
 
-#: templates/listings/get_listing.html:56
+#: templates/listings/get_listing.html:58
 msgid "Edit this ad"
 msgstr "تعديل"
 
-#: templates/listings/get_listing.html:57
+#: templates/listings/get_listing.html:59
 msgid "Delete this ad"
 msgstr "حذف الإعلان "
 
-#: templates/listings/get_listing.html:65
+#: templates/listings/get_listing.html:67
 msgid ""
 "This ad has already been edited and is awaiting approval. You'll get an "
 "email once the changes are live."
@@ -2453,23 +2454,23 @@ msgstr ""
 "عفواً، لن تستطيع تعديل اعلانك حتى تتم الموافقة على نشره. سنرسل لك إيميل عند "
 "نشره. لن نتأخر عليك!"
 
-#: templates/listings/get_listing.html:97
+#: templates/listings/get_listing.html:99
 msgid "Details"
 msgstr "التفاصيل"
 
-#: templates/listings/get_listing.html:115
+#: templates/listings/get_listing.html:117
 msgid "Show mobile number"
 msgstr "اظهر رقم الموبايل"
 
-#: templates/listings/get_listing.html:121
+#: templates/listings/get_listing.html:123
 msgid "Send an email"
 msgstr "ارسل إيميل"
 
-#: templates/listings/listing_complete.html:11
+#: templates/listings/listing_complete.html:12
 msgid "Hooray! Congratulations, your ad will go live very very soon."
 msgstr "مبروك! لقد اضفت إعلانك بنجاح وسنقوم بنشره قريبا."
 
-#: templates/listings/listing_complete.html:13
+#: templates/listings/listing_complete.html:14
 msgid ""
 "\n"
 "\t    \t\t<p>\n"
@@ -2491,11 +2492,11 @@ msgstr ""
 "\t\t\t</p>\n"
 "\t\t\t"
 
-#: templates/listings/listing_complete.html:23
+#: templates/listings/listing_complete.html:24
 msgid "Back to home page"
 msgstr "العودة الى الصفحة الرئيسية"
 
-#: templates/listings/listing_complete.html:25
+#: templates/listings/listing_complete.html:26
 msgid "Place another ad"
 msgstr "اضف إعلان آخر"
 
@@ -2821,33 +2822,35 @@ msgstr "موضوع الرسالة"
 msgid "Send"
 msgstr "أرسل"
 
-#: templates/public/home.html:12 templates/search/search.html:26
+#: templates/public/home.html:13 templates/search/search.html:25
 msgid "Buy, sell and find anything"
 msgstr "بيع واشتري وأعثر على أى شيء "
 
-#: templates/public/home.html:22
+#: templates/public/home.html:24
+#, fuzzy
 msgid ""
 "\n"
-"                            Cars, jobs, properties, classifieds and so much "
-"more!\n"
-"                        "
+"                                Cars, jobs, properties, classifieds and so "
+"much more!\n"
+"                            "
 msgstr ""
 "\n"
 "عقارات وسيارت وإلكترونيات وفرص عمل والكثير الكثير غيرها\n"
 "                    "
 
-#: templates/public/home.html:26
+#: templates/public/home.html:28
+#, fuzzy
 msgid ""
 "\n"
-"                            Thousands of cars, jobs, properties, classifieds "
-"and so much more!\n"
-"                        "
+"                                Thousands of cars, jobs, properties, "
+"classifieds and so much more!\n"
+"                            "
 msgstr ""
 "\n"
 "آلاف السيارات والوظائف والعقار والمبوبات والكثير الكثير.\n"
 "                    "
 
-#: templates/public/home.html:37 templates/search/search_listings.html:49
+#: templates/public/home.html:39 templates/search/search_listings.html:49
 #: templates/search/search_listings.html:53
 #: templates/search/search_listings.html:60
 #: templates/search/search_listings.html:64
@@ -2902,27 +2905,27 @@ msgstr "أحصل على عرض رائع"
 msgid "Meet and finish your bargain face to face."
 msgstr "اتمم الصفقة وجها لوجه"
 
-#: templates/search/browse_widget.html:18
-#: templates/search/browse_widget.html:36
+#: templates/search/browse_widget.html:19
+#: templates/search/browse_widget.html:37
 msgid "in all of dubizzle"
 msgstr "في كامل الموقع"
 
-#: templates/search/browse_widget.html:46
+#: templates/search/browse_widget.html:47
 msgid "More options"
 msgstr "إختيارات أكثر"
 
-#: templates/search/browse_widget.html:83
+#: templates/search/browse_widget.html:85
 #, fuzzy, python-format
 msgid ""
 "\n"
-"                            Show only %(CURRENT_LANGUAGE)s ads\n"
-"                        "
+"                                Show only %(CURRENT_LANGUAGE)s ads\n"
+"                            "
 msgstr ""
 "\n"
 "اظهر فقط الإعلانات المضافة بال%(CURRENT_LANGUAGE)s\n"
 "                    "
 
-#: templates/search/browse_widget.html:89
+#: templates/search/browse_widget.html:100
 msgid "Refine"
 msgstr "تصفية البحث"
 
@@ -2930,20 +2933,20 @@ msgstr "تصفية البحث"
 msgid "Go"
 msgstr "عرض"
 
-#: templates/search/search.html:23
+#: templates/search/search.html:22
 msgid "in"
 msgstr "في"
 
-#: templates/search/search.html:36
-#, python-format
+#: templates/search/search.html:35
+#, fuzzy, python-format
 msgid ""
 "\n"
-"                    We found <span class=\"red\">%(counter)s</span> ad\n"
-"                "
+"                        We found <span class=\"red\">%(counter)s</span> ad\n"
+"                    "
 msgid_plural ""
 "\n"
-"                    We found <span class=\"red\">%(counter)s</span> ads\n"
-"                "
+"                        We found <span class=\"red\">%(counter)s</span> ads\n"
+"                    "
 msgstr[0] ""
 "\n"
 "لم نجد اي اعلانات\n"
@@ -2969,11 +2972,12 @@ msgstr[5] ""
 "وجدنا <span class=\"red\">%(counter)s</span> اعلان\n"
 "                "
 
-#: templates/search/search_bar.html:10 templates/search/search_bar.html:13
+#: templates/search/search_bar_snippet.html:11
+#: templates/search/search_bar_snippet.html:14
 msgid "Search"
 msgstr "إبحث"
 
-#: templates/search/search_bar.html:19
+#: templates/search/search_bar_snippet.html:20
 #, python-format
 msgid ""
 "\n"
@@ -2995,15 +2999,15 @@ msgstr "أرني الإعلانات السابقة"
 msgid "No results..."
 msgstr "لا يوجد نتائج..."
 
-#: templates/shared/listings.html:45
+#: templates/shared/listings.html:47
 msgid "Oh camel droppings!"
 msgstr "يا للهوووول!!"
 
-#: templates/shared/listings.html:46
+#: templates/shared/listings.html:48
 msgid "We couldn't find anything to match your search."
 msgstr "لم نجد أي نتائج لبحثك!"
 
-#: templates/shared/listings.html:48
+#: templates/shared/listings.html:50
 msgid ""
 "Try using different keywords or widening your seach and it should be more "
 "fruitful."
@@ -3194,6 +3198,9 @@ msgstr[5] ""
 #, python-format
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
+
+#~ msgid "Number of bedrooms"
+#~ msgstr "عدد غرف النوم"
 
 #~ msgid "reset form"
 #~ msgstr "إخلاء الإستمارة"
