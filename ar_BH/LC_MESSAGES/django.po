@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-04 14:16+0400\n"
+"POT-Creation-Date: 2012-12-17 10:43+0400\n"
 "PO-Revision-Date: 2012-12-04 14:30+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: Arabic - Bahraini "
-"<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_BH/>\n"
+"Language-Team: Arabic - Bahraini <http://translate.dubizzlecloud.com/"
+"projects/fuego/fuego/ar_BH/>\n"
 "Language: ar_BH\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,7 +60,7 @@ msgstr "تأكيد كلمة السر"
 msgid "Sorry, please re-enter your password using only English characters."
 msgstr "عفوا, كلمة السر يجب أن تتكون من حروف لاتينية (English)"
 
-#: authentication/forms.py:104 listings/tests.py:922
+#: authentication/forms.py:104 listings/tests.py:962
 msgid ""
 "This email address is already in use. Click 'I have a dubizzle password', or "
 "use a different email."
@@ -68,11 +68,11 @@ msgstr ""
 "عنوان الإيميل هذا مسجل لدينا. إختر \"لدي حساب وكلمة سر\" اعلاه أو ادخل عنوان "
 "ايميل آخر."
 
-#: authentication/forms.py:121 listings/tests.py:963
+#: authentication/forms.py:121 listings/tests.py:1003
 msgid "Huh... that's not the same one! Try again."
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
-#: authentication/forms.py:129 listings/tests.py:1004
+#: authentication/forms.py:129 listings/tests.py:1044
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
 
@@ -1527,17 +1527,17 @@ msgstr ""
 "لبيع وشراء أي شيء. ايجاد سيارات, وظائف شاغرة, عقارات للايجار و سلع للبيع في  "
 "%(city_comma_country)s."
 
-#: fuego/shared_settings.py:183
+#: fuego/shared_settings.py:186
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/shared_settings.py:286 templates/search/browse_widget.html:21
+#: fuego/shared_settings.py:289 templates/search/browse_widget.html:21
 #: templates/search/browse_widget.html:39 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/shared_settings.py:399
+#: fuego/shared_settings.py:402
 msgid "Studio"
 msgstr "ستوديو "
 
@@ -1620,7 +1620,7 @@ msgstr "أضف عنوان لإعلانك"
 msgid "Description"
 msgstr "مواصفات الإعلان"
 
-#: listings/forms.py:166 listings/views.py:142
+#: listings/forms.py:166 listings/views.py:143
 msgid "Please select a valid category."
 msgstr "ما هو أنسب قسم لعرض إعلانك ؟"
 
@@ -1647,9 +1647,9 @@ msgstr ""
 "لو محتار في تحديد السعر إبحث عن أسعار أشياء مماثلة على الموقع. يرجى التأكد "
 "أن السعر المطلوب في عملة %(currency)s"
 
-#: listings/forms.py:319 listings/models.py:288 listings/models.py:312
-#: listings/models.py:332 listings/models.py:349 listings/models.py:366
-#: listings/models.py:393 listings/models.py:410 listings/models.py:437
+#: listings/forms.py:319 listings/models.py:308 listings/models.py:332
+#: listings/models.py:352 listings/models.py:369 listings/models.py:386
+#: listings/models.py:413 listings/models.py:430 listings/models.py:457
 msgid "Price"
 msgstr "السعر"
 
@@ -1661,7 +1661,7 @@ msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
 
-#: listings/forms.py:353 listings/models.py:309
+#: listings/forms.py:353 listings/models.py:329
 msgid "Year"
 msgstr "السنة"
 
@@ -1677,8 +1677,8 @@ msgstr "عدد الكيلومترات"
 msgid "Great ride, how far has it gone?"
 msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
 
-#: listings/forms.py:408 listings/forms.py:430 listings/models.py:392
-#: listings/models.py:436
+#: listings/forms.py:408 listings/forms.py:430 listings/models.py:412
+#: listings/models.py:456
 msgid "Bedrooms"
 msgstr "غرف نوم"
 
@@ -1686,23 +1686,23 @@ msgstr "غرف نوم"
 msgid "Nice property, but how many bedrooms?"
 msgstr "حدثنا عن عقارك. كم عدد غرف النوم؟"
 
-#: listings/models.py:99
+#: listings/models.py:119
 msgid "Posted On"
 msgstr "نُشر بتاريخ"
 
-#: listings/models.py:100 listings/models.py:287 listings/models.py:311
-#: listings/models.py:331 listings/models.py:348 listings/models.py:365
-#: listings/models.py:391 listings/models.py:409 listings/models.py:435
+#: listings/models.py:120 listings/models.py:307 listings/models.py:331
+#: listings/models.py:351 listings/models.py:368 listings/models.py:385
+#: listings/models.py:411 listings/models.py:429 listings/models.py:455
 msgid "Neighbourhood"
 msgstr "المنطقة"
 
-#: listings/models.py:286 listings/models.py:308 listings/models.py:330
-#: listings/models.py:347 listings/models.py:364 listings/models.py:390
-#: listings/models.py:408 listings/models.py:434
+#: listings/models.py:306 listings/models.py:328 listings/models.py:350
+#: listings/models.py:367 listings/models.py:384 listings/models.py:410
+#: listings/models.py:428 listings/models.py:454
 msgid "Posted on"
 msgstr "نُشر بتاريخ"
 
-#: listings/models.py:310
+#: listings/models.py:330
 msgid "Kilometers"
 msgstr "كيلومترات"
 
@@ -1797,13 +1797,13 @@ msgid "Not all is lost! There's great stuff just around the corner"
 msgstr ""
 "ولا يهمك.. يوجد المزيد من الصفحات الأخرى المسلية والمفيدة. فقط اضغط ادناه!"
 
-#: templates/404-web.html:19 templates/privacy_ar.html:54
-#: templates/privacy_fr.html:56 templates/terms_ar.html:310
+#: templates/404-web.html:19 templates/privacy_ar.html:56
+#: templates/privacy_fr.html:60 templates/terms_ar.html:310
 msgid "Go back"
 msgstr "الصفحة السابقة"
 
 #: templates/404-web.html:20 templates/generic.html:48
-#: templates/privacy_ar.html:55 templates/privacy_fr.html:57
+#: templates/privacy_ar.html:57 templates/privacy_fr.html:61
 #: templates/terms_ar.html:311 templates/shared/listings.html:53
 msgid "Home"
 msgstr "الصفحة الرئيسية"
@@ -2353,7 +2353,7 @@ msgstr "بلغ عن هذا الإعلان"
 msgid "About Us"
 msgstr "تعرف علينا"
 
-#: templates/public/contact_us.html:7 templates/public/landing.html:10
+#: templates/public/contact_us.html:7 templates/public/landing.html:15
 msgid "Ahlan wa sahlan..."
 msgstr "اهلا وسهلا بكم في دوبيزل..."
 
@@ -2461,51 +2461,51 @@ msgstr ""
 msgid "Load more"
 msgstr "ارني المزيد"
 
-#: templates/public/landing.html:60
+#: templates/public/landing.html:65
 msgid "Place your free ad"
 msgstr "أضف إعلانك المجاني"
 
-#: templates/public/landing.html:69
+#: templates/public/landing.html:74
 msgid "Select your city and find the best deals from thousands of ads!"
 msgstr "اختر مدينتك و ابحث عن أفضل الصفقات من بين آلاف الإعلانات."
 
-#: templates/public/landing.html:72 templates/search/category_widget.html:51
+#: templates/public/landing.html:77 templates/search/category_widget.html:51
 msgid "All of"
 msgstr "كل"
 
-#: templates/public/landing.html:96
+#: templates/public/landing.html:101
 msgid "Cars"
 msgstr "سيارات"
 
-#: templates/public/landing.html:106
+#: templates/public/landing.html:111
 msgid "Property for Sale"
 msgstr "عقارات للبيع"
 
-#: templates/public/landing.html:116
+#: templates/public/landing.html:121
 msgid "Jobs"
 msgstr "وظائف"
 
-#: templates/public/landing.html:127
+#: templates/public/landing.html:132
 msgid "Select your city"
 msgstr "اختر مدينتك"
 
-#: templates/public/landing.html:130
+#: templates/public/landing.html:135
 msgid "Select the city closest to where you live"
 msgstr "حدد المدينة الأقرب لك"
 
-#: templates/public/landing.html:134
+#: templates/public/landing.html:139
 msgid "Contact the advertiser"
 msgstr "تواصل مع المعلن"
 
-#: templates/public/landing.html:137
+#: templates/public/landing.html:142
 msgid "Find the ad you like, and contact the advertiser directly"
 msgstr "تواصل مع المعلن عندما تجد ما تبحث عنه"
 
-#: templates/public/landing.html:141
+#: templates/public/landing.html:146
 msgid "Get a great deal"
 msgstr "أحصل على عرض رائع"
 
-#: templates/public/landing.html:144
+#: templates/public/landing.html:149
 msgid "Meet and finish your bargain face to face."
 msgstr "اتمم الصفقة وجها لوجه"
 
