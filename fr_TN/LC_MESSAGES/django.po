@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-04 14:17+0400\n"
+"POT-Creation-Date: 2012-12-17 11:05+0400\n"
 "PO-Revision-Date: 2012-12-04 14:45+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: French - Tunisian "
-"<http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_TN/>\n"
+"Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/"
+"projects/fuego/fuego/fr_TN/>\n"
 "Language: fr_TN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,7 +55,7 @@ msgstr ""
 "Désolé, veuillez entrer de nouveau votre mot de passe en utilisant "
 "uniquement des caractères anglophones."
 
-#: authentication/forms.py:104 listings/tests.py:922
+#: authentication/forms.py:104 listings/tests.py:962
 msgid ""
 "This email address is already in use. Click 'I have a dubizzle password', or "
 "use a different email."
@@ -63,11 +63,11 @@ msgstr ""
 "Cette adresse email est déja en cours d'utilisation. Cliquez sur 'J'ai un "
 "mot de passe dubizzle', ou utiliser une autre adresse."
 
-#: authentication/forms.py:121 listings/tests.py:963
+#: authentication/forms.py:121 listings/tests.py:1003
 msgid "Huh... that's not the same one! Try again."
 msgstr "Oups... ce n'est pas la męme! Réessayez."
 
-#: authentication/forms.py:129 listings/tests.py:1004
+#: authentication/forms.py:129 listings/tests.py:1044
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "Hmm... ça ne marche pas. Réessayez."
 
@@ -1427,17 +1427,17 @@ msgstr ""
 "%(city_comma_country)s. Trouvez voitures occasion,  emploi, immobilier à "
 "louer, articles à vendre à %(city_comma_country)s."
 
-#: fuego/shared_settings.py:183
+#: fuego/shared_settings.py:186
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: fuego/shared_settings.py:286 templates/search/browse_widget.html:21
+#: fuego/shared_settings.py:289 templates/search/browse_widget.html:21
 #: templates/search/browse_widget.html:39 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "Tout sur dubizzle"
 
-#: fuego/shared_settings.py:399
+#: fuego/shared_settings.py:402
 msgid "Studio"
 msgstr "Studio"
 
@@ -1945,7 +1945,7 @@ msgstr "Titre de l'annonce"
 msgid "Description"
 msgstr "Description"
 
-#: listings/forms.py:166 listings/views.py:142
+#: listings/forms.py:166 listings/views.py:143
 msgid "Please select a valid category."
 msgstr "Veuillez choisir une catégorie valide."
 
@@ -1973,9 +1973,9 @@ msgstr ""
 "laquelle se trouve votre article. N'oubliez pas le prix de votre annonce en "
 "%(currency)s."
 
-#: listings/forms.py:319 listings/models.py:288 listings/models.py:312
-#: listings/models.py:332 listings/models.py:349 listings/models.py:366
-#: listings/models.py:393 listings/models.py:410 listings/models.py:437
+#: listings/forms.py:319 listings/models.py:308 listings/models.py:332
+#: listings/models.py:352 listings/models.py:369 listings/models.py:386
+#: listings/models.py:413 listings/models.py:430 listings/models.py:457
 msgid "Price"
 msgstr "Prix"
 
@@ -1987,7 +1987,7 @@ msgstr "Vous avez oublié d'ajouter le prix."
 msgid "Please enter a valid price."
 msgstr "Veuillez entrer un prix valide."
 
-#: listings/forms.py:353 listings/models.py:309
+#: listings/forms.py:353 listings/models.py:329
 msgid "Year"
 msgstr "Année"
 
@@ -2003,8 +2003,8 @@ msgstr "Combien de KM?"
 msgid "Great ride, how far has it gone?"
 msgstr "Joli petit tour! Jusqu'ou ętes-vous allé?"
 
-#: listings/forms.py:408 listings/forms.py:430 listings/models.py:392
-#: listings/models.py:436
+#: listings/forms.py:408 listings/forms.py:430 listings/models.py:412
+#: listings/models.py:456
 msgid "Bedrooms"
 msgstr "Chambres à coucher"
 
@@ -2012,23 +2012,23 @@ msgstr "Chambres à coucher"
 msgid "Nice property, but how many bedrooms?"
 msgstr "Belle propriété, mais combien de chambres?"
 
-#: listings/models.py:99
+#: listings/models.py:119
 msgid "Posted On"
 msgstr "Posté sur"
 
-#: listings/models.py:100 listings/models.py:287 listings/models.py:311
-#: listings/models.py:331 listings/models.py:348 listings/models.py:365
-#: listings/models.py:391 listings/models.py:409 listings/models.py:435
+#: listings/models.py:120 listings/models.py:307 listings/models.py:331
+#: listings/models.py:351 listings/models.py:368 listings/models.py:385
+#: listings/models.py:411 listings/models.py:429 listings/models.py:455
 msgid "Neighbourhood"
 msgstr "Voisinage"
 
-#: listings/models.py:286 listings/models.py:308 listings/models.py:330
-#: listings/models.py:347 listings/models.py:364 listings/models.py:390
-#: listings/models.py:408 listings/models.py:434
+#: listings/models.py:306 listings/models.py:328 listings/models.py:350
+#: listings/models.py:367 listings/models.py:384 listings/models.py:410
+#: listings/models.py:428 listings/models.py:454
 msgid "Posted on"
 msgstr "Posté le"
 
-#: listings/models.py:310
+#: listings/models.py:330
 msgid "Kilometers"
 msgstr "Kilomètres"
 
@@ -2126,13 +2126,13 @@ msgstr ""
 msgid "Not all is lost! There's great stuff just around the corner"
 msgstr "Tout n'est pas perdu! Il y a des choses géniales dans le coin"
 
-#: templates/404-web.html:19 templates/privacy_ar.html:54
-#: templates/privacy_fr.html:56 templates/terms_ar.html:310
+#: templates/404-web.html:19 templates/privacy_ar.html:56
+#: templates/privacy_fr.html:60 templates/terms_ar.html:310
 msgid "Go back"
 msgstr "Retour"
 
 #: templates/404-web.html:20 templates/generic.html:48
-#: templates/privacy_ar.html:55 templates/privacy_fr.html:57
+#: templates/privacy_ar.html:57 templates/privacy_fr.html:61
 #: templates/terms_ar.html:311 templates/shared/listings.html:53
 msgid "Home"
 msgstr "Accueil"
@@ -2698,7 +2698,7 @@ msgstr "Signaler l'annonce"
 msgid "About Us"
 msgstr "À propos de nous"
 
-#: templates/public/contact_us.html:7 templates/public/landing.html:10
+#: templates/public/contact_us.html:7 templates/public/landing.html:15
 msgid "Ahlan wa sahlan..."
 msgstr "Ahlan wa sahlan..."
 
@@ -2811,54 +2811,54 @@ msgstr ""
 msgid "Load more"
 msgstr "Charger davantage"
 
-#: templates/public/landing.html:60
+#: templates/public/landing.html:65
 msgid "Place your free ad"
 msgstr "Passez votre annonce gratuite"
 
-#: templates/public/landing.html:69
+#: templates/public/landing.html:74
 msgid "Select your city and find the best deals from thousands of ads!"
 msgstr ""
 "Sélectionnez votre ville et trouver les meilleurs affaires parmi des "
 "milliers d'annonces!"
 
-#: templates/public/landing.html:72 templates/search/category_widget.html:51
+#: templates/public/landing.html:77 templates/search/category_widget.html:51
 msgid "All of"
 msgstr "Tout à propos"
 
-#: templates/public/landing.html:96
+#: templates/public/landing.html:101
 msgid "Cars"
 msgstr "Voitures"
 
-#: templates/public/landing.html:106
+#: templates/public/landing.html:111
 msgid "Property for Sale"
 msgstr "Immobilier à vendre"
 
-#: templates/public/landing.html:116
+#: templates/public/landing.html:121
 msgid "Jobs"
 msgstr "Offres d'emploi"
 
-#: templates/public/landing.html:127
+#: templates/public/landing.html:132
 msgid "Select your city"
 msgstr "Sélectionnez votre ville"
 
-#: templates/public/landing.html:130
+#: templates/public/landing.html:135
 msgid "Select the city closest to where you live"
 msgstr "Sélectionnez la ville la plus proche de chez vous"
 
-#: templates/public/landing.html:134
+#: templates/public/landing.html:139
 msgid "Contact the advertiser"
 msgstr "Contactez l'annonceur"
 
-#: templates/public/landing.html:137
+#: templates/public/landing.html:142
 msgid "Find the ad you like, and contact the advertiser directly"
 msgstr ""
 "Trouvez l'annonce que vous souhaitez, et contacter directement l'annonceur"
 
-#: templates/public/landing.html:141
+#: templates/public/landing.html:146
 msgid "Get a great deal"
 msgstr "Faites une bonne afffaire"
 
-#: templates/public/landing.html:144
+#: templates/public/landing.html:149
 msgid "Meet and finish your bargain face to face."
 msgstr "Répondez et terminez votre négociation face à face."
 
@@ -2879,8 +2879,8 @@ msgid ""
 "                            "
 msgstr ""
 "\n"
-"                            Afficher seulement les annonces en %"
-"(CURRENT_LANGUAGE)s\n"
+"                            Afficher seulement les annonces en "
+"%(CURRENT_LANGUAGE)s\n"
 "                        "
 
 #: templates/search/browse_widget.html:100
