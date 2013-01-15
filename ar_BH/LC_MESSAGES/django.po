@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-19 12:28+0400\n"
+"POT-Creation-Date: 2013-01-15 11:47+0400\n"
 "PO-Revision-Date: 2012-12-17 11:07+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Bahraini <http://translate.dubizzlecloud.com/"
@@ -92,7 +92,7 @@ msgstr "كلمة السر الجديدة (هالوو!)"
 msgid "Your password must be a minimum 6 characters. Try again."
 msgstr "يجب ادخال كلمة سر لا تقل عن 6 أحرف!"
 
-#: authentication/forms.py:183 templates/listings/manage_listing.html:392
+#: authentication/forms.py:183 templates/listings/manage_listing.html:399
 msgid "Confirm password"
 msgstr "تأكيد كلمة السر"
 
@@ -1527,17 +1527,17 @@ msgstr ""
 "لبيع وشراء أي شيء. ايجاد سيارات, وظائف شاغرة, عقارات للايجار و سلع للبيع في  "
 "%(city_comma_country)s."
 
-#: fuego/shared_settings.py:188
+#: fuego/shared_settings.py:194
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/shared_settings.py:293 templates/search/browse_widget.html:21
+#: fuego/shared_settings.py:301 templates/search/browse_widget.html:21
 #: templates/search/browse_widget.html:39 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/shared_settings.py:406
+#: fuego/shared_settings.py:414
 msgid "Studio"
 msgstr "ستوديو "
 
@@ -1587,7 +1587,7 @@ msgstr "إختر المدينة"
 msgid "Hey, you forgot to tell us where you are."
 msgstr " من فضلك لا تنسى إضافة إسم مدينتك. (الا اذا كنت من الفضاء.)"
 
-#: listings/forms.py:82 templates/listings/manage_listing.html:243
+#: listings/forms.py:82 templates/listings/manage_listing.html:250
 msgid "Neighborhood"
 msgstr "المنطقة"
 
@@ -1607,7 +1607,7 @@ msgstr "رقم الموبايل"
 msgid "We need your mobile number for verification."
 msgstr "من فضلك ادخل رقم الموبايل لكي نتأكد من صلاحية حسابك."
 
-#: listings/forms.py:95 templates/listings/manage_listing.html:297
+#: listings/forms.py:95 templates/listings/manage_listing.html:304
 msgid "Show this number on my ad"
 msgstr "اظهر رقمي في الإعلان"
 
@@ -1616,7 +1616,7 @@ msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
 #: listings/forms.py:128 templates/listings/get_listing.html:107
-#: templates/listings/manage_listing.html:193
+#: templates/listings/manage_listing.html:200
 msgid "Description"
 msgstr "مواصفات الإعلان"
 
@@ -1712,8 +1712,8 @@ msgstr "نوع الاستفسار"
 
 #. Translators: This is in CrystelCalls new listing interface
 #: public/forms.py:19 templates/listings/manage_inorganic_listing.html:25
-#: templates/listings/manage_listing.html:306
-#: templates/listings/manage_listing.html:314
+#: templates/listings/manage_listing.html:313
+#: templates/listings/manage_listing.html:321
 #: templates/public/contact_us.html:104
 msgid "Email"
 msgstr "عنوان الإيميل"
@@ -1804,7 +1804,7 @@ msgstr "الصفحة السابقة"
 
 #: templates/404-web.html:20 templates/generic.html:48
 #: templates/privacy_ar.html:57 templates/privacy_fr.html:61
-#: templates/terms_ar.html:311 templates/shared/listings.html:53
+#: templates/terms_ar.html:311 templates/shared/listings.html:62
 msgid "Home"
 msgstr "الصفحة الرئيسية"
 
@@ -1842,27 +1842,28 @@ msgstr "الحساب"
 msgid "View all in"
 msgstr "اظهر الجميع في"
 
-#: templates/generic.html:112
+#: templates/generic.html:112 templates/public/landing.html:156
 msgid "Back to top"
 msgstr "العودة الى بداية الصفحة"
 
-#: templates/generic.html:115
+#: templates/generic.html:115 templates/public/landing.html:159
 msgid "Contact"
 msgstr "راسلنا"
 
-#: templates/generic.html:116
+#: templates/generic.html:116 templates/public/landing.html:160
 msgid "Terms of Use"
 msgstr "شروط وأحكام إستخدام موقع دوبيزل"
 
-#: templates/generic.html:117
+#: templates/generic.html:117 templates/public/landing.html:161
 msgid "Privacy Policy"
 msgstr "سياسة الخصوصية"
 
-#: templates/generic.html:118
+#: templates/generic.html:118 templates/public/landing.html:54
+#: templates/public/landing.html.py:162
 msgid "Change country"
 msgstr "تغيير الدولة"
 
-#: templates/generic.html:121
+#: templates/generic.html:121 templates/public/landing.html:165
 msgid "2012, dubizzle.com, All Rights Reserved."
 msgstr "2012, dubizzle.com, جميع الحقوق محفوظة."
 
@@ -1914,6 +1915,7 @@ msgstr "تغيير"
 
 #: templates/authentication/forgot_password.html:5
 #: templates/authentication/login.html:41
+#: templates/listings/manage_listing.html:350
 msgid "Forgot your password?"
 msgstr "نسيت كلمة السر؟"
 
@@ -1988,14 +1990,14 @@ msgstr ""
 
 #. Translators: This is in Customer Supports edit listing interface
 #: templates/cpanel/manage_workspace.html:43
-#: templates/listings/manage_listing.html:41
-#: templates/listings/manage_listing.html:127
+#: templates/listings/manage_listing.html:48
+#: templates/listings/manage_listing.html:134
 msgid "Select a category"
 msgstr "نوع الإعلان؟"
 
 #. Translators: This is in Customer Supports edit listing interface
 #: templates/cpanel/manage_workspace.html:52
-#: templates/listings/manage_listing.html:135
+#: templates/listings/manage_listing.html:142
 #: templates/search/category_widget.html:78
 msgid "Show all"
 msgstr "اظهر الجميع"
@@ -2119,32 +2121,32 @@ msgstr "أضف أسهل وأسرع إعلان مجانا. "
 msgid "Then go party!"
 msgstr "وخُذلك بريك..."
 
-#: templates/listings/manage_listing.html:60
+#: templates/listings/manage_listing.html:67
 msgid "Choose"
 msgstr "إختر"
 
-#: templates/listings/manage_listing.html:80
+#: templates/listings/manage_listing.html:87
 msgid "We're almost there... please review the points below."
 msgstr "لم ننتهي بعد ولكن إقتربنا. من فضلك صحح الأخطاء أدناه. "
 
-#: templates/listings/manage_listing.html:93
+#: templates/listings/manage_listing.html:100
 msgid "Your ad title"
 msgstr "أضف عنوان لإعلانك"
 
-#: templates/listings/manage_listing.html:106
+#: templates/listings/manage_listing.html:113
 msgid ""
 "Your title says it all - describe your ad clearly. Please DON'T USE CAPS."
 msgstr "فكر في عنوان واضح ومختصر لإعلانك."
 
-#: templates/listings/manage_listing.html:162
+#: templates/listings/manage_listing.html:169
 msgid "Change"
 msgstr "تعديل"
 
-#: templates/listings/manage_listing.html:170
+#: templates/listings/manage_listing.html:177
 msgid "Category"
 msgstr "القسم؟"
 
-#: templates/listings/manage_listing.html:207
+#: templates/listings/manage_listing.html:214
 msgid ""
 "Increase the chance of your ad appearing in a search: <br/>- Answer "
 "questions your buyer may have (dimensions, functions, availability) <br/>- "
@@ -2155,19 +2157,19 @@ msgstr ""
 "(مثلاً: الحجم والأبعاد)<br/>- إشرح أهم المواصفات والمعلومات (مثلاً: الضمان إن "
 "وجد) يرجى عدم اضافة عنوان إيميلك داخل الوصف وهذا لحماية خصوصيتك."
 
-#: templates/listings/manage_listing.html:223
+#: templates/listings/manage_listing.html:230
 msgid "Choose your city"
 msgstr "اختر مدينتك"
 
-#: templates/listings/manage_listing.html:273
+#: templates/listings/manage_listing.html:280
 msgid "Mobile Number"
 msgstr "رقم الموبايل"
 
-#: templates/listings/manage_listing.html:275
+#: templates/listings/manage_listing.html:282
 msgid "example"
 msgstr "مثال"
 
-#: templates/listings/manage_listing.html:286
+#: templates/listings/manage_listing.html:293
 msgid ""
 "We need mobile numbers to verify accounts and to detect scammers. Don't "
 "worry, you can choose not to show your mobile number in the ad (see option "
@@ -2175,27 +2177,27 @@ msgid ""
 msgstr ""
 "لا تقلق، لن نظهر رقم الموبايل على الموقع بدون موافقتك (التفاصيل ادناه)."
 
-#: templates/listings/manage_listing.html:328
+#: templates/listings/manage_listing.html:335
 msgid "A valid email address ensures your ad will go live."
 msgstr "تأكد من ادخال عنوان ايميل صحيح حتى يتم نشر إعلانك."
 
-#: templates/listings/manage_listing.html:339
+#: templates/listings/manage_listing.html:346
 msgid "I'm new to dubizzle. I need a password."
 msgstr "ليس لدي حساب على دوبيزل"
 
-#: templates/listings/manage_listing.html:343
+#: templates/listings/manage_listing.html:350
 msgid "I have a dubizzle password"
 msgstr "لدي حساب وكلمة سر"
 
-#: templates/listings/manage_listing.html:351
+#: templates/listings/manage_listing.html:358
 msgid "Confirm email"
 msgstr "تأكيد عنوان الإيميل"
 
-#: templates/listings/manage_listing.html:364
+#: templates/listings/manage_listing.html:371
 msgid "Password (cAse SenSiTIvE)"
 msgstr "كلمة السر"
 
-#: templates/listings/manage_listing.html:382
+#: templates/listings/manage_listing.html:389
 msgid ""
 "Make it safe and secure. Use a mix of numbers and letters, and don't use "
 "something obvious like your auntie's friend's cat - well, maybe that's OK."
@@ -2203,7 +2205,7 @@ msgstr ""
 "اختر كلمة سر قوية وآمنة ويستحسن ان لا تكون كلمة السر تخص إسمك أو تاريخ "
 "ميلادك أو أي من افراد عائلتك."
 
-#: templates/listings/manage_listing.html:418
+#: templates/listings/manage_listing.html:425
 #, python-format
 msgid ""
 "\n"
@@ -2217,11 +2219,11 @@ msgstr ""
 "وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\">سياسة الخصوصية</"
 "a>.                                "
 
-#: templates/listings/manage_listing.html:427
+#: templates/listings/manage_listing.html:434
 msgid "Yalla! Publish my ad"
 msgstr "يلا...انشر اعلاني!"
 
-#: templates/listings/manage_listing.html:431
+#: templates/listings/manage_listing.html:438
 msgid "What's the model?"
 msgstr "ماركة السيارة"
 
@@ -2461,51 +2463,51 @@ msgstr ""
 msgid "Load more"
 msgstr "ارني المزيد"
 
-#: templates/public/landing.html:65
+#: templates/public/landing.html:68
 msgid "Place your free ad"
 msgstr "أضف إعلانك المجاني"
 
-#: templates/public/landing.html:74
+#: templates/public/landing.html:77
 msgid "Select your city and find the best deals from thousands of ads!"
 msgstr "اختر مدينتك و ابحث عن أفضل الصفقات من بين آلاف الإعلانات."
 
-#: templates/public/landing.html:77 templates/search/category_widget.html:51
+#: templates/public/landing.html:80 templates/search/category_widget.html:51
 msgid "All of"
 msgstr "كل"
 
-#: templates/public/landing.html:101
+#: templates/public/landing.html:104
 msgid "Cars"
 msgstr "سيارات"
 
-#: templates/public/landing.html:111
+#: templates/public/landing.html:114
 msgid "Property for Sale"
 msgstr "عقارات للبيع"
 
-#: templates/public/landing.html:121
+#: templates/public/landing.html:124
 msgid "Jobs"
 msgstr "وظائف"
 
-#: templates/public/landing.html:132
+#: templates/public/landing.html:135
 msgid "Select your city"
 msgstr "اختر مدينتك"
 
-#: templates/public/landing.html:135
+#: templates/public/landing.html:138
 msgid "Select the city closest to where you live"
 msgstr "حدد المدينة الأقرب لك"
 
-#: templates/public/landing.html:139
+#: templates/public/landing.html:142
 msgid "Contact the advertiser"
 msgstr "تواصل مع المعلن"
 
-#: templates/public/landing.html:142
+#: templates/public/landing.html:145
 msgid "Find the ad you like, and contact the advertiser directly"
 msgstr "تواصل مع المعلن عندما تجد ما تبحث عنه"
 
-#: templates/public/landing.html:146
+#: templates/public/landing.html:149
 msgid "Get a great deal"
 msgstr "أحصل على عرض رائع"
 
-#: templates/public/landing.html:149
+#: templates/public/landing.html:152
 msgid "Meet and finish your bargain face to face."
 msgstr "اتمم الصفقة وجها لوجه"
 
@@ -2603,15 +2605,15 @@ msgstr "أرني الإعلانات السابقة"
 msgid "No results..."
 msgstr "لا يوجد نتائج..."
 
-#: templates/shared/listings.html:47
+#: templates/shared/listings.html:56
 msgid "Oh camel droppings!"
 msgstr "يا للهوووول!!"
 
-#: templates/shared/listings.html:48
+#: templates/shared/listings.html:57
 msgid "We couldn't find anything to match your search."
 msgstr "لم نجد أي نتائج لبحثك!"
 
-#: templates/shared/listings.html:50
+#: templates/shared/listings.html:59
 msgid ""
 "Try using different keywords or widening your seach and it should be more "
 "fruitful."
