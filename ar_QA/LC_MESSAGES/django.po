@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-18 16:46+0400\n"
-"PO-Revision-Date: 2013-02-18 17:24+0400\n"
+"POT-Creation-Date: 2013-03-05 14:39+0400\n"
+"PO-Revision-Date: 2013-03-05 14:56+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Qatari "
 "<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_QA/>\n"
@@ -92,7 +92,7 @@ msgstr "كلمة السر الجديدة (هالوو!)"
 msgid "Your password must be a minimum 6 characters. Try again."
 msgstr "يجب ادخال كلمة سر لا تقل عن 6 أحرف!"
 
-#: authentication/forms.py:183 templates/listings/manage_listing.html:396
+#: authentication/forms.py:183 templates/listings/manage_listing.html:397
 msgid "Confirm password"
 msgstr "تأكيد كلمة السر"
 
@@ -1584,17 +1584,17 @@ msgstr ""
 "دوبيزل قطر، مبوبة مجانيه، اعلانات مبوبة عبر الإنترنت، مبوبة قطر، اعلانات "
 "مبوبة مجانيه في قطر"
 
-#: fuego/shared_settings.py:204
+#: fuego/shared_settings.py:198
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/shared_settings.py:315 templates/search/browse_widget.html:21
+#: fuego/shared_settings.py:309 templates/search/browse_widget.html:21
 #: templates/search/browse_widget.html:39 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/shared_settings.py:430
+#: fuego/shared_settings.py:424
 msgid "Studio"
 msgstr "ستوديو"
 
@@ -1664,7 +1664,7 @@ msgstr "رقم الموبايل"
 msgid "We need your mobile number for verification."
 msgstr "من فضلك ادخل رقم الموبايل لكي نتأكد من صلاحية حسابك."
 
-#: listings/forms.py:96 templates/listings/manage_listing.html:300
+#: listings/forms.py:96 templates/listings/manage_listing.html:301
 msgid "Show this number on my ad"
 msgstr "اظهر رقمي في الإعلان"
 
@@ -1769,8 +1769,8 @@ msgstr "نوع الاستفسار"
 
 #. Translators: This is in CrystelCalls new listing interface
 #: public/forms.py:19 templates/listings/manage_inorganic_listing.html:25
-#: templates/listings/manage_listing.html:310
-#: templates/listings/manage_listing.html:328
+#: templates/listings/manage_listing.html:311
+#: templates/listings/manage_listing.html:329
 #: templates/public/contact_us.html:104
 msgid "Email"
 msgstr "عنوان الإيميل"
@@ -1895,31 +1895,6 @@ msgstr "الحساب"
 msgid "View all in"
 msgstr "اظهر الجميع في"
 
-#: templates/generic.html:113 templates/public/landing.html:156
-msgid "Back to top"
-msgstr "العودة الى بداية الصفحة"
-
-#: templates/generic.html:116 templates/public/landing.html:159
-msgid "Contact"
-msgstr "راسلنا"
-
-#: templates/generic.html:117 templates/public/landing.html:160
-msgid "Terms of Use"
-msgstr "شروط وأحكام إستخدام موقع دوبيزل"
-
-#: templates/generic.html:118 templates/public/landing.html:161
-msgid "Privacy Policy"
-msgstr "سياسة الخصوصية"
-
-#: templates/generic.html:119 templates/public/landing.html:54
-#: templates/public/landing.html.py:162
-msgid "Change country"
-msgstr "تغيير الدولة"
-
-#: templates/generic.html:122 templates/public/landing.html:165
-msgid "2012, dubizzle.com, All Rights Reserved."
-msgstr "2012, dubizzle.com, جميع الحقوق محفوظة."
-
 #: templates/terms_ar.html:8
 msgid ""
 "THIS IS A LEGAL AGREEMENT BETWEEN YOU AND DUBIZZLE.COM STATING THE TERMS "
@@ -1968,7 +1943,7 @@ msgstr "تغيير"
 
 #: templates/authentication/forgot_password.html:5
 #: templates/authentication/login.html:41
-#: templates/listings/manage_listing.html:323
+#: templates/listings/manage_listing.html:324
 msgid "Forgot your password?"
 msgstr "نسيت كلمة السر؟"
 
@@ -2234,7 +2209,7 @@ msgstr "رقم الموبايل"
 msgid "example"
 msgstr "مثال"
 
-#: templates/listings/manage_listing.html:289
+#: templates/listings/manage_listing.html:290
 msgid ""
 "We need mobile numbers to verify accounts and to detect scammers. Don't "
 "worry, you can choose not to show your mobile number in the ad (see option "
@@ -2242,27 +2217,27 @@ msgid ""
 msgstr ""
 "لا تقلق، لن نظهر رقم الموبايل على الموقع بدون موافقتك (التفاصيل ادناه)."
 
-#: templates/listings/manage_listing.html:319
+#: templates/listings/manage_listing.html:320
 msgid "I'm new to dubizzle. I need a password."
 msgstr "ليس لدي حساب على دوبيزل"
 
-#: templates/listings/manage_listing.html:323
+#: templates/listings/manage_listing.html:324
 msgid "I have a dubizzle password"
 msgstr "لدي حساب وكلمة سر"
 
-#: templates/listings/manage_listing.html:342
+#: templates/listings/manage_listing.html:343
 msgid "A valid email address ensures your ad will go live."
 msgstr "تأكد من ادخال عنوان ايميل صحيح حتى يتم نشر إعلانك."
 
-#: templates/listings/manage_listing.html:355
+#: templates/listings/manage_listing.html:356
 msgid "Confirm email"
 msgstr "تأكيد عنوان الإيميل"
 
-#: templates/listings/manage_listing.html:368
+#: templates/listings/manage_listing.html:369
 msgid "Password (cAse SenSiTIvE)"
 msgstr "كلمة السر"
 
-#: templates/listings/manage_listing.html:386
+#: templates/listings/manage_listing.html:387
 msgid ""
 "Make it safe and secure. Use a mix of numbers and letters, and don't use "
 "something obvious like your auntie's friend's cat - well, maybe that's OK."
@@ -2270,7 +2245,7 @@ msgstr ""
 "اختر كلمة سر قوية وآمنة ويستحسن ان لا تكون كلمة السر تخص إسمك أو تاريخ "
 "ميلادك أو أي من افراد عائلتك."
 
-#: templates/listings/manage_listing.html:426
+#: templates/listings/manage_listing.html:427
 #, python-format
 msgid ""
 "\n"
@@ -2281,15 +2256,15 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\" "
-"target=\"_blank\">شروط وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\" "
-"target=\"_blank\">سياسة الخصوصية</a>.                                "
+"عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\" target="
+"\"_blank\">شروط وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\" target="
+"\"_blank\">سياسة الخصوصية</a>.                                "
 
-#: templates/listings/manage_listing.html:438
+#: templates/listings/manage_listing.html:439
 msgid "Yalla! Publish my ad"
 msgstr "يلا...انشر اعلاني!"
 
-#: templates/listings/manage_listing.html:442
+#: templates/listings/manage_listing.html:443
 msgid "What's the model?"
 msgstr "ماركة السيارة"
 
@@ -2416,6 +2391,30 @@ msgstr "الرسالة"
 #: templates/listings/report_listing.html:119
 msgid "Report ad"
 msgstr "بلغ عن هذا الإعلان"
+
+#: templates/public/_footer.html:6
+msgid "Back to top"
+msgstr "العودة الى بداية الصفحة"
+
+#: templates/public/_footer.html:10
+msgid "Contact"
+msgstr "راسلنا"
+
+#: templates/public/_footer.html:13
+msgid "Terms of Use"
+msgstr "شروط وأحكام إستخدام موقع دوبيزل"
+
+#: templates/public/_footer.html:16
+msgid "Privacy Policy"
+msgstr "سياسة الخصوصية"
+
+#: templates/public/_footer.html:19 templates/public/landing.html:54
+msgid "Change country"
+msgstr "تغيير الدولة"
+
+#: templates/public/_footer.html:23
+msgid "2013, dubizzle.com, All Rights Reserved."
+msgstr "2013, dubizzle.com, جميع الحقوق محفوظة."
 
 #: templates/public/about.html:7
 msgid "About Us"
@@ -2871,6 +2870,9 @@ msgstr[5] ""
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
 
+#~ msgid "2012, dubizzle.com, All Rights Reserved."
+#~ msgstr "2012, dubizzle.com, جميع الحقوق محفوظة."
+
 #~ msgid ""
 #~ "Your ad title should have at least %(limit_value)s characters or more to "
 #~ "make it stand out."
@@ -2916,10 +2918,6 @@ msgstr "%(city)s، %(country)s "
 #, fuzzy
 #~ msgid "All of Egypt"
 #~ msgstr "كل"
-
-#, fuzzy
-#~ msgid "2013, dubizzle.com, All Rights Reserved."
-#~ msgstr "2012, dubizzle.com, جميع الحقوق محفوظة."
 
 #, fuzzy
 #~ msgid "Items for Sale"
