@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-10 11:00+0400\n"
+"POT-Creation-Date: 2013-03-11 17:22+0400\n"
 "PO-Revision-Date: 2013-03-07 17:49+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/"
@@ -2384,6 +2384,18 @@ msgstr "لقد نسيت اضافة الرسالة. عندك مشكلة؟ راس�
 msgid "Huh... that's not the same one!?"
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
+#: public/views.py:286
+msgid "dubizzle factsheet"
+msgstr ""
+
+#: public/views.py:290
+msgid "infographic: what's it worth?"
+msgstr ""
+
+#: public/views.py:295
+msgid "Pilar Rashad"
+msgstr ""
+
 #: search/forms.py:33
 #, python-format
 msgid "All of %(city)s"
@@ -3195,6 +3207,78 @@ msgstr "شقق للايجار في مصر"
 #: templates/public/landing.html:219
 msgid "Items for Sale"
 msgstr "سلع للبيع"
+
+#: templates/public/press.html:13
+msgid "PRESS CENTER"
+msgstr ""
+
+#: templates/public/press.html:19
+#, fuzzy
+msgid "About dubizzle"
+msgstr "الموقع بالكامل"
+
+#: templates/public/press.html:22
+msgid ""
+"\n"
+"                        dubizzle is a leading free classifieds website in "
+"the\n"
+"                        Middle East and North Africa. Since its launch in "
+"2005,\n"
+"                        dubizzle has become the number one platform for "
+"users\n"
+"                        to buy, sell, or find anything in their city.\n"
+"                    "
+msgstr ""
+
+#: templates/public/press.html:31
+msgid ""
+"\n"
+"                        dubizzle Egypt is managed centrally in Cairo by "
+"Ahmed\n"
+"                        Eraqi, and is headquartered in the United Arab\n"
+"                        Emirates. dubizzle is also available in Algeria,\n"
+"                        Bahrain Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi\n"
+"                        Arabia, Tunisia, and the United Arab Emirates. "
+"dubizzle\n"
+"                        is accessed by over 5 million unique visitors with "
+"more\n"
+"                        than 210 million page views on a monthly basis.\n"
+"                    "
+msgstr ""
+
+#: templates/public/press.html:45
+#, fuzzy
+msgid "The numbers"
+msgstr "رقم الموبايل"
+
+#: templates/public/press.html:49
+msgid ""
+"<div class=\"numbers-content\">over<br /><span>700,000</span><br />ads</div>"
+msgstr ""
+
+#: templates/public/press.html:53
+msgid ""
+"<div class=\"numbers-content\">over<br /><span>6,000,000</span><br />unique "
+"visitors a month</div>"
+msgstr ""
+
+#: templates/public/press.html:57
+msgid ""
+"<div class=\"numbers-content\">over<br /><span>180,000,000</span><br />page "
+"views a month</div>"
+msgstr ""
+
+#: templates/public/press.html:63
+msgid "Downloads"
+msgstr ""
+
+#: templates/public/press.html:77
+msgid "Inquiries"
+msgstr ""
+
+#: templates/public/press.html:80
+msgid "For press inquiries or more information please contact:"
+msgstr ""
 
 #: templates/search/browse_widget.html:19
 #: templates/search/browse_widget.html:37
