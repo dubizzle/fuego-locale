@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-10 11:00+0400\n"
-"PO-Revision-Date: 2013-03-07 17:49+0400\n"
+"POT-Creation-Date: 2013-03-11 17:51+0400\n"
+"PO-Revision-Date: 2013-03-11 17:44+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/"
 "projects/fuego/fuego/ar_EG/>\n"
@@ -2384,6 +2384,18 @@ msgstr "لقد نسيت اضافة الرسالة. عندك مشكلة؟ راس�
 msgid "Huh... that's not the same one!?"
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
+#: public/views.py:286
+msgid "dubizzle factsheet"
+msgstr "صفحة بيانات دوبيزل"
+
+#: public/views.py:290
+msgid "infographic: what's it worth?"
+msgstr "بيانات تصويرية: ما هي قيمتها؟"
+
+#: public/views.py:295
+msgid "Pilar Rashad"
+msgstr "بيلار رشاد"
+
 #: search/forms.py:33
 #, python-format
 msgid "All of %(city)s"
@@ -3195,6 +3207,87 @@ msgstr "شقق للايجار في مصر"
 #: templates/public/landing.html:219
 msgid "Items for Sale"
 msgstr "سلع للبيع"
+
+#: templates/public/press.html:13
+msgid "PRESS CENTER"
+msgstr "مركز الإعلام"
+
+#: templates/public/press.html:19
+msgid "About dubizzle"
+msgstr "ما هو موقع دوبيزل؟"
+
+#: templates/public/press.html:22
+msgid ""
+"\n"
+"                        dubizzle is a leading free classifieds website in "
+"the\n"
+"                        Middle East and North Africa. Since its launch in "
+"2005,\n"
+"                        dubizzle has become the number one platform for "
+"users\n"
+"                        to buy, sell, or find anything in their city.\n"
+"                    "
+msgstr ""
+"\n"
+"يعتبر دوبيزل الموقع الرائد للإعلانات المبوّبة في الشرق الاوسط وشمال أفريقيا. "
+"منذ انشاءه في سنة 2005، أصبح دوبيزل أفضل وسيلة لبيع و شراء أي شيء في المجتمع "
+"المحلي."
+
+#: templates/public/press.html:31
+msgid ""
+"\n"
+"                        dubizzle Egypt is managed centrally in Cairo by "
+"Ahmed\n"
+"                        Eraqi, and is headquartered in the United Arab\n"
+"                        Emirates. dubizzle is also available in Algeria,\n"
+"                        Bahrain Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi\n"
+"                        Arabia, Tunisia, and the United Arab Emirates. "
+"dubizzle\n"
+"                        is accessed by over 5 million unique visitors with "
+"more\n"
+"                        than 210 million page views on a monthly basis.\n"
+"                    "
+msgstr ""
+"\n"
+"يدار موقع دوبيزل مصر في القاهرة من خلال احمد عراقي، مدير دوبيزل مصر ويقع "
+"المقر الرئيسي ل دوبيزل في الامارات العربية المتحدة. دوبيزل موجود ايضا في "
+"الجزائر، البحرين، الاردن، لبنان، الكويت، عمان، قطر، السعودية و تونس. يدخل "
+"على موقع دوبيزل شهرياً اكثر من 5.5 مليون زائر، ليتصفحوا اكثر من 210 مليون "
+"صفحة شهريا."
+
+#: templates/public/press.html:45
+msgid "The numbers"
+msgstr "الارقام"
+
+#: templates/public/press.html:49
+msgid ""
+"<div class=\"numbers-content\">over<br /><span>13 million</span><br />visits "
+"a month</div>"
+msgstr "أكثر من<br/>13 مليون<br/>زيارة في الشهر"
+
+#: templates/public/press.html:53
+msgid ""
+"<div class=\"numbers-content\">over<br /><span>5.5 million</span><br /"
+">unique visitors a month</div>"
+msgstr "أكثر من<br/>5.5 مليون<br/>زائر في الشهر"
+
+#: templates/public/press.html:57
+msgid ""
+"<div class=\"numbers-content\">over<br /><span>210 million</span><br />page "
+"views a month</div>"
+msgstr "أكثر من<br/>210 مليون<br/>مشاهدة للصفحات في الشهر"
+
+#: templates/public/press.html:63
+msgid "Downloads"
+msgstr "التحميلات"
+
+#: templates/public/press.html:77
+msgid "Inquiries"
+msgstr "للاستفسارات"
+
+#: templates/public/press.html:80
+msgid "For press inquiries or more information please contact:"
+msgstr "للاستفسارات أو لمزيد من المعلومات، يرجى الاتصال ب:"
 
 #: templates/search/browse_widget.html:19
 #: templates/search/browse_widget.html:37
