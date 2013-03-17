@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-05 14:39+0400\n"
-"PO-Revision-Date: 2013-03-05 14:55+0400\n"
+"POT-Creation-Date: 2013-03-17 11:36+0400\n"
+"PO-Revision-Date: 2013-03-17 11:54+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Jordanian "
 "<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_JO/>\n"
@@ -1904,7 +1904,7 @@ msgstr "اظهر رقمي في الإعلان"
 msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
-#: listings/forms.py:129 templates/listings/get_listing.html:125
+#: listings/forms.py:129 templates/listings/get_listing.html:127
 #: templates/listings/manage_listing.html:195
 msgid "Description"
 msgstr "مواصفات الإعلان"
@@ -2334,15 +2334,15 @@ msgstr ""
 "عفواً، لن تستطيع تعديل اعلانك حتى تتم الموافقة على نشره. سنرسل لك إيميل عند "
 "نشره. لن نتأخر عليك!"
 
-#: templates/listings/get_listing.html:114
+#: templates/listings/get_listing.html:116
 msgid "Details"
 msgstr "التفاصيل"
 
-#: templates/listings/get_listing.html:139
+#: templates/listings/get_listing.html:141
 msgid "Show mobile number"
 msgstr "اظهر رقم الموبايل"
 
-#: templates/listings/get_listing.html:145
+#: templates/listings/get_listing.html:151
 msgid "Send an email"
 msgstr "ارسل إيميل"
 
@@ -2916,6 +2916,22 @@ msgid ""
 "fruitful."
 msgstr "جرب كلمات بحث اخرى لتسهل البحث. "
 
+#: templates/sitemaps/sitemap.html:24
+msgid "Sitemap"
+msgstr "خريطة الموقع"
+
+#: templates/sitemaps/sitemap.html:31
+msgid "Cities we're in..."
+msgstr "جميع المدن..."
+
+#: templates/sitemaps/sitemap.html:51
+msgid "You'll find great deals on..."
+msgstr "سوف تشاهد إعلانات مثيرة للانتباه على..."
+
+#: templates/sitemaps/sitemap.html:75
+msgid "See all"
+msgstr "اظهر الجميع"
+
 #: templates/user_profiles/my_listings.html:15
 msgid "My stuff"
 msgstr "إعلاناتي"
@@ -3302,9 +3318,6 @@ msgstr "%(city)s، %(country)s "
 #~ "%(ad_title)s - %(category_leaf)s items-for-sale | dubizzle %(country)s"
 #~ msgstr ""
 #~ "%(ad_title)s - %(category_leaf)s اعلانات مبوبة مجانية | دوبيزل %(country)s"
-
-#~ msgid "All cities"
-#~ msgstr "جميع المدن"
 
 #~ msgid "Geo IP"
 #~ msgstr "GEOIPPPPP"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-05 14:39+0400\n"
-"PO-Revision-Date: 2013-03-05 14:56+0400\n"
+"POT-Creation-Date: 2013-03-17 11:37+0400\n"
+"PO-Revision-Date: 2013-03-17 11:55+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Algerian "
 "<http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_DZ/>\n"
@@ -2082,7 +2082,7 @@ msgstr "Afficher ce numéro sur mon annonce"
 msgid "Ad Title"
 msgstr "Titre de l'annonce"
 
-#: listings/forms.py:129 templates/listings/get_listing.html:125
+#: listings/forms.py:129 templates/listings/get_listing.html:127
 #: templates/listings/manage_listing.html:195
 msgid "Description"
 msgstr "Description"
@@ -2519,15 +2519,15 @@ msgstr ""
 "Cette annonce a déjà été modifiée et est en attente de validation. Vous "
 "recevrez un email dès que les modifications seront en ligne."
 
-#: templates/listings/get_listing.html:114
+#: templates/listings/get_listing.html:116
 msgid "Details"
 msgstr "Détails"
 
-#: templates/listings/get_listing.html:139
+#: templates/listings/get_listing.html:141
 msgid "Show mobile number"
 msgstr "Afficher le numéro de téléphone portable"
 
-#: templates/listings/get_listing.html:145
+#: templates/listings/get_listing.html:151
 msgid "Send an email"
 msgstr "Envoyer un email"
 
@@ -3110,6 +3110,22 @@ msgstr ""
 "Essayez avec d'autres mots clés ou en élargissant votre recherche. Vous "
 "devriez avoir plus de chance."
 
+#: templates/sitemaps/sitemap.html:24
+msgid "Sitemap"
+msgstr "Plan du site"
+
+#: templates/sitemaps/sitemap.html:31
+msgid "Cities we're in..."
+msgstr "Trouvez nous dans les villes suivantes..."
+
+#: templates/sitemaps/sitemap.html:51
+msgid "You'll find great deals on..."
+msgstr "Trouvez de bonnes affaires dans ces categories..."
+
+#: templates/sitemaps/sitemap.html:75
+msgid "See all"
+msgstr "Tout voir"
+
 #: templates/user_profiles/my_listings.html:15
 msgid "My stuff"
 msgstr "Mes affaires"
@@ -3686,9 +3702,6 @@ msgstr "%(city)s, %(country)s"
 #~ msgid ""
 #~ "%(ad_title)s - %(category_leaf)s items-for-sale | dubizzle %(country)s"
 #~ msgstr " %(ad_title)s - %(category_leaf)s | dubizzle %(country)s"
-
-#~ msgid "All cities"
-#~ msgstr "Toutes les villes"
 
 #~ msgid "Maqrin"
 #~ msgstr "Maqrin"
