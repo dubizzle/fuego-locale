@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-11 17:51+0400\n"
+"POT-Creation-Date: 2013-03-17 15:13+0400\n"
 "PO-Revision-Date: 2013-03-11 17:44+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/"
@@ -2257,7 +2257,7 @@ msgstr "اظهر رقمي في الإعلان"
 msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
-#: listings/forms.py:129 templates/listings/get_listing.html:125
+#: listings/forms.py:129 templates/listings/get_listing.html:127
 #: templates/listings/manage_listing.html:195
 msgid "Description"
 msgstr "مواصفات الإعلان"
@@ -2703,15 +2703,15 @@ msgstr ""
 "عفواً، لن تستطيع تعديل اعلانك حتى تتم الموافقة على نشره. سنرسل لك إيميل عند "
 "نشره. لن نتأخر عليك!"
 
-#: templates/listings/get_listing.html:114
+#: templates/listings/get_listing.html:116
 msgid "Details"
 msgstr "التفاصيل"
 
-#: templates/listings/get_listing.html:139
+#: templates/listings/get_listing.html:141
 msgid "Show mobile number"
 msgstr "اظهر رقم الموبايل"
 
-#: templates/listings/get_listing.html:145
+#: templates/listings/get_listing.html:151
 msgid "Send an email"
 msgstr "ارسل إيميل"
 
@@ -3400,6 +3400,23 @@ msgid ""
 "Try using different keywords or widening your seach and it should be more "
 "fruitful."
 msgstr "جرب كلمات بحث اخرى لتسهل البحث. "
+
+#: templates/sitemaps/sitemap.html:24
+msgid "Sitemap"
+msgstr ""
+
+#: templates/sitemaps/sitemap.html:31
+msgid "Cities we're in..."
+msgstr ""
+
+#: templates/sitemaps/sitemap.html:51
+msgid "You'll find great deals on..."
+msgstr ""
+
+#: templates/sitemaps/sitemap.html:75
+#, fuzzy
+msgid "See all"
+msgstr "اظهر الجميع - "
 
 #: templates/user_profiles/my_listings.html:15
 msgid "My stuff"
