@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-17 15:13+0400\n"
+"POT-Creation-Date: 2013-03-24 18:04+0400\n"
 "PO-Revision-Date: 2013-03-17 15:26+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: Arabic - Egyptian "
-"<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
+"Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/"
+"projects/fuego/fuego/ar_EG/>\n"
 "Language: ar_EG\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -138,7 +138,7 @@ msgstr "جنيه مصري"
 msgid "Port Said"
 msgstr "بور سعيد"
 
-#: fuego/egypt_settings.py:93
+#: fuego/egypt_settings.py:93 fuego/egypt_settings.py:1416
 msgid "Tanta"
 msgstr "طنطا"
 
@@ -162,11 +162,11 @@ msgstr "أسيوط"
 msgid "Aswan"
 msgstr "أسوان"
 
-#: fuego/egypt_settings.py:135 fuego/egypt_settings.py:324
+#: fuego/egypt_settings.py:135 fuego/egypt_settings.py:376
 msgid "Cairo"
 msgstr "القاهرة"
 
-#: fuego/egypt_settings.py:146 fuego/egypt_settings.py:379
+#: fuego/egypt_settings.py:146 fuego/egypt_settings.py:431
 msgid "Alexandria"
 msgstr "الإسكندرية"
 
@@ -186,780 +186,1020 @@ msgstr "القليوبية‎"
 msgid "Sharqia"
 msgstr "الشرقية"
 
-#: fuego/egypt_settings.py:199
+#: fuego/egypt_settings.py:186
+msgid "Minya"
+msgstr ""
+
+#: fuego/egypt_settings.py:193
+#, fuzzy
+msgid "Al Menoufia"
+msgstr "روضة - المنيل"
+
+#: fuego/egypt_settings.py:200
+#, fuzzy
+msgid "Kafr el-Sheikh"
+msgstr "شرم الشيخ"
+
+#: fuego/egypt_settings.py:207
+msgid "Fayoum"
+msgstr ""
+
+#: fuego/egypt_settings.py:213
+msgid "Suez"
+msgstr ""
+
+#: fuego/egypt_settings.py:219
+msgid "Gharbia"
+msgstr ""
+
+#: fuego/egypt_settings.py:226
+#, fuzzy
+msgid "Ismailia"
+msgstr "عنوان الإيميل"
+
+#: fuego/egypt_settings.py:251
 msgid "Haram"
 msgstr "الهرم"
 
-#: fuego/egypt_settings.py:204
+#: fuego/egypt_settings.py:256
 msgid "Nasr City"
 msgstr "مدينة نصر"
 
-#: fuego/egypt_settings.py:209
+#: fuego/egypt_settings.py:261
 msgid "Masr el Gedida"
 msgstr "مصر الجديدة"
 
-#: fuego/egypt_settings.py:214
+#: fuego/egypt_settings.py:266
 msgid "Mehwar 26 July - Sheikh Zayed"
 msgstr "محور 26 يوليو - الشيخ زايد"
 
-#: fuego/egypt_settings.py:219
+#: fuego/egypt_settings.py:271
 msgid "Al Maadi"
 msgstr "المعادي"
 
-#: fuego/egypt_settings.py:224
+#: fuego/egypt_settings.py:276
 msgid "Dokki"
 msgstr "دقي"
 
-#: fuego/egypt_settings.py:229 fuego/egypt_settings.py:474
-#: fuego/egypt_settings.py:684 fuego/egypt_settings.py:804
+#: fuego/egypt_settings.py:281 fuego/egypt_settings.py:526
+#: fuego/egypt_settings.py:736 fuego/egypt_settings.py:856
 msgid "Downtown"
 msgstr "وسط البلد"
 
-#: fuego/egypt_settings.py:234
+#: fuego/egypt_settings.py:286
 msgid "New Cairo"
 msgstr "التجمع الخامس"
 
-#: fuego/egypt_settings.py:239
+#: fuego/egypt_settings.py:291
 msgid "Shorouq City"
 msgstr "مدينة الشروق"
 
-#: fuego/egypt_settings.py:244
+#: fuego/egypt_settings.py:296
 msgid "Oboor City"
 msgstr "مدينة العبور"
 
-#: fuego/egypt_settings.py:249
+#: fuego/egypt_settings.py:301
 msgid "Autostrad"
 msgstr "أوتوستراد"
 
-#: fuego/egypt_settings.py:254
+#: fuego/egypt_settings.py:306
 msgid "Abasiya"
 msgstr "العباسية"
 
-#: fuego/egypt_settings.py:259
+#: fuego/egypt_settings.py:311
 msgid "Ramses + Ramses Extension"
 msgstr "رمسيس و امتداد رمسيس"
 
-#: fuego/egypt_settings.py:264
+#: fuego/egypt_settings.py:316
 msgid "Zamalek"
 msgstr "الزمالك"
 
-#: fuego/egypt_settings.py:269
+#: fuego/egypt_settings.py:321
 msgid "Giza"
 msgstr "الجيزة"
 
-#: fuego/egypt_settings.py:274
+#: fuego/egypt_settings.py:326
 msgid "Moqatam"
 msgstr "المقطم"
 
-#: fuego/egypt_settings.py:279
+#: fuego/egypt_settings.py:331
 msgid "Bahtim"
 msgstr "بهتيم"
 
-#: fuego/egypt_settings.py:284
+#: fuego/egypt_settings.py:336
 msgid "Al Rehab City"
 msgstr "مدينة الرحاب"
 
-#: fuego/egypt_settings.py:289
+#: fuego/egypt_settings.py:341
 msgid "Cairo Airport"
 msgstr "المطار"
 
-#: fuego/egypt_settings.py:294
+#: fuego/egypt_settings.py:346
 msgid "Abu Zaabal"
 msgstr "أبو زعبل"
 
-#: fuego/egypt_settings.py:299
+#: fuego/egypt_settings.py:351
 msgid "10th Ramadan City"
 msgstr "العاشر من رمضان "
 
-#: fuego/egypt_settings.py:304
+#: fuego/egypt_settings.py:356
 msgid "Mariotia Rd"
 msgstr "طريق المريوطية"
 
-#: fuego/egypt_settings.py:309
+#: fuego/egypt_settings.py:361
 msgid "Al Manial"
 msgstr "روضة - المنيل"
 
-#: fuego/egypt_settings.py:314
+#: fuego/egypt_settings.py:366
 msgid "Al Katamiya"
 msgstr "القطامية"
 
-#: fuego/egypt_settings.py:319
+#: fuego/egypt_settings.py:371
 msgid "Tahrir"
 msgstr "تحرير"
 
-#: fuego/egypt_settings.py:329
+#: fuego/egypt_settings.py:381
 msgid "Shabramant"
 msgstr "شبرمنت"
 
-#: fuego/egypt_settings.py:334
+#: fuego/egypt_settings.py:386
 msgid "Kerdasa"
 msgstr "كرداسة"
 
-#: fuego/egypt_settings.py:339
+#: fuego/egypt_settings.py:391
 msgid "Tura"
 msgstr "طرة"
 
-#: fuego/egypt_settings.py:344
+#: fuego/egypt_settings.py:396
 msgid "6th of October"
 msgstr "6 أوكتوبر"
 
-#: fuego/egypt_settings.py:349
+#: fuego/egypt_settings.py:401
 msgid "Helwan"
 msgstr "حلوان"
 
-#: fuego/egypt_settings.py:354
+#: fuego/egypt_settings.py:406
 msgid "Kafr Tuhurmus"
 msgstr "كفر تهرمس"
 
-#: fuego/egypt_settings.py:359
+#: fuego/egypt_settings.py:411
 msgid "Al Badrashin"
 msgstr "البدرشين"
 
-#: fuego/egypt_settings.py:364
+#: fuego/egypt_settings.py:416
 msgid "Corniche El Nile"
 msgstr "كورنيش النيل"
 
-#: fuego/egypt_settings.py:369
+#: fuego/egypt_settings.py:421
 msgid "Ein Shams"
 msgstr "عين شمس"
 
-#: fuego/egypt_settings.py:374
+#: fuego/egypt_settings.py:426
 msgid "Al Helmeyah"
 msgstr "الحلمية"
 
-#: fuego/egypt_settings.py:384
+#: fuego/egypt_settings.py:436
 msgid "Abu Qir"
 msgstr "أبو قير"
 
-#: fuego/egypt_settings.py:389
+#: fuego/egypt_settings.py:441
 msgid "Tosson"
 msgstr "طوسون"
 
-#: fuego/egypt_settings.py:394
+#: fuego/egypt_settings.py:446
 msgid "Maamoura"
 msgstr "المعمورة"
 
-#: fuego/egypt_settings.py:399
+#: fuego/egypt_settings.py:451
 msgid "Montazah"
 msgstr "المنتزه"
 
-#: fuego/egypt_settings.py:404
+#: fuego/egypt_settings.py:456
 msgid "Miami"
 msgstr "ميامي"
 
-#: fuego/egypt_settings.py:409
+#: fuego/egypt_settings.py:461
 msgid "Mandara - Asafra"
 msgstr "مندرة - عصافرة"
 
-#: fuego/egypt_settings.py:414
+#: fuego/egypt_settings.py:466
 msgid "Sidi Beshr"
 msgstr "سيدي بشر"
 
-#: fuego/egypt_settings.py:419
+#: fuego/egypt_settings.py:471
 msgid "Al Sioof"
 msgstr "سيوف"
 
-#: fuego/egypt_settings.py:424
+#: fuego/egypt_settings.py:476
 msgid "San Stefano - Glim"
 msgstr "جليم - سان ستيفانو"
 
-#: fuego/egypt_settings.py:429
+#: fuego/egypt_settings.py:481
 msgid "Stanley"
 msgstr "ستانلي"
 
-#: fuego/egypt_settings.py:434
+#: fuego/egypt_settings.py:486
 msgid "Sidi Gaber"
 msgstr "سيدي جابر"
 
-#: fuego/egypt_settings.py:439
+#: fuego/egypt_settings.py:491
 msgid "Kafr Abdo"
 msgstr "كفر عبدو"
 
-#: fuego/egypt_settings.py:444
+#: fuego/egypt_settings.py:496
 msgid "Somooha"
 msgstr "سموحة"
 
-#: fuego/egypt_settings.py:449
+#: fuego/egypt_settings.py:501
 msgid "Shatby"
 msgstr "شاطبي"
 
-#: fuego/egypt_settings.py:454
+#: fuego/egypt_settings.py:506
 msgid "Raml Station"
 msgstr "محطة الرمل"
 
-#: fuego/egypt_settings.py:459
+#: fuego/egypt_settings.py:511
 msgid "Moharam Bik"
 msgstr "محرّم بيك"
 
-#: fuego/egypt_settings.py:464
+#: fuego/egypt_settings.py:516
 msgid "Bahari"
 msgstr "بحري"
 
-#: fuego/egypt_settings.py:469
+#: fuego/egypt_settings.py:521
 msgid "Dekheila"
 msgstr "الدخيلة"
 
-#: fuego/egypt_settings.py:479
+#: fuego/egypt_settings.py:531
 msgid "Agami"
 msgstr "عجمي"
 
-#: fuego/egypt_settings.py:484
+#: fuego/egypt_settings.py:536
 msgid "Burg el Arab"
 msgstr "يرج العرب"
 
-#: fuego/egypt_settings.py:489
+#: fuego/egypt_settings.py:541
 msgid "Hammam"
 msgstr "حمام"
 
-#: fuego/egypt_settings.py:494
+#: fuego/egypt_settings.py:546
 msgid "Alamein"
 msgstr "لأمين"
 
-#: fuego/egypt_settings.py:499
+#: fuego/egypt_settings.py:551
 msgid "Al Tabia"
 msgstr "الطابية"
 
-#: fuego/egypt_settings.py:504
+#: fuego/egypt_settings.py:556
 msgid "Al Sadd al Aali"
 msgstr "السد العالي"
 
-#: fuego/egypt_settings.py:509
+#: fuego/egypt_settings.py:561
 msgid "Al Ganoub"
 msgstr "الجنوب"
 
-#: fuego/egypt_settings.py:514
+#: fuego/egypt_settings.py:566
 msgid "Al Zohour"
 msgstr "الزهور"
 
-#: fuego/egypt_settings.py:519
+#: fuego/egypt_settings.py:571
 msgid "Al Dawahy"
 msgstr "الضواحي"
 
-#: fuego/egypt_settings.py:524
+#: fuego/egypt_settings.py:576
 msgid "Al Sharq"
 msgstr "الشرق"
 
-#: fuego/egypt_settings.py:529
+#: fuego/egypt_settings.py:581
 msgid "Al Manakh"
 msgstr "المناخ"
 
-#: fuego/egypt_settings.py:534
+#: fuego/egypt_settings.py:586
 msgid "Al Arab"
 msgstr "العرب"
 
-#: fuego/egypt_settings.py:539
+#: fuego/egypt_settings.py:591
 msgid "Port Fouad city"
 msgstr "بور فؤاد"
 
-#: fuego/egypt_settings.py:544
+#: fuego/egypt_settings.py:596
 msgid "Al Bahr Street"
 msgstr "شارع البحر"
 
-#: fuego/egypt_settings.py:549
+#: fuego/egypt_settings.py:601
 msgid "Al Galaa Street"
 msgstr "شارع الجلاء"
 
-#: fuego/egypt_settings.py:554
+#: fuego/egypt_settings.py:606
 msgid "Al Nahaas Street"
 msgstr "شارع النحاس"
 
-#: fuego/egypt_settings.py:559
+#: fuego/egypt_settings.py:611
 msgid "Hassan Radwan Street"
 msgstr "شارع حسن رضوان"
 
-#: fuego/egypt_settings.py:564
+#: fuego/egypt_settings.py:616
 msgid "Alnady street"
 msgstr "شارع النادي"
 
-#: fuego/egypt_settings.py:569
+#: fuego/egypt_settings.py:621
 msgid "Saeed Street"
 msgstr "شارع سعيد"
 
-#: fuego/egypt_settings.py:574
+#: fuego/egypt_settings.py:626
 msgid "Na'ama Bay"
 msgstr "خليج نعمة"
 
-#: fuego/egypt_settings.py:579
+#: fuego/egypt_settings.py:631
 msgid "Ras Um Sid Cliff"
 msgstr "رأس أم سيد"
 
-#: fuego/egypt_settings.py:584
+#: fuego/egypt_settings.py:636
 msgid "Um Marikha Bay "
 msgstr "ام مريخة"
 
-#: fuego/egypt_settings.py:589
+#: fuego/egypt_settings.py:641
 msgid "Sharm El Maya"
 msgstr "شرم الميه"
 
-#: fuego/egypt_settings.py:594
+#: fuego/egypt_settings.py:646
 msgid "Al Pasha Coast "
 msgstr "ساحل الباشا"
 
-#: fuego/egypt_settings.py:599
+#: fuego/egypt_settings.py:651
 msgid "Om El Sid Hill "
 msgstr "هضبة أم السيد"
 
-#: fuego/egypt_settings.py:604
+#: fuego/egypt_settings.py:656
 msgid "El Nour District"
 msgstr "حى النور"
 
-#: fuego/egypt_settings.py:609
+#: fuego/egypt_settings.py:661
 msgid "El Ruwaisat"
 msgstr "رويسات"
 
-#: fuego/egypt_settings.py:614
+#: fuego/egypt_settings.py:666
 msgid "El Souk El Kadim"
 msgstr "السوق القديم"
 
-#: fuego/egypt_settings.py:619
+#: fuego/egypt_settings.py:671
 msgid "Garden Bay"
 msgstr "جاردن باي"
 
-#: fuego/egypt_settings.py:624
+#: fuego/egypt_settings.py:676
 msgid "Marsa El Dekheila"
 msgstr "مرسى الدخيلة"
 
-#: fuego/egypt_settings.py:629
+#: fuego/egypt_settings.py:681
 msgid "White Knight Bay"
 msgstr "وايت نايت باي"
 
-#: fuego/egypt_settings.py:634
+#: fuego/egypt_settings.py:686
 msgid "Ras Nasrani"
 msgstr "رأس نصرانى"
 
-#: fuego/egypt_settings.py:639
+#: fuego/egypt_settings.py:691
 msgid "St. Catherine"
 msgstr "سانت كاترين"
 
-#: fuego/egypt_settings.py:644
+#: fuego/egypt_settings.py:696
 msgid "Tiger Bay"
 msgstr "خليج النمر"
 
-#: fuego/egypt_settings.py:649
+#: fuego/egypt_settings.py:701
 msgid "Tower Bay"
 msgstr "خليج البرج "
 
-#: fuego/egypt_settings.py:654
+#: fuego/egypt_settings.py:706
 msgid "Shark's Bay"
 msgstr "شاركس باي"
 
-#: fuego/egypt_settings.py:659
+#: fuego/egypt_settings.py:711
 msgid "Nabq"
 msgstr "نبق"
 
-#: fuego/egypt_settings.py:664
+#: fuego/egypt_settings.py:716
 msgid "Dahar"
 msgstr "الدهار"
 
-#: fuego/egypt_settings.py:669
+#: fuego/egypt_settings.py:721
 msgid "Sakalla"
 msgstr "سقالة"
 
-#: fuego/egypt_settings.py:674
+#: fuego/egypt_settings.py:726
 msgid "Village Road"
 msgstr "طريق القرى"
 
-#: fuego/egypt_settings.py:679
+#: fuego/egypt_settings.py:731
 msgid "Abou Mungad Island"
 msgstr "جزيرة ابو منجد"
 
-#: fuego/egypt_settings.py:689
+#: fuego/egypt_settings.py:741
 msgid "El Ahyaa Area"
 msgstr "حي الأحياء"
 
-#: fuego/egypt_settings.py:694
+#: fuego/egypt_settings.py:746
 msgid "El Hadaba"
 msgstr "الهضبة"
 
-#: fuego/egypt_settings.py:699
+#: fuego/egypt_settings.py:751
 msgid "El Kawther"
 msgstr "الكوثر"
 
-#: fuego/egypt_settings.py:704
+#: fuego/egypt_settings.py:756
 msgid "Giftun Island"
 msgstr "جزيرة جفتون"
 
-#: fuego/egypt_settings.py:709
+#: fuego/egypt_settings.py:761
 msgid "Magawish Island"
 msgstr "قرية مجاويش"
 
-#: fuego/egypt_settings.py:714
+#: fuego/egypt_settings.py:766
 msgid "Makadi Bay"
 msgstr "مكادى باى"
 
-#: fuego/egypt_settings.py:719
+#: fuego/egypt_settings.py:771
 msgid "Sahl Hashish"
 msgstr "سهل حشيش"
 
-#: fuego/egypt_settings.py:724
+#: fuego/egypt_settings.py:776
 msgid "Arment"
 msgstr "أرمنت"
 
-#: fuego/egypt_settings.py:729
+#: fuego/egypt_settings.py:781
 msgid "El Bayadeya"
 msgstr "البياضية"
 
-#: fuego/egypt_settings.py:734
+#: fuego/egypt_settings.py:786
 msgid "Esna"
 msgstr "إسنا"
 
-#: fuego/egypt_settings.py:739
+#: fuego/egypt_settings.py:791
 msgid "Abnub"
 msgstr "أبنوب"
 
-#: fuego/egypt_settings.py:744
+#: fuego/egypt_settings.py:796
 msgid "Abutig"
 msgstr "أبوتيج"
 
-#: fuego/egypt_settings.py:749
+#: fuego/egypt_settings.py:801
 msgid "Dairut"
 msgstr "ديروط"
 
-#: fuego/egypt_settings.py:754
+#: fuego/egypt_settings.py:806
 msgid "Al Badari"
 msgstr "البداري"
 
-#: fuego/egypt_settings.py:759
+#: fuego/egypt_settings.py:811
 msgid "Al Fateh"
 msgstr "الفتح"
 
-#: fuego/egypt_settings.py:764
+#: fuego/egypt_settings.py:816
 msgid "Al Ghanayem"
 msgstr "الغنايم"
 
-#: fuego/egypt_settings.py:769
+#: fuego/egypt_settings.py:821
 msgid "Manfalut"
 msgstr "منفلوط"
 
-#: fuego/egypt_settings.py:774
+#: fuego/egypt_settings.py:826
 msgid "El Qusiya"
 msgstr "قوصية"
 
-#: fuego/egypt_settings.py:779
+#: fuego/egypt_settings.py:831
 msgid "Sahel Selim"
 msgstr "ساحل سليم"
 
-#: fuego/egypt_settings.py:784
+#: fuego/egypt_settings.py:836
 msgid "Sodfa"
 msgstr "صدفا"
 
-#: fuego/egypt_settings.py:789
+#: fuego/egypt_settings.py:841
 msgid "Abou El Reish"
 msgstr "أبو الريش"
 
-#: fuego/egypt_settings.py:794
+#: fuego/egypt_settings.py:846
 msgid "Abou Simbel"
 msgstr "ابو سمبل"
 
-#: fuego/egypt_settings.py:799
+#: fuego/egypt_settings.py:851
 msgid "Daraw"
 msgstr "دراو"
 
-#: fuego/egypt_settings.py:809
+#: fuego/egypt_settings.py:861
 msgid "Edfou"
 msgstr "ادفو"
 
-#: fuego/egypt_settings.py:814
+#: fuego/egypt_settings.py:866
 msgid "El Bosaileya"
 msgstr "البصيلية"
 
-#: fuego/egypt_settings.py:819
+#: fuego/egypt_settings.py:871
 msgid "El Corniche"
 msgstr "الكورنيش"
 
-#: fuego/egypt_settings.py:824
+#: fuego/egypt_settings.py:876
 msgid "El Radeseya Qebly"
 msgstr "الرديسية قبلي"
 
-#: fuego/egypt_settings.py:829
+#: fuego/egypt_settings.py:881
 msgid "El Sail Gharb"
 msgstr "السيل غرب"
 
-#: fuego/egypt_settings.py:834
+#: fuego/egypt_settings.py:886
 msgid "El Sail Shark"
 msgstr "السيل شرق"
 
-#: fuego/egypt_settings.py:839
+#: fuego/egypt_settings.py:891
 msgid "El Sherouk District"
 msgstr "مدينة الشروق"
 
-#: fuego/egypt_settings.py:844
+#: fuego/egypt_settings.py:896
 msgid "El Shima Gharb"
 msgstr "الشيما غرب "
 
-#: fuego/egypt_settings.py:849
+#: fuego/egypt_settings.py:901
 msgid "El Sibaayia Gharb"
 msgstr "السباعية غرب"
 
-#: fuego/egypt_settings.py:854
+#: fuego/egypt_settings.py:906
 msgid "Eneiba"
 msgstr "عنيبه"
 
-#: fuego/egypt_settings.py:859
+#: fuego/egypt_settings.py:911
 msgid "Kalabsha"
 msgstr "كلابشة"
 
-#: fuego/egypt_settings.py:864
+#: fuego/egypt_settings.py:916
 msgid "Kom Ombo"
 msgstr "كوم امبو"
 
-#: fuego/egypt_settings.py:869
+#: fuego/egypt_settings.py:921
 msgid "Lake Nasser"
 msgstr "بحيرة ناصر"
 
-#: fuego/egypt_settings.py:874
+#: fuego/egypt_settings.py:926
 msgid "Nasr El Noba"
 msgstr "نصر النوبة"
 
-#: fuego/egypt_settings.py:879
+#: fuego/egypt_settings.py:931
 msgid "Sahary"
 msgstr "صحارى"
 
-#: fuego/egypt_settings.py:884
+#: fuego/egypt_settings.py:936
 msgid "Shamal"
 msgstr "شمال"
 
-#: fuego/egypt_settings.py:889
+#: fuego/egypt_settings.py:941
 msgid "Aja"
 msgstr "أجا"
 
-#: fuego/egypt_settings.py:894
+#: fuego/egypt_settings.py:946
 msgid "Jamaliyah"
 msgstr "الجماليه"
 
-#: fuego/egypt_settings.py:899
+#: fuego/egypt_settings.py:951
 msgid "El Mansoura"
 msgstr "المنصورة"
 
-#: fuego/egypt_settings.py:904
+#: fuego/egypt_settings.py:956
 msgid "Manzala"
 msgstr "المنزلة"
 
-#: fuego/egypt_settings.py:909
+#: fuego/egypt_settings.py:961
 msgid "El Matareya"
 msgstr "المطرية"
 
-#: fuego/egypt_settings.py:914
+#: fuego/egypt_settings.py:966
 msgid "El Senbellawein"
 msgstr "السنبلاوين"
 
-#: fuego/egypt_settings.py:919
+#: fuego/egypt_settings.py:971
 msgid "Bani Ubayd"
 msgstr "بني عبيد"
 
-#: fuego/egypt_settings.py:924
+#: fuego/egypt_settings.py:976
 msgid "Belqas"
 msgstr "بلقاس"
 
-#: fuego/egypt_settings.py:929
+#: fuego/egypt_settings.py:981
 msgid "Dikirnis"
 msgstr "دكرنس"
 
-#: fuego/egypt_settings.py:934
+#: fuego/egypt_settings.py:986
 msgid "Minyat an-Nasr"
 msgstr "منية النصر"
 
-#: fuego/egypt_settings.py:939
+#: fuego/egypt_settings.py:991
 msgid "Mit Ghamr"
 msgstr "ميت غمر"
 
-#: fuego/egypt_settings.py:944
+#: fuego/egypt_settings.py:996
 msgid "Mit Salsabil"
 msgstr "ميت سلسيل"
 
-#: fuego/egypt_settings.py:949
+#: fuego/egypt_settings.py:1001
 msgid "Nabaruh"
 msgstr "نبروه"
 
-#: fuego/egypt_settings.py:954
+#: fuego/egypt_settings.py:1006
 msgid "Shirbin"
 msgstr "شربين"
 
-#: fuego/egypt_settings.py:959
+#: fuego/egypt_settings.py:1011
 msgid "Talkha"
 msgstr "طلخا"
 
-#: fuego/egypt_settings.py:964
+#: fuego/egypt_settings.py:1016
 msgid "Abou el-Matamer"
 msgstr "أبو المطامير"
 
-#: fuego/egypt_settings.py:969
+#: fuego/egypt_settings.py:1021
 msgid "Abou Homs"
 msgstr "أبو حمص"
 
-#: fuego/egypt_settings.py:974
+#: fuego/egypt_settings.py:1026
 msgid "Ad-Dilinat"
 msgstr "الدلنجات"
 
-#: fuego/egypt_settings.py:979
+#: fuego/egypt_settings.py:1031
 msgid "Mahmoudiyah"
 msgstr "المحمودية"
 
-#: fuego/egypt_settings.py:984
+#: fuego/egypt_settings.py:1036
 msgid "Rahmaniya"
 msgstr "الرحمانية"
 
-#: fuego/egypt_settings.py:989
+#: fuego/egypt_settings.py:1041
 msgid "Badr"
 msgstr "بدر"
 
-#: fuego/egypt_settings.py:994
+#: fuego/egypt_settings.py:1046
 msgid "Damanhour"
 msgstr "دمنهور"
 
-#: fuego/egypt_settings.py:999
+#: fuego/egypt_settings.py:1051
 msgid "Hosh Essa"
 msgstr "حوش عيسى"
 
-#: fuego/egypt_settings.py:1004
+#: fuego/egypt_settings.py:1056
 msgid "Idku"
 msgstr "إدكو"
 
-#: fuego/egypt_settings.py:1009
+#: fuego/egypt_settings.py:1061
 msgid "Ityay al-Barud"
 msgstr "إيتاى البارود"
 
-#: fuego/egypt_settings.py:1014
+#: fuego/egypt_settings.py:1066
 msgid "Kafr ad-Dawwar"
 msgstr "كفر الدوار"
 
-#: fuego/egypt_settings.py:1019
+#: fuego/egypt_settings.py:1071
 msgid "Kawm Hamadah"
 msgstr "كوم حمادة"
 
-#: fuego/egypt_settings.py:1024
+#: fuego/egypt_settings.py:1076
 msgid "Rosetta"
 msgstr "رشيد"
 
-#: fuego/egypt_settings.py:1029
+#: fuego/egypt_settings.py:1081
 msgid "Shubra Khit"
 msgstr "شبراخيت"
 
-#: fuego/egypt_settings.py:1034
+#: fuego/egypt_settings.py:1086
 msgid "Natron Valley"
 msgstr "وادى النطرون"
 
-#: fuego/egypt_settings.py:1039
+#: fuego/egypt_settings.py:1091
 msgid "Al-Khankah"
 msgstr "الخانكة"
 
-#: fuego/egypt_settings.py:1044
+#: fuego/egypt_settings.py:1096
 msgid "Al-Khusus"
 msgstr "الخصوص"
 
-#: fuego/egypt_settings.py:1049
+#: fuego/egypt_settings.py:1101
 msgid "Al-Qanatir al-Khayriyah"
 msgstr "القناطر الخيرية"
 
-#: fuego/egypt_settings.py:1054
+#: fuego/egypt_settings.py:1106
 msgid "El Ubour"
 msgstr "العبور"
 
-#: fuego/egypt_settings.py:1059
+#: fuego/egypt_settings.py:1111
 msgid "Banha"
 msgstr "بنها"
 
-#: fuego/egypt_settings.py:1064
+#: fuego/egypt_settings.py:1116
 msgid "Kafr Shukr"
 msgstr "كفر شكر"
 
-#: fuego/egypt_settings.py:1069
+#: fuego/egypt_settings.py:1121
 msgid "Qaha"
 msgstr "قها"
 
-#: fuego/egypt_settings.py:1074
+#: fuego/egypt_settings.py:1126
 msgid "Qalyub"
 msgstr "قليوب"
 
-#: fuego/egypt_settings.py:1079
+#: fuego/egypt_settings.py:1131
 msgid "Shubra el-Kheima"
 msgstr "شبرا الخيمة"
 
-#: fuego/egypt_settings.py:1084
+#: fuego/egypt_settings.py:1136
 msgid "Shibin el-Qanater"
 msgstr "شبين القناطر"
 
-#: fuego/egypt_settings.py:1089
+#: fuego/egypt_settings.py:1141
 msgid "Tukh"
 msgstr "طوخ"
 
-#: fuego/egypt_settings.py:1094
+#: fuego/egypt_settings.py:1146
 msgid "Abu Hammad"
 msgstr "أبو حماد"
 
-#: fuego/egypt_settings.py:1099
+#: fuego/egypt_settings.py:1151
 msgid "Abu Kabir"
 msgstr "أبو كبير"
 
-#: fuego/egypt_settings.py:1104
+#: fuego/egypt_settings.py:1156
 msgid "Al-Husayniyah"
 msgstr "الحسينية"
 
-#: fuego/egypt_settings.py:1109
+#: fuego/egypt_settings.py:1161
 msgid "Al-Ibrahimiyah"
 msgstr "الإبراهيمية"
 
-#: fuego/egypt_settings.py:1114
+#: fuego/egypt_settings.py:1166
 msgid "Al-Qanayat"
 msgstr "القنايات"
 
-#: fuego/egypt_settings.py:1119
+#: fuego/egypt_settings.py:1171
 msgid "Al-Qurayn"
 msgstr "القرين"
 
-#: fuego/egypt_settings.py:1124
+#: fuego/egypt_settings.py:1176
 msgid "New Salhia"
 msgstr "الصالحية الجديدة"
 
-#: fuego/egypt_settings.py:1129
+#: fuego/egypt_settings.py:1181
 msgid "Awlad Saqr"
 msgstr "أولاد صقر"
 
-#: fuego/egypt_settings.py:1134
+#: fuego/egypt_settings.py:1186
 msgid "Zagazig"
 msgstr "الزقازيق"
 
-#: fuego/egypt_settings.py:1139
+#: fuego/egypt_settings.py:1191
 msgid "Bilbeis"
 msgstr "بلبيس"
 
-#: fuego/egypt_settings.py:1144
+#: fuego/egypt_settings.py:1196
 msgid "Diyarb Najm"
 msgstr "ديرب نجم"
 
-#: fuego/egypt_settings.py:1149
+#: fuego/egypt_settings.py:1201
 msgid "Faqous"
 msgstr "فاقوس"
 
-#: fuego/egypt_settings.py:1154
+#: fuego/egypt_settings.py:1206
 msgid "Hihya"
 msgstr "ههيا"
 
-#: fuego/egypt_settings.py:1159
+#: fuego/egypt_settings.py:1211
 msgid "Kafr Saqr"
 msgstr "كفر صقر"
 
-#: fuego/egypt_settings.py:1164
+#: fuego/egypt_settings.py:1216
 msgid "10th of Ramadan City"
 msgstr "مدينة عشرة رمضان"
 
-#: fuego/egypt_settings.py:1169
+#: fuego/egypt_settings.py:1221
 msgid "Mashtul al-Suq"
 msgstr "مشتول السوق"
 
-#: fuego/egypt_settings.py:1174
+#: fuego/egypt_settings.py:1226
 msgid "Minya al-Qamh"
 msgstr "منيا القمح"
 
-#: fuego/egypt_settings.py:1194
+#: fuego/egypt_settings.py:1231
+#, fuzzy
+msgid "Bani Mzar"
+msgstr "بني عبيد"
+
+#: fuego/egypt_settings.py:1236
+msgid "Deer Moas"
+msgstr ""
+
+#: fuego/egypt_settings.py:1241
+msgid "Smallot"
+msgstr ""
+
+#: fuego/egypt_settings.py:1246
+#, fuzzy
+msgid "Al Adawa"
+msgstr "العرب"
+
+#: fuego/egypt_settings.py:1251
+msgid "Matai"
+msgstr ""
+
+#: fuego/egypt_settings.py:1256
+msgid "Agagha"
+msgstr ""
+
+#: fuego/egypt_settings.py:1261
+msgid "Maloi"
+msgstr ""
+
+#: fuego/egypt_settings.py:1266
+#, fuzzy
+msgid "Al Minya"
+msgstr "المناخ"
+
+#: fuego/egypt_settings.py:1271
+#, fuzzy
+msgid "Al Minya Al Gadida"
+msgstr "مصر الجديدة"
+
+#: fuego/egypt_settings.py:1276
+msgid "Abo Korkas"
+msgstr ""
+
+#: fuego/egypt_settings.py:1281
+msgid "Ashmon"
+msgstr ""
+
+#: fuego/egypt_settings.py:1286
+#, fuzzy
+msgid "Al Bagour"
+msgstr "البداري"
+
+#: fuego/egypt_settings.py:1291
+msgid "Berket al Sabaa"
+msgstr ""
+
+#: fuego/egypt_settings.py:1296
+msgid "Mnof"
+msgstr ""
+
+#: fuego/egypt_settings.py:1301
+msgid "madinat al Sadat"
+msgstr ""
+
+#: fuego/egypt_settings.py:1306
+msgid "Sers al Ellyan"
+msgstr ""
+
+#: fuego/egypt_settings.py:1311
+msgid "Tlla"
+msgstr ""
+
+#: fuego/egypt_settings.py:1316
+#, fuzzy
+msgid "Al Shohdaa"
+msgstr "الشرق"
+
+#: fuego/egypt_settings.py:1321
+msgid "Shbin al Koum"
+msgstr ""
+
+#: fuego/egypt_settings.py:1326
+msgid "Quesna"
+msgstr ""
+
+#: fuego/egypt_settings.py:1331
+msgid "Desouk"
+msgstr ""
+
+#: fuego/egypt_settings.py:1336
+msgid "Billa"
+msgstr ""
+
+#: fuego/egypt_settings.py:1341
+msgid "Qaleen"
+msgstr ""
+
+#: fuego/egypt_settings.py:1346
+msgid "Mtobas"
+msgstr ""
+
+#: fuego/egypt_settings.py:1351
+msgid "Al Hamowl"
+msgstr ""
+
+#: fuego/egypt_settings.py:1356
+msgid "Al Brouls"
+msgstr ""
+
+#: fuego/egypt_settings.py:1361
+#, fuzzy
+msgid "Sidi Salem"
+msgstr "سيدي بشر"
+
+#: fuego/egypt_settings.py:1366
+msgid "Al Riad"
+msgstr ""
+
+#: fuego/egypt_settings.py:1371
+msgid "Fooh"
+msgstr ""
+
+#: fuego/egypt_settings.py:1376
+msgid "Abshoai"
+msgstr ""
+
+#: fuego/egypt_settings.py:1381
+msgid "Atssa"
+msgstr ""
+
+#: fuego/egypt_settings.py:1386
+msgid "Al Fayoum"
+msgstr ""
+
+#: fuego/egypt_settings.py:1391
+msgid "Snoures"
+msgstr ""
+
+#: fuego/egypt_settings.py:1396
+msgid "Tamia"
+msgstr ""
+
+#: fuego/egypt_settings.py:1401
+msgid "Atqa"
+msgstr ""
+
+#: fuego/egypt_settings.py:1406
+#, fuzzy
+msgid "Al Gnaeen"
+msgstr "الغنايم"
+
+#: fuego/egypt_settings.py:1411
+msgid "Al Ain al Sokhna"
+msgstr ""
+
+#: fuego/egypt_settings.py:1421
+msgid "Smanod"
+msgstr ""
+
+#: fuego/egypt_settings.py:1426
+msgid "Qatoor"
+msgstr ""
+
+#: fuego/egypt_settings.py:1431
+#, fuzzy
+msgid "Al Santa"
+msgstr "الشرق"
+
+#: fuego/egypt_settings.py:1436
+msgid "zefta"
+msgstr ""
+
+#: fuego/egypt_settings.py:1441
+msgid "Basyoun"
+msgstr ""
+
+#: fuego/egypt_settings.py:1446
+msgid "Kafr el Zayat"
+msgstr ""
+
+#: fuego/egypt_settings.py:1451
+msgid "Al Mhala al Koubra"
+msgstr ""
+
+#: fuego/egypt_settings.py:1456
+msgid "Al Tal Elkbeer"
+msgstr ""
+
+#: fuego/egypt_settings.py:1461
+msgid "Fayden"
+msgstr ""
+
+#: fuego/egypt_settings.py:1466
+msgid "Eastern Qantara"
+msgstr ""
+
+#: fuego/egypt_settings.py:1471
+msgid "Western Qantara"
+msgstr ""
+
+#: fuego/egypt_settings.py:1476
+msgid "Abo Soeer"
+msgstr ""
+
+#: fuego/egypt_settings.py:1481
+msgid "Al Ksaseen"
+msgstr ""
+
+#: fuego/egypt_settings.py:1500
 msgid "English"
 msgstr ""
 
-#: fuego/egypt_settings.py:1195
+#: fuego/egypt_settings.py:1501
 msgid "Arabic"
 msgstr "عربي"
 
-#: fuego/egypt_settings.py:1213
+#: fuego/egypt_settings.py:1519
 msgid ""
 "Jobs in Egypt, Property & Real Estate For Sale & Rent, Cars for Sale - Free "
 "Classifieds in Egypt | dubizzle Egypt"
@@ -967,7 +1207,7 @@ msgstr ""
 "وظائف في مصر، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في مصر | "
 "دوبيزل مصر"
 
-#: fuego/egypt_settings.py:1217
+#: fuego/egypt_settings.py:1523
 msgid ""
 "dubizzle is your free and friendly local classifieds website in Egypt. Jobs, "
 "property, real estate, cars and classifieds in Egypt. Post an ad, browse "
@@ -976,7 +1216,7 @@ msgstr ""
 "وظائف، عقارات، سيارات و اعلانات مبوبة في مصر. اضف اعلان، تصفح اعلانات، بيع "
 "واشتري وأجر على دوبيزل"
 
-#: fuego/egypt_settings.py:1222
+#: fuego/egypt_settings.py:1528
 msgid ""
 "dubizzle Egypt, free classifieds, online classifieds, Egypt classifieds, "
 "free classifieds in Egypt"
@@ -2384,15 +2624,15 @@ msgstr "لقد نسيت اضافة الرسالة. عندك مشكلة؟ راس�
 msgid "Huh... that's not the same one!?"
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
-#: public/views.py:286
+#: public/views.py:297
 msgid "dubizzle factsheet"
 msgstr "صفحة بيانات دوبيزل"
 
-#: public/views.py:290
+#: public/views.py:301
 msgid "infographic: what's it worth?"
 msgstr "بيانات تصويرية: ما هي قيمتها؟"
 
-#: public/views.py:295
+#: public/views.py:306
 msgid "Pilar Rashad"
 msgstr "بيلار رشاد"
 
@@ -2492,7 +2732,7 @@ msgstr "الحساب"
 msgid "View all in"
 msgstr "اظهر الجميع في"
 
-#: templates/generic.html:113 templates/public/landing.html:207
+#: templates/generic.html:113 templates/public/landing.html:214
 msgid "Back to top"
 msgstr "العودة الى بداية الصفحة"
 
@@ -2798,8 +3038,7 @@ msgstr ""
 "(مثلاً: الحجم والأبعاد)<br/>- إشرح أهم المواصفات والمعلومات (مثلاً: الضمان إن "
 "وجد) يرجى عدم اضافة عنوان إيميلك داخل الوصف وهذا لحماية خصوصيتك."
 
-#: templates/listings/manage_listing.html:226
-#: templates/public/landing.html:106
+#: templates/listings/manage_listing.html:226 templates/public/landing.html:62
 msgid "Choose your city"
 msgstr "اختر مدينتك"
 
@@ -3006,7 +3245,7 @@ msgstr "شروط وأحكام إستخدام موقع دوبيزل"
 msgid "Privacy Policy"
 msgstr "سياسة الخصوصية"
 
-#: templates/public/_footer.html:17 templates/public/landing.html:85
+#: templates/public/_footer.html:17 templates/public/landing.html:37
 msgid "Change country"
 msgstr "تغيير الدولة"
 
@@ -3018,7 +3257,7 @@ msgstr "2013, dubizzle.com, جميع الحقوق محفوظة."
 msgid "About Us"
 msgstr "تعرف علينا"
 
-#: templates/public/contact_us.html:7 templates/public/landing.html:17
+#: templates/public/contact_us.html:7 templates/public/landing.html:18
 msgid "Ahlan wa sahlan..."
 msgstr "اهلا وسهلا بكم في دوبيزل..."
 
@@ -3126,23 +3365,28 @@ msgstr ""
 msgid "Load more"
 msgstr "ارني المزيد"
 
-#: templates/public/landing.html:97
+#: templates/public/landing.html:52
 msgid "ads ya basha!"
 msgstr "إعلان يا باشا!"
 
-#: templates/public/landing.html:103
+#: templates/public/landing.html:58
 msgid "Buy. Sell. Anything"
 msgstr "بيع واشتري أي حاجة"
 
-#: templates/public/landing.html:124
-msgid "Coming Soon"
-msgstr "قريبا"
-
-#: templates/public/landing.html:130
+#: templates/public/landing.html:94 templates/public/landing.html.py:121
 msgid "All of Egypt"
 msgstr "كل مصر"
 
-#: templates/public/landing.html:147 templates/public/landing.html.py:157
+#: templates/public/landing.html:104
+msgid "Coming Soon"
+msgstr "قريبا"
+
+#: templates/public/landing.html:113
+#, fuzzy
+msgid "Other cities in Egypt"
+msgstr "السيارات المستعملة فى مصر"
+
+#: templates/public/landing.html:140 templates/public/landing.html.py:152
 msgid ""
 "Nobody wanted to buy this couch. until i found dubizzle and got more than 10 "
 "calls in half an hour"
@@ -3150,14 +3394,14 @@ msgstr ""
 "محدش كان عاوز يشتري الكنبة بتاعتي وساعة ما حطتها على دوبيزل جالي عشر مكالمات "
 "في نص ساعة"
 
-#: templates/public/landing.html:166
+#: templates/public/landing.html:163
 msgid ""
 "I sold this bag on dubizzle. It's free to post an ad and it's super easy and "
 "very fast. I love it"
 msgstr ""
 "أنا بعت شنطتي على دوبيزل والصراحة مفيش أسهل من كده، أنا بجد حبيت دوبيزل"
 
-#: templates/public/landing.html:175
+#: templates/public/landing.html:174
 msgid ""
 "I placed an ad on dubizzle to sell these brand new shoes. I sold them in 15 "
 "minutes"
@@ -3165,7 +3409,7 @@ msgstr ""
 " جبت جزمة جديدة وبعدها حسيت انها مش ستايلي و مبقتش عارف أعمل ايه لحد ما لقيت "
 "دوبيزل فبعتها عليه في ربع ساعة بس"
 
-#: templates/public/landing.html:184
+#: templates/public/landing.html:185
 msgid ""
 "dubizzle helped me sell my second phone. It was completely hassle free! I'll "
 "definitely use this site again"
@@ -3173,38 +3417,38 @@ msgstr ""
 "دوبيزل ساعدني ابيع موبايلي. العملية كانت سهلة جداً وأكيد مش هتردد في استخدامُه "
 "مرة تانيه"
 
-#: templates/public/landing.html:193
+#: templates/public/landing.html:196
 msgid ""
 "I sold my unused laptop on dubizzle! It's easy money for the things you "
 "don't use anymore"
 msgstr ""
 "بعت اللابتوب بتاعي على دوبيزل. عملت فلوس بسهوله من حاجات أنامكُنتش بستخدمها"
 
-#: templates/public/landing.html:206
+#: templates/public/landing.html:210
 msgid "The awesomeness on this page ends here"
 msgstr "خلاص الصفحة خلصت"
 
-#: templates/public/landing.html:206
+#: templates/public/landing.html:211
 msgid "Choose your city above to continue... are you still reading this?"
 msgstr "اختار مدينتك أعلاه للمتابعة...أنت لسه هنا؟"
 
-#: templates/public/landing.html:211
+#: templates/public/landing.html:221
 msgid "Cars in Egypt"
 msgstr "السيارات المستعملة فى مصر"
 
-#: templates/public/landing.html:213
+#: templates/public/landing.html:227
 msgid "Jobs in Egypt"
 msgstr "وظائف في مصر"
 
-#: templates/public/landing.html:215
+#: templates/public/landing.html:233
 msgid "Real Estate for Sale"
 msgstr "عقارات مصر"
 
-#: templates/public/landing.html:217
+#: templates/public/landing.html:239
 msgid "Property for Rent"
 msgstr "شقق للايجار في مصر"
 
-#: templates/public/landing.html:219
+#: templates/public/landing.html:245
 msgid "Items for Sale"
 msgstr "سلع للبيع"
 
@@ -3753,14 +3997,6 @@ msgstr "%(city)s، %(country)s "
 #, fuzzy
 #~ msgid "El Habib"
 #~ msgstr "الهضبة"
-
-#, fuzzy
-#~ msgid "Al Manar"
-#~ msgstr "المناخ"
-
-#, fuzzy
-#~ msgid "Sidi Salah"
-#~ msgstr "سيدي بشر"
 
 #, fuzzy
 #~ msgid "Hammam Sousse"
