@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-01 10:46+0400\n"
+"POT-Creation-Date: 2013-04-02 11:43+0400\n"
 "PO-Revision-Date: 2013-03-17 11:56+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/"
@@ -1952,7 +1952,7 @@ msgid "Ad Title"
 msgstr "Titre de l'annonce"
 
 #: listings/forms.py:115 templates/listings/manage_listing.html:110
-#: templates/listings/get/get_listing.html:137
+#: templates/listings/get/get_listing.html:139
 #: templates/listings/snippets/_form.html:76
 msgid "Description"
 msgstr "Description"
@@ -1973,7 +1973,9 @@ msgstr "Le quartier que vous avez choisi n'est pas dans la ville sélectionnée.
 
 #: listings/forms.py:211
 msgid "Oops, something has gone wrong. Let us know and we will fix it."
-msgstr "Oops, une erreur s'est produite quelque part, aidez nous a améliorer dubizzle faites nous savoir."
+msgstr ""
+"Oops, une erreur s'est produite quelque part, aidez nous a améliorer "
+"dubizzle faites nous savoir."
 
 #: listings/forms.py:212
 msgid "Photo verifiers did not match photos."
@@ -1985,12 +1987,15 @@ msgstr "Votre attachement n'a pas été téléchargé, veuillez réssayer de nou
 
 #: listings/forms.py:214
 msgid "Oh no, we can only read jpg, png or gif formats."
-msgstr "Oh non,votre attachement doit etre une photo d'extension .jpg .png ou .gif "
+msgstr ""
+"Oh non,votre attachement doit etre une photo d'extension .jpg .png ou .gif "
 
 #: listings/forms.py:215
 #, python-format
 msgid "Damn, that file is too big - %dMB maximum."
-msgstr "Votre photo dépasse la taille limite acceptée, veuillez attacher une image qui ne dépasse pas %dMb"
+msgstr ""
+"Votre photo dépasse la taille limite acceptée, veuillez attacher une image "
+"qui ne dépasse pas %dMb"
 
 #: listings/forms.py:216
 #, python-format
@@ -2535,7 +2540,6 @@ msgstr "Interface Liste des CrysTelCall."
 
 #: templates/listings/add/create_listing.html:9
 #: templates/listings/add/paa_taxonomy.html:15
-#: templates/listings/update/edit_listing.html:8
 msgid "Create a free ad in no time at all."
 msgstr "Créer une annonce gratuite en un rien de temps."
 
@@ -2575,15 +2579,15 @@ msgstr ""
 "Cette annonce a déjà été modifiée et est en attente de validation. Vous "
 "recevrez un email dès que les modifications seront en ligne."
 
-#: templates/listings/get/get_listing.html:126
+#: templates/listings/get/get_listing.html:128
 msgid "Details"
 msgstr "Détails"
 
-#: templates/listings/get/get_listing.html:151
+#: templates/listings/get/get_listing.html:153
 msgid "Show mobile number"
 msgstr "Afficher le numéro de téléphone portable"
 
-#: templates/listings/get/get_listing.html:157
+#: templates/listings/get/get_listing.html:163
 msgid "Send an email"
 msgstr "Envoyer un email"
 
@@ -2753,11 +2757,7 @@ msgstr ""
 msgid "Remove"
 msgstr "Supprimer"
 
-#: templates/listings/update/edit_listing.html:12
-msgid "Then go party!"
-msgstr "Puis allez faire la fête!"
-
-#: templates/listings/update/edit_listing.html:25
+#: templates/listings/update/edit_listing.html:16
 msgid "Edit your ad."
 msgstr "Modifier cette annonce"
 
@@ -3053,6 +3053,22 @@ msgstr ""
 "Essayez avec d'autres mots-clés ou en élargissant votre recherche. Vous "
 "devriez avoir plus de chance."
 
+#: templates/sitemaps/sitemap.html:24
+msgid "Sitemap"
+msgstr "Plan du site"
+
+#: templates/sitemaps/sitemap.html:31
+msgid "Cities we're in..."
+msgstr "Trouvez nous dans les villes suivantes..."
+
+#: templates/sitemaps/sitemap.html:51
+msgid "You'll find great deals on..."
+msgstr "Trouvez des bonnes affaires dans ces categories..."
+
+#: templates/sitemaps/sitemap.html:75
+msgid "See all"
+msgstr "Tout voir"
+
 #: templates/user_profiles/my_listings.html:16
 msgid "My stuff"
 msgstr "Mes affaires"
@@ -3193,6 +3209,9 @@ msgstr[1] ""
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s, %(country)s"
 
+#~ msgid "Then go party!"
+#~ msgstr "Puis allez faire la fête!"
+
 #~ msgid "Which section should we put your ad in?"
 #~ msgstr "Dans quelle section doit-on placer votre annonce?"
 
@@ -3207,18 +3226,6 @@ msgstr "%(city)s, %(country)s"
 
 #~ msgid "What's the model?"
 #~ msgstr "Quel est le modèle?"
-
-#~ msgid "Sitemap"
-#~ msgstr "Plan du site"
-
-#~ msgid "Cities we're in..."
-#~ msgstr "Trouvez nous dans les villes suivantes..."
-
-#~ msgid "You'll find great deals on..."
-#~ msgstr "Trouvez des bonnes affaires dans ces categories..."
-
-#~ msgid "See all"
-#~ msgstr "Tout voir"
 
 #~ msgid "2012, dubizzle.com, All Rights Reserved."
 #~ msgstr "2012, dubizzle.com, Tous droits réservés."

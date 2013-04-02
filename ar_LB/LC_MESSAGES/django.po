@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-01 10:45+0400\n"
+"POT-Creation-Date: 2013-04-02 11:43+0400\n"
 "PO-Revision-Date: 2013-03-17 11:55+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Lebanese <http://translate.dubizzlecloud.com/"
@@ -1824,7 +1824,7 @@ msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
 #: listings/forms.py:115 templates/listings/manage_listing.html:110
-#: templates/listings/get/get_listing.html:137
+#: templates/listings/get/get_listing.html:139
 #: templates/listings/snippets/_form.html:76
 msgid "Description"
 msgstr "مواصفات الإعلان"
@@ -2391,7 +2391,6 @@ msgstr ""
 
 #: templates/listings/add/create_listing.html:9
 #: templates/listings/add/paa_taxonomy.html:15
-#: templates/listings/update/edit_listing.html:8
 msgid "Create a free ad in no time at all."
 msgstr "أضف أسهل وأسرع إعلان مجانا. "
 
@@ -2431,15 +2430,15 @@ msgstr ""
 "عفواً، لن تستطيع تعديل اعلانك حتى تتم الموافقة على نشره. سنرسل لك إيميل عند "
 "نشره. لن نتأخر عليك!"
 
-#: templates/listings/get/get_listing.html:126
+#: templates/listings/get/get_listing.html:128
 msgid "Details"
 msgstr "التفاصيل"
 
-#: templates/listings/get/get_listing.html:151
+#: templates/listings/get/get_listing.html:153
 msgid "Show mobile number"
 msgstr "اظهر رقم الموبايل"
 
-#: templates/listings/get/get_listing.html:157
+#: templates/listings/get/get_listing.html:163
 msgid "Send an email"
 msgstr "ارسل إيميل"
 
@@ -2605,11 +2604,7 @@ msgstr ""
 msgid "Remove"
 msgstr "احذفها"
 
-#: templates/listings/update/edit_listing.html:12
-msgid "Then go party!"
-msgstr "وخُذلك بريك..."
-
-#: templates/listings/update/edit_listing.html:25
+#: templates/listings/update/edit_listing.html:16
 msgid "Edit your ad."
 msgstr "تعديل"
 
@@ -2909,6 +2904,22 @@ msgid ""
 "fruitful."
 msgstr "جرب كلمات بحث اخرى لتسهل البحث. "
 
+#: templates/sitemaps/sitemap.html:24
+msgid "Sitemap"
+msgstr "خريطة الموقع"
+
+#: templates/sitemaps/sitemap.html:31
+msgid "Cities we're in..."
+msgstr "جميع المدن..."
+
+#: templates/sitemaps/sitemap.html:51
+msgid "You'll find great deals on..."
+msgstr "سوف تشاهد إعلانات مثيرة للانتباه على..."
+
+#: templates/sitemaps/sitemap.html:75
+msgid "See all"
+msgstr "اظهر الجميع"
+
 #: templates/user_profiles/my_listings.html:16
 msgid "My stuff"
 msgstr "إعلاناتي"
@@ -3099,6 +3110,9 @@ msgstr[5] ""
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
 
+#~ msgid "Then go party!"
+#~ msgstr "وخُذلك بريك..."
+
 #~ msgid "Which section should we put your ad in?"
 #~ msgstr "ما هو أنسب قسم لعرض إعلانك؟"
 
@@ -3113,18 +3127,6 @@ msgstr "%(city)s، %(country)s "
 
 #~ msgid "What's the model?"
 #~ msgstr "ماركة السيارة"
-
-#~ msgid "Sitemap"
-#~ msgstr "خريطة الموقع"
-
-#~ msgid "Cities we're in..."
-#~ msgstr "جميع المدن..."
-
-#~ msgid "You'll find great deals on..."
-#~ msgstr "سوف تشاهد إعلانات مثيرة للانتباه على..."
-
-#~ msgid "See all"
-#~ msgstr "اظهر الجميع"
 
 #~ msgid "2012, dubizzle.com, All Rights Reserved."
 #~ msgstr "2012, dubizzle.com, جميع الحقوق محفوظة."
