@@ -1878,7 +1878,6 @@ msgstr ""
 "c'est le moment de les poser."
 
 #: fuego/forms/fields.py:27
-#, fuzzy
 msgid "Enter a list of values."
 msgstr "Veuillez entrer un sujet"
 
@@ -1974,7 +1973,7 @@ msgstr "Le quartier que vous avez choisi n'est pas dans la ville sélectionnée.
 
 #: listings/forms.py:211
 msgid "Oops, something has gone wrong. Let us know and we will fix it."
-msgstr ""
+msgstr "Oops, une erreur s'est produite quelque part, aidez nous a améliorer dubizzle faites nous savoir."
 
 #: listings/forms.py:212
 msgid "Photo verifiers did not match photos."
@@ -1982,21 +1981,21 @@ msgstr ""
 
 #: listings/forms.py:213
 msgid "Photo upload failed, please try again."
-msgstr ""
+msgstr "Votre attachement n'a pas été téléchargé, veuillez réssayer de nouveau"
 
 #: listings/forms.py:214
 msgid "Oh no, we can only read jpg, png or gif formats."
-msgstr ""
+msgstr "Oh non,votre attachement doit etre une photo d'extension .jpg .png ou .gif "
 
 #: listings/forms.py:215
 #, python-format
 msgid "Damn, that file is too big - %dMB maximum."
-msgstr ""
+msgstr "Votre photo dépasse la taille limite acceptée, veuillez attacher une image qui ne dépasse pas %dMb"
 
 #: listings/forms.py:216
-#, fuzzy, python-format
+#, python-format
 msgid "Max number of photos is %d"
-msgstr "Nombre maximal de photos"
+msgstr "Max de nombre de photos est %d"
 
 #: listings/forms.py:303
 #, python-format
@@ -2381,26 +2380,25 @@ msgstr "Confirmer"
 
 #: templates/listings/manage_listing.html:19
 msgid "Step 2 of 3"
-msgstr ""
+msgstr "Etape 2 sur 3"
 
 #: templates/listings/manage_listing.html:23
 #: templates/listings/add/paa_taxonomy.html:20
 #: templates/listings/preview/listing_complete.html:18
-#, fuzzy
 msgid "Choose your category"
-msgstr "Choisissez votre ville"
+msgstr "Choisir une catégorie"
 
 #: templates/listings/manage_listing.html:27
 #: templates/listings/add/paa_taxonomy.html:24
 #: templates/listings/preview/listing_complete.html:22
 msgid "Add photos & enter details"
-msgstr ""
+msgstr "Ajouter photos et détails"
 
 #: templates/listings/manage_listing.html:31
 #: templates/listings/add/paa_taxonomy.html:28
 #: templates/listings/preview/listing_complete.html:26
 msgid "Finish"
-msgstr ""
+msgstr "Terminé"
 
 #: templates/listings/manage_listing.html:45
 #: templates/listings/snippets/_form.html:15
@@ -2409,7 +2407,7 @@ msgstr "Vous avez presque terminé... veuillez examiner les points suivants."
 
 #: templates/listings/manage_listing.html:52
 msgid "Something went wrong, please try again."
-msgstr ""
+msgstr "Une erreur s'est produite, éssayez de nouveau."
 
 #: templates/listings/manage_listing.html:63
 #: templates/listings/snippets/_form.html:29
@@ -2507,7 +2505,7 @@ msgstr ""
 
 #: templates/listings/manage_listing.html:342
 #: templates/listings/snippets/_form.html:308
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "                        By posting your ad you are agreeing to the dubizzle "
@@ -2523,7 +2521,7 @@ msgstr ""
 
 #: templates/listings/manage_listing.html:355
 msgid "Uploading photos, please wait..."
-msgstr ""
+msgstr "Chargement de l'image en cours"
 
 #: templates/listings/manage_listing.html:359
 #: templates/listings/snippets/_form.html:320
@@ -2543,17 +2541,15 @@ msgstr "Créer une annonce gratuite en un rien de temps."
 
 #: templates/listings/add/paa_taxonomy.html:16
 msgid "Step 1 of 3"
-msgstr ""
+msgstr "Etape 1 sur 3"
 
 #: templates/listings/add/paa_taxonomy.html:40
-#, fuzzy
 msgid "Select an option"
-msgstr "Sélectionnez une catégorie"
+msgstr "Choisir une option."
 
 #: templates/listings/add/paa_taxonomy.html:60
-#, fuzzy
 msgid "What do you wanna sell today?"
-msgstr "Que voulez-vous leur dire?"
+msgstr "Que voulez vous vendre aujourdh'ui?"
 
 #: templates/listings/get/get_listing.html:61
 msgid "Back to results"
@@ -2597,7 +2593,7 @@ msgstr "Hourra! Félicitations, votre annonce sera mise en ligne très bientôt.
 
 #: templates/listings/preview/listing_complete.html:14
 msgid "Step 3 of 3"
-msgstr ""
+msgstr "Etape 3 sur 3"
 
 #: templates/listings/preview/listing_complete.html:31
 msgid ""
@@ -2740,9 +2736,8 @@ msgid "To delete photos, you'll need to enable Javascript."
 msgstr "Pour supprimer les images, vous avez besoin d'activer Javascript."
 
 #: templates/listings/snippets/photos/_manage_photos.html:70
-#, fuzzy
 msgid "Add a photo"
-msgstr "Ajouter une autre photo"
+msgstr "Ajouter une photo"
 
 #: templates/listings/snippets/photos/_manage_photos.html:76
 #, python-format
@@ -2756,14 +2751,13 @@ msgstr ""
 #: templates/listings/snippets/photos/_photo_preview.html:36
 #: templates/listings/snippets/photos/_photo_preview.html:39
 msgid "Remove"
-msgstr ""
+msgstr "Supprimer"
 
 #: templates/listings/update/edit_listing.html:12
 msgid "Then go party!"
 msgstr "Puis allez faire la fête!"
 
 #: templates/listings/update/edit_listing.html:25
-#, fuzzy
 msgid "Edit your ad."
 msgstr "Modifier cette annonce"
 

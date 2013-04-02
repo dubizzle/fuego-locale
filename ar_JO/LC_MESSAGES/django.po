@@ -1844,7 +1844,6 @@ msgstr ""
 "حرج في السؤال!"
 
 #: fuego/forms/fields.py:27
-#, fuzzy
 msgid "Enter a list of values."
 msgstr "نوع الاستفسار"
 
@@ -1938,7 +1937,7 @@ msgstr "يبدو أن هذه المنطقة ليست فى المدينة الم�
 
 #: listings/forms.py:211
 msgid "Oops, something has gone wrong. Let us know and we will fix it."
-msgstr ""
+msgstr "هناك خطأ ما. راسلنا لكي نصلحه."
 
 #: listings/forms.py:212
 msgid "Photo verifiers did not match photos."
@@ -1946,21 +1945,21 @@ msgstr ""
 
 #: listings/forms.py:213
 msgid "Photo upload failed, please try again."
-msgstr ""
+msgstr "هناك خطأ في تحميل الصورة. حاول مرة اخرى."
 
 #: listings/forms.py:214
 msgid "Oh no, we can only read jpg, png or gif formats."
-msgstr ""
+msgstr "هناك مشكلة في نوع الملف. من فضلك حمل ملف من نوع: jpg, png, gif"
 
 #: listings/forms.py:215
 #, python-format
 msgid "Damn, that file is too big - %dMB maximum."
-msgstr ""
+msgstr "حاول مرة أخرى وتأكد أن لا يزيد حجم الملف عن %d ميغا!"
 
 #: listings/forms.py:216
-#, fuzzy, python-format
+#, python-format
 msgid "Max number of photos is %d"
-msgstr "أقصى عدد من الصور هو"
+msgstr "أقصى عدد لتحميل الصور هو %d"
 
 #: listings/forms.py:303
 #, python-format
@@ -2338,26 +2337,25 @@ msgstr "تأكيد "
 
 #: templates/listings/manage_listing.html:19
 msgid "Step 2 of 3"
-msgstr ""
+msgstr "الخطوة 2 من 3"
 
 #: templates/listings/manage_listing.html:23
 #: templates/listings/add/paa_taxonomy.html:20
 #: templates/listings/preview/listing_complete.html:18
-#, fuzzy
 msgid "Choose your category"
-msgstr "اختر مدينتك"
+msgstr "نوع الإعلان؟"
 
 #: templates/listings/manage_listing.html:27
 #: templates/listings/add/paa_taxonomy.html:24
 #: templates/listings/preview/listing_complete.html:22
 msgid "Add photos & enter details"
-msgstr ""
+msgstr "أضف صور و تفاصيل الإعلان"
 
 #: templates/listings/manage_listing.html:31
 #: templates/listings/add/paa_taxonomy.html:28
 #: templates/listings/preview/listing_complete.html:26
 msgid "Finish"
-msgstr ""
+msgstr "إنتهينا"
 
 #: templates/listings/manage_listing.html:45
 #: templates/listings/snippets/_form.html:15
@@ -2366,7 +2364,7 @@ msgstr "لم ننتهي بعد ولكن إقتربنا. من فضلك صحح ا�
 
 #: templates/listings/manage_listing.html:52
 msgid "Something went wrong, please try again."
-msgstr ""
+msgstr "هناك خطأ ما. حاول مرة اخرى"
 
 #: templates/listings/manage_listing.html:63
 #: templates/listings/snippets/_form.html:29
@@ -2456,7 +2454,7 @@ msgstr ""
 
 #: templates/listings/manage_listing.html:342
 #: templates/listings/snippets/_form.html:308
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "                        By posting your ad you are agreeing to the dubizzle "
@@ -2471,7 +2469,7 @@ msgstr ""
 
 #: templates/listings/manage_listing.html:355
 msgid "Uploading photos, please wait..."
-msgstr ""
+msgstr "جاري التحميل. الرجاء الإنتظار."
 
 #: templates/listings/manage_listing.html:359
 #: templates/listings/snippets/_form.html:320
@@ -2491,17 +2489,15 @@ msgstr "أضف أسهل وأسرع إعلان مجانا. "
 
 #: templates/listings/add/paa_taxonomy.html:16
 msgid "Step 1 of 3"
-msgstr ""
+msgstr "الخطوة 1 من 3"
 
 #: templates/listings/add/paa_taxonomy.html:40
-#, fuzzy
 msgid "Select an option"
-msgstr "نوع الإعلان؟"
+msgstr "إختر فئة."
 
 #: templates/listings/add/paa_taxonomy.html:60
-#, fuzzy
 msgid "What do you wanna sell today?"
-msgstr "رسالتك للمعلن"
+msgstr "ماذا ستبيع اليوم؟"
 
 #: templates/listings/get/get_listing.html:61
 msgid "Back to results"
@@ -2545,7 +2541,7 @@ msgstr "مبروك! لقد اضفت إعلانك بنجاح وسنقوم بنش�
 
 #: templates/listings/preview/listing_complete.html:14
 msgid "Step 3 of 3"
-msgstr ""
+msgstr "الخطوة 3 من 3"
 
 #: templates/listings/preview/listing_complete.html:31
 msgid ""
@@ -2677,16 +2673,15 @@ msgstr ""
 
 #: templates/listings/snippets/photos/_manage_photos.html:16
 msgid "Hey, please re-attach the photo."
-msgstr ""
+msgstr "عذرا, الرجاء إعادة تحميل الصورة."
 
 #: templates/listings/snippets/photos/_manage_photos.html:22
 msgid "To delete photos, you'll need to enable Javascript."
 msgstr "لحذف الصور، عليك تفعيل تقنية الجافا سكربت في متصفحك."
 
 #: templates/listings/snippets/photos/_manage_photos.html:70
-#, fuzzy
 msgid "Add a photo"
-msgstr "اضف صورة أخرى"
+msgstr "اضف صور"
 
 #: templates/listings/snippets/photos/_manage_photos.html:76
 #, python-format
@@ -2700,14 +2695,13 @@ msgstr ""
 #: templates/listings/snippets/photos/_photo_preview.html:36
 #: templates/listings/snippets/photos/_photo_preview.html:39
 msgid "Remove"
-msgstr ""
+msgstr "احذفها"
 
 #: templates/listings/update/edit_listing.html:12
 msgid "Then go party!"
 msgstr "وخُذلك بريك..."
 
 #: templates/listings/update/edit_listing.html:25
-#, fuzzy
 msgid "Edit your ad."
 msgstr "تعديل"
 
