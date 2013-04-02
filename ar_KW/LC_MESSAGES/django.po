@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-02 11:43+0400\n"
+"POT-Creation-Date: 2013-04-02 16:31+0400\n"
 "PO-Revision-Date: 2013-03-17 11:55+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Kuwaiti <http://translate.dubizzlecloud.com/projects/"
@@ -1867,103 +1867,103 @@ msgstr "%(neighbourhood)s، %(city)s"
 msgid "%(currency)s %(price)s"
 msgstr "%(currency)s %(price)s"
 
-#: listings/forms.py:29
+#: listings/forms.py:30
 msgid "Upload CV"
 msgstr "تحميل السيرة الذاتية"
 
-#: listings/forms.py:43
+#: listings/forms.py:44
 msgid "Sorry, but your file format is not supported."
 msgstr "نوع الملف غير مدعوم، يرجى تحميل ملف من النوع التالي: rtf/doc/pdf/docx"
 
-#: listings/forms.py:46
+#: listings/forms.py:47
 msgid "That's a bit too heavy. Please keep your file size under 2MB."
 msgstr "من فضلك تأكد أن حجم الملف لا يزيد عن 2 ميغا"
 
-#: listings/forms.py:59
+#: listings/forms.py:60
 msgid "Tell us why you are reporting this ad."
 msgstr "لماذا تريد الإبلاغ عن هذا الإعلان؟"
 
-#: listings/forms.py:66
+#: listings/forms.py:67
 msgid "Choose City"
 msgstr "إختر المدينة"
 
-#: listings/forms.py:69
+#: listings/forms.py:70
 msgid "Hey, you forgot to tell us where you are."
 msgstr " من فضلك لا تنسى إضافة إسم مدينتك. (الا اذا كنت من الفضاء.)"
 
-#: listings/forms.py:72 templates/listings/manage_listing.html:166
+#: listings/forms.py:73 templates/listings/manage_listing.html:166
 #: templates/listings/snippets/_form.html:132
 msgid "Neighborhood"
 msgstr "المنطقة"
 
-#: listings/forms.py:75
+#: listings/forms.py:76
 msgid "We need you to be a little more specific."
 msgstr "نسيت أن تضيف إسم منطقتك."
 
-#: listings/forms.py:78 templates/public/contact_us.html:90
+#: listings/forms.py:79 templates/public/contact_us.html:90
 msgid "Mobile number"
 msgstr "رقم الموبايل"
 
-#: listings/forms.py:79
+#: listings/forms.py:80
 msgid "We need your mobile number for verification."
 msgstr "من فضلك ادخل رقم الموبايل لكي نتأكد من صلاحية حسابك."
 
-#: listings/forms.py:82 templates/listings/manage_listing.html:220
+#: listings/forms.py:83 templates/listings/manage_listing.html:220
 #: templates/listings/snippets/_form.html:186
 msgid "Show this number on my ad"
 msgstr "اظهر رقمي في الإعلان"
 
-#: listings/forms.py:110
+#: listings/forms.py:111
 msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
-#: listings/forms.py:115 templates/listings/manage_listing.html:110
+#: listings/forms.py:116 templates/listings/manage_listing.html:110
 #: templates/listings/get/get_listing.html:139
 #: templates/listings/snippets/_form.html:76
 msgid "Description"
 msgstr "مواصفات الإعلان"
 
-#: listings/forms.py:168
+#: listings/forms.py:169
 msgid "You're going to need a title."
 msgstr "لا تنسى إضافة عنوان لإعلانك."
 
-#: listings/forms.py:173
+#: listings/forms.py:174
 msgid "You forgot to add a description. Go on, tell the world about your ad."
 msgstr ""
 "لقد نسيت ان تضيف وصف لإعلانك. هنا يمكنك إضافة كل التفاصيل لتجذب إنتباه "
 "المشتري. "
 
-#: listings/forms.py:181
+#: listings/forms.py:182
 msgid "The neighborhood you have selected is not in the city you selected."
 msgstr "يبدو أن هذه المنطقة ليست فى المدينة المحددة."
 
-#: listings/forms.py:211
+#: listings/forms.py:216
 msgid "Oops, something has gone wrong. Let us know and we will fix it."
 msgstr "هناك خطأ ما. راسلنا لكي نصلحه."
 
-#: listings/forms.py:212
+#: listings/forms.py:217
 msgid "Photo verifiers did not match photos."
 msgstr ""
 
-#: listings/forms.py:213
+#: listings/forms.py:218
 msgid "Photo upload failed, please try again."
 msgstr "هناك خطأ في تحميل الصورة. حاول مرة اخرى."
 
-#: listings/forms.py:214
+#: listings/forms.py:219
 msgid "Oh no, we can only read jpg, png or gif formats."
 msgstr "هناك مشكلة في نوع الملف. من فضلك حمل ملف من نوع: jpg, png, gif"
 
-#: listings/forms.py:215
+#: listings/forms.py:220
 #, python-format
-msgid "Damn, that file is too big - %dMB maximum."
-msgstr "حاول مرة أخرى وتأكد أن لا يزيد حجم الملف عن %d ميغا!"
+msgid "Damn, that file is too big - %(size)dMB maximum."
+msgstr "حاول مرة أخرى وتأكد أن لا يزيد حجم الملف عن %(size)d ميغا!"
 
-#: listings/forms.py:216
+#: listings/forms.py:221
 #, python-format
-msgid "Max number of photos is %d"
-msgstr "أقصى عدد لتحميل الصور هو %d"
+msgid "Max number of photos is %(max_photos)d"
+msgstr "أقصى عدد لتحميل الصور هو %(max_photos)d"
 
-#: listings/forms.py:303
+#: listings/forms.py:308
 #, python-format
 msgid ""
 "When in doubt, check out other ads to see the price range of your item. "
@@ -1972,42 +1972,42 @@ msgstr ""
 "لو محتار في تحديد السعر إبحث عن أسعار أشياء مماثلة على الموقع. يرجى التأكد "
 "أن السعر المطلوب في عملة %(currency)s"
 
-#: listings/forms.py:310 listings/models.py:299 listings/models.py:323
+#: listings/forms.py:315 listings/models.py:299 listings/models.py:323
 #: listings/models.py:343 listings/models.py:360 listings/models.py:377
 #: listings/models.py:404 listings/models.py:421 listings/models.py:448
 msgid "Price"
 msgstr "السعر"
 
-#: listings/forms.py:311
+#: listings/forms.py:316
 msgid "You forgot to add the price."
 msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 
-#: listings/forms.py:315
+#: listings/forms.py:320
 msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
 
-#: listings/forms.py:344 listings/models.py:320
+#: listings/forms.py:349 listings/models.py:320
 msgid "Year"
 msgstr "السنة"
 
-#: listings/forms.py:349
+#: listings/forms.py:354
 msgid "Sweet wheels, but how old?"
 msgstr "المحروسة... موديل سنة كم؟"
 
-#: listings/forms.py:355
+#: listings/forms.py:360
 msgid "How many KM?"
 msgstr "عدد الكيلومترات"
 
-#: listings/forms.py:357
+#: listings/forms.py:362
 msgid "Great ride, how far has it gone?"
 msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
 
-#: listings/forms.py:402 listings/forms.py:424 listings/models.py:403
+#: listings/forms.py:407 listings/forms.py:429 listings/models.py:403
 #: listings/models.py:447
 msgid "Bedrooms"
 msgstr "غرف نوم"
 
-#: listings/forms.py:403 listings/forms.py:425
+#: listings/forms.py:408 listings/forms.py:430
 msgid "Nice property, but how many bedrooms?"
 msgstr "حدثنا عن عقارك. كم عدد غرف النوم؟"
 

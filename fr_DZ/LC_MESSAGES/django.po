@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-02 11:43+0400\n"
+"POT-Creation-Date: 2013-04-02 16:30+0400\n"
 "PO-Revision-Date: 2013-03-17 11:55+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Algerian <http://translate.dubizzlecloud.com/"
@@ -2041,110 +2041,110 @@ msgstr "%(neighbourhood)s, %(city)s"
 msgid "%(currency)s %(price)s"
 msgstr "%(currency)s %(price)s"
 
-#: listings/forms.py:29
+#: listings/forms.py:30
 msgid "Upload CV"
 msgstr "Déposez votre CV"
 
-#: listings/forms.py:43
+#: listings/forms.py:44
 msgid "Sorry, but your file format is not supported."
 msgstr "Désolé, mais votre format de fichier n'est pas pris en charge."
 
-#: listings/forms.py:46
+#: listings/forms.py:47
 msgid "That's a bit too heavy. Please keep your file size under 2MB."
 msgstr ""
 "C'est un peu trop lourd. Veillez a ce que la taille de votre fichier reste "
 "inférieure à 2 Mo."
 
-#: listings/forms.py:59
+#: listings/forms.py:60
 msgid "Tell us why you are reporting this ad."
 msgstr "Dites-nous pourquoi vous signalez cette annonce."
 
-#: listings/forms.py:66
+#: listings/forms.py:67
 msgid "Choose City"
 msgstr "Choisir la ville"
 
-#: listings/forms.py:69
+#: listings/forms.py:70
 msgid "Hey, you forgot to tell us where you are."
 msgstr "Hep! Vous avez oublié de nous dire oů vous ętes."
 
-#: listings/forms.py:72 templates/listings/manage_listing.html:166
+#: listings/forms.py:73 templates/listings/manage_listing.html:166
 #: templates/listings/snippets/_form.html:132
 msgid "Neighborhood"
 msgstr "Quartier"
 
-#: listings/forms.py:75
+#: listings/forms.py:76
 msgid "We need you to be a little more specific."
 msgstr "Soyez un peu plus précis."
 
-#: listings/forms.py:78 templates/public/contact_us.html:90
+#: listings/forms.py:79 templates/public/contact_us.html:90
 msgid "Mobile number"
 msgstr "Numéro de téléphone portable"
 
-#: listings/forms.py:79
+#: listings/forms.py:80
 msgid "We need your mobile number for verification."
 msgstr "Merci de nous communiquer votre numéro de portable pour vérification."
 
-#: listings/forms.py:82 templates/listings/manage_listing.html:220
+#: listings/forms.py:83 templates/listings/manage_listing.html:220
 #: templates/listings/snippets/_form.html:186
 msgid "Show this number on my ad"
 msgstr "Afficher ce numéro sur mon annonce"
 
-#: listings/forms.py:110
+#: listings/forms.py:111
 msgid "Ad Title"
 msgstr "Titre de l'annonce"
 
-#: listings/forms.py:115 templates/listings/manage_listing.html:110
+#: listings/forms.py:116 templates/listings/manage_listing.html:110
 #: templates/listings/get/get_listing.html:139
 #: templates/listings/snippets/_form.html:76
 msgid "Description"
 msgstr "Description"
 
-#: listings/forms.py:168
+#: listings/forms.py:169
 msgid "You're going to need a title."
 msgstr "Vous allez avoir besoin d'un titre."
 
-#: listings/forms.py:173
+#: listings/forms.py:174
 msgid "You forgot to add a description. Go on, tell the world about your ad."
 msgstr ""
 "Vous avez oublié d'ajouter une description. Allez, informez le monde sur "
 "votre annonce."
 
-#: listings/forms.py:181
+#: listings/forms.py:182
 msgid "The neighborhood you have selected is not in the city you selected."
 msgstr "Le quartier que vous avez choisi n'est pas dans la ville sélectionnée."
 
-#: listings/forms.py:211
+#: listings/forms.py:216
 msgid "Oops, something has gone wrong. Let us know and we will fix it."
 msgstr ""
 "Oops, une erreur s'est produite quelque part, aidez nous a améliorer "
 "dubizzle faites nous savoir."
 
-#: listings/forms.py:212
+#: listings/forms.py:217
 msgid "Photo verifiers did not match photos."
 msgstr ""
 
-#: listings/forms.py:213
+#: listings/forms.py:218
 msgid "Photo upload failed, please try again."
 msgstr "Votre attachement n'a pas été téléchargé, veuillez réssayer de nouveau"
 
-#: listings/forms.py:214
+#: listings/forms.py:219
 msgid "Oh no, we can only read jpg, png or gif formats."
 msgstr ""
 "Oh non,votre attachement doit etre une photo d'extension .jpg .png ou .gif "
 
-#: listings/forms.py:215
+#: listings/forms.py:220
 #, python-format
-msgid "Damn, that file is too big - %dMB maximum."
+msgid "Damn, that file is too big - %(size)dMB maximum."
 msgstr ""
 "Votre photo dépasse la taille limite acceptée, veuillez attacher une image "
-"qui ne dépasse pas %dMb"
+"qui ne dépasse pas %(size)dMB"
 
-#: listings/forms.py:216
+#: listings/forms.py:221
 #, python-format
-msgid "Max number of photos is %d"
-msgstr "Max de nombre de photos est %d"
+msgid "Max number of photos is %(max_photos)d"
+msgstr "Max de nombre de photos est %(max_photos)d"
 
-#: listings/forms.py:303
+#: listings/forms.py:308
 #, python-format
 msgid ""
 "When in doubt, check out other ads to see the price range of your item. "
@@ -2154,42 +2154,42 @@ msgstr ""
 "laquelle se trouve votre article. N'oubliez pas le prix de votre annonce en "
 "%(currency)s."
 
-#: listings/forms.py:310 listings/models.py:299 listings/models.py:323
+#: listings/forms.py:315 listings/models.py:299 listings/models.py:323
 #: listings/models.py:343 listings/models.py:360 listings/models.py:377
 #: listings/models.py:404 listings/models.py:421 listings/models.py:448
 msgid "Price"
 msgstr "Prix"
 
-#: listings/forms.py:311
+#: listings/forms.py:316
 msgid "You forgot to add the price."
 msgstr "Vous avez oublié d'ajouter le prix."
 
-#: listings/forms.py:315
+#: listings/forms.py:320
 msgid "Please enter a valid price."
 msgstr "Veuillez entrer un prix valide."
 
-#: listings/forms.py:344 listings/models.py:320
+#: listings/forms.py:349 listings/models.py:320
 msgid "Year"
 msgstr "Année"
 
-#: listings/forms.py:349
+#: listings/forms.py:354
 msgid "Sweet wheels, but how old?"
 msgstr "Jolies roues mais quelle ancienneté?"
 
-#: listings/forms.py:355
+#: listings/forms.py:360
 msgid "How many KM?"
 msgstr "Combien de KM?"
 
-#: listings/forms.py:357
+#: listings/forms.py:362
 msgid "Great ride, how far has it gone?"
 msgstr "Joli petit tour! Jusqu'ou ętes-vous allé?"
 
-#: listings/forms.py:402 listings/forms.py:424 listings/models.py:403
+#: listings/forms.py:407 listings/forms.py:429 listings/models.py:403
 #: listings/models.py:447
 msgid "Bedrooms"
 msgstr "Chambres à coucher"
 
-#: listings/forms.py:403 listings/forms.py:425
+#: listings/forms.py:408 listings/forms.py:430
 msgid "Nice property, but how many bedrooms?"
 msgstr "Belle propriété, mais combien de chambres?"
 
@@ -2876,7 +2876,7 @@ msgstr ""
 
 #: templates/listings/snippets/photos/_manage_photos.html:16
 msgid "Hey, please re-attach the photo."
-msgstr ""
+msgstr "Veuillez télecharger l'image de nouveau."
 
 #: templates/listings/snippets/photos/_manage_photos.html:22
 msgid "To delete photos, you'll need to enable Javascript."
