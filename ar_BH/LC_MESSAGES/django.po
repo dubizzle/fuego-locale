@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-17 11:36+0400\n"
+"POT-Creation-Date: 2013-04-02 17:37+0400\n"
 "PO-Revision-Date: 2013-03-17 11:54+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: Arabic - Bahraini "
-"<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_BH/>\n"
+"Language-Team: Arabic - Bahraini <http://translate.dubizzlecloud.com/"
+"projects/fuego/fuego/ar_BH/>\n"
 "Language: ar_BH\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +34,7 @@ msgstr "لا تنسى إدخال عنوان إيميل صحيح!"
 #. Translators: This is in CrystelCalls new listing interface
 #: authentication/forms.py:20 authentication/forms.py:42
 #: authentication/forms.py:66 templates/authentication/login.html:36
-#: templates/listings/manage_inorganic_listing.html:47
+#: templates/listings/add/create_inorganic_listing.html:45
 msgid "Password"
 msgstr "كلمة السر"
 
@@ -60,7 +60,7 @@ msgstr "تأكيد كلمة السر"
 msgid "Sorry, please re-enter your password using only English characters."
 msgstr "عفوا, كلمة السر يجب أن تتكون من حروف لاتينية (English)"
 
-#: authentication/forms.py:104 listings/tests.py:974
+#: authentication/forms.py:104 listings/tests.py:1093
 msgid ""
 "This email address is already in use. Click 'I have a dubizzle password', or "
 "use a different email."
@@ -68,11 +68,11 @@ msgstr ""
 "عنوان الإيميل هذا مسجل لدينا. إختر \"لدي حساب وكلمة سر\" اعلاه أو ادخل عنوان "
 "ايميل آخر."
 
-#: authentication/forms.py:121 listings/tests.py:1015
+#: authentication/forms.py:121 listings/tests.py:1141
 msgid "Huh... that's not the same one! Try again."
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
-#: authentication/forms.py:129 listings/tests.py:1056
+#: authentication/forms.py:129 listings/tests.py:1189
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
 
@@ -92,7 +92,8 @@ msgstr "كلمة السر الجديدة (هالوو!)"
 msgid "Your password must be a minimum 6 characters. Try again."
 msgstr "يجب ادخال كلمة سر لا تقل عن 6 أحرف!"
 
-#: authentication/forms.py:183 templates/listings/manage_listing.html:397
+#: authentication/forms.py:183 templates/listings/manage_listing.html:317
+#: templates/listings/snippets/_form.html:282
 msgid "Confirm password"
 msgstr "تأكيد كلمة السر"
 
@@ -1541,7 +1542,7 @@ msgstr "مجهول"
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/shared_settings.py:424
+#: fuego/shared_settings.py:459
 msgid "Studio"
 msgstr "ستوديو "
 
@@ -1557,6 +1558,18 @@ msgstr ""
 "لقد نسيت اضافة رسالتك للمعلن. هل تحتاج لمزيد من المعلومات عن هذا الإعلان؟ لا "
 "حرج في السؤال!"
 
+#: fuego/forms/fields.py:27
+msgid "Enter a list of values."
+msgstr "نوع الاستفسار"
+
+#: fuego/forms/fields.py:28
+msgid "Could not coerce the list of values"
+msgstr ""
+
+#: fuego/forms/fields.py:29
+msgid "Lists too large."
+msgstr ""
+
 #: listings/formatters.py:32
 #, python-format
 msgid "%(neighbourhood)s, %(city)s"
@@ -1567,82 +1580,101 @@ msgstr "%(neighbourhood)s، %(city)s"
 msgid "%(currency)s %(price)s"
 msgstr "%(currency)s %(price)s"
 
-#: listings/forms.py:34
+#: listings/forms.py:29
 msgid "Upload CV"
 msgstr "تحميل السيرة الذاتية"
 
-#: listings/forms.py:48
+#: listings/forms.py:43
 msgid "Sorry, but your file format is not supported."
 msgstr "نوع الملف غير مدعوم، يرجى تحميل ملف من النوع التالي: rtf/doc/pdf/docx"
 
-#: listings/forms.py:51
+#: listings/forms.py:46
 msgid "That's a bit too heavy. Please keep your file size under 2MB."
 msgstr "من فضلك تأكد أن حجم الملف لا يزيد عن 2 ميغا"
 
-#: listings/forms.py:63
+#: listings/forms.py:59
 msgid "Tell us why you are reporting this ad."
 msgstr "لماذا تريد الإبلاغ عن هذا الإعلان؟"
 
-#: listings/forms.py:77
+#: listings/forms.py:66
 msgid "Choose City"
 msgstr "إختر المدينة"
 
-#: listings/forms.py:80
+#: listings/forms.py:69
 msgid "Hey, you forgot to tell us where you are."
 msgstr " من فضلك لا تنسى إضافة إسم مدينتك. (الا اذا كنت من الفضاء.)"
 
-#: listings/forms.py:83 templates/listings/manage_listing.html:246
+#: listings/forms.py:72 templates/listings/manage_listing.html:166
+#: templates/listings/snippets/_form.html:132
 msgid "Neighborhood"
 msgstr "المنطقة"
 
-#: listings/forms.py:86
+#: listings/forms.py:75
 msgid "We need you to be a little more specific."
 msgstr "نسيت أن تضيف إسم منطقتك."
 
-#: listings/forms.py:89
-msgid "Which section should we put your ad in?"
-msgstr "ما هو أنسب قسم لعرض إعلانك؟"
-
-#: listings/forms.py:92 templates/public/contact_us.html:90
+#: listings/forms.py:78 templates/public/contact_us.html:90
 msgid "Mobile number"
 msgstr "رقم الموبايل"
 
-#: listings/forms.py:93
+#: listings/forms.py:79
 msgid "We need your mobile number for verification."
 msgstr "من فضلك ادخل رقم الموبايل لكي نتأكد من صلاحية حسابك."
 
-#: listings/forms.py:96 templates/listings/manage_listing.html:301
+#: listings/forms.py:82 templates/listings/manage_listing.html:221
+#: templates/listings/snippets/_form.html:186
 msgid "Show this number on my ad"
 msgstr "اظهر رقمي في الإعلان"
 
-#: listings/forms.py:124
+#: listings/forms.py:110
 msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
-#: listings/forms.py:129 templates/listings/get_listing.html:127
-#: templates/listings/manage_listing.html:195
+#: listings/forms.py:115 templates/listings/manage_listing.html:110
+#: templates/listings/get/get_listing.html:139
+#: templates/listings/snippets/_form.html:76
 msgid "Description"
 msgstr "مواصفات الإعلان"
 
-#: listings/forms.py:164 listings/views.py:146
-msgid "Please select a valid category."
-msgstr "ما هو أنسب قسم لعرض إعلانك ؟"
-
-#: listings/forms.py:201
+#: listings/forms.py:168
 msgid "You're going to need a title."
 msgstr "لا تنسى إضافة عنوان لإعلانك."
 
-#: listings/forms.py:206
+#: listings/forms.py:173
 msgid "You forgot to add a description. Go on, tell the world about your ad."
 msgstr ""
 "لقد نسيت ان تضيف وصف لإعلانك. هنا يمكنك إضافة كل التفاصيل لتجذب إنتباه "
 "المشتري. "
 
-#: listings/forms.py:214
+#: listings/forms.py:181
 msgid "The neighborhood you have selected is not in the city you selected."
 msgstr "يبدو أن هذه المنطقة ليست فى المدينة المحددة."
 
-#: listings/forms.py:323
+#: listings/forms.py:213
+msgid "Oops, something has gone wrong. Let us know and we will fix it."
+msgstr "هناك خطأ ما. راسلنا لكي نصلحه."
+
+#: listings/forms.py:214
+msgid "Photo verifiers did not match photos."
+msgstr ""
+
+#: listings/forms.py:215
+msgid "Photo upload failed, please try again."
+msgstr "هناك خطأ في تحميل الصورة. حاول مرة اخرى."
+
+#: listings/forms.py:216
+msgid "Oh no, we can only read jpg, png or gif formats."
+msgstr "هناك مشكلة في نوع الملف. من فضلك حمل ملف من نوع: jpg, png, gif"
+
+#: listings/forms.py:217
+msgid "Damn, that file is too big - 5MB maximum."
+msgstr "حاول مرة أخرى وتأكد أن لا يزيد حجم الملف عن 5 ميغا!"
+
+#: listings/forms.py:218
+msgid "Max number of photos is 10"
+msgstr "أقصى عدد لتحميل الصور هو 10"
+
+#: listings/forms.py:305
 #, python-format
 msgid ""
 "When in doubt, check out other ads to see the price range of your item. "
@@ -1651,42 +1683,42 @@ msgstr ""
 "لو محتار في تحديد السعر إبحث عن أسعار أشياء مماثلة على الموقع. يرجى التأكد "
 "أن السعر المطلوب في عملة %(currency)s"
 
-#: listings/forms.py:330 listings/models.py:299 listings/models.py:323
+#: listings/forms.py:312 listings/models.py:299 listings/models.py:323
 #: listings/models.py:343 listings/models.py:360 listings/models.py:377
 #: listings/models.py:404 listings/models.py:421 listings/models.py:448
 msgid "Price"
 msgstr "السعر"
 
-#: listings/forms.py:331
+#: listings/forms.py:313
 msgid "You forgot to add the price."
 msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 
-#: listings/forms.py:335
+#: listings/forms.py:317
 msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
 
-#: listings/forms.py:364 listings/models.py:320
+#: listings/forms.py:346 listings/models.py:320
 msgid "Year"
 msgstr "السنة"
 
-#: listings/forms.py:369
+#: listings/forms.py:351
 msgid "Sweet wheels, but how old?"
 msgstr "المحروسة... موديل سنة كم؟"
 
-#: listings/forms.py:375
+#: listings/forms.py:357
 msgid "How many KM?"
 msgstr "عدد الكيلومترات"
 
-#: listings/forms.py:377
+#: listings/forms.py:359
 msgid "Great ride, how far has it gone?"
 msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
 
-#: listings/forms.py:422 listings/forms.py:444 listings/models.py:403
+#: listings/forms.py:404 listings/forms.py:426 listings/models.py:403
 #: listings/models.py:447
 msgid "Bedrooms"
 msgstr "غرف نوم"
 
-#: listings/forms.py:423 listings/forms.py:445
+#: listings/forms.py:405 listings/forms.py:427
 msgid "Nice property, but how many bedrooms?"
 msgstr "حدثنا عن عقارك. كم عدد غرف النوم؟"
 
@@ -1715,9 +1747,11 @@ msgid "Enter a subject please"
 msgstr "نوع الاستفسار"
 
 #. Translators: This is in CrystelCalls new listing interface
-#: public/forms.py:19 templates/listings/manage_inorganic_listing.html:25
-#: templates/listings/manage_listing.html:311
-#: templates/listings/manage_listing.html:329
+#: public/forms.py:19 templates/listings/manage_listing.html:231
+#: templates/listings/manage_listing.html:249
+#: templates/listings/add/create_inorganic_listing.html:23
+#: templates/listings/snippets/_form.html:196
+#: templates/listings/snippets/_form.html:214
 #: templates/public/contact_us.html:104
 msgid "Email"
 msgstr "عنوان الإيميل"
@@ -1804,7 +1838,7 @@ msgstr "الصفحة السابقة"
 
 #: templates/404-web.html:20 templates/generic.html:48
 #: templates/privacy_ar.html:57 templates/privacy_fr.html:61
-#: templates/terms_ar.html:311 templates/shared/listings.html:62
+#: templates/terms_ar.html:311 templates/shared/listings.html:65
 msgid "Home"
 msgstr "الصفحة الرئيسية"
 
@@ -1820,7 +1854,7 @@ msgstr "،"
 #: templates/generic.html:31 templates/generic.html.py:33
 #: templates/generic.html:93 templates/generic.html.py:95
 #: templates/authentication/login.html:51
-#: templates/user_profiles/my_listings.html:39
+#: templates/user_profiles/my_listings.html:40
 msgid "Place an ad"
 msgstr "أضف إعلان"
 
@@ -1863,13 +1897,13 @@ msgid "Change password"
 msgstr "تأكيد كلمة السر"
 
 #: templates/authentication/change_password.html:11
-#: templates/user_profiles/my_listings.html:17
+#: templates/user_profiles/my_listings.html:18
 #, python-format
 msgid "Not %(email)s?"
 msgstr "لست %(email)s؟"
 
 #: templates/authentication/change_password.html:12
-#: templates/user_profiles/my_listings.html:19
+#: templates/user_profiles/my_listings.html:20
 msgid "Logout"
 msgstr "الخروج من الحساب"
 
@@ -1877,8 +1911,8 @@ msgstr "الخروج من الحساب"
 #: templates/authentication/forgot_password.html:19
 #: templates/authentication/login.html:20
 #: templates/authentication/reset_password.html:17
-#: templates/listings/reply_to_listing_include.html:19
-#: templates/listings/report_listing.html:27
+#: templates/listings/reply/reply_to_listing_include.html:19
+#: templates/listings/report/report_listing.html:27
 #: templates/public/contact_us.html:49
 msgid "Please fix the errors below"
 msgstr "من فضلك راجع وصحح الاخطاء أدناه. "
@@ -1890,7 +1924,8 @@ msgstr "تغيير"
 
 #: templates/authentication/forgot_password.html:5
 #: templates/authentication/login.html:41
-#: templates/listings/manage_listing.html:324
+#: templates/listings/manage_listing.html:244
+#: templates/listings/snippets/_form.html:209
 msgid "Forgot your password?"
 msgstr "نسيت كلمة السر؟"
 
@@ -1951,49 +1986,37 @@ msgstr "غير كلمة السر"
 msgid "Phew! Your password has now been changed."
 msgstr "وأخيرا. تم تغيير كلمة السر الخاصة بك."
 
-#. Translators: This is in Customer Supports edit listing interface
 #: templates/cpanel/manage_workspace.html:10
 msgid "Cpanel Ad moderation."
 msgstr ""
 
-#. Translators: This is in Customer Supports edit listing interface
 #. Translators: This is in CrystelCalls new listing interface
-#: templates/cpanel/manage_workspace.html:15
-#: templates/listings/manage_inorganic_listing.html:13
+#: templates/cpanel/manage_workspace.html:14
+#: templates/listings/add/create_inorganic_listing.html:13
 msgid "Make this awesome."
 msgstr ""
 
-#. Translators: This is in Customer Supports edit listing interface
-#: templates/cpanel/manage_workspace.html:43
-#: templates/listings/manage_listing.html:41
-#: templates/listings/manage_listing.html:128
+#: templates/cpanel/manage_workspace.html:41
 msgid "Select a category"
 msgstr "نوع الإعلان؟"
 
-#. Translators: This is in Customer Supports edit listing interface
-#: templates/cpanel/manage_workspace.html:52
-#: templates/listings/manage_listing.html:136
-#: templates/search/category_widget.html:78
-msgid "Show all"
-msgstr "اظهر الجميع"
+#: templates/cpanel/manage_workspace.html:55
+msgid "Save!"
+msgstr ""
 
-#. Translators: This is in Customer Supports edit listing interface
-#: templates/cpanel/manage_workspace.html:82
+#: templates/cpanel/manage_workspace.html:72
 msgid "Existing Photos"
 msgstr ""
 
-#. Translators: This is in Customer Supports edit listing interface
-#: templates/cpanel/manage_workspace.html:84
+#: templates/cpanel/manage_workspace.html:73
 msgid "These photos can be moderated in Cpanel"
 msgstr ""
 
-#. Translators: This is in Customer Supports edit listing interface
-#: templates/cpanel/manage_workspace.html:101
+#: templates/cpanel/manage_workspace.html:90
 msgid "User's Email Address"
 msgstr ""
 
-#. Translators: This is in Customer Supports edit listing interface
-#: templates/cpanel/manage_workspace.html:109
+#: templates/cpanel/manage_workspace.html:97
 msgid "Please remember to go back to Cpanel to approve this edit."
 msgstr ""
 
@@ -2025,23 +2048,186 @@ msgstr "العودة إلى الإعلان"
 msgid "Confirm"
 msgstr "تأكيد "
 
-#: templates/listings/get_listing.html:51
+#: templates/listings/manage_listing.html:19
+msgid "Step 2 of 3"
+msgstr "الخطوة 2 من 3"
+
+#: templates/listings/manage_listing.html:23
+#: templates/listings/add/paa_taxonomy.html:20
+#: templates/listings/preview/listing_complete.html:18
+msgid "Choose your category"
+msgstr "نوع الإعلان؟"
+
+#: templates/listings/manage_listing.html:27
+#: templates/listings/add/paa_taxonomy.html:24
+#: templates/listings/preview/listing_complete.html:22
+msgid "Add photos & enter details"
+msgstr "أضف صور و تفاصيل الإعلان"
+
+#: templates/listings/manage_listing.html:31
+#: templates/listings/add/paa_taxonomy.html:28
+#: templates/listings/preview/listing_complete.html:26
+msgid "Finish"
+msgstr "إنتهينا"
+
+#: templates/listings/manage_listing.html:45
+#: templates/listings/snippets/_form.html:15
+msgid "We're almost there... please review the points below."
+msgstr "لم ننتهي بعد ولكن إقتربنا. من فضلك صحح الأخطاء أدناه. "
+
+#: templates/listings/manage_listing.html:52
+msgid "Something went wrong, please try again."
+msgstr "هناك خطأ ما. حاول مرة اخرى."
+
+#: templates/listings/manage_listing.html:63
+#: templates/listings/snippets/_form.html:29
+msgid "Change"
+msgstr "تعديل"
+
+#: templates/listings/manage_listing.html:80
+#: templates/listings/snippets/_form.html:46
+msgid "Your ad title"
+msgstr "موضوع الإعلان"
+
+#: templates/listings/manage_listing.html:93
+#: templates/listings/snippets/_form.html:59
+msgid ""
+"Your title says it all - describe your ad clearly. Please DON'T USE CAPS."
+msgstr "فكر في عنوان واضح ومختصر لإعلانك."
+
+#: templates/listings/manage_listing.html:124
+#: templates/listings/snippets/_form.html:90
+msgid ""
+"Increase the chance of your ad appearing in a search: <br/>- Answer "
+"questions your buyer may have (dimensions, functions, availability) <br/>- "
+"Highlight benefits and specific details (warranties, features, etc.) <br/"
+">For your safety, email addresses and HTML formatting are not allowed."
+msgstr ""
+"الوصف الدقيق هو مفتاح البيع الاسرع: <br/>- حاول الرد على أسئلة المشتري "
+"(مثلاً: الحجم والأبعاد)<br/>- إشرح أهم المواصفات والمعلومات (مثلاً: الضمان إن "
+"وجد) يرجى عدم اضافة عنوان إيميلك داخل الوصف وهذا لحماية خصوصيتك."
+
+#: templates/listings/manage_listing.html:146
+#: templates/listings/snippets/_form.html:112
+msgid "Choose your city"
+msgstr "اختر مدينتك"
+
+#: templates/listings/manage_listing.html:196
+#: templates/listings/snippets/_form.html:162
+msgid "Mobile Number"
+msgstr "رقم الموبايل"
+
+#: templates/listings/manage_listing.html:198
+#: templates/listings/snippets/_form.html:164
+msgid "example"
+msgstr "مثال"
+
+#: templates/listings/manage_listing.html:210
+#: templates/listings/snippets/_form.html:175
+msgid ""
+"We need mobile numbers to verify accounts and to detect scammers. Don't "
+"worry, you can choose not to show your mobile number in the ad (see option "
+"below)."
+msgstr ""
+"لا تقلق، لن نظهر رقم الموبايل على الموقع بدون موافقتك (التفاصيل ادناه)."
+
+#: templates/listings/manage_listing.html:240
+#: templates/listings/snippets/_form.html:205
+msgid "I'm new to dubizzle. I need a password."
+msgstr "ليس لدي حساب على دوبيزل"
+
+#: templates/listings/manage_listing.html:244
+#: templates/listings/snippets/_form.html:209
+msgid "I have a dubizzle password"
+msgstr "لدي حساب وكلمة سر"
+
+#: templates/listings/manage_listing.html:263
+#: templates/listings/snippets/_form.html:228
+msgid "A valid email address ensures your ad will go live."
+msgstr "تأكد من ادخال عنوان ايميل صحيح حتى يتم نشر إعلانك."
+
+#: templates/listings/manage_listing.html:276
+#: templates/listings/snippets/_form.html:241
+msgid "Confirm email"
+msgstr "تأكيد عنوان الإيميل"
+
+#: templates/listings/manage_listing.html:289
+#: templates/listings/snippets/_form.html:254
+msgid "Password (cAse SenSiTIvE)"
+msgstr "كلمة السر"
+
+#: templates/listings/manage_listing.html:307
+#: templates/listings/snippets/_form.html:272
+msgid ""
+"Make it safe and secure. Use a mix of numbers and letters, and don't use "
+"something obvious like your auntie's friend's cat - well, maybe that's OK."
+msgstr ""
+"اختر كلمة سر قوية وآمنة ويستحسن ان لا تكون كلمة السر تخص إسمك أو تاريخ "
+"ميلادك أو أي من افراد عائلتك."
+
+#: templates/listings/manage_listing.html:343
+#: templates/listings/snippets/_form.html:308
+#, python-format
+msgid ""
+"\n"
+"                        By posting your ad you are agreeing to the dubizzle "
+"<a href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a> and the "
+"dubizzle <a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a>\n"
+"                    "
+msgstr ""
+"\n"
+"عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\" target="
+"\"_blank\">شروط وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\" target="
+"\"_blank\">سياسة الخصوصية</a>.                                "
+
+#: templates/listings/manage_listing.html:356
+msgid "Uploading photos, please wait..."
+msgstr "جاري التحميل. الرجاء الإنتظار."
+
+#: templates/listings/manage_listing.html:360
+#: templates/listings/snippets/_form.html:320
+msgid "Yalla! Publish my ad"
+msgstr "يلا...انشر اعلاني!"
+
+#. Translators: This is in CrystelCalls new listing interface
+#: templates/listings/add/create_inorganic_listing.html:8
+msgid "CrysTelCall Listing Interface."
+msgstr ""
+
+#: templates/listings/add/create_listing.html:9
+#: templates/listings/add/paa_taxonomy.html:15
+msgid "Create a free ad in no time at all."
+msgstr "أضف أسهل وأسرع إعلان مجانا. "
+
+#: templates/listings/add/paa_taxonomy.html:16
+msgid "Step 1 of 3"
+msgstr "الخطوة 1 من 3"
+
+#: templates/listings/add/paa_taxonomy.html:40
+msgid "Select an option"
+msgstr "إختر فئة."
+
+#: templates/listings/add/paa_taxonomy.html:60
+msgid "What do you wanna sell today?"
+msgstr "ماذا ستبيع اليوم؟"
+
+#: templates/listings/get/get_listing.html:61
 msgid "Back to results"
 msgstr "العودة إلى صفحة الإعلانات"
 
-#: templates/listings/get_listing.html:68
+#: templates/listings/get/get_listing.html:78
 msgid "Report this ad"
 msgstr "بلغ عن هذا الإعلان"
 
-#: templates/listings/get_listing.html:69
+#: templates/listings/get/get_listing.html:79
 msgid "Edit this ad"
 msgstr "تعديل"
 
-#: templates/listings/get_listing.html:70
+#: templates/listings/get/get_listing.html:80
 msgid "Delete this ad"
 msgstr "حذف الإعلان "
 
-#: templates/listings/get_listing.html:78
+#: templates/listings/get/get_listing.html:88
 msgid ""
 "This ad has already been edited and is awaiting approval. You'll get an "
 "email once the changes are live."
@@ -2049,23 +2235,27 @@ msgstr ""
 "عفواً، لن تستطيع تعديل اعلانك حتى تتم الموافقة على نشره. سنرسل لك إيميل عند "
 "نشره. لن نتأخر عليك!"
 
-#: templates/listings/get_listing.html:116
+#: templates/listings/get/get_listing.html:128
 msgid "Details"
 msgstr "التفاصيل"
 
-#: templates/listings/get_listing.html:141
+#: templates/listings/get/get_listing.html:153
 msgid "Show mobile number"
 msgstr "اظهر رقم الموبايل"
 
-#: templates/listings/get_listing.html:151
+#: templates/listings/get/get_listing.html:163
 msgid "Send an email"
 msgstr "ارسل إيميل"
 
-#: templates/listings/listing_complete.html:12
+#: templates/listings/preview/listing_complete.html:13
 msgid "Hooray! Congratulations, your ad will go live very very soon."
 msgstr "مبروك! لقد اضفت إعلانك بنجاح وسنقوم بنشره قريبا."
 
-#: templates/listings/listing_complete.html:14
+#: templates/listings/preview/listing_complete.html:14
+msgid "Step 3 of 3"
+msgstr "الخطوة 3 من 3"
+
+#: templates/listings/preview/listing_complete.html:31
 msgid ""
 "\n"
 "\t    \t\t<p>\n"
@@ -2087,173 +2277,15 @@ msgstr ""
 "\t\t\t</p>\n"
 "\t\t\t"
 
-#: templates/listings/listing_complete.html:24
+#: templates/listings/preview/listing_complete.html:41
 msgid "Back to home page"
 msgstr "العودة الى الصفحة الرئيسية"
 
-#: templates/listings/listing_complete.html:26
+#: templates/listings/preview/listing_complete.html:43
 msgid "Place another ad"
 msgstr "اضف إعلان آخر"
 
-#. Translators: This is in CrystelCalls new listing interface
-#: templates/listings/manage_inorganic_listing.html:8
-msgid "CrysTelCall Listing Interface."
-msgstr ""
-
-#: templates/listings/manage_listing.html:12
-msgid "Create a free ad in no time at all."
-msgstr "أضف أسهل وأسرع إعلان مجانا. "
-
-#: templates/listings/manage_listing.html:16
-msgid "Then go party!"
-msgstr "وخُذلك بريك..."
-
-#: templates/listings/manage_listing.html:60
-msgid "Choose"
-msgstr "إختر"
-
-#: templates/listings/manage_listing.html:80
-msgid "We're almost there... please review the points below."
-msgstr "لم ننتهي بعد ولكن إقتربنا. من فضلك صحح الأخطاء أدناه. "
-
-#: templates/listings/manage_listing.html:94
-msgid "Your ad title"
-msgstr "موضوع الإعلان"
-
-#: templates/listings/manage_listing.html:107
-msgid ""
-"Your title says it all - describe your ad clearly. Please DON'T USE CAPS."
-msgstr "فكر في عنوان واضح ومختصر لإعلانك."
-
-#: templates/listings/manage_listing.html:163
-msgid "Change"
-msgstr "تعديل"
-
-#: templates/listings/manage_listing.html:171
-msgid "Category"
-msgstr "القسم؟"
-
-#: templates/listings/manage_listing.html:209
-msgid ""
-"Increase the chance of your ad appearing in a search: <br/>- Answer "
-"questions your buyer may have (dimensions, functions, availability) <br/>- "
-"Highlight benefits and specific details (warranties, features, etc.) <br/"
-">For your safety, email addresses and HTML formatting are not allowed."
-msgstr ""
-"الوصف الدقيق هو مفتاح البيع الاسرع: <br/>- حاول الرد على أسئلة المشتري "
-"(مثلاً: الحجم والأبعاد)<br/>- إشرح أهم المواصفات والمعلومات (مثلاً: الضمان إن "
-"وجد) يرجى عدم اضافة عنوان إيميلك داخل الوصف وهذا لحماية خصوصيتك."
-
-#: templates/listings/manage_listing.html:226
-msgid "Choose your city"
-msgstr "اختر مدينتك"
-
-#: templates/listings/manage_listing.html:276
-msgid "Mobile Number"
-msgstr "رقم الموبايل"
-
-#: templates/listings/manage_listing.html:278
-msgid "example"
-msgstr "مثال"
-
-#: templates/listings/manage_listing.html:290
-msgid ""
-"We need mobile numbers to verify accounts and to detect scammers. Don't "
-"worry, you can choose not to show your mobile number in the ad (see option "
-"below)."
-msgstr ""
-"لا تقلق، لن نظهر رقم الموبايل على الموقع بدون موافقتك (التفاصيل ادناه)."
-
-#: templates/listings/manage_listing.html:320
-msgid "I'm new to dubizzle. I need a password."
-msgstr "ليس لدي حساب على دوبيزل"
-
-#: templates/listings/manage_listing.html:324
-msgid "I have a dubizzle password"
-msgstr "لدي حساب وكلمة سر"
-
-#: templates/listings/manage_listing.html:343
-msgid "A valid email address ensures your ad will go live."
-msgstr "تأكد من ادخال عنوان ايميل صحيح حتى يتم نشر إعلانك."
-
-#: templates/listings/manage_listing.html:356
-msgid "Confirm email"
-msgstr "تأكيد عنوان الإيميل"
-
-#: templates/listings/manage_listing.html:369
-msgid "Password (cAse SenSiTIvE)"
-msgstr "كلمة السر"
-
-#: templates/listings/manage_listing.html:387
-msgid ""
-"Make it safe and secure. Use a mix of numbers and letters, and don't use "
-"something obvious like your auntie's friend's cat - well, maybe that's OK."
-msgstr ""
-"اختر كلمة سر قوية وآمنة ويستحسن ان لا تكون كلمة السر تخص إسمك أو تاريخ "
-"ميلادك أو أي من افراد عائلتك."
-
-#: templates/listings/manage_listing.html:427
-#, python-format
-msgid ""
-"\n"
-"                                    By posting your ad you are agreeing to "
-"the dubizzle <a href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</"
-"a> and the dubizzle <a href=\"%(privacy_url)s\" target=\"_blank\">privacy "
-"policy</a>\n"
-"                                "
-msgstr ""
-"\n"
-"عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\" target="
-"\"_blank\">شروط وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\" target="
-"\"_blank\">سياسة الخصوصية</a>.                                "
-
-#: templates/listings/manage_listing.html:439
-msgid "Yalla! Publish my ad"
-msgstr "يلا...انشر اعلاني!"
-
-#: templates/listings/manage_listing.html:443
-msgid "What's the model?"
-msgstr "ماركة السيارة"
-
-#: templates/listings/manage_photos.html:7
-msgid "Add some photos"
-msgstr "اضف صور"
-
-#: templates/listings/manage_photos.html:8
-msgid ""
-"Add original photos and get your ad featured on our home page (where "
-"everyone can see it)."
-msgstr ""
-" أضف صورأصلية لإعلانك لتزيد من فرصة عرضه على الصفحة الرئيسية (لكى يراه "
-"الجميع)."
-
-#: templates/listings/manage_photos.html:14
-msgid "To delete photos, you'll need to enable Javascript."
-msgstr "لحذف الصور، عليك تفعيل تقنية الجافا سكربت في متصفحك."
-
-#: templates/listings/manage_photos.html:23
-#: templates/user_profiles/my_listings.html:183
-msgid "Delete"
-msgstr "احذفها "
-
-#: templates/listings/manage_photos.html:30
-msgid "Max number of photos is"
-msgstr "أقصى عدد من الصور هو"
-
-#: templates/listings/manage_photos.html:40
-#, python-format
-msgid ""
-"Ads with photos sell much better. Use up to %(max_photos)s good quality "
-"photos. Accepted formats: jpg, png, or gif."
-msgstr ""
-"هل تعلم أن الصور تؤدي للبيع بمعدل أعلى بكثير؟ يمكنك إضافة %(max_photos)s صور "
-"واضحة وأصلية. انواع الملفات المدعومة: jpg, png, gif."
-
-#: templates/listings/manage_photos.html:48
-msgid "Add another photo"
-msgstr "اضف صورة أخرى"
-
-#: templates/listings/reply_to_listing_include.html:30
+#: templates/listings/reply/reply_to_listing_include.html:30
 msgid ""
 "Tips from dubizzle: <br/>1) Meet in person in a public place. <br/>2) Don't "
 "send money or your financial details (e.g. cheques, deposit, etc.) <br/>3) "
@@ -2263,40 +2295,40 @@ msgstr ""
 "البيع والشراء وجهاً لوجه. <br/>2. لا ترسل الأموال أو معلوماتك المصرفية إلى أي "
 "شخص تعرفت عليه عبر الإنترنت تحت أي ظرف من الظروف."
 
-#: templates/listings/reply_to_listing_include.html:40
-#: templates/listings/report_listing.html:40
+#: templates/listings/reply/reply_to_listing_include.html:40
+#: templates/listings/report/report_listing.html:40
 msgid "Your name is?"
 msgstr "الإسم"
 
-#: templates/listings/reply_to_listing_include.html:55
-#: templates/listings/report_listing.html:56
+#: templates/listings/reply/reply_to_listing_include.html:55
+#: templates/listings/report/report_listing.html:56
 msgid "What's your email?"
 msgstr "عنوان الإيميل"
 
-#: templates/listings/reply_to_listing_include.html:70
-#: templates/listings/report_listing.html:72
+#: templates/listings/reply/reply_to_listing_include.html:70
+#: templates/listings/report/report_listing.html:72
 msgid "Your mobile number"
 msgstr "رقم الموبايل"
 
-#: templates/listings/reply_to_listing_include.html:85
+#: templates/listings/reply/reply_to_listing_include.html:85
 msgid "What do you want to tell them?"
 msgstr "رسالتك للمعلن"
 
-#: templates/listings/reply_to_listing_include.html:102
+#: templates/listings/reply/reply_to_listing_include.html:102
 msgid "Accepted formats: pdf, doc, txt, rtf"
 msgstr "الملفات المدعومة: rtf/doc/pdf/docx"
 
-#: templates/listings/reply_to_listing_include.html:119
-#: templates/listings/report_listing.html:104
+#: templates/listings/reply/reply_to_listing_include.html:119
+#: templates/listings/report/report_listing.html:104
 #: templates/public/contact_us.html:166
 msgid "Please enter the 4 letters as shown in the image below"
 msgstr "من فضلك أدخل الحروف في الصورة أدناه"
 
-#: templates/listings/reply_to_listing_include.html:134
+#: templates/listings/reply/reply_to_listing_include.html:134
 msgid "Send my reply"
 msgstr "أرسل رسالتي"
 
-#: templates/listings/reply_to_listing_include.html:141
+#: templates/listings/reply/reply_to_listing_include.html:141
 #, python-format
 msgid ""
 "By clicking on 'Send my reply' I agree to the dubizzle <a href="
@@ -2306,11 +2338,11 @@ msgstr ""
 "عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\">شروط "
 "وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\">سياسة الخصوصية</a>."
 
-#: templates/listings/reply_to_listing_include.html:147
+#: templates/listings/reply/reply_to_listing_include.html:147
 msgid "Bravo!"
 msgstr "مبروك وبالتوفيق!"
 
-#: templates/listings/reply_to_listing_include.html:148
+#: templates/listings/reply/reply_to_listing_include.html:148
 msgid ""
 "You did it...you're one step closer to getting what you want. Never stop "
 "searching and you'll find more of what you want."
@@ -2318,26 +2350,68 @@ msgstr ""
 "اضغط على \"العودة إلى صفحة الإعلانات\" لمتابعة البحث وكما قال الشاعر: اصبر "
 "على الحصرم يصير عنب"
 
-#: templates/listings/reply_to_listing_include.html:149
-#: templates/listings/report_listing.html:17
+#: templates/listings/reply/reply_to_listing_include.html:149
+#: templates/listings/report/report_listing.html:17
 msgid "Back to listings"
 msgstr "العودة إلى صفحة الإعلانات"
 
-#: templates/listings/report_listing.html:16
+#: templates/listings/report/report_listing.html:16
 msgid "Thank you for reporting an ad on our site!"
 msgstr "شكرا لمساهمتك!"
 
-#: templates/listings/report_listing.html:34
+#: templates/listings/report/report_listing.html:34
 msgid "Report"
 msgstr "بلغ عن هذا الإعلان"
 
-#: templates/listings/report_listing.html:88
+#: templates/listings/report/report_listing.html:88
 msgid "Message"
 msgstr "الرسالة"
 
-#: templates/listings/report_listing.html:119
+#: templates/listings/report/report_listing.html:119
 msgid "Report ad"
 msgstr "بلغ عن هذا الإعلان"
+
+#: templates/listings/snippets/photos/_manage_photos.html:8
+msgid "Add some photos"
+msgstr "اضف صور"
+
+#: templates/listings/snippets/photos/_manage_photos.html:9
+msgid ""
+"Add original photos and get your ad featured on our home page (where "
+"everyone can see it)."
+msgstr ""
+" أضف صورأصلية لإعلانك لتزيد من فرصة عرضه على الصفحة الرئيسية (لكى يراه "
+"الجميع)."
+
+#: templates/listings/snippets/photos/_manage_photos.html:16
+msgid "Hey, please re-attach the photo."
+msgstr "عذرا, الرجاء إعادة تحميل الصورة."
+
+#: templates/listings/snippets/photos/_manage_photos.html:22
+msgid "To delete photos, you'll need to enable Javascript."
+msgstr "لحذف الصور، عليك تفعيل تقنية الجافا سكربت في متصفحك."
+
+#: templates/listings/snippets/photos/_manage_photos.html:70
+msgid "Add a photo"
+msgstr "اضف صور"
+
+#: templates/listings/snippets/photos/_manage_photos.html:76
+#, python-format
+msgid ""
+"Ads with photos sell much better. Use up to %(max_photos)s good quality "
+"photos. Accepted formats: jpg, png, or gif."
+msgstr ""
+"هل تعلم أن الصور تؤدي للبيع بمعدل أعلى بكثير؟ يمكنك إضافة %(max_photos)s صور "
+"واضحة وأصلية. انواع الملفات المدعومة: jpg, png, gif."
+
+#: templates/listings/snippets/photos/_photo_preview.html:36
+#: templates/listings/snippets/photos/_photo_preview.html:39
+msgid "Remove"
+msgstr "احذفها"
+
+#: templates/listings/update/edit_listing.html:16
+msgid "Edit your ad."
+msgstr "تعديل"
 
 #: templates/public/_footer.html:6
 msgid "Back to top"
@@ -2551,6 +2625,10 @@ msgstr "تصفية البحث"
 msgid "Go"
 msgstr "عرض"
 
+#: templates/search/category_widget.html:78
+msgid "Show all"
+msgstr "اظهر الجميع"
+
 #: templates/search/search.html:42
 msgid "in"
 msgstr "في"
@@ -2617,15 +2695,15 @@ msgstr "أرني الإعلانات السابقة"
 msgid "No results..."
 msgstr "لا يوجد نتائج..."
 
-#: templates/shared/listings.html:56
+#: templates/shared/listings.html:59
 msgid "Oh camel droppings!"
 msgstr "يا للهوووول!!"
 
-#: templates/shared/listings.html:57
+#: templates/shared/listings.html:60
 msgid "We couldn't find anything to match your search."
 msgstr "لم نجد أي نتائج لبحثك!"
 
-#: templates/shared/listings.html:59
+#: templates/shared/listings.html:62
 msgid ""
 "Try using different keywords or widening your seach and it should be more "
 "fruitful."
@@ -2647,42 +2725,42 @@ msgstr "سوف تشاهد إعلانات مثيرة للانتباه على..."
 msgid "See all"
 msgstr "اظهر الجميع"
 
-#: templates/user_profiles/my_listings.html:15
+#: templates/user_profiles/my_listings.html:16
 msgid "My stuff"
 msgstr "إعلاناتي"
 
-#: templates/user_profiles/my_listings.html:20
+#: templates/user_profiles/my_listings.html:21
 msgctxt "my_listings"
 msgid "Change password"
 msgstr "غير كلمة السر"
 
-#: templates/user_profiles/my_listings.html:24
+#: templates/user_profiles/my_listings.html:25
 msgid "Account settings"
 msgstr "إعدادات الحساب"
 
-#: templates/user_profiles/my_listings.html:37
-#: templates/user_profiles/my_listings.html:114
-#: templates/user_profiles/my_listings.html:202
+#: templates/user_profiles/my_listings.html:38
+#: templates/user_profiles/my_listings.html:116
+#: templates/user_profiles/my_listings.html:205
 msgid ""
 "This page is emptier than the Sahara. Come on, let's fill it up by placing "
 "some awesome ads."
 msgstr "حسابك كالصحراء - يبدو خالي من أي نشاط. احيي ربعك الخالي باعلاناتك! "
 
-#: templates/user_profiles/my_listings.html:50
+#: templates/user_profiles/my_listings.html:51
 msgid "All my ads"
 msgstr "جميع إعلاناتي"
 
-#: templates/user_profiles/my_listings.html:53
-#: templates/user_profiles/my_listings.html:75
+#: templates/user_profiles/my_listings.html:54
+#: templates/user_profiles/my_listings.html:76
 msgid "My pending ads"
 msgstr "إعلانات تحت المراجعة"
 
-#: templates/user_profiles/my_listings.html:56
-#: templates/user_profiles/my_listings.html:129
+#: templates/user_profiles/my_listings.html:57
+#: templates/user_profiles/my_listings.html:131
 msgid "My live ads"
 msgstr "إعلاناتي المنشورة"
 
-#: templates/user_profiles/my_listings.html:64
+#: templates/user_profiles/my_listings.html:65
 #, python-format
 msgid ""
 "\n"
@@ -2717,39 +2795,43 @@ msgstr[5] ""
 "لديك %(counter)s إعلان\n"
 "                        "
 
-#: templates/user_profiles/my_listings.html:83
+#: templates/user_profiles/my_listings.html:84
 msgid "These ads are awaiting approval and will be live soon."
 msgstr "جاري الآن الموافقة على الإعلان وسيتم نشره في أقرب وقت."
 
-#: templates/user_profiles/my_listings.html:119
+#: templates/user_profiles/my_listings.html:121
 msgid "Show all my pending ads"
 msgstr "اظهر جميع إعلاناتي التي لا زالت تحت المراجعة"
 
-#: templates/user_profiles/my_listings.html:134
+#: templates/user_profiles/my_listings.html:136
 msgid "Your ad has been sucessfully deleted"
 msgstr "لقد تم حذف إعلانك بنجاح."
 
-#: templates/user_profiles/my_listings.html:170
+#: templates/user_profiles/my_listings.html:173
 msgid "Your edits will go live soon."
 msgstr "سنقوم بنشر تعديلاتك قريبا."
 
-#: templates/user_profiles/my_listings.html:177
+#: templates/user_profiles/my_listings.html:180
 msgid "Edit"
 msgstr "تعديل"
 
-#: templates/user_profiles/my_listings.html:188
+#: templates/user_profiles/my_listings.html:186
+msgid "Delete"
+msgstr "احذفها "
+
+#: templates/user_profiles/my_listings.html:191
 msgid "Are you sure you want to delete this listing?"
 msgstr "من فضلك أكد طلبك لحذف الإعلان."
 
-#: templates/user_profiles/my_listings.html:192
+#: templates/user_profiles/my_listings.html:195
 msgid "Yes, delete it."
 msgstr "نعم، احذفه."
 
-#: templates/user_profiles/my_listings.html:195
+#: templates/user_profiles/my_listings.html:198
 msgid "No, keep it live."
 msgstr "لا تحذف اعلاني."
 
-#: templates/user_profiles/my_listings.html:208
+#: templates/user_profiles/my_listings.html:211
 msgid "Show all my live ads"
 msgstr "اظهر جميع اعلاناتي المنشورة"
 
@@ -2832,6 +2914,24 @@ msgstr[5] ""
 #, python-format
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
+
+#~ msgid "Then go party!"
+#~ msgstr "وخُذلك بريك..."
+
+#~ msgid "Which section should we put your ad in?"
+#~ msgstr "ما هو أنسب قسم لعرض إعلانك؟"
+
+#~ msgid "Please select a valid category."
+#~ msgstr "ما هو أنسب قسم لعرض إعلانك ؟"
+
+#~ msgid "Choose"
+#~ msgstr "إختر"
+
+#~ msgid "Category"
+#~ msgstr "القسم؟"
+
+#~ msgid "What's the model?"
+#~ msgstr "ماركة السيارة"
 
 #~ msgid "2012, dubizzle.com, All Rights Reserved."
 #~ msgstr "2012, dubizzle.com, جميع الحقوق محفوظة."
