@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-14 18:04+0400\n"
-"PO-Revision-Date: 2013-04-14 18:22+0400\n"
+"POT-Creation-Date: 2013-04-21 18:43+0400\n"
+"PO-Revision-Date: 2013-04-21 18:47+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: Arabic - Egyptian "
-"<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
+"Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/"
+"projects/fuego/fuego/ar_EG/>\n"
 "Language: ar_EG\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,7 +60,7 @@ msgstr "تأكيد كلمة السر"
 msgid "Sorry, please re-enter your password using only English characters."
 msgstr "عفوا, كلمة السر يجب أن تتكون من حروف لاتينية (English)"
 
-#: authentication/forms.py:104 listings/tests.py:1098
+#: authentication/forms.py:104 listings/tests.py:1111
 msgid ""
 "This email address is already in use. Click 'I have a dubizzle password', or "
 "use a different email."
@@ -68,11 +68,11 @@ msgstr ""
 "عنوان الإيميل هذا مسجل لدينا. إختر \"لدي حساب وكلمة سر\" اعلاه أو ادخل عنوان "
 "ايميل آخر."
 
-#: authentication/forms.py:121 listings/tests.py:1146
+#: authentication/forms.py:121 listings/tests.py:1159
 msgid "Huh... that's not the same one! Try again."
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
-#: authentication/forms.py:129 listings/tests.py:1194
+#: authentication/forms.py:129 listings/tests.py:1207
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
 
@@ -2402,17 +2402,17 @@ msgstr ""
 "لبيع وشراء أي شيء. ايجاد سيارات, وظائف شاغرة, عقارات للايجار و سلع للبيع في  "
 "%(city_comma_country)s."
 
-#: fuego/shared_settings.py:204
+#: fuego/shared_settings.py:205
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/shared_settings.py:315 templates/search/browse_widget.html:21
+#: fuego/shared_settings.py:316 templates/search/browse_widget.html:21
 #: templates/search/browse_widget.html:39 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/shared_settings.py:465
+#: fuego/shared_settings.py:466
 msgid "Studio"
 msgstr "ستوديو"
 
@@ -2718,7 +2718,7 @@ msgstr ""
 msgid "Go back"
 msgstr "الصفحة السابقة"
 
-#: templates/404-web.html:20 templates/generic.html:51
+#: templates/404-web.html:20 templates/generic.html:77
 #: templates/privacy_ar.html:57 templates/privacy_fr.html:61
 #: templates/terms_ar.html:311 templates/shared/listings.html:65
 msgid "Home"
@@ -2728,41 +2728,41 @@ msgstr "الصفحة الرئيسية"
 msgid "Get the free dubizzle app for Android"
 msgstr "احصل على تطبيق دوبيزل للاندرويد مجانا"
 
-#: templates/generic.html:26
+#: templates/generic.html:27
 msgid "Browse"
 msgstr "تصفح"
 
-#: templates/generic.html:27 templates/generic.html.py:71
-#: templates/search/search.html:42
-msgid ","
-msgstr "،"
+#: templates/generic.html:41 templates/generic.html.py:119
+#: templates/search/category_widget.html:51
+msgid "All of"
+msgstr "كل"
 
-#: templates/generic.html:34 templates/generic.html.py:36
-#: templates/generic.html:96 templates/generic.html.py:98
+# not too clear
+#: templates/generic.html:46
+msgid "My account"
+msgstr "الحساب"
+
+#: templates/generic.html:64 templates/generic.html.py:68
+#: templates/generic.html:128 templates/generic.html.py:132
 #: templates/authentication/login.html:51
 #: templates/user_profiles/my_listings.html:40
 msgid "Place an ad"
 msgstr "بيع أي حاجة"
 
-# not too clear
-#: templates/generic.html:38
-msgid "My account"
-msgstr "الحساب"
-
-#: templates/generic.html:57
+#: templates/generic.html:85
 msgid "View all"
 msgstr "اظهر الجميع - "
 
 # not too clear
-#: templates/generic.html:66
+#: templates/generic.html:102
 msgid "My Account"
 msgstr "الحساب"
 
-#: templates/generic.html:82
+#: templates/generic.html:144
 msgid "View all in"
 msgstr "اظهر الجميع في"
 
-#: templates/generic.html:116 templates/public/landing.html:217
+#: templates/generic.html:171 templates/public/landing.html:217
 msgid "Back to top"
 msgstr "العودة الى بداية الصفحة"
 
@@ -2909,6 +2909,91 @@ msgstr ""
 #: templates/cpanel/manage_workspace.html:101
 msgid "Please remember to go back to Cpanel to approve this edit."
 msgstr ""
+
+#: templates/etharrak/cars.html:12
+msgid "e.g. Hyundai 2002"
+msgstr "مثال سيارة هيونداي ٢٠٠٦ "
+
+#: templates/etharrak/cars.html:21
+msgid "e.g. EGP 160.000"
+msgstr "مثال ١٦٠٫٠٠٠ جنيه"
+
+#: templates/etharrak/cars.html:26
+msgid ""
+"Whatever your car's model, price, design or condition, place your free ad on "
+"dubizzle and sell it."
+msgstr ""
+"دلوقت تقدر تبيع عربيتك مهما كانت نوعها، سعرها، موديلها أو حالتها.\n"
+"اعمل إعلان ببلاش من غير أي رسوم أو عمولة."
+
+#: templates/etharrak/cars.html:27
+msgid "What are you waiting for?!"
+msgstr "مستني إيه؟؟!"
+
+#: templates/etharrak/index.html:59
+msgid "What's your ad title?"
+msgstr "اكتب ملخص لاعلانك"
+
+#: templates/etharrak/index.html:64
+msgid "How much do you want to sell it for?"
+msgstr "عايز تبعها بكام؟"
+
+#: templates/etharrak/index.html:71
+msgid "Choose a category"
+msgstr "إختر فئة"
+
+#: templates/etharrak/index.html:78
+msgid "Place my FREE ad"
+msgstr "ضف الاعلان دة مجانا"
+
+#: templates/etharrak/items-for-sale.html:12
+msgid "e.g. Nokia N95 silver with warranty."
+msgstr "موبايل نوكيا M346 اللون فضي بضمان التوكيل"
+
+#: templates/etharrak/items-for-sale.html:21
+msgid "e.g. 450 EGP"
+msgstr "٤٥٠ جنيه"
+
+#: templates/etharrak/items-for-sale.html:26
+msgid ""
+"\n"
+"            <p>\n"
+"                We conducted research in Egypt and found that there are <b>2 "
+"billion unloved or unwanted items among the internet population alone. <br/"
+">\n"
+"                <b>These items are worth EGP 522 billion.</b>\n"
+"                <span class=\"redtext-bold\">That's a whole lot of lost "
+"lovin'.</span>\n"
+"            </p>\n"
+"        "
+msgstr ""
+"\n"
+"<p>لو كل واحد عنده حاجة مش عايزها عمل إعلان على دوبزل وباعها لحد فعلاً عايز "
+"الحاجة ديه - </p>"
+
+#: templates/etharrak/items-for-sale.html:33
+msgid ""
+"\n"
+"            <p>We believe almost everyone has at least one thing they no "
+"longer want. On dubizzle, there are heaps of buyers looking for all sorts of "
+"things. Anyone that doesn't want an item can sell it and get cash to do "
+"awesome stuff \n"
+"                <span class=\"redtext-normal\">everyone walks away with what "
+"they really want, and a huge glimmering smile.</span>\n"
+"            </p>\n"
+"        "
+msgstr ""
+"\n"
+"<p><span class=\"redtext-normal\">الطرفين هيستفيدو  والحاجة حتكون في مكانها "
+"المظبوط والكل يبقا مبسوط! مش كدة ولا إيه؟</span></p>"
+
+#: templates/etharrak/items-for-sale.html:39
+msgid "Our goal is 4 billion smiles"
+msgstr "عايزين نبسط ٤ مليار"
+
+#: templates/etharrak/items-for-sale.html:41
+msgid "(you do the math)"
+msgstr "(احسبها يا فكيك)"
 
 #: templates/listings/_social_icons.html:11
 msgid "Share with friends"
@@ -3616,6 +3701,22 @@ msgstr "للاستفسارات"
 msgid "For press inquiries or more information please contact:"
 msgstr "للاستفسارات أو لمزيد من المعلومات، يرجى الاتصال ب:"
 
+#: templates/search/_search_bar_snippet.html:11
+#: templates/search/_search_bar_snippet.html:14
+msgid "Search"
+msgstr "إبحث"
+
+#: templates/search/_search_bar_snippet.html:19
+#, python-format
+msgid ""
+"\n"
+"                        Show only %(CURRENT_LANGUAGE)s ads\n"
+"                    "
+msgstr ""
+"\n"
+"اظهر فقط الإعلانات المضافة بال%(CURRENT_LANGUAGE)s\n"
+"                    "
+
 #: templates/search/browse_widget.html:19
 #: templates/search/browse_widget.html:37
 msgid "in all of dubizzle"
@@ -3640,10 +3741,6 @@ msgstr ""
 msgid "Refine"
 msgstr "تصفية البحث"
 
-#: templates/search/category_widget.html:51
-msgid "All of"
-msgstr "كل"
-
 #: templates/search/category_widget.html:78
 msgid "Show all"
 msgstr "اظهر الجميع"
@@ -3651,6 +3748,10 @@ msgstr "اظهر الجميع"
 #: templates/search/search.html:42
 msgid "in"
 msgstr "في"
+
+#: templates/search/search.html:42
+msgid ","
+msgstr "،"
 
 #: templates/search/search.html:55
 #, python-format
@@ -3686,22 +3787,6 @@ msgstr[5] ""
 "\n"
 "وجدنا <span class=\"red\">%(counter)s</span> اعلان\n"
 "                "
-
-#: templates/search/search_bar_snippet.html:11
-#: templates/search/search_bar_snippet.html:14
-msgid "Search"
-msgstr "إبحث"
-
-#: templates/search/search_bar_snippet.html:20
-#, python-format
-msgid ""
-"\n"
-"                        Show only %(CURRENT_LANGUAGE)s ads\n"
-"                    "
-msgstr ""
-"\n"
-"اظهر فقط الإعلانات المضافة بال%(CURRENT_LANGUAGE)s\n"
-"                    "
 
 #: templates/search/search_listings.html:19
 #: templates/search/search_listings.html:23
