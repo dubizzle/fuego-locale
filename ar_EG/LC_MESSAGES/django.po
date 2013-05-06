@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-05-06 16:29+0400\n"
-"PO-Revision-Date: 2013-04-28 16:43+0400\n"
+"PO-Revision-Date: 2013-05-06 17:02+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/"
-"projects/fuego/fuego/ar_EG/>\n"
+"Language-Team: Arabic - Egyptian "
+"<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
+"Language: ar_EG\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar_EG\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 1.3\n"
@@ -140,53 +140,52 @@ msgstr "الصفحة السابقة"
 
 #: etharrak/conf.py:11
 msgid "Watch 'Where to?'"
-msgstr ""
+msgstr "شاهد حلقات \"على فين؟\""
 
 #: etharrak/conf.py:12
 msgid "Tune in weekly"
-msgstr ""
+msgstr "حلقة كل أسبوع"
 
 #: etharrak/conf.py:16
 msgid "Enter competition"
-msgstr ""
+msgstr "إشترك في المسابقة"
 
 #: etharrak/conf.py:17
 msgid "Watch, guess & WIN"
-msgstr ""
+msgstr "أخبرنا ماذا سيحدث وإكسب"
 
 #: etharrak/conf.py:21
 msgid "All about 'Where to?'"
-msgstr ""
+msgstr "إحكيلي عن \"على فين؟\""
 
 #: etharrak/conf.py:22
 msgid "Meet the cast"
-msgstr ""
+msgstr "تعرّف على الشخصيات"
 
 #: etharrak/conf.py:26
 msgid "Get the goodies"
-msgstr ""
+msgstr "تحميلات وحاجات"
 
 #: etharrak/conf.py:27 templates/public/press.html:63
 msgid "Downloads"
 msgstr "التحميلات"
 
 #: etharrak/forms/alafein.py:9
-#, fuzzy
 msgid "Your name"
-msgstr "الإسم"
+msgstr "الإسم الكريم؟"
 
 #: etharrak/forms/alafein.py:10
 #, fuzzy
 msgid "Your email"
-msgstr "موضوع الإعلان"
+msgstr "عنوان الإيميل؟"
 
 #: etharrak/forms/alafein.py:11
 msgid "What happened to the girl?"
-msgstr ""
+msgstr "البنت هيحصلها إيه؟"
 
 #: etharrak/forms/alafein.py:12
 msgid "Where did the driver go?"
-msgstr ""
+msgstr "سائق التاكسي رايح فين بعد كده؟"
 
 #: fuego/egypt_settings.py:77
 msgid "Egypt"
@@ -2779,7 +2778,7 @@ msgstr ""
 
 #: templates/_app_header.html:8
 msgid "Watch 'Where to?' here on 3alafein.com"
-msgstr ""
+msgstr "شاهد مسلسل \"على فين؟\" هنا: 3alafein.com"
 
 #: templates/generic.html:29 templates/etharrak/alafein/alafein_base.html:10
 msgid "Browse"
@@ -2988,7 +2987,7 @@ msgstr "مستني إيه؟؟!"
 
 #: templates/etharrak/etharrak_base.html:29
 msgid "Number of people that made a <span class=\"sp-red\">change</span>"
-msgstr ""
+msgstr "عدد المشترين لحد النهارده"
 
 #: templates/etharrak/home.html:9
 msgid "et7arrak - Make a change  | dubizzle Egypt"
@@ -3002,35 +3001,33 @@ msgid ""
 msgstr ""
 
 #: templates/etharrak/home.html:18
-#, fuzzy
 msgid "What do you want to sell?"
-msgstr "رسالتك للمعلن"
+msgstr "عايز تبيع إيه؟"
 
 #: templates/etharrak/home.html:44
 msgid ""
 "Remember how two families used dubizzle to sell things they no longer needed?"
-msgstr ""
+msgstr "فاكرين الناس إللي إستخدموا دوبيزل علشان يبيعوا الطبلة والحديد؟"
 
 #: templates/etharrak/home.html:45
 msgid "Find out who they really are in the 'Where to?' episodes..."
-msgstr ""
+msgstr "شوفوهم في مسلسل \"على فين؟\"."
 
 #: templates/etharrak/home.html:45
-#, fuzzy
 msgid "more"
 msgstr "ارني المزيد"
 
 #: templates/etharrak/home.html:59
 msgid "About 'make a CHANGE'"
-msgstr ""
+msgstr " يعني إيه\"إتحرك\"؟ "
 
 #: templates/etharrak/home.html:60
 msgid "What it means to make a change"
-msgstr ""
+msgstr "هنقوللك ليه عايزين نتحرك"
 
 #: templates/etharrak/home.html:66
 msgid "We believe in moving things for the good"
-msgstr ""
+msgstr "عايزين نبدأ في الحركة والتغيير للأفضل"
 
 #: templates/etharrak/home.html:67
 msgid ""
@@ -3038,6 +3035,9 @@ msgid ""
 "unwanted and unused items lying around with no purpose. We believe that "
 "change is needed to move things around for the good of everyone."
 msgstr ""
+"بعد ما بحثنا وعملنا دراساتنا إكتشفنا إنه فيه أكتر من ٢ مليار حاجة غير "
+"مستخدمة في بيوتنا كلنا وعايزين نعمل تغيير بسيط ونحرك نفسنا والحاجة إللي "
+"عندنا."
 
 #: templates/etharrak/home.html:68
 msgid ""
@@ -3047,6 +3047,9 @@ msgid ""
 "that anyone can do but the impact is large enough to affect the whole "
 "community."
 msgstr ""
+"لو كل واحد فينا باع حاجته إللي مش عايزها كل واحد هيستفيد والحاجات إللي ملهاش "
+"لزمة هتروح لناس فعلا عايزين يشتروها والحركة التجارية المحلية هتنتعش. تغيير "
+"بسيط جداً بس هيعمل فرق كبير وهيعود عالجميع بالفايدة. "
 
 #: templates/etharrak/home.html:69
 msgid ""
@@ -3054,6 +3057,8 @@ msgid ""
 "making a change. So join us in and watch this space for videos, songs, "
 "competitions and much more."
 msgstr ""
+"وعشان كده إحنا عايزينكم تشاركونا في الحركة وتابعوا معانا فيديوهات ومسلسلات "
+"وحاجات كتير هننشرها هنا."
 
 #: templates/etharrak/index.html:59
 msgid "What's your ad title?"
@@ -3133,7 +3138,7 @@ msgstr ""
 
 #: templates/etharrak/alafein/about.html:20
 msgid "Where to?"
-msgstr ""
+msgstr "على فين؟"
 
 #: templates/etharrak/alafein/about.html:21
 msgid ""
@@ -3144,6 +3149,11 @@ msgid ""
 "lots of time on her hands. And the happy go-lucky musician's life revolves "
 "around playing his tabla to entertain the ears and hearts of others."
 msgstr ""
+"تشهد شوارع القاهرة تقاطع قصص شخصيات عديدة، كسائق التاكسي الذي يحتك مع هموم "
+"الناس اليومية في شوارع المدينة بسيارته والابن العاشق الولهان والموظف المحبط "
+"بسبب ضغوط عمله والروتين، وزوجته - ربة المنزل التقليدية التي لديها الكثير من "
+"وقت الفراغً، والطبّال التي تتمحور حياته حول الطبلة والمزيكا للترفيه عن "
+"الناس."
 
 #: templates/etharrak/alafein/about.html:22
 msgid ""
@@ -3151,6 +3161,9 @@ msgid ""
 "to reveal the affinities they all share. Through connecting events, we see "
 "how changing something, no matter how small, makes all the difference."
 msgstr ""
+"مع أحداث القصة تظهر هموم ومشاكل كل شخصية أكثر فأكثر لتكشف عن أوجه الشبه "
+"بينهم، ومن خلال ربط الأحداث سنرى أن تغيير أي شيء - مهما كان صغيراً - قد يؤدي "
+"إلى تغيير جذري."
 
 #: templates/etharrak/alafein/competition.html:7
 msgid "3ala fein - Where to? Competition | dubizzle Egypt"
@@ -3158,7 +3171,7 @@ msgstr ""
 
 #: templates/etharrak/alafein/competition.html:21
 msgid "Put your thinking caps on & WIN!"
-msgstr ""
+msgstr "فكر شوية وإكسب معانا!"
 
 #: templates/etharrak/alafein/competition.html:22
 msgid ""
@@ -3166,95 +3179,100 @@ msgid ""
 "enter our competition and win <span class=\"red-txt\">EGP10,000</span> to "
 "buy items on dubizzle."
 msgstr ""
+"شاهد حلقات\"على فين؟\" وقوللينا هيحصل إيه في الحلقات اللي جايه وادخل السحب.  "
+"الفائزين هيكسبوا ١٠،٠٠٠ جنيه مصري لشراء سلع معروضة على موقع دوبيزل مصر."
 
 #: templates/etharrak/alafein/competition.html:24
 msgid "Our competition begins when episode 1 goes live."
-msgstr ""
+msgstr "ستبدأ المسابقة مع الحلقة الاولى... قريبا جدا."
 
 #: templates/etharrak/alafein/competition.html:25
 msgid "Come back soon."
-msgstr ""
+msgstr " قريبا جدا."
 
 #: templates/etharrak/alafein/competition.html:27
 msgid "Here's how:"
-msgstr ""
+msgstr "إزاي؟:"
 
 #: templates/etharrak/alafein/competition.html:28
 msgid "Watch the weekly 'Where to?' episode and answer the questions."
-msgstr ""
+msgstr "شاهد الحلقة الأسبوعية من مسلسل \"على فين؟\" وأجب عن الأسئلة."
 
 #: templates/etharrak/alafein/competition.html:29
 msgid ""
 "A new competition runs each time a new episode goes live. Competition "
 "duration is one week."
 msgstr ""
+"ستبدأ كل مسابقة اعتباراً من يوم بث الحلقة إلى ساعة قبل بث الحلقة التالية."
 
 #: templates/etharrak/alafein/competition.html:32
-#, fuzzy
 msgid "Selection:"
-msgstr "إختر فئة."
+msgstr "إختيار الفائزين:"
 
 #: templates/etharrak/alafein/competition.html:33
 msgid "All correct entries will enter draw for that week."
-msgstr ""
+msgstr "سيتم إجراء سحب كل أسبوع على جميع المشاركات الصحيحة."
 
 #: templates/etharrak/alafein/competition.html:34
 msgid ""
 "Lucky winners will be announced each week and will be notified via email."
-msgstr ""
+msgstr "سيتم إعلان أسماء الفائزين كل أسبوع وسيتم إعلامهم عن طريق الإيميل."
 
 #: templates/etharrak/alafein/competition.html:37
-#, fuzzy
 msgid "Prize:"
-msgstr "السعر"
+msgstr "الجائزة:"
 
 #: templates/etharrak/alafein/competition.html:38
 msgid ""
 "Each winner wins EGP10,000 to spend on goods as found on egypt.dubizzle.com."
-msgstr ""
+msgstr "سيحصل الفائز على ١٠،٠٠٠ جنيه مصري لشراء سلع معروضة على موقع دوبيزل مصر."
 
 #: templates/etharrak/alafein/competition.html:39
 msgid ""
 "Winners have one month from the draw date to search egypt.dubizzle.com and "
 "select the items they want."
 msgstr ""
+"سيكون لدى الرابحين شهر واحد اعتباراً من تاريخ السحب لإختيار السلع المرغوبة "
+"على موقع دوبيزل مصر."
 
 #: templates/etharrak/alafein/competition.html:40
 msgid "Prizes are not transferable or redeemable for cash."
-msgstr ""
+msgstr "لا يجوز تحويل الجوائز إلى أشخاص آخرين ولا استبدالها بمبالغ نقدية."
 
 #: templates/etharrak/alafein/competition.html:43
 msgid "Participation:"
-msgstr ""
+msgstr "المشاركة:"
 
 #: templates/etharrak/alafein/competition.html:44
 msgid "Participants may enter each weekly competition once."
-msgstr ""
+msgstr "يحق للمشاركين الإشتراك في المسابقة الأسبوعية مرة واحدة فقط."
 
 #: templates/etharrak/alafein/competition.html:45
 msgid "Participants must be at least 18 years of age."
-msgstr ""
+msgstr "يجب أن يكون عمر المشارك 18 سنة فما فوق."
 
 #: templates/etharrak/alafein/competition.html:46
 msgid "Competition is open to residents of Egypt only."
-msgstr ""
+msgstr "المشاركة في المسابقة مسموحة للمقيمين في مصر فقط."
 
 #: templates/etharrak/alafein/competition.html:47
 msgid ""
 "Winners will be required to partake in promotional activities for dubizzle "
 "as necessary."
-msgstr ""
+msgstr "سيشارك الفائزين في أنشطة ترويجية لصالح دوبيزل وفقاً للمتطلبات."
 
 #: templates/etharrak/alafein/competition.html:48
 msgid ""
 "dubizzle employees, any associated business partners/suppliers and their "
 "family members are not eligible to enter the competition."
 msgstr ""
+"لا يحق لموظفي دوبيزل أو أي شركاء أو موردين لها أو أي من أفراد عائلاتهم "
+"المشاركة في المسابقة."
 
 #: templates/etharrak/alafein/competition.html:50
 msgid ""
 "dubizzle reserves the right to change the terms and conditions at any point."
-msgstr ""
+msgstr "تحتفظ دوبيزل بحق تغيير الشروط والأحكام في أي وقت."
 
 #: templates/etharrak/alafein/downloads.html:6
 msgid "3ala fein - Where to? Downloads | dubizzle Egypt"
@@ -3268,7 +3286,7 @@ msgstr ""
 
 #: templates/etharrak/alafein/downloads.html:20
 msgid "Get the goodies!"
-msgstr ""
+msgstr "حمِل صور الشخصيات هنا"
 
 #: templates/etharrak/alafein/episodes.html:6
 msgid "3ala fein - Where to? Webisode Videos | dubizzle Egypt"
@@ -3283,22 +3301,23 @@ msgstr ""
 #: templates/etharrak/alafein/episodes.html:20
 #: templates/etharrak/alafein/episodes.html:37
 msgid "PREVIOUS"
-msgstr ""
+msgstr "الحلقة الماضية"
 
 #: templates/etharrak/alafein/episodes.html:29
 msgid "'Where to?' episodes coming soon"
-msgstr ""
+msgstr "قريباً مسلسل \"على فين؟\" "
 
 #: templates/etharrak/alafein/episodes.html:30
 msgid ""
 "Watch one episode every week and find out how you can enter and win our "
 "competition."
 msgstr ""
+"شاهد حلقة كل أسبوع وشارك في المسابقة وإكسب ١٠،٠٠٠ جنيه من دوبيزل دوت كوم."
 
 #: templates/etharrak/alafein/episodes.html:42
 #: templates/etharrak/alafein/episodes.html:52
 msgid "NEXT"
-msgstr ""
+msgstr "الحلقة القادمة"
 
 #: templates/listings/_social_icons.html:11
 msgid "Share with friends"
