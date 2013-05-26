@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-05-26 10:35+0400\n"
-"PO-Revision-Date: 2013-05-19 16:16+0400\n"
+"PO-Revision-Date: 2013-05-26 10:59+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/"
-"projects/fuego/fuego/ar_EG/>\n"
+"Language-Team: Arabic - Egyptian "
+"<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
+"Language: ar_EG\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar_EG\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 1.3\n"
@@ -176,26 +176,27 @@ msgstr "إختار إجابة"
 
 #: etharrak/conf.py:33
 msgid "The Tabla Guy"
-msgstr ""
+msgstr "الطبّال"
 
 #: etharrak/conf.py:34
 msgid "Medhat"
-msgstr ""
+msgstr "مدحت"
 
 #: etharrak/conf.py:35
 msgid "The Banker's mum"
-msgstr ""
+msgstr "والدته"
 
 #: etharrak/conf.py:42
-#, fuzzy
 msgid "Episode 2"
-msgstr "الحلقة الاولى"
+msgstr "الحلقة الثانية"
 
 #: etharrak/conf.py:43
 msgid ""
 "Conflicts and collisions - the characters' real lives surface in bumpy "
 "situations, only to discover how alike they are."
 msgstr ""
+"تبدأ ظهور معالم الشخصيات من خلال الاحداث والتفاعلات بينهم ويكتشفون أوجه "
+"الشبه حتى بعد الخلاف والصدام الذي يحدث بينهم. "
 
 #: etharrak/conf.py:47
 msgid "Episode 1"
@@ -235,7 +236,7 @@ msgstr "مدينتك"
 #: etharrak/forms/alafein.py:20
 msgid ""
 "The Banker receives a text message at the end of the episode. Who is it from?"
-msgstr ""
+msgstr "موظف البنك بتوصله رسالة على موبايله فى نهاية الحلقة. تفتكر من مين؟"
 
 #: fuego/egypt_settings.py:77
 msgid "Egypt"
@@ -2126,7 +2127,8 @@ msgid ""
 "Laptops, Tablets & Computers for Sale in %(city_comma_country)s | dubizzle %"
 "(country)s"
 msgstr ""
-"كمبيوترات ولابتوبات للبيع في %(city_comma_country)s | دوبيزل %(country)s"
+"كمبيوترات ولابتوبات للبيع في %(city_comma_country)s - بيع واشتري إن يور سيتي "
+"| دوبيزل %(city_comma_country)s"
 
 #: fuego/meta_settings.py:270
 #, python-format
@@ -2140,7 +2142,9 @@ msgstr ""
 
 #: fuego/meta_settings.py:271
 msgid "laptops for sale, computer, computers, ipad, mac, printers"
-msgstr "لابتوبات للبيع، كمبيوترات محمولة، ايباد، طابعة، ماك للبيع"
+msgstr ""
+"لابتوبات للبيع، كمبيوترات محمولة، ايباد، طابعة، ماك للبيع, أجهزة الكمبيوتر "
+"المحمولة في مصر, أجهزة الكمبيوتر في %(city_comma_country)s"
 
 #: fuego/meta_settings.py:275
 #, python-format
@@ -2256,7 +2260,8 @@ msgid ""
 "Mobile Phones, PDA's & iPhones for Sale in %(city_comma_country)s | dubizzle "
 "%(country)s"
 msgstr ""
-"هواتف محمولة و آيفونات للبيع في %(city_comma_country)s | دوبيزل %(country)s"
+"موبايلات و آيفونات مستعملة للبيع في %(city_comma_country)s - بيع واشتري إن "
+"يور سيتي | دوبيزل %(city_comma_country)s"
 
 #: fuego/meta_settings.py:300
 #, python-format
@@ -2460,35 +2465,35 @@ msgid ""
 msgstr "أشياء للبيع، سلع للبيع، أغراض للبيع في %(city_or_country)s"
 
 #: fuego/meta_settings.py:363
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Free classified ads in %(city_comma_country)s - Bee3 weshtery in your city | "
 "dubizzle %(city_comma_country)s"
 msgstr ""
-"اعلانات مبوبة مجانية في %(city_comma_country)s - بيع سيارات, وظائف شاغرة, "
-"بيع منازل | دوبيزل %(city_comma_country)s"
+"اعلانات مبوبة مجانية في %(city_comma_country)s - بيع واشتري إن يور سيتي | "
+"دوبيزل %(city_comma_country)s"
 
 #: fuego/meta_settings.py:364
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "dubizzle is your free and friendly local classified ads site in %"
 "(city_comma_country)s. Jobs, property, real estate, cars and classifieds in %"
 "(city_comma_country)s. Post an ad, browse ads, buy, sell or rent."
 msgstr ""
 "دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(city_comma_country)s. "
-"وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في %(city_comma_country)"
-"s. أضف اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
+"وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في %"
+"(city_comma_country)s. أضف اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
 
 #: fuego/meta_settings.py:365
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "dubizzle %(city_comma_country)s, free classifieds, classified ads, online "
 "classifieds, %(city_comma_country)s classifieds, free classifieds in %"
 "(city_comma_country)s, classifieds, %(city_comma_country)s"
 msgstr ""
 "دوبيزل %(city_comma_country)s, اعلانات مبوبة مجانية, اعلانات الكترونية, %"
-"(city_comma_country)s للاعلانات المبوبة المجانية, اعلانات مبوبة مجانية في "
-"(city_comma_country)s"
+"(city_comma_country)s للاعلانات المبوبة المجانية, اعلانات مبوبة مجانية في, %"
+"(city_comma_country)s, إعلانات مبوبة, الإعلانات المبوبة"
 
 #: fuego/meta_settings.py:369
 #, python-format
@@ -3272,12 +3277,10 @@ msgid "Here's how:"
 msgstr "إزاي؟:"
 
 #: templates/etharrak/alafein/competition.html:54
-#, fuzzy
 msgid "Watch the weekly 'Where to?' episode and answer the questions above."
-msgstr "شاهد الحلقة الأسبوعية من مسلسل \"على فين؟\" وأجب عن الأسئلة."
+msgstr "شاهد الحلقة الأسبوعية من مسلسل \"على فين؟\" وأكمل النموذج أعلاه."
 
 #: templates/etharrak/alafein/competition.html:55
-#, fuzzy
 msgid ""
 "A new competition runs from the time a new episode goes live until one hour "
 "before the next episode."
