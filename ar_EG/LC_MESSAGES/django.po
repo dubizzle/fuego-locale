@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-19 16:05+0400\n"
-"PO-Revision-Date: 2013-05-19 16:16+0400\n"
+"POT-Creation-Date: 2013-05-26 10:35+0400\n"
+"PO-Revision-Date: 2013-05-26 10:59+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian "
 "<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
@@ -175,26 +175,34 @@ msgid "Choose an answer"
 msgstr "إختار إجابة"
 
 #: etharrak/conf.py:33
-msgid "At a cinema"
-msgstr "السينما"
+msgid "The Tabla Guy"
+msgstr "الطبّال"
 
 #: etharrak/conf.py:34
-msgid "At the Nile Corniche"
-msgstr "كورنيش النيل"
+msgid "Medhat"
+msgstr "مدحت"
 
 #: etharrak/conf.py:35
-msgid "At a shisha cafe"
-msgstr "قهوة"
+msgid "The Banker's mum"
+msgstr "والدته"
 
-#: etharrak/conf.py:36
-msgid "At an airport"
-msgstr "المطار"
+#: etharrak/conf.py:42
+msgid "Episode 2"
+msgstr "الحلقة الثانية"
 
 #: etharrak/conf.py:43
+msgid ""
+"Conflicts and collisions - the characters' real lives surface in bumpy "
+"situations, only to discover how alike they are."
+msgstr ""
+"تبدأ ظهور معالم الشخصيات من خلال الاحداث والتفاعلات بينهم ويكتشفون أوجه "
+"الشبه حتى بعد الخلاف والصدام الذي يحدث بينهم. "
+
+#: etharrak/conf.py:47
 msgid "Episode 1"
 msgstr "الحلقة الاولى"
 
-#: etharrak/conf.py:44
+#: etharrak/conf.py:48
 msgid ""
 "After an ordinary day on the streets of Cairo, the taxi driver ends up with "
 "two passengers in a rather odd situation."
@@ -202,11 +210,11 @@ msgstr ""
 "ينطلق سائق التاكسي في شوارع القاهرة ويبدأ مشواره اليومي المعتاد وينتهي به "
 "الامر في وضع غريب وطريف."
 
-#: etharrak/conf.py:48
+#: etharrak/conf.py:52
 msgid "'Where to?' episodes coming soon"
 msgstr "قريباً مسلسل \"على فين؟\" "
 
-#: etharrak/conf.py:49
+#: etharrak/conf.py:53
 msgid ""
 "Watch one episode every week and find out how you can enter and win our "
 "competition."
@@ -226,8 +234,9 @@ msgid "Your city"
 msgstr "مدينتك"
 
 #: etharrak/forms/alafein.py:20
-msgid "Where is the banker being dropped off?"
-msgstr "سواق التاكسى هياخد الراجل اللى ركب معاه على فين؟"
+msgid ""
+"The Banker receives a text message at the end of the episode. Who is it from?"
+msgstr "موظف البنك بتوصله رسالة على موبايله فى نهاية الحلقة. تفتكر من مين؟"
 
 #: fuego/egypt_settings.py:77
 msgid "Egypt"
@@ -2118,7 +2127,8 @@ msgid ""
 "Laptops, Tablets & Computers for Sale in %(city_comma_country)s | dubizzle %"
 "(country)s"
 msgstr ""
-"كمبيوترات ولابتوبات للبيع في %(city_comma_country)s | دوبيزل %(country)s"
+"كمبيوترات ولابتوبات للبيع في %(city_comma_country)s - بيع واشتري إن يور سيتي "
+"| دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:270
 #, python-format
@@ -2132,7 +2142,9 @@ msgstr ""
 
 #: fuego/meta_settings.py:271
 msgid "laptops for sale, computer, computers, ipad, mac, printers"
-msgstr "لابتوبات للبيع، كمبيوترات محمولة، ايباد، طابعة، ماك للبيع"
+msgstr ""
+"لابتوبات للبيع، كمبيوترات محمولة، ايباد، طابعة، ماك للبيع, أجهزة الكمبيوتر "
+"المحمولة في مصر, أجهزة الكمبيوتر في %(city_comma_country)s"
 
 #: fuego/meta_settings.py:275
 #, python-format
@@ -2248,7 +2260,8 @@ msgid ""
 "Mobile Phones, PDA's & iPhones for Sale in %(city_comma_country)s | dubizzle "
 "%(country)s"
 msgstr ""
-"هواتف محمولة و آيفونات للبيع في %(city_comma_country)s | دوبيزل %(country)s"
+"موبايلات و آيفونات مستعملة للبيع في %(city_comma_country)s - بيع واشتري إن "
+"يور سيتي | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:300
 #, python-format
@@ -2454,34 +2467,33 @@ msgstr "أشياء للبيع، سلع للبيع، أغراض للبيع في %
 #: fuego/meta_settings.py:363
 #, python-format
 msgid ""
-"Free Classifieds in %(city_comma_country)s - Jobs in %(city_comma_country)s, "
-"Property & Real Estate For Sale & Rent, Cars for Sale | dubizzle %"
-"(city_comma_country)s"
+"Free classified ads in %(city_comma_country)s - Bee3 weshtery in your city | "
+"dubizzle %(city_comma_country)s"
 msgstr ""
-"اعلانات مبوبة مجانية في %(city_comma_country)s - وظائف شاغرة في %"
-"(city_comma_country)s, عقارات للبيع او الايجار, سيارات للبيع | دوبيزل %"
-"(city_comma_country)s"
+"اعلانات مبوبة مجانية في %(city_comma_country)s - بيع واشتري إن يور سيتي | "
+"دوبيزل %(city_comma_country)s"
 
 #: fuego/meta_settings.py:364
 #, python-format
 msgid ""
-"dubizzle is your free and friendly local classifieds website in %"
+"dubizzle is your free and friendly local classified ads site in %"
 "(city_comma_country)s. Jobs, property, real estate, cars and classifieds in %"
-"(city_comma_country)s. Post an ad, browse ads, buy, sell or rent. "
+"(city_comma_country)s. Post an ad, browse ads, buy, sell or rent."
 msgstr ""
 "دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(city_comma_country)s. "
-"وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في %(city_comma_country)"
-"s. أضف اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
+"وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في %"
+"(city_comma_country)s. أضف اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
 
-#: fuego/meta_settings.py:365 fuego/meta_settings.py:371
+#: fuego/meta_settings.py:365
 #, python-format
 msgid ""
-"dubizzle %(city_comma_country)s, free classifieds, online classifieds, %"
-"(city_comma_country)s classifieds, free classifieds in %(city_comma_country)s"
+"dubizzle %(city_comma_country)s, free classifieds, classified ads, online "
+"classifieds, %(city_comma_country)s classifieds, free classifieds in %"
+"(city_comma_country)s, classifieds, %(city_comma_country)s"
 msgstr ""
 "دوبيزل %(city_comma_country)s, اعلانات مبوبة مجانية, اعلانات الكترونية, %"
-"(city_comma_country)s للاعلانات المبوبة المجانية, اعلانات مبوبة مجانية في "
-"(city_comma_country)s"
+"(city_comma_country)s للاعلانات المبوبة المجانية, اعلانات مبوبة مجانية في, %"
+"(city_comma_country)s, إعلانات مبوبة, الإعلانات المبوبة"
 
 #: fuego/meta_settings.py:369
 #, python-format
@@ -2502,6 +2514,16 @@ msgstr ""
 "دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(city_comma_country)s "
 "لبيع وشراء أي شيء. ايجاد سيارات, وظائف شاغرة, عقارات للايجار و سلع للبيع في  "
 "%(city_comma_country)s."
+
+#: fuego/meta_settings.py:371
+#, python-format
+msgid ""
+"dubizzle %(city_comma_country)s, free classifieds, online classifieds, %"
+"(city_comma_country)s classifieds, free classifieds in %(city_comma_country)s"
+msgstr ""
+"دوبيزل %(city_comma_country)s, اعلانات مبوبة مجانية, اعلانات الكترونية, %"
+"(city_comma_country)s للاعلانات المبوبة المجانية, اعلانات مبوبة مجانية في "
+"(city_comma_country)s"
 
 #: fuego/shared_settings.py:205
 msgid "Unknown"
@@ -2856,7 +2878,8 @@ msgstr "الحساب"
 msgid "View all in"
 msgstr "اظهر الجميع في"
 
-#: templates/generic.html:173 templates/public/landing.html:217
+#: templates/generic.html:173 templates/public/_footer.html:5
+#: templates/public/landing.html:218
 msgid "Back to top"
 msgstr "العودة الى بداية الصفحة"
 
@@ -3027,7 +3050,7 @@ msgstr ""
 msgid "What are you waiting for?!"
 msgstr "مستني إيه؟؟!"
 
-#: templates/etharrak/etharrak_base.html:29 templates/etharrak/index.html:35
+#: templates/etharrak/etharrak_base.html:33 templates/etharrak/index.html:35
 msgid "Number of people that made a <span class=\"sp-red\">change</span>"
 msgstr "عدد الناس اللي إتحركت"
 
@@ -3048,32 +3071,32 @@ msgstr ""
 msgid "What do you want to sell?"
 msgstr "عايز تبيع إيه؟"
 
-#: templates/etharrak/home.html:48
+#: templates/etharrak/home.html:45
 msgid ""
 "Remember how two families used dubizzle to sell things they no longer needed?"
 msgstr "فاكرين الناس إللي إستخدموا دوبيزل علشان يبيعوا الطبلة والحديد؟"
 
-#: templates/etharrak/home.html:49
+#: templates/etharrak/home.html:46
 msgid "Find out who they really are in the 'Where to?' episodes..."
 msgstr "شوفوهم في مسلسل \"على فين؟\"."
 
-#: templates/etharrak/home.html:49
+#: templates/etharrak/home.html:46
 msgid "more"
 msgstr "ارني المزيد"
 
-#: templates/etharrak/home.html:63
+#: templates/etharrak/home.html:60
 msgid "About 'make a CHANGE'"
 msgstr " يعني إيه\"إتحرك\"؟ "
 
-#: templates/etharrak/home.html:64
+#: templates/etharrak/home.html:61
 msgid "What it means to make a change"
 msgstr "هنقوللك ليه عايزين نتحرك"
 
-#: templates/etharrak/home.html:70
+#: templates/etharrak/home.html:67
 msgid "We believe in moving things for the good"
 msgstr "عايزين نبدأ في الحركة والتغيير للأفضل"
 
-#: templates/etharrak/home.html:71
+#: templates/etharrak/home.html:68
 msgid ""
 "After doing extensive research we found out that there are 2.2 billion "
 "unwanted and unused items lying around with no purpose. We believe that "
@@ -3083,7 +3106,7 @@ msgstr ""
 "مستخدمة في بيوتنا كلنا وعايزين نعمل تغيير بسيط ونحرك نفسنا والحاجة إللي "
 "عندنا."
 
-#: templates/etharrak/home.html:72
+#: templates/etharrak/home.html:69
 msgid ""
 "If each one of us sells our unused items, each individual will benefit, the "
 "unused items will find new owners and the local economy will actually "
@@ -3095,7 +3118,7 @@ msgstr ""
 "لزمة هتروح لناس فعلا عايزين يشتروها والحركة التجارية المحلية هتنتعش. تغيير "
 "بسيط جداً بس هيعمل فرق كبير وهيعود عالجميع بالفايدة. "
 
-#: templates/etharrak/home.html:73
+#: templates/etharrak/home.html:70
 msgid ""
 "With this notion in mind, we would like to share with you our expression of "
 "making a change. So join us in and watch this space for videos, songs, "
@@ -3249,6 +3272,91 @@ msgstr ""
 msgid "Submit and WIN"
 msgstr "أرسل إجابتك"
 
+#: templates/etharrak/alafein/competition.html:53
+msgid "Here's how:"
+msgstr "إزاي؟:"
+
+#: templates/etharrak/alafein/competition.html:54
+msgid "Watch the weekly 'Where to?' episode and answer the questions above."
+msgstr "شاهد الحلقة الأسبوعية من مسلسل \"على فين؟\" وأكمل النموذج أعلاه."
+
+#: templates/etharrak/alafein/competition.html:55
+msgid ""
+"A new competition runs from the time a new episode goes live until one hour "
+"before the next episode."
+msgstr ""
+"ستبدأ كل مسابقة اعتباراً من يوم بث الحلقة إلى ساعة قبل بث الحلقة التالية."
+
+#: templates/etharrak/alafein/competition.html:58
+msgid "Selection:"
+msgstr "إختيار الفائزين:"
+
+#: templates/etharrak/alafein/competition.html:59
+msgid "All correct entries will enter draw for that week."
+msgstr "سيتم إجراء سحب كل أسبوع على جميع المشاركات الصحيحة."
+
+#: templates/etharrak/alafein/competition.html:60
+msgid ""
+"Lucky winners will be announced each week and will be notified via email."
+msgstr "سيتم إعلان أسماء الفائزين كل أسبوع وسيتم إعلامهم عن طريق الإيميل."
+
+#: templates/etharrak/alafein/competition.html:63
+msgid "Prize:"
+msgstr "الجائزة:"
+
+#: templates/etharrak/alafein/competition.html:64
+msgid ""
+"Each winner wins EGP10,000 to spend on goods as found on egypt.dubizzle.com."
+msgstr ""
+"سيحصل الفائز على ١٠،٠٠٠ جنيه مصري لشراء سلع معروضة على موقع دوبيزل مصر."
+
+#: templates/etharrak/alafein/competition.html:65
+msgid ""
+"Winners have one month from the draw date to search egypt.dubizzle.com and "
+"select the items they want."
+msgstr ""
+"سيكون لدى الرابحين شهر واحد اعتباراً من تاريخ السحب لإختيار السلع المرغوبة "
+"على موقع دوبيزل مصر."
+
+#: templates/etharrak/alafein/competition.html:66
+msgid "Prizes are not transferable or redeemable for cash."
+msgstr "لا يجوز تحويل الجوائز إلى أشخاص آخرين ولا استبدالها بمبالغ نقدية."
+
+#: templates/etharrak/alafein/competition.html:69
+msgid "Participation:"
+msgstr "المشاركة:"
+
+#: templates/etharrak/alafein/competition.html:70
+msgid "Participants may enter each weekly competition once."
+msgstr "يحق للمشاركين الإشتراك في المسابقة الأسبوعية مرة واحدة فقط."
+
+#: templates/etharrak/alafein/competition.html:71
+msgid "Participants must be at least 18 years of age."
+msgstr "يجب أن يكون عمر المشارك 18 سنة فما فوق."
+
+#: templates/etharrak/alafein/competition.html:72
+msgid "Competition is open to residents of Egypt only."
+msgstr "المشاركة في المسابقة مسموحة للمقيمين في مصر فقط."
+
+#: templates/etharrak/alafein/competition.html:73
+msgid ""
+"Winners will be required to partake in promotional activities for dubizzle "
+"as necessary."
+msgstr "سيشارك الفائزين في أنشطة ترويجية لصالح دوبيزل وفقاً للمتطلبات."
+
+#: templates/etharrak/alafein/competition.html:74
+msgid ""
+"dubizzle employees, any associated business partners/suppliers and their "
+"family members are not eligible to enter the competition."
+msgstr ""
+"لا يحق لموظفي دوبيزل أو أي شركاء أو موردين لها أو أي من أفراد عائلاتهم "
+"المشاركة في المسابقة."
+
+#: templates/etharrak/alafein/competition.html:76
+msgid ""
+"dubizzle reserves the right to change the terms and conditions at any point."
+msgstr "تحتفظ دوبيزل بحق تغيير الشروط والأحكام في أي وقت."
+
 #: templates/etharrak/alafein/competition_thanks.html:7
 msgid "How easy was that?"
 msgstr "مفيش أسهل من كده وله إيه؟"
@@ -3387,7 +3495,7 @@ msgstr ""
 "وجد) يرجى عدم اضافة عنوان إيميلك داخل الوصف وهذا لحماية خصوصيتك."
 
 #: templates/listings/manage_listing.html:147
-#: templates/listings/snippets/_form.html:112 templates/public/landing.html:65
+#: templates/listings/snippets/_form.html:112 templates/public/landing.html:66
 msgid "Choose your city"
 msgstr "اختر مدينتك"
 
@@ -3701,23 +3809,23 @@ msgstr "احذفها"
 msgid "Edit your ad."
 msgstr "تعديل"
 
-#: templates/public/_footer.html:8
+#: templates/public/_footer.html:9
 msgid "Contact"
 msgstr "راسلنا"
 
-#: templates/public/_footer.html:11
+#: templates/public/_footer.html:12
 msgid "Terms of Use"
 msgstr "شروط وأحكام إستخدام موقع دوبيزل"
 
-#: templates/public/_footer.html:14
+#: templates/public/_footer.html:15
 msgid "Privacy Policy"
 msgstr "سياسة الخصوصية"
 
-#: templates/public/_footer.html:17 templates/public/landing.html:40
+#: templates/public/_footer.html:18 templates/public/landing.html:41
 msgid "Change country"
 msgstr "تغيير الدولة"
 
-#: templates/public/_footer.html:21
+#: templates/public/_footer.html:22
 msgid "2013, dubizzle.com, All Rights Reserved."
 msgstr "2013, dubizzle.com, جميع الحقوق محفوظة."
 
@@ -3727,7 +3835,7 @@ msgstr "تعرف علينا"
 
 #: templates/public/contact_us.html:7
 #: templates/public/contact_us_complete.html:7
-#: templates/public/landing.html:18
+#: templates/public/landing.html:19
 msgid "Ahlan wa sahlan..."
 msgstr "اهلا وسهلا بكم في دوبيزل..."
 
@@ -3804,11 +3912,11 @@ msgstr ""
 msgid "Contact us"
 msgstr "راسلنا"
 
-#: templates/public/home.html:13 templates/search/search.html:45
+#: templates/public/home.html:13 templates/search/search.html:48
 msgid "Buy, sell and find anything"
 msgstr "بيع واشتري وأعثر على أى شيء "
 
-#: templates/public/home.html:24
+#: templates/public/home.html:30
 msgid ""
 "\n"
 "                                Cars, jobs, properties, classifieds and so "
@@ -3819,7 +3927,7 @@ msgstr ""
 "عقارات وسيارت وإلكترونيات وفرص عمل والكثير الكثير غيرها\n"
 "                    "
 
-#: templates/public/home.html:28
+#: templates/public/home.html:34
 msgid ""
 "\n"
 "                                Thousands of cars, jobs, properties, "
@@ -3830,34 +3938,34 @@ msgstr ""
 "آلاف السيارات والوظائف والعقار والمبوبات والكثير الكثير.\n"
 "                    "
 
-#: templates/public/home.html:39 templates/search/search_listings.html:49
+#: templates/public/home.html:45 templates/search/search_listings.html:49
 #: templates/search/search_listings.html:53
 #: templates/search/search_listings.html:60
 #: templates/search/search_listings.html:64
 msgid "Load more"
 msgstr "ارني المزيد"
 
-#: templates/public/landing.html:55
+#: templates/public/landing.html:56
 msgid "ads ya basha!"
 msgstr "إعلان يا باشا!"
 
-#: templates/public/landing.html:61
+#: templates/public/landing.html:62
 msgid "Buy. Sell. Anything"
 msgstr "بيع واشتري أي حاجة"
 
-#: templates/public/landing.html:97 templates/public/landing.html.py:124
+#: templates/public/landing.html:98 templates/public/landing.html.py:125
 msgid "All of Egypt"
 msgstr "كل مصر"
 
-#: templates/public/landing.html:107
+#: templates/public/landing.html:108
 msgid "Coming Soon"
 msgstr "قريبا"
 
-#: templates/public/landing.html:116
+#: templates/public/landing.html:117
 msgid "Other cities in Egypt"
 msgstr "مدن أخرى في مصر"
 
-#: templates/public/landing.html:143 templates/public/landing.html.py:155
+#: templates/public/landing.html:144 templates/public/landing.html.py:156
 msgid ""
 "Nobody wanted to buy this couch. until i found dubizzle and got more than 10 "
 "calls in half an hour"
@@ -3865,14 +3973,14 @@ msgstr ""
 "محدش كان عاوز يشتري الكنبة بتاعتي وساعة ما حطتها على دوبيزل جالي عشر مكالمات "
 "في نص ساعة"
 
-#: templates/public/landing.html:166
+#: templates/public/landing.html:167
 msgid ""
 "I sold this bag on dubizzle. It's free to post an ad and it's super easy and "
 "very fast. I love it"
 msgstr ""
 "أنا بعت شنطتي على دوبيزل والصراحة مفيش أسهل من كده، أنا بجد حبيت دوبيزل"
 
-#: templates/public/landing.html:177
+#: templates/public/landing.html:178
 msgid ""
 "I placed an ad on dubizzle to sell these brand new shoes. I sold them in 15 "
 "minutes"
@@ -3880,7 +3988,7 @@ msgstr ""
 " جبت جزمة جديدة وبعدها حسيت انها مش ستايلي و مبقتش عارف أعمل ايه لحد ما لقيت "
 "دوبيزل فبعتها عليه في ربع ساعة بس"
 
-#: templates/public/landing.html:188
+#: templates/public/landing.html:189
 msgid ""
 "dubizzle helped me sell my second phone. It was completely hassle free! I'll "
 "definitely use this site again"
@@ -3888,38 +3996,38 @@ msgstr ""
 "دوبيزل ساعدني ابيع موبايلي. العملية كانت سهلة جداً وأكيد مش هتردد في استخدامُه "
 "مرة تانيه"
 
-#: templates/public/landing.html:199
+#: templates/public/landing.html:200
 msgid ""
 "I sold my unused laptop on dubizzle! It's easy money for the things you "
 "don't use anymore"
 msgstr ""
 "بعت اللابتوب بتاعي على دوبيزل. عملت فلوس بسهوله من حاجات أنامكُنتش بستخدمها"
 
-#: templates/public/landing.html:213
+#: templates/public/landing.html:214
 msgid "The awesomeness on this page ends here"
 msgstr "خلاص الصفحة خلصت"
 
-#: templates/public/landing.html:214
+#: templates/public/landing.html:215
 msgid "Choose your city above to continue... are you still reading this?"
 msgstr "اختار مدينتك أعلاه للمتابعة...أنت لسه هنا؟"
 
-#: templates/public/landing.html:224
+#: templates/public/landing.html:225
 msgid "Cars in Egypt"
 msgstr "السيارات المستعملة فى مصر"
 
-#: templates/public/landing.html:230
+#: templates/public/landing.html:231
 msgid "Jobs in Egypt"
 msgstr "وظائف في مصر"
 
-#: templates/public/landing.html:236
+#: templates/public/landing.html:237
 msgid "Real Estate for Sale"
 msgstr "عقارات مصر"
 
-#: templates/public/landing.html:242
+#: templates/public/landing.html:243
 msgid "Property for Rent"
 msgstr "شقق للايجار في مصر"
 
-#: templates/public/landing.html:248
+#: templates/public/landing.html:249
 msgid "Items for Sale"
 msgstr "سلع للبيع"
 
@@ -4044,15 +4152,15 @@ msgstr "تصفية البحث"
 msgid "Show all"
 msgstr "اظهر الجميع"
 
-#: templates/search/search.html:42
+#: templates/search/search.html:45
 msgid "in"
 msgstr "في"
 
-#: templates/search/search.html:42
+#: templates/search/search.html:45
 msgid ","
 msgstr "،"
 
-#: templates/search/search.html:55
+#: templates/search/search.html:58
 #, python-format
 msgid ""
 "\n"
@@ -4326,6 +4434,30 @@ msgstr "%(city)s، %(country)s "
 msgid "city"
 msgstr "المدينة"
 
+#~ msgid "At a cinema"
+#~ msgstr "السينما"
+
+#~ msgid "At the Nile Corniche"
+#~ msgstr "كورنيش النيل"
+
+#~ msgid "At a shisha cafe"
+#~ msgstr "قهوة"
+
+#~ msgid "At an airport"
+#~ msgstr "المطار"
+
+#~ msgid "Where is the banker being dropped off?"
+#~ msgstr "سواق التاكسى هياخد الراجل اللى ركب معاه على فين؟"
+
+#~ msgid ""
+#~ "Free Classifieds in %(city_comma_country)s - Jobs in %(city_comma_country)"
+#~ "s, Property & Real Estate For Sale & Rent, Cars for Sale | dubizzle %"
+#~ "(city_comma_country)s"
+#~ msgstr ""
+#~ "اعلانات مبوبة مجانية في %(city_comma_country)s - وظائف شاغرة في %"
+#~ "(city_comma_country)s, عقارات للبيع او الايجار, سيارات للبيع | دوبيزل %"
+#~ "(city_comma_country)s"
+
 #~ msgid "What happened to the girl?"
 #~ msgstr "البنت هيحصلها إيه؟"
 
@@ -4337,76 +4469,6 @@ msgstr "المدينة"
 
 #~ msgid "Come back soon."
 #~ msgstr " قريبا جدا."
-
-#~ msgid "Here's how:"
-#~ msgstr "إزاي؟:"
-
-#~ msgid "Watch the weekly 'Where to?' episode and answer the questions."
-#~ msgstr "شاهد الحلقة الأسبوعية من مسلسل \"على فين؟\" وأجب عن الأسئلة."
-
-#~ msgid ""
-#~ "A new competition runs each time a new episode goes live. Competition "
-#~ "duration is one week."
-#~ msgstr ""
-#~ "ستبدأ كل مسابقة اعتباراً من يوم بث الحلقة إلى ساعة قبل بث الحلقة التالية."
-
-#~ msgid "Selection:"
-#~ msgstr "إختيار الفائزين:"
-
-#~ msgid "All correct entries will enter draw for that week."
-#~ msgstr "سيتم إجراء سحب كل أسبوع على جميع المشاركات الصحيحة."
-
-#~ msgid ""
-#~ "Lucky winners will be announced each week and will be notified via email."
-#~ msgstr "سيتم إعلان أسماء الفائزين كل أسبوع وسيتم إعلامهم عن طريق الإيميل."
-
-#~ msgid "Prize:"
-#~ msgstr "الجائزة:"
-
-#~ msgid ""
-#~ "Each winner wins EGP10,000 to spend on goods as found on egypt.dubizzle."
-#~ "com."
-#~ msgstr ""
-#~ "سيحصل الفائز على ١٠،٠٠٠ جنيه مصري لشراء سلع معروضة على موقع دوبيزل مصر."
-
-#~ msgid ""
-#~ "Winners have one month from the draw date to search egypt.dubizzle.com "
-#~ "and select the items they want."
-#~ msgstr ""
-#~ "سيكون لدى الرابحين شهر واحد اعتباراً من تاريخ السحب لإختيار السلع المرغوبة "
-#~ "على موقع دوبيزل مصر."
-
-#~ msgid "Prizes are not transferable or redeemable for cash."
-#~ msgstr "لا يجوز تحويل الجوائز إلى أشخاص آخرين ولا استبدالها بمبالغ نقدية."
-
-#~ msgid "Participation:"
-#~ msgstr "المشاركة:"
-
-#~ msgid "Participants may enter each weekly competition once."
-#~ msgstr "يحق للمشاركين الإشتراك في المسابقة الأسبوعية مرة واحدة فقط."
-
-#~ msgid "Participants must be at least 18 years of age."
-#~ msgstr "يجب أن يكون عمر المشارك 18 سنة فما فوق."
-
-#~ msgid "Competition is open to residents of Egypt only."
-#~ msgstr "المشاركة في المسابقة مسموحة للمقيمين في مصر فقط."
-
-#~ msgid ""
-#~ "Winners will be required to partake in promotional activities for "
-#~ "dubizzle as necessary."
-#~ msgstr "سيشارك الفائزين في أنشطة ترويجية لصالح دوبيزل وفقاً للمتطلبات."
-
-#~ msgid ""
-#~ "dubizzle employees, any associated business partners/suppliers and their "
-#~ "family members are not eligible to enter the competition."
-#~ msgstr ""
-#~ "لا يحق لموظفي دوبيزل أو أي شركاء أو موردين لها أو أي من أفراد عائلاتهم "
-#~ "المشاركة في المسابقة."
-
-#~ msgid ""
-#~ "dubizzle reserves the right to change the terms and conditions at any "
-#~ "point."
-#~ msgstr "تحتفظ دوبيزل بحق تغيير الشروط والأحكام في أي وقت."
 
 #~ msgid "Get the free dubizzle app for Android"
 #~ msgstr "احصل على تطبيق دوبيزل للاندرويد مجانا"
