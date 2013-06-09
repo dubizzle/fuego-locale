@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-02 12:34+0400\n"
-"PO-Revision-Date: 2013-06-02 14:23+0400\n"
+"POT-Creation-Date: 2013-06-09 10:21+0400\n"
+"PO-Revision-Date: 2013-06-09 10:37+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian "
 "<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
@@ -60,7 +60,7 @@ msgstr "تأكيد كلمة السر"
 msgid "Sorry, please re-enter your password using only English characters."
 msgstr "عفوا, كلمة السر يجب أن تتكون من حروف لاتينية (English)"
 
-#: authentication/forms.py:104 listings/tests.py:1111
+#: authentication/forms.py:104 listings/tests.py:1162
 msgid ""
 "This email address is already in use. Click 'I have a dubizzle password', or "
 "use a different email."
@@ -68,11 +68,11 @@ msgstr ""
 "عنوان الإيميل هذا مسجل لدينا. إختر \"لدي حساب وكلمة سر\" اعلاه أو ادخل عنوان "
 "ايميل آخر."
 
-#: authentication/forms.py:121 listings/tests.py:1159
+#: authentication/forms.py:121 listings/tests.py:1210
 msgid "Huh... that's not the same one! Try again."
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
-#: authentication/forms.py:129 listings/tests.py:1207
+#: authentication/forms.py:129 listings/tests.py:1258
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
 
@@ -183,20 +183,31 @@ msgid "No"
 msgstr "لا"
 
 #: etharrak/conf.py:43
+msgid "Episode 4"
+msgstr "الحلقة الرابعة"
+
+#: etharrak/conf.py:44
+msgid ""
+"As the events interweave on the streets of Cairo, a series of coincidences "
+"brings the characters together in situations of confrontation."
+msgstr ""
+"مع تواصل الاحداث في شوارع القاهرة يتقابلون الشخصيات من خلال مواجهات وصُدف. "
+
+#: etharrak/conf.py:48
 msgid "Episode 3"
 msgstr "الحلقة الثالثة"
 
-#: etharrak/conf.py:44
+#: etharrak/conf.py:49
 msgid ""
 "The characters move forward to resolve their conflicts and gradually reach a "
 "compromise and agreement."
 msgstr "تتواصل الشخصيات في التفاعل والمصالحة للوصول إلى خطوات إيجابية للتقدم."
 
-#: etharrak/conf.py:48
+#: etharrak/conf.py:53
 msgid "Episode 2"
 msgstr "الحلقة الثانية"
 
-#: etharrak/conf.py:49
+#: etharrak/conf.py:54
 msgid ""
 "Conflicts and collisions - the characters' real lives surface in bumpy "
 "situations, only to discover how alike they are."
@@ -204,11 +215,11 @@ msgstr ""
 "تبدأ ظهور معالم الشخصيات من خلال الاحداث والتفاعلات بينهم ويكتشفون أوجه "
 "الشبه حتى بعد الخلاف والصدام الذي يحدث بينهم. "
 
-#: etharrak/conf.py:53
+#: etharrak/conf.py:58
 msgid "Episode 1"
 msgstr "الحلقة الاولى"
 
-#: etharrak/conf.py:54
+#: etharrak/conf.py:59
 msgid ""
 "After an ordinary day on the streets of Cairo, the taxi driver ends up with "
 "two passengers in a rather odd situation."
@@ -216,11 +227,11 @@ msgstr ""
 "ينطلق سائق التاكسي في شوارع القاهرة ويبدأ مشواره اليومي المعتاد وينتهي به "
 "الامر في وضع غريب وطريف."
 
-#: etharrak/conf.py:58
+#: etharrak/conf.py:63
 msgid "'Where to?' episodes coming soon"
 msgstr "قريباً مسلسل \"على فين؟\" "
 
-#: etharrak/conf.py:59
+#: etharrak/conf.py:64
 msgid ""
 "Watch one episode every week and find out how you can enter and win our "
 "competition."
@@ -242,8 +253,8 @@ msgid "Your mobile number"
 msgstr "رقم الموبايل"
 
 #: etharrak/forms/alafein.py:20
-msgid "Will the banker answer Medhat's next call?"
-msgstr "تفتكر موظف البنك هيرد على مكالمة مدحت اللى جايه؟"
+msgid "Will the driver see his son?"
+msgstr "تِفتِكر السائق هيشوف إبنه؟"
 
 #: fuego/egypt_settings.py:77
 msgid "Egypt"
@@ -3081,32 +3092,36 @@ msgstr ""
 "شاهد المسلسل وشارك في المسابقة لفرصة الفوز ب ١٠،٠٠٠ جنيه مصري لشراء سلع "
 "معروضة على دوبيزل."
 
-#: templates/etharrak/home.html:50
+#: templates/etharrak/home.html:39
+msgid "Click here to enter the competition"
+msgstr "شارك في المسابقة هنا."
+
+#: templates/etharrak/home.html:51
 msgid ""
 "Remember how two families used dubizzle to sell things they no longer needed?"
 msgstr "فاكرين الناس إللي إستخدموا دوبيزل علشان يبيعوا الطبلة والحديد؟"
 
-#: templates/etharrak/home.html:51
+#: templates/etharrak/home.html:52
 msgid "Find out who they really are in the 'Where to?' episodes..."
 msgstr "شوفوهم في مسلسل \"على فين؟\"."
 
-#: templates/etharrak/home.html:51
+#: templates/etharrak/home.html:52
 msgid "more"
 msgstr "ارني المزيد"
 
-#: templates/etharrak/home.html:65
+#: templates/etharrak/home.html:66
 msgid "About 'make a CHANGE'"
 msgstr " يعني إيه\"إتحرك\"؟ "
 
-#: templates/etharrak/home.html:66
+#: templates/etharrak/home.html:67
 msgid "What it means to make a change"
 msgstr "هنقوللك ليه عايزين نتحرك"
 
-#: templates/etharrak/home.html:72
+#: templates/etharrak/home.html:73
 msgid "We believe in moving things for the good"
 msgstr "عايزين نبدأ في الحركة والتغيير للأفضل"
 
-#: templates/etharrak/home.html:73
+#: templates/etharrak/home.html:74
 msgid ""
 "After doing extensive research we found out that there are 2.2 billion "
 "unwanted and unused items lying around with no purpose. We believe that "
@@ -3116,7 +3131,7 @@ msgstr ""
 "مستخدمة في بيوتنا كلنا وعايزين نعمل تغيير بسيط ونحرك نفسنا والحاجة إللي "
 "عندنا."
 
-#: templates/etharrak/home.html:74
+#: templates/etharrak/home.html:75
 msgid ""
 "If each one of us sells our unused items, each individual will benefit, the "
 "unused items will find new owners and the local economy will actually "
@@ -3128,7 +3143,7 @@ msgstr ""
 "لزمة هتروح لناس فعلا عايزين يشتروها والحركة التجارية المحلية هتنتعش. تغيير "
 "بسيط جداً بس هيعمل فرق كبير وهيعود عالجميع بالفايدة. "
 
-#: templates/etharrak/home.html:75
+#: templates/etharrak/home.html:76
 msgid ""
 "With this notion in mind, we would like to share with you our expression of "
 "making a change. So join us in and watch this space for videos, songs, "
@@ -3270,42 +3285,46 @@ msgstr ""
 "شاهد حلقات\"على فين؟\" وقوللينا هيحصل إيه في الحلقات اللي جايه وادخل السحب.  "
 "الفائزين هيكسبوا ١٠،٠٠٠ جنيه مصري لشراء سلع معروضة على موقع دوبيزل مصر."
 
-#: templates/etharrak/alafein/competition.html:30
+#: templates/etharrak/alafein/competition.html:23
+msgid "Watch this week's episode here"
+msgstr "شاهد حلقة الاسبوع هنا."
+
+#: templates/etharrak/alafein/competition.html:31
 msgid ""
-"Ooops! Don’t go yet... Check that all fields are complete before leaving "
+"Ooops! Don't go yet... Check that all fields are complete before leaving "
 "this page to make sure you enter the competition."
 msgstr ""
-"رايحين على فين؟... إتأكدوا من إملاء كل البيانات في الصفحة للتأكد من "
-"اللمشاركة في المسابقة."
+"رايحين على فين؟... إتأكدوا من إملاء كل البيانات في الصفحة للتأكد من المشاركة "
+"في المسابقة."
 
-#: templates/etharrak/alafein/competition.html:50
+#: templates/etharrak/alafein/competition.html:51
 msgid "Submit and WIN"
 msgstr "أرسل إجابتك"
 
-#: templates/etharrak/alafein/competition.html:53
+#: templates/etharrak/alafein/competition.html:54
 msgid "Here's how"
 msgstr "إزاي؟"
 
-#: templates/etharrak/alafein/competition.html:54
+#: templates/etharrak/alafein/competition.html:55
 msgid "Watch the weekly 'Where to?' episode and answer the questions above."
 msgstr "شاهد الحلقة الأسبوعية من مسلسل \"على فين؟\" وأكمل النموذج أعلاه."
 
-#: templates/etharrak/alafein/competition.html:55
+#: templates/etharrak/alafein/competition.html:56
 msgid ""
 "A new competition runs from the time a new episode goes live until one hour "
 "before the next episode."
 msgstr ""
 "ستبدأ كل مسابقة اعتباراً من يوم بث الحلقة إلى ساعة قبل بث الحلقة التالية."
 
-#: templates/etharrak/alafein/competition.html:58
+#: templates/etharrak/alafein/competition.html:59
 msgid "Selection"
 msgstr "إختيار الفائزين"
 
-#: templates/etharrak/alafein/competition.html:59
+#: templates/etharrak/alafein/competition.html:60
 msgid "All correct entries will enter the draw for that week."
 msgstr "سيتم إجراء سحب كل أسبوع على جميع المشاركات الصحيحة."
 
-#: templates/etharrak/alafein/competition.html:60
+#: templates/etharrak/alafein/competition.html:61
 msgid ""
 "Once the lucky winner is picked, he/she will be notified by the phone number "
 "used to participate in the competition."
@@ -3313,57 +3332,57 @@ msgstr ""
 "سيتم إعلان أسماء الفائزين كل أسبوع وسيتم إعلامهم عن طريق رقم الهاتف المستخدم "
 "في المشاركة."
 
-#: templates/etharrak/alafein/competition.html:61
+#: templates/etharrak/alafein/competition.html:62
 msgid ""
 "If a winner does not respond, he/she cannot redeem the prize and a new "
 "winner will be chosen instead."
 msgstr "في حالة عدم وجود رد من الفائز،  سيتم استبعاده واختيار فائز آخر عوضا."
 
-#: templates/etharrak/alafein/competition.html:64
+#: templates/etharrak/alafein/competition.html:65
 msgid "Prize"
 msgstr "الجائزة"
 
-#: templates/etharrak/alafein/competition.html:65
+#: templates/etharrak/alafein/competition.html:66
 msgid ""
 "Each winner wins EGP10,000 to spend on goods as found on egypt.dubizzle.com."
 msgstr ""
 "سيحصل الفائز على ١٠،٠٠٠ جنيه مصري لشراء سلع معروضة على موقع دوبيزل مصر."
 
-#: templates/etharrak/alafein/competition.html:66
+#: templates/etharrak/alafein/competition.html:67
 msgid ""
 "Winners have 10 days from the draw date to search egypt.dubizzle.com and "
 "select the items they want."
 msgstr ""
-"سيكون لدى الرابحين ١٠ أيام اعتباراً من تاريخ السحب لإختيار السلع المرغوبة "
-"على موقع دوبيزل مصر."
+"سيكون لدى الرابحين ١٠ أيام اعتباراً من تاريخ السحب لإختيار السلع المرغوبة على "
+"موقع دوبيزل مصر."
 
-#: templates/etharrak/alafein/competition.html:67
+#: templates/etharrak/alafein/competition.html:68
 msgid "Prizes are not transferable or redeemable for cash."
 msgstr "لا يجوز تحويل الجوائز إلى أشخاص آخرين ولا استبدالها بمبالغ نقدية."
 
-#: templates/etharrak/alafein/competition.html:70
+#: templates/etharrak/alafein/competition.html:71
 msgid "Participation"
 msgstr "المشاركة"
 
-#: templates/etharrak/alafein/competition.html:71
+#: templates/etharrak/alafein/competition.html:72
 msgid "Participants may enter each weekly competition once."
 msgstr "يحق للمشاركين الإشتراك في المسابقة الأسبوعية مرة واحدة فقط."
 
-#: templates/etharrak/alafein/competition.html:72
+#: templates/etharrak/alafein/competition.html:73
 msgid "Participants must be at least 18 years of age."
 msgstr "يجب أن يكون عمر المشارك 18 سنة فما فوق."
 
-#: templates/etharrak/alafein/competition.html:73
+#: templates/etharrak/alafein/competition.html:74
 msgid "Competition is open to residents of Egypt only."
 msgstr "المشاركة في المسابقة مسموحة للمقيمين في مصر فقط."
 
-#: templates/etharrak/alafein/competition.html:74
+#: templates/etharrak/alafein/competition.html:75
 msgid ""
 "Winners will be required to partake in promotional activities for dubizzle "
 "as necessary."
 msgstr "سيشارك الفائزين في أنشطة ترويجية لصالح دوبيزل وفقاً للمتطلبات."
 
-#: templates/etharrak/alafein/competition.html:75
+#: templates/etharrak/alafein/competition.html:76
 msgid ""
 "dubizzle employees, any associated business partners/suppliers and their "
 "family members are not eligible to enter the competition."
@@ -3371,7 +3390,7 @@ msgstr ""
 "لا يحق لموظفي دوبيزل أو أي شركاء أو موردين لها أو أي من أفراد عائلاتهم "
 "المشاركة في المسابقة."
 
-#: templates/etharrak/alafein/competition.html:77
+#: templates/etharrak/alafein/competition.html:78
 msgid ""
 "dubizzle reserves the right to change the terms and conditions at any point."
 msgstr "تحتفظ دوبيزل بحق تغيير الشروط والأحكام في أي وقت."
@@ -4452,6 +4471,9 @@ msgstr "%(city)s، %(country)s "
 msgid "city"
 msgstr "المدينة"
 
+#~ msgid "Will the banker answer Medhat's next call?"
+#~ msgstr "تفتكر موظف البنك هيرد على مكالمة مدحت اللى جايه؟"
+
 #~ msgid "Tabla Guy"
 #~ msgstr "الطبّال"
 
@@ -4502,9 +4524,6 @@ msgstr "المدينة"
 
 #~ msgid "What happened to the girl?"
 #~ msgstr "البنت هيحصلها إيه؟"
-
-#~ msgid "Where did the driver go?"
-#~ msgstr "سائق التاكسي رايح فين بعد كده؟"
 
 #~ msgid "Our competition begins when episode 1 goes live."
 #~ msgstr "ستبدأ المسابقة مع الحلقة الاولى..."
