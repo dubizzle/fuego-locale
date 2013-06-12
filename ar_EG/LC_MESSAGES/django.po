@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-10 16:38+0400\n"
-"PO-Revision-Date: 2013-06-10 18:20+0400\n"
+"POT-Creation-Date: 2013-06-12 15:47+0400\n"
+"PO-Revision-Date: 2013-06-12 16:21+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian "
 "<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
@@ -115,10 +115,10 @@ msgstr ""
 msgid "Please enter the correct Username and Password combination."
 msgstr "البيانات التي ادخلتها غير صحيحة."
 
-#: buysell/forms.py:13
-#, fuzzy
-msgid "Choose city"
-msgstr "إختر المدينة"
+#: buysell/forms.py:13 templates/listings/manage_listing.html:147
+#: templates/listings/snippets/_form.html:112 templates/public/landing.html:63
+msgid "Choose your city"
+msgstr "اختر مدينتك"
 
 #: buysell/forms.py:15 templates/buysell/index.html:100
 #: templates/public/landing.html:95 templates/public/landing.html.py:122
@@ -3032,7 +3032,8 @@ msgid ""
 "                    "
 msgstr ""
 "\n"
-"موقع المبوّبات رقم ١ في مصر- أكثر من <span id=\"counter\">507384</span> إعلان\n"
+"موقع المبوّبات رقم ١ في مصر- أكثر من <span id=\"counter\">507384</span> "
+"إعلان\n"
 
 #: templates/buysell/index.html:55
 msgid "Got something to sell?"
@@ -3044,7 +3045,7 @@ msgstr "ضيف إعلانك مجاناً"
 
 #: templates/buysell/index.html:72
 msgid "Want to buy something?"
-msgstr "إختار مدينة وشوف فيها إيه للبيع."
+msgstr "إختار مدينة وشوف فيها إيه للبيع"
 
 #: templates/buysell/index.html:109 templates/public/landing.html:105
 msgid "Coming Soon"
@@ -3067,11 +3068,12 @@ msgid ""
 "Watch how one item can be annoying for some people and a whole lot of fun "
 "for others."
 msgstr ""
+".إتفرج على إعلان دوبيزل وشوف إزاي نفس الحاجة ممكن تكون مزعجة لناس وتبسط ناس "
+"تانية"
 
 #: templates/buysell/index.html:142
-#, fuzzy
 msgid "Why use dubizzle?"
-msgstr "ما هو موقع دوبيزل؟"
+msgstr "فوائد دوبيزل السبع"
 
 #: templates/buysell/index.html:150
 msgid "Make money"
@@ -3671,11 +3673,6 @@ msgstr ""
 "(مثلاً: الحجم والأبعاد)<br/>- إشرح أهم المواصفات والمعلومات (مثلاً: الضمان إن "
 "وجد) يرجى عدم اضافة عنوان إيميلك داخل الوصف وهذا لحماية خصوصيتك."
 
-#: templates/listings/manage_listing.html:147
-#: templates/listings/snippets/_form.html:112 templates/public/landing.html:63
-msgid "Choose your city"
-msgstr "اختر مدينتك"
-
 #: templates/listings/manage_listing.html:197
 #: templates/listings/snippets/_form.html:162
 msgid "Mobile Number"
@@ -4030,7 +4027,8 @@ msgstr ""
 msgid ""
 "I sold this bag on dubizzle. It's free to post an ad and it's super easy and "
 "very fast. I love it!"
-msgstr "أنا بعت شنطتي على دوبيزل والصراحة مفيش أسهل من كده، أنا بجد حبيت دوبيزل"
+msgstr ""
+"أنا بعت شنطتي على دوبيزل والصراحة مفيش أسهل من كده، أنا بجد حبيت دوبيزل"
 
 #: templates/public/_testemonials.html:47
 msgid ""
@@ -4045,8 +4043,8 @@ msgid ""
 "dubizzle helped me sell my second phone. It was completely hassle free! I'll "
 "definitely use this site again."
 msgstr ""
-"دوبيزل ساعدني ابيع موبايلي. العملية كانت سهلة جداً وأكيد مش هتردد في "
-"استخدامُه مرة تانيه"
+"دوبيزل ساعدني ابيع موبايلي. العملية كانت سهلة جداً وأكيد مش هتردد في استخدامُه "
+"مرة تانيه"
 
 #: templates/public/_testemonials.html:69
 msgid ""
@@ -4170,7 +4168,6 @@ msgid "ads ya basha!"
 msgstr "إعلان يا باشا!"
 
 #: templates/public/landing.html:59
-#, fuzzy
 msgid "Buy. Sell. Anything!"
 msgstr "بيع واشتري أي حاجة"
 
@@ -4572,6 +4569,10 @@ msgstr[5] ""
 #, python-format
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
+
+#, fuzzy
+#~ msgid "Choose city"
+#~ msgstr "إختر المدينة"
 
 #~ msgid "The awesomeness on this page ends here"
 #~ msgstr "خلاص الصفحة خلصت"
