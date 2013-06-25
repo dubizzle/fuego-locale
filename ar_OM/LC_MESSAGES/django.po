@@ -1551,9 +1551,8 @@ msgstr ""
 "حرج في السؤال!"
 
 #: fuego/forms/fields.py:37
-#, fuzzy
 msgid "Enter a LangDict value."
-msgstr "نوع الاستفسار"
+msgstr ""
 
 #: fuego/forms/fields.py:88
 msgid "Enter a list of values."
@@ -1573,9 +1572,9 @@ msgid "%(currency)s %(price)s"
 msgstr "%(currency)s %(price)s"
 
 #: listings/formatters.py:44
-#, fuzzy, python-format
+#, python-format
 msgid "%(area)s %(unit)s"
-msgstr "%(currency)s %(price)s"
+msgstr "%(area)s %(unit)s"
 
 #: listings/formatters.py:59
 #, python-format
@@ -1588,14 +1587,14 @@ msgid "%(car_make)s %(car_model)s"
 msgstr ""
 
 #: listings/formatters.py:82
-#, fuzzy, python-format
+#, python-format
 msgid "%(kilometers)s km"
-msgstr "كيلومترات"
+msgstr "%(kilometers)s كم"
 
 #: listings/formatters.py:93
-#, fuzzy, python-format
+#, python-format
 msgid "%(bedrooms)s bedrooms"
-msgstr "عدد غرف النوم"
+msgstr "%(bedrooms)s نوم"
 
 #: listings/forms.py:41
 msgid "Upload CV"
@@ -1731,26 +1730,25 @@ msgid "Great ride, how far has it gone?"
 msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
 
 #: listings/forms.py:371
-#, fuzzy
 msgid "Please specify the model"
-msgstr "من فضلك راجع وصحح الاخطاء أدناه. "
+msgstr "الرجاء تحديد الموديل"
 
 #: listings/forms.py:372 listings/models.py:374 listings/models.py:378
 msgid "Model"
-msgstr ""
+msgstr "موديل"
 
 #: listings/forms.py:379
 msgid "Please specify the engine size"
-msgstr ""
+msgstr "الرجاء تحديد سعة المحرك"
 
 #: listings/forms.py:380 listings/models.py:375
 msgid "Engine Size"
-msgstr ""
+msgstr "سعة المحرك"
 
 #: listings/forms.py:413
 #, python-format
 msgid "Area (%(unit)s)"
-msgstr ""
+msgstr "المساحة (%(unit)s)"
 
 #: listings/forms.py:451 listings/forms.py:485 listings/models.py:490
 #: listings/models.py:498 listings/models.py:562 listings/models.py:569
@@ -1763,48 +1761,45 @@ msgstr "حدثنا عن عقارك. كم عدد غرف النوم؟"
 
 #: listings/forms.py:457 listings/forms.py:491 listings/models.py:491
 #: listings/models.py:563
-#, fuzzy
 msgid "Bathrooms"
-msgstr "غرف نوم"
+msgstr "الحمامات"
 
 #: listings/forms.py:458 listings/forms.py:492
-#, fuzzy
 msgid "Nice property, but how many bathrooms?"
-msgstr "حدثنا عن عقارك. كم عدد غرف النوم؟"
+msgstr "الرجاء تحديد عدد الحمامات"
 
 #: listings/forms.py:514
 msgid "Please specify the experience level"
-msgstr ""
+msgstr "الرجاء تحديد مستوى الخبرة"
 
 #: listings/forms.py:515 listings/models.py:604 listings/models.py:641
 msgid "Experience Level"
-msgstr ""
+msgstr "مستوى الخبرة"
 
 #: listings/forms.py:522
-#, fuzzy
 msgid "Please specify the education level"
-msgstr "من فضلك اكتب الحروف بشكل صحيح"
+msgstr "الرجاء تحديد المستوى التعليمي"
 
 #: listings/forms.py:523 listings/models.py:603 listings/models.py:640
 msgid "Education Level"
-msgstr ""
+msgstr "المستوى التعليمي"
 
 #: listings/forms.py:530
 msgid "Please specify the employment type"
-msgstr ""
+msgstr "الرجاء تحديد نوع العمل"
 
 #: listings/forms.py:531 listings/models.py:605 listings/models.py:610
 #: listings/models.py:642 listings/models.py:646
 msgid "Employment Type"
-msgstr ""
+msgstr "نوع العمل"
 
 #: listings/forms.py:536 listings/models.py:606 listings/models.py:643
 msgid "Skills"
-msgstr ""
+msgstr "المهارات"
 
 #: listings/forms.py:549 listings/models.py:607
 msgid "Compensation"
-msgstr ""
+msgstr "الراتب"
 
 #: listings/models.py:124 listings/models.py:602 listings/models.py:639
 msgid "Posted On"
@@ -1830,12 +1825,12 @@ msgstr "كيلومترات"
 #: listings/models.py:497 listings/models.py:524 listings/models.py:529
 #: listings/models.py:564 listings/models.py:570
 msgid "Area"
-msgstr ""
+msgstr "المساحة"
 
 #: listings/models.py:454 listings/models.py:494 listings/models.py:526
 #: listings/models.py:566
 msgid "Amenities"
-msgstr ""
+msgstr "الكماليات"
 
 #: public/forms.py:14
 msgid "Enter a subject please"
