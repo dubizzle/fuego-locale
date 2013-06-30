@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-27 18:25+0400\n"
-"PO-Revision-Date: 2013-06-25 17:39+0400\n"
+"PO-Revision-Date: 2013-06-30 17:55+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/"
-"projects/fuego/fuego/fr_TN/>\n"
+"Language-Team: French - Tunisian "
+"<http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_TN/>\n"
+"Language: fr_TN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr_TN\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Weblate 1.3\n"
 
@@ -1433,6 +1433,8 @@ msgid ""
 "How dubizzle works - Guide on how to use dubizzle for free online classified "
 "ads | dubizzle %(country)s"
 msgstr ""
+"Comment dubizzle fonctionne - guide d'ulilisation de dubizzle pour les "
+"petites annonces gratuites en ligne | dubizzle %(country)s"
 
 #: fuego/meta_settings.py:382
 #, python-format
@@ -1440,6 +1442,9 @@ msgid ""
 "Here's a guide on how to use dubizzle to sell, buy and find anything in your "
 "city. Free classified ads in %(country)s"
 msgstr ""
+"Voici un petit guide sur la façon d'utiliser dubizzle pour acheter, vendre "
+"et trouver n'importe quoi dans votre ville. Petites annonces gratuites en %"
+"(country)s"
 
 #: fuego/meta_settings.py:385
 #, python-format
@@ -1447,6 +1452,8 @@ msgid ""
 "Why use dubizzle - Post your classified ad for FREE and make money instantly "
 "| dubizzle %(country)s"
 msgstr ""
+"Pourquoi utiliser dubizzle - Publiez gratuitemenet votre annonce et faites "
+"de l'argent instantanément | dubizzle %(country)s"
 
 #: fuego/meta_settings.py:386
 msgid ""
@@ -1454,6 +1461,9 @@ msgid ""
 "steps. Find and connect with thousands of buyers in your city and "
 "neighborhood."
 msgstr ""
+"transformer vos objets inutilisés en argent en plaçant une annonce gratuite "
+"en quelques étapes simples. Trouver et se connecter avec des milliers "
+"d'acheteurs dans votre ville et quartier."
 
 #: fuego/meta_settings.py:389
 #, python-format
@@ -1461,6 +1471,8 @@ msgid ""
 "How dubizzle works - Guide on how to use dubizzle for free online "
 "classifieds ads | dubizzle %(country)s"
 msgstr ""
+"Comment dubizzle fonctionne - guide d'ulilisation de dubizzle pour les "
+"petites annonces gratuites en ligne | dubizzle %(country)s"
 
 #: fuego/meta_settings.py:390
 #, python-format
@@ -1468,6 +1480,9 @@ msgid ""
 "Here's a guide on how to use dubizzle to sell, buy, find anything in your "
 "city. Free classified ads in %(country)s"
 msgstr ""
+"Voici un petit guide sur la façon d'utiliser dubizzle pour acheter, vendre "
+"et trouver n'importe quoi dans votre ville. Petites annonces gratuites en %"
+"(country)s"
 
 #: fuego/meta_settings.py:393
 #, python-format
@@ -1475,6 +1490,8 @@ msgid ""
 "How to post an ad - Best practices on writing effective ads for dubizzle | "
 "dubizzle %(country)s"
 msgstr ""
+"Comment publier une annonce - Les meilleures pratiques sur la rédaction "
+"d'annonces efficaces pour dubizzle | dubizzle %(country)s"
 
 #: fuego/meta_settings.py:394
 msgid ""
@@ -1482,11 +1499,14 @@ msgid ""
 "your items for sale on dubizzle. Share your ad on social networks to get "
 "more potential buyers."
 msgstr ""
+"Apprendre à rédiger des titres et des descriptions convainquantes et comment "
+" prendre des photos de vos articles à vendre sur dubizzle. Partagez votre "
+"annonce sur les réseaux sociaux pour trouver plus d'acheteurs potentiels."
 
 #: fuego/meta_settings.py:397
 #, python-format
 msgid "Excellent classified ads - badass dubizzle ads | dubizzle %(country)s"
-msgstr ""
+msgstr "Excellentes petites annonces sur dubizzle | dubizzle %(country)s"
 
 #: fuego/meta_settings.py:398
 msgid ""
@@ -1494,6 +1514,10 @@ msgid ""
 "sale, property and more. Learn from dubizzlers on how to write the most "
 "effective classified ads on dubizzle."
 msgstr ""
+"Consultez quelques-unes des meilleures annonces publiés sur dubizzle dans "
+"les catégories automobiles, articles à vendre, propriétés et encore plus . "
+"Apprenez d'apres les dubizzlers comment rédiger les annonces les plus "
+"efficaces."
 
 #: fuego/shared_settings.py:204
 msgid "Unknown"
@@ -3087,7 +3111,7 @@ msgstr ""
 #: templates/search/search_listings.html:60
 #: templates/search/search_listings.html:64
 msgid "Load more"
-msgstr "Charger davantage"
+msgstr "Charger d'avantage"
 
 #: templates/public/landing.html:70 templates/public/landing.html.py:72
 msgid "Place your free ad"
@@ -3224,31 +3248,29 @@ msgstr "Aucun résultat..."
 #: templates/sell/how-it-works.html:16 templates/sell/how-it-works.html:23
 #: templates/sell/how-to-post-ad.html:14 templates/sell/why-dubizzle.html:15
 msgid "How it works"
-msgstr ""
+msgstr "Comment utiliser dubizzle?"
 
 #: templates/sell/badass-classifieds-ads.html:21
 #: templates/sell/badass-classifieds-ads.html:29
 #: templates/sell/how-it-works.html:55 templates/sell/how-it-works.html:58
 #: templates/sell/how-it-works.html:59 templates/sell/how-to-post-ad.html:128
 msgid "Check out these badass dubizzle ads"
-msgstr ""
+msgstr "Consultez ces annonces qui décoiffent sur dubizzle"
 
 #: templates/sell/badass-classifieds-ads.html:30
 #: templates/sell/how-it-works.html:61
 msgid "Why we like these ads so much"
-msgstr ""
+msgstr "Pourquoi nous aimons tellement ces annonces."
 
 #: templates/sell/badass-classifieds-ads.html:45
-#, fuzzy
 msgid "Car for sale"
-msgstr "Immobilier à vendre"
+msgstr "Voiture a vendre"
 
 #: templates/sell/badass-classifieds-ads.html:47
 #: templates/sell/badass-classifieds-ads.html:87
 #: templates/sell/badass-classifieds-ads.html:127
 #: templates/sell/how-to-post-ad.html:64 templates/sell/how-to-post-ad.html:84
 #: templates/sell/how-to-post-ad.html:105
-#, fuzzy
 msgid "Show me"
 msgstr "Afficher tout"
 
@@ -3256,179 +3278,200 @@ msgstr "Afficher tout"
 #: templates/sell/badass-classifieds-ads.html:101
 #: templates/sell/badass-classifieds-ads.html:141
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: templates/sell/badass-classifieds-ads.html:63
 msgid "A brief but descriptive title that shows what the ad is all about."
 msgstr ""
+"Le titre inclut le modèle de la voiture, l’année et la puissance moteur."
 
 #: templates/sell/badass-classifieds-ads.html:67
 #: templates/sell/badass-classifieds-ads.html:107
 #: templates/sell/badass-classifieds-ads.html:147
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: templates/sell/badass-classifieds-ads.html:69
 msgid "The photos show many angles, including the interior and exterior body."
 msgstr ""
+"L’eclairage des photos est parfait - ni trop sombre, ni trop brillant et on "
+"peut voir la voiture de tous les perspectives, de droite de gauche et de "
+"face."
 
 #: templates/sell/badass-classifieds-ads.html:73
 #: templates/sell/badass-classifieds-ads.html:113
 #: templates/sell/badass-classifieds-ads.html:153
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: templates/sell/badass-classifieds-ads.html:75
 msgid ""
 "The description covers the essentials (e.g. paint, condition, interior "
 "details and more)."
 msgstr ""
+"La description liste en détail les caractéristiques et les avantages de la "
+"voiture en détail."
 
 #: templates/sell/badass-classifieds-ads.html:85
 msgid "Apartment for rent"
-msgstr ""
+msgstr "Appartement a louer"
 
 #: templates/sell/badass-classifieds-ads.html:103
 msgid "The ad title includes the location of the property."
-msgstr ""
+msgstr "Le titre cite l'emplacement exact de la proprieté et la surface."
 
 #: templates/sell/badass-classifieds-ads.html:109
 msgid "The photos show many parts of the apartment (rooms and garden)."
 msgstr ""
+"Les dix photos montrent les différentes parties et chambres de la proprieté."
 
 #: templates/sell/badass-classifieds-ads.html:115
 msgid ""
 "The ad description lists all the crucial property benefits, even the floor "
 "number."
 msgstr ""
+"La description liste tous les benefices de la proprieté même le numero de "
+"l’étage."
 
 #: templates/sell/badass-classifieds-ads.html:125
-#, fuzzy
 msgid "Item for sale"
-msgstr "Immobilier à vendre"
+msgstr "Vélo a vendre"
 
 #: templates/sell/badass-classifieds-ads.html:143
 msgid ""
 "The title clearly states what the item is, its model and year of "
 "manufacturing."
-msgstr ""
+msgstr "Le titre est bref et inclut la marque et le modèle."
 
 #: templates/sell/badass-classifieds-ads.html:149
 msgid "The photo shows most of the items listed (mouse, manuals, discs, etc.)."
-msgstr ""
+msgstr "Les images montrent tous les détails du vélo."
 
 #: templates/sell/badass-classifieds-ads.html:155
 msgid ""
 "The description lists the complete specs, including other items that the "
 "buyer will get."
-msgstr ""
+msgstr "La description est bien organisée, detaillée, courte et lisible."
 
 #: templates/sell/how-it-works.html:27
 msgid ""
 "dubizzle is where it all happens - selling, buying, finding awesome deals "
 "and connecting with dubizzlers around you."
 msgstr ""
+"dubizzle c’est là où tout se passe - vendre, acheter, trouver des offres "
+"incroyables et se connecter avec d’autres dubizzleurs autour de vous."
 
 #: templates/sell/how-it-works.html:28
 msgid "Here’s a guide on how to dubizzle."
-msgstr ""
+msgstr "Voici un guide sur comment être un dubizzleur."
 
 #: templates/sell/how-it-works.html:33
-#, fuzzy
 msgid "Why use dubizzle"
-msgstr "Tout sur dubizzle"
+msgstr "Pourquoi utiliser dubizzle ?"
 
 #: templates/sell/how-it-works.html:36 templates/sell/how-it-works.html:37
 #: templates/sell/why-dubizzle.html:18 templates/sell/why-dubizzle.html:26
 msgid "dubizzle 101"
-msgstr ""
+msgstr "dubizzle démarré"
 
 #: templates/sell/how-it-works.html:39 templates/sell/why-dubizzle.html:27
 msgid "Enlighten me"
-msgstr ""
+msgstr "Eclairez-moi !"
 
 #: templates/sell/how-it-works.html:44 templates/sell/how-it-works.html:47
 #: templates/sell/how-it-works.html:48 templates/sell/how-to-post-ad.html:16
 #: templates/sell/how-to-post-ad.html:24 templates/sell/why-dubizzle.html:216
 #: templates/sell/why-dubizzle.html:217
 msgid "The nitty gritty details"
-msgstr ""
+msgstr "Les détails qui comptent"
 
 #: templates/sell/how-it-works.html:50 templates/sell/how-to-post-ad.html:25
 msgid "How to make a badass dubizzle ad"
-msgstr ""
+msgstr "Comment créer une annonce dubizzle qui décoiffe."
 
 #: templates/sell/how-to-post-ad.html:37 templates/sell/how-to-post-ad.html:38
 #: templates/sell/how-to-post-ad.html:77
-#, fuzzy
 msgid "Your ad description"
-msgstr "%(ad_description)s"
+msgstr "La description de votre annonce"
 
 #: templates/sell/how-to-post-ad.html:42 templates/sell/how-to-post-ad.html:43
 #: templates/sell/how-to-post-ad.html:97
-#, fuzzy
 msgid "Your photos"
-msgstr "Ajouter des photos"
+msgstr "Vos photos"
 
 #: templates/sell/how-to-post-ad.html:47
 #: templates/sell/how-to-post-ad.html:118
 msgid "Get social and share your ad "
-msgstr ""
+msgstr "Socialisez-vous et partagez votre annonce"
 
 #: templates/sell/how-to-post-ad.html:48
 msgid "Get social and share your ad"
-msgstr ""
+msgstr "Socialisez-vous et partagez votre annonce"
 
 #: templates/sell/how-to-post-ad.html:59
 msgid "A title should:"
-msgstr ""
+msgstr "Le titre de l'annonce doit:"
 
 #: templates/sell/how-to-post-ad.html:60
 msgid "Capture the buyer's interest and attention; and"
-msgstr ""
+msgstr "- Susciter l'intérêt et l’attention de l'acheteur."
 
 #: templates/sell/how-to-post-ad.html:61
 msgid ""
 "Maximize the chances of your ad appearing in search engine results (e.g. "
 "Google and Bing)."
 msgstr ""
+"- Optimiser les chances d’apparition de votre annonce dans les résultats des "
+"moteurs de recherche (exemple: Google et Bing)."
 
 #: templates/sell/how-to-post-ad.html:63
 msgid "Here's how:"
-msgstr ""
+msgstr "Voici donc comment faire:"
 
 #: templates/sell/how-to-post-ad.html:66
 msgid "Write your title using a maximum of 65 characters."
-msgstr ""
+msgstr "● Écrivez votre titre en utilisant 65 caractères au maximum."
 
 #: templates/sell/how-to-post-ad.html:67
 msgid "Be specific and use relevant keywords to describe your item."
 msgstr ""
+"● Soyez précis et utilisez des mots clés pertinents pour décrire votre "
+"article."
 
 #: templates/sell/how-to-post-ad.html:68
 msgid ""
 "List all specs such as brand name, manufacturer, designer and model number."
 msgstr ""
+"● Listez toutes les caractéristiques techniques telles que le nom de marque, "
+"le fabricant, le concepteur et le numéro du modèle."
 
 #: templates/sell/how-to-post-ad.html:69
 msgid ""
 "Include details such as color, size, weight, condition, quantity or history."
 msgstr ""
+"● Donnez des détails comme la couleur, la taille, le poids, l'état, la "
+"quantité ou l'histoire."
 
 #: templates/sell/how-to-post-ad.html:70
 msgid "Check your spelling and make sure it makes sense to the reader."
 msgstr ""
+"● Vérifiez l'orthographe et assurez-vous que le lecteur comprenne ce que "
+"vous avez écrit."
 
 #: templates/sell/how-to-post-ad.html:71
 msgid ""
 "Avoid unnecessary words that don't describe your item objectively (e.g. "
 "“Excellent”, “Great”, “Buy Now”)."
 msgstr ""
+"● Évitez les mots inutiles qui ne décrivent pas votre article de façon "
+"objective (exemple: « Excellent », « Super », « Acheter immédiatement »)."
 
 #: templates/sell/how-to-post-ad.html:72
 msgid ""
 "Avoid using ALL CAPS. No need to 'shout' - they can hear you loud and clear."
 msgstr ""
+"● Évitez d'utiliser LES MAJUSCULES. Pas besoin de «crier» - on peut vous "
+"entendre cinq sur cinq."
 
 #: templates/sell/how-to-post-ad.html:80
 msgid ""
@@ -3436,311 +3479,369 @@ msgid ""
 "description will play a big part in getting them to pick up the phone and "
 "call you."
 msgstr ""
+"Lorsqu'un acheteur potentiel clique sur le titre de votre annonce pour en "
+"savoir plus, la description de votre annonce va jouer un rôle important pour "
+"l’amener à prendre son téléphone et vous appeler."
 
 #: templates/sell/how-to-post-ad.html:81
 msgid ""
 "Just like your ad title, your ad description also appears in search engine "
 "results when users search for particular items online."
 msgstr ""
+"Tout comme le titre de votre annonce, votre description de l'annonce "
+"apparaît aussi dans les résultats des moteurs de recherche lorsque les "
+"utilisateurs recherchent des articles particuliers sur internet."
 
 #: templates/sell/how-to-post-ad.html:83
 msgid "A few things to keep in mind:"
-msgstr ""
+msgstr "Quelques petites choses à garder à l'esprit:"
 
 #: templates/sell/how-to-post-ad.html:86
 msgid "List your item's features and benefits in detail."
 msgstr ""
+"● Listez les caractéristiques et les avantages de votre article en détail."
 
 #: templates/sell/how-to-post-ad.html:87
 msgid "Keep it well-organized, brief and easy to read."
-msgstr ""
+msgstr "● Gardez la description bien organisée, courte et facile à lire."
 
 #: templates/sell/how-to-post-ad.html:88
 msgid ""
 "Always start with the most important features (e.g. list your car's "
 "condition, mileage and engine type first)."
 msgstr ""
+"● Commencez toujours par les caractéristiques les plus importantes (exemple: "
+"listez l'état de votre véhicule, son kilométrage et le type du moteur en "
+"premier)."
 
 #: templates/sell/how-to-post-ad.html:89
 msgid "Be very descriptive - use around 150-200 words."
-msgstr ""
+msgstr "● Soyez très descriptif - utilisez 150 à 200 mots environ."
 
 #: templates/sell/how-to-post-ad.html:90
 msgid "Put yourself in the buyer's shoes - what would you want to know?"
 msgstr ""
+"● Mettez-vous dans la peau de l'acheteur – qu’est ce que vous voulez savoir?"
 
 #: templates/sell/how-to-post-ad.html:91
 msgid ""
 "Be clear and honest - what will the buyer get/not get if they buy your item."
 msgstr ""
+"● Soyez clair et honnête – qu’est ce que l'acheteur va obtenir/ou pas s'il "
+"achète votre article."
 
 #: templates/sell/how-to-post-ad.html:92
 msgid ""
 "Avoid overusing irrelevant keywords as this will only confuse your potential "
 "buyer."
 msgstr ""
+"● Évitez d'abuser des mots clés non pertinents car cela ne fera "
+"qu’embrouiller votre acheteur potentiel."
 
 #: templates/sell/how-to-post-ad.html:100
 msgid "As cliche as it sounds but a picture truly speaks a thousand words."
 msgstr ""
+"On ne le répétera jamais assez, mais une image vaut vraiment mieux que mille "
+"mots."
 
 #: templates/sell/how-to-post-ad.html:101
 msgid "That's why your dubizzle ads can include up to 10 photos."
 msgstr ""
+"C'est pourquoi vos annonces sur dubizzle peuvent contenir jusqu'à 10 photos."
 
 #: templates/sell/how-to-post-ad.html:102
 msgid ""
 "We know for a fact that the more photos you include in your ad, the better "
 "the chances of selling it. So get snapping!"
 msgstr ""
+"Nous savons pertinemment que plus vous mettez de photos dans votre annonce, "
+"plus vous avez de chances de vendre votre article. Alors, à vos appareils "
+"photos!"
 
 #: templates/sell/how-to-post-ad.html:104
 msgid "A few tips when snapping your photos:"
-msgstr ""
+msgstr "Quelques conseils quand vous prenez vos photos:"
 
 #: templates/sell/how-to-post-ad.html:107
 msgid "Focus on the item and use a plain backdrop/background."
 msgstr ""
+"● Concentrez-vous sur l’article et utilisez un fond/arrière-plan simple."
 
 #: templates/sell/how-to-post-ad.html:108
 msgid "Check your lighting - not too dark and not too bright."
-msgstr ""
+msgstr "● Vérifiez votre éclairage - pas trop sombre ni trop brillant."
 
 #: templates/sell/how-to-post-ad.html:109
 msgid ""
 "Take photos from all possible angles: front, back, sides, top, inside or "
 "bottom. Get the picture?"
 msgstr ""
+"● Prenez des photos sous tous les angles possibles: avant, arrière, côtés, "
+"dessus, à l'intérieur ou en bas. Je vous fais un dessin?"
 
 #: templates/sell/how-to-post-ad.html:110
 msgid "Use high resolution photos for a crisper and clearer image."
 msgstr ""
+"● Utilisez des photos à haute résolution pour obtenir une image plus nette "
+"et plus claire."
 
 #: templates/sell/how-to-post-ad.html:111
 msgid ""
 "Capture all necessary details (e.g. brand name, model number, color, "
 "features, tags, labels and warranty)."
 msgstr ""
+"● Capturez tous les détails nécessaires (exemple: nom de la marque, numéro "
+"de modèle, couleur, caractéristiques, étiquettes, griffes et garantie)."
 
 #: templates/sell/how-to-post-ad.html:112
 msgid "Don't be afraid to show your item defects - buyers appreciate honesty."
 msgstr ""
+"● N’ayez pas peur de montrer les défauts de l’article - les acheteurs "
+"préfèrent l'honnêteté."
 
 #: templates/sell/how-to-post-ad.html:113
 msgid ""
 "Check your photos before uploading. Make sure that the total size of all "
 "photos is under 5MB and are in these formats: .jpeg, .jpg, .bmp, .png."
 msgstr ""
+"● Vérifiez vos photos avant de les poster. Assurez-vous que la taille totale "
+"de toutes les photos est inférieure à 2 MO et que les photos sont sous les "
+"formats suivants: .jpeg, .jpg, .bmp ou .png."
 
 #: templates/sell/how-to-post-ad.html:120
 msgid ""
 "Spread the word - tell everyone about your ad on Facebook and Twitter. It's "
 "free and super easy."
 msgstr ""
+"Faites passer le mot! Parlez de votre annonce à tout le monde sur Facebook "
+"et Twitter à partir de dubizzle. C'est gratuit et très facile."
 
 #: templates/sell/how-to-post-ad.html:128 templates/sell/why-dubizzle.html:215
-#, fuzzy
 msgid "Next up"
 msgstr "Suivant"
 
 #: templates/sell/why-dubizzle.html:31
-#, fuzzy
 msgid "Why use dubizzle?"
-msgstr "Tout sur dubizzle"
+msgstr "Pourquoi utiliser dubizzle ?"
 
 #: templates/sell/why-dubizzle.html:38
 msgid "Make money"
-msgstr ""
+msgstr "Gagner de l’argent"
 
 #: templates/sell/why-dubizzle.html:39
 msgid "Turn your unused items into cash."
-msgstr ""
+msgstr "Transformez tout ce dont vous n'aviez plus besoin en argent."
 
 #: templates/sell/why-dubizzle.html:47
-#, fuzzy
 msgid "Your ad is FREE"
-msgstr "Titre de votre annonce"
+msgstr "Votre annonce est GRATUITE"
 
 #: templates/sell/why-dubizzle.html:48
 msgid "No fees, no hidden agendas and no twists or turns."
-msgstr ""
+msgstr "Pas de frais et pas de comissions - dubizzle est totalement gratuit."
 
 #: templates/sell/why-dubizzle.html:56
 msgid "It's safe"
-msgstr ""
+msgstr "C’est sécurisé."
 
 #: templates/sell/why-dubizzle.html:57
 msgid "No credit cards, no online payments and no money transfers."
 msgstr ""
+"Pas de cartes de crédit, pas de paiements en ligne ni de transferts "
+"d’argent."
 
 #: templates/sell/why-dubizzle.html:65
 msgid "Fast and easy"
-msgstr ""
+msgstr "Rapide et facile"
 
 #: templates/sell/why-dubizzle.html:66
 msgid "A few simple steps to create your ad in 1 page only."
-msgstr ""
+msgstr "Quelques étapes simples pour créer votre annonce en une seule page."
 
 #: templates/sell/why-dubizzle.html:76
 msgid "We're local"
-msgstr ""
+msgstr "Nous sommes près de chez vous"
 
 #: templates/sell/why-dubizzle.html:77
 msgid ""
 "Find and connect with 1000s of buyers and sellers in your city and "
 "neighborhood."
 msgstr ""
+"Trouvez et connectez-vous avec des milliers d’acheteurs dans votre ville et "
+"votre region."
 
 #: templates/sell/why-dubizzle.html:85
 msgid "Access anytime, anywhere"
-msgstr ""
+msgstr "Accéder n’importe où et n’importe quand"
 
 #: templates/sell/why-dubizzle.html:86
 msgid ""
 "Post your ad, update it and browse dubizzle from your computer, smart phone, "
 "tablet or Mars!"
 msgstr ""
+"Publiez votre annonce, modifiez là et consultez dubizzle de votre "
+"ordinateur, smartphone, tablette ou sur la planète Mars!"
 
 #: templates/sell/why-dubizzle.html:94
-#, fuzzy
 msgid "Real support"
-msgstr "Signaler"
+msgstr "Soutien réel"
 
 #: templates/sell/why-dubizzle.html:95
 msgid "Get round-the-clock help in creating and posting your ads."
 msgstr ""
+"Grace a nos modérateurs, obtenez de l’aide à tout moment, pour la création "
+"et l’affichage de vos annonces."
 
 #: templates/sell/why-dubizzle.html:102
-#, fuzzy
 msgid "What is dubizzle anyway?"
-msgstr "J'ai un mot de passe dubizzle"
+msgstr "C’est quoi dubizzle ?"
 
 #: templates/sell/why-dubizzle.html:103
 msgid "A badass website where:"
-msgstr ""
+msgstr "Un site qui décoiffe où:"
 
 #: templates/sell/why-dubizzle.html:106
 msgid "sellers post free ads for their unwanted unused items;"
 msgstr ""
+"Les vendeurs peuvent poster gratuitement des annonces pour des articles "
+"qu’ils n’utilisent plus et qu’ils ne veulent plus."
 
 #: templates/sell/why-dubizzle.html:109
 msgid "buyers search for great deals and bargains; and"
 msgstr ""
+"Les acheteurs peuvent rechercher de superbes offres et de bonnes affaires."
 
 #: templates/sell/why-dubizzle.html:112
 msgid "buyers and sellers connect and trade face-to-face."
 msgstr ""
+"Les acheteurs et les vendeurs peuvent se connecter et négocier face-à-face."
 
 #: templates/sell/why-dubizzle.html:116
 msgid ""
 "dubizzle is not an e-commerce website for promoting commercial businesses or "
 "services."
 msgstr ""
+"dubizzle n’est pas un site de commerce électronique ni de promotion "
+"d’activités et des services commerciaux."
 
 #: templates/sell/why-dubizzle.html:122
 msgid "What are the dubizzle ad posting rules?"
 msgstr ""
+"Quelles sont les règles concernant l’affichage d’annonces sur dubizzle ?"
 
 #: templates/sell/why-dubizzle.html:124
 msgid ""
 "Just follow these simple rules and your ad will be approved to go live "
 "quicker. Our pals in Customer Support manually review and approve each ad."
 msgstr ""
+"Il vous suffit de suivre ces règles simples pour que votre annonce soit "
+"approuvée et affichée plus rapidement. Nos potes dans la section de Soutien "
+"à la Clientèle vont examiner et approuver manuellement chaque annonce."
 
 #: templates/sell/why-dubizzle.html:125
 msgid ""
 "Ads may be edited or deleted if they don't comply with our posting rules."
 msgstr ""
+"Les annonces peuvent être modifiées ou supprimées si elles ne respectent pas "
+"nos règles d’affichage."
 
 #: templates/sell/why-dubizzle.html:127
 msgid "Ad posting no-no's"
-msgstr ""
+msgstr "Les pas de…ni de … concernant l’affichage d’annonces:"
 
 #: templates/sell/why-dubizzle.html:131
 msgid "Placing more than one item in one ad."
-msgstr ""
+msgstr "- Mettre plusieurs articles dans une même annonce."
 
 #: templates/sell/why-dubizzle.html:135
 msgid "Duplicating ads - each ad is to be posted once only."
 msgstr ""
+"- Dupliquer les annonces - chaque annonce doit être postée une seule fois."
 
 #: templates/sell/why-dubizzle.html:139
 msgid "Placing one ad under more than one category."
-msgstr ""
+msgstr "- Placer une même annonce dans plusieurs catégories."
 
 #: templates/sell/why-dubizzle.html:143
 msgid "Including phone numbers, prices or email addresses in the ad title."
 msgstr ""
+"- Inclure des numéros de téléphone, des prix ou des adresses e-mail dans le "
+"titre de l’annonce."
 
 #: templates/sell/why-dubizzle.html:147
 msgid ""
 "Including web links or email addresses in the ad description and/or photos."
 msgstr ""
+"- Inclure des liens internet ou des adresses e-mail dans la description de "
+"l'annonce et/ou dans les photos."
 
 #: templates/sell/why-dubizzle.html:151
 msgid ""
 "Placing items for sale that do not exist in the selected dubizzle country."
 msgstr ""
+"- Placer des articles à vendre qui n'existent pas dans le pays sélectionné "
+"sur dubizzle."
 
 #: templates/sell/why-dubizzle.html:155
 msgid ""
 "Writing your ad in a language other than English, Arabic or French (no "
 "Arabeasy please - e.g. “bayt lelbe3”)."
 msgstr ""
+"- Rédiger votre annonce dans une langue autre que l'anglais, l'arabe ou le "
+"français (Pas de chiffres pour les lettres arabes SVP – Exemple : «bayt "
+"lelbe3»)."
 
 #: templates/sell/why-dubizzle.html:159
 msgid "Using offensive language."
-msgstr ""
+msgstr "- Utiliser un langage injurieux. C’est grave."
 
 #: templates/sell/why-dubizzle.html:163
-#, fuzzy
 msgid "Uploading rotated photos (i.e. upside down)."
-msgstr "Chargement de l'image en cours"
+msgstr "- Poster des photos pivotées (c’est à-dire à l'envers)."
 
 #: templates/sell/why-dubizzle.html:166
 msgid "Not permitted in dubizzle ads:"
-msgstr ""
+msgstr "Ne sont pas autorisés dans les annonces de dubizzle:"
 
 #: templates/sell/why-dubizzle.html:170
 msgid "Social marketing/Forex"
-msgstr ""
+msgstr "* Le marketing social/Forex"
 
 #: templates/sell/why-dubizzle.html:174
 msgid "Guns or weapons"
-msgstr ""
+msgstr "* Pistolets et/ou armes"
 
 #: templates/sell/why-dubizzle.html:178
 msgid "Spying equipment"
-msgstr ""
+msgstr "* Equipements d’espionnage"
 
 #: templates/sell/why-dubizzle.html:182
 msgid "Burning laser"
-msgstr ""
+msgstr "* Laser brûlant"
 
 #: templates/sell/why-dubizzle.html:186
 msgid "Fireworks"
-msgstr ""
+msgstr "* Feux d'artifice"
 
 #: templates/sell/why-dubizzle.html:190
 msgid "Self defence tools (e.g. pepper spray)"
-msgstr ""
+msgstr "* Outils d’autodéfense (exemple: spray au poivre)"
 
 #: templates/sell/why-dubizzle.html:194
 msgid "Body organs (e.g. liver, blood, etc.)"
-msgstr ""
+msgstr "* Organes du corps (exemples: foie, sang, etc.)"
 
 #: templates/sell/why-dubizzle.html:198
 msgid "Wild dogs"
-msgstr ""
+msgstr "* Chiens sauvages"
 
 #: templates/sell/why-dubizzle.html:202
-#, fuzzy
 msgid "Medicine"
-msgstr "Megrine"
+msgstr "* Médicaments"
 
 #: templates/sell/why-dubizzle.html:206
 msgid "Drugs"
-msgstr ""
+msgstr "* Drogues"
 
 #: templates/shared/listings.html:75
 msgid "Oh camel droppings!"
