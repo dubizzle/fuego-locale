@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-27 18:24+0400\n"
-"PO-Revision-Date: 2013-04-10 14:28+0400\n"
+"PO-Revision-Date: 2013-06-30 17:28+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: Arabic - Qatari <http://translate.dubizzlecloud.com/projects/"
-"fuego/fuego/ar_QA/>\n"
+"Language-Team: Arabic - Qatari "
+"<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_QA/>\n"
+"Language: ar_QA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar_QA\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 1.3\n"
@@ -1316,6 +1316,8 @@ msgid ""
 "How dubizzle works - Guide on how to use dubizzle for free online classified "
 "ads | dubizzle %(country)s"
 msgstr ""
+"كيفية إستعمال والإستفادة من موقع دوبيزل - بيع واشترى اى شيء دوبيزل %"
+"(country)s"
 
 #: fuego/meta_settings.py:382
 #, python-format
@@ -1323,13 +1325,15 @@ msgid ""
 "Here's a guide on how to use dubizzle to sell, buy and find anything in your "
 "city. Free classified ads in %(country)s"
 msgstr ""
+"على موقع دوبيزل يمكنك بيع وشراء اى شىء بسهولة وبدون وسيط او عمولة. اكتشف كيف "
+"يعمل موقع دوبيزل | %(country)s"
 
 #: fuego/meta_settings.py:385
 #, python-format
 msgid ""
 "Why use dubizzle - Post your classified ad for FREE and make money instantly "
 "| dubizzle %(country)s"
-msgstr ""
+msgstr "لماذا تستعمل اكبر موقع اعلانات مبوبة فى المنطقة - دوبيزل | %(country)s"
 
 #: fuego/meta_settings.py:386
 msgid ""
@@ -1337,6 +1341,8 @@ msgid ""
 "steps. Find and connect with thousands of buyers in your city and "
 "neighborhood."
 msgstr ""
+"اكتشف لماذا دوبيزل هو موقعك المفضل لبيع وشراء اى شيء. الان تستطيع اضافة "
+"اعلان مجانا لبيع اى شئ على اكبر موقع اعلانات مبوبة فى المنطقة."
 
 #: fuego/meta_settings.py:389
 #, python-format
@@ -1344,6 +1350,8 @@ msgid ""
 "How dubizzle works - Guide on how to use dubizzle for free online "
 "classifieds ads | dubizzle %(country)s"
 msgstr ""
+"كيفية إستعمال والإستفادة من موقع دوبيزل - بيع واشترى اى شيء دوبيزل %"
+"(country)s"
 
 #: fuego/meta_settings.py:390
 #, python-format
@@ -1351,13 +1359,15 @@ msgid ""
 "Here's a guide on how to use dubizzle to sell, buy, find anything in your "
 "city. Free classified ads in %(country)s"
 msgstr ""
+"على موقع دوبيزل يمكنك بيع وشراء اى شىء بسهولة وبدون وسيط او عمولة. اكتشف كيف "
+"يعمل موقع دوبيزل | %(country)s"
 
 #: fuego/meta_settings.py:393
 #, python-format
 msgid ""
 "How to post an ad - Best practices on writing effective ads for dubizzle | "
 "dubizzle %(country)s"
-msgstr ""
+msgstr "كيفية وضع اعلان مجانى على دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:394
 msgid ""
@@ -1365,11 +1375,12 @@ msgid ""
 "your items for sale on dubizzle. Share your ad on social networks to get "
 "more potential buyers."
 msgstr ""
+"هنا دليلك لمعرفة كيفية وضع اعلان مجانى على دوبيزل واضافة وصف وصور لاعلانك."
 
 #: fuego/meta_settings.py:397
 #, python-format
 msgid "Excellent classified ads - badass dubizzle ads | dubizzle %(country)s"
-msgstr ""
+msgstr "اعلانات مميزة على موقع دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:398
 msgid ""
@@ -1377,6 +1388,8 @@ msgid ""
 "sale, property and more. Learn from dubizzlers on how to write the most "
 "effective classified ads on dubizzle."
 msgstr ""
+"اكتشف اكثر الاعلانات المميزة على دوبيزل. هل تريد اضافة اعلانات رائعة على "
+"دوبيزل؟ شاهد هذه الامثلة..."
 
 #: fuego/qatar_settings.py:38
 msgid "Qatar"
@@ -2937,31 +2950,29 @@ msgstr "لا يوجد نتائج..."
 #: templates/sell/how-it-works.html:16 templates/sell/how-it-works.html:23
 #: templates/sell/how-to-post-ad.html:14 templates/sell/why-dubizzle.html:15
 msgid "How it works"
-msgstr ""
+msgstr "إستعمال دوبيزل"
 
 #: templates/sell/badass-classifieds-ads.html:21
 #: templates/sell/badass-classifieds-ads.html:29
 #: templates/sell/how-it-works.html:55 templates/sell/how-it-works.html:58
 #: templates/sell/how-it-works.html:59 templates/sell/how-to-post-ad.html:128
 msgid "Check out these badass dubizzle ads"
-msgstr ""
+msgstr "إخترنا لك هذه الإعلانات على دوبيزل  لنوضح أهمية جودة الإعلان"
 
 #: templates/sell/badass-classifieds-ads.html:30
 #: templates/sell/how-it-works.html:61
 msgid "Why we like these ads so much"
-msgstr ""
+msgstr "ما الذي يميز هذه الإعلانات؟"
 
 #: templates/sell/badass-classifieds-ads.html:45
-#, fuzzy
 msgid "Car for sale"
-msgstr "عقارات للبيع"
+msgstr "سيارة للبيع"
 
 #: templates/sell/badass-classifieds-ads.html:47
 #: templates/sell/badass-classifieds-ads.html:87
 #: templates/sell/badass-classifieds-ads.html:127
 #: templates/sell/how-to-post-ad.html:64 templates/sell/how-to-post-ad.html:84
 #: templates/sell/how-to-post-ad.html:105
-#, fuzzy
 msgid "Show me"
 msgstr "اظهر الجميع"
 
@@ -2969,179 +2980,189 @@ msgstr "اظهر الجميع"
 #: templates/sell/badass-classifieds-ads.html:101
 #: templates/sell/badass-classifieds-ads.html:141
 msgid "1"
-msgstr ""
+msgstr "١"
 
 #: templates/sell/badass-classifieds-ads.html:63
 msgid "A brief but descriptive title that shows what the ad is all about."
-msgstr ""
+msgstr "العنوان مختصر ويتضمن الماركة والموديل والسنة."
 
 #: templates/sell/badass-classifieds-ads.html:67
 #: templates/sell/badass-classifieds-ads.html:107
 #: templates/sell/badass-classifieds-ads.html:147
 msgid "2"
-msgstr ""
+msgstr "٢"
 
 #: templates/sell/badass-classifieds-ads.html:69
 msgid "The photos show many angles, including the interior and exterior body."
-msgstr ""
+msgstr "الصور تظهر عدة زوايا للسيارة بما فيها الهيكل الخارجي والشكل الداخلي."
 
 #: templates/sell/badass-classifieds-ads.html:73
 #: templates/sell/badass-classifieds-ads.html:113
 #: templates/sell/badass-classifieds-ads.html:153
 msgid "3"
-msgstr ""
+msgstr "٣"
 
 #: templates/sell/badass-classifieds-ads.html:75
 msgid ""
 "The description covers the essentials (e.g. paint, condition, interior "
 "details and more)."
 msgstr ""
+"الوصف يتضمن التفاصيل المهمةمثل الدهان، حالة السيارة والتجهيزات الداخلية."
 
 #: templates/sell/badass-classifieds-ads.html:85
 msgid "Apartment for rent"
-msgstr ""
+msgstr "شقة للإيجار"
 
 #: templates/sell/badass-classifieds-ads.html:103
 msgid "The ad title includes the location of the property."
-msgstr ""
+msgstr "العنوان مختصر ويشمل موقع الشقة والمساحة ونوع الإيجار."
 
 #: templates/sell/badass-classifieds-ads.html:109
 msgid "The photos show many parts of the apartment (rooms and garden)."
 msgstr ""
+"المواصفات تشمل جميع التفاصيل الخاصة بالمبنى والمميزات داخل الشقة مثل الديكور "
+"وجهاز إنظار الحريق وتفاصيل أخرى."
 
 #: templates/sell/badass-classifieds-ads.html:115
 msgid ""
 "The ad description lists all the crucial property benefits, even the floor "
 "number."
 msgstr ""
+"المواصفات تشمل جميع التفاصيل الخاصة بالمبنى والمميزات داخل الشقة مثل الديكور "
+"وجهاز إنظار الحريق وتفاصيل أخرى."
 
 #: templates/sell/badass-classifieds-ads.html:125
-#, fuzzy
 msgid "Item for sale"
-msgstr "عقارات للبيع"
+msgstr "نظارة شمس للبيع"
 
 #: templates/sell/badass-classifieds-ads.html:143
 msgid ""
 "The title clearly states what the item is, its model and year of "
 "manufacturing."
 msgstr ""
+"عدد الصور وجودتها. تركيز الصور على الزوايا المختلفة بالإضافة إلى إظهار "
+"الماركة \n"
+"الأصلية."
 
 #: templates/sell/badass-classifieds-ads.html:149
 msgid "The photo shows most of the items listed (mouse, manuals, discs, etc.)."
 msgstr ""
+"عدد الصور وجودتها. تركيز الصور على الزوايا المختلفة بالإضافة إلى إظهار "
+"الماركة \n"
+"الأصلية."
 
 #: templates/sell/badass-classifieds-ads.html:155
 msgid ""
 "The description lists the complete specs, including other items that the "
 "buyer will get."
-msgstr ""
+msgstr "المواصفات بالتفصيل وتشمل سعر الشراء وحالة النظارة."
 
 #: templates/sell/how-it-works.html:27
 msgid ""
 "dubizzle is where it all happens - selling, buying, finding awesome deals "
 "and connecting with dubizzlers around you."
 msgstr ""
+"تعرف على دوبيزل وكيفية الإستفادة منه -  من خلال البيع و الشراء والتواصل مع \n"
+"الآلاف بالقرب منك."
 
 #: templates/sell/how-it-works.html:28
 msgid "Here’s a guide on how to dubizzle."
-msgstr ""
+msgstr "دليل على كيفية إستخدام موقع دوبيزل"
 
 #: templates/sell/how-it-works.html:33
-#, fuzzy
 msgid "Why use dubizzle"
-msgstr "الموقع بالكامل"
+msgstr "فوائد دوبيزل السبع"
 
 #: templates/sell/how-it-works.html:36 templates/sell/how-it-works.html:37
 #: templates/sell/why-dubizzle.html:18 templates/sell/why-dubizzle.html:26
 msgid "dubizzle 101"
-msgstr ""
+msgstr "ما هو دوبيزل؟"
 
 #: templates/sell/how-it-works.html:39 templates/sell/why-dubizzle.html:27
 msgid "Enlighten me"
-msgstr ""
+msgstr "أطلعني ونورني"
 
 #: templates/sell/how-it-works.html:44 templates/sell/how-it-works.html:47
 #: templates/sell/how-it-works.html:48 templates/sell/how-to-post-ad.html:16
 #: templates/sell/how-to-post-ad.html:24 templates/sell/why-dubizzle.html:216
 #: templates/sell/why-dubizzle.html:217
 msgid "The nitty gritty details"
-msgstr ""
+msgstr "كل التفاصيل"
 
 #: templates/sell/how-it-works.html:50 templates/sell/how-to-post-ad.html:25
 msgid "How to make a badass dubizzle ad"
-msgstr ""
+msgstr "كيف تجعل إعلانك رائع"
 
 #: templates/sell/how-to-post-ad.html:37 templates/sell/how-to-post-ad.html:38
 #: templates/sell/how-to-post-ad.html:77
-#, fuzzy
 msgid "Your ad description"
-msgstr "%(ad_description)s"
+msgstr "مواصفات إعلانك"
 
 #: templates/sell/how-to-post-ad.html:42 templates/sell/how-to-post-ad.html:43
 #: templates/sell/how-to-post-ad.html:97
-#, fuzzy
 msgid "Your photos"
-msgstr "اضف صور"
+msgstr "صُور إعلانك"
 
 #: templates/sell/how-to-post-ad.html:47
 #: templates/sell/how-to-post-ad.html:118
 msgid "Get social and share your ad "
-msgstr ""
+msgstr "خليك إجتماعي وشارك إعلانك مع الجميع"
 
 #: templates/sell/how-to-post-ad.html:48
 msgid "Get social and share your ad"
-msgstr ""
+msgstr "خليك إجتماعي وشارك إعلانك مع الجميع"
 
 #: templates/sell/how-to-post-ad.html:59
 msgid "A title should:"
-msgstr ""
+msgstr "الغرض من مُلخص إعلانك هو:"
 
 #: templates/sell/how-to-post-ad.html:60
 msgid "Capture the buyer's interest and attention; and"
-msgstr ""
+msgstr "جذب إنتباه المشتري"
 
 #: templates/sell/how-to-post-ad.html:61
 msgid ""
 "Maximize the chances of your ad appearing in search engine results (e.g. "
 "Google and Bing)."
 msgstr ""
+"زيادة  فرص ظهور الإعلان في  نتائج محركات البحث مثل جوجل وبينج (Google/Bing)."
 
 #: templates/sell/how-to-post-ad.html:63
 msgid "Here's how:"
-msgstr ""
+msgstr "إليك بعض النصائح:"
 
 #: templates/sell/how-to-post-ad.html:66
 msgid "Write your title using a maximum of 65 characters."
-msgstr ""
+msgstr "تأكد أن لا يزيد ملخص إعلانك عن ٦٥ حرف."
 
 #: templates/sell/how-to-post-ad.html:67
 msgid "Be specific and use relevant keywords to describe your item."
-msgstr ""
+msgstr "إستخدم كلمات واضحة ودقيقة."
 
 #: templates/sell/how-to-post-ad.html:68
 msgid ""
 "List all specs such as brand name, manufacturer, designer and model number."
-msgstr ""
+msgstr "أذكر إسم الماركة وتفاصيل الموديل."
 
 #: templates/sell/how-to-post-ad.html:69
 msgid ""
 "Include details such as color, size, weight, condition, quantity or history."
-msgstr ""
+msgstr "ذكر اللون، الحجم، الحالة والكمية (إن وجد)."
 
 #: templates/sell/how-to-post-ad.html:70
 msgid "Check your spelling and make sure it makes sense to the reader."
-msgstr ""
+msgstr "تأكد من مفهوم الجملة والتهجئة - هل هي سهلة وواضحة؟"
 
 #: templates/sell/how-to-post-ad.html:71
 msgid ""
 "Avoid unnecessary words that don't describe your item objectively (e.g. "
 "“Excellent”, “Great”, “Buy Now”)."
-msgstr ""
+msgstr "تأكد من وصف الشيء بموضوعية."
 
 #: templates/sell/how-to-post-ad.html:72
 msgid ""
 "Avoid using ALL CAPS. No need to 'shout' - they can hear you loud and clear."
-msgstr ""
+msgstr "لا داعي لإستخدام الحروف الكبيرة  (ALL CAPS ) في اللغة الإنجليزية."
 
 #: templates/sell/how-to-post-ad.html:80
 msgid ""
@@ -3149,311 +3170,326 @@ msgid ""
 "description will play a big part in getting them to pick up the phone and "
 "call you."
 msgstr ""
+"مُلخص إعلانك يجذب إنتباه المشتري... أما المواصفات فهي تلعب دور هام في إقناع "
+"المشتري بالإتصال بك."
 
 #: templates/sell/how-to-post-ad.html:81
 msgid ""
 "Just like your ad title, your ad description also appears in search engine "
 "results when users search for particular items online."
 msgstr ""
+" الكلمات المستخدمة في مواصفات إعلانك تظهر في نتائج \n"
+"محركات البحث عندما يقوم شخص ما بالبحث عن شيء ما."
 
 #: templates/sell/how-to-post-ad.html:83
 msgid "A few things to keep in mind:"
-msgstr ""
+msgstr "إليك بعض الارشادات عند كتابة مواصفات إعلانك:"
 
 #: templates/sell/how-to-post-ad.html:86
 msgid "List your item's features and benefits in detail."
-msgstr ""
+msgstr "أذكر الملامح والمميزات بالتفصيل."
 
 #: templates/sell/how-to-post-ad.html:87
 msgid "Keep it well-organized, brief and easy to read."
-msgstr ""
+msgstr "تأكد من تسلسل المعلومات  وسهولة إستيعابها."
 
 #: templates/sell/how-to-post-ad.html:88
 msgid ""
 "Always start with the most important features (e.g. list your car's "
 "condition, mileage and engine type first)."
-msgstr ""
+msgstr "أبرز  أهم المواصفات والمميزات في بداية وصفك."
 
 #: templates/sell/how-to-post-ad.html:89
 msgid "Be very descriptive - use around 150-200 words."
-msgstr ""
+msgstr "أكتب وصف دقيق - ننصحك بإكماله في حوالي ١٥٠  - ٢٠٠ كلمة."
 
 #: templates/sell/how-to-post-ad.html:90
 msgid "Put yourself in the buyer's shoes - what would you want to know?"
 msgstr ""
+"فكر من منظور المشتري - ما هي المعلومات التي تهمك والأسئلة التي تخطر ببالك؟"
 
 #: templates/sell/how-to-post-ad.html:91
 msgid ""
 "Be clear and honest - what will the buyer get/not get if they buy your item."
-msgstr ""
+msgstr "خليك واضح وصريح - أذكر كل ما يشمله إعلانك للبائع."
 
 #: templates/sell/how-to-post-ad.html:92
 msgid ""
 "Avoid overusing irrelevant keywords as this will only confuse your potential "
 "buyer."
-msgstr ""
+msgstr "تجنب إستخدام كلمات ليس لها صلة بالشيء الذي تريد بيعه."
 
 #: templates/sell/how-to-post-ad.html:100
 msgid "As cliche as it sounds but a picture truly speaks a thousand words."
 msgstr ""
+" يمكنك صور في إعلانك على دوبيزل لان الصور تلعب دور كبير جدا وتمنح المشتري  "
+"فكرة واقعية وتجيب عن أسئلة كثيرة."
 
 #: templates/sell/how-to-post-ad.html:101
 msgid "That's why your dubizzle ads can include up to 10 photos."
-msgstr ""
+msgstr "يمكنك إضافة ١٠ صور."
 
 #: templates/sell/how-to-post-ad.html:102
 msgid ""
 "We know for a fact that the more photos you include in your ad, the better "
 "the chances of selling it. So get snapping!"
 msgstr ""
+"إستخدم الكاميرا أو الموبايل وقم  بتصوير جوانب كثيرة للشيء الذي تريد بيعه، "
+"وكلما زاد عدد وجودة الصور تزداد فرص البيع."
 
 #: templates/sell/how-to-post-ad.html:104
 msgid "A few tips when snapping your photos:"
-msgstr ""
+msgstr "أفكار ونصائح بسيطة لإلتقاط صور أفضل مهما كانت خبرتك في التصوير:"
 
 #: templates/sell/how-to-post-ad.html:107
 msgid "Focus on the item and use a plain backdrop/background."
-msgstr ""
+msgstr "تأكد من وضوح السلعة على الخلفية المستخدمة."
 
 #: templates/sell/how-to-post-ad.html:108
 msgid "Check your lighting - not too dark and not too bright."
-msgstr ""
+msgstr "تأكد من التصوير في إضاءة واضحة  - أن لا تكون مظلمة أو فاقعة."
 
 #: templates/sell/how-to-post-ad.html:109
 msgid ""
 "Take photos from all possible angles: front, back, sides, top, inside or "
 "bottom. Get the picture?"
-msgstr ""
+msgstr "صوّر جميع الجوانب والزوايا لترسم للمشتري صورة شاملة."
 
 #: templates/sell/how-to-post-ad.html:110
 msgid "Use high resolution photos for a crisper and clearer image."
-msgstr ""
+msgstr "إستخدم صُور عالية الدقة (hi-resolution)."
 
 #: templates/sell/how-to-post-ad.html:111
 msgid ""
 "Capture all necessary details (e.g. brand name, model number, color, "
 "features, tags, labels and warranty)."
 msgstr ""
+"أظهر التفاصيل المهمة مثل الماركة، الموديل، اللون، المميزات و الضمان (إن "
+"وجد)."
 
 #: templates/sell/how-to-post-ad.html:112
 msgid "Don't be afraid to show your item defects - buyers appreciate honesty."
-msgstr ""
+msgstr "أظهر العيوب أو الحالة - لا حرج من الصراحة."
 
 #: templates/sell/how-to-post-ad.html:113
 msgid ""
 "Check your photos before uploading. Make sure that the total size of all "
 "photos is under 5MB and are in these formats: .jpeg, .jpg, .bmp, .png."
 msgstr ""
+"تأكد أن حجم مجمل الصور لا يزيد عن 5MB  وإستخدم ملف من نوع (jpg, jpeg, bmp, "
+"png)."
 
 #: templates/sell/how-to-post-ad.html:120
 msgid ""
 "Spread the word - tell everyone about your ad on Facebook and Twitter. It's "
 "free and super easy."
 msgstr ""
+"أخبر الجميع عن إعلانك في خطوة واحدة من خلال الفيس بوك وتويتر لتزيد فرص "
+"البيع."
 
 #: templates/sell/how-to-post-ad.html:128 templates/sell/why-dubizzle.html:215
-#, fuzzy
 msgid "Next up"
 msgstr "التالي"
 
 #: templates/sell/why-dubizzle.html:31
-#, fuzzy
 msgid "Why use dubizzle?"
-msgstr "الموقع بالكامل"
+msgstr "فوائد دوبيزل السبع"
 
 #: templates/sell/why-dubizzle.html:38
 msgid "Make money"
-msgstr ""
+msgstr "فرصة لكسب المال"
 
 #: templates/sell/why-dubizzle.html:39
 msgid "Turn your unused items into cash."
-msgstr ""
+msgstr "يمكنك كسب المال من بيع الأشياء التي لم تعد تحتاج إليها."
 
 #: templates/sell/why-dubizzle.html:47
-#, fuzzy
 msgid "Your ad is FREE"
-msgstr "موضوع الإعلان"
+msgstr "مجانا وبدون أي رسوم"
 
 #: templates/sell/why-dubizzle.html:48
 msgid "No fees, no hidden agendas and no twists or turns."
-msgstr ""
+msgstr "ضيف إعلانك على دوبيزل مجانا ولن نطلب منك أي رسوم على الإطلاق."
 
 #: templates/sell/why-dubizzle.html:56
 msgid "It's safe"
-msgstr ""
+msgstr "وسيلة آمنة"
 
 #: templates/sell/why-dubizzle.html:57
 msgid "No credit cards, no online payments and no money transfers."
-msgstr ""
+msgstr "بدون كروت إئتمان أو معاملات بنكية أو دفع إلكتروني."
 
 #: templates/sell/why-dubizzle.html:65
 msgid "Fast and easy"
-msgstr ""
+msgstr "سهل وسريع"
 
 #: templates/sell/why-dubizzle.html:66
 msgid "A few simple steps to create your ad in 1 page only."
-msgstr ""
+msgstr "خطوات بسيطة لإضافة إعلانك في صفحة واحدة فقط."
 
 #: templates/sell/why-dubizzle.html:76
 msgid "We're local"
-msgstr ""
+msgstr "بالقرب منك وحواليك"
 
 #: templates/sell/why-dubizzle.html:77
 msgid ""
 "Find and connect with 1000s of buyers and sellers in your city and "
 "neighborhood."
-msgstr ""
+msgstr "تواصل مع آلاف المشتريين في مدينتك ومنطقتك."
 
 #: templates/sell/why-dubizzle.html:85
 msgid "Access anytime, anywhere"
-msgstr ""
+msgstr "في أي وقت ومن أي مكان"
 
 #: templates/sell/why-dubizzle.html:86
 msgid ""
 "Post your ad, update it and browse dubizzle from your computer, smart phone, "
 "tablet or Mars!"
 msgstr ""
+"ضيف إعلانك وقم بتعديله من الكمبيوتر أو الموبايل أو التابلت أو حتى من المريخ!"
 
 #: templates/sell/why-dubizzle.html:94
-#, fuzzy
 msgid "Real support"
-msgstr "بلغ عن هذا الإعلان"
+msgstr "الدعم والمساعدة"
 
 #: templates/sell/why-dubizzle.html:95
 msgid "Get round-the-clock help in creating and posting your ads."
-msgstr ""
+msgstr "فريق دعم دوبيزل يتواصل معك شخصيا لمساعدتك في إضافة إعلانك أينما كنت."
 
 #: templates/sell/why-dubizzle.html:102
-#, fuzzy
 msgid "What is dubizzle anyway?"
-msgstr "لدي حساب وكلمة سر"
+msgstr "من أنتم !؟"
 
 #: templates/sell/why-dubizzle.html:103
 msgid "A badass website where:"
-msgstr ""
+msgstr "موقع إعلانات مبوبة مجانية فريد من نوعه."
 
 #: templates/sell/why-dubizzle.html:106
 msgid "sellers post free ads for their unwanted unused items;"
-msgstr ""
+msgstr "وسيلة لبيع الأشياء غير المستخدمة من خلال إعلانات مجانية."
 
 #: templates/sell/why-dubizzle.html:109
 msgid "buyers search for great deals and bargains; and"
-msgstr ""
+msgstr "وسيلة للبحث عن  وشراء أغراض بأسعار رائعة."
 
 #: templates/sell/why-dubizzle.html:112
 msgid "buyers and sellers connect and trade face-to-face."
-msgstr ""
+msgstr "طريقة مبتكرة للتواصل مع آلاف البائعين والمشتريين مباشرة."
 
 #: templates/sell/why-dubizzle.html:116
 msgid ""
 "dubizzle is not an e-commerce website for promoting commercial businesses or "
 "services."
-msgstr ""
+msgstr "موقع للافراد و ليس للتجارة أو لشركات التسويق والخدمات."
 
 #: templates/sell/why-dubizzle.html:122
 msgid "What are the dubizzle ad posting rules?"
-msgstr ""
+msgstr "ما هي قواعد دوبيزل؟"
 
 #: templates/sell/why-dubizzle.html:124
 msgid ""
 "Just follow these simple rules and your ad will be approved to go live "
 "quicker. Our pals in Customer Support manually review and approve each ad."
 msgstr ""
+"يرجى متابعة هذه القواعد والشروط عند إضافة إعلانك على دوبيزل للموافقة عليه في "
+"أسرع وقت ممكن."
 
 #: templates/sell/why-dubizzle.html:125
 msgid ""
 "Ads may be edited or deleted if they don't comply with our posting rules."
 msgstr ""
+"يقوم فريق دعم دوبيزل بمراجعة كل إعلان قبل نشره وربما يقوم بتعديله أو حذفه أو "
+"إغلاق الحساب  في حال عدم متابعة هذه القواعد."
 
 #: templates/sell/why-dubizzle.html:127
 msgid "Ad posting no-no's"
-msgstr ""
+msgstr "يرجى عدم:"
 
 #: templates/sell/why-dubizzle.html:131
 msgid "Placing more than one item in one ad."
-msgstr ""
+msgstr "الإعلان عن أكثر من سلعة  في  إعلان واحد."
 
 #: templates/sell/why-dubizzle.html:135
 msgid "Duplicating ads - each ad is to be posted once only."
-msgstr ""
+msgstr "إضافة نفس الإعلان أكثر من مرة."
 
 #: templates/sell/why-dubizzle.html:139
 msgid "Placing one ad under more than one category."
-msgstr ""
+msgstr "إضافة نفس الإعلان في أكثر من فئة."
 
 #: templates/sell/why-dubizzle.html:143
 msgid "Including phone numbers, prices or email addresses in the ad title."
-msgstr ""
+msgstr "إضافة رقم تليفون أو عنوان الإيميل أو السعر في مُلخص الإعلان."
 
 #: templates/sell/why-dubizzle.html:147
 msgid ""
 "Including web links or email addresses in the ad description and/or photos."
-msgstr ""
+msgstr "إضافة روابط أو عنوان الإيميل في مواصفات الإعلان أو على الصُور."
 
 #: templates/sell/why-dubizzle.html:151
 msgid ""
 "Placing items for sale that do not exist in the selected dubizzle country."
-msgstr ""
+msgstr "الإعلان عن شيء خارج بلد الموقع."
 
 #: templates/sell/why-dubizzle.html:155
 msgid ""
 "Writing your ad in a language other than English, Arabic or French (no "
 "Arabeasy please - e.g. “bayt lelbe3”)."
 msgstr ""
+"كتابة الاعلان بلغة غير العربية أو الإنجليزية أو الفرنسية - ممنوع إستخدام "
+"الحروف الإنجليزية لكتابة كلمات عربية - \"bayt lelbe3\"."
 
 #: templates/sell/why-dubizzle.html:159
 msgid "Using offensive language."
-msgstr ""
+msgstr "إستخدام لغة أو كلمات خادشة للحياء."
 
 #: templates/sell/why-dubizzle.html:163
-#, fuzzy
 msgid "Uploading rotated photos (i.e. upside down)."
-msgstr "جاري التحميل. الرجاء الإنتظار."
+msgstr "إضافة صور مقلوبة/غير مستقيمة (راساً علي عقب)."
 
 #: templates/sell/why-dubizzle.html:166
 msgid "Not permitted in dubizzle ads:"
-msgstr ""
+msgstr "ممنوع الإعلان عن:"
 
 #: templates/sell/why-dubizzle.html:170
 msgid "Social marketing/Forex"
-msgstr ""
+msgstr "التسويق الشبكي أو الفوريكس"
 
 #: templates/sell/why-dubizzle.html:174
 msgid "Guns or weapons"
-msgstr ""
+msgstr "مسدسات أو أسلحة"
 
 #: templates/sell/why-dubizzle.html:178
 msgid "Spying equipment"
-msgstr ""
+msgstr "أدوات التجسس"
 
 #: templates/sell/why-dubizzle.html:182
 msgid "Burning laser"
-msgstr ""
+msgstr "الليزر الحارق"
 
 #: templates/sell/why-dubizzle.html:186
 msgid "Fireworks"
-msgstr ""
+msgstr "ألالعاب النارية"
 
 #: templates/sell/why-dubizzle.html:190
 msgid "Self defence tools (e.g. pepper spray)"
-msgstr ""
+msgstr "أدوات الدفاع عن النفس"
 
 #: templates/sell/why-dubizzle.html:194
 msgid "Body organs (e.g. liver, blood, etc.)"
-msgstr ""
+msgstr "أعضاء الجسم (الكبد، الدم، إلخ)"
 
 #: templates/sell/why-dubizzle.html:198
 msgid "Wild dogs"
-msgstr ""
+msgstr "كلاب مدربة على الشراسة"
 
 #: templates/sell/why-dubizzle.html:202
-#, fuzzy
 msgid "Medicine"
-msgstr "الرسالة"
+msgstr "الأدوية"
 
 #: templates/sell/why-dubizzle.html:206
 msgid "Drugs"
-msgstr ""
+msgstr "العقاقير المخدرة"
 
 #: templates/shared/listings.html:75
 msgid "Oh camel droppings!"
