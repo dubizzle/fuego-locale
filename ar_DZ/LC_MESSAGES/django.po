@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-27 18:25+0400\n"
-"PO-Revision-Date: 2013-06-30 17:28+0400\n"
+"PO-Revision-Date: 2013-07-01 11:24+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Algerian "
 "<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_DZ/>\n"
@@ -1892,7 +1892,7 @@ msgid ""
 "city. Free classified ads in %(country)s"
 msgstr ""
 "على موقع دوبيزل يمكنك بيع وشراء اى شىء بسهولة وبدون وسيط او عمولة. اكتشف كيف "
-"يعمل موقع دوبيزل."
+"يعمل موقع دوبيزل. %(country)s"
 
 #: fuego/meta_settings.py:385
 #, python-format
@@ -1926,14 +1926,14 @@ msgid ""
 "city. Free classified ads in %(country)s"
 msgstr ""
 "على موقع دوبيزل يمكنك بيع وشراء اى شىء بسهولة وبدون وسيط او عمولة. اكتشف كيف "
-"يعمل موقع دوبيزل."
+"يعمل موقع دوبيزل. %(country)s"
 
 #: fuego/meta_settings.py:393
 #, python-format
 msgid ""
 "How to post an ad - Best practices on writing effective ads for dubizzle | "
 "dubizzle %(country)s"
-msgstr "كيفية وضع اعلان مجانى على دوبيزل"
+msgstr "كيفية وضع اعلان مجانى على دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:394
 msgid ""
@@ -1946,7 +1946,7 @@ msgstr ""
 #: fuego/meta_settings.py:397
 #, python-format
 msgid "Excellent classified ads - badass dubizzle ads | dubizzle %(country)s"
-msgstr "اعلانات مميزة على موقع دوبيزل"
+msgstr "اعلانات مميزة على موقع دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:398
 msgid ""
@@ -3286,7 +3286,7 @@ msgstr "٢"
 
 #: templates/sell/badass-classifieds-ads.html:69
 msgid "The photos show many angles, including the interior and exterior body."
-msgstr "الصور تظهر عدة زوايا للسيارة بما فيها الهيكل الخارجي والشكل الداخلي.\n"
+msgstr "الصور تظهر عدة زوايا للسيارة بما فيها الهيكل الخارجي والشكل الداخلي."
 
 #: templates/sell/badass-classifieds-ads.html:73
 #: templates/sell/badass-classifieds-ads.html:113
@@ -3548,8 +3548,9 @@ msgstr "إستخدم صُور عالية الدقة (hi-resolution)."
 msgid ""
 "Capture all necessary details (e.g. brand name, model number, color, "
 "features, tags, labels and warranty)."
-msgstr "أظهر التفاصيل المهمة مثل الماركة، الموديل، اللون، المميزات و الضمان (إن "
-"وجد).\n"
+msgstr ""
+"أظهر التفاصيل المهمة مثل الماركة، الموديل، اللون، المميزات و الضمان (إن "
+"وجد)."
 
 #: templates/sell/how-to-post-ad.html:112
 msgid "Don't be afraid to show your item defects - buyers appreciate honesty."
@@ -3567,8 +3568,9 @@ msgstr ""
 msgid ""
 "Spread the word - tell everyone about your ad on Facebook and Twitter. It's "
 "free and super easy."
-msgstr "أخبر الجميع عن إعلانك في خطوة واحدة من خلال الفيس بوك وتويتر لتزيد فرص "
-"البيع.\n"
+msgstr ""
+"أخبر الجميع عن إعلانك في خطوة واحدة من خلال الفيس بوك وتويتر لتزيد فرص "
+"البيع."
 
 #: templates/sell/how-to-post-ad.html:128 templates/sell/why-dubizzle.html:215
 msgid "Next up"
@@ -3622,7 +3624,7 @@ msgstr "تواصل مع آلاف المشتريين في مدينتك ومنطق
 
 #: templates/sell/why-dubizzle.html:85
 msgid "Access anytime, anywhere"
-msgstr "في أي وقت ومن أي مكان\n"
+msgstr "في أي وقت ومن أي مكان"
 
 #: templates/sell/why-dubizzle.html:86
 msgid ""
