@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-04 17:26+0400\n"
+"POT-Creation-Date: 2013-08-13 12:05+0400\n"
 "PO-Revision-Date: 2013-07-07 12:54+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: Arabic - Egyptian "
-"<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
+"Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/"
+"projects/fuego/fuego/ar_EG/>\n"
 "Language: ar_EG\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1315,7 +1315,7 @@ msgstr ""
 msgid "Arabic"
 msgstr "عربي"
 
-#: fuego/egypt_settings.py:1541
+#: fuego/egypt_settings.py:1537
 msgid ""
 "Jobs in Egypt, Property & Real Estate For Sale & Rent, Cars for Sale - Free "
 "Classifieds in Egypt | dubizzle Egypt"
@@ -1323,7 +1323,7 @@ msgstr ""
 "وظائف في مصر، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في مصر | "
 "دوبيزل مصر"
 
-#: fuego/egypt_settings.py:1545
+#: fuego/egypt_settings.py:1541
 msgid ""
 "dubizzle is your free and friendly local classifieds website in Egypt. Jobs, "
 "property, real estate, cars and classifieds in Egypt. Post an ad, browse "
@@ -1332,7 +1332,7 @@ msgstr ""
 "وظائف، عقارات، سيارات و اعلانات مبوبة في مصر. اضف اعلان، تصفح اعلانات، بيع "
 "واشتري وأجر على دوبيزل"
 
-#: fuego/egypt_settings.py:1550
+#: fuego/egypt_settings.py:1546
 msgid ""
 "dubizzle Egypt, free classifieds, online classifieds, Egypt classifieds, "
 "free classifieds in Egypt"
@@ -2629,7 +2629,7 @@ msgstr "مجهول"
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/shared_settings.py:950
+#: fuego/shared_settings.py:953
 msgid "m&sup2;"
 msgstr "م٢"
 
@@ -4215,10 +4215,7 @@ msgstr ""
 "آلاف السيارات والوظائف والعقار والمبوبات والكثير الكثير.\n"
 "                    "
 
-#: templates/public/home.html:45 templates/search/search_listings.html:49
-#: templates/search/search_listings.html:53
-#: templates/search/search_listings.html:60
-#: templates/search/search_listings.html:64
+#: templates/public/home.html:45
 msgid "Load more"
 msgstr "ارني المزيد"
 
@@ -4311,6 +4308,25 @@ msgstr "للاستفسارات"
 msgid "For press inquiries or more information please contact:"
 msgstr "للاستفسارات أو لمزيد من المعلومات، يرجى الاتصال ب:"
 
+#: templates/search/_pagination.html:10 templates/search/_pagination.html:20
+msgid "First page"
+msgstr ""
+
+#: templates/search/_pagination.html:15 templates/search/_pagination.html:23
+#, fuzzy
+msgid "Previous"
+msgstr "أرني الإعلانات السابقة"
+
+#: templates/search/_pagination.html:38 templates/search/_pagination.html:48
+#: templates/user_profiles/my_live_listings.html:22
+#: templates/user_profiles/my_pending_listings.html:22
+msgid "Next"
+msgstr "التالي"
+
+#: templates/search/_pagination.html:43 templates/search/_pagination.html:51
+msgid "Last page"
+msgstr ""
+
 #: templates/search/_search_bar_snippet.html:11
 #: templates/search/_search_bar_snippet.html:14
 msgid "Search"
@@ -4397,13 +4413,6 @@ msgstr[5] ""
 "\n"
 "وجدنا <span class=\"red\">%(counter)s</span> اعلان\n"
 "                "
-
-#: templates/search/search_listings.html:19
-#: templates/search/search_listings.html:23
-#: templates/search/search_listings.html:30
-#: templates/search/search_listings.html:34
-msgid "Load previous"
-msgstr "أرني الإعلانات السابقة"
 
 #: templates/search/widget.html:71
 msgid "No results..."
@@ -5087,11 +5096,6 @@ msgstr[5] ""
 "\n"
 "لديك %(counter)s إعلان منشور\n"
 "    "
-
-#: templates/user_profiles/my_live_listings.html:22
-#: templates/user_profiles/my_pending_listings.html:22
-msgid "Next"
-msgstr "التالي"
 
 #: templates/user_profiles/my_pending_listings.html:10
 #, python-format
