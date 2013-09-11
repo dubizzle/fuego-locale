@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-11 16:16+0400\n"
-"PO-Revision-Date: 2013-09-09 15:33+0400\n"
+"PO-Revision-Date: 2013-09-11 16:31+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/"
-"projects/fuego/fuego/ar_EG/>\n"
+"Language-Team: Arabic - Egyptian "
+"<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
 "Language: ar_EG\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1331,71 +1331,60 @@ msgstr ""
 "مبوبة مجانيه في مصر"
 
 #: fuego/egypt_settings.py:1609
-#, fuzzy
 msgid ""
 "Sell your baby items here. Place your free ad below in less than 2 minutes."
 msgstr "بيع مستلزمات أو ملابس الأطفال بأفضل سعر، ضيف إعلانك في أقل من دقيقتين."
 
 #: fuego/egypt_settings.py:1610
-#, fuzzy
 msgid "Sell your camera here. Place your free ad below in less than 2 minutes."
 msgstr "بيع أي نوع كاميرا بأفضل سعر، ضيف إعلانك في أقل من دقيقتين."
 
 #: fuego/egypt_settings.py:1611
-#, fuzzy
 msgid ""
 "Sell your clothes and accessories here. Place your free ad below in less "
 "than 2 minutes."
 msgstr "بيع ملابس و إكسسوارات بأفضل سعر، ضيف إعلانك في أقل من دقيقتين."
 
 #: fuego/egypt_settings.py:1612
-#, fuzzy
 msgid ""
 "Sell your computer or tablet here. Place your free ad below in less than 2 "
 "minutes."
 msgstr "بيع أي نوع كمبيوتر أو تابلت بأفضل سعر، ضيف إعلانك في أقل من دقيقتين."
 
 #: fuego/egypt_settings.py:1613
-#, fuzzy
 msgid ""
 "Sell your electrical home appliances here. Place your free ad below in less "
 "than 2 minutes."
 msgstr "بيع أجهزة منزلية بأفضل سعر، ضيف إعلانك في أقل من دقيقتين."
 
 #: fuego/egypt_settings.py:1614
-#, fuzzy
 msgid ""
 "Sell your furniture here. Place your free ad below in less than 2 minutes."
 msgstr "بيع أثاث منزلي بأفضل سعر، ضيف إعلانك في أقل من دقيقتين."
 
 #: fuego/egypt_settings.py:1615
-#, fuzzy
 msgid ""
 "Sell your jewelry and watches here. Place your free ad below in less than 2 "
 "minutes."
 msgstr "بيع مجوهرات و ساعات بأفضل سعر، ضيف إعلانك في أقل من دقيقتين."
 
 #: fuego/egypt_settings.py:1616
-#, fuzzy
 msgid ""
 "Sell your mobile phone here. Place your free ad below in less than 2 minutes."
 msgstr "بيع أي نوع موبايل بأفضل سعر، ضيف إعلانك في أقل من دقيقتين."
 
 #: fuego/egypt_settings.py:1617
-#, fuzzy
 msgid ""
 "Sell your motorcycle here. Place your free ad below in less than 2 minutes."
 msgstr "بيع أي نوع موتوسيكل بأفضل سعر، ضيف إعلانك في أقل من دقيقتين."
 
 #: fuego/egypt_settings.py:1618
-#, fuzzy
 msgid ""
 "Sell your musical instrument here. Place your free ad below in less than 2 "
 "minutes."
 msgstr "بيع آلات موسيقية بأفضل سعر، ضيف إعلانك في أقل من دقيقتين."
 
 #: fuego/egypt_settings.py:1619
-#, fuzzy
 msgid "Sell your pet here. Place your free ad below in less than 2 minutes."
 msgstr "بيع أي نوع حيوان أليف بأفضل سعر، ضيف إعلانك في أقل من دقيقتين."
 
@@ -3259,7 +3248,6 @@ msgid "Change country"
 msgstr "تغيير الدولة"
 
 #: templates/buysell/index.html:44
-#, fuzzy
 msgid ""
 "\n"
 "                        Egypt's #1 classifieds: more than <span id=\"counter"
@@ -3267,8 +3255,7 @@ msgid ""
 "                    "
 msgstr ""
 "\n"
-"موقع المبوّبات رقم ١ في مصر- أكثر من <span id=\"counter\">507384</span> "
-"إعلان\n"
+"موقع المبوّبات رقم ١ في مصر- أكثر من <span id=\"counter\">757,498</span> إعلان\n"
 "                    "
 
 #: templates/buysell/index.html:50 templates/public/landing.html:53
@@ -4290,7 +4277,7 @@ msgid "Load more"
 msgstr "ارني المزيد"
 
 #: templates/public/landing.html:46
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "                            Egypt's #1 classifieds: more than <span id="
@@ -4298,7 +4285,7 @@ msgid ""
 "                        "
 msgstr ""
 "\n"
-"موقع المبوّبات رقم ١ في مصر- أكثر من <span id=\"counter\">507384</span> "
+"موقع المبوّبات رقم ١ في مصر- أكثر من <span id=\"counter\">%(count)s</span> "
 "إعلان\n"
 "                    "
 
