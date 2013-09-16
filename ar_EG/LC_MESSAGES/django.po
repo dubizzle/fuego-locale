@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-16 16:25+0400\n"
-"PO-Revision-Date: 2013-09-11 16:31+0400\n"
+"PO-Revision-Date: 2013-09-16 16:39+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/"
-"projects/fuego/fuego/ar_EG/>\n"
+"Language-Team: Arabic - Egyptian "
+"<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
 "Language: ar_EG\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4127,17 +4127,16 @@ msgid ""
 "\n"
 "                Cars in %(CITY_OR_COUNTRY)s\n"
 "            "
-msgstr ""
+msgstr "%(CITY_OR_COUNTRY)s السيارات في"
 
 #: templates/public/_footer_cat_links.html:15
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "                Jobs in %(CITY_OR_COUNTRY)s\n"
 "            "
 msgstr ""
-"\n"
-"اظهر فقط الإعلانات المضافة بال%(CURRENT_LANGUAGE)s\n"
+"%(CITY_OR_COUNTRY)s وظائف خالية في\n"
 "                    "
 
 #: templates/public/_footer_cat_links.html:23
@@ -4146,7 +4145,7 @@ msgid ""
 "\n"
 "                %(CITY_OR_COUNTRY)s Real Estate for Sale\n"
 "            "
-msgstr ""
+msgstr "عقارات في %(CITY_OR_COUNTRY)s للبيع"
 
 #: templates/public/_footer_cat_links.html:31
 #, python-format
@@ -4154,7 +4153,7 @@ msgid ""
 "\n"
 "                Property for Rent in %(CITY_OR_COUNTRY)s\n"
 "            "
-msgstr ""
+msgstr "%(CITY_OR_COUNTRY)s عقارات للإيجار في"
 
 #: templates/public/_footer_cat_links.html:39
 #, python-format
@@ -4162,7 +4161,7 @@ msgid ""
 "\n"
 "                Items for Sale in %(CITY_OR_COUNTRY)s\n"
 "            "
-msgstr ""
+msgstr "%(CITY_OR_COUNTRY)s معروض للبيع في"
 
 #: templates/public/_testemonials.html:13
 #: templates/public/_testemonials.html:25
@@ -4287,7 +4286,7 @@ msgid ""
 "            Free Classifieds in %(CITY_OR_COUNTRY)s - Buy, sell and find "
 "anything\n"
 "        "
-msgstr ""
+msgstr "إعلانات مبوبة في %(CITY_OR_COUNTRY)s - بيع واشتري واعثر على أي شيء "
 
 #: templates/public/home.html:36
 msgid ""
@@ -4306,10 +4305,7 @@ msgid ""
 "                                Thousands of cars, jobs, properties, "
 "classifieds and so much more!\n"
 "                            "
-msgstr ""
-"\n"
-"آلاف السيارات والوظائف والعقار والمبوبات والكثير الكثير.\n"
-"                    "
+msgstr "آلاف الإعلانات المبوبة : سيارات ووظائف وعقارات وغيرها الكثير"
 
 #: templates/public/home.html:51
 msgid "Load more"
