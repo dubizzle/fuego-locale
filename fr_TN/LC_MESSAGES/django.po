@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-29 14:21+0400\n"
+"POT-Creation-Date: 2013-09-16 16:23+0400\n"
 "PO-Revision-Date: 2013-08-29 14:29+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: French - Tunisian "
-"<http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_TN/>\n"
-"Language: fr_TN\n"
+"Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/"
+"projects/fuego/fuego/fr_TN/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr_TN\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Weblate 1.3\n"
 
@@ -21,7 +21,7 @@ msgid "Email address"
 msgstr "Adresse email"
 
 #: authentication/forms.py:18 authentication/forms.py:154
-#: fuego/forms/__init__.py:146 public/forms.py:20
+#: fuego/forms/__init__.py:147 public/forms.py:20
 msgid "Oh no! Your email is invalid. Try again."
 msgstr "Oh non! Votre adresse email n'est pas valide. Réessayez."
 
@@ -55,7 +55,7 @@ msgstr ""
 "Désolé, veuillez entrer de nouveau votre mot de passe en utilisant "
 "uniquement des caractères anglophones."
 
-#: authentication/forms.py:104 listings/tests.py:1517
+#: authentication/forms.py:104 listings/tests.py:1525
 msgid ""
 "This email address is already in use. Click 'I have a dubizzle password', or "
 "use a different email."
@@ -63,11 +63,11 @@ msgstr ""
 "Cette adresse email est déja en cours d'utilisation. Cliquez sur 'J'ai un "
 "mot de passe dubizzle', ou utiliser une autre adresse."
 
-#: authentication/forms.py:121 listings/tests.py:1590
+#: authentication/forms.py:121 listings/tests.py:1598
 msgid "Huh... that's not the same one! Try again."
 msgstr "Oups... ce n'est pas la męme! Réessayez."
 
-#: authentication/forms.py:129 listings/tests.py:1663
+#: authentication/forms.py:129 listings/tests.py:1671
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "Hmm... ça ne marche pas. Réessayez."
 
@@ -105,7 +105,7 @@ msgstr "Votre ancien mot de passe"
 msgid "Ooops, the password you entered is incorrect."
 msgstr "Oups, le mot de passe que vous avez entré est incorrect."
 
-#: authentication/views.py:85
+#: authentication/views.py:87
 msgid "Please enter the correct Username and Password combination."
 msgstr ""
 "Veuillez entrer le bon nom d'utilisateur et le mot de passe correspondant."
@@ -128,8 +128,8 @@ msgid ""
 "%(ad_title)s - Car Parts & Accessories in %(neighbourhood)s %(city)s | "
 "dubizzle %(country)s"
 msgstr ""
-" %(ad_title)s - Pièces et Accessoires d'Automobiles - %(neighbourhood)s "
-"%(city)s | dubizzle %(country)s"
+" %(ad_title)s - Pièces et Accessoires d'Automobiles - %(neighbourhood)s %"
+"(city)s | dubizzle %(country)s"
 
 #: fuego/meta_settings.py:63 fuego/meta_settings.py:69
 #: fuego/meta_settings.py:75 fuego/meta_settings.py:81
@@ -143,8 +143,8 @@ msgstr "%(ad_description)s"
 #, python-format
 msgid "%(ad_title)s, car accessories, cars for sale in %(city_comma_country)s"
 msgstr ""
-" %(ad_title)s, accessoires voiture, voitures à vendre à "
-"%(city_comma_country)s"
+" %(ad_title)s, accessoires voiture, voitures à vendre à %(city_comma_country)"
+"s"
 
 #: fuego/meta_settings.py:68
 #, python-format
@@ -158,8 +158,8 @@ msgstr ""
 #: fuego/meta_settings.py:70
 #, python-format
 msgid ""
-"%(ad_title)s, %(category_leaf)s Cars for Sale in %(city)s, cars for sale "
-"%(country)s"
+"%(ad_title)s, %(category_leaf)s Cars for Sale in %(city)s, cars for sale %"
+"(country)s"
 msgstr ""
 "%(ad_title)s, Voitures %(category_leaf)s à Vendre à %(city)s, voitures en "
 "vente en %(country)s"
@@ -200,29 +200,29 @@ msgstr "%(ad_title)s - %(category_leaf)s | dubizzle %(country)s"
 #: fuego/meta_settings.py:88
 #, python-format
 msgid ""
-"%(ad_title)s, %(category_leaf)s property-for-sale, %(category_leaf)s in "
-"%(country)s"
+"%(ad_title)s, %(category_leaf)s property-for-sale, %(category_leaf)s in %"
+"(country)s"
 msgstr ""
-"%(ad_title)s, %(category_leaf)s, immobilier à vendre %(category_leaf)s en "
-"%(country)s"
+"%(ad_title)s, %(category_leaf)s, immobilier à vendre %(category_leaf)s en %"
+"(country)s"
 
 #: fuego/meta_settings.py:94
 #, python-format
 msgid ""
-"%(ad_title)s, %(category_leaf)s property-for-rent, %(category_leaf)s in "
-"%(country)s"
+"%(ad_title)s, %(category_leaf)s property-for-rent, %(category_leaf)s in %"
+"(country)s"
 msgstr ""
-"%(ad_title)s, %(category_leaf)s immobilier à louer, %(category_leaf)s en "
-"%(country)s"
+"%(ad_title)s, %(category_leaf)s immobilier à louer, %(category_leaf)s en %"
+"(country)s"
 
 #: fuego/meta_settings.py:100
 #, python-format
 msgid ""
-"%(ad_title)s, %(category_leaf)s items-for-sale, %(category_leaf)s in "
-"%(country)s"
+"%(ad_title)s, %(category_leaf)s items-for-sale, %(category_leaf)s in %"
+"(country)s"
 msgstr ""
-"%(ad_title)s, %(category_leaf)s articles à vendre, %(category_leaf)s en "
-"%(country)s"
+"%(ad_title)s, %(category_leaf)s articles à vendre, %(category_leaf)s en %"
+"(country)s"
 
 #: fuego/meta_settings.py:108
 #, python-format
@@ -240,8 +240,8 @@ msgid ""
 "see photos and prices of cars from %(city_comma_country)s"
 msgstr ""
 "Trouver des voitures d'occasion à vendre directement auprès des "
-"propriétaires. Cliquez ici pour voir les photos et les prix des voitures à "
-"%(city_comma_country)s"
+"propriétaires. Cliquez ici pour voir les photos et les prix des voitures à %"
+"(city_comma_country)s"
 
 #: fuego/meta_settings.py:110
 #, python-format
@@ -255,11 +255,11 @@ msgstr ""
 #: fuego/meta_settings.py:114
 #, python-format
 msgid ""
-"Buy & Sell Car Accessories & Auto Parts in %(city_or_country)s | dubizzle "
-"%(country)s"
+"Buy & Sell Car Accessories & Auto Parts in %(city_or_country)s | dubizzle %"
+"(country)s"
 msgstr ""
-"Acheter et Vendre des Accessoires de Voitures & Pièces Automobile en  "
-"%(city_or_country)s | dubizzle %(country)s "
+"Acheter et Vendre des Accessoires de Voitures & Pièces Automobile en  %"
+"(city_or_country)s | dubizzle %(country)s "
 
 #: fuego/meta_settings.py:115
 #, python-format
@@ -268,23 +268,23 @@ msgid ""
 "body kits, engine parts and more in %(city_comma_country)s."
 msgstr ""
 "Achat et vente accessoires de voitures neuves et d'occasion, y compris des "
-"housses de siège, kits de carrosserie, pièces de moteur et plus en "
-"%(city_comma_country)s."
+"housses de siège, kits de carrosserie, pièces de moteur et plus en %"
+"(city_comma_country)s."
 
 #: fuego/meta_settings.py:116
 #, python-format
 msgid ""
-"car parts, auto parts, auto accessories, sale items automobiles to "
-"%(city_or_country)s"
+"car parts, auto parts, auto accessories, sale items automobiles to %"
+"(city_or_country)s"
 msgstr ""
-"accessoires de voitures, pièces auto à vendre, accessoires voitures  "
-"%(city_or_country)s"
+"accessoires de voitures, pièces auto à vendre, accessoires voitures  %"
+"(city_or_country)s"
 
 #: fuego/meta_settings.py:120
 #, python-format
 msgid ""
-"%(category_leaf)s Cars for Sale in %(city_comma_country)s | dubizzle "
-"%(country)s"
+"%(category_leaf)s Cars for Sale in %(city_comma_country)s | dubizzle %"
+"(country)s"
 msgstr ""
 "Véhicules d'Occasion %(category_leaf)s à vendre à %(city_comma_country)s | "
 "dubizzle %(country)s"
@@ -295,15 +295,15 @@ msgid ""
 "Click here to see prices and photos of used %(category_leaf)s cars for sale "
 "in %(city_comma_country)s. Buy directly from owners. No hassles!"
 msgstr ""
-"Cliquez ici pour voir les prix et les photos des voitures d'occasion "
-"%(category_leaf)s à vendre à %(city_comma_country)s. Acheter directement "
+"Cliquez ici pour voir les prix et les photos des voitures d'occasion %"
+"(category_leaf)s à vendre à %(city_comma_country)s. Acheter directement "
 "auprès des propriétaires. Pas de soucis!"
 
 #: fuego/meta_settings.py:122
 #, python-format
 msgid ""
-"Cars %(category_leaf)s, Used cars, %(category_leaf)s for sale, "
-"%(category_leaf)s cars for sale in %(city_or_country)s"
+"Cars %(category_leaf)s, Used cars, %(category_leaf)s for sale, %"
+"(category_leaf)s cars for sale in %(city_or_country)s"
 msgstr ""
 "Voitures %(category_leaf)s d'occasion, voitures %(category_leaf)s à vendre, "
 "voitures %(category_leaf)s à vendre à %(city_or_country)s"
@@ -320,18 +320,18 @@ msgid ""
 "vacancies updated regularly with dubizzle %(country)s. Send your CV for FREE."
 msgstr ""
 "Vous cherchez des offres d'emploi et des emplois en  %(city_or_country)s? "
-"Rechercher des offres d'emploi mises à jour régulièrement avec dubizzle "
-"%(country)s. Envoyer votre CV gratuitement."
+"Rechercher des offres d'emploi mises à jour régulièrement avec dubizzle %"
+"(country)s. Envoyer votre CV gratuitement."
 
 #: fuego/meta_settings.py:128
 #, python-format
 msgid ""
-"jobs in %(city_or_country)s, careers in %(city_or_country)s, "
-"%(city_or_country)s job vacancies, recruitment, employment"
+"jobs in %(city_or_country)s, careers in %(city_or_country)s, %"
+"(city_or_country)s job vacancies, recruitment, employment"
 msgstr ""
 "emplois en  %(city_or_country)s, carrières en  %(city_or_country)s, Offre "
-"d'emplois en  %(city_or_country)s, recruitement  %(city_or_country)s,  "
-"%(city_or_country)s recruitement "
+"d'emplois en  %(city_or_country)s, recruitement  %(city_or_country)s,  %"
+"(city_or_country)s recruitement "
 
 #: fuego/meta_settings.py:132
 #, python-format
@@ -342,8 +342,8 @@ msgstr ""
 #: fuego/meta_settings.py:133
 #, python-format
 msgid ""
-"Looking for %(category_leaf)s jobs in %(city_comma_country)s? Search for "
-"%(category_leaf)s jobs with dubizzle %(city_comma_country)s. Submit your CV "
+"Looking for %(category_leaf)s jobs in %(city_comma_country)s? Search for %"
+"(category_leaf)s jobs with dubizzle %(city_comma_country)s. Submit your CV "
 "for FREE."
 msgstr ""
 "Vous recherchez des postes en %(category_leaf)s à %(city_comma_country)s? "
@@ -353,21 +353,21 @@ msgstr ""
 #: fuego/meta_settings.py:134
 #, python-format
 msgid ""
-"%(category_leaf)s jobs in %(city_or_country)s, %(category_leaf)s careers in "
-"%(city_or_country)s, %(category_leaf)s job vacancies, %(category_leaf)s "
+"%(category_leaf)s jobs in %(city_or_country)s, %(category_leaf)s careers in %"
+"(city_or_country)s, %(category_leaf)s job vacancies, %(category_leaf)s "
 "recruitment, %(category_leaf)s employment"
 msgstr ""
-"Emplois %(category_leaf)s en  %(city_or_country)s, carrières en "
-"%(category_leaf)s en  %(city_or_country)s,  offres d'emploi en "
-"%(category_leaf)s, recrutement %(category_leaf)s,"
+"Emplois %(category_leaf)s en  %(city_or_country)s, carrières en %"
+"(category_leaf)s en  %(city_or_country)s,  offres d'emploi en %"
+"(category_leaf)s, recrutement %(category_leaf)s,"
 
 #: fuego/meta_settings.py:138
 #, python-format
 msgid ""
 "Wanted - Careers & Jobs in %(city_comma_country)s | dubizzle %(country)s"
 msgstr ""
-"Recherché - Carrières & Emplois à %(city_comma_country)s |  dubizzle "
-"%(country)s"
+"Recherché - Carrières & Emplois à %(city_comma_country)s |  dubizzle %"
+"(country)s"
 
 #: fuego/meta_settings.py:139
 #, python-format
@@ -376,8 +376,8 @@ msgid ""
 "experience on dubizzle %(country)s's Free Job Classifieds."
 msgstr ""
 "Vous cherchez à décrocher un emploi à %(city_comma_country)s? Poster vos "
-"compétences et votre expérience sur les petites annonces emploi dubizzle "
-"%(country)s."
+"compétences et votre expérience sur les petites annonces emploi dubizzle %"
+"(country)s."
 
 #: fuego/meta_settings.py:140
 #, python-format
@@ -393,8 +393,8 @@ msgstr ""
 msgid ""
 "Wanted %(category_leaf)s Jobs in %(city_or_country)s | dubizzle %(country)s"
 msgstr ""
-"Recherché - Emplois %(category_leaf)s en  %(city_or_country)s / dubizzle "
-"%(country)s "
+"Recherché - Emplois %(category_leaf)s en  %(city_or_country)s / dubizzle %"
+"(country)s "
 
 #: fuego/meta_settings.py:145
 #, python-format
@@ -403,9 +403,9 @@ msgid ""
 "Your skills and experience on dubizzle %(city_comma_country)s Free Job "
 "Classifieds."
 msgstr ""
-"Vous cherchez à décrocher un emploi %(category_leaf)s à "
-"%(city_comma_country)s? Poster vos compétences et votre expérience sur les "
-"petites annonces emploi dubizzle %(city_comma_country)s."
+"Vous cherchez à décrocher un emploi %(category_leaf)s à %(city_comma_country)"
+"s? Poster vos compétences et votre expérience sur les petites annonces "
+"emploi dubizzle %(city_comma_country)s."
 
 #: fuego/meta_settings.py:146
 #, python-format
@@ -419,11 +419,11 @@ msgstr ""
 #: fuego/meta_settings.py:150
 #, python-format
 msgid ""
-"Real Estate & Property for Sale in %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Real Estate & Property for Sale in %(city_comma_country)s | dubizzle %"
+"(country)s"
 msgstr ""
-"Biens Immobiliers et Proriètés à Vendre à %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Biens Immobiliers et Proriètés à Vendre à %(city_comma_country)s | dubizzle %"
+"(country)s"
 
 #: fuego/meta_settings.py:151
 #, python-format
@@ -438,11 +438,11 @@ msgstr ""
 #: fuego/meta_settings.py:152
 #, python-format
 msgid ""
-"Homes for sale in %(city_or_country)s, properties for sale in "
-"%(city_or_country)s, properties to rent, properties for sale in %(country)s"
+"Homes for sale in %(city_or_country)s, properties for sale in %"
+"(city_or_country)s, properties to rent, properties for sale in %(country)s"
 msgstr ""
-"Immobilier à vendre - %(city_or_country)s, propriètés à vendre - "
-"%(city_or_country)s, %(city_or_country)s, immobilier à louer, propriètés à "
+"Immobilier à vendre - %(city_or_country)s, propriètés à vendre - %"
+"(city_or_country)s, %(city_or_country)s, immobilier à louer, propriètés à "
 "vendre - %(country)s"
 
 #: fuego/meta_settings.py:156
@@ -464,13 +464,13 @@ msgstr ""
 #: fuego/meta_settings.py:158
 #, python-format
 msgid ""
-"house for sale, house for sale, houses %(city_or_country)s villas "
-"%(city_or_country)s, villas for sale in %(city_or_country)s, houses for sale "
+"house for sale, house for sale, houses %(city_or_country)s villas %"
+"(city_or_country)s, villas for sale in %(city_or_country)s, houses for sale "
 "in %(city_or_country)s, sale villas in %(city_or_country)s"
 msgstr ""
-"maison à vendre, villa à vendre, maisons %(city_or_country)s, villas "
-"%(city_or_country)s, villas à vendre %(city_or_country)s, maisons à vendre "
-"%(city_or_country)s, ventes villas %(city_or_country)s"
+"maison à vendre, villa à vendre, maisons %(city_or_country)s, villas %"
+"(city_or_country)s, villas à vendre %(city_or_country)s, maisons à vendre %"
+"(city_or_country)s, ventes villas %(city_or_country)s"
 
 #: fuego/meta_settings.py:162
 #, python-format
@@ -493,22 +493,22 @@ msgstr ""
 #, python-format
 msgid ""
 "apartment for sale, apartment for sale, apartments for %(city_or_country)s, "
-"apartments for sale in %(city_or_country)s, apartments for sale in "
-"%(city_or_country)s, for sale apartments %(city_or_country)s, sale villas in "
-"%(city_or_country)s"
+"apartments for sale in %(city_or_country)s, apartments for sale in %"
+"(city_or_country)s, for sale apartments %(city_or_country)s, sale villas in %"
+"(city_or_country)s"
 msgstr ""
-"appartement à vendre, appartement en vente, appartements "
-"%(city_or_country)s, appartements à vendre %(city_or_country)s, appartements "
-"en vente %(city_or_country)s, ventes appartements %(city_or_country)s"
+"appartement à vendre, appartement en vente, appartements %(city_or_country)"
+"s, appartements à vendre %(city_or_country)s, appartements en vente %"
+"(city_or_country)s, ventes appartements %(city_or_country)s"
 
 #: fuego/meta_settings.py:168
 #, python-format
 msgid ""
-"Commercial Property for Sale - Offices, Shops & Buildings | dubizzle "
-"%(country)s"
+"Commercial Property for Sale - Offices, Shops & Buildings | dubizzle %"
+"(country)s"
 msgstr ""
-"Local Commercial à Vendre - Bureaux, Commerces et Bâtiments | dubizzle "
-"%(country)s"
+"Local Commercial à Vendre - Bureaux, Commerces et Bâtiments | dubizzle %"
+"(country)s"
 
 #: fuego/meta_settings.py:169
 #, python-format
@@ -522,14 +522,14 @@ msgstr ""
 #: fuego/meta_settings.py:170
 #, python-format
 msgid ""
-"commercial property for sale, commercial property for sale in "
-"%(city_or_country)s, commercial buildings, commercial property sale, "
+"commercial property for sale, commercial property for sale in %"
+"(city_or_country)s, commercial buildings, commercial property sale, "
 "commercial property for sale %(city_or_country)s, commercial property for "
 "sale %(city_or_country)s, Commercial for sale %(city_or_country)s, good "
 "business for sale %(city_or_country)s"
 msgstr ""
-"propriété commerciale à vendre, propriété commerciale à vendre "
-"%(city_or_country)s, immeubles commerciaux, propriété commerciale en vente, "
+"propriété commerciale à vendre, propriété commerciale à vendre %"
+"(city_or_country)s, immeubles commerciaux, propriété commerciale en vente, "
 "propriété commerciale en vente %(city_or_country)s, local commercial à "
 "vendre %(city_or_country)s, bien commerciaux à vendre %(city_or_country)s"
 
@@ -544,12 +544,12 @@ msgstr ""
 #, python-format
 msgid ""
 "Buy & sell full towers and  %(city_comma_country)s buildings. Search for "
-"multiple units, building floors, & other commercial properties in "
-"%(city_comma_country)s."
+"multiple units, building floors, & other commercial properties in %"
+"(city_comma_country)s."
 msgstr ""
 "Achetez et vendez vos tours complets et bâtiments à %(city_comma_country)s. "
-"Rechercher plusieurs unités, et autres propriétés commerciales à "
-"%(city_comma_country)s."
+"Rechercher plusieurs unités, et autres propriétés commerciales à %"
+"(city_comma_country)s."
 
 #: fuego/meta_settings.py:176
 #, python-format
@@ -566,8 +566,8 @@ msgstr ""
 #, python-format
 msgid "Plots & Land for Sale in %(city_comma_country)s | dubizzle %(country)s"
 msgstr ""
-"Parcelles de Terre et Terrains à Vendre à %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Parcelles de Terre et Terrains à Vendre à %(city_comma_country)s | dubizzle %"
+"(country)s"
 
 #: fuego/meta_settings.py:181
 #, python-format
@@ -575,8 +575,8 @@ msgid ""
 "Buy & sell plots and land in %(city_comma_country)s. Search for land for "
 "sale directly from the owner."
 msgstr ""
-"Acheter & vendre des parcelles de terre et des terrains à "
-"%(city_comma_country)s. Rechercher des terres à vendre directement auprès du "
+"Acheter & vendre des parcelles de terre et des terrains à %"
+"(city_comma_country)s. Rechercher des terres à vendre directement auprès du "
 "propriétaire."
 
 #: fuego/meta_settings.py:182
@@ -591,17 +591,17 @@ msgstr ""
 #: fuego/meta_settings.py:186
 #, python-format
 msgid ""
-"Real Estate & Property for Rent in %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Real Estate & Property for Rent in %(city_comma_country)s | dubizzle %"
+"(country)s"
 msgstr ""
-"Biens Immobilier et Proriètés à Louer à %(city_comma_country)s /dubizzle "
-"%(country)s "
+"Biens Immobilier et Proriètés à Louer à %(city_comma_country)s /dubizzle %"
+"(country)s "
 
 #: fuego/meta_settings.py:187
 #, python-format
 msgid ""
-"Click here to view listings on real estate & properties for rent in "
-"%(city_comma_country)s - apartments, flats, villas, houses, buildings, and "
+"Click here to view listings on real estate & properties for rent in %"
+"(city_comma_country)s - apartments, flats, villas, houses, buildings, and "
 "commercial properties."
 msgstr ""
 "Cliquez ici pour consulter les annonces sur l'immobilier et les propriétés à "
@@ -612,9 +612,9 @@ msgstr ""
 #, python-format
 msgid ""
 "properties in %(city_or_country)s, properties %(city_or_country)s, "
-"properties to rent, property for rent, property for rent in "
-"%(city_or_country)s, property for rent in %(city_or_country)s, properties "
-"for rent in %(city_or_country)s, renting real estate in %(city_or_country)s"
+"properties to rent, property for rent, property for rent in %"
+"(city_or_country)s, property for rent in %(city_or_country)s, properties for "
+"rent in %(city_or_country)s, renting real estate in %(city_or_country)s"
 msgstr ""
 "immobilier %(city_or_country)s, propriété %(city_or_country)s, immobilier à "
 "louer, propriété à louer, propriété à louer %(city_or_country)s, immobilier "
@@ -631,25 +631,25 @@ msgstr ""
 #: fuego/meta_settings.py:193
 #, python-format
 msgid ""
-"Click here to view listings of houses and villas for rent in "
-"%(city_comma_country)s - private villas, luxury Villas, holiday villas & "
+"Click here to view listings of houses and villas for rent in %"
+"(city_comma_country)s - private villas, luxury Villas, holiday villas & "
 "beach villas."
 msgstr ""
-"Cliquez ici pour consulter les annonces de maisons et villas à louer à "
-"%(city_comma_country)s - villas, les villas de luxe, villas de vacances et "
+"Cliquez ici pour consulter les annonces de maisons et villas à louer à %"
+"(city_comma_country)s - villas, les villas de luxe, villas de vacances et "
 "villas sur la plage."
 
 #: fuego/meta_settings.py:194
 #, python-format
 msgid ""
-"house for rent, villa for rent, homes in %(city_or_country)s, villas "
-"%(city_or_country)s, villas for rent in %(city_or_country)s, houses for rent "
+"house for rent, villa for rent, homes in %(city_or_country)s, villas %"
+"(city_or_country)s, villas for rent in %(city_or_country)s, houses for rent "
 "in %(city_or_country)s rental homes villas in %(city_or_country)s, beautiful "
 "houses for rent at %(city_or_country)s"
 msgstr ""
-"maison à louer, villa à louer, maisons %(city_or_country)s, villas "
-"%(city_or_country)s, villas à louer %(city_or_country)s, maisons à louer "
-"%(city_or_country)s, location maisons & villas à %(city_or_country)s, belles "
+"maison à louer, villa à louer, maisons %(city_or_country)s, villas %"
+"(city_or_country)s, villas à louer %(city_or_country)s, maisons à louer %"
+"(city_or_country)s, location maisons & villas à %(city_or_country)s, belles "
 "maisons à louer %(city_or_country)s"
 
 #: fuego/meta_settings.py:198
@@ -674,18 +674,18 @@ msgid ""
 "apartment for rent, apartment for rent, apartments for %(city_or_country)s "
 "apartments for rent in %(city_or_country)s, apartments in %(city_or_country)s"
 msgstr ""
-"appartement à louer, appartement en location, appartements "
-"%(city_or_country)s, appartements à louer %(city_or_country)s, appartements "
-"en location %(city_or_country)s"
+"appartement à louer, appartement en location, appartements %(city_or_country)"
+"s, appartements à louer %(city_or_country)s, appartements en location %"
+"(city_or_country)s"
 
 #: fuego/meta_settings.py:204
 #, python-format
 msgid ""
-"Commercial Property for Rent - Offices, Shops & Buildings | dubizzle "
-"%(country)s"
+"Commercial Property for Rent - Offices, Shops & Buildings | dubizzle %"
+"(country)s"
 msgstr ""
-"Local commercial à louer - bureaux, commerces et bâtiments | dubizzle "
-"%(country)s"
+"Local commercial à louer - bureaux, commerces et bâtiments | dubizzle %"
+"(country)s"
 
 #: fuego/meta_settings.py:205
 #, python-format
@@ -694,31 +694,31 @@ msgid ""
 "including buildings, towers, multiple units, warehouses, offices, shops, and "
 "labour camps."
 msgstr ""
-"Cliquez ici pour afficher les propriétés commerciaux à louer à "
-"%(city_comma_country)s, y compris les bâtiments, les tours, des unités "
+"Cliquez ici pour afficher les propriétés commerciaux à louer à %"
+"(city_comma_country)s, y compris les bâtiments, les tours, des unités "
 "multiples, des entrepôts, bureaux, commerces, et camps de travail."
 
 #: fuego/meta_settings.py:206
 #, python-format
 msgid ""
-"commercial property to rent, commercial property for rent in "
-"%(city_or_country)s, commercial buildings, commercial property leasing, "
+"commercial property to rent, commercial property for rent in %"
+"(city_or_country)s, commercial buildings, commercial property leasing, "
 "commercial property for rent in %(city_or_country)s, rental commercial "
 "properties %(city_or_country)s"
 msgstr ""
-"propriété commerciale à louer, propriété commerciale à louer à "
-"%(city_or_country)s, immeubles commerciaux, propriété commerciale en "
+"propriété commerciale à louer, propriété commerciale à louer à %"
+"(city_or_country)s, immeubles commerciaux, propriété commerciale en "
 "location, propriété commerciale en location %(city_or_country)s, location "
 "propriètés commerciaux %(city_or_country)s"
 
 #: fuego/meta_settings.py:210
 #, python-format
 msgid ""
-"Room for Rent %(city_comma_country)s - Villas & Apartments | dubizzle "
-"%(country)s"
+"Room for Rent %(city_comma_country)s - Villas & Apartments | dubizzle %"
+"(country)s"
 msgstr ""
-"Chambre à Louer à %(city_comma_country)s - Villas & Apartments | dubizzle "
-"%(country)s"
+"Chambre à Louer à %(city_comma_country)s - Villas & Apartments | dubizzle %"
+"(country)s"
 
 #: fuego/meta_settings.py:211
 #, python-format
@@ -742,11 +742,11 @@ msgstr ""
 #: fuego/meta_settings.py:216
 #, python-format
 msgid ""
-"Short Term & Vacation Rentals in %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Short Term & Vacation Rentals in %(city_comma_country)s | dubizzle %(country)"
+"s"
 msgstr ""
-"Location Court Séjour et Vacances à %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Location Court Séjour et Vacances à %(city_comma_country)s | dubizzle %"
+"(country)s"
 
 #: fuego/meta_settings.py:217
 #, python-format
@@ -773,8 +773,8 @@ msgstr ""
 msgid ""
 "Wanted - Properties for Rent in %(city_comma_country)s | dubizzle %(country)s"
 msgstr ""
-"Recherché - Propriètés à Louer à %(city_comma_country)s | dubizzle "
-"%(country)s "
+"Recherché - Propriètés à Louer à %(city_comma_country)s | dubizzle %(country)"
+"s "
 
 #: fuego/meta_settings.py:223
 #, python-format
@@ -783,10 +783,10 @@ msgid ""
 "including apartments, villas, houses, and commercial properties? Post what "
 "you need now on dubizzle %(country)s free classifieds."
 msgstr ""
-"Vous cherchez à louer des propriétés et biens immobiliers à "
-"%(city_comma_country)s, y compris appartements, villas, maisons, et "
-"propriétés commerciales? Poster ce dont vous avez besoin sur dubizzle "
-"%(country)s petites annonces gratuitement."
+"Vous cherchez à louer des propriétés et biens immobiliers à %"
+"(city_comma_country)s, y compris appartements, villas, maisons, et "
+"propriétés commerciales? Poster ce dont vous avez besoin sur dubizzle %"
+"(country)s petites annonces gratuitement."
 
 #: fuego/meta_settings.py:224
 #, python-format
@@ -826,8 +826,8 @@ msgstr "petites annonces, annonces gratuites, %(country)s petites annonces"
 #: fuego/meta_settings.py:234
 #, python-format
 msgid ""
-"Buy & Sell Baby Clothes & Items in %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Buy & Sell Baby Clothes & Items in %(city_comma_country)s | dubizzle %"
+"(country)s"
 msgstr ""
 "Acheter & Vendre Vętements de Bébé et Articles à %(city_comma_country)s | "
 "dubizzle %(country)s"
@@ -840,14 +840,14 @@ msgid ""
 "prices and pictures."
 msgstr ""
 "Recherchez des articles pour bébés neufs et d'occasion, y compris des "
-"vêtements, des jouets, sièges auto, biberons, et des meubles de pépinière à "
-"%(city_comma_country)s. Cliquez ici pour voir les prix et les photos."
+"vêtements, des jouets, sièges auto, biberons, et des meubles de pépinière à %"
+"(city_comma_country)s. Cliquez ici pour voir les prix et les photos."
 
 #: fuego/meta_settings.py:236
 #, python-format
 msgid ""
-"baby items, clothing, toys, car seats, bottles, nursery furniture in "
-"%(city_or_country)s, in %(country)s"
+"baby items, clothing, toys, car seats, bottles, nursery furniture in %"
+"(city_or_country)s, in %(country)s"
 msgstr ""
 "articles pour bébés, vêtements, jouets, sièges auto, biberons, meubles de "
 "pépinière à %(city_or_country)s, à %(country)s"
@@ -867,8 +867,8 @@ msgid ""
 "prices and photos."
 msgstr ""
 "Acheter ou vendre une large gamme de bateaux neufs et d'occasion et des "
-"yachts auprès propriétaires directement, distributeurs, courtiers à "
-"%(city_comma_country)s. Cliquez ici pour voir les prix et photos."
+"yachts auprès propriétaires directement, distributeurs, courtiers à %"
+"(city_comma_country)s. Cliquez ici pour voir les prix et photos."
 
 #: fuego/meta_settings.py:242
 #, python-format
@@ -884,8 +884,8 @@ msgstr ""
 msgid ""
 "Buy & Sell New & Used Books in %(city_comma_country)s | dubizzle %(country)s"
 msgstr ""
-"Livres Neufs et d'Occasion à Vendre à %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Livres Neufs et d'Occasion à Vendre à %(city_comma_country)s | dubizzle %"
+"(country)s"
 
 #: fuego/meta_settings.py:247
 #, python-format
@@ -895,8 +895,8 @@ msgid ""
 "prices and photos."
 msgstr ""
 "Achetez et vendez vos livres neufs et usagés, y compris des livres audio, "
-"livres électroniques, livres de fiction et non-fiction, texbooks à "
-"%(city_comma_country)s. Cliquez ici pour voir les prix et photos."
+"livres électroniques, livres de fiction et non-fiction, texbooks à %"
+"(city_comma_country)s. Cliquez ici pour voir les prix et photos."
 
 #: fuego/meta_settings.py:248
 #, python-format
@@ -922,12 +922,12 @@ msgstr ""
 #, python-format
 msgid ""
 "Buy & sell business & industrial equipment including heavy equipment, "
-"agricultural supplies, and manufacturing equipment in "
-"%(city_comma_country)s. Click here to see prices and details."
+"agricultural supplies, and manufacturing equipment in %(city_comma_country)"
+"s. Click here to see prices and details."
 msgstr ""
 "Achetez et vendez vos affaires et équipements industriels y compris "
-"équipement lourd, fournitures agricoles, équipement de fabrication à "
-"%(city_comma_country)s. Cliquez ici pour voir les prix et les détails."
+"équipement lourd, fournitures agricoles, équipement de fabrication à %"
+"(city_comma_country)s. Cliquez ici pour voir les prix et les détails."
 
 #: fuego/meta_settings.py:254
 msgid ""
@@ -940,11 +940,11 @@ msgstr ""
 #: fuego/meta_settings.py:258
 #, python-format
 msgid ""
-"Camcorders & Cameras for Sale in %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Camcorders & Cameras for Sale in %(city_comma_country)s | dubizzle %(country)"
+"s"
 msgstr ""
-"Caméscopes et Appareils Photo à Vendre à %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Caméscopes et Appareils Photo à Vendre à %(city_comma_country)s | dubizzle %"
+"(country)s"
 
 #: fuego/meta_settings.py:259
 #, python-format
@@ -981,8 +981,8 @@ msgid ""
 "to see prices and photos."
 msgstr ""
 "Achetez et vendez vos vêtementset accessoires, y compris robes, lunettes de "
-"soleil, bijoux, sacs à main, chaussures, parfums et vêtements à "
-"%(city_comma_country)s. Cliquez ici pour voir les prix et photos."
+"soleil, bijoux, sacs à main, chaussures, parfums et vêtements à %"
+"(city_comma_country)s. Cliquez ici pour voir les prix et photos."
 
 #: fuego/meta_settings.py:266
 msgid ""
@@ -995,11 +995,11 @@ msgstr ""
 #: fuego/meta_settings.py:270
 #, python-format
 msgid ""
-"Laptops, Tablets & Computers for Sale in %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Laptops, Tablets & Computers for Sale in %(city_comma_country)s | dubizzle %"
+"(country)s"
 msgstr ""
-"Ordinateurs Portables, Tablettes et Ordinateurs à Vendre à "
-"%(city_comma_country)s | dubizzle %(country)s"
+"Ordinateurs Portables, Tablettes et Ordinateurs à Vendre à %"
+"(city_comma_country)s | dubizzle %(country)s"
 
 #: fuego/meta_settings.py:271
 #, python-format
@@ -1022,8 +1022,8 @@ msgstr ""
 #: fuego/meta_settings.py:276
 #, python-format
 msgid ""
-"Home Appliances & Electronics for Sale in %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Home Appliances & Electronics for Sale in %(city_comma_country)s | dubizzle %"
+"(country)s"
 msgstr ""
 "Appareils Électroménager  & Electronics à Vendre à %(city_comma_country)s | "
 "dubizzle %(country)s"
@@ -1054,11 +1054,11 @@ msgstr ""
 #: fuego/meta_settings.py:282
 #, python-format
 msgid ""
-"Garden & Home Furniture for Sale in %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Garden & Home Furniture for Sale in %(city_comma_country)s | dubizzle %"
+"(country)s"
 msgstr ""
-"Meubles Jardin & Maison à Vendre à %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Meubles Jardin & Maison à Vendre à %(city_comma_country)s | dubizzle %"
+"(country)s"
 
 #: fuego/meta_settings.py:283
 #, python-format
@@ -1165,8 +1165,8 @@ msgstr ""
 msgid ""
 "Music & DVD Movies for Sale in %(city_comma_country)s | dubizzle %(country)s"
 msgstr ""
-"Musique & Films en DVD à Vendre à %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Musique & Films en DVD à Vendre à %(city_comma_country)s | dubizzle %"
+"(country)s"
 
 #: fuego/meta_settings.py:307
 #, python-format
@@ -1187,8 +1187,8 @@ msgstr "dvd à vendre, cd's, musique mp3 "
 msgid ""
 "Musical Instruments for Sale in %(city_comma_country)s | dubizzle %(country)s"
 msgstr ""
-"Instruments de Musique à Vendre à %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Instruments de Musique à Vendre à %(city_comma_country)s | dubizzle %"
+"(country)s"
 
 #: fuego/meta_settings.py:313
 #, python-format
@@ -1198,8 +1198,8 @@ msgid ""
 "here to see prices and photos."
 msgstr ""
 "Achetez et vendez des instruments de musique neufs et d'occasion, y compris "
-"pianos, guitares, violons, flűte, tambours et autres instruments à "
-"%(city_comma_country)s. Cliquez ici pour voir les prix et photos."
+"pianos, guitares, violons, flűte, tambours et autres instruments à %"
+"(city_comma_country)s. Cliquez ici pour voir les prix et photos."
 
 #: fuego/meta_settings.py:314
 #, python-format
@@ -1234,18 +1234,18 @@ msgstr ""
 #: fuego/meta_settings.py:324
 #, python-format
 msgid ""
-"Sports & Gym Equipment for Sale in %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Sports & Gym Equipment for Sale in %(city_comma_country)s | dubizzle %"
+"(country)s"
 msgstr ""
-"Équipement de Sport et Gymnase à Vendre à %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Équipement de Sport et Gymnase à Vendre à %(city_comma_country)s | dubizzle %"
+"(country)s"
 
 #: fuego/meta_settings.py:325
 #, python-format
 msgid ""
 "Buy & sell new and used sports & gym equipment including treadmills, "
-"dumbbells, cross trainers, camping equipment, and sports apparel in  "
-"%(city_comma_country)s . Click here to see prices and photos."
+"dumbbells, cross trainers, camping equipment, and sports apparel in  %"
+"(city_comma_country)s . Click here to see prices and photos."
 msgstr ""
 "Achetez et vendez équipement de sport & gymnase neufs et d'occasion, y "
 "compris  tapis roulants, haltères, formateurs de la Croix, l'équipement de "
@@ -1293,15 +1293,15 @@ msgstr ""
 msgid ""
 "Collectibles & Toys for Sale in %(city_comma_country)s | dubizzle %(country)s"
 msgstr ""
-"Objets de Collection et Jouets à Vendre à %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Objets de Collection et Jouets à Vendre à %(city_comma_country)s | dubizzle %"
+"(country)s"
 
 #: fuego/meta_settings.py:337
 #, python-format
 msgid ""
 "Buy & sell new and used collectibles and toys including action figures, "
-"stuffed animals, educational toys, puzzles, and more in "
-"%(city_comma_country)s. Click here to see prices and photos."
+"stuffed animals, educational toys, puzzles, and more in %(city_comma_country)"
+"s. Click here to see prices and photos."
 msgstr ""
 "Achetez et vendez des objets de collection neufs et d'occasion et jouets, y "
 "compris des figurines, des animaux en peluche, jouets éducatifs, puzzles, et "
@@ -1316,17 +1316,17 @@ msgstr ""
 #: fuego/meta_settings.py:342
 #, python-format
 msgid ""
-"Game Consoles & Video Games for Sale in %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Game Consoles & Video Games for Sale in %(city_comma_country)s | dubizzle %"
+"(country)s"
 msgstr ""
-"Consoles de Jeux & Jeux Vidéo à Vendre à %(city_comma_country)s | dubizzle "
-"%(country)s"
+"Consoles de Jeux & Jeux Vidéo à Vendre à %(city_comma_country)s | dubizzle %"
+"(country)s"
 
 #: fuego/meta_settings.py:343
 #, python-format
 msgid ""
-"Buy & sell video games, game consoles, and game accessories in "
-"%(city_comma_country)s including PS3, Xbox 360, Nintendo, PSP's, Game Boys "
+"Buy & sell video games, game consoles, and game accessories in %"
+"(city_comma_country)s including PS3, Xbox 360, Nintendo, PSP's, Game Boys "
 "and more. Click here to see photos and prices."
 msgstr ""
 "Achetez et vendez vos jeux vidéo, consoles de jeux, et accessoires de jeux "
@@ -1346,8 +1346,8 @@ msgstr "Articles recherchés à %(city_comma_country)s | dubizzle %(country)s"
 #, python-format
 msgid "List your wanted items & stuff for free on dubizzle %(country)s."
 msgstr ""
-"Publiez vos articles recherchés et plein de trucs gratuitement sur dubizzle "
-"%(country)s"
+"Publiez vos articles recherchés et plein de trucs gratuitement sur dubizzle %"
+"(country)s"
 
 #: fuego/meta_settings.py:350
 msgid "Items wanted, looking for"
@@ -1371,38 +1371,37 @@ msgstr ""
 msgid ""
 "Other items, items for sale, Other Items for Sale in %(city_or_country)s"
 msgstr ""
-"Autres Articles, articles à vendre, Autres Articles à Vendre "
-"%(city_or_country)s"
+"Autres Articles, articles à vendre, Autres Articles à Vendre %"
+"(city_or_country)s"
 
 #: fuego/meta_settings.py:364
 #, python-format
 msgid ""
 "Free Classifieds in %(city_comma_country)s - Jobs in %(city_comma_country)s, "
-"Property & Real Estate For Sale & Rent, Cars for Sale | dubizzle "
-"%(city_comma_country)s"
+"Property & Real Estate For Sale & Rent, Cars for Sale | dubizzle %"
+"(city_comma_country)s"
 msgstr ""
 "Petites Annonces à %(city_comma_country)s - Emploi à %(city_comma_country)s, "
-"Propriètés à Vendre et à Louer, Voitures Occasion | dubizzle "
-"%(city_comma_country)s"
+"Propriètés à Vendre et à Louer, Voitures Occasion | dubizzle %"
+"(city_comma_country)s"
 
 #: fuego/meta_settings.py:365
 #, python-format
 msgid ""
-"dubizzle is your free and friendly local classifieds website in "
-"%(city_comma_country)s. Jobs, property, real estate, cars and classifieds in "
-"%(city_comma_country)s. Post an ad, browse ads, buy, sell or rent. "
+"dubizzle is your free and friendly local classifieds website in %"
+"(city_comma_country)s. Jobs, property, real estate, cars and classifieds in %"
+"(city_comma_country)s. Post an ad, browse ads, buy, sell or rent. "
 msgstr ""
-"dubizzle est votre premier site de petites annonces gratuites à "
-"%(city_comma_country)s. Trouvez un emploi, Immobilier, Voitures Occasion et "
+"dubizzle est votre premier site de petites annonces gratuites à %"
+"(city_comma_country)s. Trouvez un emploi, Immobilier, Voitures Occasion et "
 "Articles à Vendre à %(city_comma_country)s. Passez une annonce, achetez et "
 "vendez. "
 
 #: fuego/meta_settings.py:366 fuego/meta_settings.py:372
 #, python-format
 msgid ""
-"dubizzle %(city_comma_country)s, free classifieds, online classifieds, "
-"%(city_comma_country)s classifieds, free classifieds in "
-"%(city_comma_country)s"
+"dubizzle %(city_comma_country)s, free classifieds, online classifieds, %"
+"(city_comma_country)s classifieds, free classifieds in %(city_comma_country)s"
 msgstr ""
 "dubizzle %(city_comma_country)s, petites annonces gratuites, petites "
 "annonces en ligne, %(city_comma_country)s petites annonces, petites annonces "
@@ -1420,12 +1419,12 @@ msgstr ""
 #: fuego/meta_settings.py:371
 #, python-format
 msgid ""
-"dubizzle is your free and friendly local classifieds website in "
-"%(city_comma_country)s to buy, sell and find anything. Find cars, jobs, "
+"dubizzle is your free and friendly local classifieds website in %"
+"(city_comma_country)s to buy, sell and find anything. Find cars, jobs, "
 "properties for rent or items for sale in %(city_comma_country)s."
 msgstr ""
-"dubizzle est votre premier site de petites annonces gratuites à "
-"%(city_comma_country)s. Trouvez voitures occasion,  emploi, immobilier à "
+"dubizzle est votre premier site de petites annonces gratuites à %"
+"(city_comma_country)s. Trouvez voitures occasion,  emploi, immobilier à "
 "louer, articles à vendre à %(city_comma_country)s."
 
 #: fuego/meta_settings.py:381
@@ -1444,8 +1443,8 @@ msgid ""
 "city. Free classified ads in %(country)s"
 msgstr ""
 "Voici un petit guide sur la façon d'utiliser dubizzle pour acheter, vendre "
-"et trouver n'importe quoi dans votre ville. Petites annonces gratuites en "
-"%(country)s"
+"et trouver n'importe quoi dans votre ville. Petites annonces gratuites en %"
+"(country)s"
 
 #: fuego/meta_settings.py:385
 #, python-format
@@ -1482,8 +1481,8 @@ msgid ""
 "city. Free classified ads in %(country)s"
 msgstr ""
 "Voici un petit guide sur la façon d'utiliser dubizzle pour acheter, vendre "
-"et trouver n'importe quoi dans votre ville. Petites annonces gratuites en "
-"%(country)s"
+"et trouver n'importe quoi dans votre ville. Petites annonces gratuites en %"
+"(country)s"
 
 #: fuego/meta_settings.py:393
 #, python-format
@@ -1525,13 +1524,13 @@ msgstr ""
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: fuego/shared_settings.py:330 templates/search/browse_widget.html:21
+#: fuego/shared_settings.py:336 templates/search/browse_widget.html:21
 #: templates/search/browse_widget.html:39 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "Tout sur dubizzle"
 
-#: fuego/shared_settings.py:952
+#: fuego/shared_settings.py:963
 msgid "m&sup2;"
 msgstr "m&sup2;"
 
@@ -1958,11 +1957,11 @@ msgstr ""
 "dubizzle Tunisie, petites annonces gratuites, petites annonces en ligne, "
 "Tunisie petites annonces, petites annonces en Tunisie"
 
-#: fuego/forms/__init__.py:143
+#: fuego/forms/__init__.py:144
 msgid "Enter your name please, nobody likes to talk to a stranger ;)"
 msgstr "Veuillez entrer votre nom - personne n'aime s'adresser à un inconnu ;)"
 
-#: fuego/forms/__init__.py:152
+#: fuego/forms/__init__.py:153
 msgid ""
 "Don't be shy...if you have any questions about the ad, now is the time to "
 "ask."
@@ -2124,8 +2123,8 @@ msgid ""
 "Please remember to price your ad in %(currency)s."
 msgstr ""
 "En cas de doute, consultez d'autres annonces pour voir la gamme de prix dans "
-"laquelle se trouve votre article. N'oubliez pas le prix de votre annonce en "
-"%(currency)s."
+"laquelle se trouve votre article. N'oubliez pas le prix de votre annonce en %"
+"(currency)s."
 
 #: listings/forms.py:307 listings/models.py:340 listings/models.py:373
 #: listings/models.py:404 listings/models.py:426 listings/models.py:453
@@ -2301,6 +2300,10 @@ msgstr ""
 #: public/forms.py:58
 msgid "Huh... that's not the same one!?"
 msgstr "Oh... ce n'est pas la męme chose!?"
+
+#: search/forms.py:28 search/forms.py:35 search/forms.py:38
+msgid "name"
+msgstr ""
 
 #: search/forms.py:35
 #, python-format
@@ -2715,9 +2718,9 @@ msgid ""
 "                    "
 msgstr ""
 "\n"
-"En publiant votre annonce, vous acceptez les termes de dubizzle <a href="
-"\"%(terms_url)s\" target=\"_blank\">terms & conditions</a> et sa <a href="
-"\"%(privacy_url)s\" target=\"_blank\">politique de confidentialité</a>\n"
+"En publiant votre annonce, vous acceptez les termes de dubizzle <a href=\"%"
+"(terms_url)s\" target=\"_blank\">terms & conditions</a> et sa <a href=\"%"
+"(privacy_url)s\" target=\"_blank\">politique de confidentialité</a>\n"
 "                                "
 
 #: templates/listings/manage_listing.html:348
@@ -2734,7 +2737,7 @@ msgstr "Yalla! Publiez mon annonce"
 msgid "CrysTelCall Listing Interface."
 msgstr "Interface Liste des CrysTelCall."
 
-#: templates/listings/add/create_listing.html:9
+#: templates/listings/add/create_listing.html:10
 #: templates/listings/add/paa_taxonomy.html:19
 msgid "Create a free ad in no time at all."
 msgstr "Créer une annonce gratuite en un rien de temps."
@@ -2784,6 +2787,11 @@ msgstr ""
 "Cette annonce a déjà été modifiée et est en attente de validation. Vous "
 "recevrez un email dès que les modifications seront en ligne."
 
+#: templates/listings/get/get_listing.html:125
+#, python-format
+msgid "Image %(count)s of %(listing_title)s"
+msgstr ""
+
 #: templates/listings/get/get_listing.html:133
 msgid "Details"
 msgstr "Détails"
@@ -2819,8 +2827,8 @@ msgstr ""
 "dubizzle.\n"
 "\t    \t\t</p>\n"
 "\t    \t\t<p>\n"
-"\t    \t\t\tUne fois en ligne, nous vous annoncerons la bonne nouvelle dans un "
-"courriel.\n"
+"\t    \t\t\tUne fois en ligne, nous vous annoncerons la bonne nouvelle dans "
+"un courriel.\n"
 "\t    \t\t</p>\n"
 "\t    \t\t"
 
@@ -2879,9 +2887,9 @@ msgstr "Envoyer ma réponse"
 #: templates/listings/reply/reply_to_listing_include.html:147
 #, python-format
 msgid ""
-"By clicking on 'Send my reply' I agree to the dubizzle <a href="
-"\"%(terms_url)s\"> terms and conditions</a> and the dubizzle <a href="
-"\"%(privacy_url)s\">privacy policy</a>"
+"By clicking on 'Send my reply' I agree to the dubizzle <a href=\"%(terms_url)"
+"s\"> terms and conditions</a> and the dubizzle <a href=\"%(privacy_url)s"
+"\">privacy policy</a>"
 msgstr ""
 "En cliquant sur 'Envoyer ma réponse', j'accepte les <a href=\"%(terms_url)s"
 "\">termes et conditions</a> de dubizzle et la <a href=\"%(privacy_url)s"
@@ -2950,8 +2958,8 @@ msgid ""
 "Ads with photos sell much better. Use up to %(max_photos)s good quality "
 "photos. Accepted formats: jpg, png, or gif."
 msgstr ""
-"Les annonces avec photos ont beaucoup plus de succès. Téléchargez jusqu'à "
-"%(max_photos)s photos de bonne qualité. Formats acceptés: jpg, png ou gif."
+"Les annonces avec photos ont beaucoup plus de succès. Téléchargez jusqu'à %"
+"(max_photos)s photos de bonne qualité. Formats acceptés: jpg, png ou gif."
 
 #: templates/listings/snippets/photos/_photo_preview.html:38
 #: templates/listings/snippets/photos/_photo_preview.html:43
@@ -2978,11 +2986,15 @@ msgstr "Conditions d'utilisation"
 msgid "Privacy Policy"
 msgstr "Politique de confidentialité"
 
-#: templates/public/_footer.html:19 templates/public/landing.html:27
+#: templates/public/_footer.html:19 templates/sitemaps/sitemap.html:28
+msgid "Sitemap"
+msgstr "Plan du site"
+
+#: templates/public/_footer.html:22 templates/public/landing.html:27
 msgid "Change country"
 msgstr "Changer de pays"
 
-#: templates/public/_footer.html:23
+#: templates/public/_footer.html:26
 msgid "2013, dubizzle.com, All Rights Reserved."
 msgstr "2013, dubizzle.com, Tous droits réservés."
 
@@ -3072,7 +3084,7 @@ msgstr ""
 msgid "Contact us"
 msgstr "Contactez-nous"
 
-#: templates/public/home.html:17 templates/search/search.html:54
+#: templates/public/home.html:17 templates/search/search.html:63
 msgid "Buy, sell and find anything"
 msgstr "Acheter, vendre et trouver quelque chose"
 
@@ -3182,8 +3194,8 @@ msgid ""
 "                    "
 msgstr ""
 "\n"
-"                        Afficher seulement les annonces en "
-"%(CURRENT_LANGUAGE)s\n"
+"                        Afficher seulement les annonces en %"
+"(CURRENT_LANGUAGE)s\n"
 "                    "
 
 #: templates/search/browse_widget.html:19
@@ -3203,8 +3215,8 @@ msgid ""
 "                            "
 msgstr ""
 "\n"
-"                            Afficher seulement les annonces en "
-"%(CURRENT_LANGUAGE)s\n"
+"                            Afficher seulement les annonces en %"
+"(CURRENT_LANGUAGE)s\n"
 "                        "
 
 #: templates/search/browse_widget.html:100
@@ -3215,15 +3227,15 @@ msgstr "Affiner"
 msgid "Show all"
 msgstr "Afficher tout"
 
-#: templates/search/search.html:51
+#: templates/search/search.html:60
 msgid "in"
 msgstr "en"
 
-#: templates/search/search.html:51
+#: templates/search/search.html:60
 msgid ","
 msgstr ","
 
-#: templates/search/search.html:64
+#: templates/search/search.html:73
 #, python-format
 msgid ""
 "\n"
@@ -3858,10 +3870,6 @@ msgstr ""
 "Essayez avec d'autres mots-clés ou en élargissant votre recherche. Vous "
 "devriez avoir plus de chance."
 
-#: templates/sitemaps/sitemap.html:28
-msgid "Sitemap"
-msgstr "Plan du site"
-
 #: templates/sitemaps/sitemap.html:35
 msgid "Cities we're in..."
 msgstr "Trouvez nous dans les villes suivantes..."
@@ -4004,16 +4012,18 @@ msgstr[1] ""
 "\n"
 "Vous avez %(counter)s annonces attente    "
 
+#: utils/meta_builder.py:86
+msgid "neighbourhoods"
+msgstr "Voisinage"
+
 #: utils/meta_builder.py:93 utils/meta_builder.py:98
 #, python-format
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s, %(country)s"
 
-#~ msgid "neighbourhoods"
-#~ msgstr "Voisinage"
-
-#~ msgid "city"
-#~ msgstr "Ville"
+#: utils/meta_builder.py:95 utils/meta_builder.py:100
+msgid "city"
+msgstr "Ville"
 
 #~ msgid "Studio"
 #~ msgstr "Studio"
@@ -4047,16 +4057,16 @@ msgstr "%(city)s, %(country)s"
 #~ "That's a very short description.  Please write more than %(limit_value)s "
 #~ "characters in your description."
 #~ msgstr ""
-#~ "Cette description est très courte. Veuillez écrire plus de "
-#~ "%(limit_value)s caractères dans le champ description."
+#~ "Cette description est très courte. Veuillez écrire plus de %(limit_value)"
+#~ "s caractères dans le champ description."
 
 #~ msgid "Hey there, we thought we lost you in cyberspace."
 #~ msgstr "Hey, on a cru vous avoir perdu dans le Cyber espace."
 
 #~ msgid ""
 #~ "Our ninja monkeys noticed that you didn't finish placing your awesome ad. "
-#~ "Continue from where you left off below or <a id=\"reset-form\" href="
-#~ "\"%(reset_url)s\">click here</a> to place a new ad."
+#~ "Continue from where you left off below or <a id=\"reset-form\" href=\"%"
+#~ "(reset_url)s\">click here</a> to place a new ad."
 #~ msgstr ""
 #~ "Nos singes ninjas ont figuré que vous n'aviez pas terminé votre dernière "
 #~ "annonce, Continuez par là ou vous étiez ou bien <a id=\"reset-form\" href="
@@ -4145,15 +4155,15 @@ msgstr "%(city)s, %(country)s"
 
 #~ msgid "We found <span class=\"red\">%(counter)s</span> ads"
 #~ msgstr ""
-#~ "                    Nous avons trouvé des annonces <span class=\"red\">"
-#~ "%(counter)s</span> \n"
+#~ "                    Nous avons trouvé des annonces <span class=\"red\">%"
+#~ "(counter)s</span> \n"
 #~ "                "
 
 #~ msgctxt "templates/search/search_bar.html:19"
 #~ msgid "Show only %(CURRENT_LANGUAGE)s ads"
 #~ msgstr ""
-#~ "                        Afficher seulement les annonces "
-#~ "%(CURRENT_LANGUAGE)s\n"
+#~ "                        Afficher seulement les annonces %"
+#~ "(CURRENT_LANGUAGE)s\n"
 #~ "                    "
 
 #~ msgctxt "templates/user_profiles/my_listings.html:20"
