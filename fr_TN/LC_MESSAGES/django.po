@@ -2790,7 +2790,7 @@ msgstr ""
 #: templates/listings/get/get_listing.html:118
 #, python-format
 msgid "<span>%(price)s</span> %(translated_currency)s"
-msgstr ""
+msgstr "<span>%(price)s</span> %(translated_currency)s"
 
 #: templates/listings/get/get_listing.html:133
 #, python-format
@@ -3860,9 +3860,9 @@ msgid "Drugs"
 msgstr "Drogues"
 
 #: templates/shared/listings.html:67
-#, fuzzy, python-format
+#, python-format
 msgid "%(translated_currency)s %(price)s"
-msgstr "%(currency)s %(price)s"
+msgstr "%(translated_currency)s %(price)s"
 
 #: templates/shared/listings.html:75
 msgid "Oh camel droppings!"

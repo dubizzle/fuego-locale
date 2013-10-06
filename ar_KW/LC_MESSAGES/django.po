@@ -609,7 +609,7 @@ msgstr ""
 msgid "Arabic"
 msgstr "عربي"
 
-# fuego /kuwait_settings.py translations added 
+# fuego /kuwait_settings.py translations added
 #: fuego/kuwait_settings.py:651
 msgid ""
 "Jobs in Kuwait, Property & Real Estate For Sale & Rent, Cars for Sale - Free "
@@ -1944,7 +1944,7 @@ msgstr ""
 #: listings/formatters.py:30
 #, python-format
 msgid "%(currency)s %(price)s"
-msgstr "%(currency)s %(price)s"
+msgstr "%(price)s %(currency)s"
 
 #: listings/formatters.py:44
 #, python-format
@@ -2723,7 +2723,7 @@ msgstr ""
 #: templates/listings/get/get_listing.html:118
 #, python-format
 msgid "<span>%(price)s</span> %(translated_currency)s"
-msgstr ""
+msgstr "<span>%(price)s</span> %(translated_currency)s"
 
 #: templates/listings/get/get_listing.html:133
 #, python-format
@@ -3736,9 +3736,9 @@ msgid "Drugs"
 msgstr "العقاقير المخدرة"
 
 #: templates/shared/listings.html:67
-#, fuzzy, python-format
+#, python-format
 msgid "%(translated_currency)s %(price)s"
-msgstr "%(currency)s %(price)s"
+msgstr "%(price)s %(translated_currency)s"
 
 #: templates/shared/listings.html:75
 msgid "Oh camel droppings!"
