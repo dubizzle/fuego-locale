@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-06 09:47+0400\n"
+"POT-Creation-Date: 2013-10-06 13:27+0400\n"
 "PO-Revision-Date: 2013-08-29 14:29+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Qatari <http://translate.dubizzlecloud.com/projects/"
@@ -2487,9 +2487,9 @@ msgstr ""
 "نشره. لن نتأخر عليك!"
 
 #: templates/listings/get/get_listing.html:118
-#, fuzzy, python-format
-msgid "%(translated_currency)s <span>%(price)s</span>"
-msgstr "%(currency)s %(price)s"
+#, python-format
+msgid "<span>%(price)s</span> %(translated_currency)s"
+msgstr ""
 
 #: templates/listings/get/get_listing.html:133
 #, python-format
@@ -3724,6 +3724,10 @@ msgstr "%(city)s، %(country)s "
 #: utils/meta_builder.py:95 utils/meta_builder.py:100
 msgid "city"
 msgstr "المدينة"
+
+#, fuzzy
+#~ msgid "%(translated_currency)s <span>%(price)s</span>"
+#~ msgstr "%(currency)s %(price)s"
 
 #~ msgid "Studio"
 #~ msgstr "ستوديو"
