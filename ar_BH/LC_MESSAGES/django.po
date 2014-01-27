@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-08 14:30+0400\n"
+"POT-Creation-Date: 2014-01-27 16:56+0400\n"
 "PO-Revision-Date: 2013-10-08 14:37+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: Arabic - Bahraini "
-"<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_BH/>\n"
+"Language-Team: Arabic - Bahraini <http://translate.dubizzlecloud.com/"
+"projects/fuego/fuego/ar_BH/>\n"
 "Language: ar_BH\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,7 +60,7 @@ msgstr "تأكيد كلمة السر"
 msgid "Sorry, please re-enter your password using only English characters."
 msgstr "عفوا, كلمة السر يجب أن تتكون من حروف لاتينية (English)"
 
-#: authentication/forms.py:104 listings/tests.py:1530
+#: authentication/forms.py:104 listings/tests.py:1532
 msgid ""
 "This email address is already in use. Click 'I have a dubizzle password', or "
 "use a different email."
@@ -68,11 +68,11 @@ msgstr ""
 "عنوان الإيميل هذا مسجل لدينا. إختر \"لدي حساب وكلمة سر\" اعلاه أو ادخل عنوان "
 "ايميل آخر."
 
-#: authentication/forms.py:121 listings/tests.py:1603
+#: authentication/forms.py:121 listings/tests.py:1605
 msgid "Huh... that's not the same one! Try again."
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
-#: authentication/forms.py:129 listings/tests.py:1676
+#: authentication/forms.py:129 listings/tests.py:1678
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
 
@@ -127,203 +127,411 @@ msgstr "خطأ"
 msgid "Please enter the correct letters"
 msgstr "من فضلك اكتب الحروف بشكل صحيح"
 
-#: fuego/bahrain_settings.py:36
+#: country_templates/shared_landing.html:13 templates/public/contact_us.html:7
+#: templates/public/contact_us_complete.html:7
+#: templates/public/landing.html:15
+msgid "Ahlan wa sahlan..."
+msgstr "اهلا وسهلا بكم في دوبيزل..."
+
+#: country_templates/shared_landing.html:31 templates/public/_footer.html:22
+#: templates/public/landing.html:27
+msgid "Change country"
+msgstr "تغيير الدولة"
+
+#: country_templates/shared_landing.html:40
+#: templates/sell/why-dubizzle.html:35
+msgid "Why use dubizzle?"
+msgstr "فوائد دوبيزل السبع"
+
+#: country_templates/shared_landing.html:48
+#: templates/sell/why-dubizzle.html:42
+msgid "Make money"
+msgstr "فرصة لكسب المال"
+
+#: country_templates/shared_landing.html:49
+#: templates/sell/why-dubizzle.html:43
+msgid "Turn your unused items into cash."
+msgstr "يمكنك كسب المال من بيع الأشياء التي لم تعد تحتاج إليها."
+
+#: country_templates/shared_landing.html:57
+#, fuzzy
+msgid "Your ad is free"
+msgstr "مجانا وبدون أي رسوم"
+
+#: country_templates/shared_landing.html:58
+#, fuzzy
+msgid ""
+"No fees, no hidden agendas and no twists or turns. It’s FREE - now and "
+"forever."
+msgstr "ضيف إعلانك على دوبيزل مجانا ولن نطلب منك أي رسوم على الإطلاق."
+
+#: country_templates/shared_landing.html:66
+#: templates/sell/why-dubizzle.html:60
+msgid "It's safe"
+msgstr "وسيلة آمنة"
+
+#: country_templates/shared_landing.html:67
+#: templates/sell/why-dubizzle.html:61
+msgid "No credit cards, no online payments and no money transfers."
+msgstr "بدون كروت إئتمان أو معاملات بنكية أو دفع إلكتروني."
+
+#: country_templates/shared_landing.html:75
+#: templates/sell/why-dubizzle.html:69
+msgid "Fast and easy"
+msgstr "سهل وسريع"
+
+#: country_templates/shared_landing.html:76
+#: templates/sell/why-dubizzle.html:70
+msgid "A few simple steps to create your ad in 1 page only."
+msgstr "خطوات بسيطة لإضافة إعلانك في صفحة واحدة فقط."
+
+#: country_templates/shared_landing.html:86
+#: templates/sell/why-dubizzle.html:80
+msgid "We're local"
+msgstr "بالقرب منك وحواليك"
+
+#: country_templates/shared_landing.html:87
+#, fuzzy
+msgid "Find and connect with 1000s of buyers in your city and neighborhood."
+msgstr "تواصل مع آلاف المشتريين في مدينتك ومنطقتك."
+
+#: country_templates/shared_landing.html:95
+#, fuzzy
+msgid "Access anytime anywhere"
+msgstr "في أي وقت ومن أي مكان"
+
+#: country_templates/shared_landing.html:96
+#, fuzzy
+msgid ""
+"Post your ad, update it and browse from your computer, mobile phone, tablet "
+"or Mars."
+msgstr ""
+"ضيف إعلانك وقم بتعديله من الكمبيوتر أو الموبايل أو التابلت أو حتى من المريخ!"
+
+#: country_templates/shared_landing.html:104
+msgid "We’ll support you all the way"
+msgstr ""
+
+#: country_templates/shared_landing.html:105
+msgid ""
+"Our customer support team get a kick out of helping our dear dubizzlers make "
+"their ads shine and draw a smile upon their face."
+msgstr ""
+
+#: country_templates/oman/public/landing.html:14
+msgid "Your best friend for free local classifieds in Oman."
+msgstr ""
+
+#: country_templates/oman/public/landing.html:19
+#: country_templates/qatar/public/landing.html:19
+msgid "Place your FREE ad, sell your items and make money."
+msgstr ""
+
+#: country_templates/oman/public/landing.html:23
+#: country_templates/qatar/public/landing.html:23
+#, fuzzy
+msgid "Choose a category"
+msgstr "نوع الإعلان؟"
+
+#: country_templates/oman/public/landing.html:26
+#: country_templates/qatar/public/landing.html:26
+#, fuzzy
+msgid "Add photos"
+msgstr "اضف صور"
+
+#: country_templates/oman/public/landing.html:29
+#: country_templates/qatar/public/landing.html:29
+msgid "Describe your item"
+msgstr ""
+
+#: country_templates/oman/public/landing.html:36
+#: country_templates/oman/public/landing.html:41
+#: country_templates/qatar/public/landing.html:36
+#: country_templates/qatar/public/landing.html:41
+#, fuzzy
+msgid "Post an ad"
+msgstr "أضف إعلان"
+
+#: country_templates/oman/public/landing.html:49
+#: country_templates/qatar/public/landing.html:49
+msgid "Want to buy something? Choose location or select a category."
+msgstr ""
+
+#: country_templates/oman/public/landing.html:62
+#: country_templates/qatar/public/landing.html:61 templates/generic.html:38
+#: templates/generic.html.py:124 templates/public/landing.html:66
+#: templates/search/category_widget.html:51
+msgid "All of"
+msgstr "كل"
+
+#: country_templates/oman/public/landing.html:66
+#: country_templates/oman/public/landing.html:85
+#: country_templates/qatar/public/landing.html:65
+#: country_templates/qatar/public/landing.html:84
+msgid "* More regions coming soon"
+msgstr ""
+
+#: country_templates/oman/public/landing.html:75
+#, fuzzy
+msgid "All of Oman"
+msgstr "كل"
+
+#: country_templates/oman/public/landing.html:81
+#: country_templates/qatar/public/landing.html:80
+#, fuzzy
+msgid "Show me the ads"
+msgstr "اظهر جميع اعلاناتي المنشورة"
+
+#: country_templates/oman/public/landing.html:95
+#: country_templates/qatar/public/landing.html:94
+msgid "Home, furniture &amp; garden"
+msgstr ""
+
+#: country_templates/oman/public/landing.html:101
+#: country_templates/qatar/public/landing.html:100
+msgid "Mobile phones &amp; accessories"
+msgstr ""
+
+#: country_templates/oman/public/landing.html:107
+#: country_templates/qatar/public/landing.html:106
+msgid "Sporting goods &amp; outdoors"
+msgstr ""
+
+#: country_templates/oman/public/landing.html:113
+#: country_templates/qatar/public/landing.html:112
+msgid "Electronics &amp; home appliances"
+msgstr ""
+
+#: country_templates/oman/public/landing.html:119
+#: country_templates/qatar/public/landing.html:118
+#: templates/public/landing.html:95
+msgid "Cars"
+msgstr "سيارات"
+
+#: country_templates/oman/public/landing.html:125
+msgid "Car accessories"
+msgstr ""
+
+#: country_templates/oman/public/landing.html:131
+#: country_templates/qatar/public/landing.html:130
+msgid "Tablets &amp; computers "
+msgstr ""
+
+#: country_templates/oman/public/landing.html:137
+#: country_templates/qatar/public/landing.html:136
+msgid "So much more."
+msgstr ""
+
+#: country_templates/qatar/public/landing.html:14
+msgid "Your best friend for free local classifieds in Qatar."
+msgstr ""
+
+#: country_templates/qatar/public/landing.html:74
+#, fuzzy
+msgid "All of qatar"
+msgstr "كل"
+
+#: country_templates/qatar/public/landing.html:124
+msgid "Clothing  & accessories"
+msgstr ""
+
+#: fuego/bahrain_settings.py:32
 msgid "Bahrain"
 msgstr "البحرين"
 
-#: fuego/bahrain_settings.py:38
+#: fuego/bahrain_settings.py:34
 msgid "BHD"
 msgstr "د. ب."
 
-#: fuego/bahrain_settings.py:48 fuego/bahrain_settings.py:66
+#: fuego/bahrain_settings.py:44 fuego/bahrain_settings.py:62
 msgid "Manama"
 msgstr "المنامة"
 
-#: fuego/bahrain_settings.py:71
+#: fuego/bahrain_settings.py:67
 msgid "Adliya"
 msgstr "العدلية"
 
-#: fuego/bahrain_settings.py:76
+#: fuego/bahrain_settings.py:72
 msgid "Mahooz"
 msgstr "ماحوس"
 
-#: fuego/bahrain_settings.py:81
+#: fuego/bahrain_settings.py:77
 msgid "Umm Alhassam"
 msgstr "ام الحصم"
 
-#: fuego/bahrain_settings.py:86
+#: fuego/bahrain_settings.py:82
 msgid "Juffair"
 msgstr "جفير"
 
-#: fuego/bahrain_settings.py:91
+#: fuego/bahrain_settings.py:87
 msgid "Zinj"
 msgstr "الزنج"
 
-#: fuego/bahrain_settings.py:96
+#: fuego/bahrain_settings.py:92
 msgid "Bilad Al Qadeem"
 msgstr "البلاد القديم"
 
-#: fuego/bahrain_settings.py:101
+#: fuego/bahrain_settings.py:97
 msgid "Salmabad"
 msgstr "سلمباد"
 
-#: fuego/bahrain_settings.py:106
+#: fuego/bahrain_settings.py:102
 msgid "Seef"
 msgstr "السيف"
 
-#: fuego/bahrain_settings.py:111
+#: fuego/bahrain_settings.py:107
 msgid "Barbar"
 msgstr "بار بار"
 
-#: fuego/bahrain_settings.py:116
+#: fuego/bahrain_settings.py:112
 msgid "Budaiya"
 msgstr "البديع"
 
-#: fuego/bahrain_settings.py:121
+#: fuego/bahrain_settings.py:117
 msgid "Janabiyah"
 msgstr "جانبية"
 
-#: fuego/bahrain_settings.py:126
+#: fuego/bahrain_settings.py:122
 msgid "Saar"
 msgstr "سار"
 
-#: fuego/bahrain_settings.py:131
+#: fuego/bahrain_settings.py:127
 msgid "Bani Jamra"
 msgstr "بني جمرة"
 
-#: fuego/bahrain_settings.py:136
+#: fuego/bahrain_settings.py:132
 msgid "Sanabis"
 msgstr "السنابس"
 
-#: fuego/bahrain_settings.py:141
+#: fuego/bahrain_settings.py:137
 msgid "Burhama"
 msgstr "بو رحامه"
 
-#: fuego/bahrain_settings.py:146
+#: fuego/bahrain_settings.py:142
 msgid "Jidhafs"
 msgstr "جد حفص"
 
-#: fuego/bahrain_settings.py:151
+#: fuego/bahrain_settings.py:147
 msgid "Salihiya"
 msgstr "الصالحية"
 
-#: fuego/bahrain_settings.py:156
+#: fuego/bahrain_settings.py:152
 msgid "Gudaibiya"
 msgstr "القضيبية"
 
-#: fuego/bahrain_settings.py:161
+#: fuego/bahrain_settings.py:157
 msgid "Hoora"
 msgstr "الحورة"
 
-#: fuego/bahrain_settings.py:166
+#: fuego/bahrain_settings.py:162
 msgid "Ras Rumman"
 msgstr "راس رمان"
 
-#: fuego/bahrain_settings.py:171
+#: fuego/bahrain_settings.py:167
 msgid "Manama Souk"
 msgstr "سوق المنامة"
 
-#: fuego/bahrain_settings.py:176
+#: fuego/bahrain_settings.py:172
 msgid "A'Ali"
 msgstr "عالي"
 
-#: fuego/bahrain_settings.py:181
+#: fuego/bahrain_settings.py:177
 msgid "Sanad"
 msgstr "سند"
 
-#: fuego/bahrain_settings.py:186
+#: fuego/bahrain_settings.py:182
 msgid "Awali"
 msgstr "عوالي"
 
-#: fuego/bahrain_settings.py:191
+#: fuego/bahrain_settings.py:187
 msgid "Dumistan"
 msgstr "دومستان"
 
-#: fuego/bahrain_settings.py:196
+#: fuego/bahrain_settings.py:192
 msgid "Busaytin"
 msgstr "البسيتين"
 
-#: fuego/bahrain_settings.py:201
+#: fuego/bahrain_settings.py:197
 msgid "Amwaj Island"
 msgstr "جزر امواج "
 
-#: fuego/bahrain_settings.py:206
+#: fuego/bahrain_settings.py:202
 msgid "Jid Ali"
 msgstr "جد علي"
 
-#: fuego/bahrain_settings.py:211
+#: fuego/bahrain_settings.py:207
 msgid "Bu Kawarah"
 msgstr "بو كواره"
 
-#: fuego/bahrain_settings.py:216
+#: fuego/bahrain_settings.py:212
 msgid "Abu Baham"
 msgstr "أبو بهام"
 
-#: fuego/bahrain_settings.py:221
+#: fuego/bahrain_settings.py:217
 msgid "Al Musalla"
 msgstr " المصلى"
 
-#: fuego/bahrain_settings.py:226
+#: fuego/bahrain_settings.py:222
 msgid "Awadhiya"
 msgstr "عوادية"
 
-#: fuego/bahrain_settings.py:231
+#: fuego/bahrain_settings.py:227
 msgid "Bu Ashira"
 msgstr "بو عشيرة"
 
-#: fuego/bahrain_settings.py:236
+#: fuego/bahrain_settings.py:232
 msgid "Fereej Al Fadhel"
 msgstr "فريج الفاضل"
 
-#: fuego/bahrain_settings.py:241
+#: fuego/bahrain_settings.py:237
 msgid "Ghuraifa"
 msgstr "الغريفة"
 
-#: fuego/bahrain_settings.py:246
+#: fuego/bahrain_settings.py:242
 msgid "Gufool"
 msgstr "جفول"
 
-#: fuego/bahrain_settings.py:251
+#: fuego/bahrain_settings.py:247
 msgid "Khamis"
 msgstr "خميس"
 
-#: fuego/bahrain_settings.py:256
+#: fuego/bahrain_settings.py:252
 msgid "Naim"
 msgstr "النعيم"
 
-#: fuego/bahrain_settings.py:261
+#: fuego/bahrain_settings.py:257
 msgid "South Sehla"
 msgstr "السهلة الجنوبية"
 
-#: fuego/bahrain_settings.py:266
+#: fuego/bahrain_settings.py:262
 msgid "Tashan"
 msgstr "طشان"
 
-#: fuego/bahrain_settings.py:271
+#: fuego/bahrain_settings.py:267
 msgid "Tubli"
 msgstr "توبلي"
 
-#: fuego/bahrain_settings.py:276
+#: fuego/bahrain_settings.py:272
 msgid "Riffa"
 msgstr "الرفاع‎"
 
-#: fuego/bahrain_settings.py:281
+#: fuego/bahrain_settings.py:277
 msgid "Muharraq"
 msgstr "المحرق‎"
 
-#: fuego/bahrain_settings.py:286
+#: fuego/bahrain_settings.py:282
 msgid "Sitra"
 msgstr "سترة"
 
-#: fuego/bahrain_settings.py:306
+#: fuego/bahrain_settings.py:302
 msgid "English"
 msgstr ""
 
-#: fuego/bahrain_settings.py:307
+#: fuego/bahrain_settings.py:303
 msgid "Arabic"
 msgstr "عربي"
 
-#: fuego/bahrain_settings.py:317
+#: fuego/bahrain_settings.py:313
 msgid ""
 "Jobs in Bahrain, Property & Real Estate For Sale & Rent, Cars for Sale - "
 "Free Classifieds in Bahrain | dubizzle Bahrain"
@@ -331,7 +539,7 @@ msgstr ""
 "وظائف في البحرين، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في "
 "البحرين | دوبيزل البحرين."
 
-#: fuego/bahrain_settings.py:321
+#: fuego/bahrain_settings.py:317
 msgid ""
 "dubizzle is your free and friendly local classifieds website in Bahrain. "
 "Jobs, property, real estate, cars and classifieds in Bahrain. Post an ad, "
@@ -340,7 +548,7 @@ msgstr ""
 "دوبيزل هو خيارك الأول للاعلانات المبوبة المجانية في بحرين. ايجاد وظائف , "
 "عقارات للبيع و للايجار , سيارات للبيع في بحرين"
 
-#: fuego/bahrain_settings.py:326
+#: fuego/bahrain_settings.py:322
 msgid ""
 "dubizzle Bahrain, free classifieds, online classifieds, Bahrain classifieds, "
 "free classifieds in Bahrain"
@@ -348,14 +556,28 @@ msgstr ""
 "دوبيزل بحرين، مبوبة مجانيه، اعلانات مبوبة عبر الإنترنت، مبوبة البحرين، "
 "اعلانات مبوبة مجانيه في بحرين"
 
+#: fuego/base_settings.py:469 templates/search/browse_widget.html:21
+#: templates/search/browse_widget.html:39 templates/search/widget.html:27
+#: templates/search/widget.html.py:44
+msgid "All of dubizzle"
+msgstr "الموقع بالكامل"
+
+#: fuego/base_settings.py:525
+msgid "m&sup2;"
+msgstr "م٢"
+
+#: fuego/base_settings.py:624
+msgid "Unknown"
+msgstr "مجهول"
+
 #: fuego/meta_settings.py:62
 #, python-format
 msgid ""
 "%(ad_title)s - Car Parts & Accessories in %(neighbourhood)s %(city)s | "
 "dubizzle %(country)s"
 msgstr ""
-"%(ad_title)s - زينة و قطع سيارات في %(neighbourhood)s %(city)s | دوبيزل %"
-"(country)s"
+"%(ad_title)s - زينة و قطع سيارات في %(neighbourhood)s %(city)s | دوبيزل "
+"%(country)s"
 
 #: fuego/meta_settings.py:63 fuego/meta_settings.py:69
 #: fuego/meta_settings.py:75 fuego/meta_settings.py:81
@@ -382,11 +604,11 @@ msgstr ""
 #: fuego/meta_settings.py:70
 #, python-format
 msgid ""
-"%(ad_title)s, %(category_leaf)s Cars for Sale in %(city)s, cars for sale %"
-"(country)s"
+"%(ad_title)s, %(category_leaf)s Cars for Sale in %(city)s, cars for sale "
+"%(country)s"
 msgstr ""
-"%(ad_title)s, %(category_leaf)s سيارات للبيع في %(city)s, سيارات للبيع %"
-"(country)s"
+"%(ad_title)s, %(category_leaf)s سيارات للبيع في %(city)s, سيارات للبيع "
+"%(country)s"
 
 #: fuego/meta_settings.py:74
 #, python-format
@@ -412,8 +634,8 @@ msgid ""
 "%(ad_title)s, post %(category_leaf)s Jobs ads, post %(category_leaf)s Jobs "
 "ads in %(city)s"
 msgstr ""
-"%(ad_title)s, أضف اعلانات وظائف %(category_leaf)s, أضف اعلانات وظائف %"
-"(category_leaf)s في  %(city)s"
+"%(ad_title)s, أضف اعلانات وظائف %(category_leaf)s, أضف اعلانات وظائف "
+"%(category_leaf)s في  %(city)s"
 
 #: fuego/meta_settings.py:86 fuego/meta_settings.py:92
 #: fuego/meta_settings.py:98
@@ -424,29 +646,29 @@ msgstr "%(ad_title)s - %(category_leaf)s | دوبيزل %(country)s"
 #: fuego/meta_settings.py:88
 #, python-format
 msgid ""
-"%(ad_title)s, %(category_leaf)s property-for-sale, %(category_leaf)s in %"
-"(country)s"
+"%(ad_title)s, %(category_leaf)s property-for-sale, %(category_leaf)s in "
+"%(country)s"
 msgstr ""
-"%(ad_title)s, %(category_leaf)s عقارات للبيع، %(category_leaf)s في %(country)"
-"s"
+"%(ad_title)s, %(category_leaf)s عقارات للبيع، %(category_leaf)s في "
+"%(country)s"
 
 #: fuego/meta_settings.py:94
 #, python-format
 msgid ""
-"%(ad_title)s, %(category_leaf)s property-for-rent, %(category_leaf)s in %"
-"(country)s"
+"%(ad_title)s, %(category_leaf)s property-for-rent, %(category_leaf)s in "
+"%(country)s"
 msgstr ""
-"%(ad_title)s, %(category_leaf)s عقارات للايجار، %(category_leaf)s في %"
-"(country)s"
+"%(ad_title)s, %(category_leaf)s عقارات للايجار، %(category_leaf)s في "
+"%(country)s"
 
 #: fuego/meta_settings.py:100
 #, python-format
 msgid ""
-"%(ad_title)s, %(category_leaf)s items-for-sale, %(category_leaf)s in %"
-"(country)s"
+"%(ad_title)s, %(category_leaf)s items-for-sale, %(category_leaf)s in "
+"%(country)s"
 msgstr ""
-"%(ad_title)s, %(category_leaf)s اعلانات مبوبة مجانية، %(category_leaf)s في %"
-"(country)s"
+"%(ad_title)s, %(category_leaf)s اعلانات مبوبة مجانية، %(category_leaf)s في "
+"%(country)s"
 
 #: fuego/meta_settings.py:108
 #, python-format
@@ -476,8 +698,8 @@ msgstr ""
 #: fuego/meta_settings.py:114
 #, python-format
 msgid ""
-"Buy & Sell Car Accessories & Auto Parts in %(city_or_country)s | dubizzle %"
-"(country)s"
+"Buy & Sell Car Accessories & Auto Parts in %(city_or_country)s | dubizzle "
+"%(country)s"
 msgstr ""
 "بيع وشراء زينة و قطع سيارات في %(city_or_country)s | دوبيزل %(country)s"
 
@@ -493,15 +715,15 @@ msgstr ""
 #: fuego/meta_settings.py:116
 #, python-format
 msgid ""
-"car parts, auto parts, auto accessories, sale items automobiles to %"
-"(city_or_country)s"
+"car parts, auto parts, auto accessories, sale items automobiles to "
+"%(city_or_country)s"
 msgstr "زينة وقطع سيارات في %(city_or_country)s"
 
 #: fuego/meta_settings.py:120
 #, python-format
 msgid ""
-"%(category_leaf)s Cars for Sale in %(city_comma_country)s | dubizzle %"
-"(country)s"
+"%(category_leaf)s Cars for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
 msgstr ""
 "%(category_leaf)s سيارات للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
@@ -511,17 +733,17 @@ msgid ""
 "Click here to see prices and photos of used %(category_leaf)s cars for sale "
 "in %(city_comma_country)s. Buy directly from owners. No hassles!"
 msgstr ""
-"أضغط ها لمشاهدة صور وأسعار سيارات %(category_leaf)s مستعملة للبيع في %"
-"(city_comma_country)s. الشراء من البائع مباشرة بسهولة. "
+"أضغط ها لمشاهدة صور وأسعار سيارات %(category_leaf)s مستعملة للبيع في "
+"%(city_comma_country)s. الشراء من البائع مباشرة بسهولة. "
 
 #: fuego/meta_settings.py:122
 #, python-format
 msgid ""
-"Cars %(category_leaf)s, Used cars, %(category_leaf)s for sale, %"
-"(category_leaf)s cars for sale in %(city_or_country)s"
+"Cars %(category_leaf)s, Used cars, %(category_leaf)s for sale, "
+"%(category_leaf)s cars for sale in %(city_or_country)s"
 msgstr ""
-"سيارات %(category_leaf)s، سيارات مستعملة، %(category_leaf)s للبيع، سيارات %"
-"(category_leaf)s للبيع في %(city_or_country)s"
+"سيارات %(category_leaf)s، سيارات مستعملة، %(category_leaf)s للبيع، سيارات "
+"%(category_leaf)s للبيع في %(city_or_country)s"
 
 #: fuego/meta_settings.py:126
 #, python-format
@@ -540,8 +762,8 @@ msgstr ""
 #: fuego/meta_settings.py:128
 #, python-format
 msgid ""
-"jobs in %(city_or_country)s, careers in %(city_or_country)s, %"
-"(city_or_country)s job vacancies, recruitment, employment"
+"jobs in %(city_or_country)s, careers in %(city_or_country)s, "
+"%(city_or_country)s job vacancies, recruitment, employment"
 msgstr ""
 "وظائف شاغرة في %(city_or_country)s، وظائف خالية في %(city_or_country)s، توظيف"
 "%(city_or_country)s، فرص عمل "
@@ -555,23 +777,23 @@ msgstr ""
 #: fuego/meta_settings.py:133
 #, python-format
 msgid ""
-"Looking for %(category_leaf)s jobs in %(city_comma_country)s? Search for %"
-"(category_leaf)s jobs with dubizzle %(city_comma_country)s. Submit your CV "
+"Looking for %(category_leaf)s jobs in %(city_comma_country)s? Search for "
+"%(category_leaf)s jobs with dubizzle %(city_comma_country)s. Submit your CV "
 "for FREE."
 msgstr ""
-"هل تبحث عن وظائف %(category_leaf)s في %(city_comma_country)s؟ أبحث عن وظائف %"
-"(category_leaf)s على دوبيزل وأرسل سيرتك الذاتية مجاناً."
+"هل تبحث عن وظائف %(category_leaf)s في %(city_comma_country)s؟ أبحث عن وظائف "
+"%(category_leaf)s على دوبيزل وأرسل سيرتك الذاتية مجاناً."
 
 #: fuego/meta_settings.py:134
 #, python-format
 msgid ""
-"%(category_leaf)s jobs in %(city_or_country)s, %(category_leaf)s careers in %"
-"(city_or_country)s, %(category_leaf)s job vacancies, %(category_leaf)s "
+"%(category_leaf)s jobs in %(city_or_country)s, %(category_leaf)s careers in "
+"%(city_or_country)s, %(category_leaf)s job vacancies, %(category_leaf)s "
 "recruitment, %(category_leaf)s employment"
 msgstr ""
-"وظائف %(category_leaf)s شاغرة في %(city_or_country)s، وظائف %(category_leaf)"
-"s الشاغرة في %(city_or_country)s، وظائف %(category_leaf)s خالية، توظيف %"
-"(category_leaf)s"
+"وظائف %(category_leaf)s شاغرة في %(city_or_country)s، وظائف "
+"%(category_leaf)s الشاغرة في %(city_or_country)s، وظائف %(category_leaf)s "
+"خالية، توظيف %(category_leaf)s"
 
 #: fuego/meta_settings.py:138
 #, python-format
@@ -602,8 +824,8 @@ msgstr ""
 msgid ""
 "Wanted %(category_leaf)s Jobs in %(city_or_country)s | dubizzle %(country)s"
 msgstr ""
-"مطلوب للعمل - وظائف %(category_leaf)s في %(city_or_country)s | دوبيزل %"
-"(country)s"
+"مطلوب للعمل - وظائف %(category_leaf)s في %(city_or_country)s | دوبيزل "
+"%(country)s"
 
 #: fuego/meta_settings.py:145
 #, python-format
@@ -621,14 +843,14 @@ msgid ""
 "post %(category_leaf)s job ads in %(city_or_country)s, %(category_leaf)s job "
 "ads for free, job classified listings"
 msgstr ""
-"أضف اعلان توظيف %(category_leaf)s في %(city_or_country)s، اعلانات وظائف %"
-"(category_leaf)s مجانية"
+"أضف اعلان توظيف %(category_leaf)s في %(city_or_country)s، اعلانات وظائف "
+"%(category_leaf)s مجانية"
 
 #: fuego/meta_settings.py:150
 #, python-format
 msgid ""
-"Real Estate & Property for Sale in %(city_comma_country)s | dubizzle %"
-"(country)s"
+"Real Estate & Property for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
 msgstr "عقارات للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:151
@@ -643,8 +865,8 @@ msgstr ""
 #: fuego/meta_settings.py:152
 #, python-format
 msgid ""
-"Homes for sale in %(city_or_country)s, properties for sale in %"
-"(city_or_country)s, properties to rent, properties for sale in %(country)s"
+"Homes for sale in %(city_or_country)s, properties for sale in "
+"%(city_or_country)s, properties to rent, properties for sale in %(country)s"
 msgstr ""
 "منازل للبيع في %(city_or_country)s، عقارات للبيع في %(city_or_country)s، "
 "عقارات للايجار في %(country)s"
@@ -667,12 +889,12 @@ msgstr ""
 #: fuego/meta_settings.py:158
 #, python-format
 msgid ""
-"house for sale, house for sale, houses %(city_or_country)s villas %"
-"(city_or_country)s, villas for sale in %(city_or_country)s, houses for sale "
+"house for sale, house for sale, houses %(city_or_country)s villas "
+"%(city_or_country)s, villas for sale in %(city_or_country)s, houses for sale "
 "in %(city_or_country)s, sale villas in %(city_or_country)s"
 msgstr ""
-"منازل للبيع، فلل للبيت، منازل في %(city_or_country)s، فلل للبيع، فلل في %"
-"(city_or_country)s للبيع، بيع فلل في %(city_or_country)s"
+"منازل للبيع، فلل للبيت، منازل في %(city_or_country)s، فلل للبيع، فلل في "
+"%(city_or_country)s للبيع، بيع فلل في %(city_or_country)s"
 
 #: fuego/meta_settings.py:162
 #, python-format
@@ -694,18 +916,18 @@ msgstr ""
 #, python-format
 msgid ""
 "apartment for sale, apartment for sale, apartments for %(city_or_country)s, "
-"apartments for sale in %(city_or_country)s, apartments for sale in %"
-"(city_or_country)s, for sale apartments %(city_or_country)s, sale villas in %"
-"(city_or_country)s"
+"apartments for sale in %(city_or_country)s, apartments for sale in "
+"%(city_or_country)s, for sale apartments %(city_or_country)s, sale villas in "
+"%(city_or_country)s"
 msgstr ""
-"شقق للبيع، شقة للبيع، شقق للبيع في %(city_or_country)s، شقق في %"
-"(city_or_country)s، فلل للبيع %(city_or_country)s"
+"شقق للبيع، شقة للبيع، شقق للبيع في %(city_or_country)s، شقق في "
+"%(city_or_country)s، فلل للبيع %(city_or_country)s"
 
 #: fuego/meta_settings.py:168
 #, python-format
 msgid ""
-"Commercial Property for Sale - Offices, Shops & Buildings | dubizzle %"
-"(country)s"
+"Commercial Property for Sale - Offices, Shops & Buildings | dubizzle "
+"%(country)s"
 msgstr "عقارات ومحلات تجارية للبيع - مكاتب، مقاهي، عمارات | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:169
@@ -720,8 +942,8 @@ msgstr ""
 #: fuego/meta_settings.py:170
 #, python-format
 msgid ""
-"commercial property for sale, commercial property for sale in %"
-"(city_or_country)s, commercial buildings, commercial property sale, "
+"commercial property for sale, commercial property for sale in "
+"%(city_or_country)s, commercial buildings, commercial property sale, "
 "commercial property for sale %(city_or_country)s, commercial property for "
 "sale %(city_or_country)s, Commercial for sale %(city_or_country)s, good "
 "business for sale %(city_or_country)s"
@@ -740,8 +962,8 @@ msgstr "أبراج ومباني للبيع في %(city_comma_country)s | دوب�
 #, python-format
 msgid ""
 "Buy & sell full towers and  %(city_comma_country)s buildings. Search for "
-"multiple units, building floors, & other commercial properties in %"
-"(city_comma_country)s."
+"multiple units, building floors, & other commercial properties in "
+"%(city_comma_country)s."
 msgstr ""
 "بيع وشراء أبراج ومباني في %(city_comma_country)s. ابحث عن وحدات سكنية "
 "متعددة، عمارات و عقارات تجارية في %(city_comma_country)s"
@@ -776,21 +998,21 @@ msgid ""
 "Land for sale in %(city_or_country)s, land %(city_or_country)s, sale "
 "Buildings %(city_or_country)s, sale land in %(city_or_country)s"
 msgstr ""
-"أراضي للبيع في %(city_or_country)s، أرض في %(city_or_country)s، أراضي للبيع %"
-"(city_or_country)s"
+"أراضي للبيع في %(city_or_country)s، أرض في %(city_or_country)s، أراضي للبيع "
+"%(city_or_country)s"
 
 #: fuego/meta_settings.py:186
 #, python-format
 msgid ""
-"Real Estate & Property for Rent in %(city_comma_country)s | dubizzle %"
-"(country)s"
+"Real Estate & Property for Rent in %(city_comma_country)s | dubizzle "
+"%(country)s"
 msgstr "عقارات للايجار في %(city_comma_country)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:187
 #, python-format
 msgid ""
-"Click here to view listings on real estate & properties for rent in %"
-"(city_comma_country)s - apartments, flats, villas, houses, buildings, and "
+"Click here to view listings on real estate & properties for rent in "
+"%(city_comma_country)s - apartments, flats, villas, houses, buildings, and "
 "commercial properties."
 msgstr ""
 "أضغط هنا لمشاهدة اعلانات تأجير العقارات في %(city_comma_country)s - فلل، "
@@ -800,9 +1022,9 @@ msgstr ""
 #, python-format
 msgid ""
 "properties in %(city_or_country)s, properties %(city_or_country)s, "
-"properties to rent, property for rent, property for rent in %"
-"(city_or_country)s, property for rent in %(city_or_country)s, properties for "
-"rent in %(city_or_country)s, renting real estate in %(city_or_country)s"
+"properties to rent, property for rent, property for rent in "
+"%(city_or_country)s, property for rent in %(city_or_country)s, properties "
+"for rent in %(city_or_country)s, renting real estate in %(city_or_country)s"
 msgstr ""
 "عقارات في %(city_or_country)s، عقارات للايجار في %(city_or_country)s، عقارات "
 "للايجار، عقار للايجار، ايجار عقارات %(city_or_country)s"
@@ -816,8 +1038,8 @@ msgstr "بيوت وفلل للايجار في %(city_comma_country)s - دوبي�
 #: fuego/meta_settings.py:193
 #, python-format
 msgid ""
-"Click here to view listings of houses and villas for rent in %"
-"(city_comma_country)s - private villas, luxury Villas, holiday villas & "
+"Click here to view listings of houses and villas for rent in "
+"%(city_comma_country)s - private villas, luxury Villas, holiday villas & "
 "beach villas."
 msgstr ""
 "أضغط هنا لمشاهدة اعلانات البيوت والفلل للايجار في %(city_comma_country)s، - "
@@ -826,13 +1048,13 @@ msgstr ""
 #: fuego/meta_settings.py:194
 #, python-format
 msgid ""
-"house for rent, villa for rent, homes in %(city_or_country)s, villas %"
-"(city_or_country)s, villas for rent in %(city_or_country)s, houses for rent "
+"house for rent, villa for rent, homes in %(city_or_country)s, villas "
+"%(city_or_country)s, villas for rent in %(city_or_country)s, houses for rent "
 "in %(city_or_country)s rental homes villas in %(city_or_country)s, beautiful "
 "houses for rent at %(city_or_country)s"
 msgstr ""
-"بيوت للايجار، فلل للايجار في %(city_or_country)s، فلل في %(city_or_country)"
-"s، بيوت للايجار في %(city_or_country)s"
+"بيوت للايجار، فلل للايجار في %(city_or_country)s، فلل في "
+"%(city_or_country)s، بيوت للايجار في %(city_or_country)s"
 
 #: fuego/meta_settings.py:198
 #, python-format
@@ -861,8 +1083,8 @@ msgstr ""
 #: fuego/meta_settings.py:204
 #, python-format
 msgid ""
-"Commercial Property for Rent - Offices, Shops & Buildings | dubizzle %"
-"(country)s"
+"Commercial Property for Rent - Offices, Shops & Buildings | dubizzle "
+"%(country)s"
 msgstr ""
 "عقارات ومحلات تجارية للايجار - مكاتب، مقاهي، عمارات | دوبيزل %(country)s"
 
@@ -873,26 +1095,26 @@ msgid ""
 "including buildings, towers, multiple units, warehouses, offices, shops, and "
 "labour camps."
 msgstr ""
-"أضغط هنا لمشاهدة العقارات التجارية المعروضة للايجار في %(city_comma_country)"
-"s. ابحث عن مكاتب، مقاهي، عمارات، أراضي ومخازن"
+"أضغط هنا لمشاهدة العقارات التجارية المعروضة للايجار في "
+"%(city_comma_country)s. ابحث عن مكاتب، مقاهي، عمارات، أراضي ومخازن"
 
 #: fuego/meta_settings.py:206
 #, python-format
 msgid ""
-"commercial property to rent, commercial property for rent in %"
-"(city_or_country)s, commercial buildings, commercial property leasing, "
+"commercial property to rent, commercial property for rent in "
+"%(city_or_country)s, commercial buildings, commercial property leasing, "
 "commercial property for rent in %(city_or_country)s, rental commercial "
 "properties %(city_or_country)s"
 msgstr ""
 "عقارات ومحلات تجارية للايجار، عقارات تجارية في %(city_or_country)s، محلات "
-"تجارية للايجار في %(city_or_country)s، محلات تجارية للايجار %"
-"(city_or_country)s"
+"تجارية للايجار في %(city_or_country)s، محلات تجارية للايجار "
+"%(city_or_country)s"
 
 #: fuego/meta_settings.py:210
 #, python-format
 msgid ""
-"Room for Rent %(city_comma_country)s - Villas & Apartments | dubizzle %"
-"(country)s"
+"Room for Rent %(city_comma_country)s - Villas & Apartments | dubizzle "
+"%(country)s"
 msgstr "غرف للايجار في %(city_comma_country)s - شقق وفلل | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:211
@@ -901,8 +1123,8 @@ msgid ""
 "Click here to view available rooms for rent in flats, villas, houses, and "
 "apartments in %(city_comma_country)s."
 msgstr ""
-"أضغط هنا لمشاهدة الغرف المتاحة للايجار داخل الشقق والفلل والمنازل في %"
-"(city_comma_country)s"
+"أضغط هنا لمشاهدة الغرف المتاحة للايجار داخل الشقق والفلل والمنازل في "
+"%(city_comma_country)s"
 
 #: fuego/meta_settings.py:212
 #, python-format
@@ -910,17 +1132,17 @@ msgid ""
 "room for rent in %(city_or_country)s, rooms for rent, room for one person, "
 "double occupancy, rent a room, rent rooms in %(city_or_country)s"
 msgstr ""
-"غرف للايجار في %(city_or_country)s، غرف للايجار، غرفة مفردة، ايجار غرفة في %"
-"(city_or_country)s"
+"غرف للايجار في %(city_or_country)s، غرف للايجار، غرفة مفردة، ايجار غرفة في "
+"%(city_or_country)s"
 
 #: fuego/meta_settings.py:216
 #, python-format
 msgid ""
-"Short Term & Vacation Rentals in %(city_comma_country)s | dubizzle %(country)"
-"s"
+"Short Term & Vacation Rentals in %(city_comma_country)s | dubizzle "
+"%(country)s"
 msgstr ""
-"شقق بعقود قصيرة الأمد و شقق سياحية في %(city_comma_country)s | دوبيزل %"
-"(country)s"
+"شقق بعقود قصيرة الأمد و شقق سياحية في %(city_comma_country)s | دوبيزل "
+"%(country)s"
 
 #: fuego/meta_settings.py:217
 #, python-format
@@ -971,8 +1193,8 @@ msgid ""
 "Items for Sale in %(city_comma_country)s - Find, Buy & Sell Anything | "
 "dubizzle %(country)s"
 msgstr ""
-"اعلانات مبوبة مجانية في %(city_comma_country)s - بيع وشراء اي شيء | دوبيزل %"
-"(country)s"
+"اعلانات مبوبة مجانية في %(city_comma_country)s - بيع وشراء اي شيء | دوبيزل "
+"%(country)s"
 
 #: fuego/meta_settings.py:229
 #, python-format
@@ -992,11 +1214,11 @@ msgstr "اعلانات مبوبة، اعلانات مجانية، اعلانات
 #: fuego/meta_settings.py:234
 #, python-format
 msgid ""
-"Buy & Sell Baby Clothes & Items in %(city_comma_country)s | dubizzle %"
-"(country)s"
+"Buy & Sell Baby Clothes & Items in %(city_comma_country)s | dubizzle "
+"%(country)s"
 msgstr ""
-"بيع وشراء ملابس ومستلزمات الاطفال في %(city_comma_country)s | دوبيزل %"
-"(country)s"
+"بيع وشراء ملابس ومستلزمات الاطفال في %(city_comma_country)s | دوبيزل "
+"%(country)s"
 
 #: fuego/meta_settings.py:235
 #, python-format
@@ -1005,17 +1227,17 @@ msgid ""
 "bottles, and nursery furniture in %(city_comma_country)s. Click here to see "
 "prices and pictures."
 msgstr ""
-"ابحث و جد مستلزمات جديدة ومستعملة للأطفال، ألعاب، مقاعد جلوس وغيرها في %"
-"(city_comma_country)s. اضعط هنا لمشاهدة الصور والأسعار"
+"ابحث و جد مستلزمات جديدة ومستعملة للأطفال، ألعاب، مقاعد جلوس وغيرها في "
+"%(city_comma_country)s. اضعط هنا لمشاهدة الصور والأسعار"
 
 #: fuego/meta_settings.py:236
 #, python-format
 msgid ""
-"baby items, clothing, toys, car seats, bottles, nursery furniture in %"
-"(city_or_country)s, in %(country)s"
+"baby items, clothing, toys, car seats, bottles, nursery furniture in "
+"%(city_or_country)s, in %(country)s"
 msgstr ""
-"ملابس ومستلزمات الأطفال، ألعاب، مقاعد السيارات للأطفال في %(city_or_country)"
-"s، في %(country)s"
+"ملابس ومستلزمات الأطفال، ألعاب، مقاعد السيارات للأطفال في "
+"%(city_or_country)s، في %(country)s"
 
 #: fuego/meta_settings.py:240
 #, python-format
@@ -1045,8 +1267,8 @@ msgstr "يخوت وقوارب للبيع، قوارب صيد الأسماك في
 msgid ""
 "Buy & Sell New & Used Books in %(city_comma_country)s | dubizzle %(country)s"
 msgstr ""
-"بيع وشراء الكتب الجديدة والمستعملة في %(city_comma_country)s | دوبيزل %"
-"(country)s"
+"بيع وشراء الكتب الجديدة والمستعملة في %(city_comma_country)s | دوبيزل "
+"%(country)s"
 
 #: fuego/meta_settings.py:247
 #, python-format
@@ -1066,9 +1288,9 @@ msgid ""
 "in %(city_or_country)s, selling books %(city_or_country)s, textbooks for "
 "sale in %(city_or_country)s"
 msgstr ""
-"كتب للبيع، كتب ألكترونية، كتب صوتية، كتب خيالية، روايات للبيع في %"
-"(city_or_country)s، بيع كتب في %(city_or_country)s، كتب مدرسية للبيع في %"
-"(city_or_country)s "
+"كتب للبيع، كتب ألكترونية، كتب صوتية، كتب خيالية، روايات للبيع في "
+"%(city_or_country)s، بيع كتب في %(city_or_country)s، كتب مدرسية للبيع في "
+"%(city_or_country)s "
 
 #: fuego/meta_settings.py:252
 #, python-format
@@ -1081,11 +1303,11 @@ msgstr "معدات صناعية للبيع في %(city_comma_country)s | دوب�
 #, python-format
 msgid ""
 "Buy & sell business & industrial equipment including heavy equipment, "
-"agricultural supplies, and manufacturing equipment in %(city_comma_country)"
-"s. Click here to see prices and details."
+"agricultural supplies, and manufacturing equipment in "
+"%(city_comma_country)s. Click here to see prices and details."
 msgstr ""
-"بيع وشراء المعدات الصناعية الثقيلة من رافعات وغيرها في %(city_comma_country)"
-"s. أضغط هنا لمشاهدة الصور والأسعار وكافة التفاصيل"
+"بيع وشراء المعدات الصناعية الثقيلة من رافعات وغيرها في "
+"%(city_comma_country)s. أضغط هنا لمشاهدة الصور والأسعار وكافة التفاصيل"
 
 #: fuego/meta_settings.py:254
 msgid ""
@@ -1096,8 +1318,8 @@ msgstr "معدات صناعية، معدات ثقيلة، رافعات، خلا�
 #: fuego/meta_settings.py:258
 #, python-format
 msgid ""
-"Camcorders & Cameras for Sale in %(city_comma_country)s | dubizzle %(country)"
-"s"
+"Camcorders & Cameras for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
 msgstr "كاميرات للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:259
@@ -1107,8 +1329,8 @@ msgid ""
 "binoculars, and camera accessories in %(city_comma_country)s. Click here to "
 "see prices and photos."
 msgstr ""
-"بيع وشراء كاميرات، كاميرات رقمية، كاميرات ديجيتال، اكسسوارات الكاميرا في %"
-"(city_comma_country)s. أضغط هنا لمشاهدة الصور والأسعار."
+"بيع وشراء كاميرات، كاميرات رقمية، كاميرات ديجيتال، اكسسوارات الكاميرا في "
+"%(city_comma_country)s. أضغط هنا لمشاهدة الصور والأسعار."
 
 #: fuego/meta_settings.py:260
 msgid ""
@@ -1144,8 +1366,8 @@ msgstr "فساتين للبيع، ملابس للبيع، موضة، ملابس 
 #: fuego/meta_settings.py:270
 #, python-format
 msgid ""
-"Laptops, Tablets & Computers for Sale in %(city_comma_country)s | dubizzle %"
-"(country)s"
+"Laptops, Tablets & Computers for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
 msgstr ""
 "كمبيوترات ولابتوبات للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
@@ -1166,11 +1388,11 @@ msgstr "لابتوبات للبيع، كمبيوترات محمولة، ايبا
 #: fuego/meta_settings.py:276
 #, python-format
 msgid ""
-"Home Appliances & Electronics for Sale in %(city_comma_country)s | dubizzle %"
-"(country)s"
+"Home Appliances & Electronics for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
 msgstr ""
-"أدوات منزلية و ألكترونيات للبيع في %(city_comma_country)s | دوبيزل %(country)"
-"s"
+"أدوات منزلية و ألكترونيات للبيع في %(city_comma_country)s | دوبيزل "
+"%(country)s"
 
 #: fuego/meta_settings.py:277
 #, python-format
@@ -1190,14 +1412,14 @@ msgid ""
 "washing machine, refrigerator, home theater, best deals on electrical "
 "appliances in %(city_or_country)s"
 msgstr ""
-"أداوت منزلية و ألكترونيات للبيع، تلفزيونات، سماعات، غسالات، ثلاجات في %"
-"(city_or_country)s"
+"أداوت منزلية و ألكترونيات للبيع، تلفزيونات، سماعات، غسالات، ثلاجات في "
+"%(city_or_country)s"
 
 #: fuego/meta_settings.py:282
 #, python-format
 msgid ""
-"Garden & Home Furniture for Sale in %(city_comma_country)s | dubizzle %"
-"(country)s"
+"Garden & Home Furniture for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
 msgstr ""
 "أثاث المنزل والحدائق للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
@@ -1218,8 +1440,8 @@ msgid ""
 "furniture for sale, home, garden, bed, tables, sofa, wardrobe, lounge, "
 "garden furniture and sell houses in %(city_or_country)s"
 msgstr ""
-"أثاث المنزل والحدائق للبيع، طاولات، أريكة، سرير، خزانة، غرفة الجلوس في %"
-"(city_or_country)s"
+"أثاث المنزل والحدائق للبيع، طاولات، أريكة، سرير، خزانة، غرفة الجلوس في "
+"%(city_or_country)s"
 
 #: fuego/meta_settings.py:288
 #, python-format
@@ -1250,8 +1472,8 @@ msgstr ""
 msgid ""
 "Motorcycle & Bikes for Sale in %(city_comma_country)s | dubizzle %(country)s"
 msgstr ""
-"دراجات هوائية ودراجات نارية للبيع في %(city_comma_country)s | دوبيزل %"
-"(country)s"
+"دراجات هوائية ودراجات نارية للبيع في %(city_comma_country)s | دوبيزل "
+"%(country)s"
 
 #: fuego/meta_settings.py:295
 #, python-format
@@ -1310,8 +1532,8 @@ msgid ""
 "Buy & sell dvd, blu ray, and high definition movies, cd's, mp3 music, and "
 "vinyls in %(city_comma_country)s. Click here to see prices and details."
 msgstr ""
-"بيع وشراء أفلام ديفيدي، سيديات، موسيقى ام بي ثري وغيرها في %"
-"(city_comma_country)s. أضغط هنا لمشاهدة الصور والأسعار."
+"بيع وشراء أفلام ديفيدي، سيديات، موسيقى ام بي ثري وغيرها في "
+"%(city_comma_country)s. أضغط هنا لمشاهدة الصور والأسعار."
 
 #: fuego/meta_settings.py:308
 msgid "dvd for sale, cd's, mp3 music"
@@ -1339,8 +1561,8 @@ msgid ""
 "Musical Instruments for sale, guitars, violins, drums, speakers, musical "
 "instruments sales in %(city_or_country)s"
 msgstr ""
-"آلات موسيقية للبيع، جيتار، كمنجة، طبل، بيانو، مكبرات الصوت للبيع في %"
-"(city_or_country)s"
+"آلات موسيقية للبيع، جيتار، كمنجة، طبل، بيانو، مكبرات الصوت للبيع في "
+"%(city_or_country)s"
 
 #: fuego/meta_settings.py:318
 #, python-format
@@ -1363,16 +1585,16 @@ msgstr "حيوانات أليفة للتبني، كلاب، قطط، طيور، 
 #: fuego/meta_settings.py:324
 #, python-format
 msgid ""
-"Sports & Gym Equipment for Sale in %(city_comma_country)s | dubizzle %"
-"(country)s"
+"Sports & Gym Equipment for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
 msgstr "معدات رياضية للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:325
 #, python-format
 msgid ""
 "Buy & sell new and used sports & gym equipment including treadmills, "
-"dumbbells, cross trainers, camping equipment, and sports apparel in  %"
-"(city_comma_country)s . Click here to see prices and photos."
+"dumbbells, cross trainers, camping equipment, and sports apparel in  "
+"%(city_comma_country)s . Click here to see prices and photos."
 msgstr ""
 "بيع وشراء أجهزة و معدات رياضية مثل جهاز المشي وجهاز المعدة و تقوية العضلات "
 "والأثقال وغيرها في %(city_comma_country)s . أضغط هنا لمشاهدة الصور والأسعار."
@@ -1387,8 +1609,8 @@ msgid ""
 "Vouchers, Concert & Airline Tickets for Sale in %(city_comma_country)s | "
 "dubizzle %(country)s"
 msgstr ""
-"كوبونات وقسائم و تذاكر طيارات للبيع في %(city_comma_country)s | دوبيزل  %"
-"(country)s"
+"كوبونات وقسائم و تذاكر طيارات للبيع في %(city_comma_country)s | دوبيزل  "
+"%(country)s"
 
 #: fuego/meta_settings.py:331
 #, python-format
@@ -1417,8 +1639,8 @@ msgstr "ألعاب للبيع في %(city_comma_country)s | دوبيزل %(count
 #, python-format
 msgid ""
 "Buy & sell new and used collectibles and toys including action figures, "
-"stuffed animals, educational toys, puzzles, and more in %(city_comma_country)"
-"s. Click here to see prices and photos."
+"stuffed animals, educational toys, puzzles, and more in "
+"%(city_comma_country)s. Click here to see prices and photos."
 msgstr ""
 "بيع وشراء الألعاب والألغار والحزازير في %(city_comma_country)s. أضغط هنا "
 "لمشاهدة الصور والأسعار."
@@ -1430,16 +1652,16 @@ msgstr "ألعاب للبيع، حزازير، ألغاز، المقتنيات"
 #: fuego/meta_settings.py:342
 #, python-format
 msgid ""
-"Game Consoles & Video Games for Sale in %(city_comma_country)s | dubizzle %"
-"(country)s"
+"Game Consoles & Video Games for Sale in %(city_comma_country)s | dubizzle "
+"%(country)s"
 msgstr ""
 "أجهزة و ألعاب فيديو للبيع في %(city_comma_country)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:343
 #, python-format
 msgid ""
-"Buy & sell video games, game consoles, and game accessories in %"
-"(city_comma_country)s including PS3, Xbox 360, Nintendo, PSP's, Game Boys "
+"Buy & sell video games, game consoles, and game accessories in "
+"%(city_comma_country)s including PS3, Xbox 360, Nintendo, PSP's, Game Boys "
 "and more. Click here to see photos and prices."
 msgstr ""
 "بيع وشراء أجهزة و ألعاب الفيديو ومستلزماتها في %(city_comma_country)s بما "
@@ -1484,29 +1706,30 @@ msgstr "أشياء للبيع، سلع للبيع، أغراض للبيع في %
 #, python-format
 msgid ""
 "Free Classifieds in %(city_comma_country)s - Jobs in %(city_comma_country)s, "
-"Property & Real Estate For Sale & Rent, Cars for Sale | dubizzle %"
-"(city_comma_country)s"
+"Property & Real Estate For Sale & Rent, Cars for Sale | dubizzle "
+"%(city_comma_country)s"
 msgstr ""
-"اعلانات مبوبة مجانية في %(city_comma_country)s - وظائف شاغرة في %"
-"(city_comma_country)s, عقارات للبيع او الايجار, سيارات للبيع | دوبيزل %"
-"(city_comma_country)s"
+"اعلانات مبوبة مجانية في %(city_comma_country)s - وظائف شاغرة في "
+"%(city_comma_country)s, عقارات للبيع او الايجار, سيارات للبيع | دوبيزل "
+"%(city_comma_country)s"
 
 #: fuego/meta_settings.py:365
 #, python-format
 msgid ""
-"dubizzle is your free and friendly local classifieds website in %"
-"(city_comma_country)s. Jobs, property, real estate, cars and classifieds in %"
-"(city_comma_country)s. Post an ad, browse ads, buy, sell or rent. "
+"dubizzle is your free and friendly local classifieds website in "
+"%(city_comma_country)s. Jobs, property, real estate, cars and classifieds in "
+"%(city_comma_country)s. Post an ad, browse ads, buy, sell or rent. "
 msgstr ""
 "دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(city_comma_country)s. "
-"وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في %(city_comma_country)"
-"s. أضف اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
+"وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في "
+"%(city_comma_country)s. أضف اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
 
 #: fuego/meta_settings.py:366 fuego/meta_settings.py:372
 #, python-format
 msgid ""
-"dubizzle %(city_comma_country)s, free classifieds, online classifieds, %"
-"(city_comma_country)s classifieds, free classifieds in %(city_comma_country)s"
+"dubizzle %(city_comma_country)s, free classifieds, online classifieds, "
+"%(city_comma_country)s classifieds, free classifieds in "
+"%(city_comma_country)s"
 msgstr ""
 "دوبيزل  %(city_comma_country)s، مبوبة مجانيه، اعلانات مبوبة عبر الإنترنت، "
 "مبوبة  %(city_comma_country)s، اعلانات مبوبة مجانيه في %(city_comma_country)s"
@@ -1523,8 +1746,8 @@ msgstr ""
 #: fuego/meta_settings.py:371
 #, python-format
 msgid ""
-"dubizzle is your free and friendly local classifieds website in %"
-"(city_comma_country)s to buy, sell and find anything. Find cars, jobs, "
+"dubizzle is your free and friendly local classifieds website in "
+"%(city_comma_country)s to buy, sell and find anything. Find cars, jobs, "
 "properties for rent or items for sale in %(city_comma_country)s."
 msgstr ""
 "دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(city_comma_country)s "
@@ -1537,8 +1760,8 @@ msgid ""
 "How dubizzle works - Guide on how to use dubizzle for free online classified "
 "ads | dubizzle %(country)s"
 msgstr ""
-"كيفية إستعمال والإستفادة من موقع دوبيزل - بيع واشترى اى شيء دوبيزل %(country)"
-"s"
+"كيفية إستعمال والإستفادة من موقع دوبيزل - بيع واشترى اى شيء دوبيزل "
+"%(country)s"
 
 #: fuego/meta_settings.py:382
 #, python-format
@@ -1571,8 +1794,8 @@ msgid ""
 "How dubizzle works - Guide on how to use dubizzle for free online "
 "classifieds ads | dubizzle %(country)s"
 msgstr ""
-"كيفية إستعمال والإستفادة من موقع دوبيزل - بيع واشترى اى شيء دوبيزل %(country)"
-"s"
+"كيفية إستعمال والإستفادة من موقع دوبيزل - بيع واشترى اى شيء دوبيزل "
+"%(country)s"
 
 #: fuego/meta_settings.py:390
 #, python-format
@@ -1612,20 +1835,6 @@ msgstr ""
 "اكتشف اكثر الاعلانات المميزة على دوبيزل. هل تريد اضافة اعلانات رائعة على "
 "دوبيزل؟ شاهد هذه الامثلة..."
 
-#: fuego/shared_settings.py:206
-msgid "Unknown"
-msgstr "مجهول"
-
-#: fuego/shared_settings.py:337 templates/search/browse_widget.html:21
-#: templates/search/browse_widget.html:39 templates/search/widget.html:27
-#: templates/search/widget.html.py:44
-msgid "All of dubizzle"
-msgstr "الموقع بالكامل"
-
-#: fuego/shared_settings.py:964
-msgid "m&sup2;"
-msgstr "م٢"
-
 #: fuego/forms/__init__.py:144
 msgid "Enter your name please, nobody likes to talk to a stranger ;)"
 msgstr "عرفنا على إسمك... \"وعاشت الأسامي\"."
@@ -1637,6 +1846,16 @@ msgid ""
 msgstr ""
 "لقد نسيت اضافة رسالتك للمعلن. هل تحتاج لمزيد من المعلومات عن هذا الإعلان؟ لا "
 "حرج في السؤال!"
+
+#: fuego/forms/__init__.py:180 templates/listings/manage_listing.html:138
+#: templates/listings/snippets/_form.html:111
+msgid "Choose your city"
+msgstr "اختر مدينتك"
+
+#: fuego/forms/__init__.py:194 search/forms.py:43
+#, python-format
+msgid "All of %(country)s"
+msgstr "%(country)s بالكامل"
 
 #: fuego/forms/fields.py:37
 msgid "Enter a LangDict value."
@@ -1958,20 +2177,10 @@ msgstr "لقد نسيت اضافة الرسالة. عندك مشكلة؟ راس�
 msgid "Huh... that's not the same one!?"
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
-#: search/forms.py:28 search/forms.py:35 search/forms.py:38
-#, fuzzy
-msgid "name"
-msgstr "المنامة"
-
 #: search/forms.py:35
 #, python-format
 msgid "All of %(city)s"
 msgstr "%(city)s بالكامل"
-
-#: search/forms.py:43
-#, python-format
-msgid "All of %(country)s"
-msgstr "%(country)s بالكامل"
 
 #: search/forms.py:134
 msgid "Keywords"
@@ -2016,27 +2225,48 @@ msgid "Not all is lost! There's great stuff just around the corner"
 msgstr ""
 "ولا يهمك.. يوجد المزيد من الصفحات الأخرى المسلية والمفيدة. فقط اضغط ادناه!"
 
-#: templates/404-web.html:23 templates/privacy_ar.html:60
-#: templates/privacy_fr.html:64 templates/terms_ar.html:314
+#: templates/404-web.html:23 templates/base_privacy.html:27
+#: templates/base_terms.html:33
 msgid "Go back"
 msgstr "الصفحة السابقة"
 
-#: templates/404-web.html:24 templates/generic.html:77
-#: templates/privacy_ar.html:61 templates/privacy_fr.html:65
-#: templates/terms_ar.html:315 templates/sell/badass-classifieds-ads.html:18
+#: templates/404-web.html:24 templates/base_privacy.html:31
+#: templates/base_terms.html:37 templates/generic.html:77
+#: templates/sell/badass-classifieds-ads.html:18
 #: templates/sell/how-it-works.html:17 templates/sell/how-to-post-ad.html:16
 #: templates/sell/why-dubizzle.html:16 templates/shared/listings.html:83
 msgid "Home"
 msgstr "الصفحة الرئيسية"
 
+#: templates/base_privacy.html:12 templates/public/_footer.html:16
+msgid "Privacy Policy"
+msgstr "سياسة الخصوصية"
+
+#: templates/base_terms.html:12 templates/public/_footer.html:13
+msgid "Terms of Use"
+msgstr "شروط وأحكام إستخدام موقع دوبيزل"
+
+#: templates/base_terms.html:16
+#, fuzzy
+msgid ""
+"\n"
+"THIS IS A LEGAL AGREEMENT BETWEEN YOU AND DUBIZZLE.COM STATING THE TERMS "
+"THAT GOVERN YOUR USE OF THE WEBSITE. BY ACCESSING AND USING THE WEBSITE YOU "
+"AGREE TO THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS DO NOT USE THE "
+"WEBSITE. YOU MUST ACCEPT AND ABIDE BY THESE TERMS AS PRESENTED TO YOU: "
+"CHANGES, ADDITIONS OR DELETIONS ARE NOT ACCEPTABLE AND DUBIZZLE MAY REFUSE "
+"ACCESS TO THE WEBSITE FOR NONCOMPLIANCE WITH ANY OF THE TERMS OF THIS "
+"AGREEMENT\n"
+msgstr ""
+"ن دخول موقع dubizzle.com وإستخدامه يعني قبولك للإلتزامات القانونية المترتبة "
+"عليك وموافقتك الكاملة عليها بموجب هذه الشروط والآحكام. في حال عدم موافقتك "
+"بالشروط والأحكام أدناه يرجى عدم إستخدام موقع dubizzle.com. يجب الموافقة على "
+"هذه الشروط والأحكام بالكامل: الإضافات والتعديلات والإزالات غير مقبولة. في "
+"حال عدم الإلتزام بأي من شروط هذه الاتفاقية قد ترفض dubizzle منح الإستخدام."
+
 #: templates/generic.html:24
 msgid "Browse"
 msgstr "تصفح"
-
-#: templates/generic.html:38 templates/generic.html.py:124
-#: templates/public/landing.html:66 templates/search/category_widget.html:51
-msgid "All of"
-msgstr "كل"
 
 # not too clear
 #: templates/generic.html:43
@@ -2062,22 +2292,6 @@ msgstr "الحساب"
 #: templates/generic.html:155
 msgid "View all in"
 msgstr "اظهر الجميع في"
-
-#: templates/terms_ar.html:12
-msgid ""
-"THIS IS A LEGAL AGREEMENT BETWEEN YOU AND DUBIZZLE.COM STATING THE TERMS "
-"THAT GOVERN YOUR USE OF THE WEBSITE. BY ACCESSING AND USING THE WEBSITE YOU "
-"AGREE TO THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS DO NOT USE THE "
-"WEBSITE. YOU MUST ACCEPT AND ABIDE BY THESE TERMS AS PRESENTED TO YOU: "
-"CHANGES, ADDITIONS OR DELETIONS ARE NOT ACCEPTABLE AND DUBIZZLE MAY REFUSE "
-"ACCESS TO THE WEBSITE FOR NONCOMPLIANCE WITH ANY OF THE TERMS OF THIS "
-"AGREEMENT."
-msgstr ""
-"ن دخول موقع dubizzle.com وإستخدامه يعني قبولك للإلتزامات القانونية المترتبة "
-"عليك وموافقتك الكاملة عليها بموجب هذه الشروط والآحكام. في حال عدم موافقتك "
-"بالشروط والأحكام أدناه يرجى عدم إستخدام موقع dubizzle.com. يجب الموافقة على "
-"هذه الشروط والأحكام بالكامل: الإضافات والتعديلات والإزالات غير مقبولة. في "
-"حال عدم الإلتزام بأي من شروط هذه الاتفاقية قد ترفض dubizzle منح الإستخدام."
 
 #: templates/authentication/change_password.html:13
 msgid "Change password"
@@ -2297,11 +2511,6 @@ msgstr ""
 "(مثلاً: الحجم والأبعاد)<br/>- إشرح أهم المواصفات والمعلومات (مثلاً: الضمان إن "
 "وجد) يرجى عدم اضافة عنوان إيميلك داخل الوصف وهذا لحماية خصوصيتك."
 
-#: templates/listings/manage_listing.html:138
-#: templates/listings/snippets/_form.html:111
-msgid "Choose your city"
-msgstr "اختر مدينتك"
-
 #: templates/listings/manage_listing.html:188
 #: templates/listings/snippets/_form.html:161
 msgid "Mobile Number"
@@ -2367,9 +2576,9 @@ msgid ""
 "                    "
 msgstr ""
 "\n"
-"عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" "
-"target=\"_blank\">الشروط والأحكام</a> و<a href=\"%(privacy_url)s\" "
-"target=\"_blank\">سياسة الخصوصية</a> لدوبيزل، بالإضافة إلى قبول عروض تسويقية."
+"عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" target=\"_blank"
+"\">الشروط والأحكام</a> و<a href=\"%(privacy_url)s\" target=\"_blank\">سياسة "
+"الخصوصية</a> لدوبيزل، بالإضافة إلى قبول عروض تسويقية."
 
 #: templates/listings/manage_listing.html:348
 msgid "Uploading photos, please wait..."
@@ -2537,9 +2746,9 @@ msgstr "أرسل رسالتي"
 #: templates/listings/reply/reply_to_listing_include.html:147
 #, python-format
 msgid ""
-"By clicking on 'Send my reply' I agree to the dubizzle <a href=\"%(terms_url)"
-"s\"> terms and conditions</a> and the dubizzle <a href=\"%(privacy_url)s"
-"\">privacy policy</a>"
+"By clicking on 'Send my reply' I agree to the dubizzle <a href="
+"\"%(terms_url)s\"> terms and conditions</a> and the dubizzle <a href="
+"\"%(privacy_url)s\">privacy policy</a>"
 msgstr ""
 "عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\">شروط "
 "وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\">سياسة الخصوصية</a>."
@@ -2627,35 +2836,49 @@ msgstr "العودة الى بداية الصفحة"
 msgid "Contact"
 msgstr "راسلنا"
 
-#: templates/public/_footer.html:13
-msgid "Terms of Use"
-msgstr "شروط وأحكام إستخدام موقع دوبيزل"
-
-#: templates/public/_footer.html:16
-msgid "Privacy Policy"
-msgstr "سياسة الخصوصية"
-
 #: templates/public/_footer.html:19 templates/sitemaps/sitemap.html:28
 msgid "Sitemap"
 msgstr "خريطة الموقع"
 
-#: templates/public/_footer.html:22 templates/public/landing.html:27
-msgid "Change country"
-msgstr "تغيير الدولة"
-
 #: templates/public/_footer.html:26
-msgid "2013, dubizzle.com, All Rights Reserved."
+#, fuzzy
+msgid ", dubizzle.com, All Rights Reserved."
 msgstr "2013, dubizzle.com, جميع الحقوق محفوظة."
+
+#: templates/public/_testemonials.html:13
+#: templates/public/_testemonials.html:25
+msgid ""
+"Nobody wanted to buy this couch. Until I found dubizzle and got more than 10 "
+"calls in half an hour."
+msgstr ""
+
+#: templates/public/_testemonials.html:36
+msgid ""
+"I sold this bag on dubizzle. It's free to post an ad and it's super easy and "
+"very fast. I love it!"
+msgstr ""
+
+#: templates/public/_testemonials.html:47
+msgid ""
+"I placed an ad on dubizzle to sell these brand new shoes. I sold them in 15 "
+"minutes!"
+msgstr ""
+
+#: templates/public/_testemonials.html:58
+msgid ""
+"dubizzle helped me sell my second phone. It was completely hassle free! I'll "
+"definitely use this site again."
+msgstr ""
+
+#: templates/public/_testemonials.html:69
+msgid ""
+"I sold my unused laptop on dubizzle! It's easy money for the things you "
+"don't use anymore!"
+msgstr ""
 
 #: templates/public/about.html:7
 msgid "About Us"
 msgstr "تعرف علينا"
-
-#: templates/public/contact_us.html:7
-#: templates/public/contact_us_complete.html:7
-#: templates/public/landing.html:15
-msgid "Ahlan wa sahlan..."
-msgstr "اهلا وسهلا بكم في دوبيزل..."
 
 #: templates/public/contact_us.html:21
 msgid ""
@@ -2767,10 +2990,6 @@ msgstr "أضف إعلانك المجاني"
 #: templates/public/landing.html:62
 msgid "Select your city and find the best deals from thousands of ads!"
 msgstr "اختر مدينتك و ابحث عن أفضل الصفقات من بين آلاف الإعلانات."
-
-#: templates/public/landing.html:95
-msgid "Cars"
-msgstr "سيارات"
 
 #: templates/public/landing.html:107
 msgid "Property for Sale"
@@ -3248,18 +3467,6 @@ msgstr ""
 msgid "Next up"
 msgstr "التالي"
 
-#: templates/sell/why-dubizzle.html:35
-msgid "Why use dubizzle?"
-msgstr "فوائد دوبيزل السبع"
-
-#: templates/sell/why-dubizzle.html:42
-msgid "Make money"
-msgstr "فرصة لكسب المال"
-
-#: templates/sell/why-dubizzle.html:43
-msgid "Turn your unused items into cash."
-msgstr "يمكنك كسب المال من بيع الأشياء التي لم تعد تحتاج إليها."
-
 #: templates/sell/why-dubizzle.html:51
 msgid "Your ad is FREE"
 msgstr "مجانا وبدون أي رسوم"
@@ -3267,26 +3474,6 @@ msgstr "مجانا وبدون أي رسوم"
 #: templates/sell/why-dubizzle.html:52
 msgid "No fees, no hidden agendas and no twists or turns."
 msgstr "ضيف إعلانك على دوبيزل مجانا ولن نطلب منك أي رسوم على الإطلاق."
-
-#: templates/sell/why-dubizzle.html:60
-msgid "It's safe"
-msgstr "وسيلة آمنة"
-
-#: templates/sell/why-dubizzle.html:61
-msgid "No credit cards, no online payments and no money transfers."
-msgstr "بدون كروت إئتمان أو معاملات بنكية أو دفع إلكتروني."
-
-#: templates/sell/why-dubizzle.html:69
-msgid "Fast and easy"
-msgstr "سهل وسريع"
-
-#: templates/sell/why-dubizzle.html:70
-msgid "A few simple steps to create your ad in 1 page only."
-msgstr "خطوات بسيطة لإضافة إعلانك في صفحة واحدة فقط."
-
-#: templates/sell/why-dubizzle.html:80
-msgid "We're local"
-msgstr "بالقرب منك وحواليك"
 
 #: templates/sell/why-dubizzle.html:81
 msgid ""
@@ -3659,18 +3846,20 @@ msgstr[5] ""
 "لديك %(counter)s إعلان تحت المراجعة\n"
 "    "
 
-#: utils/meta_builder.py:86
-msgid "neighbourhoods"
-msgstr "المنطقة"
-
 #: utils/meta_builder.py:93 utils/meta_builder.py:98
 #, python-format
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
 
-#: utils/meta_builder.py:95 utils/meta_builder.py:100
-msgid "city"
-msgstr "المدينة"
+#, fuzzy
+#~ msgid "name"
+#~ msgstr "المنامة"
+
+#~ msgid "neighbourhoods"
+#~ msgstr "المنطقة"
+
+#~ msgid "city"
+#~ msgstr "المدينة"
 
 #, fuzzy
 #~ msgid "%(translated_currency)s <span>%(price)s</span>"
@@ -3712,8 +3901,8 @@ msgstr "المدينة"
 
 #~ msgid ""
 #~ "Our ninja monkeys noticed that you didn't finish placing your awesome ad. "
-#~ "Continue from where you left off below or <a id=\"reset-form\" href=\"%"
-#~ "(reset_url)s\">click here</a> to place a new ad."
+#~ "Continue from where you left off below or <a id=\"reset-form\" href="
+#~ "\"%(reset_url)s\">click here</a> to place a new ad."
 #~ msgstr ""
 #~ " لاحظنا إنك لم تنته من إضافة إعلانك وحفظنا الصفحة بكل المعلومات التي "
 #~ "أدخلتها.  أكمل إعلانك أدناه أو <a id=\"reset-form\" href=\"%(reset_url)s"
@@ -3738,10 +3927,6 @@ msgstr "المدينة"
 #, fuzzy
 #~ msgid "Buy. Sell. Anything"
 #~ msgstr "بيع واشتري وأعثر على أى شيء "
-
-#, fuzzy
-#~ msgid "All of Egypt"
-#~ msgstr "كل"
 
 #~ msgid "reset form"
 #~ msgstr "إخلاء الإستمارة"
