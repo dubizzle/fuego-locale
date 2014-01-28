@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-28 10:15+0400\n"
+"POT-Creation-Date: 2014-01-28 15:31+0400\n"
 "PO-Revision-Date: 2013-10-08 14:44+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/"
@@ -257,7 +257,9 @@ msgid "Want to buy something? Choose location or select a category."
 msgstr ""
 
 #: country_templates/oman/public/landing.html:62
-#: country_templates/qatar/public/landing.html:61 templates/generic.html:38
+#: country_templates/oman/public/landing.html:75
+#: country_templates/qatar/public/landing.html:61
+#: country_templates/qatar/public/landing.html:73 templates/generic.html:38
 #: templates/generic.html.py:124 templates/public/landing.html:66
 #: templates/search/category_widget.html:51
 msgid "All of"
@@ -269,11 +271,6 @@ msgstr "Toute la"
 #: country_templates/qatar/public/landing.html:84
 msgid "* More regions coming soon"
 msgstr ""
-
-#: country_templates/oman/public/landing.html:75
-#, fuzzy
-msgid "All of Oman"
-msgstr "Toute la"
 
 #: country_templates/oman/public/landing.html:81
 #: country_templates/qatar/public/landing.html:80
@@ -324,11 +321,6 @@ msgstr ""
 #: country_templates/qatar/public/landing.html:14
 msgid "Your best friend for free local classifieds in Qatar."
 msgstr ""
-
-#: country_templates/qatar/public/landing.html:74
-#, fuzzy
-msgid "All of qatar"
-msgstr "Tout à propos"
 
 #: country_templates/qatar/public/landing.html:124
 msgid "Clothing  & accessories"
@@ -4218,6 +4210,14 @@ msgstr[1] ""
 #, python-format
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s, %(country)s"
+
+#, fuzzy
+#~ msgid "All of Oman"
+#~ msgstr "Toute la"
+
+#, fuzzy
+#~ msgid "All of qatar"
+#~ msgstr "Tout à propos"
 
 #~ msgid "neighbourhoods"
 #~ msgstr "Voisinage"
