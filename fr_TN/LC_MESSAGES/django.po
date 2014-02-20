@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-04 18:27+0400\n"
-"PO-Revision-Date: 2014-02-02 13:20+0400\n"
+"POT-Creation-Date: 2014-02-20 14:19+0400\n"
+"PO-Revision-Date: 2014-02-20 15:30+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/"
-"projects/fuego/fuego/fr_TN/>\n"
+"Language-Team: French - Tunisian "
+"<http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_TN/>\n"
 "Language: fr_TN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,7 +55,7 @@ msgstr ""
 "Désolé, veuillez entrer de nouveau votre mot de passe en utilisant "
 "uniquement des caractères anglophones."
 
-#: authentication/forms.py:104 listings/tests.py:1532
+#: authentication/forms.py:104 listings/tests.py:1521
 msgid ""
 "This email address is already in use. Click 'I have a dubizzle password', or "
 "use a different email."
@@ -63,11 +63,11 @@ msgstr ""
 "Cette adresse email est déja en cours d'utilisation. Cliquez sur 'J'ai un "
 "mot de passe dubizzle', ou utiliser une autre adresse."
 
-#: authentication/forms.py:121 listings/tests.py:1605
+#: authentication/forms.py:121 listings/tests.py:1593
 msgid "Huh... that's not the same one! Try again."
 msgstr "Oups... ce n'est pas la męme! Réessayez."
 
-#: authentication/forms.py:129 listings/tests.py:1678
+#: authentication/forms.py:129 listings/tests.py:1665
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "Hmm... ça ne marche pas. Réessayez."
 
@@ -362,17 +362,17 @@ msgstr ""
 msgid "Jewelry & watches"
 msgstr ""
 
-#: fuego/base_settings.py:474 templates/search/browse_widget.html:21
+#: fuego/base_settings.py:470 templates/search/browse_widget.html:21
 #: templates/search/browse_widget.html:39 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "Tout sur dubizzle"
 
-#: fuego/base_settings.py:530
+#: fuego/base_settings.py:526
 msgid "m&sup2;"
 msgstr "m&sup2;"
 
-#: fuego/base_settings.py:629
+#: fuego/base_settings.py:625
 msgid "Unknown"
 msgstr "Inconnu"
 
@@ -2810,19 +2810,32 @@ msgstr "Facebook"
 msgid "Twitter"
 msgstr "Twitter"
 
-#: templates/listings/delete_listing.html:14
-msgid "Are you sure you want to Delete this listing?"
-msgstr "Ętes-vous sűr de vouloir supprimer cette annonce?"
-
 #: templates/listings/delete_listing.html:16
-msgid "Please click on confirm to delete this listing!"
-msgstr "Veuillez cliquer sur 'valider' pour supprimer cette annonce!"
+msgid "Your ad is currently being moderated."
+msgstr "Votre annonce est en cours de modération."
 
-#: templates/listings/delete_listing.html:19
+#: templates/listings/delete_listing.html:18
+msgid ""
+"We're working our magic on your ad right now. Please come back a little "
+"later."
+msgstr ""
+"Nous sommes entrain d'inspecter votre annonce . On vous prie de revenir plus "
+"tard."
+
+#: templates/listings/delete_listing.html:21
+#: templates/listings/delete_listing.html:29
 msgid "Back to listing"
 msgstr "Retour à l'annonce"
 
-#: templates/listings/delete_listing.html:22
+#: templates/listings/delete_listing.html:24
+msgid "Are you sure you want to Delete this listing?"
+msgstr "Ętes-vous sűr de vouloir supprimer cette annonce?"
+
+#: templates/listings/delete_listing.html:26
+msgid "Please click on confirm to delete this listing!"
+msgstr "Veuillez cliquer sur 'valider' pour supprimer cette annonce!"
+
+#: templates/listings/delete_listing.html:32
 msgid "Confirm"
 msgstr "Confirmer"
 
@@ -4305,8 +4318,8 @@ msgstr "%(city)s, %(country)s"
 #~ "That's a very short description.  Please write more than %(limit_value)s "
 #~ "characters in your description."
 #~ msgstr ""
-#~ "Cette description est très courte. Veuillez écrire plus de "
-#~ "%(limit_value)s caractères dans le champ description."
+#~ "Cette description est très courte. Veuillez écrire plus de %(limit_value)"
+#~ "s caractères dans le champ description."
 
 #~ msgid "Hey there, we thought we lost you in cyberspace."
 #~ msgstr "Hey, on a cru vous avoir perdu dans le Cyber espace."
