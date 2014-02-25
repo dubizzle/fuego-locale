@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-25 16:05+0400\n"
+"POT-Creation-Date: 2014-02-25 17:54+0400\n"
 "PO-Revision-Date: 2014-02-20 15:16+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Bahraini <http://translate.dubizzlecloud.com/"
@@ -215,6 +215,15 @@ msgstr ""
 msgid ""
 "Wherever you are, our customer support heros help you post the perfect ad "
 "and draw a smile upon your face."
+msgstr ""
+
+#: country_templates/shared_landing.html:113
+#: templates/search/search_listings.html:24
+msgid "Got something to sell?"
+msgstr "لديك شيء للبيع؟"
+
+#: country_templates/shared_landing.html:115
+msgid "Yalla try it."
 msgstr ""
 
 #: country_templates/shared_landing.html:120
@@ -3203,10 +3212,6 @@ msgstr[5] ""
 "\n"
 "وجدنا <span class=\"red\">%(counter)s</span> اعلان\n"
 "                "
-
-#: templates/search/search_listings.html:24
-msgid "Got something to sell?"
-msgstr "لديك شيء للبيع؟"
 
 #: templates/search/search_listings.html:27
 msgid "Place your ad"
