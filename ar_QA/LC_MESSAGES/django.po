@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-25 16:06+0400\n"
+"POT-Creation-Date: 2014-02-25 17:55+0400\n"
 "PO-Revision-Date: 2014-02-25 17:26+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: Arabic - Qatari "
-"<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_QA/>\n"
+"Language-Team: Arabic - Qatari <http://translate.dubizzlecloud.com/projects/"
+"fuego/fuego/ar_QA/>\n"
 "Language: ar_QA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -199,8 +199,7 @@ msgid ""
 "Post your ad, update it and browse from your computer, mobile phone, tablet "
 "or Mars."
 msgstr ""
-" أضف إعلانك وقم بتعديله من الكمبيوتر أو الموبايل أو التابلت أو حتى من "
-"المريخ!"
+" أضف إعلانك وقم بتعديله من الكمبيوتر أو الموبايل أو التابلت أو حتى من المريخ!"
 
 #: country_templates/shared_landing.html:104
 msgid "Support 24/7"
@@ -213,6 +212,15 @@ msgid ""
 msgstr ""
 "فريق دعم دوبيزل يتواصل معك شخصياً في إضافة إعلانك أينما كنت ويسعى لرسم "
 "الإبتسامة على وجهك."
+
+#: country_templates/shared_landing.html:113
+#: templates/search/search_listings.html:24
+msgid "Got something to sell?"
+msgstr "لديك شيء للبيع؟"
+
+#: country_templates/shared_landing.html:115
+msgid "Yalla try it."
+msgstr ""
 
 #: country_templates/shared_landing.html:120
 #: country_templates/shared_landing.html:125
@@ -3252,10 +3260,6 @@ msgstr[5] ""
 "\n"
 "وجدنا <span class=\"red\">%(counter)s</span> اعلان\n"
 "                "
-
-#: templates/search/search_listings.html:24
-msgid "Got something to sell?"
-msgstr "لديك شيء للبيع؟"
 
 #: templates/search/search_listings.html:27
 msgid "Place your ad"
