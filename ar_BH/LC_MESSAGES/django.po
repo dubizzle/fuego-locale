@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-25 17:54+0400\n"
-"PO-Revision-Date: 2014-02-20 15:16+0400\n"
+"POT-Creation-Date: 2014-03-25 17:32+0400\n"
+"PO-Revision-Date: 2014-03-25 15:41+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Bahraini <http://translate.dubizzlecloud.com/"
 "projects/fuego/fuego/ar_BH/>\n"
@@ -60,7 +60,7 @@ msgstr "تأكيد كلمة السر"
 msgid "Sorry, please re-enter your password using only English characters."
 msgstr "عفوا, كلمة السر يجب أن تتكون من حروف لاتينية (English)"
 
-#: authentication/forms.py:104 listings/tests.py:1521
+#: authentication/forms.py:104 listings/tests.py:1520
 msgid ""
 "This email address is already in use. Click 'I have a dubizzle password', or "
 "use a different email."
@@ -68,11 +68,11 @@ msgstr ""
 "عنوان الإيميل هذا مسجل لدينا. إختر \"لدي حساب وكلمة سر\" اعلاه أو ادخل عنوان "
 "ايميل آخر."
 
-#: authentication/forms.py:121 listings/tests.py:1593
+#: authentication/forms.py:121 listings/tests.py:1592
 msgid "Huh... that's not the same one! Try again."
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
-#: authentication/forms.py:129 listings/tests.py:1665
+#: authentication/forms.py:129 listings/tests.py:1664
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
 
@@ -154,12 +154,10 @@ msgid "Turn your unused items into cash."
 msgstr "يمكنك كسب المال من بيع الأشياء التي لم تعد تحتاج إليها."
 
 #: country_templates/shared_landing.html:57
-#, fuzzy
 msgid "Your ad is free"
 msgstr "مجانا وبدون أي رسوم"
 
 #: country_templates/shared_landing.html:58
-#, fuzzy
 msgid "No fees, no hidden agendas and no twists or turns. It’s FREE"
 msgstr "ضيف إعلانك على دوبيزل مجانا ولن نطلب منك أي رسوم على الإطلاق."
 
@@ -179,7 +177,6 @@ msgid "Fast and easy"
 msgstr "سهل وسريع"
 
 #: country_templates/shared_landing.html:76
-#, fuzzy
 msgid "A few simple steps to create your ad in one page only."
 msgstr "خطوات بسيطة لإضافة إعلانك في صفحة واحدة فقط."
 
@@ -189,18 +186,15 @@ msgid "We're local"
 msgstr "بالقرب منك وحواليك"
 
 #: country_templates/shared_landing.html:87
-#, fuzzy
 msgid ""
 "Find and connect with thousands of buyers in your city and neighborhood."
 msgstr "تواصل مع آلاف المشتريين في مدينتك ومنطقتك."
 
 #: country_templates/shared_landing.html:95
-#, fuzzy
 msgid "Access anytime anywhere"
 msgstr "في أي وقت ومن أي مكان"
 
 #: country_templates/shared_landing.html:96
-#, fuzzy
 msgid ""
 "Post your ad, update it and browse from your computer, mobile phone, tablet "
 "or Mars."
@@ -209,13 +203,15 @@ msgstr ""
 
 #: country_templates/shared_landing.html:104
 msgid "Support 24/7"
-msgstr ""
+msgstr "نحن معك  24/7"
 
 #: country_templates/shared_landing.html:105
 msgid ""
 "Wherever you are, our customer support heros help you post the perfect ad "
 "and draw a smile upon your face."
 msgstr ""
+"فريق دعم دوبيزل يتواصل معك شخصياً في إضافة إعلانك أينما كنت ويسعى لرسم "
+"الإبتسامة على وجهك."
 
 #: country_templates/shared_landing.html:113
 #: templates/search/search_listings.html:24
@@ -224,19 +220,199 @@ msgstr "لديك شيء للبيع؟"
 
 #: country_templates/shared_landing.html:115
 msgid "Yalla try it."
-msgstr ""
+msgstr "يلا، جرب وبيع."
 
 #: country_templates/shared_landing.html:120
 #: country_templates/shared_landing.html:125
+#: country_templates/bahrain/public/landing.html:48
+#: country_templates/bahrain/public/landing.html:53
+#: country_templates/kuwait/public/landing.html:48
+#: country_templates/kuwait/public/landing.html:53
 #: country_templates/oman/public/landing.html:46
 #: country_templates/oman/public/landing.html:51
 #: country_templates/qatar/public/landing.html:46
 #: country_templates/qatar/public/landing.html:51
-#: country_templates/saudi/public/landing.html:48
-#: country_templates/saudi/public/landing.html:53
-#, fuzzy
+#: country_templates/saudi/public/landing.html:49
+#: country_templates/saudi/public/landing.html:54
 msgid "Post your ad"
-msgstr "أضف إعلان"
+msgstr "أضف إعلانك"
+
+#: country_templates/bahrain/public/_map.html:326 fuego/bahrain_settings.py:44
+#: fuego/bahrain_settings.py:62
+msgid "Manama"
+msgstr "المنامة"
+
+#: country_templates/bahrain/public/landing.html:15
+msgid "Bahrain's free local classifieds community"
+msgstr "رفيقك للإعلانات المُبوبة المجانية في البحرين"
+
+#: country_templates/bahrain/public/landing.html:21
+#: country_templates/kuwait/public/landing.html:21
+#: country_templates/oman/public/landing.html:19
+#: country_templates/qatar/public/landing.html:19
+#: country_templates/saudi/public/landing.html:22
+msgid "Place your FREE ad in 1, 2, 3."
+msgstr "أضف إعلانك مجاناً في ثلاث خطوات بسيطة "
+
+#: country_templates/bahrain/public/landing.html:26
+#: country_templates/kuwait/public/landing.html:26
+#: country_templates/oman/public/landing.html:24
+#: country_templates/qatar/public/landing.html:24
+#: country_templates/saudi/public/landing.html:27
+msgid "Place your FREE ad."
+msgstr "أضف إعلانك "
+
+#: country_templates/bahrain/public/landing.html:31
+#: country_templates/kuwait/public/landing.html:31
+#: country_templates/oman/public/landing.html:29
+#: country_templates/qatar/public/landing.html:29
+#: country_templates/saudi/public/landing.html:32
+msgid "Choose a category"
+msgstr "اختر الفئة"
+
+#: country_templates/bahrain/public/landing.html:35
+#: country_templates/kuwait/public/landing.html:35
+#: country_templates/oman/public/landing.html:33
+#: country_templates/qatar/public/landing.html:33
+#: country_templates/saudi/public/landing.html:36
+msgid "Add photos"
+msgstr "حمّل صُور"
+
+#: country_templates/bahrain/public/landing.html:39
+#: country_templates/kuwait/public/landing.html:39
+#: country_templates/oman/public/landing.html:37
+#: country_templates/qatar/public/landing.html:37
+#: country_templates/saudi/public/landing.html:40
+msgid "Describe your item"
+msgstr "أضف مواصفات"
+
+#: country_templates/bahrain/public/landing.html:61
+#: country_templates/kuwait/public/landing.html:61
+#: country_templates/oman/public/landing.html:59
+#: country_templates/qatar/public/landing.html:59
+#: country_templates/saudi/public/landing.html:63
+msgid "Want to buy something? Choose your location or browse our categories."
+msgstr "ترغب بشراء شيء؟ إختر موقعك أو تصفح الفئات المختارة"
+
+#: country_templates/bahrain/public/landing.html:68
+#: country_templates/bahrain/public/landing.html:93
+#: country_templates/kuwait/public/landing.html:68
+#: country_templates/kuwait/public/landing.html:93
+#: country_templates/oman/public/landing.html:65
+#: country_templates/oman/public/landing.html:89
+#: country_templates/qatar/public/landing.html:65
+#: country_templates/qatar/public/landing.html:89
+#: country_templates/saudi/public/landing.html:70
+#: country_templates/saudi/public/landing.html:95 templates/generic.html:38
+#: templates/generic.html.py:124 templates/public/landing.html:66
+#: templates/search/category_widget.html:51
+msgid "All of"
+msgstr "كل"
+
+#: country_templates/bahrain/public/landing.html:82
+#: country_templates/bahrain/public/landing.html:104
+#: country_templates/kuwait/public/landing.html:82
+#: country_templates/kuwait/public/landing.html:104
+#: country_templates/oman/public/landing.html:79
+#: country_templates/oman/public/landing.html:99
+#: country_templates/qatar/public/landing.html:79
+#: country_templates/qatar/public/landing.html:99
+#: country_templates/saudi/public/landing.html:84
+#: country_templates/saudi/public/landing.html:106
+msgid "* More regions coming soon"
+msgstr "*المزيد من المناطق قريباً"
+
+#: country_templates/bahrain/public/landing.html:100
+#: country_templates/kuwait/public/landing.html:100
+#: country_templates/oman/public/landing.html:95
+#: country_templates/qatar/public/landing.html:95
+#: country_templates/saudi/public/landing.html:102
+msgid "Show me the ads"
+msgstr "اظهر جميع اعلاناتي المنشورة"
+
+#: country_templates/bahrain/public/landing.html:115
+#: country_templates/kuwait/public/landing.html:115
+#: country_templates/oman/public/landing.html:110
+#: country_templates/qatar/public/landing.html:110
+#: country_templates/saudi/public/landing.html:117
+msgid "Home, furniture &amp; garden"
+msgstr " المنزل والأثاث والحديقة"
+
+#: country_templates/bahrain/public/landing.html:121
+#: country_templates/kuwait/public/landing.html:121
+#: country_templates/oman/public/landing.html:116
+#: country_templates/qatar/public/landing.html:116
+#: country_templates/saudi/public/landing.html:123
+msgid "Mobile phones &amp; accessories"
+msgstr "جوالات وإكسسواراتها"
+
+#: country_templates/bahrain/public/landing.html:127
+#: country_templates/kuwait/public/landing.html:127
+#: country_templates/oman/public/landing.html:128
+#: country_templates/qatar/public/landing.html:128
+#: country_templates/saudi/public/landing.html:129
+msgid "Electronics &amp; home appliances"
+msgstr "إلكترونيات وأجهزة منزلية"
+
+#: country_templates/bahrain/public/landing.html:133
+#: country_templates/kuwait/public/landing.html:133
+#: country_templates/oman/public/landing.html:140
+#: country_templates/saudi/public/landing.html:135
+msgid "Car accessories"
+msgstr "إكسسوارات السيارة"
+
+#: country_templates/bahrain/public/landing.html:139
+#: country_templates/kuwait/public/landing.html:139
+#: country_templates/qatar/public/landing.html:140
+#: country_templates/saudi/public/landing.html:147
+msgid "Clothing  & accessories"
+msgstr "ملابس وإكسسواراتها"
+
+#: country_templates/bahrain/public/landing.html:145
+#: country_templates/kuwait/public/landing.html:145
+#: country_templates/oman/public/landing.html:146
+#: country_templates/qatar/public/landing.html:146
+#: country_templates/saudi/public/landing.html:153
+msgid "Tablets &amp; computers "
+msgstr "تابلت/أجهزة لوحية وكمبيوتر"
+
+#: country_templates/bahrain/public/landing.html:151
+#: country_templates/kuwait/public/landing.html:151
+#: country_templates/saudi/public/landing.html:159
+msgid "Cameras & accessories"
+msgstr "كاميرات وإكسسواراتها"
+
+#: country_templates/bahrain/public/landing.html:157
+#: country_templates/kuwait/public/landing.html:157
+#: country_templates/saudi/public/landing.html:165
+msgid "Jewelry & watches"
+msgstr "مجوهرات وساعات"
+
+#: country_templates/bahrain/public/landing.html:163
+#: country_templates/kuwait/public/landing.html:163
+msgid "Sporting goods and accessories"
+msgstr "مستلزمات وأدوات رياضية"
+
+#: country_templates/bahrain/public/landing.html:169
+#: country_templates/kuwait/public/landing.html:169
+msgid "Video games & consoles"
+msgstr "أجهزة وألعاب فيديو"
+
+#: country_templates/bahrain/public/landing.html:175
+#: country_templates/kuwait/public/landing.html:175
+#: country_templates/oman/public/landing.html:152
+#: country_templates/qatar/public/landing.html:152
+#: country_templates/saudi/public/landing.html:171
+msgid "So much more."
+msgstr "فئات أكثر"
+
+#: country_templates/kuwait/public/_map.html:80
+msgid "Kuwait"
+msgstr ""
+
+#: country_templates/kuwait/public/landing.html:15
+msgid "Your free local classifieds in Kuwait"
+msgstr ""
 
 #: country_templates/oman/public/_map.html:26
 msgid "Salalah"
@@ -250,119 +426,17 @@ msgstr ""
 msgid "Sell anything... from frankincense to fridges."
 msgstr ""
 
-#: country_templates/oman/public/landing.html:19
-#: country_templates/qatar/public/landing.html:19
-#: country_templates/saudi/public/landing.html:21
-#, fuzzy
-msgid "Place your FREE ad in 1, 2, 3."
-msgstr "أضف إعلانك "
-
-#: country_templates/oman/public/landing.html:24
-#: country_templates/qatar/public/landing.html:24
-#: country_templates/saudi/public/landing.html:26
-#, fuzzy
-msgid "Place your FREE ad."
-msgstr "أضف إعلانك "
-
-#: country_templates/oman/public/landing.html:29
-#: country_templates/qatar/public/landing.html:29
-#: country_templates/saudi/public/landing.html:31
-#, fuzzy
-msgid "Choose a category"
-msgstr "نوع الإعلان؟"
-
-#: country_templates/oman/public/landing.html:33
-#: country_templates/qatar/public/landing.html:33
-#: country_templates/saudi/public/landing.html:35
-#, fuzzy
-msgid "Add photos"
-msgstr "اضف صور"
-
-#: country_templates/oman/public/landing.html:37
-#: country_templates/qatar/public/landing.html:37
-#: country_templates/saudi/public/landing.html:39
-msgid "Describe your item"
-msgstr ""
-
-#: country_templates/oman/public/landing.html:59
-#: country_templates/qatar/public/landing.html:59
-#: country_templates/saudi/public/landing.html:62
-msgid "Want to buy something? Choose your location or browse our categories."
-msgstr ""
-
-#: country_templates/oman/public/landing.html:65
-#: country_templates/oman/public/landing.html:89
-#: country_templates/qatar/public/landing.html:65
-#: country_templates/qatar/public/landing.html:89
-#: country_templates/saudi/public/landing.html:69
-#: country_templates/saudi/public/landing.html:94 templates/generic.html:38
-#: templates/generic.html.py:124 templates/public/landing.html:66
-#: templates/search/category_widget.html:51
-msgid "All of"
-msgstr "كل"
-
-#: country_templates/oman/public/landing.html:79
-#: country_templates/oman/public/landing.html:99
-#: country_templates/qatar/public/landing.html:79
-#: country_templates/qatar/public/landing.html:99
-#: country_templates/saudi/public/landing.html:83
-#: country_templates/saudi/public/landing.html:105
-msgid "* More regions coming soon"
-msgstr ""
-
-#: country_templates/oman/public/landing.html:95
-#: country_templates/qatar/public/landing.html:95
-#: country_templates/saudi/public/landing.html:101
-#, fuzzy
-msgid "Show me the ads"
-msgstr "اظهر جميع اعلاناتي المنشورة"
-
-#: country_templates/oman/public/landing.html:110
-#: country_templates/qatar/public/landing.html:110
-#: country_templates/saudi/public/landing.html:116
-msgid "Home, furniture &amp; garden"
-msgstr ""
-
-#: country_templates/oman/public/landing.html:116
-#: country_templates/qatar/public/landing.html:116
-#: country_templates/saudi/public/landing.html:122
-msgid "Mobile phones &amp; accessories"
-msgstr ""
-
 #: country_templates/oman/public/landing.html:122
 #: country_templates/qatar/public/landing.html:122
 msgid "Sporting goods &amp; outdoors"
 msgstr ""
 
-#: country_templates/oman/public/landing.html:128
-#: country_templates/qatar/public/landing.html:128
-#: country_templates/saudi/public/landing.html:128
-msgid "Electronics &amp; home appliances"
-msgstr ""
-
 #: country_templates/oman/public/landing.html:134
 #: country_templates/qatar/public/landing.html:134
-#: country_templates/saudi/public/landing.html:140
+#: country_templates/saudi/public/landing.html:141
 #: templates/public/landing.html:95
 msgid "Cars"
 msgstr "سيارات"
-
-#: country_templates/oman/public/landing.html:140
-#: country_templates/saudi/public/landing.html:134
-msgid "Car accessories"
-msgstr ""
-
-#: country_templates/oman/public/landing.html:146
-#: country_templates/qatar/public/landing.html:146
-#: country_templates/saudi/public/landing.html:152
-msgid "Tablets &amp; computers "
-msgstr ""
-
-#: country_templates/oman/public/landing.html:152
-#: country_templates/qatar/public/landing.html:152
-#: country_templates/saudi/public/landing.html:170
-msgid "So much more."
-msgstr ""
 
 #: country_templates/qatar/public/_map.html:28
 msgid "Doha"
@@ -370,11 +444,6 @@ msgstr ""
 
 #: country_templates/qatar/public/landing.html:14
 msgid "Qatar's free local classifieds community."
-msgstr ""
-
-#: country_templates/qatar/public/landing.html:140
-#: country_templates/saudi/public/landing.html:146
-msgid "Clothing  & accessories"
 msgstr ""
 
 #: country_templates/saudi/public/_map.html:32
@@ -398,16 +467,8 @@ msgstr "الأدوية"
 msgid "Jeddah"
 msgstr ""
 
-#: country_templates/saudi/public/landing.html:15
+#: country_templates/saudi/public/landing.html:16
 msgid "The Kingdom's free local classifieds community."
-msgstr ""
-
-#: country_templates/saudi/public/landing.html:158
-msgid "Cameras & accessories"
-msgstr ""
-
-#: country_templates/saudi/public/landing.html:164
-msgid "Jewelry & watches"
 msgstr ""
 
 #: fuego/bahrain_settings.py:32
@@ -417,10 +478,6 @@ msgstr "البحرين"
 #: fuego/bahrain_settings.py:34
 msgid "BHD"
 msgstr "د. ب."
-
-#: fuego/bahrain_settings.py:44 fuego/bahrain_settings.py:62
-msgid "Manama"
-msgstr "المنامة"
 
 #: fuego/bahrain_settings.py:67
 msgid "Adliya"
@@ -598,15 +655,15 @@ msgstr "المحرق‎"
 msgid "Sitra"
 msgstr "سترة"
 
-#: fuego/bahrain_settings.py:302
+#: fuego/bahrain_settings.py:325
 msgid "English"
 msgstr ""
 
-#: fuego/bahrain_settings.py:303
+#: fuego/bahrain_settings.py:326
 msgid "Arabic"
 msgstr "عربي"
 
-#: fuego/bahrain_settings.py:313
+#: fuego/bahrain_settings.py:336
 msgid ""
 "Jobs in Bahrain, Property & Real Estate For Sale & Rent, Cars for Sale - "
 "Free Classifieds in Bahrain | dubizzle Bahrain"
@@ -614,7 +671,7 @@ msgstr ""
 "وظائف في البحرين، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في "
 "البحرين | دوبيزل البحرين."
 
-#: fuego/bahrain_settings.py:317
+#: fuego/bahrain_settings.py:340
 msgid ""
 "dubizzle is your free and friendly local classifieds website in Bahrain. "
 "Jobs, property, real estate, cars and classifieds in Bahrain. Post an ad, "
@@ -623,7 +680,7 @@ msgstr ""
 "دوبيزل هو خيارك الأول للاعلانات المبوبة المجانية في بحرين. ايجاد وظائف , "
 "عقارات للبيع و للايجار , سيارات للبيع في بحرين"
 
-#: fuego/bahrain_settings.py:322
+#: fuego/bahrain_settings.py:345
 msgid ""
 "dubizzle Bahrain, free classifieds, online classifieds, Bahrain classifieds, "
 "free classifieds in Bahrain"
@@ -1936,15 +1993,15 @@ msgstr "%(country)s بالكامل"
 msgid "Enter a LangDict value."
 msgstr ""
 
-#: fuego/forms/fields.py:120
+#: fuego/forms/fields.py:136
 msgid "Enter a list of values."
 msgstr "نوع الاستفسار"
 
-#: fuego/forms/fields.py:121
+#: fuego/forms/fields.py:137
 msgid "Could not coerce the list of values"
 msgstr ""
 
-#: fuego/forms/fields.py:122
+#: fuego/forms/fields.py:138
 msgid "Lists too large."
 msgstr ""
 
@@ -2744,11 +2801,11 @@ msgstr ""
 msgid "Details"
 msgstr "التفاصيل"
 
-#: templates/listings/get/get_listing.html:168
+#: templates/listings/get/get_listing.html:169
 msgid "Show mobile number"
 msgstr "اظهر رقم الموبايل"
 
-#: templates/listings/get/get_listing.html:178
+#: templates/listings/get/get_listing.html:179
 msgid "Send an email"
 msgstr "ارسل إيميل"
 
@@ -2871,6 +2928,67 @@ msgstr "الرسالة"
 #: templates/listings/report/report_listing.html:121
 msgid "Report ad"
 msgstr "بلغ عن هذا الإعلان"
+
+#: templates/listings/snippets/_scam_warning.html:3
+msgid "Important tips from dubizzle"
+msgstr ""
+"نصائح دوبيزلاوية عالسريع (نصائح عالسريع علشان يكون عندك صورة واضحة عن "
+"دوبيزل):"
+
+#: templates/listings/snippets/_scam_warning.html:5
+msgid ""
+"dubizzle offers its service for free and has no middlemen or subsidiaries."
+msgstr ""
+"دوبيزل يُقدم خدماته مجاناً من دون مقابل من دون وجود وسيط تجاري أو شركات فرعية."
+
+#: templates/listings/snippets/_scam_warning.html:6
+msgid ""
+"Please be careful not to fall for scam messages sent to buyers or sellers."
+msgstr ""
+"لأن الحذر واجب، إنتبه من الوقوع في فخ رسائل النصب \"السكام\" التي ترسل إلى "
+"البائع أو المشتري."
+
+#: templates/listings/snippets/_scam_warning.html:7
+msgid ""
+"Always meet in person and in a public place like a club, a coffee shop, or a "
+"metro station."
+msgstr ""
+" دائماً قابل الناس شخصياً وفي أماكن عامة مثل الكوفي شوب أو محطات المواصلات."
+
+#: templates/listings/snippets/_scam_warning.html:8
+msgid ""
+"Never send money or your financial details to any person you knew from the "
+"internet (e.g. cheques, deposit, etc.)."
+msgstr ""
+" لا تشارك معلوماتك البنكية أو المالية مع أي شخص تعرفت عليه عن طريق الإنترنت "
+"(يعني لا ترسل شيكات أو دفعة مالية مقدمة ولا أي شي مثله)."
+
+#: templates/listings/snippets/_scam_warning.html:9
+msgid ""
+"If a buyer or seller sounds fishy or the offer is too good to be true, they "
+"probably are!"
+msgstr ""
+"لمّا تكون السلعة أو الخدمة غير منطقية، غير واقعية، وصعب تصديقها، فهذا يعني: "
+"إنتبه!"
+
+#: templates/listings/snippets/_scam_warning.html:10
+msgid ""
+"If the buyer or seller asks you to ship the item you’re selling or want to "
+"buy in return for money transfers, then it is almost certainly a fraud. "
+"Never give your bank details to any person and never sell or buy anything "
+"unless you meet the person yourself."
+msgstr ""
+" إذا طلب منك الشخص القيام بشحن السلعة أو عرض عليك خدمة مقابل حوالة بنكية، "
+"هذا يعني أن الآخ محتال. لا تعطي تفاصيل حسابك البنكي لأي شخص، ولا تبيع أو "
+"تشتري أي شيء من دون لقاء الطرف الثاني شخصياً."
+
+#: templates/listings/snippets/_scam_warning.html:11
+msgid ""
+"One last thing, inspect the item you wish to buy carefully or ask for the "
+"help of one of your friends."
+msgstr ""
+"نصيحتنا الأخيرة، إنك تفحص الغرض الذي تريد شراؤه ويُفضل طلب المساعدة من صديق "
+"عنده خبرة بالموضوع."
 
 #: templates/listings/snippets/photos/_manage_photos.html:9
 msgid "Add some photos"
@@ -3945,16 +4063,6 @@ msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
 
 #, fuzzy
-#~ msgid ""
-#~ "No fees, no hidden agendas and no twists or turns. It’s FREE - now and "
-#~ "forever."
-#~ msgstr "ضيف إعلانك على دوبيزل مجانا ولن نطلب منك أي رسوم على الإطلاق."
-
-#, fuzzy
-#~ msgid "Post an ad"
-#~ msgstr "أضف إعلان"
-
-#, fuzzy
 #~ msgid "name"
 #~ msgstr "المنامة"
 
@@ -3963,6 +4071,16 @@ msgstr "%(city)s، %(country)s "
 
 #~ msgid "city"
 #~ msgstr "المدينة"
+
+#, fuzzy
+#~ msgid ""
+#~ "No fees, no hidden agendas and no twists or turns. It’s FREE - now and "
+#~ "forever."
+#~ msgstr "ضيف إعلانك على دوبيزل مجانا ولن نطلب منك أي رسوم على الإطلاق."
+
+#, fuzzy
+#~ msgid "Post an ad"
+#~ msgstr "أضف إعلان"
 
 #, fuzzy
 #~ msgid "All of Oman"
