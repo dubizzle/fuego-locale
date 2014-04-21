@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-25 17:32+0400\n"
+"POT-Creation-Date: 2014-04-21 18:32+0400\n"
 "PO-Revision-Date: 2014-03-25 17:10+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Saudi <http://translate.dubizzlecloud.com/projects/"
@@ -357,51 +357,60 @@ msgstr "إلكترونيات وأجهزة منزلية"
 
 #: country_templates/bahrain/public/landing.html:133
 #: country_templates/kuwait/public/landing.html:133
+#: country_templates/oman/public/landing.html:134
+#: country_templates/qatar/public/landing.html:134
+#: country_templates/saudi/public/landing.html:141
+#: templates/public/landing.html:95
+msgid "Cars"
+msgstr "سيارات"
+
+#: country_templates/bahrain/public/landing.html:139
+#: country_templates/kuwait/public/landing.html:139
 #: country_templates/oman/public/landing.html:140
 #: country_templates/saudi/public/landing.html:135
 msgid "Car accessories"
 msgstr "إكسسوارات السيارة"
 
-#: country_templates/bahrain/public/landing.html:139
-#: country_templates/kuwait/public/landing.html:139
+#: country_templates/bahrain/public/landing.html:145
+#: country_templates/kuwait/public/landing.html:145
 #: country_templates/qatar/public/landing.html:140
 #: country_templates/saudi/public/landing.html:147
 msgid "Clothing  & accessories"
 msgstr "ملابس واكسسواراتها"
 
-#: country_templates/bahrain/public/landing.html:145
-#: country_templates/kuwait/public/landing.html:145
+#: country_templates/bahrain/public/landing.html:151
+#: country_templates/kuwait/public/landing.html:151
 #: country_templates/oman/public/landing.html:146
 #: country_templates/qatar/public/landing.html:146
 #: country_templates/saudi/public/landing.html:153
 msgid "Tablets &amp; computers "
 msgstr "تابلت/أجهزة لوحية وكمبيوتر"
 
-#: country_templates/bahrain/public/landing.html:151
-#: country_templates/kuwait/public/landing.html:151
+#: country_templates/bahrain/public/landing.html:157
+#: country_templates/kuwait/public/landing.html:157
 #: country_templates/saudi/public/landing.html:159
 msgid "Cameras & accessories"
 msgstr "كاميرات واكسسواراتها"
 
-#: country_templates/bahrain/public/landing.html:157
-#: country_templates/kuwait/public/landing.html:157
+#: country_templates/bahrain/public/landing.html:163
+#: country_templates/kuwait/public/landing.html:163
 #: country_templates/saudi/public/landing.html:165
 msgid "Jewelry & watches"
 msgstr "مجوهرات وساعات"
 
-#: country_templates/bahrain/public/landing.html:163
-#: country_templates/kuwait/public/landing.html:163
+#: country_templates/bahrain/public/landing.html:169
+#: country_templates/kuwait/public/landing.html:169
 #, fuzzy
 msgid "Sporting goods and accessories"
 msgstr "ملابس واكسسواراتها"
 
-#: country_templates/bahrain/public/landing.html:169
-#: country_templates/kuwait/public/landing.html:169
+#: country_templates/bahrain/public/landing.html:175
+#: country_templates/kuwait/public/landing.html:175
 msgid "Video games & consoles"
 msgstr ""
 
-#: country_templates/bahrain/public/landing.html:175
-#: country_templates/kuwait/public/landing.html:175
+#: country_templates/bahrain/public/landing.html:181
+#: country_templates/kuwait/public/landing.html:181
 #: country_templates/oman/public/landing.html:152
 #: country_templates/qatar/public/landing.html:152
 #: country_templates/saudi/public/landing.html:171
@@ -419,11 +428,10 @@ msgid "Your free local classifieds in Kuwait"
 msgstr "رفيقك للإعلانات المُبوبة المجانية في قطر"
 
 #: country_templates/oman/public/_map.html:26
-#, fuzzy
-msgid "Salalah"
-msgstr "السلامة"
+msgid "Dhofar"
+msgstr ""
 
-#: country_templates/oman/public/_map.html:39
+#: country_templates/oman/public/_map.html:45
 msgid "Muscat"
 msgstr ""
 
@@ -436,13 +444,6 @@ msgstr "بيع أي شيء في السلطنة... من البخور إلى ال�
 msgid "Sporting goods &amp; outdoors"
 msgstr "مستلزمات وأدوات رياضية"
 
-#: country_templates/oman/public/landing.html:134
-#: country_templates/qatar/public/landing.html:134
-#: country_templates/saudi/public/landing.html:141
-#: templates/public/landing.html:95
-msgid "Cars"
-msgstr "سيارات"
-
 #: country_templates/qatar/public/_map.html:28
 msgid "Doha"
 msgstr ""
@@ -451,27 +452,77 @@ msgstr ""
 msgid "Qatar's free local classifieds community."
 msgstr "رفيقك للإعلانات المُبوبة المجانية في قطر"
 
-#: country_templates/saudi/public/_map.html:65 fuego/saudi_settings.py:106
-msgid "Medina"
+#: country_templates/saudi/public/_map.html:32 fuego/saudi_settings.py:136
+msgid "Tabuk"
+msgstr "تبوك"
+
+#: country_templates/saudi/public/_map.html:43 fuego/saudi_settings.py:94
+msgid "Eastern Region"
+msgstr "المنطقة الشرقية"
+
+#: country_templates/saudi/public/_map.html:54 fuego/saudi_settings.py:130
+#: fuego/saudi_settings.py:475
+msgid "Riyadh"
+msgstr "الرياض"
+
+#: country_templates/saudi/public/_map.html:65 fuego/saudi_settings.py:76
+msgid "Al Madinah"
 msgstr "المدينة المنورة"
+
+#: country_templates/saudi/public/_map.html:76 fuego/saudi_settings.py:112
+#: fuego/saudi_settings.py:377
+msgid "Makkah"
+msgstr "مكة"
 
 #: country_templates/saudi/public/landing.html:16
 msgid "The Kingdom's free local classifieds community."
 msgstr "رفيقك للإعلانات المُبوبة المجانية في المملكة"
 
-#: fuego/base_settings.py:470 templates/search/browse_widget.html:21
+#: fuego/base_settings.py:471 templates/search/browse_widget.html:21
 #: templates/search/browse_widget.html:39 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:526
+#: fuego/base_settings.py:527
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:625
+#: fuego/base_settings.py:626
 msgid "Unknown"
 msgstr "مجهول"
+
+#: fuego/base_settings.py:907
+msgid "Other"
+msgstr "لدي سبب آخر"
+
+#: fuego/base_settings.py:909
+msgid "Please select"
+msgstr "الرجاء الإختيار"
+
+#: fuego/base_settings.py:912
+msgid "Miscategorized"
+msgstr "فئة الإعلان خاطئة"
+
+#: fuego/base_settings.py:913
+msgid "Offensive"
+msgstr "الإعلان مزعج أو فيه إهانة"
+
+#: fuego/base_settings.py:914
+msgid "Repetitive"
+msgstr "الإعلان مُكرر"
+
+#: fuego/base_settings.py:915
+msgid "Misleading"
+msgstr "الإعلان مُضلل وغير واضح"
+
+#: fuego/base_settings.py:916
+msgid "Possible fraud"
+msgstr "يبدو الإعلان كأنه احتيال"
+
+#: fuego/base_settings.py:917
+msgid "Spam"
+msgstr "إعلان مزعج"
 
 #: fuego/meta_settings.py:62
 #, python-format
@@ -1747,670 +1798,373 @@ msgstr "السعودية"
 msgid "SR"
 msgstr "ريال سعودي"
 
-#: fuego/saudi_settings.py:128
-msgid "Al Awali"
-msgstr "العوالي"
-
-#: fuego/saudi_settings.py:133
-msgid "Al Haram Area"
-msgstr "الحرم"
-
-#: fuego/saudi_settings.py:138
-msgid "Al Jurf Dist."
-msgstr "الجرف"
-
-#: fuego/saudi_settings.py:143
-msgid "Al Msaneea Dist."
-msgstr "حي المصانع"
-
-#: fuego/saudi_settings.py:148
-msgid "Al Mustrah Dist."
-msgstr "حي  المستراح"
-
-#: fuego/saudi_settings.py:153
-msgid "Al Ula"
-msgstr "العلا"
-
-#: fuego/saudi_settings.py:158
-msgid "Alzahdia Diat."
-msgstr "الزاهدية"
-
-#: fuego/saudi_settings.py:163
-msgid "Aziziyah Dist."
-msgstr "العزيزية"
-
-#: fuego/saudi_settings.py:168
-msgid "Balad"
-msgstr "البلد"
-
-#: fuego/saudi_settings.py:173
-msgid "Central Area"
-msgstr "المنطقة المركزية"
-
-#: fuego/saudi_settings.py:178
-msgid "Harra Sharqiya"
-msgstr "الحرة الشرقية"
-
-#: fuego/saudi_settings.py:183
-msgid "Hijrah"
-msgstr "الهجرة"
-
-#: fuego/saudi_settings.py:188
-msgid "King Abdul Aziz Road"
-msgstr "طريق الملك عبدالعزيز"
-
-#: fuego/saudi_settings.py:193
-msgid "King Abdullah Road"
-msgstr "طريق الملك عبدالله"
-
-#: fuego/saudi_settings.py:198
-msgid "King Fahd Road"
-msgstr "طريق الملك فهد"
-
-#: fuego/saudi_settings.py:208
-msgid "Madinah Center Area"
-msgstr "المنطقة المركزية بالمدينة"
-
-#: fuego/saudi_settings.py:213
-msgid "Matar"
-msgstr "المطار"
-
-#: fuego/saudi_settings.py:218
-msgid "Qubltin Dist."
-msgstr "حي القبلتين"
-
-#: fuego/saudi_settings.py:223
-msgid "Qurbaan St."
-msgstr "شارع القربان"
-
-#: fuego/saudi_settings.py:228
-msgid "Rabwa Dist."
-msgstr "حي الربوة"
-
-#: fuego/saudi_settings.py:233
-msgid "Second Ring"
-msgstr "الدائري الثاني"
-
-#: fuego/saudi_settings.py:238
-msgid "Al Sahman Dist."
-msgstr "حى السحمان"
-
-#: fuego/saudi_settings.py:243
-msgid "Sultanah"
-msgstr "سلطانه"
-
-#: fuego/saudi_settings.py:249
-msgid "Al Jad Dist."
-msgstr "حي الجاد"
-
-#: fuego/saudi_settings.py:254
-msgid "Al Mahrjan Dist."
-msgstr "حي المهرجان"
-
-#: fuego/saudi_settings.py:259
-msgid "Al Moorj"
-msgstr "حي المروج"
-
-#: fuego/saudi_settings.py:269
-msgid "Ulaya Dist"
-msgstr "حي العليا"
-
-#: fuego/saudi_settings.py:274
-msgid "Umluj City"
-msgstr "بلدة أملج"
-
-#: fuego/saudi_settings.py:280 fuego/saudi_settings.py:867
-msgid "Al Amal"
-msgstr "الأمل"
-
-#: fuego/saudi_settings.py:285
-msgid "Al Aqiq"
-msgstr "العقيق"
-
-#: fuego/saudi_settings.py:290 fuego/saudi_settings.py:636
-#: fuego/saudi_settings.py:877
-msgid "Al Aziziyah"
-msgstr "العزيزية"
-
-#: fuego/saudi_settings.py:295 fuego/saudi_settings.py:882
-msgid "Al Badiyah"
-msgstr "البديعة"
-
-#: fuego/saudi_settings.py:300 fuego/saudi_settings.py:651
-#: fuego/saudi_settings.py:892
-msgid "Al Corniche"
-msgstr "الكورنيش"
-
-#: fuego/saudi_settings.py:305
-msgid "Al Dar Al Baydah"
-msgstr "الدار البيضاء"
-
-#: fuego/saudi_settings.py:310
-msgid "Al Faiha"
-msgstr "الفيحاء"
-
-#: fuego/saudi_settings.py:315
-msgid "Al Fakhriyah"
-msgstr "الفاخرية"
-
-#: fuego/saudi_settings.py:320
-msgid "Al Falah"
-msgstr "حي الفلاح"
-
-#: fuego/saudi_settings.py:325
-msgid "Al Faruq"
-msgstr "الفاروق"
-
-#: fuego/saudi_settings.py:330 fuego/saudi_settings.py:907
-msgid "Al Faysaliyah"
-msgstr "الفيصلي"
-
-#: fuego/saudi_settings.py:335
-msgid "Al Hada"
-msgstr "الهدا"
-
-#: fuego/saudi_settings.py:340
-msgid "Al Hazm"
-msgstr "الحزم"
-
-#: fuego/saudi_settings.py:345 fuego/saudi_settings.py:671
-#: fuego/saudi_settings.py:922
-msgid "Al Iskan"
-msgstr "الاسكان"
-
-#: fuego/saudi_settings.py:350
-msgid "Al Izdihar"
-msgstr "الازدهار"
-
-#: fuego/saudi_settings.py:355
-msgid "Al Janadriyah"
-msgstr "الجنادرية"
-
-#: fuego/saudi_settings.py:360
-msgid "Al Khalidiyah"
-msgstr "الخالدية"
-
-#: fuego/saudi_settings.py:365
-msgid "Al Khuzama"
-msgstr "الخزامي"
-
-#: fuego/saudi_settings.py:370
-msgid "Al Malaz"
-msgstr "حي الملز"
-
-#: fuego/saudi_settings.py:375
-msgid "Al Malqa"
-msgstr "الملقا"
-
-#: fuego/saudi_settings.py:380
-msgid "Al Manakh"
-msgstr "المناخ"
-
-#: fuego/saudi_settings.py:385
-msgid "Al Manar"
-msgstr "المنار"
-
-#: fuego/saudi_settings.py:390
-msgid "Al Mansouriyah"
-msgstr "المنصورية"
-
-#: fuego/saudi_settings.py:395
-msgid "Al Mansurah"
-msgstr "المنصورة"
-
-#: fuego/saudi_settings.py:400 fuego/saudi_settings.py:977
-msgid "Al Muhammadiyah"
-msgstr "المحمدية"
-
-#: fuego/saudi_settings.py:405
-msgid "Al Munsiyah"
-msgstr "المونسية"
-
-#: fuego/saudi_settings.py:410
-msgid "Al Mursalat"
-msgstr "المرسلات"
-
-#: fuego/saudi_settings.py:415
-msgid "Al Nada"
-msgstr "الندى"
-
-#: fuego/saudi_settings.py:420
-msgid "Al Nahdah"
-msgstr "النهدة"
-
-#: fuego/saudi_settings.py:425 fuego/saudi_settings.py:982
-msgid "Al Nakhil"
-msgstr "النخيل"
-
-#: fuego/saudi_settings.py:430
-msgid "Al Nasim"
-msgstr "النسيم"
-
-#: fuego/saudi_settings.py:435
-msgid "Al Qadisiyah"
-msgstr "القادسية"
-
-#: fuego/saudi_settings.py:440
-msgid "Al Qaraen"
-msgstr "القرعان"
-
-#: fuego/saudi_settings.py:445
-msgid "Al Qirawan"
-msgstr "الكراون"
-
-#: fuego/saudi_settings.py:450
-msgid "Al Quds"
-msgstr "القدس"
-
-#: fuego/saudi_settings.py:455 fuego/saudi_settings.py:726
-msgid "Al Rabwah"
-msgstr "الربوة"
-
-#: fuego/saudi_settings.py:460
-msgid "Al Rahmaniyah"
-msgstr "الرحمانية"
-
-#: fuego/saudi_settings.py:465
-msgid "Al Rawabi"
-msgstr "الروابي"
-
-#: fuego/saudi_settings.py:470
-msgid "Al Sa'adah"
-msgstr "السعادة"
-
-#: fuego/saudi_settings.py:475
-msgid "Al Salam"
-msgstr "السلام"
-
-#: fuego/saudi_settings.py:480 fuego/saudi_settings.py:761
-msgid "Al Salamah"
-msgstr "السلامة"
-
-#: fuego/saudi_settings.py:485
-msgid "Al Senaya"
-msgstr "الصناعية"
-
-#: fuego/saudi_settings.py:490 fuego/saudi_settings.py:766
-msgid "Al Sharfiyah"
-msgstr "الشرفية"
-
-#: fuego/saudi_settings.py:495
-msgid "Al Sulay"
-msgstr "السلي"
-
-#: fuego/saudi_settings.py:500
-msgid "Al Sulaymaniyah"
-msgstr "السليمانية"
-
-#: fuego/saudi_settings.py:505
-msgid "Al Taawun"
-msgstr "التعاون"
-
-#: fuego/saudi_settings.py:510
-msgid "Al Ulaya"
-msgstr "العليا"
-
-#: fuego/saudi_settings.py:515
-msgid "Al Urabiyah"
-msgstr "الرابيه"
-
-#: fuego/saudi_settings.py:520
-msgid "Al Uraija"
-msgstr "حي العريجاء"
-
-#: fuego/saudi_settings.py:525
-msgid "Al Uraija Al Awsat"
-msgstr "حي العريجاء الأوسط"
-
-#: fuego/saudi_settings.py:530
-msgid "Al Wahah"
-msgstr "حي الواحة"
-
-#: fuego/saudi_settings.py:535
-msgid "Al Wazarat"
-msgstr "الوزارات"
-
-#: fuego/saudi_settings.py:540
-msgid "Al Wurud"
-msgstr "الورود"
-
-#: fuego/saudi_settings.py:545
-msgid "Al Wusayta"
-msgstr "حي الوسيطى"
-
-#: fuego/saudi_settings.py:550
-msgid "Al Yasmin"
-msgstr "اليسمين"
-
-#: fuego/saudi_settings.py:555
-msgid "Al Yurmuk"
-msgstr "اليرموك"
-
-#: fuego/saudi_settings.py:560 fuego/saudi_settings.py:806
-msgid "Al Zahra"
-msgstr "الزهرة"
-
-#: fuego/saudi_settings.py:570
-msgid "Dhahrat Laban"
-msgstr "ضاحية لبن"
-
-#: fuego/saudi_settings.py:575 fuego/saudi_settings.py:1072
-msgid "King Fahd District"
-msgstr "الملك فهد"
-
-#: fuego/saudi_settings.py:580
-msgid "King Faisal"
-msgstr "الملك فيصل"
-
-#: fuego/saudi_settings.py:585
-msgid "Laban"
-msgstr "لبن"
-
-#: fuego/saudi_settings.py:590
-msgid "Nuzha"
-msgstr "النزهة"
-
-#: fuego/saudi_settings.py:595
-msgid "Qurtubah"
-msgstr "القرطبة"
-
-#: fuego/saudi_settings.py:605
-msgid "Suwaidi"
-msgstr "السويدي"
-
-#: fuego/saudi_settings.py:610
-msgid "Tuwaiq"
-msgstr "طويق"
-
-#: fuego/saudi_settings.py:615
-msgid "Umm Al Hamam"
-msgstr "ام الحمام"
-
-#: fuego/saudi_settings.py:621
-msgid "Ajyad"
-msgstr "أجياد"
-
-#: fuego/saudi_settings.py:626
-msgid "Al Ammariah"
-msgstr "العمارية"
-
-#: fuego/saudi_settings.py:631
-msgid "Al Andalus"
-msgstr "الاندلس"
-
-#: fuego/saudi_settings.py:641
-msgid "Al Baghdaidiyah"
-msgstr "البغدادية"
-
-#: fuego/saudi_settings.py:646
-msgid "Al Balad"
-msgstr "البلد"
-
-#: fuego/saudi_settings.py:656
-msgid "Al Faisaliyah"
-msgstr "الفيصلية"
-
-#: fuego/saudi_settings.py:661 fuego/saudi_settings.py:912
-msgid "Al Hamra"
-msgstr "الحمراء"
-
-#: fuego/saudi_settings.py:666
-msgid "Al Hindawiyah"
-msgstr "الهنداوية"
-
-#: fuego/saudi_settings.py:676
-msgid "Al Jamia'h"
-msgstr "حي الجامعة"
-
-#: fuego/saudi_settings.py:681
-msgid "Al Kira'"
-msgstr "كراء"
-
-#: fuego/saudi_settings.py:686
-msgid "Al Madinah Al Munawarah Road"
-msgstr "طريق المدينة المنورة"
-
-#: fuego/saudi_settings.py:691
-msgid "Al Madinah Al Senaya"
-msgstr "المدينة الصناعية"
-
-#: fuego/saudi_settings.py:696
-msgid "Al Mahjar"
-msgstr "المحجر"
-
-#: fuego/saudi_settings.py:701
-msgid "Al Mina"
-msgstr "الميناء"
-
-#: fuego/saudi_settings.py:706
-msgid "Al Nahda"
-msgstr "النهدة"
-
-#: fuego/saudi_settings.py:711
-msgid "Al Naseem"
-msgstr "النسيم"
-
-#: fuego/saudi_settings.py:716
-msgid "Al Nuzha(Mecca)"
-msgstr "النزهة"
-
-#: fuego/saudi_settings.py:721
-msgid "Al Qurayat"
+#: fuego/saudi_settings.py:69 fuego/saudi_settings.py:150
+msgid "Al Juf"
+msgstr "الجوف"
+
+#: fuego/saudi_settings.py:82
+msgid "Al Qassim"
+msgstr "القصيم"
+
+#: fuego/saudi_settings.py:88
+msgid "Asir"
+msgstr "عسير"
+
+#: fuego/saudi_settings.py:100 fuego/saudi_settings.py:340
+msgid "Hail"
+msgstr "حائل"
+
+#: fuego/saudi_settings.py:106 fuego/saudi_settings.py:346
+msgid "Jazan"
+msgstr "جازان"
+
+#: fuego/saudi_settings.py:118 fuego/saudi_settings.py:438
+msgid "Najran"
+msgstr "نجران"
+
+#: fuego/saudi_settings.py:124
+msgid "Northern Frontier"
+msgstr "الحدود الشمالية"
+
+#: fuego/saudi_settings.py:155
+msgid "Sakaka"
+msgstr "سكاكا"
+
+#: fuego/saudi_settings.py:160
+msgid "Gurayat"
 msgstr "القريات"
 
-#: fuego/saudi_settings.py:731
-msgid "Al Raed"
-msgstr "الرعد"
+#: fuego/saudi_settings.py:165
+msgid "Tabarjal"
+msgstr "طبرجل"
 
-#: fuego/saudi_settings.py:736
-msgid "Al Rasaifah"
-msgstr "الرصيفة"
+#: fuego/saudi_settings.py:171
+msgid "Madinah"
+msgstr "المدينة المنورة"
 
-#: fuego/saudi_settings.py:741
-msgid "Al Rehab"
-msgstr "الرحاب"
+#: fuego/saudi_settings.py:176
+msgid "Yunbu"
+msgstr "ينبع"
 
-#: fuego/saudi_settings.py:746
-msgid "Al Ruwais"
-msgstr "الرويس"
+#: fuego/saudi_settings.py:181
+msgid "Badr"
+msgstr "بدر"
 
-#: fuego/saudi_settings.py:751
-msgid "Al Sabil"
-msgstr "السبيل"
+#: fuego/saudi_settings.py:186
+msgid "Mahd Aldahab"
+msgstr "مهد الذهب"
 
-#: fuego/saudi_settings.py:756
-msgid "Al Safa"
-msgstr "الصفا"
+#: fuego/saudi_settings.py:192
+msgid "Buraydah"
+msgstr "بريدة"
 
-#: fuego/saudi_settings.py:771
-msgid "Al Sharqiyah"
-msgstr "الشرقية"
+#: fuego/saudi_settings.py:197
+msgid "Onizah"
+msgstr "عنيزة"
 
-#: fuego/saudi_settings.py:776
-msgid "Al Shati'"
-msgstr "الشاطيء"
+#: fuego/saudi_settings.py:202
+msgid "Arras"
+msgstr "الرس"
 
-#: fuego/saudi_settings.py:781
-msgid "Al Sulaimaniyah"
-msgstr "السليمانية"
+#: fuego/saudi_settings.py:207
+msgid "Bukairyah"
+msgstr "البكيرية"
 
-#: fuego/saudi_settings.py:786
-msgid "Al Thaghr"
-msgstr "الثغر"
+#: fuego/saudi_settings.py:212
+msgid "Riyadh Alkhabra"
+msgstr "رياض الخبراء"
 
-#: fuego/saudi_settings.py:791
-msgid "Al Uttaibiyah"
-msgstr "العتيبة"
+#: fuego/saudi_settings.py:217
+msgid "Al Bada'e"
+msgstr "البدائع"
 
-#: fuego/saudi_settings.py:796
-msgid "Al Wizariyah"
-msgstr "الوزيرية"
+#: fuego/saudi_settings.py:222
+msgid "Al Methnab"
+msgstr "المذنب"
 
-#: fuego/saudi_settings.py:801
-msgid "Al Zahir"
-msgstr "الزاهر"
+#: fuego/saudi_settings.py:227
+#, fuzzy
+msgid "Al Nabhaniyah"
+msgstr "النبهانية"
 
-#: fuego/saudi_settings.py:811
-msgid "Bani Malik"
-msgstr "بني مالك"
+#: fuego/saudi_settings.py:232
+msgid "Al Asiyah"
+msgstr "الأسياح"
 
-#: fuego/saudi_settings.py:816
-msgid "Buraiman"
-msgstr "بريمان"
+#: fuego/saudi_settings.py:238
+msgid "Abha"
+msgstr "أبها"
 
-#: fuego/saudi_settings.py:821
-msgid "Ghulail"
-msgstr "غليل"
+#: fuego/saudi_settings.py:243
+msgid "Khamis Musheet"
+msgstr "خميس مشيط"
 
-#: fuego/saudi_settings.py:826
-msgid "Jabal Al Nour"
-msgstr "جبل النور"
+#: fuego/saudi_settings.py:248
+msgid "Beshah"
+msgstr "بيشة"
 
-#: fuego/saudi_settings.py:836
-msgid "Jeddah International Airport"
-msgstr "مطار جدة الدولي"
+#: fuego/saudi_settings.py:253
+msgid "Al Namas"
+msgstr "النماص"
 
-#: fuego/saudi_settings.py:841
-msgid "Madain Al Fahad"
-msgstr "مدائن آل فهد"
+#: fuego/saudi_settings.py:258
+msgid "Tanumah"
+msgstr "تنومة"
 
-#: fuego/saudi_settings.py:846
-msgid "Mishrifah"
-msgstr "مشرفة"
+#: fuego/saudi_settings.py:263
+#, fuzzy
+msgid "Al Halbah"
+msgstr "الحلبة"
 
-#: fuego/saudi_settings.py:851
-msgid "Umm Al Salam"
-msgstr "ام السلام"
+#: fuego/saudi_settings.py:269
+msgid "Dammam"
+msgstr "الدمام"
 
-#: fuego/saudi_settings.py:857
-msgid "Abdullah Fouad"
-msgstr "عبد الله فؤاد"
+#: fuego/saudi_settings.py:274
+msgid "Khobar"
+msgstr "الخبر"
 
-#: fuego/saudi_settings.py:862
-msgid "Al Ahmadi"
-msgstr "الاحمدي"
-
-#: fuego/saudi_settings.py:872
-msgid "Al Aqrabiyah"
-msgstr "العقربية"
-
-#: fuego/saudi_settings.py:887
-msgid "Al Bandariyah"
-msgstr "البندرية"
-
-#: fuego/saudi_settings.py:897
-msgid "Al Dawasir"
-msgstr "دواسر"
-
-#: fuego/saudi_settings.py:902
-msgid "Al Fayha"
-msgstr "الفيحاء"
-
-#: fuego/saudi_settings.py:927
-msgid "Al itisalat"
-msgstr "الاتصالات"
-
-#: fuego/saudi_settings.py:932
-msgid "Al Jalawiyah"
-msgstr "الجلوية"
-
-#: fuego/saudi_settings.py:937
-msgid "Al Jami'yin"
-msgstr "الجامعيين"
-
-#: fuego/saudi_settings.py:942
-msgid "Al Johara"
-msgstr "الجوهرة"
-
-#: fuego/saudi_settings.py:952
-msgid "Al Khalidiya"
-msgstr "الخالدية"
-
-#: fuego/saudi_settings.py:957
-msgid "Al Khalij"
-msgstr "الخليج"
-
-#: fuego/saudi_settings.py:962
-msgid "Al Khudriya"
-msgstr "الخضرية"
-
-#: fuego/saudi_settings.py:967
-msgid "Al Mazruiyah"
-msgstr "المزروعية"
-
-#: fuego/saudi_settings.py:972
-msgid "Al Mubarakiya"
-msgstr "المباركية"
-
-#: fuego/saudi_settings.py:992
-msgid "Al Rakah"
-msgstr "الراكة"
-
-#: fuego/saudi_settings.py:997
-msgid "Al Riyadh Al Jubail Road"
-msgstr "شارع الرياض جبيل"
-
-#: fuego/saudi_settings.py:1002
-msgid "Al Shati"
-msgstr "الشاطيء"
-
-#: fuego/saudi_settings.py:1007
-msgid "Al Sultaniyah"
-msgstr "السلطانية"
-
-#: fuego/saudi_settings.py:1012
-msgid "Al Thuqbah"
-msgstr "الثقبة"
-
-#: fuego/saudi_settings.py:1017
-msgid "Al Tobaishi"
-msgstr "الطبيشي"
-
-#: fuego/saudi_settings.py:1022
-msgid "Al Turkiyah"
-msgstr "التركية"
-
-#: fuego/saudi_settings.py:1027
-msgid "Al Zahran"
+#: fuego/saudi_settings.py:279
+msgid "Dhahran"
 msgstr "الظهران"
 
-#: fuego/saudi_settings.py:1037
-msgid "Dammam Al Khobar Coastal Road"
-msgstr "طريق الدمام الخبر الســـاحلي"
+#: fuego/saudi_settings.py:284
+msgid "Ras Tanura"
+msgstr "رأس تنورة"
 
-#: fuego/saudi_settings.py:1047
-msgid "Golden Belt"
-msgstr "الحزام الذهبي"
+#: fuego/saudi_settings.py:289
+msgid "Al Ihsa"
+msgstr "الأحساء"
 
-#: fuego/saudi_settings.py:1052
-msgid "Green belt"
-msgstr "الحزام الاخضر"
+#: fuego/saudi_settings.py:294
+msgid "Al Qatif"
+msgstr "القطيف"
 
-#: fuego/saudi_settings.py:1062
-msgid "Industrial Area"
-msgstr "المنطقة الصناعية"
+#: fuego/saudi_settings.py:299
+msgid "Hafr Al Batin"
+msgstr "حفر الباطن"
 
-#: fuego/saudi_settings.py:1067
-msgid "King Fahad Street"
-msgstr "شارع الملك فهد"
+#: fuego/saudi_settings.py:304
+msgid "Bagaig"
+msgstr "بقيق"
 
-#: fuego/saudi_settings.py:1077
-msgid "National Guard"
-msgstr "الحرس الوطني"
+#: fuego/saudi_settings.py:309
+msgid "Khurais"
+msgstr "خريص"
 
-#: fuego/saudi_settings.py:1087
-msgid "Salmaniyah"
-msgstr "السليمانية"
+#: fuego/saudi_settings.py:314
+msgid "Al Nu'iryah"
+msgstr "النعيرية"
 
-#: fuego/saudi_settings.py:1137
+#: fuego/saudi_settings.py:319
+msgid "Sayhat"
+msgstr "سيهات"
+
+#: fuego/saudi_settings.py:324
+msgid "Safwa"
+msgstr "صفوى"
+
+#: fuego/saudi_settings.py:329
+msgid "Al Jubail"
+msgstr "الجبيل"
+
+#: fuego/saudi_settings.py:334
+msgid "Hofuf"
+msgstr "الهفوف"
+
+#: fuego/saudi_settings.py:351
+msgid "Farasan Islands"
+msgstr "جزر فرسان"
+
+#: fuego/saudi_settings.py:356
+msgid "Sabya"
+msgstr "صبيا"
+
+#: fuego/saudi_settings.py:361
+msgid "Faifa"
+msgstr "فيفا"
+
+#: fuego/saudi_settings.py:366
+msgid "Jazan Economic City"
+msgstr "جازان الاقتصادية"
+
+#: fuego/saudi_settings.py:371
+msgid "Samtah"
+msgstr "صامطة"
+
+#: fuego/saudi_settings.py:382
+msgid "Jeddah"
+msgstr "جدة"
+
+#: fuego/saudi_settings.py:387
+msgid "Al Taif"
+msgstr "الطائف"
+
+#: fuego/saudi_settings.py:392
+msgid "Al Qunfidhah"
+msgstr "القنفذة"
+
+#: fuego/saudi_settings.py:397
+msgid "Al Lith"
+msgstr "الليث"
+
+#: fuego/saudi_settings.py:402
+msgid "Rabigh"
+msgstr "رابغ"
+
+#: fuego/saudi_settings.py:407
+msgid "Al Jumum"
+msgstr "الجموم"
+
+#: fuego/saudi_settings.py:412
+msgid "Khulays"
+msgstr "خليص"
+
+#: fuego/saudi_settings.py:417
+msgid "Al Kamil"
+msgstr "الكامل"
+
+#: fuego/saudi_settings.py:422
+msgid "Al Khurmah"
+msgstr "الخرمة"
+
+#: fuego/saudi_settings.py:427
+msgid "Ranyah"
+msgstr "رنية"
+
+#: fuego/saudi_settings.py:432
+msgid "Turubah"
+msgstr "تربة"
+
+#: fuego/saudi_settings.py:443
+msgid "Sharorah"
+msgstr "شرورة"
+
+#: fuego/saudi_settings.py:448
+msgid "Al Hajrah"
+msgstr "الحجرة"
+
+#: fuego/saudi_settings.py:454
+msgid "Hazm Aljalamid"
+msgstr "حزم الجلاميد"
+
+#: fuego/saudi_settings.py:459
+msgid "Rafaha"
+msgstr "رفحاء"
+
+#: fuego/saudi_settings.py:464
+msgid "Tarif"
+msgstr "طريف"
+
+#: fuego/saudi_settings.py:469
+msgid "Ararr"
+msgstr "عرعر"
+
+#: fuego/saudi_settings.py:480
+msgid "Al Kharj"
+msgstr "الخرج"
+
+#: fuego/saudi_settings.py:485
+msgid "Al Der'yah"
+msgstr "الدرعية"
+
+#: fuego/saudi_settings.py:490
+msgid "Al Ghat"
+msgstr "الغاط"
+
+#: fuego/saudi_settings.py:495
+msgid "Al Gawya'yah"
+msgstr "القويعية"
+
+#: fuego/saudi_settings.py:500
+msgid "Al Selil"
+msgstr "السليل"
+
+#: fuego/saudi_settings.py:505
+msgid "Salboukh"
+msgstr "صلبوخ"
+
+#: fuego/saudi_settings.py:510
+msgid "Sajir"
+msgstr "ساجر"
+
+#: fuego/saudi_settings.py:515
+msgid "Al Zulfi"
+msgstr "الزلفي"
+
+#: fuego/saudi_settings.py:520
+msgid "Afif"
+msgstr "عفيف"
+
+#: fuego/saudi_settings.py:525
+msgid "Wadi Al Dawasir"
+msgstr "وادي الدواسر"
+
+#: fuego/saudi_settings.py:530
+msgid "Rumah"
+msgstr "رماح"
+
+#: fuego/saudi_settings.py:535
+msgid "Hotat Bani Tamim"
+msgstr "حوطة بني تميم"
+
+#: fuego/saudi_settings.py:540
+msgid "Shaqra"
+msgstr "شقراء"
+
+#: fuego/saudi_settings.py:545
+msgid "Dhurma"
+msgstr "ضرماء"
+
+#: fuego/saudi_settings.py:550
+msgid "Al Muzahmyah"
+msgstr "المزاحمية"
+
+#: fuego/saudi_settings.py:555
+msgid "Al Aflaj"
+msgstr "الأفلاج"
+
+#: fuego/saudi_settings.py:560
+msgid "Al Bejadyah"
+msgstr "البجادية"
+
+#: fuego/saudi_settings.py:565
+msgid "Al Artawyah"
+msgstr "الأرطاوية"
+
+#: fuego/saudi_settings.py:570
+msgid "Al Dalm"
+msgstr "الدلم"
+
+#: fuego/saudi_settings.py:576
+msgid "Tabuk City"
+msgstr "تبوك"
+
+#: fuego/saudi_settings.py:581
+msgid "Tayma'"
+msgstr "تيماء"
+
+#: fuego/saudi_settings.py:586
+msgid "Haql"
+msgstr "حقل"
+
+#: fuego/saudi_settings.py:591
+msgid "Al Wajh"
+msgstr "الوجه"
+
+#: fuego/saudi_settings.py:596
+msgid "Dheba"
+msgstr "ضباء"
+
+#: fuego/saudi_settings.py:643
 msgid "English"
 msgstr ""
 
-#: fuego/saudi_settings.py:1138
+#: fuego/saudi_settings.py:644
 msgid "Arabic"
 msgstr "عربي"
 
-#: fuego/saudi_settings.py:1148
+#: fuego/saudi_settings.py:654
 msgid ""
 "Jobs in Saudi Arabia, Property & Real Estate For Sale & Rent, Cars for Sale "
 "- Free Classifieds in Saudi Arabia | dubizzle Saudi Arabia"
@@ -2418,7 +2172,7 @@ msgstr ""
 "وظائف في السعودية، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في "
 "السعودية | دوبيزل السعودية"
 
-#: fuego/saudi_settings.py:1152
+#: fuego/saudi_settings.py:658
 msgid ""
 "dubizzle is your free and friendly local classifieds website in Saudi "
 "Arabia. Jobs, property, real estate, cars and classifieds in Saudi Arabia. "
@@ -2427,7 +2181,7 @@ msgstr ""
 "وظائف، عقارات، سيارات و اعلانات مبوبة في السعودية. اضف اعلان، تصفح اعلانات، "
 "بيع واشتري وأجر على دوبيزل"
 
-#: fuego/saudi_settings.py:1157
+#: fuego/saudi_settings.py:663
 msgid ""
 "dubizzle Saudi Arabia, free classifieds, online classifieds, Saudi Arabia "
 "classifieds, free classifieds in Saudi Arabia"
@@ -2450,7 +2204,7 @@ msgstr ""
 #: fuego/forms/__init__.py:180 templates/listings/manage_listing.html:138
 #: templates/listings/snippets/_form.html:111
 msgid "Choose your city"
-msgstr "اختر مدينتك"
+msgstr "اختر منطقتك"
 
 #: fuego/forms/__init__.py:194 search/forms.py:43
 #, python-format
@@ -2515,89 +2269,92 @@ msgstr "نوع الملف غير مدعوم، يرجى تحميل ملف من ا
 msgid "That's a bit too heavy. Please keep your file size under 2MB."
 msgstr "من فضلك تأكد أن حجم الملف لا يزيد عن 2 ميغا"
 
-#: listings/forms.py:71
+#: listings/forms.py:70 listings/forms.py:87
 msgid "Tell us why you are reporting this ad."
 msgstr "لماذا تريد الإبلاغ عن هذا الإعلان؟"
 
-#: listings/forms.py:79
+#: listings/forms.py:73 templates/listings/get/get_listing.html:141
+msgid "Details"
+msgstr "التفاصيل"
+
+#: listings/forms.py:98
 msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
-#: listings/forms.py:83
+#: listings/forms.py:102
 msgid "You're going to need a title."
 msgstr "لا تنسى إضافة عنوان لإعلانك."
 
-#: listings/forms.py:86 templates/listings/manage_listing.html:106
+#: listings/forms.py:105 templates/listings/manage_listing.html:106
 #: templates/listings/get/get_listing.html:154
 #: templates/listings/snippets/_form.html:75
 msgid "Description"
 msgstr "مواصفات الإعلان"
 
-#: listings/forms.py:89
+#: listings/forms.py:108
 msgid "You forgot to add a description. Go on, tell the world about your ad."
 msgstr ""
 "لقد نسيت ان تضيف وصف لإعلانك. هنا يمكنك إضافة كل التفاصيل لتجذب إنتباه "
 "المشتري. "
 
-#: listings/forms.py:92
+#: listings/forms.py:111
 msgid "Choose City"
 msgstr "إختر المدينة"
 
-#: listings/forms.py:95
+#: listings/forms.py:114
 msgid "Hey, you forgot to tell us where you are."
 msgstr " من فضلك لا تنسى إضافة إسم مدينتك. (الا اذا كنت من الفضاء.)"
 
-#: listings/forms.py:98 templates/listings/manage_listing.html:158
-#: templates/listings/snippets/_form.html:131
+#: listings/forms.py:117 templates/listings/snippets/_form.html:131
 msgid "Neighborhood"
 msgstr "المنطقة"
 
-#: listings/forms.py:101
+#: listings/forms.py:120
 msgid "We need you to be a little more specific."
 msgstr "نسيت أن تضيف إسم منطقتك."
 
-#: listings/forms.py:104 templates/public/contact_us.html:82
+#: listings/forms.py:123 templates/public/contact_us.html:82
 msgid "Mobile number"
 msgstr "رقم الموبايل"
 
-#: listings/forms.py:105
+#: listings/forms.py:124
 msgid "We need your mobile number for verification."
 msgstr "من فضلك ادخل رقم الموبايل لكي نتأكد من صلاحية حسابك."
 
-#: listings/forms.py:108 templates/listings/manage_listing.html:213
+#: listings/forms.py:127 templates/listings/manage_listing.html:213
 #: templates/listings/snippets/_form.html:185
 msgid "Show this number on my ad"
 msgstr "اظهر رقمي في الإعلان"
 
-#: listings/forms.py:170
+#: listings/forms.py:189
 msgid "The neighborhood you have selected is not in the city you selected."
 msgstr "يبدو أن هذه المنطقة ليست فى المدينة المحددة."
 
-#: listings/forms.py:208
+#: listings/forms.py:227
 msgid "Oops, something has gone wrong. Let us know and we will fix it."
 msgstr "هناك خطأ ما. راسلنا لكي نصلحه."
 
-#: listings/forms.py:209
+#: listings/forms.py:228
 msgid "Photo verifiers did not match photos."
 msgstr ""
 
-#: listings/forms.py:210
+#: listings/forms.py:229
 msgid "Photo upload failed, please try again."
 msgstr "هناك خطأ في تحميل الصورة. حاول مرة اخرى."
 
-#: listings/forms.py:211
+#: listings/forms.py:230
 msgid "Oh no, we can only read jpg, png or gif formats."
 msgstr "هناك مشكلة في نوع الملف. من فضلك حمل ملف من نوع: jpg, png, gif"
 
-#: listings/forms.py:212
+#: listings/forms.py:231
 msgid "Damn, that file is too big - 5MB maximum."
 msgstr "حاول مرة أخرى وتأكد أن لا يزيد حجم الملف عن 5 ميغا!"
 
-#: listings/forms.py:213
+#: listings/forms.py:232
 msgid "Max number of photos is 10"
 msgstr "أقصى عدد لتحميل الصور هو 10"
 
-#: listings/forms.py:300
+#: listings/forms.py:319
 #, python-format
 msgid ""
 "When in doubt, check out other ads to see the price range of your item. "
@@ -2606,110 +2363,110 @@ msgstr ""
 "لو محتار في تحديد السعر إبحث عن أسعار أشياء مماثلة على الموقع. يرجى التأكد "
 "أن السعر المطلوب في عملة %(currency)s"
 
-#: listings/forms.py:308 listings/models.py:340 listings/models.py:373
+#: listings/forms.py:327 listings/models.py:340 listings/models.py:373
 #: listings/models.py:404 listings/models.py:426 listings/models.py:453
 #: listings/models.py:493 listings/models.py:525 listings/models.py:565
 msgid "Price"
 msgstr "السعر"
 
-#: listings/forms.py:309
+#: listings/forms.py:328
 msgid "You forgot to add the price."
 msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 
-#: listings/forms.py:315
+#: listings/forms.py:334
 msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
 
-#: listings/forms.py:350 listings/models.py:370 listings/models.py:379
+#: listings/forms.py:369 listings/models.py:370 listings/models.py:379
 msgid "Year"
 msgstr "السنة"
 
-#: listings/forms.py:356
+#: listings/forms.py:375
 msgid "Sweet wheels, but how old?"
 msgstr "المحروسة... موديل سنة كم؟"
 
-#: listings/forms.py:364
+#: listings/forms.py:383
 msgid "How many KM?"
 msgstr "عدد الكيلومترات"
 
-#: listings/forms.py:366
+#: listings/forms.py:385
 msgid "Great ride, how far has it gone?"
 msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
 
-#: listings/forms.py:373
+#: listings/forms.py:392
 msgid "Please specify the model"
 msgstr "الرجاء تحديد الموديل"
 
-#: listings/forms.py:374 listings/models.py:374 listings/models.py:378
+#: listings/forms.py:393 listings/models.py:374 listings/models.py:378
 msgid "Model"
 msgstr "موديل"
 
-#: listings/forms.py:381
+#: listings/forms.py:400
 msgid "Please specify the engine size"
 msgstr "الرجاء تحديد سعة المحرك"
 
-#: listings/forms.py:382 listings/models.py:375
+#: listings/forms.py:401 listings/models.py:375
 msgid "Engine Size"
 msgstr "سعة المحرك"
 
-#: listings/forms.py:415
+#: listings/forms.py:434
 #, python-format
 msgid "Area (%(unit)s)"
 msgstr "المساحة (%(unit)s)"
 
-#: listings/forms.py:418 listings/models.py:454 listings/models.py:494
+#: listings/forms.py:437 listings/models.py:454 listings/models.py:494
 #: listings/models.py:526 listings/models.py:566
 msgid "Amenities"
 msgstr "الكماليات"
 
-#: listings/forms.py:458 listings/forms.py:492 listings/models.py:490
+#: listings/forms.py:477 listings/forms.py:511 listings/models.py:490
 #: listings/models.py:498 listings/models.py:562 listings/models.py:569
 msgid "Bedrooms"
 msgstr "غرف نوم"
 
-#: listings/forms.py:459 listings/forms.py:493
+#: listings/forms.py:478 listings/forms.py:512
 msgid "Nice property, but how many bedrooms?"
 msgstr "حدثنا عن عقارك. كم عدد غرف النوم؟"
 
-#: listings/forms.py:464 listings/forms.py:498 listings/models.py:491
+#: listings/forms.py:483 listings/forms.py:517 listings/models.py:491
 #: listings/models.py:563
 msgid "Bathrooms"
 msgstr "الحمامات"
 
-#: listings/forms.py:465 listings/forms.py:499
+#: listings/forms.py:484 listings/forms.py:518
 msgid "Nice property, but how many bathrooms?"
 msgstr "الرجاء تحديد عدد الحمامات"
 
-#: listings/forms.py:521
+#: listings/forms.py:540
 msgid "Please specify the experience level"
 msgstr "الرجاء تحديد مستوى الخبرة"
 
-#: listings/forms.py:522 listings/models.py:604 listings/models.py:641
+#: listings/forms.py:541 listings/models.py:604 listings/models.py:641
 msgid "Experience Level"
 msgstr "مستوى الخبرة"
 
-#: listings/forms.py:529
+#: listings/forms.py:548
 msgid "Please specify the education level"
 msgstr "الرجاء تحديد المستوى التعليمي"
 
-#: listings/forms.py:530 listings/models.py:603 listings/models.py:640
+#: listings/forms.py:549 listings/models.py:603 listings/models.py:640
 msgid "Education Level"
 msgstr "المستوى التعليمي"
 
-#: listings/forms.py:537
+#: listings/forms.py:556
 msgid "Please specify the employment type"
 msgstr "الرجاء تحديد نوع العمل"
 
-#: listings/forms.py:538 listings/models.py:605 listings/models.py:610
+#: listings/forms.py:557 listings/models.py:605 listings/models.py:610
 #: listings/models.py:642 listings/models.py:646
 msgid "Employment Type"
 msgstr "نوع العمل"
 
-#: listings/forms.py:543 listings/models.py:606 listings/models.py:643
+#: listings/forms.py:562 listings/models.py:606 listings/models.py:643
 msgid "Skills"
 msgstr "المهارات"
 
-#: listings/forms.py:556 listings/models.py:607
+#: listings/forms.py:575 listings/models.py:607
 msgid "Compensation"
 msgstr "الراتب"
 
@@ -2790,17 +2547,22 @@ msgstr "كلمات البحث"
 msgid "City"
 msgstr "المدينة"
 
-#: search/forms.py:296 search/forms.py:309 search/forms.py:322
-#: search/forms.py:360 search/forms.py:384 search/forms.py:408
-#: search/forms.py:422 search/forms.py:461 search/forms.py:475
-#: search/forms.py:490
+#: search/forms.py:305 search/forms.py:384 search/forms.py:424
+#: search/forms.py:464
+msgid "Show only ads with photos"
+msgstr "أظهر الإعلانات التي معها صور"
+
+#: search/forms.py:318 search/forms.py:331 search/forms.py:344
+#: search/forms.py:397 search/forms.py:437 search/forms.py:477
+#: search/forms.py:491 search/forms.py:530 search/forms.py:544
+#: search/forms.py:559
 msgid "From"
 msgstr "من"
 
-#: search/forms.py:303 search/forms.py:316 search/forms.py:327
-#: search/forms.py:367 search/forms.py:391 search/forms.py:415
-#: search/forms.py:429 search/forms.py:468 search/forms.py:482
-#: search/forms.py:497
+#: search/forms.py:325 search/forms.py:338 search/forms.py:349
+#: search/forms.py:404 search/forms.py:444 search/forms.py:484
+#: search/forms.py:498 search/forms.py:537 search/forms.py:551
+#: search/forms.py:566
 msgid "To"
 msgstr "إلى"
 
@@ -3122,6 +2884,10 @@ msgstr ""
 "(مثلاً: الحجم والأبعاد)<br/>- إشرح أهم المواصفات والمعلومات (مثلاً: الضمان إن "
 "وجد) يرجى عدم اضافة عنوان إيميلك داخل الوصف وهذا لحماية خصوصيتك."
 
+#: templates/listings/manage_listing.html:158
+msgid "Select your neighbourhood"
+msgstr "اختر منطقتك"
+
 #: templates/listings/manage_listing.html:188
 #: templates/listings/snippets/_form.html:161
 msgid "Mobile Number"
@@ -3265,10 +3031,6 @@ msgstr "<span>%(price)s</span> %(translated_currency)s"
 msgid "Image %(count)s of %(listing_title)s"
 msgstr ""
 
-#: templates/listings/get/get_listing.html:141
-msgid "Details"
-msgstr "التفاصيل"
-
 #: templates/listings/get/get_listing.html:169
 msgid "Show mobile number"
 msgstr "اظهر رقم الموبايل"
@@ -3345,7 +3107,7 @@ msgid "Accepted formats: pdf, doc, txt, rtf"
 msgstr "الملفات المدعومة: rtf/doc/pdf/docx"
 
 #: templates/listings/reply/reply_to_listing_include.html:125
-#: templates/listings/report/report_listing.html:107
+#: templates/listings/report/report_listing.html:123
 #: templates/public/contact_us.html:157
 msgid "Please enter the 4 letters as shown in the image below"
 msgstr "من فضلك أدخل الحروف في الصورة أدناه"
@@ -3390,10 +3152,14 @@ msgid "Report"
 msgstr "بلغ عن هذا الإعلان"
 
 #: templates/listings/report/report_listing.html:91
+msgid "Reason"
+msgstr "السبب"
+
+#: templates/listings/report/report_listing.html:107
 msgid "Message"
 msgstr "الرسالة"
 
-#: templates/listings/report/report_listing.html:121
+#: templates/listings/report/report_listing.html:137
 msgid "Report ad"
 msgstr "بلغ عن هذا الإعلان"
 
@@ -3748,7 +3514,7 @@ msgstr ""
 "اظهر فقط الإعلانات المضافة بال%(CURRENT_LANGUAGE)s\n"
 "                    "
 
-#: templates/search/browse_widget.html:100
+#: templates/search/browse_widget.html:109
 msgid "Refine"
 msgstr "تصفية البحث"
 
@@ -4531,6 +4297,502 @@ msgstr[5] ""
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
 
+#, fuzzy
+#~ msgid "Salalah"
+#~ msgstr "السلامة"
+
+#~ msgid "Medina"
+#~ msgstr "المدينة المنورة"
+
+#~ msgid "Al Awali"
+#~ msgstr "العوالي"
+
+#~ msgid "Al Haram Area"
+#~ msgstr "الحرم"
+
+#~ msgid "Al Jurf Dist."
+#~ msgstr "الجرف"
+
+#~ msgid "Al Msaneea Dist."
+#~ msgstr "حي المصانع"
+
+#~ msgid "Al Mustrah Dist."
+#~ msgstr "حي  المستراح"
+
+#~ msgid "Al Ula"
+#~ msgstr "العلا"
+
+#~ msgid "Alzahdia Diat."
+#~ msgstr "الزاهدية"
+
+#~ msgid "Aziziyah Dist."
+#~ msgstr "العزيزية"
+
+#~ msgid "Balad"
+#~ msgstr "البلد"
+
+#~ msgid "Central Area"
+#~ msgstr "المنطقة المركزية"
+
+#~ msgid "Harra Sharqiya"
+#~ msgstr "الحرة الشرقية"
+
+#~ msgid "Hijrah"
+#~ msgstr "الهجرة"
+
+#~ msgid "King Abdul Aziz Road"
+#~ msgstr "طريق الملك عبدالعزيز"
+
+#~ msgid "King Abdullah Road"
+#~ msgstr "طريق الملك عبدالله"
+
+#~ msgid "King Fahd Road"
+#~ msgstr "طريق الملك فهد"
+
+#~ msgid "Madinah Center Area"
+#~ msgstr "المنطقة المركزية بالمدينة"
+
+#~ msgid "Matar"
+#~ msgstr "المطار"
+
+#~ msgid "Qubltin Dist."
+#~ msgstr "حي القبلتين"
+
+#~ msgid "Qurbaan St."
+#~ msgstr "شارع القربان"
+
+#~ msgid "Rabwa Dist."
+#~ msgstr "حي الربوة"
+
+#~ msgid "Second Ring"
+#~ msgstr "الدائري الثاني"
+
+#~ msgid "Al Sahman Dist."
+#~ msgstr "حى السحمان"
+
+#~ msgid "Sultanah"
+#~ msgstr "سلطانه"
+
+#~ msgid "Al Jad Dist."
+#~ msgstr "حي الجاد"
+
+#~ msgid "Al Mahrjan Dist."
+#~ msgstr "حي المهرجان"
+
+#~ msgid "Al Moorj"
+#~ msgstr "حي المروج"
+
+#~ msgid "Ulaya Dist"
+#~ msgstr "حي العليا"
+
+#~ msgid "Umluj City"
+#~ msgstr "بلدة أملج"
+
+#~ msgid "Al Amal"
+#~ msgstr "الأمل"
+
+#~ msgid "Al Aqiq"
+#~ msgstr "العقيق"
+
+#~ msgid "Al Aziziyah"
+#~ msgstr "العزيزية"
+
+#~ msgid "Al Badiyah"
+#~ msgstr "البديعة"
+
+#~ msgid "Al Corniche"
+#~ msgstr "الكورنيش"
+
+#~ msgid "Al Dar Al Baydah"
+#~ msgstr "الدار البيضاء"
+
+#~ msgid "Al Faiha"
+#~ msgstr "الفيحاء"
+
+#~ msgid "Al Fakhriyah"
+#~ msgstr "الفاخرية"
+
+#~ msgid "Al Falah"
+#~ msgstr "حي الفلاح"
+
+#~ msgid "Al Faruq"
+#~ msgstr "الفاروق"
+
+#~ msgid "Al Faysaliyah"
+#~ msgstr "الفيصلي"
+
+#~ msgid "Al Hada"
+#~ msgstr "الهدا"
+
+#~ msgid "Al Hazm"
+#~ msgstr "الحزم"
+
+#~ msgid "Al Iskan"
+#~ msgstr "الاسكان"
+
+#~ msgid "Al Izdihar"
+#~ msgstr "الازدهار"
+
+#~ msgid "Al Janadriyah"
+#~ msgstr "الجنادرية"
+
+#~ msgid "Al Khalidiyah"
+#~ msgstr "الخالدية"
+
+#~ msgid "Al Khuzama"
+#~ msgstr "الخزامي"
+
+#~ msgid "Al Malaz"
+#~ msgstr "حي الملز"
+
+#~ msgid "Al Malqa"
+#~ msgstr "الملقا"
+
+#~ msgid "Al Manakh"
+#~ msgstr "المناخ"
+
+#~ msgid "Al Manar"
+#~ msgstr "المنار"
+
+#~ msgid "Al Mansouriyah"
+#~ msgstr "المنصورية"
+
+#~ msgid "Al Mansurah"
+#~ msgstr "المنصورة"
+
+#~ msgid "Al Muhammadiyah"
+#~ msgstr "المحمدية"
+
+#~ msgid "Al Munsiyah"
+#~ msgstr "المونسية"
+
+#~ msgid "Al Mursalat"
+#~ msgstr "المرسلات"
+
+#~ msgid "Al Nada"
+#~ msgstr "الندى"
+
+#~ msgid "Al Nahdah"
+#~ msgstr "النهدة"
+
+#~ msgid "Al Nakhil"
+#~ msgstr "النخيل"
+
+#~ msgid "Al Nasim"
+#~ msgstr "النسيم"
+
+#~ msgid "Al Qadisiyah"
+#~ msgstr "القادسية"
+
+#~ msgid "Al Qaraen"
+#~ msgstr "القرعان"
+
+#~ msgid "Al Qirawan"
+#~ msgstr "الكراون"
+
+#~ msgid "Al Quds"
+#~ msgstr "القدس"
+
+#~ msgid "Al Rabwah"
+#~ msgstr "الربوة"
+
+#~ msgid "Al Rahmaniyah"
+#~ msgstr "الرحمانية"
+
+#~ msgid "Al Rawabi"
+#~ msgstr "الروابي"
+
+#~ msgid "Al Sa'adah"
+#~ msgstr "السعادة"
+
+#~ msgid "Al Salam"
+#~ msgstr "السلام"
+
+#~ msgid "Al Salamah"
+#~ msgstr "السلامة"
+
+#~ msgid "Al Senaya"
+#~ msgstr "الصناعية"
+
+#~ msgid "Al Sharfiyah"
+#~ msgstr "الشرفية"
+
+#~ msgid "Al Sulay"
+#~ msgstr "السلي"
+
+#~ msgid "Al Sulaymaniyah"
+#~ msgstr "السليمانية"
+
+#~ msgid "Al Taawun"
+#~ msgstr "التعاون"
+
+#~ msgid "Al Ulaya"
+#~ msgstr "العليا"
+
+#~ msgid "Al Urabiyah"
+#~ msgstr "الرابيه"
+
+#~ msgid "Al Uraija"
+#~ msgstr "حي العريجاء"
+
+#~ msgid "Al Uraija Al Awsat"
+#~ msgstr "حي العريجاء الأوسط"
+
+#~ msgid "Al Wahah"
+#~ msgstr "حي الواحة"
+
+#~ msgid "Al Wazarat"
+#~ msgstr "الوزارات"
+
+#~ msgid "Al Wurud"
+#~ msgstr "الورود"
+
+#~ msgid "Al Wusayta"
+#~ msgstr "حي الوسيطى"
+
+#~ msgid "Al Yasmin"
+#~ msgstr "اليسمين"
+
+#~ msgid "Al Yurmuk"
+#~ msgstr "اليرموك"
+
+#~ msgid "Al Zahra"
+#~ msgstr "الزهرة"
+
+#~ msgid "Dhahrat Laban"
+#~ msgstr "ضاحية لبن"
+
+#~ msgid "King Fahd District"
+#~ msgstr "الملك فهد"
+
+#~ msgid "King Faisal"
+#~ msgstr "الملك فيصل"
+
+#~ msgid "Laban"
+#~ msgstr "لبن"
+
+#~ msgid "Nuzha"
+#~ msgstr "النزهة"
+
+#~ msgid "Qurtubah"
+#~ msgstr "القرطبة"
+
+#~ msgid "Suwaidi"
+#~ msgstr "السويدي"
+
+#~ msgid "Tuwaiq"
+#~ msgstr "طويق"
+
+#~ msgid "Umm Al Hamam"
+#~ msgstr "ام الحمام"
+
+#~ msgid "Ajyad"
+#~ msgstr "أجياد"
+
+#~ msgid "Al Ammariah"
+#~ msgstr "العمارية"
+
+#~ msgid "Al Andalus"
+#~ msgstr "الاندلس"
+
+#~ msgid "Al Baghdaidiyah"
+#~ msgstr "البغدادية"
+
+#~ msgid "Al Balad"
+#~ msgstr "البلد"
+
+#~ msgid "Al Faisaliyah"
+#~ msgstr "الفيصلية"
+
+#~ msgid "Al Hamra"
+#~ msgstr "الحمراء"
+
+#~ msgid "Al Hindawiyah"
+#~ msgstr "الهنداوية"
+
+#~ msgid "Al Jamia'h"
+#~ msgstr "حي الجامعة"
+
+#~ msgid "Al Kira'"
+#~ msgstr "كراء"
+
+#~ msgid "Al Madinah Al Munawarah Road"
+#~ msgstr "طريق المدينة المنورة"
+
+#~ msgid "Al Madinah Al Senaya"
+#~ msgstr "المدينة الصناعية"
+
+#~ msgid "Al Mahjar"
+#~ msgstr "المحجر"
+
+#~ msgid "Al Mina"
+#~ msgstr "الميناء"
+
+#~ msgid "Al Nahda"
+#~ msgstr "النهدة"
+
+#~ msgid "Al Naseem"
+#~ msgstr "النسيم"
+
+#~ msgid "Al Nuzha(Mecca)"
+#~ msgstr "النزهة"
+
+#~ msgid "Al Qurayat"
+#~ msgstr "القريات"
+
+#~ msgid "Al Raed"
+#~ msgstr "الرعد"
+
+#~ msgid "Al Rasaifah"
+#~ msgstr "الرصيفة"
+
+#~ msgid "Al Rehab"
+#~ msgstr "الرحاب"
+
+#~ msgid "Al Ruwais"
+#~ msgstr "الرويس"
+
+#~ msgid "Al Sabil"
+#~ msgstr "السبيل"
+
+#~ msgid "Al Safa"
+#~ msgstr "الصفا"
+
+#~ msgid "Al Sharqiyah"
+#~ msgstr "الشرقية"
+
+#~ msgid "Al Shati'"
+#~ msgstr "الشاطيء"
+
+#~ msgid "Al Sulaimaniyah"
+#~ msgstr "السليمانية"
+
+#~ msgid "Al Thaghr"
+#~ msgstr "الثغر"
+
+#~ msgid "Al Uttaibiyah"
+#~ msgstr "العتيبة"
+
+#~ msgid "Al Wizariyah"
+#~ msgstr "الوزيرية"
+
+#~ msgid "Al Zahir"
+#~ msgstr "الزاهر"
+
+#~ msgid "Bani Malik"
+#~ msgstr "بني مالك"
+
+#~ msgid "Buraiman"
+#~ msgstr "بريمان"
+
+#~ msgid "Ghulail"
+#~ msgstr "غليل"
+
+#~ msgid "Jabal Al Nour"
+#~ msgstr "جبل النور"
+
+#~ msgid "Jeddah International Airport"
+#~ msgstr "مطار جدة الدولي"
+
+#~ msgid "Madain Al Fahad"
+#~ msgstr "مدائن آل فهد"
+
+#~ msgid "Mishrifah"
+#~ msgstr "مشرفة"
+
+#~ msgid "Umm Al Salam"
+#~ msgstr "ام السلام"
+
+#~ msgid "Abdullah Fouad"
+#~ msgstr "عبد الله فؤاد"
+
+#~ msgid "Al Ahmadi"
+#~ msgstr "الاحمدي"
+
+#~ msgid "Al Aqrabiyah"
+#~ msgstr "العقربية"
+
+#~ msgid "Al Bandariyah"
+#~ msgstr "البندرية"
+
+#~ msgid "Al Dawasir"
+#~ msgstr "دواسر"
+
+#~ msgid "Al Fayha"
+#~ msgstr "الفيحاء"
+
+#~ msgid "Al itisalat"
+#~ msgstr "الاتصالات"
+
+#~ msgid "Al Jalawiyah"
+#~ msgstr "الجلوية"
+
+#~ msgid "Al Jami'yin"
+#~ msgstr "الجامعيين"
+
+#~ msgid "Al Johara"
+#~ msgstr "الجوهرة"
+
+#~ msgid "Al Khalidiya"
+#~ msgstr "الخالدية"
+
+#~ msgid "Al Khalij"
+#~ msgstr "الخليج"
+
+#~ msgid "Al Khudriya"
+#~ msgstr "الخضرية"
+
+#~ msgid "Al Mazruiyah"
+#~ msgstr "المزروعية"
+
+#~ msgid "Al Mubarakiya"
+#~ msgstr "المباركية"
+
+#~ msgid "Al Rakah"
+#~ msgstr "الراكة"
+
+#~ msgid "Al Riyadh Al Jubail Road"
+#~ msgstr "شارع الرياض جبيل"
+
+#~ msgid "Al Shati"
+#~ msgstr "الشاطيء"
+
+#~ msgid "Al Sultaniyah"
+#~ msgstr "السلطانية"
+
+#~ msgid "Al Thuqbah"
+#~ msgstr "الثقبة"
+
+#~ msgid "Al Tobaishi"
+#~ msgstr "الطبيشي"
+
+#~ msgid "Al Turkiyah"
+#~ msgstr "التركية"
+
+#~ msgid "Al Zahran"
+#~ msgstr "الظهران"
+
+#~ msgid "Dammam Al Khobar Coastal Road"
+#~ msgstr "طريق الدمام الخبر الســـاحلي"
+
+#~ msgid "Golden Belt"
+#~ msgstr "الحزام الذهبي"
+
+#~ msgid "Green belt"
+#~ msgstr "الحزام الاخضر"
+
+#~ msgid "Industrial Area"
+#~ msgstr "المنطقة الصناعية"
+
+#~ msgid "King Fahad Street"
+#~ msgstr "شارع الملك فهد"
+
+#~ msgid "National Guard"
+#~ msgstr "الحرس الوطني"
+
+#~ msgid "Salmaniyah"
+#~ msgstr "السليمانية"
+
 #~ msgid "neighbourhoods"
 #~ msgstr "المنطقة"
 
@@ -4778,288 +5040,5 @@ msgstr "%(city)s، %(country)s "
 #~ msgid "Ad is being placed from outside the chosen country."
 #~ msgstr "blah blah"
 
-msgid "Aljuf"
-msgstr "الجوف"
-
-msgid "Al Juf"
-msgstr "الجوف"
-
-msgid "Sakaka"
-msgstr "سكاكا"
-
-msgid "Gurayat"
-msgstr "القريات"
-
-msgid "Tabarjal"
-msgstr "طبرجل"
-
-msgid "Al Madinah"
-msgstr "المدينة المنورة"
-
-msgid "Madinah"
-msgstr "المدينة المنورة"
-
-msgid "Yunbu"
-msgstr "ينبع"
-
-msgid "Badr"
-msgstr "بدر"
-
-msgid "Mahd Aldahab"
-msgstr "مهد الذهب"
-
-msgid "Al Qassim"
-msgstr "القصيم"
-
-msgid "Buraydah"
-msgstr "بريدة"
-
-msgid "Onizah"
-msgstr "عنيزة"
-
-msgid "Arras"
-msgstr "الرس"
-
-msgid "Bukairyah"
-msgstr "البكيرية"
-
-msgid "Riyadh Alkhabra"
-msgstr "رياض الخبراء"
-
-msgid "Al Bada'e"
-msgstr "البدائع"
-
-msgid "Al Methnab"
-msgstr "المذنب"
-
-msgid "al Nabhaniyah"
-msgstr "النبهانية"
-
-msgid "Al Asiyah"
-msgstr "الأسياح"
-
-msgid "Asir"
-msgstr "عسير"
-
-msgid "Abha"
-msgstr "أبها"
-
-msgid "Khamis Musheet"
-msgstr "خميس مشيط"
-
-msgid "Beshah"
-msgstr "بيشة"
-
-msgid "Al Namas"
-msgstr "النماص"
-
-msgid "Tanumah"
-msgstr "تنومة"
-
-msgid "Al Hablah"
-msgstr "الحلبة"
-
-msgid "Eastern Region"
-msgstr "المنطقة الشرقية"
-
-msgid "Dammam"
-msgstr "الدمام"
-
-msgid "Khobar"
-msgstr "الخبر"
-
-msgid "Dhahran"
-msgstr "الظهران"
-
-msgid "Ras Tanura"
-msgstr "رأس تنورة"
-
-msgid "Al Ihsa"
-msgstr "الأحساء"
-
-msgid "Al Qatif"
-msgstr "القطيف"
-
-msgid "Hafr Al Batin"
-msgstr "حفر الباطن"
-
-msgid "Bagaig"
-msgstr "بقيق"
-
-msgid "Khurais"
-msgstr "خريص"
-
-msgid "Al Nu'iryah"
-msgstr "النعيرية"
-
-msgid "Sayhat"
-msgstr "سيهات"
-
-msgid "Safwa"
-msgstr "صفوى"
-
-msgid "Al Jubail"
-msgstr "الجبيل"
-
-msgid "Hofuf"
-msgstr "الهفوف"
-
-msgid "Hail"
-msgstr "حائل"
-
-msgid "Jazan"
-msgstr "جازان"
-
-msgid "Farasan Islands"
-msgstr "جزر فرسان"
-
-msgid "Sabya"
-msgstr "صبيا"
-
-msgid "Faifa"
-msgstr "فيفا"
-
-msgid "Jazan Economic City"
-msgstr "جازان الاقتصادية"
-
-msgid "Samtah"
-msgstr "صامطة"
-
-msgid "Makkah"
-msgstr "مكة"
-
-msgid "Jeddah"
-msgstr "جدة"
-
-msgid "Al Taif"
-msgstr "الطائف"
-
-msgid "Al Qunfidhah"
-msgstr "القنفذة"
-
-msgid "Al Lith"
-msgstr "الليث"
-
-msgid "Rabigh"
-msgstr "رابغ"
-
-msgid "Al Jumum"
-msgstr "الجموم"
-
-msgid "Khulays"
-msgstr "خليص"
-
-msgid "Al Kamil"
-msgstr "الكامل"
-
-msgid "Al Khurmah"
-msgstr "الخرمة"
-
-msgid "Ranyah"
-msgstr "رنية"
-
-msgid "Turubah"
-msgstr "تربة"
-
-msgid "Najran"
-msgstr "نجران"
-
-msgid "Sharorah"
-msgstr "شرورة"
-
-msgid "Al Hajrah"
-msgstr "الحجرة"
-
-msgid "Northern Frontier"
-msgstr "الحدود الشمالية"
-
-msgid "Hazm Aljalamid"
-msgstr "حزم الجلاميد"
-
-msgid "Rafaha"
-msgstr "رفحاء"
-
-msgid "Tarif"
-msgstr "طريف"
-
-msgid "Ararr"
-msgstr "عرعر"
-
-msgid "Riyadh"
-msgstr "الرياض"
-
-msgid "Al Kharj"
-msgstr "الخرج"
-
-msgid "Al Der'yah"
-msgstr "الدرعية"
-
-msgid "Al Ghat"
-msgstr "الغاط"
-
-msgid "Al Gawya'yah"
-msgstr "القويعية"
-
-msgid "Al Selil"
-msgstr "السليل"
-
-msgid "Salboukh"
-msgstr "صلبوخ"
-
-msgid "Sajir"
-msgstr "ساجر"
-
-msgid "Al Zulfi"
-msgstr "الزلفي"
-
-msgid "Afif"
-msgstr "عفيف"
-
-msgid "Wadi Al Dawasir"
-msgstr "وادي الدواسر"
-
-msgid "Rumah"
-msgstr "رماح"
-
-msgid "Hotat Bani Tamim"
-msgstr "حوطة بني تميم"
-
-msgid "Shaqra"
-msgstr "شقراء"
-
-msgid "Dhurma"
-msgstr "ضرماء"
-
-msgid "Al Muzahmyah"
-msgstr "المزاحمية"
-
-msgid "Al Aflaj"
-msgstr "الأفلاج"
-
-msgid "Al Bejadyah"
-msgstr "البجادية"
-
-msgid "Al Artawyah"
-msgstr "الأرطاوية"
-
-msgid "Al Dalm"
-msgstr "الدلم"
-
-msgid "Tabuk"
-msgstr "تبوك"
-
-msgid "Tabuk City"
-msgstr "تبوك"
-
-msgid "Tayma'"
-msgstr "تيماء"
-
-msgid "Haql"
-msgstr "حقل"
-
-msgid "Al Wajh"
-msgstr "الوجه"
-
-msgid "Dheba"
-msgstr "ضباء"
-
+#~ msgid "Aljuf"
+#~ msgstr "الجوف"

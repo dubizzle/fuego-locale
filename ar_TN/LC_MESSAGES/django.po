@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-25 17:33+0400\n"
+"POT-Creation-Date: 2014-04-21 18:33+0400\n"
 "PO-Revision-Date: 2014-03-25 17:09+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Tunisian <http://translate.dubizzlecloud.com/"
@@ -366,50 +366,59 @@ msgstr ""
 
 #: country_templates/bahrain/public/landing.html:133
 #: country_templates/kuwait/public/landing.html:133
+#: country_templates/oman/public/landing.html:134
+#: country_templates/qatar/public/landing.html:134
+#: country_templates/saudi/public/landing.html:141
+#: templates/public/landing.html:95
+msgid "Cars"
+msgstr "سيارات"
+
+#: country_templates/bahrain/public/landing.html:139
+#: country_templates/kuwait/public/landing.html:139
 #: country_templates/oman/public/landing.html:140
 #: country_templates/saudi/public/landing.html:135
 msgid "Car accessories"
 msgstr ""
 
-#: country_templates/bahrain/public/landing.html:139
-#: country_templates/kuwait/public/landing.html:139
+#: country_templates/bahrain/public/landing.html:145
+#: country_templates/kuwait/public/landing.html:145
 #: country_templates/qatar/public/landing.html:140
 #: country_templates/saudi/public/landing.html:147
 msgid "Clothing  & accessories"
 msgstr ""
 
-#: country_templates/bahrain/public/landing.html:145
-#: country_templates/kuwait/public/landing.html:145
+#: country_templates/bahrain/public/landing.html:151
+#: country_templates/kuwait/public/landing.html:151
 #: country_templates/oman/public/landing.html:146
 #: country_templates/qatar/public/landing.html:146
 #: country_templates/saudi/public/landing.html:153
 msgid "Tablets &amp; computers "
 msgstr ""
 
-#: country_templates/bahrain/public/landing.html:151
-#: country_templates/kuwait/public/landing.html:151
+#: country_templates/bahrain/public/landing.html:157
+#: country_templates/kuwait/public/landing.html:157
 #: country_templates/saudi/public/landing.html:159
 msgid "Cameras & accessories"
 msgstr ""
 
-#: country_templates/bahrain/public/landing.html:157
-#: country_templates/kuwait/public/landing.html:157
+#: country_templates/bahrain/public/landing.html:163
+#: country_templates/kuwait/public/landing.html:163
 #: country_templates/saudi/public/landing.html:165
 msgid "Jewelry & watches"
 msgstr ""
 
-#: country_templates/bahrain/public/landing.html:163
-#: country_templates/kuwait/public/landing.html:163
-msgid "Sporting goods and accessories"
-msgstr ""
-
 #: country_templates/bahrain/public/landing.html:169
 #: country_templates/kuwait/public/landing.html:169
-msgid "Video games & consoles"
+msgid "Sporting goods and accessories"
 msgstr ""
 
 #: country_templates/bahrain/public/landing.html:175
 #: country_templates/kuwait/public/landing.html:175
+msgid "Video games & consoles"
+msgstr ""
+
+#: country_templates/bahrain/public/landing.html:181
+#: country_templates/kuwait/public/landing.html:181
 #: country_templates/oman/public/landing.html:152
 #: country_templates/qatar/public/landing.html:152
 #: country_templates/saudi/public/landing.html:171
@@ -425,11 +434,10 @@ msgid "Your free local classifieds in Kuwait"
 msgstr ""
 
 #: country_templates/oman/public/_map.html:26
-#, fuzzy
-msgid "Salalah"
-msgstr "بير صالح"
+msgid "Dhofar"
+msgstr ""
 
-#: country_templates/oman/public/_map.html:39
+#: country_templates/oman/public/_map.html:45
 msgid "Muscat"
 msgstr ""
 
@@ -442,13 +450,6 @@ msgstr ""
 msgid "Sporting goods &amp; outdoors"
 msgstr ""
 
-#: country_templates/oman/public/landing.html:134
-#: country_templates/qatar/public/landing.html:134
-#: country_templates/saudi/public/landing.html:141
-#: templates/public/landing.html:95
-msgid "Cars"
-msgstr "سيارات"
-
 #: country_templates/qatar/public/_map.html:28
 msgid "Doha"
 msgstr ""
@@ -458,12 +459,11 @@ msgid "Qatar's free local classifieds community."
 msgstr ""
 
 #: country_templates/saudi/public/_map.html:32
-#, fuzzy
-msgid "Dammam"
-msgstr "حمام الأنف"
+msgid "Tabuk"
+msgstr ""
 
 #: country_templates/saudi/public/_map.html:43
-msgid "Tabuk"
+msgid "Eastern Region"
 msgstr ""
 
 #: country_templates/saudi/public/_map.html:54
@@ -472,30 +472,62 @@ msgstr ""
 
 #: country_templates/saudi/public/_map.html:65
 #, fuzzy
-msgid "Medina"
-msgstr "الأدوية"
+msgid "Al Madinah"
+msgstr "المنزه"
 
 #: country_templates/saudi/public/_map.html:76
-msgid "Jeddah"
+msgid "Makkah"
 msgstr ""
 
 #: country_templates/saudi/public/landing.html:16
 msgid "The Kingdom's free local classifieds community."
 msgstr ""
 
-#: fuego/base_settings.py:470 templates/search/browse_widget.html:21
+#: fuego/base_settings.py:471 templates/search/browse_widget.html:21
 #: templates/search/browse_widget.html:39 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:526
+#: fuego/base_settings.py:527
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:625
+#: fuego/base_settings.py:626
 msgid "Unknown"
 msgstr "مجهول"
+
+#: fuego/base_settings.py:907
+msgid "Other"
+msgstr "لدي سبب آخر"
+
+#: fuego/base_settings.py:909
+msgid "Please select"
+msgstr "الرجاء الإختيار"
+
+#: fuego/base_settings.py:912
+msgid "Miscategorized"
+msgstr "فئة الإعلان خاطئة"
+
+#: fuego/base_settings.py:913
+msgid "Offensive"
+msgstr "الإعلان مزعج أو فيه إهانة"
+
+#: fuego/base_settings.py:914
+msgid "Repetitive"
+msgstr "الإعلان مُكرر"
+
+#: fuego/base_settings.py:915
+msgid "Misleading"
+msgstr "الإعلان مُضلل وغير واضح"
+
+#: fuego/base_settings.py:916
+msgid "Possible fraud"
+msgstr "يبدو الإعلان كأنه احتيال"
+
+#: fuego/base_settings.py:917
+msgid "Spam"
+msgstr "إعلان مزعج"
 
 #: fuego/meta_settings.py:62
 #, python-format
@@ -2264,89 +2296,92 @@ msgstr "نوع الملف غير مدعوم، يرجى تحميل ملف من ا
 msgid "That's a bit too heavy. Please keep your file size under 2MB."
 msgstr "من فضلك تأكد أن حجم الملف لا يزيد عن 2 ميغا"
 
-#: listings/forms.py:71
+#: listings/forms.py:70 listings/forms.py:87
 msgid "Tell us why you are reporting this ad."
 msgstr "لماذا تريد الإبلاغ عن هذا الإعلان؟"
 
-#: listings/forms.py:79
+#: listings/forms.py:73 templates/listings/get/get_listing.html:141
+msgid "Details"
+msgstr "التفاصيل"
+
+#: listings/forms.py:98
 msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
-#: listings/forms.py:83
+#: listings/forms.py:102
 msgid "You're going to need a title."
 msgstr "لا تنسى إضافة عنوان لإعلانك."
 
-#: listings/forms.py:86 templates/listings/manage_listing.html:106
+#: listings/forms.py:105 templates/listings/manage_listing.html:106
 #: templates/listings/get/get_listing.html:154
 #: templates/listings/snippets/_form.html:75
 msgid "Description"
 msgstr "مواصفات الإعلان"
 
-#: listings/forms.py:89
+#: listings/forms.py:108
 msgid "You forgot to add a description. Go on, tell the world about your ad."
 msgstr ""
 "لقد نسيت ان تضيف وصف لإعلانك. هنا يمكنك إضافة كل التفاصيل لتجذب إنتباه "
 "المشتري. "
 
-#: listings/forms.py:92
+#: listings/forms.py:111
 msgid "Choose City"
 msgstr "إختر المدينة"
 
-#: listings/forms.py:95
+#: listings/forms.py:114
 msgid "Hey, you forgot to tell us where you are."
 msgstr " من فضلك لا تنسى إضافة إسم مدينتك. (الا اذا كنت من الفضاء.)"
 
-#: listings/forms.py:98 templates/listings/manage_listing.html:158
-#: templates/listings/snippets/_form.html:131
+#: listings/forms.py:117 templates/listings/snippets/_form.html:131
 msgid "Neighborhood"
 msgstr "المنطقة"
 
-#: listings/forms.py:101
+#: listings/forms.py:120
 msgid "We need you to be a little more specific."
 msgstr "نسيت أن تضيف إسم منطقتك."
 
-#: listings/forms.py:104 templates/public/contact_us.html:82
+#: listings/forms.py:123 templates/public/contact_us.html:82
 msgid "Mobile number"
 msgstr "رقم الموبايل"
 
-#: listings/forms.py:105
+#: listings/forms.py:124
 msgid "We need your mobile number for verification."
 msgstr "من فضلك ادخل رقم الموبايل لكي نتأكد من صلاحية حسابك."
 
-#: listings/forms.py:108 templates/listings/manage_listing.html:213
+#: listings/forms.py:127 templates/listings/manage_listing.html:213
 #: templates/listings/snippets/_form.html:185
 msgid "Show this number on my ad"
 msgstr "اظهر رقمي في الإعلان"
 
-#: listings/forms.py:170
+#: listings/forms.py:189
 msgid "The neighborhood you have selected is not in the city you selected."
 msgstr "يبدو أن هذه المنطقة ليست فى المدينة المحددة."
 
-#: listings/forms.py:208
+#: listings/forms.py:227
 msgid "Oops, something has gone wrong. Let us know and we will fix it."
 msgstr "هناك خطأ ما. راسلنا لكي نصلحه."
 
-#: listings/forms.py:209
+#: listings/forms.py:228
 msgid "Photo verifiers did not match photos."
 msgstr ""
 
-#: listings/forms.py:210
+#: listings/forms.py:229
 msgid "Photo upload failed, please try again."
 msgstr "هناك خطأ في تحميل الصورة. حاول مرة اخرى."
 
-#: listings/forms.py:211
+#: listings/forms.py:230
 msgid "Oh no, we can only read jpg, png or gif formats."
 msgstr "هناك مشكلة في نوع الملف. من فضلك حمل ملف من نوع: jpg, png, gif"
 
-#: listings/forms.py:212
+#: listings/forms.py:231
 msgid "Damn, that file is too big - 5MB maximum."
 msgstr "حاول مرة أخرى وتأكد أن لا يزيد حجم الملف عن 5MB ميغا!"
 
-#: listings/forms.py:213
+#: listings/forms.py:232
 msgid "Max number of photos is 10"
 msgstr "أقصى عدد لتحميل الصور هو 10"
 
-#: listings/forms.py:300
+#: listings/forms.py:319
 #, python-format
 msgid ""
 "When in doubt, check out other ads to see the price range of your item. "
@@ -2355,110 +2390,110 @@ msgstr ""
 "لو محتار في تحديد السعر إبحث عن أسعار أشياء مماثلة على الموقع. يرجى التأكد "
 "أن السعر المطلوب في عملة %(currency)s"
 
-#: listings/forms.py:308 listings/models.py:340 listings/models.py:373
+#: listings/forms.py:327 listings/models.py:340 listings/models.py:373
 #: listings/models.py:404 listings/models.py:426 listings/models.py:453
 #: listings/models.py:493 listings/models.py:525 listings/models.py:565
 msgid "Price"
 msgstr "السعر"
 
-#: listings/forms.py:309
+#: listings/forms.py:328
 msgid "You forgot to add the price."
 msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 
-#: listings/forms.py:315
+#: listings/forms.py:334
 msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
 
-#: listings/forms.py:350 listings/models.py:370 listings/models.py:379
+#: listings/forms.py:369 listings/models.py:370 listings/models.py:379
 msgid "Year"
 msgstr "السنة"
 
-#: listings/forms.py:356
+#: listings/forms.py:375
 msgid "Sweet wheels, but how old?"
 msgstr "المحروسة... موديل سنة كم؟"
 
-#: listings/forms.py:364
+#: listings/forms.py:383
 msgid "How many KM?"
 msgstr "عدد الكيلومترات"
 
-#: listings/forms.py:366
+#: listings/forms.py:385
 msgid "Great ride, how far has it gone?"
 msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
 
-#: listings/forms.py:373
+#: listings/forms.py:392
 msgid "Please specify the model"
 msgstr "الرجاء تحديد الموديل"
 
-#: listings/forms.py:374 listings/models.py:374 listings/models.py:378
+#: listings/forms.py:393 listings/models.py:374 listings/models.py:378
 msgid "Model"
 msgstr "موديل"
 
-#: listings/forms.py:381
+#: listings/forms.py:400
 msgid "Please specify the engine size"
 msgstr "الرجاء تحديد سعة المحرك"
 
-#: listings/forms.py:382 listings/models.py:375
+#: listings/forms.py:401 listings/models.py:375
 msgid "Engine Size"
 msgstr "سعة المحرك"
 
-#: listings/forms.py:415
+#: listings/forms.py:434
 #, python-format
 msgid "Area (%(unit)s)"
 msgstr "المساحة (%(unit)s)"
 
-#: listings/forms.py:418 listings/models.py:454 listings/models.py:494
+#: listings/forms.py:437 listings/models.py:454 listings/models.py:494
 #: listings/models.py:526 listings/models.py:566
 msgid "Amenities"
 msgstr "الكماليات"
 
-#: listings/forms.py:458 listings/forms.py:492 listings/models.py:490
+#: listings/forms.py:477 listings/forms.py:511 listings/models.py:490
 #: listings/models.py:498 listings/models.py:562 listings/models.py:569
 msgid "Bedrooms"
 msgstr "غرف نوم"
 
-#: listings/forms.py:459 listings/forms.py:493
+#: listings/forms.py:478 listings/forms.py:512
 msgid "Nice property, but how many bedrooms?"
 msgstr "حدثنا عن عقارك. كم عدد غرف النوم؟"
 
-#: listings/forms.py:464 listings/forms.py:498 listings/models.py:491
+#: listings/forms.py:483 listings/forms.py:517 listings/models.py:491
 #: listings/models.py:563
 msgid "Bathrooms"
 msgstr "الحمامات"
 
-#: listings/forms.py:465 listings/forms.py:499
+#: listings/forms.py:484 listings/forms.py:518
 msgid "Nice property, but how many bathrooms?"
 msgstr "الرجاء تحديد عدد الحمامات"
 
-#: listings/forms.py:521
+#: listings/forms.py:540
 msgid "Please specify the experience level"
 msgstr "الرجاء تحديد مستوى الخبرة"
 
-#: listings/forms.py:522 listings/models.py:604 listings/models.py:641
+#: listings/forms.py:541 listings/models.py:604 listings/models.py:641
 msgid "Experience Level"
 msgstr "مستوى الخبرة"
 
-#: listings/forms.py:529
+#: listings/forms.py:548
 msgid "Please specify the education level"
 msgstr "الرجاء تحديد المستوى التعليمي"
 
-#: listings/forms.py:530 listings/models.py:603 listings/models.py:640
+#: listings/forms.py:549 listings/models.py:603 listings/models.py:640
 msgid "Education Level"
 msgstr "المستوى التعليمي"
 
-#: listings/forms.py:537
+#: listings/forms.py:556
 msgid "Please specify the employment type"
 msgstr "الرجاء تحديد نوع العمل"
 
-#: listings/forms.py:538 listings/models.py:605 listings/models.py:610
+#: listings/forms.py:557 listings/models.py:605 listings/models.py:610
 #: listings/models.py:642 listings/models.py:646
 msgid "Employment Type"
 msgstr "نوع العمل"
 
-#: listings/forms.py:543 listings/models.py:606 listings/models.py:643
+#: listings/forms.py:562 listings/models.py:606 listings/models.py:643
 msgid "Skills"
 msgstr "المهارات"
 
-#: listings/forms.py:556 listings/models.py:607
+#: listings/forms.py:575 listings/models.py:607
 msgid "Compensation"
 msgstr "الراتب"
 
@@ -2539,17 +2574,22 @@ msgstr "كلمات البحث"
 msgid "City"
 msgstr "المدينة"
 
-#: search/forms.py:296 search/forms.py:309 search/forms.py:322
-#: search/forms.py:360 search/forms.py:384 search/forms.py:408
-#: search/forms.py:422 search/forms.py:461 search/forms.py:475
-#: search/forms.py:490
+#: search/forms.py:305 search/forms.py:384 search/forms.py:424
+#: search/forms.py:464
+msgid "Show only ads with photos"
+msgstr "أظهر الإعلانات التي معها صور"
+
+#: search/forms.py:318 search/forms.py:331 search/forms.py:344
+#: search/forms.py:397 search/forms.py:437 search/forms.py:477
+#: search/forms.py:491 search/forms.py:530 search/forms.py:544
+#: search/forms.py:559
 msgid "From"
 msgstr "من"
 
-#: search/forms.py:303 search/forms.py:316 search/forms.py:327
-#: search/forms.py:367 search/forms.py:391 search/forms.py:415
-#: search/forms.py:429 search/forms.py:468 search/forms.py:482
-#: search/forms.py:497
+#: search/forms.py:325 search/forms.py:338 search/forms.py:349
+#: search/forms.py:404 search/forms.py:444 search/forms.py:484
+#: search/forms.py:498 search/forms.py:537 search/forms.py:551
+#: search/forms.py:566
 msgid "To"
 msgstr "إلى"
 
@@ -2871,6 +2911,10 @@ msgstr ""
 "(مثلاً: الحجم والأبعاد)<br/>- إشرح أهم المواصفات والمعلومات (مثلاً: الضمان إن "
 "وجد) يرجى عدم اضافة عنوان إيميلك داخل الوصف وهذا لحماية خصوصيتك."
 
+#: templates/listings/manage_listing.html:158
+msgid "Select your neighbourhood"
+msgstr "اختر منطقتك"
+
 #: templates/listings/manage_listing.html:188
 #: templates/listings/snippets/_form.html:161
 msgid "Mobile Number"
@@ -3014,10 +3058,6 @@ msgstr "<span>%(price)s</span> %(translated_currency)s"
 msgid "Image %(count)s of %(listing_title)s"
 msgstr ""
 
-#: templates/listings/get/get_listing.html:141
-msgid "Details"
-msgstr "التفاصيل"
-
 #: templates/listings/get/get_listing.html:169
 msgid "Show mobile number"
 msgstr "اظهر رقم الموبايل"
@@ -3094,7 +3134,7 @@ msgid "Accepted formats: pdf, doc, txt, rtf"
 msgstr "الملفات المدعومة: rtf/doc/pdf/docx"
 
 #: templates/listings/reply/reply_to_listing_include.html:125
-#: templates/listings/report/report_listing.html:107
+#: templates/listings/report/report_listing.html:123
 #: templates/public/contact_us.html:157
 msgid "Please enter the 4 letters as shown in the image below"
 msgstr "من فضلك أدخل الحروف في الصورة أدناه"
@@ -3139,10 +3179,14 @@ msgid "Report"
 msgstr "بلغ عن هذا الإعلان"
 
 #: templates/listings/report/report_listing.html:91
+msgid "Reason"
+msgstr "السبب"
+
+#: templates/listings/report/report_listing.html:107
 msgid "Message"
 msgstr "الرسالة"
 
-#: templates/listings/report/report_listing.html:121
+#: templates/listings/report/report_listing.html:137
 msgid "Report ad"
 msgstr "بلغ عن هذا الإعلان"
 
@@ -3497,7 +3541,7 @@ msgstr ""
 "اظهر فقط الإعلانات المضافة بال%(CURRENT_LANGUAGE)s\n"
 "                    "
 
-#: templates/search/browse_widget.html:100
+#: templates/search/browse_widget.html:109
 msgid "Refine"
 msgstr "تصفية البحث"
 
@@ -4279,6 +4323,18 @@ msgstr[5] ""
 #, python-format
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
+
+#, fuzzy
+#~ msgid "Salalah"
+#~ msgstr "بير صالح"
+
+#, fuzzy
+#~ msgid "Dammam"
+#~ msgstr "حمام الأنف"
+
+#, fuzzy
+#~ msgid "Medina"
+#~ msgstr "الأدوية"
 
 #~ msgid "neighbourhoods"
 #~ msgstr "المنطقة"
