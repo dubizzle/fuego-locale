@@ -20,6 +20,43 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 1.3\n"
 
+
+#: templates/listings/report/report_listing.html:91
+msgid "Reason"
+msgstr "السبب"
+
+#: fuego/base_settings.py:907
+msgid "Other"
+msgstr "لدي سبب آخر"
+
+#: fuego/base_settings.py:909
+msgid "Please select"
+msgstr "الرجاء الإختيار"
+
+#: fuego/base_settings.py:912
+msgid "Miscategorized"
+msgstr "فئة الإعلان خاطئة"
+
+#: fuego/base_settings.py:913
+msgid "Offensive"
+msgstr "الإعلان مزعج أو فيه إهانة"
+
+#: fuego/base_settings.py:914
+msgid "Repetitive"
+msgstr "الإعلان مُكرر"
+
+#: fuego/base_settings.py:915
+msgid "Misleading"
+msgstr "الإعلان مُضلل وغير واضح"
+
+#: fuego/base_settings.py:916
+msgid "Possible fraud"
+msgstr "يبدو الإعلان كأنه احتيال"
+
+#: fuego/base_settings.py:917
+msgid "Spam"
+msgstr "إعلان مزعج"
+
 #: authentication/forms.py:17 authentication/forms.py:153
 #: templates/authentication/forgot_password.html:28
 #: templates/authentication/login.html:36

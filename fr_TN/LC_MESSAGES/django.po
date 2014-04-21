@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-21 17:26+0400\n"
+"POT-Creation-Date: 2014-04-21 18:33+0400\n"
 "PO-Revision-Date: 2014-03-25 17:15+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/"
@@ -364,50 +364,59 @@ msgstr ""
 
 #: country_templates/bahrain/public/landing.html:133
 #: country_templates/kuwait/public/landing.html:133
+#: country_templates/oman/public/landing.html:134
+#: country_templates/qatar/public/landing.html:134
+#: country_templates/saudi/public/landing.html:141
+#: templates/public/landing.html:95
+msgid "Cars"
+msgstr "Voitures"
+
+#: country_templates/bahrain/public/landing.html:139
+#: country_templates/kuwait/public/landing.html:139
 #: country_templates/oman/public/landing.html:140
 #: country_templates/saudi/public/landing.html:135
 msgid "Car accessories"
 msgstr ""
 
-#: country_templates/bahrain/public/landing.html:139
-#: country_templates/kuwait/public/landing.html:139
+#: country_templates/bahrain/public/landing.html:145
+#: country_templates/kuwait/public/landing.html:145
 #: country_templates/qatar/public/landing.html:140
 #: country_templates/saudi/public/landing.html:147
 msgid "Clothing  & accessories"
 msgstr ""
 
-#: country_templates/bahrain/public/landing.html:145
-#: country_templates/kuwait/public/landing.html:145
+#: country_templates/bahrain/public/landing.html:151
+#: country_templates/kuwait/public/landing.html:151
 #: country_templates/oman/public/landing.html:146
 #: country_templates/qatar/public/landing.html:146
 #: country_templates/saudi/public/landing.html:153
 msgid "Tablets &amp; computers "
 msgstr ""
 
-#: country_templates/bahrain/public/landing.html:151
-#: country_templates/kuwait/public/landing.html:151
+#: country_templates/bahrain/public/landing.html:157
+#: country_templates/kuwait/public/landing.html:157
 #: country_templates/saudi/public/landing.html:159
 msgid "Cameras & accessories"
 msgstr ""
 
-#: country_templates/bahrain/public/landing.html:157
-#: country_templates/kuwait/public/landing.html:157
+#: country_templates/bahrain/public/landing.html:163
+#: country_templates/kuwait/public/landing.html:163
 #: country_templates/saudi/public/landing.html:165
 msgid "Jewelry & watches"
 msgstr ""
 
-#: country_templates/bahrain/public/landing.html:163
-#: country_templates/kuwait/public/landing.html:163
-msgid "Sporting goods and accessories"
-msgstr ""
-
 #: country_templates/bahrain/public/landing.html:169
 #: country_templates/kuwait/public/landing.html:169
-msgid "Video games & consoles"
+msgid "Sporting goods and accessories"
 msgstr ""
 
 #: country_templates/bahrain/public/landing.html:175
 #: country_templates/kuwait/public/landing.html:175
+msgid "Video games & consoles"
+msgstr ""
+
+#: country_templates/bahrain/public/landing.html:181
+#: country_templates/kuwait/public/landing.html:181
 #: country_templates/oman/public/landing.html:152
 #: country_templates/qatar/public/landing.html:152
 #: country_templates/saudi/public/landing.html:171
@@ -426,7 +435,7 @@ msgstr ""
 msgid "Dhofar"
 msgstr ""
 
-#: country_templates/oman/public/_map.html:39
+#: country_templates/oman/public/_map.html:45
 msgid "Muscat"
 msgstr ""
 
@@ -439,13 +448,6 @@ msgstr ""
 msgid "Sporting goods &amp; outdoors"
 msgstr ""
 
-#: country_templates/oman/public/landing.html:134
-#: country_templates/qatar/public/landing.html:134
-#: country_templates/saudi/public/landing.html:141
-#: templates/public/landing.html:95
-msgid "Cars"
-msgstr "Voitures"
-
 #: country_templates/qatar/public/_map.html:28
 msgid "Doha"
 msgstr ""
@@ -455,11 +457,11 @@ msgid "Qatar's free local classifieds community."
 msgstr ""
 
 #: country_templates/saudi/public/_map.html:32
-msgid "Eastern Region"
+msgid "Tabuk"
 msgstr ""
 
 #: country_templates/saudi/public/_map.html:43
-msgid "Tabuk"
+msgid "Eastern Region"
 msgstr ""
 
 #: country_templates/saudi/public/_map.html:54
@@ -495,37 +497,35 @@ msgstr "Inconnu"
 
 #: fuego/base_settings.py:907
 msgid "Other"
-msgstr ""
+msgstr "Autre"
 
 #: fuego/base_settings.py:909
-#, fuzzy
 msgid "Please select"
-msgstr "Veuillez choisir une sous catégorie."
+msgstr "Choisissez votre raison"
 
 #: fuego/base_settings.py:912
 msgid "Miscategorized"
-msgstr ""
+msgstr "Mauvaise catégorie"
 
 #: fuego/base_settings.py:913
 msgid "Offensive"
-msgstr ""
+msgstr "Offensive"
 
 #: fuego/base_settings.py:914
 msgid "Repetitive"
-msgstr ""
+msgstr "Répétée"
 
 #: fuego/base_settings.py:915
-#, fuzzy
 msgid "Misleading"
-msgstr "Messaadine"
+msgstr "Trompeuse"
 
 #: fuego/base_settings.py:916
 msgid "Possible fraud"
-msgstr ""
+msgstr "Possible fraude"
 
 #: fuego/base_settings.py:917
 msgid "Spam"
-msgstr ""
+msgstr "Indésirable"
 
 #: fuego/meta_settings.py:62
 #, python-format
@@ -3342,7 +3342,7 @@ msgstr "Signaler"
 
 #: templates/listings/report/report_listing.html:91
 msgid "Reason"
-msgstr ""
+msgstr "Raison"
 
 #: templates/listings/report/report_listing.html:107
 msgid "Message"
