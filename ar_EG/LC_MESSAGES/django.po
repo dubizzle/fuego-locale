@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-15 17:58+0400\n"
-"PO-Revision-Date: 2014-04-15 18:16+0400\n"
+"POT-Creation-Date: 2014-04-17 16:48+0400\n"
+"PO-Revision-Date: 2014-02-20 16:00+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian "
 "<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
@@ -316,8 +316,13 @@ msgstr ""
 #: country_templates/qatar/public/landing.html:65
 #: country_templates/qatar/public/landing.html:89
 #: country_templates/saudi/public/landing.html:70
+<<<<<<< HEAD
+#: country_templates/saudi/public/landing.html:95 templates/generic.html:39
+#: templates/generic.html.py:125 templates/buysell/index.html:43
+=======
 #: country_templates/saudi/public/landing.html:95 templates/generic.html:40
 #: templates/generic.html.py:138 templates/buysell/index.html:43
+>>>>>>> origin/weblate
 #: templates/buysell/index.html.py:101
 #: templates/search/category_widget.html:51
 msgid "All of"
@@ -436,9 +441,14 @@ msgid "Your free local classifieds in Kuwait"
 msgstr ""
 
 #: country_templates/oman/public/_map.html:26
+<<<<<<< HEAD
+msgid "Dhofar"
+msgstr ""
+=======
 #, fuzzy
 msgid "Dhofar"
 msgstr "الدهار"
+>>>>>>> origin/weblate
 
 #: country_templates/oman/public/_map.html:39
 msgid "Muscat"
@@ -3598,7 +3608,6 @@ msgid "Hey, you forgot to tell us where you are."
 msgstr " من فضلك لا تنسى إضافة إسم مدينتك. (الا اذا كنت من الفضاء.)"
 
 #: listings/forms.py:98 templates/listings/manage_listing.html:158
-#: templates/listings/snippets/_form.html:131
 msgid "Neighborhood"
 msgstr "المنطقة"
 
@@ -3893,7 +3902,11 @@ msgid "Go back"
 msgstr "الصفحة السابقة"
 
 #: templates/404-web.html:24 templates/base_privacy.html:31
+<<<<<<< HEAD
+#: templates/base_terms.html:37 templates/generic.html:78
+=======
 #: templates/base_terms.html:37 templates/generic.html:91
+>>>>>>> origin/weblate
 #: templates/sell/badass-classifieds-ads.html:18
 #: templates/sell/how-it-works.html:17 templates/sell/how-to-post-ad.html:16
 #: templates/sell/why-dubizzle.html:16 templates/shared/listings.html:83
@@ -3936,12 +3949,21 @@ msgid "All of Egypt"
 msgstr "كل مصر"
 
 # not too clear
+<<<<<<< HEAD
+#: templates/generic.html:44 templates/buysell/index.html:48
+msgid "My account"
+msgstr "الحساب"
+
+#: templates/generic.html:61 templates/generic.html.py:66
+#: templates/generic.html:135 templates/generic.html.py:140
+=======
 #: templates/generic.html:57 templates/buysell/index.html:48
 msgid "My account"
 msgstr "الحساب"
 
 #: templates/generic.html:74 templates/generic.html.py:79
 #: templates/generic.html:148 templates/generic.html.py:153
+>>>>>>> origin/weblate
 #: templates/authentication/login.html:55 templates/buysell/index.html:65
 #: templates/buysell/index.html.py:70 templates/buysell/index.html:111
 #: templates/buysell/index.html.py:116
@@ -3949,16 +3971,28 @@ msgstr "الحساب"
 msgid "Place an ad"
 msgstr "بيع أي حاجة"
 
+<<<<<<< HEAD
+#: templates/generic.html:90
+=======
 #: templates/generic.html:103
+>>>>>>> origin/weblate
 msgid "View all"
 msgstr "اظهر الجميع - "
 
 # not too clear
+<<<<<<< HEAD
+#: templates/generic.html:108 templates/buysell/index.html:84
+msgid "My Account"
+msgstr "الحساب"
+
+#: templates/generic.html:156
+=======
 #: templates/generic.html:121 templates/buysell/index.html:84
 msgid "My Account"
 msgstr "الحساب"
 
 #: templates/generic.html:169
+>>>>>>> origin/weblate
 msgid "View all in"
 msgstr "اظهر الجميع في"
 
@@ -4545,6 +4579,10 @@ msgstr "الرسالة"
 msgid "Report ad"
 msgstr "بلغ عن هذا الإعلان"
 
+#: templates/listings/snippets/_form.html:131
+msgid "Select your neighbourhood"
+msgstr "اختر منطقتك"
+
 #: templates/listings/snippets/_scam_warning.html:3
 msgid "Important tips from dubizzle"
 msgstr "معلومات \"في السريع\" علشان تبقى صاحي ومدقدق"
@@ -4869,8 +4907,13 @@ msgstr "ارني المزيد"
 #, python-format
 msgid ""
 "\n"
+<<<<<<< HEAD
+"                            Egypt's #1 classifieds: more than <span id="
+"\"counter\">%(count)s</span> ads\n"
+=======
 "                            Egypt's #1 <span class=\"free-ads\">Free</span> "
 "classifieds: more than <span id=\"counter\">%(count)s</span> ads\n"
+>>>>>>> origin/weblate
 "                        "
 msgstr ""
 "موقع المبوّبات <span class=\"free-ads\">المجاني</span> رقم ١ في مصر- أكثر من "
@@ -5817,6 +5860,22 @@ msgstr "المدينة"
 #, fuzzy
 #~ msgid "Medina"
 #~ msgstr "الأدوية"
+
+#, fuzzy
+#~ msgid "Salalah"
+#~ msgstr "السنطة"
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "                            Egypt's #1 <span class=\"free-ads\">free</"
+#~ "span> classifieds: more than <span id=\"counter\">%(count)s</span> ads\n"
+#~ "                        "
+#~ msgstr ""
+#~ "\n"
+#~ "موقع المبوّبات رقم ١ في مصر- أكثر من <span id=\"counter\">%(count)s</span> "
+#~ "إعلان\n"
+#~ "                    "
 
 #, fuzzy
 #~ msgid "Post an ad"
@@ -8261,8 +8320,13 @@ msgstr "المدينة"
 
 #~ msgid ""
 #~ "Free Classifieds in %(city_comma_country)s - Jobs in %(city_comma_country)"
+<<<<<<< HEAD
+#~ "s, Property & Real Estate For Sale & Rent, Cars for Sale | dubizzle "
+#~ "%(city_comma_country)s"
+=======
 #~ "s, Property & Real Estate For Sale & Rent, Cars for Sale | dubizzle %"
 #~ "(city_comma_country)s"
+>>>>>>> origin/weblate
 #~ msgstr ""
 #~ "اعلانات مبوبة مجانية في %(city_comma_country)s - وظائف شاغرة في %"
 #~ "(city_comma_country)s, عقارات للبيع او الايجار, سيارات للبيع | دوبيزل %"
