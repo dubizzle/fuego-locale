@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-23 10:22+0400\n"
-"PO-Revision-Date: 2014-02-20 16:00+0400\n"
+"POT-Creation-Date: 2014-05-04 11:30+0400\n"
+"PO-Revision-Date: 2014-05-04 11:43+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/"
-"projects/fuego/fuego/ar_EG/>\n"
+"Language-Team: Arabic - Egyptian "
+"<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
+"Language: ar_EG\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar_EG\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 1.3\n"
@@ -316,8 +316,8 @@ msgstr ""
 #: country_templates/qatar/public/landing.html:65
 #: country_templates/qatar/public/landing.html:89
 #: country_templates/saudi/public/landing.html:70
-#: country_templates/saudi/public/landing.html:95 templates/generic.html:39
-#: templates/generic.html.py:125 templates/buysell/index.html:43
+#: country_templates/saudi/public/landing.html:95 templates/generic.html:40
+#: templates/generic.html.py:138 templates/buysell/index.html:43
 #: templates/buysell/index.html.py:101
 #: templates/search/category_widget.html:51
 msgid "All of"
@@ -512,35 +512,51 @@ msgstr "م٢"
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:902
+#: fuego/base_settings.py:758
+msgid "Date (newest to oldest)"
+msgstr "الأحدث إلى الأقدم"
+
+#: fuego/base_settings.py:759
+msgid "Date (oldest to newest)"
+msgstr "الأقدم إلى الأحدث"
+
+#: fuego/base_settings.py:763
+msgid "Price (highest to lowest)"
+msgstr "السعر (الأعلى إلى الأقل)"
+
+#: fuego/base_settings.py:764
+msgid "Price (lowest to highest)"
+msgstr "السعر (الأقل إلى الأعلى)"
+
+#: fuego/base_settings.py:915
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:904
+#: fuego/base_settings.py:917
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:907
+#: fuego/base_settings.py:920
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:908
+#: fuego/base_settings.py:921
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:909
+#: fuego/base_settings.py:922
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:910
+#: fuego/base_settings.py:923
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:911
+#: fuego/base_settings.py:924
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
-#: fuego/base_settings.py:912
+#: fuego/base_settings.py:925
 msgid "Spam"
 msgstr "إعلان مزعج"
 
@@ -2235,6 +2251,10 @@ msgstr "بيع آلات موسيقية بأفضل سعر، ضيف إعلانك �
 msgid "Sell your pet here. Place your free ad below in less than 2 minutes."
 msgstr "بيع أي نوع حيوان أليف بأفضل سعر، ضيف إعلانك في أقل من دقيقتين."
 
+#: fuego/egypt_settings.py:2396
+msgid "#dubizzle #bee3_weshtery"
+msgstr ""
+
 #: fuego/meta_settings.py:62
 #, python-format
 msgid ""
@@ -3513,6 +3533,10 @@ msgstr ""
 "اكتشف اكثر الاعلانات المميزة على دوبيزل. هل تريد اضافة اعلانات رائعة على "
 "دوبيزل؟ شاهد هذه الامثلة..."
 
+#: fuego/shared_settings.py:361
+msgid "#dubizzle"
+msgstr "#دوبيزل"
+
 #: fuego/forms/__init__.py:144
 msgid "Enter your name please, nobody likes to talk to a stranger ;)"
 msgstr "عرفنا على إسمك... \"وعاشت الأسامي\"."
@@ -3530,12 +3554,12 @@ msgstr ""
 msgid "Choose your city"
 msgstr "اختر مدينتك"
 
-#: fuego/forms/__init__.py:181 search/forms.py:28 search/forms.py:35
-#: search/forms.py:38
+#: fuego/forms/__init__.py:181 search/forms.py:30 search/forms.py:37
+#: search/forms.py:40
 msgid "name"
 msgstr "الإسم الكريم"
 
-#: fuego/forms/__init__.py:194 search/forms.py:43
+#: fuego/forms/__init__.py:194 search/forms.py:45
 #, python-format
 msgid "All of %(country)s"
 msgstr "%(country)s بالكامل"
@@ -3875,35 +3899,35 @@ msgstr "بيانات تصويرية: ما هي قيمتها؟"
 msgid "Pilar Rashad"
 msgstr "بيلار رشاد"
 
-#: search/forms.py:35
+#: search/forms.py:37
 #, python-format
 msgid "All of %(city)s"
 msgstr "%(city)s بالكامل"
 
-#: search/forms.py:134
+#: search/forms.py:158
 msgid "Keywords"
 msgstr "كلمات البحث"
 
-#: search/forms.py:139
+#: search/forms.py:163
 msgid "City"
 msgstr "المدينة"
 
-#: search/forms.py:305 search/forms.py:384 search/forms.py:424
-#: search/forms.py:464
+#: search/forms.py:329 search/forms.py:408 search/forms.py:448
+#: search/forms.py:488
 msgid "Show only ads with photos"
 msgstr "أظهر الإعلانات التي معها صور"
 
-#: search/forms.py:318 search/forms.py:331 search/forms.py:344
-#: search/forms.py:397 search/forms.py:437 search/forms.py:477
-#: search/forms.py:491 search/forms.py:530 search/forms.py:544
-#: search/forms.py:559
+#: search/forms.py:342 search/forms.py:355 search/forms.py:368
+#: search/forms.py:421 search/forms.py:461 search/forms.py:501
+#: search/forms.py:515 search/forms.py:554 search/forms.py:568
+#: search/forms.py:583
 msgid "From"
 msgstr "من"
 
-#: search/forms.py:325 search/forms.py:338 search/forms.py:349
-#: search/forms.py:404 search/forms.py:444 search/forms.py:484
-#: search/forms.py:498 search/forms.py:537 search/forms.py:551
-#: search/forms.py:566
+#: search/forms.py:349 search/forms.py:362 search/forms.py:373
+#: search/forms.py:428 search/forms.py:468 search/forms.py:508
+#: search/forms.py:522 search/forms.py:561 search/forms.py:575
+#: search/forms.py:590
 msgid "To"
 msgstr "إلى"
 
@@ -3934,7 +3958,7 @@ msgid "Go back"
 msgstr "الصفحة السابقة"
 
 #: templates/404-web.html:24 templates/base_privacy.html:31
-#: templates/base_terms.html:37 templates/generic.html:78
+#: templates/base_terms.html:37 templates/generic.html:91
 #: templates/sell/badass-classifieds-ads.html:18
 #: templates/sell/how-it-works.html:17 templates/sell/how-to-post-ad.html:16
 #: templates/sell/why-dubizzle.html:16 templates/shared/listings.html:83
@@ -3971,13 +3995,18 @@ msgstr ""
 msgid "Browse"
 msgstr "تصفح"
 
+#: templates/generic.html:45 templates/buysell/index.html:193
+#: templates/public/landing.html:99
+msgid "All of Egypt"
+msgstr "كل مصر"
+
 # not too clear
-#: templates/generic.html:44 templates/buysell/index.html:48
+#: templates/generic.html:57 templates/buysell/index.html:48
 msgid "My account"
 msgstr "الحساب"
 
-#: templates/generic.html:61 templates/generic.html.py:66
-#: templates/generic.html:135 templates/generic.html.py:140
+#: templates/generic.html:74 templates/generic.html.py:79
+#: templates/generic.html:148 templates/generic.html.py:153
 #: templates/authentication/login.html:55 templates/buysell/index.html:65
 #: templates/buysell/index.html.py:70 templates/buysell/index.html:111
 #: templates/buysell/index.html.py:116
@@ -3985,16 +4014,16 @@ msgstr "الحساب"
 msgid "Place an ad"
 msgstr "بيع أي حاجة"
 
-#: templates/generic.html:90
+#: templates/generic.html:103
 msgid "View all"
 msgstr "اظهر الجميع - "
 
 # not too clear
-#: templates/generic.html:108 templates/buysell/index.html:84
+#: templates/generic.html:121 templates/buysell/index.html:84
 msgid "My Account"
 msgstr "الحساب"
 
-#: templates/generic.html:156
+#: templates/generic.html:169
 msgid "View all in"
 msgstr "اظهر الجميع في"
 
@@ -4128,10 +4157,6 @@ msgstr "ارني المزيد"
 #: templates/buysell/index.html:174
 msgid "we're all over Egypt"
 msgstr "هتلاقونا في كل مصر"
-
-#: templates/buysell/index.html:193 templates/public/landing.html:99
-msgid "All of Egypt"
-msgstr "كل مصر"
 
 #: templates/buysell/index.html:202 templates/public/landing.html:108
 msgid "Coming Soon"
@@ -4913,14 +4938,14 @@ msgstr "ارني المزيد"
 #, python-format
 msgid ""
 "\n"
-"                            Egypt's #1 classifieds: more than <span id="
-"\"counter\">%(count)s</span> ads\n"
+"                            Egypt's #1 <span class=\"free-ads\">Free</span> "
+"classifieds: more than <span id=\"counter\">%(count)s</span> ads\n"
 "                        "
 msgstr ""
 "\n"
-"موقع المبوّبات رقم ١ في مصر- أكثر من <span id=\"counter\">%(count)s</span> "
-"إعلان\n"
-"                    "
+"موقع المبوّبات <span class=\"free-ads\">المجاني</span> رقم ١ في مصر- أكثر من "
+"<span id=\"counter\">%(count)s</span> إعلان\n"
+"                        "
 
 #: templates/public/landing.html:67
 msgid "How to dubizzle"
@@ -5115,6 +5140,14 @@ msgstr[5] ""
 "\n"
 "وجدنا <span class=\"red\">%(counter)s</span> اعلان\n"
 "                "
+
+#: templates/search/search.html:82
+msgid "Sort by"
+msgstr "رتب حسب"
+
+#: templates/search/search.html:88
+msgid "Sort"
+msgstr "رتب"
 
 #: templates/search/search_listings.html:27
 msgid "Place your ad"
@@ -5861,20 +5894,20 @@ msgstr "المدينة"
 #~ msgstr "الأدوية"
 
 #, fuzzy
-#~ msgid "Salalah"
-#~ msgstr "السنطة"
-
-#, fuzzy
 #~ msgid ""
 #~ "\n"
-#~ "                            Egypt's #1 <span class=\"free-ads\">free</"
-#~ "span> classifieds: more than <span id=\"counter\">%(count)s</span> ads\n"
+#~ "                            Egypt's #1 classifieds: more than <span id="
+#~ "\"counter\">%(count)s</span> ads\n"
 #~ "                        "
 #~ msgstr ""
 #~ "\n"
 #~ "موقع المبوّبات رقم ١ في مصر- أكثر من <span id=\"counter\">%(count)s</span> "
 #~ "إعلان\n"
 #~ "                    "
+
+#, fuzzy
+#~ msgid "Salalah"
+#~ msgstr "السنطة"
 
 #, fuzzy
 #~ msgid "Post an ad"
