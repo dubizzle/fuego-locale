@@ -4094,13 +4094,13 @@ msgid ""
 msgstr "حسابك كالصحراء - يبدو خالي من أي نشاط. احيي ربعك الخالي باعلاناتك! "
 
 #: templates/user_profiles/my_listings.html:59
-msgid "All my ads"
+msgid "My ads"
 msgstr "جميع إعلاناتي"
 
 #: templates/user_profiles/my_listings.html:62
 #: templates/user_profiles/my_listings.html:85
 msgid "My pending ads"
-msgstr "إعلانات تحت المراجعة"
+msgstr "إعلاناتي في انتظار المراجعة"
 
 #: templates/user_profiles/my_listings.html:65
 #: templates/user_profiles/my_listings.html:140
@@ -4486,3 +4486,82 @@ msgstr "%(city)s، %(country)s "
 
 #~ msgid "Geo IP"
 #~ msgstr "GEOIPPPPP"
+
+msgid "My rejected ads"
+msgstr "إعلاناتي المرفوضة"
+
+msgid "The following ad did not meet our rules and has been rejected by dubizzle support team , however you can correct and resubmit"
+msgstr "هذه هي إعلاناتك التي تم رفضها من قبل فريق دعم دوبيزل بعد مراجعتها لعدم التزامها بشروط النشر لدينا، ولكن هناك دائماً فرصة أخرى على دوبيزل للتصحيح و إعادة النشر!"
+
+msgid "The following %(rejected_count)s ads did not meet our rules and has been rejected by dubizzle support team , however you can correct and resubmit"
+msgstr "هذه هي إعلاناتك التي تم رفضها من قبل فريق دعم دوبيزل بعد مراجعتها لعدم التزامها بشروط النشر لدينا، ولكن هناك دائماً فرصة أخرى على دوبيزل للتصحيح و إعادة النشر!"
+
+msgid "The following %(counter)s ad did not meet our rules and has been rejected by dubizzle support team , however you can correct and resubmit"
+msgid_plural "The following %(counter)s ads did not meet our rules and have been rejected by dubizzle support team , however you can correct and resubmit"
+msgstr[0] "هذه هي إعلاناتك التي تم رفضها من قبل فريق دعم دوبيزل بعد مراجعتها لعدم التزامها بشروط النشر لدينا، ولكن هناك دائماً فرصة أخرى على دوبيزل للتصحيح و إعادة النشر!"
+msgstr[1] "هذه هي إعلاناتك التي تم رفضها من قبل فريق دعم دوبيزل بعد مراجعتها لعدم التزامها بشروط النشر لدينا، ولكن هناك دائماً فرصة أخرى على دوبيزل للتصحيح و إعادة النشر!"
+msgstr[2] "هذه هي إعلاناتك التي تم رفضها من قبل فريق دعم دوبيزل بعد مراجعتها لعدم التزامها بشروط النشر لدينا، ولكن هناك دائماً فرصة أخرى على دوبيزل للتصحيح و إعادة النشر!"
+msgstr[3] "هذه هي إعلاناتك التي تم رفضها من قبل فريق دعم دوبيزل بعد مراجعتها لعدم التزامها بشروط النشر لدينا، ولكن هناك دائماً فرصة أخرى على دوبيزل للتصحيح و إعادة النشر!"
+msgstr[4] "هذه هي إعلاناتك التي تم رفضها من قبل فريق دعم دوبيزل بعد مراجعتها لعدم التزامها بشروط النشر لدينا، ولكن هناك دائماً فرصة أخرى على دوبيزل للتصحيح و إعادة النشر!"
+msgstr[5] "هذه هي إعلاناتك التي تم رفضها من قبل فريق دعم دوبيزل بعد مراجعتها لعدم التزامها بشروط النشر لدينا، ولكن هناك دائماً فرصة أخرى على دوبيزل للتصحيح و إعادة النشر!"
+
+
+msgid "The following %(counter)s ads did not meet our rules and has been rejected by dubizzle support team , however you can correct and resubmit"
+msgstr "هذه هي إعلاناتك التي تم رفضها من قبل فريق دعم دوبيزل بعد مراجعتها لعدم التزامها بشروط النشر لدينا، ولكن هناك دائماً فرصة أخرى على دوبيزل للتصحيح و إعادة النشر!"
+
+msgid "Rejection reason:"
+msgstr "سبب الرفض:"
+
+msgid "Recommended suggestion:"
+msgstr "إقتراحنا:"
+
+msgid "Show all my rejected ads"
+msgstr "اظهر جميع اعلاناتي المرفوضة"
+
+msgid "You have placed your item in the wrong category"
+msgstr "لقد وضعت إعلانك تحت الفئة الخاطئة."
+
+msgid "How about placing your ad in"
+msgstr "ما رأيك بوضع إعلانك تحت"
+
+msgid "We suggest:"
+msgstr "إقتراحنا:"
+
+msgid "Your ad description is not clear or does not reflect your item."
+msgstr "مواصفات إعلانك غير واضحة أو لا تعكس إعلانك."
+
+msgid "Your description should include where you bought it and why you're selling it"
+msgstr "أخبرنا ضمن مواصفات إعلانك من أين حصلت على سلعتك ولماذا تريد بيعها."
+
+msgid "Resubmit"
+msgstr "إعادة وضع الإعلان"
+
+msgid "You've written your ad in Franco Arabic."
+msgstr "إعلانك مكتوب بالعربيزي (فرانكو)."
+
+msgid "Remove Franco Arabic from your ad (no '3adi, ya3ni, wa7id, etc') and replace it with English or Arabic"
+msgstr "أكتب الإعلان بحروف عربية "
+
+msgid "Provide relevant price for your item"
+msgstr "زودنا بسعر مناسب لسلعتك."
+
+msgid "You've provided an incorrect price for your item"
+msgstr "سعر سلعتك غير صحيح."
+
+msgid "Provide valid working mobile phone number to enable buyers to contact you directly to sell your item faster"
+msgstr "عليك تزويدنا برقم موبايل مازال في الخدمة ليتمكن المشترين من التواصل معك و بالتالي بيع  سلعتك بوقت أسرع."
+
+msgid "You've provided an invalid mobile phone number."
+msgstr "لقد قمت بوضع رقم موبايل غير صحيح."
+
+msgid "Your ad title is not clear or does not reflect your item."
+msgstr "عنوان إعلانك غير واضح أو لا يعكس محتويات إعلانك."
+
+msgid "Make sure your title is detailed but short, no phone number or price"
+msgstr "تأكد أن عنوان إعلانك واضح و قصير في نفس الوقت، لا تضع رقم الإتصال بك أو السعر."
+
+msgid "Your ad is missing some important information that helps you sell your item."
+msgstr "ﺇﻋﻼﻧﻚ ﻳﻨﻘﺼﻪ ﺍﻟﻜﺜﻴﺮ ﻣﻦ ﺍﻟﻤﻌﻠﻮﻣﺎﺕ ﺍﻟﺘﻲ ﺗﺴﺎﻋﺪ ﻓﻲ ﺇﺗﻤﺎﻡ ﻋﻤﻠﻴﺔ ﺍﻟﺒﻴﻊ ﺑﺸﻜﻞ ﺃﺳﺮﻉ."
+
+msgid "Check your ad information, your ad title,description, or contact details one of them might be not clear."
+msgstr "تأكد من مواصفات إعلانك أوعنوان إعلانك أو معلومات الإتصال بك من الممكن أن تكون احدى هذه المعلومات غير صحيحة."
