@@ -3061,13 +3061,8 @@ msgstr "Vous n'avez pas de compte?"
 msgid " to create one on the fly!"
 msgstr "en créer un dans la foulée!"
 
-#: templates/authentication/login_denied.html:6
-msgid ""
-"It seems your account has been blocked or suspended. For more details, "
-"follow the link below."
-msgstr ""
-"Il semble que votre compte a été bloqué ou suspendu. Pour plus de détails, "
-"suivez le lien ci-dessous."
+msgid "It seems your account has been blocked or suspended. For more details, "
+msgstr "Il semble que votre votre compte a été bloqué, ou temporairement suspendu, veuillez contacter le support en cliquant sur "
 
 #: templates/authentication/logout.html:6
 msgid "You have been Logged Out!"
@@ -4545,18 +4540,18 @@ msgstr ""
 "annonces génialissimes."
 
 #: templates/user_profiles/my_listings.html:59
-msgid "All my ads"
-msgstr "Toutes mes annonces"
+msgid "My ads"
+msgstr "Mes annonces"
 
 #: templates/user_profiles/my_listings.html:62
 #: templates/user_profiles/my_listings.html:85
 msgid "My pending ads"
-msgstr "Mes annonces en cours de traitement"
+msgstr "Les annonces en cours de modération"
 
 #: templates/user_profiles/my_listings.html:65
 #: templates/user_profiles/my_listings.html:140
 msgid "My live ads"
-msgstr "Mes annonces en ligne"
+msgstr "Les annonces publiées"
 
 #: templates/user_profiles/my_listings.html:73
 #, python-format
@@ -4584,7 +4579,7 @@ msgid "Show all my pending ads"
 msgstr "Voir toutes mes annonces en cours"
 
 #: templates/user_profiles/my_listings.html:145
-msgid "Your ad has been sucessfully deleted"
+msgid "Your ad has been successfully deleted"
 msgstr "Votre annonce a été supprimée avec succès"
 
 #: templates/user_profiles/my_listings.html:182
@@ -5196,3 +5191,84 @@ msgstr "%(city)s, %(country)s"
 #~ msgstr ""
 #~ "        Vous avez %(counter)s  annonces en attente \n"
 #~ "    "
+
+msgid "My rejected ads"
+msgstr "Les annonces rejetées"
+
+msgid "The following %(rejected_count)s ads did not meet our rules and has been rejected by dubizzle support team , however you can correct and resubmit"
+msgstr "Les annonces suivantes ont été rejetées par l'equipe de support dubizzle pour des raisons qui se contredisent avec les règles et les conditions de rédaction du Site, nous vous conseillons de déposer vos annonces enore une fois avec les corrections nécessaires."
+
+msgid "The following %(counter)s ad did not meet our rules and has been rejected by dubizzle support team , however you can correct and resubmit"
+msgid_plural "The following %(counter)s ads did not meet our rules and have been rejected by dubizzle support team , however you can correct and resubmit"
+
+msgstr[0] "Votre annonce a été rejetée par l'equipe de support dubizzle pour des raisons qui se contredisent avec les règles et conditions de rédaction du Site, nous vous conseillons de déposer votre annonce enore une fois avec les corrections nécessaires."
+msgstr[1] "Les annonces suivantes ont été rejetées par l'equipe de support dubizzle pour des raisons qui se contredisent avec les règles et les conditions de rédaction du Site, nous vous conseillons de déposer vos annonces enore une fois avec les corrections nécessaires."
+
+
+
+msgid "The following %(counter)s ads did not meet our rules and has been rejected by dubizzle support team , however you can correct and resubmit"
+msgstr "Les annonces suivantes ont été rejetées par l'equipe de support dubizzle pour des raisons qui se contredisent avec les règles et les conditions de rédaction du Site, nous vous conseillons de déposer vos annonces enore une fois avec les corrections nécessaires."
+
+msgid "Rejection reason:"
+msgstr "La raison du rejet:"
+
+msgid "Recommended suggestion:"
+msgstr "Notre suggestion:"
+
+msgid "Show all my rejected ads"
+msgstr "Montrer toutes les annonces rejetées"
+
+msgid "You have placed your item in the wrong category"
+msgstr "Votre annonce a été placé dans la mauvaise catégorie"
+
+msgid "How about placing your ad in"
+msgstr "Vous pouvez déposer votre annonce dans la catégorie suivante"
+
+msgid "We suggest:"
+msgstr "Notre suggestion:"
+
+msgid "Your ad description is not clear or does not reflect your item."
+msgstr "La description de votre annonce ne décrit pas suffisamment la nature de votre objet."
+
+msgid "Your description should include where you bought it and why you're selling it"
+msgstr "Vous devez mentionner dans la description où vous avez acheté cet objet et  pourquoi vous allez le vendre."
+
+msgid "Resubmit"
+msgstr "Redéposer"
+
+msgid "You've written your ad in Franco Arabic."
+msgstr "Vous avez utilisé les lettres latines en écrivant votre annonce en Arabe."
+
+msgid "Remove Franco Arabic from your ad (no '3adi, ya3ni, wa7id, etc') and replace it with English or Arabic"
+msgstr "Veuillez vous assurer de ne pas utiliser les lettres latines en écrivant votre annonce en Arabe"
+
+msgid "Provide relevant price for your item"
+msgstr "veuillez vous assurer de mentionner toujours le bon prix de votre objet."
+
+msgid "You've provided an incorrect price for your item"
+msgstr "Le prix que vous avez mentionné ne semble pas correct"
+
+msgid "Provide valid working mobile phone number to enable buyers to contact you directly to sell your item faster"
+msgstr "Vous devez mentionner un  numéro de téléphone valable pour que les utilisateurs de notre site puissent vous contacter directement pour faciliter la vente de votre objet"
+
+msgid "You've provided an invalid mobile phone number."
+msgstr "Le numéro de téléphone que vous avez mentionné n' est pas valable"
+
+msgid "Your ad title is not clear or does not reflect your item."
+msgstr "Le titre de votre annonce ne décrit pas suffisamment la nature de votre objet."
+
+msgid "Make sure your title is detailed but short, no phone number or price"
+msgstr "Veuillez vous assurer que le titre de votre annonce décrit clairement et précisément votre objet et qu'il ne contient pas le prix ou votre numéro de Tel. Vous pouvez utiliser jusqu'à 65 caractères. "
+
+msgid "Your ad is missing some important information that helps you sell your item."
+msgstr "Votre annonce ne contient les informations nécessaires qui facilitent la vente de votre objet."
+
+msgid "Check your ad information, your ad title,description, or contact details one of them might be not clear."
+msgstr "Veuillez vérifier le contenu de votre annonce, ils nous semblent que le titre de votre annonces, la description, ou bien vos coordonnées ne sont pas clairs"
+
+msgid "Edit your rejected ads"
+msgstr "Modifier les annonces rejetées"
+
+#: templates/user_profiles/my_listings.html:209
+msgid "No, keep it."
+msgstr "Non, le garder."
