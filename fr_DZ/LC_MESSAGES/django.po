@@ -3283,19 +3283,13 @@ msgstr ""
 #: templates/listings/manage_listing.html:335
 #: templates/listings/snippets/_form.html:307
 #, python-format
-msgid ""
-"\n"
-"                        By posting your ad you are agreeing to the dubizzle "
-"<a href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the "
-"dubizzle <a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> "
-"and to receiving marketing and promotional offers.\n"
-"                    "
+msgid "By posting your ad you are agreeing to the dubizzle <a href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the dubizzle <a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving marketing and promotional offers."
 msgstr ""
-"\n"
 "En postant une annonce, vous acceptez tous <a href=\"%(terms_url)s\" target="
 "\"_blank\">les termes et conditions</a> de dubizzle, <a href="
 "\"%(privacy_url)s\" target=\"_blank\">la politique de confidentialité</a> de "
 "dubizzle et de recevoir des offres promotionnelles."
+
 
 #: templates/listings/manage_listing.html:348
 msgid "Uploading photos, please wait..."
@@ -5230,8 +5224,8 @@ msgstr "Notre suggestion:"
 msgid "Your ad description is not clear or does not reflect your item."
 msgstr "La description de votre annonce ne décrit pas suffisamment la nature de votre objet."
 
-msgid "Your description should include details of your item (eg. how old it is and why you're selling it) or job (eg. day-to-day duties)"
-msgstr "Veuillez vous assurer de mentionner un numéro de téléphone valable pour que les internautes et les chercheurs d'emploi puissent vous contacter directement concernant votre annonce"
+msgid "Your description should include where you bought it and why you're selling it"
+msgstr "Vous devez mentionner dans la description où vous avez acheté cet objet et  pourquoi vous allez le vendre."
 
 msgid "Resubmit"
 msgstr "Redéposer"
@@ -5272,9 +5266,3 @@ msgstr "Modifier les annonces rejetées"
 #: templates/user_profiles/my_listings.html:209
 msgid "No, keep it."
 msgstr "Non, le garder."
-
-msgid "Resubmit your ad"
-msgstr "Redéposer votre annonces"
-
-msgid "Category "
-msgstr "Catégorie "

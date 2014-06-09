@@ -2767,15 +2767,8 @@ msgstr ""
 #: templates/listings/manage_listing.html:335
 #: templates/listings/snippets/_form.html:307
 #, python-format
-msgid ""
-"\n"
-"                        By posting your ad you are agreeing to the dubizzle "
-"<a href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the "
-"dubizzle <a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> "
-"and to receiving marketing and promotional offers.\n"
-"                    "
+msgid "By posting your ad you are agreeing to the dubizzle <a href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the dubizzle <a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving marketing and promotional offers."
 msgstr ""
-"\n"
 "عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" target=\"_blank"
 "\">الشروط والأحكام</a> و<a href=\"%(privacy_url)s\" target=\"_blank\">سياسة "
 "الخصوصية</a> لدوبيزل، بالإضافة إلى قبول عروض تسويقية."
@@ -2938,16 +2931,6 @@ msgstr "من فضلك أدخل الحروف في الصورة أدناه"
 #: templates/listings/reply/reply_to_listing_include.html:140
 msgid "Send my reply"
 msgstr "أرسل رسالتي"
-
-#: templates/listings/reply/reply_to_listing_include.html:147
-#, python-format
-msgid ""
-"By clicking on 'Send my reply' I agree to the dubizzle <a href="
-"\"%(terms_url)s\"> terms and conditions</a> and the dubizzle <a href="
-"\"%(privacy_url)s\">privacy policy</a>"
-msgstr ""
-"عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\">شروط "
-"وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\">سياسة الخصوصية</a>."
 
 #: templates/listings/reply/reply_to_listing_include.html:153
 msgid "Bravo!"
@@ -4411,3 +4394,15 @@ msgstr "لا تحذف اعلاني."
 
 msgid "Resubmit your ad"
 msgstr "إعادة وضع الإعلان"
+
+msgid ""
+"By clicking on 'Send my reply' I agree to the dubizzle <a href="
+"\"%(terms_url)s\"> terms and conditions</a> and the dubizzle <a href="
+"\"%(privacy_url)s\">privacy policy</a>"
+msgstr ""
+"عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\">شروط "
+"وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\">سياسة الخصوصية</a>."
+
+msgid "By clicking on 'Send my reply' I agree to the dubizzle and the dubizzle"
+msgstr "عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\">شروط "
+"وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\">سياسة الخصوصية</a>."
