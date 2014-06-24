@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-24 17:08+0400\n"
+"POT-Creation-Date: 2014-06-24 17:35+0400\n"
 "PO-Revision-Date: 2014-06-10 15:39+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Lebanese <http://translate.dubizzlecloud.com/"
@@ -2297,10 +2297,14 @@ msgstr ""
 msgid "Lists too large."
 msgstr ""
 
-#: listings/formatters.py:31 templates/feedbox/index_horizontal.html:326
+#: listings/formatters.py:31 listings/forms.py:358
+#: templates/feedbox/index_horizontal.html:326
+#: templates/listings/get/get_listing.html:121
+#: templates/shared/listings.html:70
+#: templates/user_profiles/my_listings.html:244
 #: templates/user_profiles/my_listings.html:296
-msgid "Giveaway"
-msgstr ""
+msgid "Free"
+msgstr "مجاني"
 
 #: listings/formatters.py:33
 #, python-format
@@ -2452,11 +2456,6 @@ msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 #: listings/forms.py:338
 msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
-
-#: listings/forms.py:358
-#, fuzzy
-msgid "It's Free"
-msgstr "وسيلة آمنة "
 
 #: listings/forms.py:377
 #, fuzzy
@@ -2654,7 +2653,7 @@ msgstr "إلى"
 
 #: search/forms.py:459
 #, fuzzy
-msgid "Show only giveaway ads"
+msgid "Show only free ads"
 msgstr "اظهر جميع اعلاناتي المنشورة"
 
 #: templates/404-web.html:11
@@ -3091,13 +3090,6 @@ msgstr ""
 #, python-format
 msgid "<span>%(price)s</span> %(translated_currency)s"
 msgstr "<span>%(price)s</span> %(translated_currency)s"
-
-#: templates/listings/get/get_listing.html:121
-#: templates/shared/listings.html:70
-#: templates/user_profiles/my_listings.html:244
-#, fuzzy
-msgid "It's free"
-msgstr "وسيلة آمنة "
 
 #: templates/listings/get/get_listing.html:137
 #, python-format
@@ -4588,6 +4580,10 @@ msgid ""
 "Remove Franco Arabic from your ad (no '3adi, ya3ni, wa7id, etc') and replace "
 "it with English or Arabic"
 msgstr "أكتب الإعلان بحروف عربية"
+
+#, fuzzy
+#~ msgid "It's free"
+#~ msgstr "وسيلة آمنة "
 
 #, fuzzy
 #~ msgid "name"

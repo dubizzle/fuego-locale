@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-24 17:09+0400\n"
+"POT-Creation-Date: 2014-06-24 17:35+0400\n"
 "PO-Revision-Date: 2014-06-10 15:44+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Algerian <http://translate.dubizzlecloud.com/"
@@ -2582,10 +2582,14 @@ msgstr ""
 msgid "Lists too large."
 msgstr ""
 
-#: listings/formatters.py:31 templates/feedbox/index_horizontal.html:326
+#: listings/formatters.py:31 listings/forms.py:358
+#: templates/feedbox/index_horizontal.html:326
+#: templates/listings/get/get_listing.html:121
+#: templates/shared/listings.html:70
+#: templates/user_profiles/my_listings.html:244
 #: templates/user_profiles/my_listings.html:296
-msgid "Giveaway"
-msgstr ""
+msgid "Free"
+msgstr "Gratuit"
 
 #: listings/formatters.py:33
 #, python-format
@@ -2745,11 +2749,6 @@ msgstr "Vous avez oublié d'ajouter le prix."
 #: listings/forms.py:338
 msgid "Please enter a valid price."
 msgstr "Veuillez entrer un prix valide."
-
-#: listings/forms.py:358
-#, fuzzy
-msgid "It's Free"
-msgstr "C’est sécurisé."
 
 #: listings/forms.py:377
 #, fuzzy
@@ -2951,7 +2950,7 @@ msgstr "A"
 
 #: search/forms.py:459
 #, fuzzy
-msgid "Show only giveaway ads"
+msgid "Show only free ads"
 msgstr "Voir toutes mes annonces en ligne"
 
 #: templates/404-web.html:11
@@ -3404,13 +3403,6 @@ msgstr ""
 #, python-format
 msgid "<span>%(price)s</span> %(translated_currency)s"
 msgstr "<span>%(price)s</span> %(translated_currency)s"
-
-#: templates/listings/get/get_listing.html:121
-#: templates/shared/listings.html:70
-#: templates/user_profiles/my_listings.html:244
-#, fuzzy
-msgid "It's free"
-msgstr "C’est sécurisé."
 
 #: templates/listings/get/get_listing.html:137
 #, python-format
@@ -4895,6 +4887,10 @@ msgid ""
 msgstr ""
 "Veuillez vous assurer de ne pas utiliser les lettres latines en écrivant "
 "votre annonce en Arabe"
+
+#, fuzzy
+#~ msgid "It's free"
+#~ msgstr "C’est sécurisé."
 
 #, fuzzy
 #~ msgid "name"
