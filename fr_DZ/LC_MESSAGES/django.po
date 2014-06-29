@@ -1091,17 +1091,14 @@ msgid "Outside IP Block"
 msgstr ""
 
 #: fuego/base_settings.py:588
-#, fuzzy
 msgid "No Category"
 msgstr "Catégorie"
 
 #: fuego/base_settings.py:607
-#, fuzzy
 msgid "You have chosen the wrong category."
 msgstr "Votre annonce a été placé dans la mauvaise catégorie"
 
 #: fuego/base_settings.py:608
-#, fuzzy
 msgid "Your ad is misleading"
 msgstr "Votre annonce est GRATUITE"
 
@@ -2751,7 +2748,6 @@ msgid "Please enter a valid price."
 msgstr "Veuillez entrer un prix valide."
 
 #: listings/forms.py:377
-#, fuzzy
 msgid "You forgot to add the price"
 msgstr "Vous avez oublié d'ajouter le prix."
 
@@ -3453,7 +3449,6 @@ msgid "Place another ad"
 msgstr "Passez une autre annonce"
 
 #: templates/listings/rejected/rejected_workspace.html:9
-#, fuzzy
 msgid "Resubmit your ad"
 msgstr "Passer une annonce"
 
@@ -3467,7 +3462,6 @@ msgid "We suggest:"
 msgstr "Notre suggestion:"
 
 #: templates/listings/rejected/rejected_workspace.html:33
-#, fuzzy
 msgid "Change category"
 msgstr "Changer de pays"
 
@@ -3476,7 +3470,6 @@ msgid "Choose"
 msgstr "Choisir"
 
 #: templates/listings/rejected/rejected_workspace.html:109
-#, fuzzy
 msgid "Category "
 msgstr "Catégorie"
 
@@ -3577,7 +3570,7 @@ msgid "Report ad"
 msgstr "Signaler l'annonce"
 
 #: templates/listings/snippets/_form.html:307
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "                        By posting your ad you are agreeing to the dubizzle "
@@ -3586,10 +3579,12 @@ msgid ""
 "and to receiving marketing and promotional offers.\n"
 "                    "
 msgstr ""
+"\n"
 "En postant une annonce, vous acceptez tous <a href=\"%(terms_url)s\" target="
 "\"_blank\">les termes et conditions</a> de dubizzle, <a href="
 "\"%(privacy_url)s\" target=\"_blank\">la politique de confidentialité</a> de "
 "dubizzle et de recevoir des offres promotionnelles."
+"                    "
 
 #: templates/listings/snippets/_scam_warning.html:3
 msgid "Important tips from dubizzle"
@@ -3993,7 +3988,6 @@ msgid "Sort"
 msgstr "Trier"
 
 #: templates/search/search_listings.html:27
-#, fuzzy
 msgid "Place your ad"
 msgstr "Passez votre annonce gratuite"
 
@@ -4662,7 +4656,7 @@ msgid "Your ad has been successfully deleted"
 msgstr "Votre annonce a été supprimée avec succès"
 
 #: templates/user_profiles/my_listings.html:108
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "The following %(counter)s ad did not meet our rules and has been rejected by "
 "dubizzle support team , however you can correct and resubmit"
@@ -4772,7 +4766,7 @@ msgstr[1] ""
 "Vous avez %(counter)s annonces attente    "
 
 #: templates/user_profiles/my_rejected_listings.html:10
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "        You've got %(counter)s rejected ad\n"
@@ -4843,7 +4837,6 @@ msgstr ""
 "votre objet."
 
 #: utils/rejected_context.py:47
-#, fuzzy
 msgid ""
 "Your description should include details of your item (eg. how old it is and "
 "why you're selling it) or job (eg. day-to-day duties)"
@@ -4865,7 +4858,6 @@ msgid "You've provided an invalid mobile phone number."
 msgstr "Le numéro de téléphone que vous avez mentionné n' est pas valable"
 
 #: utils/rejected_context.py:49
-#, fuzzy
 msgid ""
 "Provide valid working mobile phone number to enable buyers or job seekers to "
 "contact you directly about your ad"
@@ -4886,577 +4878,3 @@ msgid ""
 msgstr ""
 "Veuillez vous assurer de ne pas utiliser les lettres latines en écrivant "
 "votre annonce en Arabe"
-
-#, fuzzy
-#~ msgid "It's free"
-#~ msgstr "C’est sécurisé."
-
-#, fuzzy
-#~ msgid "name"
-#~ msgstr "Maaouia"
-
-#~ msgid "neighbourhoods"
-#~ msgstr "Voisinage"
-
-#~ msgid "city"
-#~ msgstr "Ville"
-
-#~ msgid "Cpanel Ad moderation."
-#~ msgstr "Modération d'annonce du Cpanel."
-
-#~ msgid "Select a category"
-#~ msgstr "Sélectionnez une catégorie"
-
-#~ msgid "Existing Photos"
-#~ msgstr "Photos existantes"
-
-#~ msgid "These photos can be moderated in Cpanel"
-#~ msgstr "Ces photos peuvent ętre modérées en Cpanel"
-
-#~ msgid "User's Email Address"
-#~ msgstr "Adresse e-mail de l'utilisateur"
-
-#~ msgid "Please remember to go back to Cpanel to approve this edit."
-#~ msgstr "N'oubliez pas de revenir à Cpanel pour valider cette modification."
-
-#~ msgid "My stuff"
-#~ msgstr "Mes affaires"
-
-#, fuzzy
-#~ msgid "Salalah"
-#~ msgstr "Salah Bey"
-
-#, fuzzy
-#~ msgid "Dammam"
-#~ msgstr "Hamma"
-
-#, fuzzy
-#~ msgid "Medina"
-#~ msgstr "Médicaments"
-
-#, fuzzy
-#~ msgid ""
-#~ "No fees, no hidden agendas and no twists or turns. It’s FREE - now and "
-#~ "forever."
-#~ msgstr ""
-#~ "Pas de frais et pas de comissions - dubizzle est totalement gratuit."
-
-#, fuzzy
-#~ msgid "Post an ad"
-#~ msgstr "Passer une annonce"
-
-#, fuzzy
-#~ msgid "All of Oman"
-#~ msgstr "Toute l'"
-
-#, fuzzy
-#~ msgid "All of qatar"
-#~ msgstr "Tout à propos"
-
-#, fuzzy
-#~ msgid "%(translated_currency)s <span>%(price)s</span>"
-#~ msgstr "%(currency)s %(price)s"
-
-#~ msgid "Studio"
-#~ msgstr "Studio"
-
-#~ msgid "Then go party!"
-#~ msgstr "Puis allez faire la fête!"
-
-#~ msgid "Which section should we put your ad in?"
-#~ msgstr "Dans quelle section doit-on placer votre annonce?"
-
-#~ msgid "What's the model?"
-#~ msgstr "Quel est le modèle?"
-
-#~ msgid "2012, dubizzle.com, All Rights Reserved."
-#~ msgstr "2012, dubizzle.com, Tous droits réservés."
-
-#~ msgid ""
-#~ "Your ad title should have at least %(limit_value)s characters or more to "
-#~ "make it stand out."
-#~ msgstr ""
-#~ "Le titre de votre annonce doit comporter au moins %(limit_value)s "
-#~ "caractères ou plus."
-
-#~ msgid ""
-#~ "That's a very short description.  Please write more than %(limit_value)s "
-#~ "characters in your description."
-#~ msgstr ""
-#~ "Cette description est très courte. Veuillez écrire plus de "
-#~ "%(limit_value)s caractères dans le champ description."
-
-#~ msgid "Hey there, we thought we lost you in cyberspace."
-#~ msgstr "Hey, on a cru vous avoir perdu dans le Cyber espace."
-
-#~ msgid ""
-#~ "Our ninja monkeys noticed that you didn't finish placing your awesome ad. "
-#~ "Continue from where you left off below or <a id=\"reset-form\" href="
-#~ "\"%(reset_url)s\">click here</a> to place a new ad."
-#~ msgstr ""
-#~ "Nos singes ninjas ont figuré que vous n'aviez pas terminé votre dernière "
-#~ "annonce, Continuez par là ou vous étiez ou bien <a id=\"reset-form\" href="
-#~ "\"%(reset_url)s\">clickez ici</a> pour passer une nouvelle annonce "
-#~ "gratuitement."
-
-#, fuzzy
-#~ msgid "Contact Us"
-#~ msgstr "Contactez-nous"
-
-#, fuzzy
-#~ msgid "Buy. Sell. Anything"
-#~ msgstr "Acheter, vendre et trouver quelque chose"
-
-#~ msgid "reset form"
-#~ msgstr "réinitialiser"
-
-#, fuzzy
-#~ msgid "Jid Ali"
-#~ msgstr "Sidi Bou Ali"
-
-#, fuzzy
-#~ msgid "Al Musalla"
-#~ msgstr "Al Manzah"
-
-#, fuzzy
-#~ msgid ""
-#~ "Jobs in Test, Property & Real Estate For Sale & Rent, Cars for Sale - "
-#~ "Free Classifieds in Test | dubizzle Test"
-#~ msgstr ""
-#~ "Emplois en Algérie, Immobilier ŕ vendre ou ŕ louer, Voitures ŕ vendre - "
-#~ "Petites annonces gratuites en Algérie | dubizzle Algérie"
-
-#, fuzzy
-#~ msgid ""
-#~ "dubizzle is your free and friendly local classifieds website in Test. "
-#~ "Jobs, property, real estate, cars and classifieds in Test. Post an ad, "
-#~ "browse ads, buy, sell or rent."
-#~ msgstr ""
-#~ "dubizzle est votre premier site de petites annonces gratuites en Algerie. "
-#~ "Trouvez un emploi, des biens et services immobiliers  la vente ainsi que "
-#~ "des  voitures  vendre en Algerie."
-
-#, fuzzy
-#~ msgid ""
-#~ "dubizzle Test, free classifieds, online classifieds, Test classifieds, "
-#~ "free classifieds in Test"
-#~ msgstr ""
-#~ "dubizzle Algerie, petites annonces gratuites, petites annonces en ligne, "
-#~ "Algerie petites annonces, petites annonces en Algerie"
-
-#~ msgid "Tunisie"
-#~ msgstr "Tunisie"
-
-#~ msgid "TND"
-#~ msgstr "TND"
-
-#~ msgid "Tunis"
-#~ msgstr "Tunis"
-
-#~ msgid "Sfax"
-#~ msgstr "Sfax"
-
-#, fuzzy
-#~ msgid "Sousse"
-#~ msgstr "Bousselam"
-
-#~ msgid "Carthage"
-#~ msgstr "Carthage"
-
-#~ msgid "Sidi Bou Said"
-#~ msgstr "Sidi Bou Said"
-
-#, fuzzy
-#~ msgid "Al Marsa"
-#~ msgstr "Al Manzah"
-
-#~ msgid "Gammarth"
-#~ msgstr "Gammarth"
-
-#~ msgid "La soukra"
-#~ msgstr "La soukra"
-
-#~ msgid "Charguia"
-#~ msgstr "Charguia"
-
-#~ msgid "Le Kram"
-#~ msgstr "Le Kram"
-
-#, fuzzy
-#~ msgid "Sidi Daoud"
-#~ msgstr "Sidi Bou Said"
-
-#~ msgid "La Goulette"
-#~ msgstr "La Goulette"
-
-#, fuzzy
-#~ msgid "Ben Arous"
-#~ msgstr "Ben Aknoun"
-
-#~ msgid "Rades"
-#~ msgstr "Rades"
-
-#~ msgid "Ez Zahra"
-#~ msgstr "Ez Zahra"
-
-#, fuzzy
-#~ msgid "Hammam lif"
-#~ msgstr "Hamma"
-
-#~ msgid "Bou Mhel el-Basatine"
-#~ msgstr "Bou Mhel el-Basatine"
-
-#~ msgid "Nouvelle Medina"
-#~ msgstr "Nouvelle Medina"
-
-#, fuzzy
-#~ msgid "El Mourouj"
-#~ msgstr "El Mouradia"
-
-#, fuzzy
-#~ msgid "Tahar Haddad"
-#~ msgstr "Bir Haddada"
-
-#~ msgid "La Cagna"
-#~ msgstr "La Cagna"
-
-#~ msgid "Sayda El Manoubia"
-#~ msgstr "Sayda El Manoubia"
-
-#~ msgid "Bab El Gorjani"
-#~ msgstr "Bab El Gorjani"
-
-#~ msgid "Montfleury"
-#~ msgstr "Montfleury"
-
-#, fuzzy
-#~ msgid "Bab Alioua"
-#~ msgstr "Bab Ezzouar"
-
-#~ msgid "Bab Al Jazera"
-#~ msgstr "Bab Al Jazera"
-
-#~ msgid "Nouvelle Ville"
-#~ msgstr "Nouvelle Ville"
-
-#~ msgid "Sidi El Bichir"
-#~ msgstr "Sidi El Bichir"
-
-#~ msgid "Souks"
-#~ msgstr "Souks"
-
-#, fuzzy
-#~ msgid "El Hafsia"
-#~ msgstr "El Hamma"
-
-#~ msgid "Le Passage"
-#~ msgstr "Le Passage"
-
-#~ msgid "La Rabta"
-#~ msgstr "La Rabta"
-
-#~ msgid "El Halfaouine"
-#~ msgstr "El Halfaouine"
-
-#~ msgid "Lafayette"
-#~ msgstr "Lafayette"
-
-#~ msgid "Montplaisir"
-#~ msgstr "Montplaisir"
-
-#~ msgid "Bourgil"
-#~ msgstr "Bourgil"
-
-#, fuzzy
-#~ msgid "An Najah"
-#~ msgstr "Ain Naadja"
-
-#~ msgid "Attayarane"
-#~ msgstr "Attayarane"
-
-#~ msgid "Bou Choucha"
-#~ msgstr "Bou Choucha"
-
-#~ msgid "Bab Saadoune"
-#~ msgstr "Bab Saadoune"
-
-#~ msgid "Sous officiers"
-#~ msgstr "Sous officiers"
-
-#, fuzzy
-#~ msgid "El Agba"
-#~ msgstr "Ksar El Abtal"
-
-#~ msgid "Dendan"
-#~ msgstr "Dendan"
-
-#~ msgid "La Manouba"
-#~ msgstr "La Manouba"
-
-#~ msgid "El Habib"
-#~ msgstr "El Habib"
-
-#~ msgid "Le Bardo"
-#~ msgstr "Le Bardo"
-
-#~ msgid "Ras Ettabia"
-#~ msgstr "Ras Ettabia"
-
-#~ msgid "Rommana"
-#~ msgstr "Rommana"
-
-#~ msgid "Jbal Lahmar"
-#~ msgstr "Jbal Lahmar"
-
-#, fuzzy
-#~ msgid "El Omrane"
-#~ msgstr "El Ouricia"
-
-#~ msgid "Mutuelleville"
-#~ msgstr "Mutuelleville"
-
-#~ msgid "Cite Jardins"
-#~ msgstr "Cite Jardins"
-
-#, fuzzy
-#~ msgid "Cite El Khadra"
-#~ msgstr "Cite Ibn Khaldoun"
-
-#~ msgid "Cite Olympique"
-#~ msgstr "Cite Olympique"
-
-#, fuzzy
-#~ msgid "Al Manar"
-#~ msgstr "Al Manzah"
-
-#~ msgid "Cite Ibn Khaldoun"
-#~ msgstr "Cite Ibn Khaldoun"
-
-#~ msgid "Cite Ettahrir"
-#~ msgstr "Cite Ettahrir"
-
-#~ msgid "Ariana"
-#~ msgstr "Ariana"
-
-#~ msgid "Chotrana"
-#~ msgstr "Chotrana"
-
-#~ msgid "Sidi Salah"
-#~ msgstr "Sidi Salah"
-
-#~ msgid "Al Rafaha"
-#~ msgstr "Al Rafaha"
-
-#~ msgid "Ceti Al Faouz"
-#~ msgstr "Ceti Al Faouz"
-
-#~ msgid "Agareb"
-#~ msgstr "Agareb"
-
-#~ msgid "Bir Ali Ben Khelifa"
-#~ msgstr "Bir Ali Ben Khelifa"
-
-#, fuzzy
-#~ msgid "Bir Salah"
-#~ msgstr "Sidi Salah"
-
-#~ msgid "Chihia"
-#~ msgstr "Chihia"
-
-#, fuzzy
-#~ msgid "El Ain"
-#~ msgstr "El Ancor"
-
-#~ msgid "Graiba"
-#~ msgstr "Graiba"
-
-#~ msgid "Gremda"
-#~ msgstr "Gremda"
-
-#~ msgid "Jebiniana"
-#~ msgstr "Jebiniana"
-
-#~ msgid "Kerkennah"
-#~ msgstr "Kerkennah"
-
-#~ msgid "El Hencha"
-#~ msgstr "El Hencha"
-
-#~ msgid "Mahres"
-#~ msgstr "Mahres"
-
-#~ msgid "Menzel Chaker"
-#~ msgstr "Menzel Chaker"
-
-#~ msgid "Sakiet Eddaier"
-#~ msgstr "Sakiet Eddaier"
-
-#~ msgid "Sakiet Ezzit"
-#~ msgstr "Sakiet Ezzit"
-
-#~ msgid "Skhira"
-#~ msgstr "Skhira"
-
-#~ msgid "Thyna"
-#~ msgstr "Thyna"
-
-#~ msgid "Akouda"
-#~ msgstr "Akouda"
-
-#, fuzzy
-#~ msgid "Bouficha"
-#~ msgstr "Boufatis"
-
-#~ msgid "Enfida"
-#~ msgstr "Enfida"
-
-#~ msgid "Ezzouhour"
-#~ msgstr "Ezzouhour"
-
-#, fuzzy
-#~ msgid "Hammam Sousse"
-#~ msgstr "Hammam Guergour"
-
-#~ msgid "Hergla"
-#~ msgstr "Hergla"
-
-#, fuzzy
-#~ msgid "Kalaa Kebira"
-#~ msgstr "Kalaa Seghira"
-
-#~ msgid "Kalaa Seghira"
-#~ msgstr "Kalaa Seghira"
-
-#~ msgid "Kondar"
-#~ msgstr "Kondar"
-
-#~ msgid "Ksibet Thrayet"
-#~ msgstr "Ksibet Thrayet"
-
-#~ msgid "M'saken"
-#~ msgstr "M'saken"
-
-#~ msgid "Sidi Bou Ali"
-#~ msgstr "Sidi Bou Ali"
-
-#, fuzzy
-#~ msgid "Sidi El Hani"
-#~ msgstr "Sidi El Bichir"
-
-#~ msgid "Zaouiet Sousse"
-#~ msgstr "Zaouiet Sousse"
-
-#, fuzzy
-#~ msgid ""
-#~ "Jobs in Tunisie, Property & Real Estate For Sale & Rent, Cars for Sale - "
-#~ "Free Classifieds in Tunisie | dubizzle Tunisie"
-#~ msgstr ""
-#~ "Emplois en Algérie, Immobilier ŕ vendre ou ŕ louer, Voitures ŕ vendre - "
-#~ "Petites annonces gratuites en Algérie | dubizzle Algérie"
-
-#, fuzzy
-#~ msgid ""
-#~ "dubizzle is your free and friendly local classifieds website in Tunisie. "
-#~ "Jobs, property, real estate, cars and classifieds in Tunisie. Post an ad, "
-#~ "browse ads, buy, sell or rent."
-#~ msgstr ""
-#~ "dubizzle est votre premier site de petites annonces gratuites en Algerie. "
-#~ "Trouvez un emploi, des biens et services immobiliers  la vente ainsi que "
-#~ "des  voitures  vendre en Algerie."
-
-#, fuzzy
-#~ msgid ""
-#~ "dubizzle Tunisie, free classifieds, online classifieds, Tunisie "
-#~ "classifieds, free classifieds in Tunisie"
-#~ msgstr ""
-#~ "dubizzle Algerie, petites annonces gratuites, petites annonces en ligne, "
-#~ "Algerie petites annonces, petites annonces en Algerie"
-
-#~ msgid ""
-#~ "%(ad_title)s - %(category_leaf)s property-for-sale | dubizzle %(country)s"
-#~ msgstr " %(ad_title)s - %(category_leaf)s | dubizzle %(country)s"
-
-#~ msgid ""
-#~ "%(ad_title)s - %(category_leaf)s property-for-rent | dubizzle %(country)s"
-#~ msgstr " %(ad_title)s - %(category_leaf)s | dubizzle %(country)s"
-
-#~ msgid ""
-#~ "%(ad_title)s - %(category_leaf)s items-for-sale | dubizzle %(country)s"
-#~ msgstr " %(ad_title)s - %(category_leaf)s | dubizzle %(country)s"
-
-#~ msgid "Maqrin"
-#~ msgstr "Maqrin"
-
-#~ msgid "Ezzouhoure"
-#~ msgstr "Ezzouhoure"
-
-#~ msgctxt "templates/authentication/reset_password.html:7"
-#~ msgid "Change password"
-#~ msgstr "Modifier mot de passe"
-
-#~ msgctxt "templates/search/browse_widget.html:83"
-#~ msgid "Show only %(CURRENT_LANGUAGE)s ads"
-#~ msgstr ""
-#~ "                            Afficher seulement %(CURRENT_LANGUAGE)s  "
-#~ "annonces\n"
-#~ "\n"
-#~ "                        "
-
-#~ msgid "We found <span class=\"red\">%(counter)s</span> ads"
-#~ msgstr ""
-#~ "                    Nous avons trouvé des annonces <span class=\"red\">"
-#~ "%(counter)s</span> \n"
-#~ "                "
-
-#~ msgctxt "templates/search/search_bar.html:19"
-#~ msgid "Show only %(CURRENT_LANGUAGE)s ads"
-#~ msgstr ""
-#~ "                        Afficher seulement les annonces "
-#~ "%(CURRENT_LANGUAGE)s\n"
-#~ "                    "
-
-#~ msgctxt "templates/user_profiles/my_listings.html:20"
-#~ msgid "Change password"
-#~ msgstr "Modifier le mot de passe"
-
-#~ msgid "You've got %(counter)s ad"
-#~ msgstr ""
-#~ "                            Vous avez %(counter)s  annonce\n"
-#~ "                        "
-
-#~ msgid "You've got %(counter)s ads"
-#~ msgstr ""
-#~ "                            Vous avez %(counter)s s annonces\n"
-#~ "\n"
-#~ "                        "
-
-#~ msgid "You've got %(counter)s live ads"
-#~ msgstr ""
-#~ "        Vous avez %(counter)s ) annonces en ligne\n"
-#~ "    "
-
-#~ msgid "You've got %(counter)s pending ads"
-#~ msgstr ""
-#~ "        Vous avez %(counter)s  annonces en attente \n"
-#~ "    "
-
-#~ msgid ""
-#~ "The following %(rejected_count)s ads did not meet our rules and has been "
-#~ "rejected by dubizzle support team , however you can correct and resubmit"
-#~ msgstr ""
-#~ "Les annonces suivantes ont été rejetées par l'equipe de support dubizzle "
-#~ "pour des raisons qui se contredisent avec les règles et les conditions de "
-#~ "rédaction du Site, nous vous conseillons de déposer vos annonces enore "
-#~ "une fois avec les corrections nécessaires."
-
-#~ msgid ""
-#~ "The following %(counter)s ads did not meet our rules and has been "
-#~ "rejected by dubizzle support team , however you can correct and resubmit"
-#~ msgstr ""
-#~ "Les annonces suivantes ont été rejetées par l'equipe de support dubizzle "
-#~ "pour des raisons qui se contredisent avec les règles et les conditions de "
-#~ "rédaction du Site, nous vous conseillons de déposer vos annonces enore "
-#~ "une fois avec les corrections nécessaires."
-
-#~ msgid "Edit your rejected ads"
-#~ msgstr "Modifier les annonces rejetées"

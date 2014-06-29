@@ -733,17 +733,14 @@ msgid "Outside IP Block"
 msgstr ""
 
 #: fuego/base_settings.py:588
-#, fuzzy
 msgid "No Category"
 msgstr "القسم؟"
 
 #: fuego/base_settings.py:607
-#, fuzzy
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في الفئة غير الصحيحة"
 
 #: fuego/base_settings.py:608
-#, fuzzy
 msgid "Your ad is misleading"
 msgstr "مجانا وبدون أي رسوم"
 
@@ -2251,7 +2248,6 @@ msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
 
 #: listings/forms.py:377
-#, fuzzy
 msgid "You forgot to add the price"
 msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 
@@ -2944,7 +2940,6 @@ msgid "We suggest:"
 msgstr "إقتراحنا:"
 
 #: templates/listings/rejected/rejected_workspace.html:33
-#, fuzzy
 msgid "Change category"
 msgstr "تغيير الدولة"
 
@@ -3051,7 +3046,7 @@ msgid "Report ad"
 msgstr "بلغ عن هذا الإعلان"
 
 #: templates/listings/snippets/_form.html:307
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "                        By posting your ad you are agreeing to the dubizzle "
@@ -3060,9 +3055,11 @@ msgid ""
 "and to receiving marketing and promotional offers.\n"
 "                    "
 msgstr ""
+"\n"
 "عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" target=\"_blank"
 "\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\">سياسة "
 "الخصوصية</a> لدوبيزل، بالإضافة إلى قبول عروض تسويقية."
+"                    "
 
 #: templates/listings/snippets/_scam_warning.html:3
 msgid "Important tips from dubizzle"
@@ -4095,7 +4092,7 @@ msgid "Your ad has been successfully deleted"
 msgstr "لقد تم حذف إعلانك بنجاح."
 
 #: templates/user_profiles/my_listings.html:108
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "The following %(counter)s ad did not meet our rules and has been rejected by "
 "dubizzle support team , however you can correct and resubmit"
@@ -4253,7 +4250,7 @@ msgstr[5] ""
 "    "
 
 #: templates/user_profiles/my_rejected_listings.html:10
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "        You've got %(counter)s rejected ad\n"
@@ -4369,229 +4366,3 @@ msgid ""
 "Remove Franco Arabic from your ad (no '3adi, ya3ni, wa7id, etc') and replace "
 "it with English or Arabic"
 msgstr "أكتب الإعلان بحروف عربية"
-
-#, fuzzy
-#~ msgid "It's free"
-#~ msgstr "وسيلة آمنة"
-
-#, fuzzy
-#~ msgid "name"
-#~ msgstr "المنامة"
-
-#~ msgid "neighbourhoods"
-#~ msgstr "المنطقة"
-
-#~ msgid "city"
-#~ msgstr "المدينة"
-
-#~ msgid "Select a category"
-#~ msgstr "نوع الإعلان؟"
-
-#~ msgid "My stuff"
-#~ msgstr "إعلاناتي"
-
-#, fuzzy
-#~ msgid "Medina"
-#~ msgstr "الأدوية"
-
-#, fuzzy
-#~ msgid ""
-#~ "No fees, no hidden agendas and no twists or turns. It’s FREE - now and "
-#~ "forever."
-#~ msgstr "ضيف إعلانك على دوبيزل مجانا ولن نطلب منك أي رسوم على الإطلاق."
-
-#, fuzzy
-#~ msgid "Post an ad"
-#~ msgstr "أضف إعلان"
-
-#, fuzzy
-#~ msgid "All of Oman"
-#~ msgstr "كل"
-
-#, fuzzy
-#~ msgid "All of qatar"
-#~ msgstr "كل"
-
-#, fuzzy
-#~ msgid "%(translated_currency)s <span>%(price)s</span>"
-#~ msgstr "%(currency)s %(price)s"
-
-#~ msgid "Studio"
-#~ msgstr "ستوديو "
-
-#~ msgid "Then go party!"
-#~ msgstr "وخُذلك بريك..."
-
-#~ msgid "Which section should we put your ad in?"
-#~ msgstr "ما هو أنسب قسم لعرض إعلانك؟"
-
-#~ msgid "What's the model?"
-#~ msgstr "ماركة السيارة"
-
-#~ msgid "2012, dubizzle.com, All Rights Reserved."
-#~ msgstr "2012, dubizzle.com, جميع الحقوق محفوظة."
-
-#~ msgid ""
-#~ "Your ad title should have at least %(limit_value)s characters or more to "
-#~ "make it stand out."
-#~ msgstr "من الأفضل أن يحتوي العنوان علي %(limit_value)s أحرف علي الأقل"
-
-#~ msgid ""
-#~ "That's a very short description.  Please write more than %(limit_value)s "
-#~ "characters in your description."
-#~ msgstr "الوصف قصير جدا ، يجب أن يحتوي الوصف علي %(limit_value)s حروف فأكثر"
-
-#~ msgid "Hey there, we thought we lost you in cyberspace."
-#~ msgstr "حمدالله عالسلامة...بحثنا عنك في كل صفحات الإنترنت."
-
-#~ msgid ""
-#~ "Our ninja monkeys noticed that you didn't finish placing your awesome ad. "
-#~ "Continue from where you left off below or <a id=\"reset-form\" href="
-#~ "\"%(reset_url)s\">click here</a> to place a new ad."
-#~ msgstr ""
-#~ " لاحظنا إنك لم تنته من إضافة إعلانك وحفظنا الصفحة بكل المعلومات التي "
-#~ "أدخلتها.  أكمل إعلانك أدناه أو <a id=\"reset-form\" href=\"%(reset_url)s"
-#~ "\"> ضيف إعلان جديد هنا</a> إذا أردت."
-
-#~ msgid "Live Help"
-#~ msgstr "دردش معانا"
-
-#~ msgid "Sorry"
-#~ msgstr "معلش"
-
-#~ msgid ""
-#~ "All our customer support agents are currently busy. Please send us an "
-#~ "email with your questions"
-#~ msgstr ""
-#~ "جميع الموظفين مشغولين دلوقتي, ممكن تراسلنا عن طريق الإيميل لو عندك أي "
-#~ "إستفسار"
-
-#~ msgid "Contact Us"
-#~ msgstr "تواصل معانا"
-
-#, fuzzy
-#~ msgid "Buy. Sell. Anything"
-#~ msgstr "بيع واشتري وأعثر على أى شيء "
-
-#~ msgid "reset form"
-#~ msgstr "إخلاء الإستمارة"
-
-#, fuzzy
-#~ msgid "Not Manama"
-#~ msgstr "المنامة"
-
-#, fuzzy
-#~ msgid ""
-#~ "Jobs in Test, Property & Real Estate For Sale & Rent, Cars for Sale - "
-#~ "Free Classifieds in Test | dubizzle Test"
-#~ msgstr ""
-#~ "وظائف في البحرين، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في "
-#~ "البحرين | دوبيزل البحرين."
-
-#, fuzzy
-#~ msgid ""
-#~ "dubizzle is your free and friendly local classifieds website in Test. "
-#~ "Jobs, property, real estate, cars and classifieds in Test. Post an ad, "
-#~ "browse ads, buy, sell or rent."
-#~ msgstr ""
-#~ "دوبيزل هو خيارك الأول للاعلانات المبوبة المجانية في بحرين. ايجاد وظائف , "
-#~ "عقارات للبيع و للايجار , سيارات للبيع في بحرين"
-
-#, fuzzy
-#~ msgid ""
-#~ "dubizzle Test, free classifieds, online classifieds, Test classifieds, "
-#~ "free classifieds in Test"
-#~ msgstr ""
-#~ "دوبيزل بحرين، مبوبة مجانيه، اعلانات مبوبة عبر الإنترنت، مبوبة البحرين، "
-#~ "اعلانات مبوبة مجانيه في بحرين"
-
-#, fuzzy
-#~ msgid "Al Marsa"
-#~ msgstr " المصلى"
-
-#, fuzzy
-#~ msgid "Le Passage"
-#~ msgstr "الرسالة"
-
-#, fuzzy
-#~ msgid "Al Manar"
-#~ msgstr " المصلى"
-
-#, fuzzy
-#~ msgid "Sidi Bou Ali"
-#~ msgstr "جد علي"
-
-#, fuzzy
-#~ msgid ""
-#~ "Jobs in Tunisie, Property & Real Estate For Sale & Rent, Cars for Sale - "
-#~ "Free Classifieds in Tunisie | dubizzle Tunisie"
-#~ msgstr ""
-#~ "وظائف في البحرين، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في "
-#~ "البحرين | دوبيزل البحرين."
-
-#, fuzzy
-#~ msgid ""
-#~ "dubizzle is your free and friendly local classifieds website in Tunisie. "
-#~ "Jobs, property, real estate, cars and classifieds in Tunisie. Post an ad, "
-#~ "browse ads, buy, sell or rent."
-#~ msgstr ""
-#~ "دوبيزل هو خيارك الأول للاعلانات المبوبة المجانية في بحرين. ايجاد وظائف , "
-#~ "عقارات للبيع و للايجار , سيارات للبيع في بحرين"
-
-#, fuzzy
-#~ msgid ""
-#~ "dubizzle Tunisie, free classifieds, online classifieds, Tunisie "
-#~ "classifieds, free classifieds in Tunisie"
-#~ msgstr ""
-#~ "دوبيزل بحرين، مبوبة مجانيه، اعلانات مبوبة عبر الإنترنت، مبوبة البحرين، "
-#~ "اعلانات مبوبة مجانيه في بحرين"
-
-#~ msgid ""
-#~ "%(ad_title)s - %(category_leaf)s property-for-sale | dubizzle %(country)s"
-#~ msgstr "%(ad_title)s - %(category_leaf)s عقارات للبيع | دوبيزل %(country)s"
-
-#~ msgid ""
-#~ "%(ad_title)s - %(category_leaf)s property-for-rent | dubizzle %(country)s"
-#~ msgstr ""
-#~ "%(ad_title)s - %(category_leaf)s عقارات للايجار | دوبيزل %(country)s"
-
-#~ msgid ""
-#~ "%(ad_title)s - %(category_leaf)s items-for-sale | dubizzle %(country)s"
-#~ msgstr ""
-#~ "%(ad_title)s - %(category_leaf)s اعلانات مبوبة مجانية | دوبيزل %(country)s"
-
-#~ msgid "Geo IP"
-#~ msgstr "GEOIPPPPP"
-
-#~ msgid ""
-#~ "The following %(rejected_count)s ads did not meet our rules and has been "
-#~ "rejected by dubizzle support team , however you can correct and resubmit"
-#~ msgstr ""
-#~ "يبدو أن الإعلانات التالية لم يوافق عليها فريق الدعم في دوبيزل، حيث اتضح "
-#~ "لدينا بعد مراجعتها، عدم التزامها بشروط النشر الدوبيزلاوية، لكن الخبر "
-#~ "الجيد هو أنك تستطيع تعديلها مرة ثانية وسنقوم بإعادة نشرها"
-
-#~ msgid ""
-#~ "The following %(counter)s ads did not meet our rules and has been "
-#~ "rejected by dubizzle support team , however you can correct and resubmit"
-#~ msgstr ""
-#~ "يبدو أن الإعلانات التالية لم يوافق عليها فريق الدعم في دوبيزل، حيث اتضح "
-#~ "لدينا بعد مراجعتها، عدم التزامها بشروط النشر الدوبيزلاوية، لكن الخبر "
-#~ "الجيد هو أنك تستطيع تعديلها مرة ثانية وسنقوم بإعادة نشرها"
-
-#~ msgid ""
-#~ "Provide valid working mobile phone number to enable buyers to contact you "
-#~ "directly to sell your item faster"
-#~ msgstr ""
-#~ "عليك تزويدنا برقم موبايل مازال في الخدمة ليتمكن المشترين من التواصل معك و "
-#~ "بالتالي بيع  سلعتك بوقت أسرع."
-
-#~ msgid "Edit your rejected ads"
-#~ msgstr "عدّل إعلاناتي المرفوضة"
-
-#~ msgid ""
-#~ "By clicking on 'Send my reply' I agree to the dubizzle and the dubizzle"
-#~ msgstr ""
-#~ "عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s"
-#~ "\">شروط وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\">سياسة "
-#~ "الخصوصية</a>."

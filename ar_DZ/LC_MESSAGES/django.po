@@ -154,12 +154,10 @@ msgid "Turn your unused items into cash."
 msgstr "يمكنك كسب المال من بيع الأشياء التي لم تعد تحتاج إليها."
 
 #: country_templates/shared_landing.html:55
-#, fuzzy
 msgid "Your ad is free"
 msgstr "مجانا وبدون أي رسوم"
 
 #: country_templates/shared_landing.html:56
-#, fuzzy
 msgid "No fees, no hidden agendas and no twists or turns. It’s FREE"
 msgstr "ضيف إعلانك على دوبيزل مجانا ولن نطلب منك أي رسوم على الإطلاق. "
 
@@ -179,7 +177,6 @@ msgid "Fast and easy"
 msgstr "سهل وسريع"
 
 #: country_templates/shared_landing.html:74
-#, fuzzy
 msgid "A few simple steps to create your ad in one page only."
 msgstr "خطوات بسيطة لإضافة إعلانك في صفحة واحدة فقط."
 
@@ -189,18 +186,15 @@ msgid "We're local"
 msgstr "بالقرب منك وحواليك"
 
 #: country_templates/shared_landing.html:85
-#, fuzzy
 msgid ""
 "Find and connect with thousands of buyers in your city and neighborhood."
 msgstr "تواصل مع آلاف المشتريين في مدينتك ومنطقتك."
 
 #: country_templates/shared_landing.html:93
-#, fuzzy
 msgid "Access anytime anywhere"
 msgstr "في أي وقت ومن أي مكان"
 
 #: country_templates/shared_landing.html:94
-#, fuzzy
 msgid ""
 "Post your ad, update it and browse from your computer, mobile phone, tablet "
 "or Mars."
@@ -238,12 +232,10 @@ msgstr ""
 #: country_templates/qatar/public/landing.html:51
 #: country_templates/saudi/public/landing.html:49
 #: country_templates/saudi/public/landing.html:54
-#, fuzzy
 msgid "Post your ad"
 msgstr "أضف إعلان"
 
 #: country_templates/bahrain/public/_map.html:326
-#, fuzzy
 msgid "Manama"
 msgstr "الملعب"
 
@@ -256,7 +248,6 @@ msgstr ""
 #: country_templates/oman/public/landing.html:19
 #: country_templates/qatar/public/landing.html:19
 #: country_templates/saudi/public/landing.html:22
-#, fuzzy
 msgid "Place your FREE ad in 1, 2, 3."
 msgstr "أضف إعلانك "
 
@@ -265,7 +256,6 @@ msgstr "أضف إعلانك "
 #: country_templates/oman/public/landing.html:24
 #: country_templates/qatar/public/landing.html:24
 #: country_templates/saudi/public/landing.html:27
-#, fuzzy
 msgid "Place your FREE ad."
 msgstr "أضف إعلانك "
 
@@ -274,7 +264,6 @@ msgstr "أضف إعلانك "
 #: country_templates/oman/public/landing.html:29
 #: country_templates/qatar/public/landing.html:29
 #: country_templates/saudi/public/landing.html:32
-#, fuzzy
 msgid "Choose a category"
 msgstr "نوع الإعلان؟"
 
@@ -283,7 +272,6 @@ msgstr "نوع الإعلان؟"
 #: country_templates/oman/public/landing.html:33
 #: country_templates/qatar/public/landing.html:33
 #: country_templates/saudi/public/landing.html:36
-#, fuzzy
 msgid "Add photos"
 msgstr "اضف صور"
 
@@ -336,7 +324,6 @@ msgstr ""
 #: country_templates/oman/public/landing.html:95
 #: country_templates/qatar/public/landing.html:95
 #: country_templates/saudi/public/landing.html:102
-#, fuzzy
 msgid "Show me the ads"
 msgstr "اظهر جميع اعلاناتي المنشورة"
 
@@ -471,7 +458,6 @@ msgid "Riyadh"
 msgstr ""
 
 #: country_templates/saudi/public/_map.html:65
-#, fuzzy
 msgid "Al Madinah"
 msgstr "الميناء"
 
@@ -1092,17 +1078,14 @@ msgid "Outside IP Block"
 msgstr ""
 
 #: fuego/base_settings.py:588
-#, fuzzy
 msgid "No Category"
 msgstr "القسم؟"
 
 #: fuego/base_settings.py:607
-#, fuzzy
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في الفئة غير الصحيحة"
 
 #: fuego/base_settings.py:608
-#, fuzzy
 msgid "Your ad is misleading"
 msgstr "مجانا وبدون أي رسوم"
 
@@ -2610,7 +2593,6 @@ msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
 
 #: listings/forms.py:377
-#, fuzzy
 msgid "You forgot to add the price"
 msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 
@@ -3303,7 +3285,6 @@ msgid "We suggest:"
 msgstr "إقتراحنا:"
 
 #: templates/listings/rejected/rejected_workspace.html:33
-#, fuzzy
 msgid "Change category"
 msgstr "تغيير الدولة"
 
@@ -4455,7 +4436,7 @@ msgid "Your ad has been successfully deleted"
 msgstr "لقد تم حذف إعلانك بنجاح."
 
 #: templates/user_profiles/my_listings.html:108
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "The following %(counter)s ad did not meet our rules and has been rejected by "
 "dubizzle support team , however you can correct and resubmit"
@@ -4613,7 +4594,7 @@ msgstr[5] ""
 "    "
 
 #: templates/user_profiles/my_rejected_listings.html:10
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "        You've got %(counter)s rejected ad\n"
@@ -4729,573 +4710,3 @@ msgid ""
 "Remove Franco Arabic from your ad (no '3adi, ya3ni, wa7id, etc') and replace "
 "it with English or Arabic"
 msgstr "أكتب الإعلان بحروف عربية"
-
-#, fuzzy
-#~ msgid "It's free"
-#~ msgstr "وسيلة آمنة"
-
-#, fuzzy
-#~ msgid "name"
-#~ msgstr "الملعب"
-
-#~ msgid "neighbourhoods"
-#~ msgstr "المنطقة"
-
-#~ msgid "city"
-#~ msgstr "المدينة"
-
-#~ msgid "Select a category"
-#~ msgstr "نوع الإعلان؟"
-
-#~ msgid "My stuff"
-#~ msgstr "إعلاناتي"
-
-#, fuzzy
-#~ msgid "Salalah"
-#~ msgstr " صالح باي"
-
-#, fuzzy
-#~ msgid "Dammam"
-#~ msgstr " الحامة"
-
-#, fuzzy
-#~ msgid "Medina"
-#~ msgstr "الأدوية"
-
-#, fuzzy
-#~ msgid ""
-#~ "No fees, no hidden agendas and no twists or turns. It’s FREE - now and "
-#~ "forever."
-#~ msgstr "ضيف إعلانك على دوبيزل مجانا ولن نطلب منك أي رسوم على الإطلاق. "
-
-#, fuzzy
-#~ msgid "Post an ad"
-#~ msgstr "أضف إعلان"
-
-#, fuzzy
-#~ msgid "All of Oman"
-#~ msgstr "كل"
-
-#, fuzzy
-#~ msgid "All of qatar"
-#~ msgstr "كل"
-
-#, fuzzy
-#~ msgid "%(translated_currency)s <span>%(price)s</span>"
-#~ msgstr "%(currency)s %(price)s"
-
-#~ msgid "Studio"
-#~ msgstr "ستوديو"
-
-#~ msgid "Then go party!"
-#~ msgstr "وخُذلك بريك..."
-
-#~ msgid "Which section should we put your ad in?"
-#~ msgstr "ما هو أنسب قسم لعرض إعلانك؟"
-
-#~ msgid "What's the model?"
-#~ msgstr "ماركة السيارة"
-
-#~ msgid "2012, dubizzle.com, All Rights Reserved."
-#~ msgstr "2012, dubizzle.com, جميع الحقوق محفوظة."
-
-#~ msgid ""
-#~ "Your ad title should have at least %(limit_value)s characters or more to "
-#~ "make it stand out."
-#~ msgstr "من الأفضل أن يحتوي العنوان علي %(limit_value)s أحرف علي الأقل"
-
-#~ msgid ""
-#~ "That's a very short description.  Please write more than %(limit_value)s "
-#~ "characters in your description."
-#~ msgstr "الوصف قصير جدا ، يجب أن يحتوي الوصف علي %(limit_value)s حروف فأكثر"
-
-#~ msgid "Hey there, we thought we lost you in cyberspace."
-#~ msgstr "حمدالله عالسلامة...بحثنا عنك في كل صفحات الإنترنت."
-
-#~ msgid ""
-#~ "Our ninja monkeys noticed that you didn't finish placing your awesome ad. "
-#~ "Continue from where you left off below or <a id=\"reset-form\" href="
-#~ "\"%(reset_url)s\">click here</a> to place a new ad."
-#~ msgstr ""
-#~ " لاحظنا إنك لم تنته من إضافة إعلانك وحفظنا الصفحة بكل المعلومات التي "
-#~ "أدخلتها.  أكمل إعلانك أدناه أو <a id=\"reset-form\" href=\"%(reset_url)s"
-#~ "\"> ضيف إعلان جديد هنا</a> إذا أردت."
-
-#~ msgid "Live Help"
-#~ msgstr "دردش معانا"
-
-#~ msgid "Sorry"
-#~ msgstr "معلش"
-
-#~ msgid ""
-#~ "All our customer support agents are currently busy. Please send us an "
-#~ "email with your questions"
-#~ msgstr ""
-#~ "جميع الموظفين مشغولين دلوقتي, ممكن تراسلنا عن طريق الإيميل لو عندك أي "
-#~ "إستفسار"
-
-#, fuzzy
-#~ msgid "Buy. Sell. Anything"
-#~ msgstr "بيع واشتري وأعثر على أى شيء "
-
-#~ msgid "reset form"
-#~ msgstr "إخلاء الإستمارة"
-
-#~ msgid "$"
-#~ msgstr "دولار أمريكي"
-
-#, fuzzy
-#~ msgid "Barbar"
-#~ msgstr "بربارة"
-
-#, fuzzy
-#~ msgid "Sanad"
-#~ msgstr "صنايع"
-
-#, fuzzy
-#~ msgid "Abu Baham"
-#~ msgstr "البحصاص"
-
-#, fuzzy
-#~ msgid "Al Musalla"
-#~ msgstr " المعلّقة"
-
-#, fuzzy
-#~ msgid ""
-#~ "Jobs in Test, Property & Real Estate For Sale & Rent, Cars for Sale - "
-#~ "Free Classifieds in Test | dubizzle Test"
-#~ msgstr ""
-#~ "وظائف في الجزائر، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في "
-#~ "الجزائر | دوبيزل الجزائر"
-
-#, fuzzy
-#~ msgid ""
-#~ "dubizzle is your free and friendly local classifieds website in Test. "
-#~ "Jobs, property, real estate, cars and classifieds in Test. Post an ad, "
-#~ "browse ads, buy, sell or rent."
-#~ msgstr ""
-#~ "دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في "
-#~ "%(city_comma_country)s. وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة "
-#~ "مجانية في (city_comma_country)s. أضف اعلان, تصفح الاعلانات, بيع واشتري "
-#~ "واستأجر"
-
-#, fuzzy
-#~ msgid ""
-#~ "dubizzle Test, free classifieds, online classifieds, Test classifieds, "
-#~ "free classifieds in Test"
-#~ msgstr ""
-#~ "موقع دوبيزل الجزائر، إعلانات مبوبة مجانية، الإعلانات المبوبة على الانترنت "
-#~ "والجزائر إعلانات مبوبة، الإعلانات المبوبة مجانا في الجزائر"
-
-#, fuzzy
-#~ msgid "Sousse"
-#~ msgstr " بوسلام"
-
-#, fuzzy
-#~ msgid "Sidi Bou Said"
-#~ msgstr "سيدي شامي"
-
-#, fuzzy
-#~ msgid "Al Marsa"
-#~ msgstr "الميناء"
-
-#, fuzzy
-#~ msgid "Gammarth"
-#~ msgstr " الحامة"
-
-#, fuzzy
-#~ msgid "Sidi Daoud"
-#~ msgstr "سيدي عمار"
-
-#, fuzzy
-#~ msgid "Ben Arous"
-#~ msgstr "بن عكون"
-
-#, fuzzy
-#~ msgid "Hammam lif"
-#~ msgstr " الحامة"
-
-#, fuzzy
-#~ msgid "El Mourouj"
-#~ msgstr "المورادية"
-
-#, fuzzy
-#~ msgid "Tahar Haddad"
-#~ msgstr " بئر حدادة"
-
-#, fuzzy
-#~ msgid "Bab Alioua"
-#~ msgstr "باب الزوار"
-
-#, fuzzy
-#~ msgid "El Hafsia"
-#~ msgstr "الحامة"
-
-#, fuzzy
-#~ msgid "Le Passage"
-#~ msgstr "الرسالة"
-
-#, fuzzy
-#~ msgid "An Najah"
-#~ msgstr "عين النعجة"
-
-#, fuzzy
-#~ msgid "El Agba"
-#~ msgstr " قصر الأبطال"
-
-#, fuzzy
-#~ msgid "La Manouba"
-#~ msgstr "مار مطانيوس"
-
-#, fuzzy
-#~ msgid "El Habib"
-#~ msgstr "الحامة"
-
-#, fuzzy
-#~ msgid "El Omrane"
-#~ msgstr "أوريسيا"
-
-#, fuzzy
-#~ msgid "Cite El Khadra"
-#~ msgstr "تحويطة الغدير"
-
-#, fuzzy
-#~ msgid "Al Manar"
-#~ msgstr "الميناء"
-
-#, fuzzy
-#~ msgid "Sidi Salah"
-#~ msgstr "سيدي عمار"
-
-#, fuzzy
-#~ msgid "Al Rafaha"
-#~ msgstr "الراهبات"
-
-#, fuzzy
-#~ msgid "Ceti Al Faouz"
-#~ msgstr "حارة الفوقا"
-
-#, fuzzy
-#~ msgid "Bir Salah"
-#~ msgstr " بئر العرش"
-
-#, fuzzy
-#~ msgid "El Ain"
-#~ msgstr "الانصور"
-
-#, fuzzy
-#~ msgid "Bouficha"
-#~ msgstr "بوفاطيس"
-
-#, fuzzy
-#~ msgid "Ezzouhour"
-#~ msgstr "باب الزوار"
-
-#, fuzzy
-#~ msgid "Hammam Sousse"
-#~ msgstr " حمام قرقور"
-
-#, fuzzy
-#~ msgid "Kalaa Kebira"
-#~ msgstr " ذراع قبيلة"
-
-#, fuzzy
-#~ msgid "Sidi El Hani"
-#~ msgstr "سيدي شامي"
-
-#, fuzzy
-#~ msgid ""
-#~ "Jobs in Tunisie, Property & Real Estate For Sale & Rent, Cars for Sale - "
-#~ "Free Classifieds in Tunisie | dubizzle Tunisie"
-#~ msgstr ""
-#~ "وظائف في الجزائر، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في "
-#~ "الجزائر | دوبيزل الجزائر"
-
-#, fuzzy
-#~ msgid ""
-#~ "dubizzle is your free and friendly local classifieds website in Tunisie. "
-#~ "Jobs, property, real estate, cars and classifieds in Tunisie. Post an ad, "
-#~ "browse ads, buy, sell or rent."
-#~ msgstr ""
-#~ "دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في "
-#~ "%(city_comma_country)s. وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة "
-#~ "مجانية في (city_comma_country)s. أضف اعلان, تصفح الاعلانات, بيع واشتري "
-#~ "واستأجر"
-
-#, fuzzy
-#~ msgid ""
-#~ "dubizzle Tunisie, free classifieds, online classifieds, Tunisie "
-#~ "classifieds, free classifieds in Tunisie"
-#~ msgstr ""
-#~ "موقع دوبيزل الجزائر، إعلانات مبوبة مجانية، الإعلانات المبوبة على الانترنت "
-#~ "والجزائر إعلانات مبوبة، الإعلانات المبوبة مجانا في الجزائر"
-
-#~ msgid ""
-#~ "%(ad_title)s - %(category_leaf)s property-for-sale | dubizzle %(country)s"
-#~ msgstr "%(ad_title)s - %(category_leaf)s عقارات للبيع | دوبيزل %(country)s"
-
-#~ msgid ""
-#~ "%(ad_title)s - %(category_leaf)s property-for-rent | dubizzle %(country)s"
-#~ msgstr ""
-#~ "%(ad_title)s - %(category_leaf)s عقارات للايجار | دوبيزل %(country)s"
-
-#~ msgid ""
-#~ "%(ad_title)s - %(category_leaf)s items-for-sale | dubizzle %(country)s"
-#~ msgstr ""
-#~ "%(ad_title)s - %(category_leaf)s اعلانات مبوبة مجانية | دوبيزل %(country)s"
-
-#~ msgid "Geo IP"
-#~ msgstr "GEOIPPPPP"
-
-#~ msgid "Lebanon"
-#~ msgstr "لبنان"
-
-#~ msgid "Tripoli"
-#~ msgstr "طرابلس"
-
-#~ msgid "Zahle"
-#~ msgstr "زحلة"
-
-#~ msgid "Saida"
-#~ msgstr "صيدا"
-
-#~ msgid "Beirut"
-#~ msgstr "بيروت"
-
-#~ msgid "Achrafieh"
-#~ msgstr "أشرفية"
-
-#~ msgid "Amaret Chalhoub"
-#~ msgstr "عمارة  شلهوب"
-
-#~ msgid "Antilias"
-#~ msgstr "انطلياس"
-
-#~ msgid "Bab Idriss"
-#~ msgstr "باب ادريس"
-
-#~ msgid "Baouchriye"
-#~ msgstr "بوشرية"
-
-#~ msgid "Beirut Port"
-#~ msgstr "المرفأ"
-
-#~ msgid "Biaqout"
-#~ msgstr "بياقوت"
-
-#~ msgid "Borj Hammoud"
-#~ msgstr "برج حمود"
-
-#~ msgid "Bourj el Barajneh"
-#~ msgstr "برج البراجنة"
-
-#~ msgid "Bqennaya"
-#~ msgstr "بقنايا"
-
-#~ msgid "Burj Abi Haidar"
-#~ msgstr "برج ابي حيدر"
-
-#~ msgid "Chiyah"
-#~ msgstr "الشياح"
-
-#~ msgid "Downtown"
-#~ msgstr "وسط المدينة"
-
-#~ msgid "Fanar"
-#~ msgstr "فنار"
-
-#~ msgid "Furn Al Chebak"
-#~ msgstr "فرن الشباك"
-
-#~ msgid "Gemmayzeh"
-#~ msgstr "جميزة"
-
-#~ msgid "Ghobeiry"
-#~ msgstr "غبيري"
-
-#~ msgid "Haret Hreik"
-#~ msgstr "حارة حريك"
-
-#~ msgid "Hazmiyeh"
-#~ msgstr "حازمية"
-
-#~ msgid "Jall El Dieb"
-#~ msgstr "جل الديب"
-
-#~ msgid "Jdaide"
-#~ msgstr "جديدة"
-
-#~ msgid "Khaldeh"
-#~ msgstr "خلدة"
-
-#~ msgid "Majzoub"
-#~ msgstr "مجذوب"
-
-#~ msgid "Mar Mikhael"
-#~ msgstr "مار مخايل"
-
-#~ msgid "Mar Mitr"
-#~ msgstr "مار متر"
-
-#~ msgid "Mar Nicolas"
-#~ msgstr "مار نقولا"
-
-#~ msgid "Mina Al Hosn"
-#~ msgstr "ميناء الحصن"
-
-#~ msgid "Mkalles"
-#~ msgstr "مكلس"
-
-#~ msgid "Msaytbeh"
-#~ msgstr "مصيطبة"
-
-#~ msgid "Patriarcat"
-#~ msgstr "البطركية"
-
-#~ msgid "Ras Beirut"
-#~ msgstr "راس  بيروت"
-
-#~ msgid "Sahet Al Najmeh"
-#~ msgstr "ساحة النجمة"
-
-#~ msgid "Sodeco"
-#~ msgstr "سوديكو"
-
-#~ msgid "Tall Ez Zaatar"
-#~ msgstr "تل الزعتر"
-
-#~ msgid "Verdun"
-#~ msgstr "فردان"
-
-#~ msgid "Zalqa"
-#~ msgstr "زلقا"
-
-#~ msgid "Abdul Latif El Bissar"
-#~ msgstr "عبداللطيف البيسار"
-
-#~ msgid "Abou Samra"
-#~ msgstr "ابو سمراء"
-
-#~ msgid "Al Beddaoui"
-#~ msgstr "البداوي"
-
-#~ msgid "Al Kouds"
-#~ msgstr "القدس"
-
-#~ msgid "Azmi"
-#~ msgstr "عزمي"
-
-#~ msgid "Foaad Chehab"
-#~ msgstr "فؤاد شهاب"
-
-#~ msgid "Hadid"
-#~ msgstr "الحديد "
-
-#~ msgid "Hdadine"
-#~ msgstr "الحدادين"
-
-#~ msgid "Jamal Abdul Nasser"
-#~ msgstr "جمال عبد الناصر"
-
-#~ msgid "Mhatreh"
-#~ msgstr "محطريه"
-
-#~ msgid "Qoubbe"
-#~ msgstr "القوبة"
-
-#~ msgid "Riad El Solh"
-#~ msgstr "رياض الصلح"
-
-#~ msgid "Sahat Al Nour"
-#~ msgstr "ساحة النور"
-
-#~ msgid "Tal"
-#~ msgstr "تل"
-
-#~ msgid "Zahrieh"
-#~ msgstr "زاهرية"
-
-#~ msgid "Zeitoun"
-#~ msgstr "زيتون"
-
-#~ msgid "Ain el Ghossein "
-#~ msgstr "عين الغصين"
-
-#~ msgid "Al Madina as Sinaiya "
-#~ msgstr "المدينة الصناعية"
-
-#~ msgid "Al Midan"
-#~ msgstr "الميدان"
-
-#~ msgid "Ar Rassieh"
-#~ msgstr "الراسيـة "
-
-#~ msgid "Haoush el Oumara"
-#~ msgstr "حوش الأمراء"
-
-#~ msgid "Haoush ez Zaraane"
-#~ msgstr "حوش الزراعنة "
-
-#~ msgid "Haret et Tahta "
-#~ msgstr "حارة التحتا"
-
-#~ msgid "Karak Nuh "
-#~ msgstr "كرك"
-
-#~ msgid "Ksara "
-#~ msgstr "كسارة"
-
-#~ msgid "Saydet en Naja "
-#~ msgstr "سيدة النجاة"
-
-#~ msgid "Wadi el Aarayesh"
-#~ msgstr "وادي العرايش"
-
-#~ msgid "Ghaziyeh"
-#~ msgstr "الغازية"
-
-#~ msgid "Harat Saida"
-#~ msgstr "حارة صيدا"
-
-#~ msgid "Hlaliyeh"
-#~ msgstr "هلالية"
-
-#~ msgid "Jlall Aairam"
-#~ msgstr "جلال عيرم"
-
-#~ msgid "Maarouf Saad"
-#~ msgstr "معروف سعد"
-
-#~ msgid "Majdelyoun"
-#~ msgstr "مجدليون"
-
-#~ msgid "Miye Ou Miye"
-#~ msgstr "المية و المية"
-
-#~ msgid "Mrah Kiouane"
-#~ msgstr "مراح كيوان"
-
-#~ msgid "Qiyaa"
-#~ msgstr "قياع"
-
-#~ msgid "Salhiyet Saida"
-#~ msgstr "الصالحية"
-
-#~ msgid ""
-#~ "The following %(rejected_count)s ads did not meet our rules and has been "
-#~ "rejected by dubizzle support team , however you can correct and resubmit"
-#~ msgstr ""
-#~ "يبدو أن الإعلانات التالية لم يوافق عليها فريق الدعم في دوبيزل، حيث اتضح "
-#~ "لدينا بعد مراجعتها، عدم التزامها بشروط النشر الدوبيزلاوية، لكن الخبر "
-#~ "الجيد هو أنك تستطيع تعديلها مرة ثانية وسنقوم بإعادة نشرها"
-
-#~ msgid ""
-#~ "The following %(counter)s ads did not meet our rules and has been "
-#~ "rejected by dubizzle support team , however you can correct and resubmit"
-#~ msgstr ""
-#~ "يبدو أن الإعلانات التالية لم يوافق عليها فريق الدعم في دوبيزل، حيث اتضح "
-#~ "لدينا بعد مراجعتها، عدم التزامها بشروط النشر الدوبيزلاوية، لكن الخبر "
-#~ "الجيد هو أنك تستطيع تعديلها مرة ثانية وسنقوم بإعادة نشرها"
-
-#~ msgid "Edit your rejected ads"
-#~ msgstr "عدّل إعلاناتي المرفوضة"
