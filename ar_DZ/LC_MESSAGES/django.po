@@ -247,10 +247,6 @@ msgstr "الملعب"
 msgid "Bahrain's free local classifieds community"
 msgstr ""
 
-#: country_templates/bahrain/public/landing.html:21
-#, fuzzy
-msgid "Place your FREE ad in 3 easy steps."
-msgstr "أضف إعلانك "
 
 #: country_templates/bahrain/public/landing.html:26
 #: country_templates/kuwait/public/landing.html:26
@@ -3000,12 +2996,12 @@ msgid "Change password"
 msgstr "تأكيد كلمة السر"
 
 #: templates/authentication/change_password.html:18
-#, fuzzy, python-format
+
 msgid ""
 "\n"
 "        Not %(email)s?\n"
 "    "
-msgstr "لست %(email)s؟"
+msgstr "\n لست %(email)s؟"
 
 #: templates/authentication/change_password.html:37
 #: templates/authentication/forgot_password.html:39
@@ -3308,7 +3304,7 @@ msgstr ""
 
 #: templates/listings/get/get_listing.html:206
 msgid "Show number"
-msgstr "أظهر العدد"
+msgstr "اظهر الرقم"
 
 #: templates/listings/get/get_listing.html:215
 #: templates/listings/reply/reply_to_listing_include.html:9
@@ -3464,7 +3460,7 @@ msgid "Neighborhood"
 msgstr "المنطقة"
 
 #: templates/listings/snippets/_form.html:316
-#, fuzzy, python-format
+
 msgid ""
 "\n"
 "                By posting your ad you are agreeing to the dubizzle <a href="
@@ -3532,13 +3528,14 @@ msgid "Add a photo"
 msgstr "اضف صور"
 
 #: templates/listings/snippets/photos/_manage_photos.html:97
-#, fuzzy, python-format
+
 msgid ""
 "\n"
 "                        Ads with photos sell much better. Use up to "
 "%(max_photos)s good quality photos. Accepted formats: jpg, png, or gif.\n"
 "                    "
 msgstr ""
+"\n"
 "هل تعلم أن الصور تؤدي للبيع بمعدل أعلى بكثير؟ يمكنك إضافة %(max_photos)s صور "
 "واضحة وأصلية. انواع الملفات المدعومة: jpg, png, gif."
 
@@ -3773,7 +3770,7 @@ msgid "Click to search"
 msgstr "اضغط للبحث"
 
 #: templates/search/_search_bar_snippet.html:23
-#, fuzzy, python-format
+
 msgid ""
 "\n"
 "        Show only %(CURRENT_LANGUAGE)s ads\n"
@@ -3784,7 +3781,7 @@ msgstr ""
 "                    "
 
 #: templates/search/browse_widget.html:68
-#, fuzzy, python-format
+
 msgid ""
 "\n"
 "                        Show only %(CURRENT_LANGUAGE)s ads\n"
@@ -4823,16 +4820,6 @@ msgstr "أكتب الإعلان بحروف عربية"
 #~ msgid "Select your neighbourhood"
 #~ msgstr "اختر منطقتك"
 
-#~ msgid ""
-#~ "By posting your ad you are agreeing to the dubizzle <a href=\"%(terms_url)"
-#~ "s\" target=\"_blank\">terms & conditions</a>, the dubizzle <a href="
-#~ "\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving "
-#~ "marketing and promotional offers."
-#~ msgstr ""
-#~ "عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" target=\"_blank"
-#~ "\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank"
-#~ "\">سياسة الخصوصية</a> لدوبيزل، بالإضافة إلى قبول عروض تسويقية."
-
 #~ msgid "Step 1 of 3"
 #~ msgstr "الخطوة 1 من 3"
 
@@ -4995,3 +4982,35 @@ msgstr "أكتب الإعلان بحروف عربية"
 msgid "All"
 msgstr "(الكل)"
 
+msgid ""
+"By posting your ad you are agreeing to the dubizzle <a href=\"%(terms_url)s"
+"\" target=\"_blank\">terms & conditions</a>, the dubizzle <a href=\"%"
+"(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving "
+"marketing and promotional offers."
+msgstr ""
+"عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" target=\"_blank"
+"\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\">سياسة "
+"الخصوصية</a> لدوبيزل، بالإضافة إلى قبول عروض تسويقية."
+
+msgid "Houston... we have problem."
+msgstr "هناك خطا ما. لم نتمكن من العثور على الصفحة المطلوبة"
+
+msgid "Couldn't find the page. go"
+msgstr "يمكنك الذهاب الى صفحتنا الرئيسية "
+
+msgid ""
+"                        Show only عربي ads"
+"                "
+msgstr "دعني أرى الإعلانات التي باللغة العربية فقط"
+
+msgid "Page not found"
+msgstr "خطأ"
+
+msgid "Place your FREE ad in 3 easy steps."
+msgstr "أضف إعلانك مجاناً في ثلاث خطوات بسيطة"
+
+msgid "Website under maintenance 500"
+msgstr "الموقع تحت الصيانة"
+
+msgid "We 'll be back soon"
+msgstr "سنعود بعد قليل"

@@ -3034,12 +3034,12 @@ msgid "Change password"
 msgstr "Modifier mot de passe"
 
 #: templates/authentication/change_password.html:18
-#, fuzzy, python-format
+
 msgid ""
 "\n"
 "        Not %(email)s?\n"
 "    "
-msgstr "Pas %(email)s?"
+msgstr "\n Pas %(email)s?"
 
 #: templates/authentication/change_password.html:37
 #: templates/authentication/forgot_password.html:39
@@ -3228,7 +3228,7 @@ msgstr ""
 "l'ami de votre tante  - encore que ça ça peut marcher."
 
 #: templates/listings/manage_listing.html:270
-#, fuzzy, python-format
+
 msgid ""
 "\n"
 "                                        By posting your ad you are agreeing "
@@ -3515,7 +3515,7 @@ msgid "Neighborhood"
 msgstr "Quartier"
 
 #: templates/listings/snippets/_form.html:316
-#, fuzzy, python-format
+
 msgid ""
 "\n"
 "                By posting your ad you are agreeing to the dubizzle <a href="
@@ -3585,13 +3585,14 @@ msgid "Add a photo"
 msgstr "Ajouter une photo"
 
 #: templates/listings/snippets/photos/_manage_photos.html:97
-#, fuzzy, python-format
+
 msgid ""
 "\n"
 "                        Ads with photos sell much better. Use up to "
 "%(max_photos)s good quality photos. Accepted formats: jpg, png, or gif.\n"
 "                    "
 msgstr ""
+"\n"
 "Les annonces avec photos ont beaucoup plus de succès. Téléchargez jusqu'à "
 "%(max_photos)s photos de bonne qualité. Formats acceptés: jpg, png ou gif."
 
@@ -3836,7 +3837,7 @@ msgid "Click to search"
 msgstr "اضغط للبحث"
 
 #: templates/search/_search_bar_snippet.html:23
-#, fuzzy, python-format
+
 msgid ""
 "\n"
 "        Show only %(CURRENT_LANGUAGE)s ads\n"
@@ -3848,7 +3849,7 @@ msgstr ""
 "                    "
 
 #: templates/search/browse_widget.html:68
-#, fuzzy, python-format
+
 msgid ""
 "\n"
 "                        Show only %(CURRENT_LANGUAGE)s ads\n"
