@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-29 15:40+0400\n"
+"POT-Creation-Date: 2014-07-20 10:01+0400\n"
 "PO-Revision-Date: 2014-06-10 15:40+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Saudi <http://translate.dubizzlecloud.com/projects/"
@@ -21,20 +21,21 @@ msgstr ""
 "X-Generator: Weblate 1.3\n"
 
 #: authentication/forms.py:17 authentication/forms.py:153
-#: templates/authentication/forgot_password.html:28
-#: templates/authentication/login.html:36
+#: templates/authentication/login.html:55
+#: templates/authentication/login.html:56
 msgid "Email address"
 msgstr "عنوان الإيميل"
 
 #: authentication/forms.py:18 authentication/forms.py:154
-#: fuego/forms/__init__.py:147 public/forms.py:20
+#: fuego/forms/__init__.py:148 public/forms.py:26
 msgid "Oh no! Your email is invalid. Try again."
 msgstr "لا تنسى إدخال عنوان إيميل صحيح!"
 
 #. Translators: This is in CrystelCalls new listing interface
 #: authentication/forms.py:20 authentication/forms.py:42
-#: authentication/forms.py:66 templates/authentication/login.html:42
-#: templates/listings/add/create_inorganic_listing.html:55
+#: authentication/forms.py:66 templates/authentication/login.html:67
+#: templates/authentication/login.html:68
+#: templates/listings/add/create_inorganic_listing.html:57
 msgid "Password"
 msgstr "كلمة السر"
 
@@ -92,8 +93,9 @@ msgstr "كلمة السر الجديدة (هالوو!)"
 msgid "Your password must be a minimum 6 characters. Try again."
 msgstr "يجب ادخال كلمة سر لا تقل عن 6 أحرف!"
 
-#: authentication/forms.py:183 templates/listings/manage_listing.html:315
-#: templates/listings/snippets/_form.html:281
+#: authentication/forms.py:183 templates/listings/manage_listing.html:238
+#: templates/listings/manage_listing.html:245
+#: templates/listings/snippets/_form.html:291
 msgid "Confirm password"
 msgstr "تأكيد كلمة السر"
 
@@ -115,11 +117,11 @@ msgstr ""
 msgid "Please enter the correct Username and Password combination."
 msgstr "البيانات التي ادخلتها غير صحيحة."
 
-#: captcha/fields.py:71
+#: captcha/fields.py:74
 msgid "Hmm... this doesn't match up. Try again"
 msgstr "خطأ في الرمز المدخل، حاول مرة أخرى."
 
-#: captcha/fields.py:73
+#: captcha/fields.py:76
 msgid "Error"
 msgstr "خطأ"
 
@@ -127,85 +129,85 @@ msgstr "خطأ"
 msgid "Please enter the correct letters"
 msgstr "من فضلك اكتب الحروف بشكل صحيح"
 
-#: country_templates/shared_landing.html:13 templates/public/contact_us.html:7
+#: country_templates/shared_landing.html:13
+#: templates/public/contact_us.html:11
 #: templates/public/contact_us_complete.html:7
 #: templates/public/landing.html:15
 msgid "Ahlan wa sahlan..."
 msgstr "اهلا وسهلا بكم في دوبيزل..."
 
-#: country_templates/shared_landing.html:30 templates/public/_footer.html:22
-#: templates/public/landing.html:25
+#: country_templates/shared_landing.html:27 templates/public/landing.html:29
 msgid "Change country"
 msgstr "تغيير الدولة"
 
-#: country_templates/shared_landing.html:40
+#: country_templates/shared_landing.html:39
 #: templates/sell/why-dubizzle.html:35
 msgid "Why use dubizzle?"
 msgstr "فوائد دوبيزل السبع"
 
-#: country_templates/shared_landing.html:48
+#: country_templates/shared_landing.html:47
 #: templates/sell/why-dubizzle.html:42
 msgid "Make money"
 msgstr "إكسب المال"
 
-#: country_templates/shared_landing.html:49
+#: country_templates/shared_landing.html:48
 #: templates/sell/why-dubizzle.html:43
 msgid "Turn your unused items into cash."
 msgstr "بيع اغراض لست بحاجة لها واستفيد."
 
-#: country_templates/shared_landing.html:57
+#: country_templates/shared_landing.html:56
 msgid "Your ad is free"
 msgstr "مجانا 100%"
 
-#: country_templates/shared_landing.html:58
+#: country_templates/shared_landing.html:57
 msgid "No fees, no hidden agendas and no twists or turns. It’s FREE"
 msgstr "إضافة الإعلان على دوبيزل مجاناً و بدون أي رسوم على الإطلاق."
 
-#: country_templates/shared_landing.html:66
+#: country_templates/shared_landing.html:65
 #: templates/sell/why-dubizzle.html:60
 msgid "It's safe"
 msgstr "خليك في الأمان"
 
-#: country_templates/shared_landing.html:67
+#: country_templates/shared_landing.html:66
 #: templates/sell/why-dubizzle.html:61
 msgid "No credit cards, no online payments and no money transfers."
 msgstr "بدون كروت إئتمان أو معاملات بنكية أو دفع إلكتروني."
 
-#: country_templates/shared_landing.html:75
+#: country_templates/shared_landing.html:74
 #: templates/sell/why-dubizzle.html:69
 msgid "Fast and easy"
 msgstr "سهل وسريع"
 
-#: country_templates/shared_landing.html:76
+#: country_templates/shared_landing.html:75
 msgid "A few simple steps to create your ad in one page only."
 msgstr "إضافة الإعلان في خطوات بسيطة وسريعة وإستخدام الموقع سهل جداً."
 
-#: country_templates/shared_landing.html:86
+#: country_templates/shared_landing.html:85
 #: templates/sell/why-dubizzle.html:80
 msgid "We're local"
 msgstr "تواصل مع مستخدمي دوبيزل بكل السعودية"
 
-#: country_templates/shared_landing.html:87
+#: country_templates/shared_landing.html:86
 msgid ""
 "Find and connect with thousands of buyers in your city and neighborhood."
 msgstr "تواصل مع الآف المشترين والبائعين في مدينتك ومنطقتك."
 
-#: country_templates/shared_landing.html:95
+#: country_templates/shared_landing.html:94
 msgid "Access anytime anywhere"
 msgstr "في أي وقت و من أي مكان"
 
-#: country_templates/shared_landing.html:96
+#: country_templates/shared_landing.html:95
 msgid ""
 "Post your ad, update it and browse from your computer, mobile phone, tablet "
 "or Mars."
 msgstr ""
 "أضف إعلانك وقم بتعديله من الكمبيوتر أو الموبايل أو التابلت أو حتى من المريخ"
 
-#: country_templates/shared_landing.html:104
+#: country_templates/shared_landing.html:103
 msgid "Support 24/7"
 msgstr "نحن معك  24/7"
 
-#: country_templates/shared_landing.html:105
+#: country_templates/shared_landing.html:104
 msgid ""
 "Wherever you are, our customer support heros help you post the perfect ad "
 "and draw a smile upon your face."
@@ -213,29 +215,31 @@ msgstr ""
 "فريق دعم دوبيزل يتواصل معك شخصياً في إضافة إعلانك أينما كنت ويسعى لرسم "
 "الإبتسامة على وجهك."
 
-#: country_templates/shared_landing.html:113
-#: templates/search/search_listings.html:24
+#: country_templates/shared_landing.html:112
 msgid "Got something to sell?"
 msgstr "تريد بيع شيء ما؟"
 
-#: country_templates/shared_landing.html:115
+#: country_templates/shared_landing.html:114
 msgid "Yalla try it."
 msgstr "يلا، جرب وبيع."
 
-#: country_templates/shared_landing.html:120
-#: country_templates/shared_landing.html:125
-#: country_templates/bahrain/public/landing.html:48
-#: country_templates/bahrain/public/landing.html:53
-#: country_templates/kuwait/public/landing.html:48
-#: country_templates/kuwait/public/landing.html:53
-#: country_templates/oman/public/landing.html:53
-#: country_templates/oman/public/landing.html:58
-#: country_templates/qatar/public/landing.html:53
-#: country_templates/qatar/public/landing.html:58
+#: country_templates/shared_landing.html:119
+#: country_templates/shared_landing.html:124
+#: country_templates/bahrain/public/landing.html:47
+#: country_templates/bahrain/public/landing.html:52
+#: country_templates/kuwait/public/landing.html:47
+#: country_templates/kuwait/public/landing.html:52
+#: country_templates/oman/public/landing.html:52
+#: country_templates/oman/public/landing.html:57
+#: country_templates/qatar/public/landing.html:52
+#: country_templates/qatar/public/landing.html:57
 #: country_templates/saudi/public/landing.html:49
-#: country_templates/saudi/public/landing.html:54
-msgid "Post your ad"
-msgstr "أضف إعلانك"
+#: country_templates/saudi/public/landing.html:54 templates/base.html:148
+#: templates/generic.html:101 templates/generic.html.py:108
+#: templates/authentication/login.html:86
+#: templates/user_profiles/my_listings.html:52
+msgid "Place an ad"
+msgstr "أضف إعلان"
 
 #: country_templates/bahrain/public/_map.html:326
 #, fuzzy
@@ -248,16 +252,14 @@ msgid "Bahrain's free local classifieds community"
 msgstr "رفيقك للإعلانات المُبوبة المجانية في قطر"
 
 #: country_templates/bahrain/public/landing.html:21
-#: country_templates/kuwait/public/landing.html:21
-#: country_templates/saudi/public/landing.html:22
-msgid "Place your FREE ad in 1, 2, 3."
-msgstr "أضف إعلانك مجــاناً في ثلاث خطوات بسيطة "
+msgid "Place your FREE ad in 3 easy steps"
+msgstr "أضف إعلانك مجاناً في ثلاث خطوات بسيطة"
 
 #: country_templates/bahrain/public/landing.html:26
 #: country_templates/kuwait/public/landing.html:26
 #: country_templates/oman/public/landing.html:31
 #: country_templates/qatar/public/landing.html:31
-#: country_templates/saudi/public/landing.html:27
+#: country_templates/saudi/public/landing.html:28
 msgid "Place your FREE ad."
 msgstr "أضف إعلانك"
 
@@ -265,7 +267,8 @@ msgstr "أضف إعلانك"
 #: country_templates/kuwait/public/landing.html:31
 #: country_templates/oman/public/landing.html:36
 #: country_templates/qatar/public/landing.html:36
-#: country_templates/saudi/public/landing.html:32
+#: country_templates/saudi/public/landing.html:33
+#: templates/listings/add/paa_taxonomy.html:120
 msgid "Choose a category"
 msgstr "إختر فئة"
 
@@ -273,7 +276,7 @@ msgstr "إختر فئة"
 #: country_templates/kuwait/public/landing.html:35
 #: country_templates/oman/public/landing.html:40
 #: country_templates/qatar/public/landing.html:40
-#: country_templates/saudi/public/landing.html:36
+#: country_templates/saudi/public/landing.html:37
 msgid "Add photos"
 msgstr "حمّل صُور"
 
@@ -281,135 +284,136 @@ msgstr "حمّل صُور"
 #: country_templates/kuwait/public/landing.html:39
 #: country_templates/oman/public/landing.html:44
 #: country_templates/qatar/public/landing.html:44
-#: country_templates/saudi/public/landing.html:40
+#: country_templates/saudi/public/landing.html:41
 msgid "Describe your item"
 msgstr "أضف مواصفات"
 
-#: country_templates/bahrain/public/landing.html:61
-#: country_templates/kuwait/public/landing.html:61
-#: country_templates/saudi/public/landing.html:63
+#: country_templates/bahrain/public/landing.html:60
+#: country_templates/kuwait/public/landing.html:60
+#: country_templates/oman/public/landing.html:65
+#: country_templates/qatar/public/landing.html:64
+#: country_templates/saudi/public/landing.html:64
 msgid "Want to buy something? Choose your location or browse our categories."
 msgstr "ترغب بشراء شيء؟ إختر موقعك أو تصفح الفئات المختارة"
 
-#: country_templates/bahrain/public/landing.html:68
-#: country_templates/bahrain/public/landing.html:93
-#: country_templates/kuwait/public/landing.html:68
-#: country_templates/kuwait/public/landing.html:93
-#: country_templates/oman/public/landing.html:72
-#: country_templates/oman/public/landing.html:96
-#: country_templates/qatar/public/landing.html:72
-#: country_templates/qatar/public/landing.html:96
-#: country_templates/saudi/public/landing.html:70
-#: country_templates/saudi/public/landing.html:95 templates/generic.html:38
-#: templates/generic.html.py:126 templates/public/landing.html:64
-#: templates/search/category_widget.html:51
+#: country_templates/bahrain/public/landing.html:67
+#: country_templates/bahrain/public/landing.html:92
+#: country_templates/kuwait/public/landing.html:67
+#: country_templates/kuwait/public/landing.html:92
+#: country_templates/oman/public/landing.html:71
+#: country_templates/oman/public/landing.html:95
+#: country_templates/qatar/public/landing.html:70
+#: country_templates/qatar/public/landing.html:94
+#: country_templates/saudi/public/landing.html:71
+#: country_templates/saudi/public/landing.html:96 templates/base.html:99
+#: templates/public/landing.html:44
 msgid "All of"
 msgstr "كل"
 
-#: country_templates/bahrain/public/landing.html:82
-#: country_templates/bahrain/public/landing.html:104
-#: country_templates/kuwait/public/landing.html:82
-#: country_templates/kuwait/public/landing.html:104
-#: country_templates/oman/public/landing.html:86
-#: country_templates/oman/public/landing.html:106
-#: country_templates/qatar/public/landing.html:86
-#: country_templates/qatar/public/landing.html:106
-#: country_templates/saudi/public/landing.html:84
-#: country_templates/saudi/public/landing.html:106
+#: country_templates/bahrain/public/landing.html:81
+#: country_templates/bahrain/public/landing.html:103
+#: country_templates/kuwait/public/landing.html:81
+#: country_templates/kuwait/public/landing.html:103
+#: country_templates/oman/public/landing.html:85
+#: country_templates/oman/public/landing.html:105
+#: country_templates/qatar/public/landing.html:84
+#: country_templates/qatar/public/landing.html:104
+#: country_templates/saudi/public/landing.html:85
+#: country_templates/saudi/public/landing.html:107
 msgid "* More regions coming soon"
 msgstr "*المزيد من المناطق قريباً"
 
-#: country_templates/bahrain/public/landing.html:100
-#: country_templates/kuwait/public/landing.html:100
-#: country_templates/oman/public/landing.html:102
-#: country_templates/qatar/public/landing.html:102
-#: country_templates/saudi/public/landing.html:102
+#: country_templates/bahrain/public/landing.html:99
+#: country_templates/kuwait/public/landing.html:99
+#: country_templates/oman/public/landing.html:101
+#: country_templates/qatar/public/landing.html:100
+#: country_templates/saudi/public/landing.html:103
 msgid "Show me the ads"
 msgstr "اظهر جميع اعلاناتي المنشورة"
 
-#: country_templates/bahrain/public/landing.html:115
-#: country_templates/kuwait/public/landing.html:115
-#: country_templates/oman/public/landing.html:117
-#: country_templates/qatar/public/landing.html:117
-#: country_templates/saudi/public/landing.html:117
+#: country_templates/bahrain/public/landing.html:114
+#: country_templates/kuwait/public/landing.html:114
+#: country_templates/oman/public/landing.html:116
+#: country_templates/qatar/public/landing.html:115
+#: country_templates/saudi/public/landing.html:118
 msgid "Home, furniture &amp; garden"
 msgstr " المنزل والأثاث والحديقة"
 
-#: country_templates/bahrain/public/landing.html:121
-#: country_templates/kuwait/public/landing.html:121
-#: country_templates/oman/public/landing.html:123
-#: country_templates/qatar/public/landing.html:123
-#: country_templates/saudi/public/landing.html:123
+#: country_templates/bahrain/public/landing.html:120
+#: country_templates/kuwait/public/landing.html:120
+#: country_templates/oman/public/landing.html:122
+#: country_templates/qatar/public/landing.html:121
+#: country_templates/saudi/public/landing.html:124
 msgid "Mobile phones &amp; accessories"
 msgstr "جوالات واكسسواراتها"
 
-#: country_templates/bahrain/public/landing.html:127
-#: country_templates/kuwait/public/landing.html:127
-#: country_templates/oman/public/landing.html:135
-#: country_templates/qatar/public/landing.html:135
-#: country_templates/saudi/public/landing.html:129
+#: country_templates/bahrain/public/landing.html:126
+#: country_templates/kuwait/public/landing.html:126
+#: country_templates/oman/public/landing.html:134
+#: country_templates/qatar/public/landing.html:133
+#: country_templates/saudi/public/landing.html:130
 msgid "Electronics &amp; home appliances"
 msgstr "إلكترونيات وأجهزة منزلية"
 
-#: country_templates/bahrain/public/landing.html:133
-#: country_templates/kuwait/public/landing.html:133
-#: country_templates/oman/public/landing.html:141
-#: country_templates/qatar/public/landing.html:141
-#: country_templates/saudi/public/landing.html:141
-#: templates/public/landing.html:93
+#: country_templates/bahrain/public/landing.html:132
+#: country_templates/kuwait/public/landing.html:132
+#: country_templates/oman/public/landing.html:140
+#: country_templates/qatar/public/landing.html:139
+#: country_templates/saudi/public/landing.html:142
+#: templates/public/landing.html:73
 msgid "Cars"
 msgstr "سيارات"
 
-#: country_templates/bahrain/public/landing.html:139
-#: country_templates/kuwait/public/landing.html:139
-#: country_templates/oman/public/landing.html:147
-#: country_templates/saudi/public/landing.html:135
+#: country_templates/bahrain/public/landing.html:138
+#: country_templates/kuwait/public/landing.html:138
+#: country_templates/oman/public/landing.html:146
+#: country_templates/saudi/public/landing.html:136
 msgid "Car accessories"
 msgstr "إكسسوارات السيارة"
 
-#: country_templates/bahrain/public/landing.html:145
-#: country_templates/kuwait/public/landing.html:145
-#: country_templates/qatar/public/landing.html:147
-#: country_templates/saudi/public/landing.html:147
+#: country_templates/bahrain/public/landing.html:144
+#: country_templates/kuwait/public/landing.html:144
+#: country_templates/qatar/public/landing.html:145
+#: country_templates/saudi/public/landing.html:148
 msgid "Clothing  & accessories"
 msgstr "ملابس واكسسواراتها"
 
-#: country_templates/bahrain/public/landing.html:151
-#: country_templates/kuwait/public/landing.html:151
-#: country_templates/oman/public/landing.html:153
-#: country_templates/qatar/public/landing.html:153
-#: country_templates/saudi/public/landing.html:153
+#: country_templates/bahrain/public/landing.html:150
+#: country_templates/kuwait/public/landing.html:150
+#: country_templates/oman/public/landing.html:152
+#: country_templates/qatar/public/landing.html:151
+#: country_templates/saudi/public/landing.html:154
 msgid "Tablets &amp; computers "
 msgstr "تابلت/أجهزة لوحية وكمبيوتر"
 
-#: country_templates/bahrain/public/landing.html:157
-#: country_templates/kuwait/public/landing.html:157
-#: country_templates/saudi/public/landing.html:159
+#: country_templates/bahrain/public/landing.html:156
+#: country_templates/kuwait/public/landing.html:156
+#: country_templates/saudi/public/landing.html:160
 msgid "Cameras & accessories"
 msgstr "كاميرات واكسسواراتها"
 
-#: country_templates/bahrain/public/landing.html:163
-#: country_templates/kuwait/public/landing.html:163
-#: country_templates/saudi/public/landing.html:165
+#: country_templates/bahrain/public/landing.html:162
+#: country_templates/kuwait/public/landing.html:162
+#: country_templates/saudi/public/landing.html:166
 msgid "Jewelry & watches"
 msgstr "مجوهرات وساعات"
 
-#: country_templates/bahrain/public/landing.html:169
-#: country_templates/kuwait/public/landing.html:169
+#: country_templates/bahrain/public/landing.html:168
+#: country_templates/kuwait/public/landing.html:168
 #, fuzzy
 msgid "Sporting goods and accessories"
 msgstr "ملابس واكسسواراتها"
 
-#: country_templates/bahrain/public/landing.html:175
-#: country_templates/kuwait/public/landing.html:175
+#: country_templates/bahrain/public/landing.html:174
+#: country_templates/kuwait/public/landing.html:174
 msgid "Video games & consoles"
 msgstr ""
 
-#: country_templates/bahrain/public/landing.html:181
-#: country_templates/kuwait/public/landing.html:181
-#: country_templates/oman/public/landing.html:159
-#: country_templates/qatar/public/landing.html:159
-#: country_templates/saudi/public/landing.html:171
+#: country_templates/bahrain/public/landing.html:180
+#: country_templates/kuwait/public/landing.html:180
+#: country_templates/oman/public/landing.html:158
+#: country_templates/qatar/public/landing.html:157
+#: country_templates/saudi/public/landing.html:172
 msgid "So much more."
 msgstr "فئات أكثر"
 
@@ -423,6 +427,11 @@ msgstr "طويق"
 msgid "Your free local classifieds in Kuwait"
 msgstr "رفيقك للإعلانات المُبوبة المجانية في قطر"
 
+#: country_templates/kuwait/public/landing.html:21
+#: country_templates/saudi/public/landing.html:23
+msgid "Place your FREE ad in 1, 2, 3."
+msgstr "أضف إعلانك مجــاناً في ثلاث خطوات بسيطة "
+
 #: country_templates/oman/public/_map.html:26
 msgid "Dhofar"
 msgstr ""
@@ -433,7 +442,13 @@ msgstr ""
 
 #: country_templates/oman/public/landing.html:13
 #: country_templates/qatar/public/landing.html:13
-msgid "What are your items really worth? Click here to find out!"
+#, fuzzy
+msgid "What are your items really worth?"
+msgstr "رسالتك للمعلن"
+
+#: country_templates/oman/public/landing.html:14
+#: country_templates/qatar/public/landing.html:14
+msgid "Click here to find out!"
 msgstr ""
 
 #: country_templates/oman/public/landing.html:21
@@ -445,23 +460,18 @@ msgstr ""
 msgid "Selling your items &amp; giving them a new chapter is as easy as 1-2-3"
 msgstr ""
 
-#: country_templates/oman/public/landing.html:66
-#: country_templates/qatar/public/landing.html:66
-msgid "Even better, you can finally buy the things you really want!"
-msgstr ""
-
-#: country_templates/oman/public/landing.html:129
-#: country_templates/qatar/public/landing.html:129
+#: country_templates/oman/public/landing.html:128
+#: country_templates/qatar/public/landing.html:127
 msgid "Sporting goods &amp; outdoors"
 msgstr "مستلزمات وأدوات رياضية"
 
-#: country_templates/oman/public/landing.html:170
-#: country_templates/qatar/public/landing.html:170
+#: country_templates/oman/public/landing.html:169
+#: country_templates/qatar/public/landing.html:168
 msgid "What if your old keyboard helped a young girl play her first recital?"
 msgstr ""
 
 #: country_templates/oman/public/landing.html:172
-#: country_templates/qatar/public/landing.html:172
+#: country_templates/qatar/public/landing.html:171
 msgid ""
 "Items that you no longer use may not mean much to you, but they&#39;ve got "
 "huge potential waiting to be unlocked. So take a second to think of your "
@@ -474,8 +484,8 @@ msgstr ""
 msgid "it&#39;s worth more than you think"
 msgstr ""
 
-#: country_templates/oman/public/landing.html:173
-#: country_templates/qatar/public/landing.html:173
+#: country_templates/oman/public/landing.html:176
+#: country_templates/qatar/public/landing.html:175
 msgid "Click here to find out more"
 msgstr ""
 
@@ -513,8 +523,7 @@ msgstr "مكة"
 msgid "The Kingdom's free local classifieds community."
 msgstr "رفيقك للإعلانات المُبوبة المجانية في المملكة"
 
-#: fuego/base_settings.py:492 templates/search/browse_widget.html:21
-#: templates/search/browse_widget.html:39 templates/search/widget.html:27
+#: fuego/base_settings.py:492 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
@@ -572,20 +581,20 @@ msgid "Unknown"
 msgstr "مجهول"
 
 #: fuego/base_settings.py:840
-msgid "Date (newest to oldest)"
-msgstr "الأحدث إلى الأقدم"
+msgid "Date: newest"
+msgstr "بحسب التاريخ: الأحدث"
 
 #: fuego/base_settings.py:841
-msgid "Date (oldest to newest)"
-msgstr "الأقدم إلى الأحدث"
+msgid "Date: oldest"
+msgstr "بحسب التاريخ: الأقدم"
 
 #: fuego/base_settings.py:845
-msgid "Price (highest to lowest)"
-msgstr "السعر (الأعلى إلى الأقل)"
+msgid "Price: highest"
+msgstr "بحسب السعر: الأعلى"
 
 #: fuego/base_settings.py:846
-msgid "Price (lowest to highest)"
-msgstr "السعر (الأقل إلى الأعلى)"
+msgid "Price: lowest"
+msgstr "بحسب السعر: الأدنى"
 
 #: fuego/base_settings.py:987
 msgid "Other"
@@ -2266,7 +2275,7 @@ msgstr ""
 "دوبيزل السعودية ، مبوبة مجانيه، اعلانات مبوبة عبر الإنترنت، مبوبة السعودية، "
 "اعلانات مبوبة مجانيه في السعودية"
 
-#: fuego/shared_settings.py:454
+#: fuego/shared_settings.py:462
 msgid "#dubizzle"
 msgstr "#دوبيزل"
 
@@ -2274,7 +2283,18 @@ msgstr "#دوبيزل"
 msgid "Enter your name please, nobody likes to talk to a stranger ;)"
 msgstr "عرفنا على إسمك... \"وعاشت الأسامي\"."
 
-#: fuego/forms/__init__.py:153
+#: fuego/forms/__init__.py:145
+#: templates/listings/reply/reply_to_listing_include.html:50
+#: templates/listings/reply/reply_to_listing_include.html:51
+msgid "Name"
+msgstr ""
+
+#: fuego/forms/__init__.py:152 listings/forms.py:155
+#: templates/listings/snippets/_form.html:166
+msgid "Mobile Number"
+msgstr "رقم الموبايل"
+
+#: fuego/forms/__init__.py:156
 msgid ""
 "Don't be shy...if you have any questions about the ad, now is the time to "
 "ask."
@@ -2282,12 +2302,23 @@ msgstr ""
 "لقد نسيت اضافة رسالتك للمعلن. هل تحتاج لمزيد من المعلومات عن هذا الإعلان؟ لا "
 "حرج في السؤال!"
 
-#: fuego/forms/__init__.py:180 templates/listings/manage_listing.html:144
-#: templates/listings/snippets/_form.html:111
+#: fuego/forms/__init__.py:157 listings/forms.py:87
+#: templates/listings/reply/reply_to_listing_include.html:70
+#: templates/listings/reply/reply_to_listing_include.html:71
+#: templates/listings/report/report_listing.html:151
+msgid "Message"
+msgstr "الرسالة"
+
+#: fuego/forms/__init__.py:188 templates/listings/snippets/_form.html:116
 msgid "Choose your city"
 msgstr "اختر منطقتك"
 
-#: fuego/forms/__init__.py:194 search/forms.py:45
+#: fuego/forms/__init__.py:195 search/forms.py:170
+#: templates/public/_change_country.html:15
+msgid "City"
+msgstr "المدينة"
+
+#: fuego/forms/__init__.py:203 search/forms.py:45
 #, python-format
 msgid "All of %(country)s"
 msgstr "%(country)s بالكامل"
@@ -2308,13 +2339,10 @@ msgstr ""
 msgid "Lists too large."
 msgstr ""
 
-#: listings/formatters.py:31 listings/forms.py:361
+#: listings/formatters.py:31 listings/forms.py:394
 #: templates/feedbox/index_horizontal.html:326
-#: templates/listings/get/get_listing.html:121
-#: templates/shared/listings.html:70
-#: templates/user_profiles/my_listings.html:156
-#: templates/user_profiles/my_listings.html:249
-#: templates/user_profiles/my_listings.html:301
+#: templates/listings/get/get_listing.html:195 templates/public/home.html:77
+#: templates/shared/listings.html:62
 msgid "Free"
 msgstr "مجاني"
 
@@ -2352,100 +2380,126 @@ msgstr "%(bedrooms)s نوم"
 msgid "Upload CV"
 msgstr "تحميل السيرة الذاتية"
 
-#: listings/forms.py:55
+#: listings/forms.py:59
 msgid "Sorry, but your file format is not supported."
 msgstr "نوع الملف غير مدعوم، يرجى تحميل ملف من النوع التالي: rtf/doc/pdf/docx"
 
-#: listings/forms.py:58
+#: listings/forms.py:62
 msgid "That's a bit too heavy. Please keep your file size under 2MB."
 msgstr "من فضلك تأكد أن حجم الملف لا يزيد عن 2 ميغا"
 
-#: listings/forms.py:70 listings/forms.py:87
+#: listings/forms.py:75 templates/listings/report/report_listing.html:134
+msgid "Reason"
+msgstr "السبب"
+
+#: listings/forms.py:76 listings/forms.py:103
 msgid "Tell us why you are reporting this ad."
 msgstr "لماذا تريد الإبلاغ عن هذا الإعلان؟"
 
-#: listings/forms.py:73 templates/listings/get/get_listing.html:145
+#: listings/forms.py:84 templates/listings/get/get_listing.html:109
 msgid "Details"
 msgstr "التفاصيل"
 
-#: listings/forms.py:100
+#: listings/forms.py:117
 msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
-#: listings/forms.py:104
+#: listings/forms.py:118 templates/listings/snippets/_form.html:59
+msgid ""
+"Your title says it all - describe your ad clearly. Please DON'T USE CAPS."
+msgstr "فكر في عنوان واضح ومختصر لإعلانك."
+
+#: listings/forms.py:122
 msgid "You're going to need a title."
 msgstr "لا تنسى إضافة عنوان لإعلانك."
 
-#: listings/forms.py:107 templates/listings/manage_listing.html:112
-#: templates/listings/get/get_listing.html:158
-#: templates/listings/snippets/_form.html:75
+#: listings/forms.py:127 templates/listings/get/get_listing.html:122
+#: templates/listings/snippets/_form.html:77
 msgid "Description"
 msgstr "مواصفات الإعلان"
 
-#: listings/forms.py:110
+#: listings/forms.py:128 templates/listings/snippets/_form.html:94
+msgid ""
+"Increase the chance of your ad appearing in a search: <br/>- Answer "
+"questions your buyer may have (dimensions, functions, availability) <br/>- "
+"Highlight benefits and specific details (warranties, features, etc.) <br/"
+">For your safety, email addresses and HTML formatting are not allowed."
+msgstr ""
+"الوصف الدقيق هو مفتاح البيع الاسرع: <br/>- حاول الرد على أسئلة المشتري "
+"(مثلاً: الحجم والأبعاد)<br/>- إشرح أهم المواصفات والمعلومات (مثلاً: الضمان إن "
+"وجد) يرجى عدم اضافة عنوان إيميلك داخل الوصف وهذا لحماية خصوصيتك."
+
+#: listings/forms.py:131
 msgid "You forgot to add a description. Go on, tell the world about your ad."
 msgstr ""
 "لقد نسيت ان تضيف وصف لإعلانك. هنا يمكنك إضافة كل التفاصيل لتجذب إنتباه "
 "المشتري. "
 
-#: listings/forms.py:113
+#: listings/forms.py:136
 msgid "Choose City"
 msgstr "إختر المدينة"
 
-#: listings/forms.py:116
+#: listings/forms.py:139
 msgid "Hey, you forgot to tell us where you are."
 msgstr " من فضلك لا تنسى إضافة إسم مدينتك. (الا اذا كنت من الفضاء.)"
 
-#: listings/forms.py:119 templates/listings/snippets/_form.html:131
-msgid "Neighborhood"
+#: listings/forms.py:144 listings/models.py:125 listings/models.py:342
+#: listings/models.py:375 listings/models.py:406 listings/models.py:431
+#: listings/models.py:471 listings/models.py:509 listings/models.py:546
+#: listings/models.py:584 search/forms.py:176
+msgid "Neighbourhood"
 msgstr "المنطقة"
 
-#: listings/forms.py:122
+#: listings/forms.py:147
 msgid "We need you to be a little more specific."
 msgstr "نسيت أن تضيف إسم منطقتك."
 
-#: listings/forms.py:125 templates/public/contact_us.html:82
-msgid "Mobile number"
-msgstr "رقم الموبايل"
+#: listings/forms.py:156 templates/listings/snippets/_form.html:180
+msgid ""
+"We need mobile numbers to verify accounts and to detect scammers. Don't "
+"worry, you can choose not to show your mobile number in the ad (see option "
+"below)."
+msgstr ""
+"لا تقلق، لن نظهر رقم الموبايل على الموقع بدون موافقتك (التفاصيل ادناه)."
 
-#: listings/forms.py:126
+#: listings/forms.py:157
 msgid "We need your mobile number for verification."
 msgstr "من فضلك ادخل رقم الموبايل لكي نتأكد من صلاحية حسابك."
 
-#: listings/forms.py:129 templates/listings/manage_listing.html:219
-#: templates/listings/snippets/_form.html:185
+#: listings/forms.py:161 templates/listings/manage_listing.html:132
+#: templates/listings/snippets/_form.html:192
 msgid "Show this number on my ad"
 msgstr "اظهر رقمي في الإعلان"
 
-#: listings/forms.py:192
+#: listings/forms.py:224
 msgid "The neighborhood you have selected is not in the city you selected."
 msgstr "يبدو أن هذه المنطقة ليست فى المدينة المحددة."
 
-#: listings/forms.py:230
+#: listings/forms.py:262
 msgid "Oops, something has gone wrong. Let us know and we will fix it."
 msgstr "هناك خطأ ما. راسلنا لكي نصلحه."
 
-#: listings/forms.py:231
+#: listings/forms.py:263
 msgid "Photo verifiers did not match photos."
 msgstr ""
 
-#: listings/forms.py:232
+#: listings/forms.py:264
 msgid "Photo upload failed, please try again."
 msgstr "هناك خطأ في تحميل الصورة. حاول مرة اخرى."
 
-#: listings/forms.py:233
+#: listings/forms.py:265
 msgid "Oh no, we can only read jpg, png or gif formats."
 msgstr "هناك مشكلة في نوع الملف. من فضلك حمل ملف من نوع: jpg, png, gif"
 
-#: listings/forms.py:234
+#: listings/forms.py:266
 msgid "Damn, that file is too big - 5MB maximum."
 msgstr "حاول مرة أخرى وتأكد أن لا يزيد حجم الملف عن 5 ميغا!"
 
-#: listings/forms.py:235
+#: listings/forms.py:267
 msgid "Max number of photos is 10"
 msgstr "أقصى عدد لتحميل الصور هو 10"
 
-#: listings/forms.py:323
+#: listings/forms.py:355
 #, python-format
 msgid ""
 "When in doubt, check out other ads to see the price range of your item. "
@@ -2454,127 +2508,140 @@ msgstr ""
 "لو محتار في تحديد السعر إبحث عن أسعار أشياء مماثلة على الموقع. يرجى التأكد "
 "أن السعر المطلوب في عملة %(currency)s"
 
-#: listings/forms.py:331 listings/forms.py:361 listings/models.py:343
+#: listings/forms.py:361 listings/forms.py:394 listings/models.py:343
 #: listings/models.py:376 listings/models.py:407 listings/models.py:432
 #: listings/models.py:473 listings/models.py:513 listings/models.py:548
 #: listings/models.py:588
 msgid "Price"
 msgstr "السعر"
 
-#: listings/forms.py:332
+#: listings/forms.py:364
 msgid "You forgot to add the price."
 msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 
-#: listings/forms.py:341
+#: listings/forms.py:373
 msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
 
-#: listings/forms.py:380
+#: listings/forms.py:396
+#, fuzzy
+msgid "Price Type"
+msgstr "السعر"
+
+#: listings/forms.py:413
 msgid "You forgot to add the price"
 msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 
-#: listings/forms.py:423 listings/models.py:373 listings/models.py:382
+#: listings/forms.py:456 listings/forms.py:460 listings/models.py:373
+#: listings/models.py:382
 msgid "Year"
 msgstr "السنة"
 
-#: listings/forms.py:429
+#: listings/forms.py:462
 msgid "Sweet wheels, but how old?"
 msgstr "المحروسة... موديل سنة كم؟"
 
-#: listings/forms.py:437
+#: listings/forms.py:470
 msgid "How many KM?"
 msgstr "عدد الكيلومترات"
 
-#: listings/forms.py:439
+#: listings/forms.py:472
 msgid "Great ride, how far has it gone?"
 msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
 
-#: listings/forms.py:446
-msgid "Please specify the model"
-msgstr "الرجاء تحديد الموديل"
-
-#: listings/forms.py:447 listings/models.py:377 listings/models.py:381
+#: listings/forms.py:477 listings/forms.py:480 listings/models.py:377
+#: listings/models.py:381
 msgid "Model"
 msgstr "موديل"
 
-#: listings/forms.py:454
-msgid "Please specify the engine size"
-msgstr "الرجاء تحديد سعة المحرك"
+#: listings/forms.py:479
+msgid "Please specify the model"
+msgstr "الرجاء تحديد الموديل"
 
-#: listings/forms.py:455 listings/models.py:378
+#: listings/forms.py:485 listings/forms.py:488 listings/models.py:378
 msgid "Engine Size"
 msgstr "سعة المحرك"
 
-#: listings/forms.py:491
+#: listings/forms.py:487
+msgid "Please specify the engine size"
+msgstr "الرجاء تحديد سعة المحرك"
+
+#: listings/forms.py:524
 #, python-format
 msgid "Area (%(unit)s)"
 msgstr "المساحة (%(unit)s)"
 
-#: listings/forms.py:494 listings/models.py:474 listings/models.py:514
+#: listings/forms.py:527 listings/models.py:474 listings/models.py:514
 #: listings/models.py:549 listings/models.py:589
 msgid "Amenities"
 msgstr "الكماليات"
 
-#: listings/forms.py:534 listings/forms.py:568 listings/models.py:510
-#: listings/models.py:518 listings/models.py:585 listings/models.py:592
+#: listings/forms.py:540
+#, fuzzy
+msgid "Area "
+msgstr "المساحة"
+
+#: listings/forms.py:572 listings/forms.py:573 listings/forms.py:609
+#: listings/forms.py:610 listings/models.py:510 listings/models.py:518
+#: listings/models.py:585 listings/models.py:592
 msgid "Bedrooms"
 msgstr "غرف نوم"
 
-#: listings/forms.py:535 listings/forms.py:569
+#: listings/forms.py:574 listings/forms.py:611
 msgid "Nice property, but how many bedrooms?"
 msgstr "حدثنا عن عقارك. كم عدد غرف النوم؟"
 
-#: listings/forms.py:540 listings/forms.py:574 listings/models.py:511
-#: listings/models.py:586
+#: listings/forms.py:580 listings/forms.py:581 listings/forms.py:617
+#: listings/forms.py:618 listings/models.py:511 listings/models.py:586
 msgid "Bathrooms"
 msgstr "الحمامات"
 
-#: listings/forms.py:541 listings/forms.py:575
+#: listings/forms.py:582 listings/forms.py:619
 msgid "Nice property, but how many bathrooms?"
 msgstr "الرجاء تحديد عدد الحمامات"
 
-#: listings/forms.py:597
-msgid "Please specify the experience level"
-msgstr "الرجاء تحديد مستوى الخبرة"
-
-#: listings/forms.py:598 listings/models.py:627 listings/models.py:664
+#: listings/forms.py:640 listings/forms.py:643 listings/models.py:627
+#: listings/models.py:663
 msgid "Experience Level"
 msgstr "مستوى الخبرة"
 
-#: listings/forms.py:605
-msgid "Please specify the education level"
-msgstr "الرجاء تحديد المستوى التعليمي"
+#: listings/forms.py:642
+msgid "Please specify the experience level"
+msgstr "الرجاء تحديد مستوى الخبرة"
 
-#: listings/forms.py:606 listings/models.py:626 listings/models.py:663
+#: listings/forms.py:648 listings/forms.py:651 listings/models.py:626
+#: listings/models.py:662
 msgid "Education Level"
 msgstr "المستوى التعليمي"
 
-#: listings/forms.py:613
+#: listings/forms.py:650
+msgid "Please specify the education level"
+msgstr "الرجاء تحديد المستوى التعليمي"
+
+#: listings/forms.py:656
+msgid "Commitment"
+msgstr ""
+
+#: listings/forms.py:658
 msgid "Please specify the employment type"
 msgstr "الرجاء تحديد نوع العمل"
 
-#: listings/forms.py:614 listings/models.py:628 listings/models.py:633
-#: listings/models.py:665 listings/models.py:669
+#: listings/forms.py:659 listings/models.py:628 listings/models.py:632
+#: listings/models.py:664 listings/models.py:667
 msgid "Employment Type"
 msgstr "نوع العمل"
 
-#: listings/forms.py:619 listings/models.py:629 listings/models.py:666
+#: listings/forms.py:664 templates/listings/get/get_listing.html:130
 msgid "Skills"
 msgstr "المهارات"
 
-#: listings/forms.py:632 listings/models.py:630
+#: listings/forms.py:679 listings/models.py:629
 msgid "Compensation"
 msgstr "الراتب"
 
-#: listings/models.py:124 listings/models.py:625 listings/models.py:662
+#: listings/models.py:124 listings/models.py:625 listings/models.py:661
 msgid "Posted On"
 msgstr "نُشر بتاريخ"
-
-#: listings/models.py:125 listings/models.py:342 listings/models.py:375
-#: listings/models.py:406 listings/models.py:431 listings/models.py:471
-#: listings/models.py:509 listings/models.py:546 listings/models.py:584
-msgid "Neighbourhood"
-msgstr "المنطقة"
 
 #: listings/models.py:341 listings/models.py:372 listings/models.py:405
 #: listings/models.py:430 listings/models.py:470 listings/models.py:508
@@ -2596,37 +2663,57 @@ msgstr "المساحة"
 msgid "Enter a subject please"
 msgstr "نوع الاستفسار"
 
+#: public/forms.py:18
+msgid "Subject"
+msgstr ""
+
 #. Translators: This is in CrystelCalls new listing interface
-#: public/forms.py:19 templates/listings/manage_listing.html:229
-#: templates/listings/manage_listing.html:247
-#: templates/listings/add/create_inorganic_listing.html:33
-#: templates/listings/snippets/_form.html:195
-#: templates/listings/snippets/_form.html:213
-#: templates/public/contact_us.html:96
+#: public/forms.py:25 public/forms.py:30
+#: templates/listings/manage_listing.html:144
+#: templates/listings/manage_listing.html:177
+#: templates/listings/manage_listing.html:179
+#: templates/listings/add/create_inorganic_listing.html:35
+#: templates/listings/reply/reply_to_listing_include.html:40
+#: templates/listings/reply/reply_to_listing_include.html:41
+#: templates/listings/snippets/_form.html:201
+#: templates/listings/snippets/_form.html:225
+#: templates/listings/snippets/_form.html:226
+#: templates/listings/snippets/_form.html:228
+#: templates/public/contact_us.html:90
 msgid "Email"
 msgstr "عنوان الإيميل"
 
-#: public/forms.py:25
+#: public/forms.py:37
 msgid "Email address(again)"
 msgstr "تأكيد عنوان الإيميل"
 
-#: public/forms.py:32
+#: public/forms.py:41
+#, fuzzy
+msgid "Confirm Email"
+msgstr "تأكيد عنوان الإيميل"
+
+#: public/forms.py:49
 msgid "We need your location so that we can help you"
 msgstr "لا تنسى اضافة إسم المدينة/الدولة لكي نستطيع مساعدتك"
 
-#: public/forms.py:42
+#: public/forms.py:53
+#, fuzzy
+msgid "Location"
+msgstr "الراتب"
+
+#: public/forms.py:64
 msgid "You forgot to tell us who you are"
 msgstr "نسيت اضافة إسمك!"
 
-#: public/forms.py:44
+#: public/forms.py:66
 msgid "We need your mobile number so that we can help you"
 msgstr "من فضلك ادخل رقم الموبايل لكي نستطيع مساعدتك"
 
-#: public/forms.py:45
+#: public/forms.py:67
 msgid "You left the message box empty...please tell us how we can help you"
 msgstr "لقد نسيت اضافة الرسالة. عندك مشكلة؟ راسلنا وسنساعدك!"
 
-#: public/forms.py:58
+#: public/forms.py:80
 msgid "Huh... that's not the same one!?"
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
@@ -2635,72 +2722,56 @@ msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 msgid "All of %(city)s"
 msgstr "%(city)s بالكامل"
 
-#: search/forms.py:158
+#: search/forms.py:165
 msgid "Keywords"
 msgstr "كلمات البحث"
 
-#: search/forms.py:163
-msgid "City"
-msgstr "المدينة"
-
-#: search/forms.py:329 search/forms.py:408 search/forms.py:449
-#: search/forms.py:499
+#: search/forms.py:339 search/forms.py:444 search/forms.py:494
+#: search/forms.py:554
 msgid "Show only ads with photos"
 msgstr "أظهر الإعلانات التي معها صور"
 
-#: search/forms.py:342 search/forms.py:355 search/forms.py:368
-#: search/forms.py:421 search/forms.py:472 search/forms.py:512
-#: search/forms.py:526 search/forms.py:565 search/forms.py:579
-#: search/forms.py:594
+#: search/forms.py:354 search/forms.py:357 search/forms.py:375
+#: search/forms.py:379 search/forms.py:396 search/forms.py:399
+#: search/forms.py:458 search/forms.py:461 search/forms.py:519
+#: search/forms.py:522 search/forms.py:568 search/forms.py:571
+#: search/forms.py:590 search/forms.py:629 search/forms.py:633
+#: search/forms.py:651 search/forms.py:655 search/forms.py:674
 msgid "From"
 msgstr "من"
 
-#: search/forms.py:349 search/forms.py:362 search/forms.py:373
-#: search/forms.py:428 search/forms.py:479 search/forms.py:519
-#: search/forms.py:533 search/forms.py:572 search/forms.py:586
-#: search/forms.py:601
+#: search/forms.py:365 search/forms.py:368 search/forms.py:386
+#: search/forms.py:390 search/forms.py:405 search/forms.py:408
+#: search/forms.py:469 search/forms.py:472 search/forms.py:530
+#: search/forms.py:533 search/forms.py:579 search/forms.py:582
+#: search/forms.py:597 search/forms.py:640 search/forms.py:644
+#: search/forms.py:662 search/forms.py:666 search/forms.py:681
 msgid "To"
 msgstr "إلى"
 
-#: search/forms.py:459
+#: search/forms.py:505
 msgid "Show only free ads"
 msgstr "أظهر فقط الإعلانات المجانية"
 
-#: templates/404-web.html:11
-msgid "Error - 404"
-msgstr "خطأ - 404"
-
-#: templates/404-web.html:12
-msgid "Escaped page alert"
-msgstr " بلاغ هروب الصفحة"
-
-#: templates/404-web.html:19
-msgid ""
-"Thank you for noticing - we've dispatched our ninja web monkeys who will "
-"hunt the errant page down"
+#: templates/404-web.html:21
+msgid "home"
 msgstr ""
-"شكراً لتعاونكم مع مسؤولي دوبيزل. سوف يتم البحث والعثور على هذه الصفحة في أقرب "
-"وقت ممكن وسنتأكد من عدم هروبها مرة أخرى! "
 
-#: templates/404-web.html:20
-msgid "Not all is lost! There's great stuff just around the corner"
+# not too clear
+#: templates/base.html:90 templates/user_profiles/my_listings.html:27
+msgid "Your account"
+msgstr "حسابك"
+
+#: templates/base.html:140
+msgid "Menu"
 msgstr ""
-"ولا يهمك.. يوجد المزيد من الصفحات الأخرى المسلية والمفيدة. فقط اضغط ادناه!"
 
-#: templates/404-web.html:23 templates/base_privacy.html:27
-#: templates/base_terms.html:33
-msgid "Go back"
-msgstr "الصفحة السابقة"
+# not too clear
+#: templates/base.html:155
+msgid "My account"
+msgstr "الحساب"
 
-#: templates/404-web.html:24 templates/base_privacy.html:31
-#: templates/base_terms.html:37 templates/generic.html:79
-#: templates/sell/badass-classifieds-ads.html:18
-#: templates/sell/how-it-works.html:17 templates/sell/how-to-post-ad.html:16
-#: templates/sell/why-dubizzle.html:16 templates/shared/listings.html:87
-msgid "Home"
-msgstr "الصفحة الرئيسية"
-
-#: templates/base_privacy.html:12 templates/public/_footer.html:16
+#: templates/base_privacy.html:12 templates/public/_footer.html:17
 msgid "Privacy Policy"
 msgstr "سياسة الخصوصية"
 
@@ -2709,7 +2780,6 @@ msgid "Terms of Use"
 msgstr "شروط وأحكام إستخدام موقع دوبيزل"
 
 #: templates/base_terms.html:16
-#, fuzzy
 msgid ""
 "\n"
 "THIS IS A LEGAL AGREEMENT BETWEEN YOU AND DUBIZZLE.COM STATING THE TERMS "
@@ -2720,86 +2790,98 @@ msgid ""
 "ACCESS TO THE WEBSITE FOR NONCOMPLIANCE WITH ANY OF THE TERMS OF THIS "
 "AGREEMENT\n"
 msgstr ""
-"ن دخول موقع dubizzle.com وإستخدامه يعني قبولك للإلتزامات القانونية المترتبة "
-"عليك وموافقتك الكاملة عليها بموجب هذه الشروط والآحكام. في حال عدم موافقتك "
-"بالشروط والأحكام أدناه يرجى عدم إستخدام موقع dubizzle.com. يجب الموافقة على "
-"هذه الشروط والأحكام بالكامل: الإضافات والتعديلات والإزالات غير مقبولة. في "
-"حال عدم الإلتزام بأي من شروط هذه الاتفاقية قد ترفض dubizzle منح الإستخدام."
+"\n"
+"تبين هذه الإتفاقية القانونية بينك وبين موقع dubizzle.com (والمشار إليه لاحقاً بإسم: الموقع) شروط استخدامك الموقع. بمجرد دخولك إلى الموقع واستخدامك إياه، تكون قد قبلت ضمناً بشروط الاستخدام هذه ووافقت على الالتزام بها، أما في حال عدم موافقتك على شروط الموقع، يرجى الخروج منه وعدم استخدامه. يجب عليك الموافقة والخضوع لشروط الاستخدام المذكورة، ولا يقبل موقع دوبيزل حق الاعتراض على أي تغيير، إضافات، أو حذف، ويملك حرية التصرف في منعك من دخول الموقع في حال عدم الاخلال بأي شرط من الشروط المذكورة في الاتفاقية. \n"
 
-#: templates/generic.html:24
-msgid "Browse"
-msgstr "تصفح"
 
-# not too clear
-#: templates/generic.html:43 templates/user_profiles/my_listings.html:20
-msgid "My account"
-msgstr "الحساب"
+#: templates/generic.html:36 templates/search/category_widget.html:37
+msgid "Back to dubizzle"
+msgstr "الرجوع إلى صفحة دوبيزل"
 
-#: templates/generic.html:62 templates/generic.html.py:67
-#: templates/generic.html:136 templates/generic.html.py:141
-#: templates/authentication/login.html:55
-#: templates/user_profiles/my_listings.html:46
-msgid "Place an ad"
-msgstr "أضف إعلان"
+#: templates/generic.html:43
+msgid "Your ads"
+msgstr "إعلاناتك"
 
-#: templates/generic.html:91
-msgid "View all"
-msgstr "اظهر الجميع - "
+#: templates/generic.html:49 templates/user_profiles/my_listings.html:108
+msgid "Your rejected ads"
+msgstr "إعلاناتك المرفوضة"
 
-# not too clear
-#: templates/generic.html:109
-msgid "My Account"
-msgstr "الحساب"
+#: templates/generic.html:55 templates/user_profiles/my_listings.html:193
+msgid "Your pending ads"
+msgstr "إعلاناتك التي تنتظر الموافقة"
+#: templates/generic.html:60 templates/user_profiles/my_listings.html:245
+msgid "your live ads"
+msgstr "إعلاناتك المنشورة"
 
-#: templates/generic.html:157
-msgid "View all in"
-msgstr "اظهر الجميع في"
-
-#: templates/authentication/change_password.html:13
+#: templates/generic.html:65
+msgctxt "my_listings"
 msgid "Change password"
-msgstr "تأكيد كلمة السر"
+msgstr "غير كلمة السر"
 
-#: templates/authentication/change_password.html:15
-#: templates/user_profiles/my_listings.html:22
-#, python-format
-msgid "Not %(email)s?"
-msgstr "لست %(email)s؟"
-
-#: templates/authentication/change_password.html:16
-#: templates/user_profiles/my_listings.html:24
+#: templates/generic.html:70 templates/authentication/change_password.html:22
 msgid "Logout"
 msgstr "الخروج من الحساب"
 
-#: templates/authentication/change_password.html:30
-#: templates/authentication/forgot_password.html:22
-#: templates/authentication/login.html:25
+#: templates/generic.html:137
+msgid "Filters"
+msgstr "فلاتر البحث"
+
+#: templates/generic.html:151
+#: templates/listings/snippets/_scam_warning.html:12
+msgid "Close"
+msgstr "إغلاق"
+
+#: templates/generic.html:158
+msgid "Reset"
+msgstr "إعادة ضبط"
+
+#: templates/authentication/change_password.html:11
+msgid "Change password"
+msgstr "تأكيد كلمة السر"
+
+#: templates/authentication/change_password.html:18
+
+msgid ""
+"\n"
+"        Not %(email)s?\n"
+"    "
+msgstr "\n لست %(email)s؟"
+
+#: templates/authentication/change_password.html:37
+#: templates/authentication/forgot_password.html:39
+#: templates/authentication/login.html:39
 #: templates/authentication/reset_password.html:20
-#: templates/listings/reply/reply_to_listing_include.html:24
-#: templates/listings/report/report_listing.html:30
-#: templates/public/contact_us.html:41
+#: templates/listings/report/report_listing.html:53
+#: templates/public/contact_us.html:42
 msgid "Please fix the errors below"
 msgstr "من فضلك راجع وصحح الاخطاء أدناه. "
 
-#: templates/authentication/change_password.html:85
+#: templates/authentication/change_password.html:92
 #: templates/authentication/reset_password.html:56
 msgid "Change it for me"
 msgstr "تغيير"
 
-#: templates/authentication/forgot_password.html:5
-#: templates/authentication/login.html:47
-#: templates/listings/manage_listing.html:242
-#: templates/listings/snippets/_form.html:208
+#: templates/authentication/forgot_password.html:10
+#: templates/authentication/login.html:75
+#: templates/listings/manage_listing.html:167
+#: templates/listings/snippets/_form.html:217
 msgid "Forgot your password?"
 msgstr "نسيت كلمة السر؟"
 
-#: templates/authentication/forgot_password.html:13
+#: templates/authentication/forgot_password.html:16
 msgid ""
 "It's OK, we all forget. Simply enter your email address and we'll email you "
 "a link to reset your password."
 msgstr ""
 "لا داعى للقلق. فقط ادخل عنوان الإيميل وسنرسل لك رابط لإعادة تعيين كلمة السر."
 
-#: templates/authentication/forgot_password.html:42
+#: templates/authentication/forgot_password.html:53
+#: templates/authentication/forgot_password.html:54
+#, fuzzy
+msgid "Email adress"
+msgstr "عنوان الإيميل"
+
+#: templates/authentication/forgot_password.html:61
 msgid "Reset password"
 msgstr "اعادة تعيين كلمة السر"
 
@@ -2808,34 +2890,34 @@ msgid "Help is on the way. We've e-mailed you a link to reset your password."
 msgstr "لا داعي للقلق. سيصلك إيميل قريباً برابط لإعادة تعيين كلمة السر."
 
 # this needs a full stop at end; it's followed by 271
-#: templates/authentication/login.html:5
+#: templates/authentication/login.html:10
 msgid "Sign in"
 msgstr "سجل دخولك"
 
-#: templates/authentication/login.html:6
+#: templates/authentication/login.html:14
 msgid "It's as fast as saying &#34;Open Sesame&#34;"
 msgstr "أسهل من سلق بيضة :)"
 
-#: templates/authentication/login.html:49
+#: templates/authentication/login.html:79
 msgid "Sign in – show me my stuff"
 msgstr "ادخل حسابك وراجع اعلاناتك"
 
-#: templates/authentication/login.html:54
+#: templates/authentication/login.html:84
 msgid "Don't have an account?"
 msgstr "ليس لديك حساب؟"
 
-#: templates/authentication/login.html:55
+#: templates/authentication/login.html:88
 msgid " to create one on the fly!"
 msgstr "لإنشاء حساب جديد"
 
-#: templates/authentication/login_denied.html:14
+#: templates/authentication/login_denied.html:13
 msgid ""
 "It seems your account has been blocked or suspended; Contact us for more "
 "details."
 msgstr " يبدو أنه تم إيقاف أو تعليق حسابك، اتصل بنا لمزيد من التفاصيل"
 
-#: templates/authentication/login_denied.html:19
-#: templates/public/contact_us_complete.html:28
+#: templates/authentication/login_denied.html:16
+#: templates/public/contact_us_complete.html:26
 msgid "Contact us"
 msgstr "راسلنا"
 
@@ -2851,18 +2933,6 @@ msgstr "غير كلمة السر"
 #: templates/authentication/reset_password_complete.html:10
 msgid "Phew! Your password has now been changed."
 msgstr "وأخيرا. تم تغيير كلمة السر الخاصة بك."
-
-#: templates/listings/_social_icons.html:11
-msgid "Share with friends"
-msgstr "شارك مع أصدقائك"
-
-#: templates/listings/_social_icons.html:15
-msgid "Facebook"
-msgstr "فيسبوك"
-
-#: templates/listings/_social_icons.html:19
-msgid "Twitter"
-msgstr "تويتر"
 
 #: templates/listings/delete_listing.html:16
 #: templates/listings/rejected/delete_workspace.html:16
@@ -2896,118 +2966,57 @@ msgstr "الرجاء تأكيد طلب الحذف."
 msgid "Confirm"
 msgstr "تأكيد "
 
-#: templates/listings/manage_listing.html:24
-msgid "Step 2 of 3"
-msgstr "الخطوة 2 من 3"
-
-#: templates/listings/manage_listing.html:28
-#: templates/listings/add/paa_taxonomy.html:25
-#: templates/listings/preview/listing_complete.html:25
-msgid "Choose your category"
-msgstr "نوع الإعلان؟"
-
-#: templates/listings/manage_listing.html:32
-#: templates/listings/add/paa_taxonomy.html:29
-#: templates/listings/preview/listing_complete.html:29
-msgid "Add photos & enter details"
-msgstr "أضف صور و تفاصيل الإعلان"
-
-#: templates/listings/manage_listing.html:36
-#: templates/listings/add/paa_taxonomy.html:33
-#: templates/listings/preview/listing_complete.html:33
-msgid "Finish"
-msgstr "إنتهينا"
-
-#: templates/listings/manage_listing.html:57
+#: templates/listings/manage_listing.html:37
 #: templates/listings/snippets/_form.html:16
 msgid "We're almost there... please review the points below."
 msgstr "لم ننتهي بعد ولكن إقتربنا. من فضلك صحح الأخطاء أدناه. "
 
-#: templates/listings/manage_listing.html:65
+#: templates/listings/manage_listing.html:53
 msgid "Something went wrong, please try again."
 msgstr "هناك خطأ ما. حاول مرة اخرى"
 
-#: templates/listings/manage_listing.html:74
-#: templates/listings/add/create_inorganic_listing.html:25
+#: templates/listings/manage_listing.html:66
+#: templates/listings/add/create_inorganic_listing.html:27
 #: templates/listings/snippets/_form.html:28
 msgid "Change"
 msgstr "تعديل"
 
-#: templates/listings/manage_listing.html:88
-#: templates/listings/snippets/_form.html:45
-#: templates/sell/how-to-post-ad.html:36 templates/sell/how-to-post-ad.html:37
-#: templates/sell/how-to-post-ad.html:60
-msgid "Your ad title"
-msgstr "موضوع الإعلان"
-
-#: templates/listings/manage_listing.html:101
-#: templates/listings/snippets/_form.html:58
-msgid ""
-"Your title says it all - describe your ad clearly. Please DON'T USE CAPS."
-msgstr "فكر في عنوان واضح ومختصر لإعلانك."
-
-#: templates/listings/manage_listing.html:124
-#: templates/listings/snippets/_form.html:89
-msgid ""
-"Increase the chance of your ad appearing in a search: <br/>- Answer "
-"questions your buyer may have (dimensions, functions, availability) <br/>- "
-"Highlight benefits and specific details (warranties, features, etc.) <br/"
-">For your safety, email addresses and HTML formatting are not allowed."
-msgstr ""
-"الوصف الدقيق هو مفتاح البيع الاسرع: <br/>- حاول الرد على أسئلة المشتري "
-"(مثلاً: الحجم والأبعاد)<br/>- إشرح أهم المواصفات والمعلومات (مثلاً: الضمان إن "
-"وجد) يرجى عدم اضافة عنوان إيميلك داخل الوصف وهذا لحماية خصوصيتك."
-
-#: templates/listings/manage_listing.html:164
-msgid "Select your neighbourhood"
-msgstr "اختر محافظتك"
-
-#: templates/listings/manage_listing.html:194
-#: templates/listings/snippets/_form.html:161
-msgid "Mobile Number"
-msgstr "رقم الموبايل"
-
-#: templates/listings/manage_listing.html:196
-#: templates/listings/snippets/_form.html:163
+#: templates/listings/manage_listing.html:122
+#: templates/listings/snippets/_form.html:168
 msgid "example"
 msgstr "مثال"
 
-#: templates/listings/manage_listing.html:208
-#: templates/listings/snippets/_form.html:174
-msgid ""
-"We need mobile numbers to verify accounts and to detect scammers. Don't "
-"worry, you can choose not to show your mobile number in the ad (see option "
-"below)."
-msgstr ""
-"لا تقلق، لن نظهر رقم الموبايل على الموقع بدون موافقتك (التفاصيل ادناه)."
-
-#: templates/listings/manage_listing.html:238
-#: templates/listings/snippets/_form.html:204
+#: templates/listings/manage_listing.html:159
+#: templates/listings/snippets/_form.html:209
 msgid "I'm new to dubizzle. I need a password."
 msgstr "ليس لدي حساب على دوبيزل"
 
-#: templates/listings/manage_listing.html:242
-#: templates/listings/snippets/_form.html:208
+#: templates/listings/manage_listing.html:167
+#: templates/listings/snippets/_form.html:215
 msgid "I have a dubizzle password"
 msgstr "لدي حساب وكلمة سر"
 
-#: templates/listings/manage_listing.html:261
-#: templates/listings/snippets/_form.html:227
+#: templates/listings/manage_listing.html:187
+#: templates/listings/snippets/_form.html:236
 msgid "A valid email address ensures your ad will go live."
 msgstr "تأكد من ادخال عنوان ايميل صحيح حتى يتم نشر إعلانك."
 
-#: templates/listings/manage_listing.html:274
-#: templates/listings/snippets/_form.html:240
+#: templates/listings/manage_listing.html:198
+#: templates/listings/manage_listing.html:199
+#: templates/listings/manage_listing.html:201
+#: templates/listings/snippets/_form.html:247
+#: templates/listings/snippets/_form.html:248
 msgid "Confirm email"
 msgstr "تأكيد عنوان الإيميل"
 
-#: templates/listings/manage_listing.html:287
-#: templates/listings/snippets/_form.html:253
+#: templates/listings/manage_listing.html:213
+#: templates/listings/manage_listing.html:215
+#: templates/listings/snippets/_form.html:259
 msgid "Password (cAse SenSiTIvE)"
 msgstr "كلمة السر"
 
-#: templates/listings/manage_listing.html:305
-#: templates/listings/snippets/_form.html:271
+#: templates/listings/manage_listing.html:227
+#: templates/listings/snippets/_form.html:279
 msgid ""
 "Make it safe and secure. Use a mix of numbers and letters, and don't use "
 "something obvious like your auntie's friend's cat - well, maybe that's OK."
@@ -3015,24 +3024,27 @@ msgstr ""
 "اختر كلمة سر قوية وآمنة ويستحسن ان لا تكون كلمة السر تخص إسمك أو تاريخ "
 "ميلادك أو أي من افراد عائلتك."
 
-#: templates/listings/manage_listing.html:341
-#, python-format
+#: templates/listings/manage_listing.html:270
 msgid ""
-"By posting your ad you are agreeing to the dubizzle <a href=\"%(terms_url)s"
-"\" target=\"_blank\">terms & conditions</a>, the dubizzle <a href="
+"\n"
+"                                        By posting your ad you are agreeing "
+"to the dubizzle <a class=\"u-link\" href=\"%(terms_url)s\" target=\"_blank"
+"\">terms & conditions</a>, the dubizzle <a class=\"u-link\" href="
 "\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving "
-"marketing and promotional offers."
+"marketing and promotional offers.\n"
+"                                    "
 msgstr ""
+"\n"
 "عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" target=\"_blank"
 "\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\">سياسة "
 "الخصوصية</a> لدوبيزل، بالإضافة إلى قبول عروض تسويقية."
 
-#: templates/listings/manage_listing.html:352
+#: templates/listings/manage_listing.html:295
 msgid "Uploading photos, please wait..."
 msgstr "جاري التحميل. الرجاء الإنتظار."
 
-#: templates/listings/manage_listing.html:358
-#: templates/listings/snippets/_form.html:319
+#: templates/listings/manage_listing.html:305
+#: templates/listings/snippets/_form.html:324
 msgid "Yalla! Publish my ad"
 msgstr "يلا...انشر اعلاني!"
 
@@ -3046,49 +3058,36 @@ msgstr ""
 msgid "Make this awesome."
 msgstr ""
 
-#: templates/listings/add/create_listing.html:10
-#: templates/listings/add/paa_taxonomy.html:20
+#: templates/listings/add/create_listing.html:12
 msgid "Create a free ad in no time at all."
 msgstr "أضف أسهل وأسرع إعلان مجانا. "
 
-#: templates/listings/add/paa_taxonomy.html:21
-msgid "Step 1 of 3"
-msgstr "الخطوة 1 من 3"
+#: templates/listings/add/paa_taxonomy.html:20
+msgid "Pick a category"
+msgstr "إختر فئة"
 
-#: templates/listings/add/paa_taxonomy.html:41
+#: templates/listings/add/paa_taxonomy.html:31
 msgid "Please select a sub-category."
 msgstr "ما هو أنسب قسم لعرض إعلانك؟"
 
-#: templates/listings/add/paa_taxonomy.html:57
+#: templates/listings/add/paa_taxonomy.html:86
 msgid "Select an option"
 msgstr "إختر فئة."
 
-#: templates/listings/add/paa_taxonomy.html:73
-#: templates/search/category_widget.html:71 templates/search/widget.html:66
+#: templates/listings/add/paa_taxonomy.html:94
+#, fuzzy
+msgid "Select a category"
+msgstr "إختر فئة"
+
+#: templates/listings/add/paa_taxonomy.html:97 templates/search/widget.html:66
 msgid "Go"
 msgstr "عرض"
 
-#: templates/listings/add/paa_taxonomy.html:81
-msgid "What do you wanna sell today?"
-msgstr "ماذا ستبيع اليوم؟"
+#: templates/listings/add/paa_taxonomy.html:124
+msgid "Pick a sub-category"
+msgstr "ما هو أنسب قسم لعرض إعلانك؟"
 
-#: templates/listings/get/get_listing.html:71
-msgid "Back to results"
-msgstr "العودة إلى صفحة الإعلانات"
-
-#: templates/listings/get/get_listing.html:88
-msgid "Report this ad"
-msgstr "بلغ عن هذا الإعلان"
-
-#: templates/listings/get/get_listing.html:89
-msgid "Edit this ad"
-msgstr "تعديل"
-
-#: templates/listings/get/get_listing.html:90
-msgid "Delete this ad"
-msgstr "حذف الإعلان "
-
-#: templates/listings/get/get_listing.html:98
+#: templates/listings/get/get_listing.html:70
 msgid ""
 "This ad has already been edited and is awaiting approval. You'll get an "
 "email once the changes are live."
@@ -3096,40 +3095,83 @@ msgstr ""
 "عفواً، لن تستطيع تعديل اعلانك حتى تتم الموافقة على نشره. سنرسل لك إيميل عند "
 "نشره. لن نتأخر عليك!"
 
-#: templates/listings/get/get_listing.html:119
-#, python-format
-msgid "<span>%(price)s</span> %(translated_currency)s"
-msgstr "<span>%(price)s</span> %(translated_currency)s"
+#: templates/listings/get/get_listing.html:80
+msgid "Back to results"
+msgstr "العودة إلى صفحة الإعلانات"
 
-#: templates/listings/get/get_listing.html:137
+#: templates/listings/get/get_listing.html:102
 #, python-format
 msgid "Image %(count)s of %(listing_title)s"
 msgstr ""
 
-#: templates/listings/get/get_listing.html:173
-msgid "Show mobile number"
-msgstr "اظهر رقم الموبايل"
+#: templates/listings/get/get_listing.html:108
+msgid "View all details"
+msgstr "أظهر كافة التفاصيل"
 
-#: templates/listings/get/get_listing.html:183
-msgid "Send an email"
-msgstr "ارسل إيميل"
+#: templates/listings/get/get_listing.html:121
+#, fuzzy
+msgid "Read more"
+msgstr "ارني المزيد"
+
+#: templates/listings/get/get_listing.html:142
+msgid "Share with friends"
+msgstr "شارك مع أصدقائك"
+
+#: templates/listings/get/get_listing.html:149
+msgid "Report this ad"
+msgstr "بلغ عن هذا الإعلان"
+
+#: templates/listings/get/get_listing.html:160
+msgid "Important tips from dubizzle"
+msgstr ""
+"نصائح دوبيزلاوية عالسريع (نصائح عالسريع علشان يكون عندك صورة واضحة عن "
+"دوبيزل):"
+
+#: templates/listings/get/get_listing.html:165
+msgid "Show"
+msgstr "أظهر"
+
+#: templates/listings/get/get_listing.html:191
+#, python-format
+msgid ""
+"\n"
+"                                <span class=\"d-details-listing-price\">"
+"%(price)s</span>\n"
+"                                <small class=\"d-details-listing-currency\"> "
+"%(translated_currency)s"
+msgstr ""
+
+#: templates/listings/get/get_listing.html:205
+msgid "Call"
+msgstr ""
+
+#: templates/listings/get/get_listing.html:206
+msgid "Show number"
+msgstr "اظهر الرقم"
+
+#: templates/listings/get/get_listing.html:215
+#: templates/listings/reply/reply_to_listing_include.html:9
+msgid "Reply"
+msgstr ""
+
+#: templates/listings/get/get_listing.html:216
+#: templates/listings/reply/reply_to_listing_include.html:123
+msgid "Send reply"
+msgstr "أرسل رد"
 
 #: templates/listings/preview/listing_complete.html:20
 msgid "Hooray! Congratulations, your ad will go live very very soon."
 msgstr "مبروك! لقد اضفت إعلانك بنجاح وسنقوم بنشره قريبا."
 
-#: templates/listings/preview/listing_complete.html:21
-msgid "Step 3 of 3"
-msgstr "الخطوة 3 من 3"
-
-#: templates/listings/preview/listing_complete.html:38
+#: templates/listings/preview/listing_complete.html:29
+#, fuzzy
 msgid ""
 "\n"
-"                <p>Right now, we're going to quickly review your ad and make "
-"sure it's ready for dubizzle.</p>\n"
-"                <p>Once it's up and live, we'll tell you the good news in an "
-"email.</p>\n"
-"            "
+"                                Right now, we're going to quickly review "
+"your ad and make sure it's ready for dubizzle.\n"
+"                                Once it's up and live, we'll tell you the "
+"good news in an email.\n"
+"                            "
 msgstr ""
 "\n"
 "\t\t\t<p>\n"
@@ -3140,11 +3182,11 @@ msgstr ""
 "\t\t\t</p>\n"
 "\t\t\t"
 
-#: templates/listings/preview/listing_complete.html:45
+#: templates/listings/preview/listing_complete.html:42
 msgid "Back to home page"
 msgstr "العودة الى الصفحة الرئيسية"
 
-#: templates/listings/preview/listing_complete.html:48
+#: templates/listings/preview/listing_complete.html:49
 msgid "Place another ad"
 msgstr "اضف إعلان آخر"
 
@@ -3152,89 +3194,56 @@ msgstr "اضف إعلان آخر"
 msgid "Resubmit your ad"
 msgstr "إعادة وضع الإعلان"
 
-#: templates/listings/rejected/rejected_workspace.html:24
-#: templates/user_profiles/my_listings.html:124
+#: templates/listings/rejected/rejected_workspace.html:22
+#: templates/user_profiles/my_listings.html:143
 msgid "Rejection reason:"
 msgstr "سبب الرفض:"
 
-#: templates/listings/rejected/rejected_workspace.html:27
+#: templates/listings/rejected/rejected_workspace.html:23
 msgid "We suggest:"
 msgstr "إقتراحنا:"
 
-#: templates/listings/rejected/rejected_workspace.html:33
+#: templates/listings/rejected/rejected_workspace.html:30
 msgid "Change category"
 msgstr "تغيير الدولة"
 
-#: templates/listings/rejected/rejected_workspace.html:75
+#: templates/listings/rejected/rejected_workspace.html:72
 msgid "Choose"
 msgstr "إختر"
 
-#: templates/listings/rejected/rejected_workspace.html:109
+#: templates/listings/rejected/rejected_workspace.html:130
 msgid "Category "
 msgstr "القسم"
 
-#: templates/listings/rejected/rejected_workspace.html:127
+#: templates/listings/rejected/rejected_workspace.html:134
 msgid "Save!"
 msgstr ""
 
-#: templates/listings/reply/reply_to_listing_include.html:36
-msgid ""
-"Tips from dubizzle: <br/>1) Meet in person in a public place. <br/>2) Don't "
-"send money or your financial details (e.g. cheques, deposit, etc.) <br/>3) "
-"Ask for relevant documentation, if applicable (e.g. warranties, ID)."
+#: templates/listings/reply/reply_to_listing_include.html:27
+msgid "Your message was not sent. Please check the errors below."
 msgstr ""
-"من أجل سلامتك:<br/>1. تعامل مع معلنين من مدينتك وقم بإجراء جميع معاملات "
-"البيع والشراء وجهاً لوجه. <br/>2. لا ترسل الأموال أو معلوماتك المصرفية إلى أي "
-"شخص تعرفت عليه عبر الإنترنت تحت أي ظرف من الظروف."
 
-#: templates/listings/reply/reply_to_listing_include.html:46
-#: templates/listings/report/report_listing.html:43
-msgid "Your name is?"
-msgstr "الإسم"
-
+#: templates/listings/reply/reply_to_listing_include.html:60
 #: templates/listings/reply/reply_to_listing_include.html:61
-#: templates/listings/report/report_listing.html:59
-msgid "What's your email?"
-msgstr "عنوان الإيميل"
+msgid "Phone"
+msgstr ""
 
-#: templates/listings/reply/reply_to_listing_include.html:76
-#: templates/listings/report/report_listing.html:75
-msgid "Your mobile number"
-msgstr "رقم الموبايل"
+#: templates/listings/reply/reply_to_listing_include.html:84
+#, fuzzy
+msgid "Upload"
+msgstr "تحميل السيرة الذاتية"
 
-#: templates/listings/reply/reply_to_listing_include.html:91
-msgid "What do you want to tell them?"
-msgstr "رسالتك للمعلن"
-
-#: templates/listings/reply/reply_to_listing_include.html:108
+#: templates/listings/reply/reply_to_listing_include.html:88
 msgid "Accepted formats: pdf, doc, txt, rtf"
 msgstr "الملفات المدعومة: rtf/doc/pdf/docx"
 
-#: templates/listings/reply/reply_to_listing_include.html:125
-#: templates/listings/report/report_listing.html:123
-#: templates/public/contact_us.html:157
+#: templates/listings/reply/reply_to_listing_include.html:104
+#: templates/listings/report/report_listing.html:164
+#: templates/public/contact_us.html:137
 msgid "Please enter the 4 letters as shown in the image below"
 msgstr "من فضلك أدخل الحروف في الصورة أدناه"
 
-#: templates/listings/reply/reply_to_listing_include.html:140
-msgid "Send my reply"
-msgstr "أرسل رسالتي"
-
-#: templates/listings/reply/reply_to_listing_include.html:147
-#, python-format
-msgid ""
-"By clicking on 'Send my reply' I agree to the dubizzle <a href="
-"\"%(terms_url)s\"> terms and conditions</a> and the dubizzle <a href="
-"\"%(privacy_url)s\">privacy policy</a>"
-msgstr ""
-"عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\">شروط "
-"وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\">سياسة الخصوصية</a>."
-
-#: templates/listings/reply/reply_to_listing_include.html:153
-msgid "Bravo!"
-msgstr "مبروك وبالتوفيق!"
-
-#: templates/listings/reply/reply_to_listing_include.html:154
+#: templates/listings/reply/reply_to_listing_include.html:143
 msgid ""
 "You did it...you're one step closer to getting what you want. Never stop "
 "searching and you'll find more of what you want."
@@ -3242,137 +3251,133 @@ msgstr ""
 "اضغط على \"العودة إلى صفحة الإعلانات\" لمتابعة البحث وكما قال الشاعر: اصبر "
 "على الحصرم يصير عنب"
 
-#: templates/listings/reply/reply_to_listing_include.html:155
-#: templates/listings/report/report_listing.html:19
+#: templates/listings/reply/reply_to_listing_include.html:148
+#: templates/listings/report/report_listing.html:29
 msgid "Back to listings"
 msgstr "العودة إلى صفحة الإعلانات"
 
-#: templates/listings/report/report_listing.html:18
+#: templates/listings/report/report_listing.html:21
 msgid "Thank you for reporting an ad on our site!"
 msgstr "شكرا لمساهمتك!"
 
-#: templates/listings/report/report_listing.html:38
+#: templates/listings/report/report_listing.html:66
+#, fuzzy
+msgid "Back to AD"
+msgstr "العودة الى بداية الصفحة"
+
+#: templates/listings/report/report_listing.html:69
 msgid "Report"
 msgstr "بلغ عن هذا الإعلان"
 
-#: templates/listings/report/report_listing.html:91
-msgid "Reason"
-msgstr "السبب"
+#: templates/listings/report/report_listing.html:81
+#: templates/listings/report/report_listing.html:83
+msgid "Your name is?"
+msgstr "الإسم"
 
-#: templates/listings/report/report_listing.html:107
-msgid "Message"
-msgstr "الرسالة"
+#: templates/listings/report/report_listing.html:98
+#, fuzzy
+msgid "What&#39;s your email?"
+msgstr "عنوان الإيميل"
 
-#: templates/listings/report/report_listing.html:137
+#: templates/listings/report/report_listing.html:100
+msgid "What's your email?"
+msgstr "عنوان الإيميل"
+
+#: templates/listings/report/report_listing.html:115
+#: templates/listings/report/report_listing.html:117
+msgid "Your mobile number"
+msgstr "رقم الموبايل"
+
+#: templates/listings/report/report_listing.html:177
 msgid "Report ad"
 msgstr "بلغ عن هذا الإعلان"
 
-#: templates/listings/snippets/_form.html:307
-#, python-format
+#: templates/listings/snippets/_form.html:45
+#: templates/sell/how-to-post-ad.html:36 templates/sell/how-to-post-ad.html:37
+#: templates/sell/how-to-post-ad.html:60
+msgid "Your ad title"
+msgstr "موضوع الإعلان"
+
+#: templates/listings/snippets/_form.html:136
+msgid "Neighborhood"
+msgstr "المنطقة"
+
+#: templates/listings/snippets/_form.html:316
 msgid ""
 "\n"
-"                        By posting your ad you are agreeing to the dubizzle "
-"<a href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the "
-"dubizzle <a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> "
-"and to receiving marketing and promotional offers.\n"
-"                    "
+"                By posting your ad you are agreeing to the dubizzle <a href="
+"\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the dubizzle <a "
+"href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to "
+"receiving marketing and promotional offers.\n"
+"            "
 msgstr ""
 "\n"
 "عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" target=\"_blank"
 "\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\">سياسة "
 "الخصوصية</a> لدوبيزل، بالإضافة إلى قبول عروض تسويقية."
 
-#: templates/listings/snippets/_scam_warning.html:3
-msgid "Important tips from dubizzle"
+#: templates/listings/snippets/_scam_warning.html:4
+msgid "Never wire money or financial info to a seller on the internet."
 msgstr ""
-"نصائح دوبيزلاوية عالسريع (نصائح عالسريع علشان يكون عندك صورة واضحة عن "
-"دوبيزل):"
+"لا تُشارك معلوماتك البنكية أو المالية مع أي شخص تعرفت عليه عن طريق الإنترنت "
+"(لا ترسل شيكات أو دفعة مالية مقدمة ولا أي شي مثله)"
 
 #: templates/listings/snippets/_scam_warning.html:5
-msgid ""
-"dubizzle offers its service for free and has no middlemen or subsidiaries."
-msgstr ""
-" دوبيزل يُقدم خدماته مجاناً من دون مقابل من دون وجود وسيط تجاري أو شركات فرعية."
+msgid "For your security, all transactions should be done in person."
+msgstr "لأن الحذر واجب، لا تبيع أو تشتري أي شيء من لقاء الطرف الثاني شخصياً."
 
 #: templates/listings/snippets/_scam_warning.html:6
 msgid ""
-"Please be careful not to fall for scam messages sent to buyers or sellers."
-msgstr ""
-"لأن الحذر واجب، إنتبه من الوقوع في فخ رسائل النصب \"السكام\" التي ترسل إلى "
-"البائع أو المشتري."
-
-#: templates/listings/snippets/_scam_warning.html:7
-msgid ""
-"Always meet in person and in a public place like a club, a coffee shop, or a "
-"metro station."
-msgstr ""
-" دائماً قابل الناس شخصياً و في أماكن عامة مثل الكوفي شوب أو محطات المواصلات."
-
-#: templates/listings/snippets/_scam_warning.html:8
-msgid ""
-"Never send money or your financial details to any person you knew from the "
-"internet (e.g. cheques, deposit, etc.)."
-msgstr ""
-"لا تشارك معلوماتك البنكية أو المالية مع أي شخص تعرفت عليه عن طريق الإنترنت "
-"(يعني لا ترسل شيكات أو دفعة مالية مقدمة ولا أي شي مثله)."
-
-#: templates/listings/snippets/_scam_warning.html:9
-msgid ""
-"If a buyer or seller sounds fishy or the offer is too good to be true, they "
-"probably are!"
-msgstr ""
-"لمّا تكون السلعة أو الخدمة غير منطقية، غير واقعية، وصعب تصديقها، فهذا يعني: "
-"إنتبه!"
-
-#: templates/listings/snippets/_scam_warning.html:10
-msgid ""
-"If the buyer or seller asks you to ship the item you’re selling or want to "
-"buy in return for money transfers, then it is almost certainly a fraud. "
-"Never give your bank details to any person and never sell or buy anything "
-"unless you meet the person yourself."
-msgstr ""
-" إذا طلب منك الشخص القيام بشحن السلعة أو عرض عليك خدمة مقابل حوالة بنكية، "
-"هذا يعني أن الآخ محتال. لا تعطي تفاصيل حسابك البنكي لأي شخص، ولا تبيع أو "
-"تشتري أي شيء من دون لقاء الطرف الثاني شخصياً."
-
-#: templates/listings/snippets/_scam_warning.html:11
-msgid ""
-"One last thing, inspect the item you wish to buy carefully or ask for the "
-"help of one of your friends."
+"Inspect the item you wish to buy carefully or ask for the help of one of "
+"your friends."
 msgstr ""
 " نصيحتنا الأخيرة، إنك تفحص الغرض الذي تريد شراؤه ويُفضل طلب المساعدة من صديق "
 "عنده خبرة بالموضوع. "
 
-#: templates/listings/snippets/photos/_manage_photos.html:9
-msgid "Add some photos"
-msgstr "اضف صور"
+#: templates/listings/snippets/_scam_warning.html:7
+msgid "Please report scams."
+msgstr "انتبه من الوقوع في فخ رسائل النصب ""السكام"" وساعدنا عن طريق الإبلاغ عنها."
 
-#: templates/listings/snippets/photos/_manage_photos.html:10
-msgid ""
-"Add original photos and get your ad featured on our home page (where "
-"everyone can see it)."
+#: templates/listings/snippets/fields/typed_list_field.html:17
+#, python-format
+msgid " Add %(label)s "
 msgstr ""
-" أضف صورأصلية لإعلانك لتزيد من فرصة عرضه على الصفحة الرئيسية (لكى يراه "
-"الجميع)."
 
-#: templates/listings/snippets/photos/_manage_photos.html:17
+#: templates/listings/snippets/fields/widgets/hideable_multi_widget.html:9
+#, fuzzy
+msgid "Skill"
+msgstr "المهارات"
+
+#: templates/listings/snippets/fields/widgets/hideable_multi_widget.html:17
+#, fuzzy
+msgid "Remove skill"
+msgstr "احذفها"
+
+#: templates/listings/snippets/photos/_manage_photos.html:23
 msgid "Hey, please re-attach the photo."
 msgstr "عذرا, الرجاء إعادة تحميل الصورة."
 
-#: templates/listings/snippets/photos/_manage_photos.html:23
+#: templates/listings/snippets/photos/_manage_photos.html:26
 msgid "To delete photos, you'll need to enable Javascript."
 msgstr "لحذف الصور، عليك تفعيل تقنية الجافا سكربت في متصفحك."
 
-#: templates/listings/snippets/photos/_manage_photos.html:75
+#: templates/listings/snippets/photos/_manage_photos.html:47
+msgid "Add some photos"
+msgstr "اضف صور"
+
+#: templates/listings/snippets/photos/_manage_photos.html:92
 msgid "Add a photo"
 msgstr "اضف صور"
 
-#: templates/listings/snippets/photos/_manage_photos.html:81
-#, python-format
+#: templates/listings/snippets/photos/_manage_photos.html:97
+
 msgid ""
-"Ads with photos sell much better. Use up to %(max_photos)s good quality "
-"photos. Accepted formats: jpg, png, or gif."
+"\n"
+"                        Ads with photos sell much better. Use up to "
+"%(max_photos)s good quality photos. Accepted formats: jpg, png, or gif.\n"
+"                    "
 msgstr ""
+"\n"
 "هل تعلم أن الصور تؤدي للبيع بمعدل أعلى بكثير؟ يمكنك إضافة %(max_photos)s صور "
 "واضحة وأصلية. انواع الملفات المدعومة: jpg, png, gif."
 
@@ -3386,19 +3391,15 @@ msgstr "احذفها"
 msgid "Edit your ad."
 msgstr "تعديل"
 
-#: templates/public/_footer.html:6
-msgid "Back to top"
-msgstr "العودة الى بداية الصفحة"
-
-#: templates/public/_footer.html:10
+#: templates/public/_footer.html:9
 msgid "Contact"
 msgstr "راسلنا"
 
-#: templates/public/_footer.html:19 templates/sitemaps/sitemap.html:28
+#: templates/public/_footer.html:21 templates/sitemaps/sitemap.html:28
 msgid "Sitemap"
 msgstr "خريطة الموقع"
 
-#: templates/public/_footer.html:26
+#: templates/public/_footer.html:25
 msgid ", dubizzle.com, All Rights Reserved."
 msgstr ", dubizzle.com, جميع الحقوق محفوظة."
 
@@ -3437,19 +3438,21 @@ msgstr ""
 msgid "About Us"
 msgstr "تعرف علينا"
 
-#: templates/public/contact_us.html:21
+#: templates/public/contact_us.html:19
 msgid ""
 "\n"
-"            <p>\n"
-"                Hello again,<br />\n"
-"                Here are 3 reasons why you should contact us: \n"
-"            </p>\n"
-"            <ol>\n"
-"                <li>we love to help our dubizzlers</li>\n"
-"                <li>it's more fun when we know who you are</li>\n"
-"                <li>we hired friendly staff whose job is to respond to your "
-"queries (not browse the net all day)</li>\n"
-"            </ol>\n"
+"            <div class=\"u-r\">\n"
+"                <div class=\"u-c u-c--12o12\">\n"
+"                    <h1>Hello again,</h1>\n"
+"                    <p>Here are 3 reasons why you should contact us: </p>\n"
+"                    <ol>\n"
+"                        <li>we love to help our dubizzlers</li>\n"
+"                        <li>it's more fun when we know who you are</li>\n"
+"                        <li>we hired friendly staff whose job is to respond "
+"to your queries (not browse the net all day)</li>\n"
+"                    </ol>\n"
+"                </div>\n"
+"            </div>\n"
 "        "
 msgstr ""
 "\n"
@@ -3460,148 +3463,167 @@ msgstr ""
 "<ol>\n"
 "<li> نحن نحب مساعدتكم</li>\n"
 "<li> النبي وصى على سابع جار</li>\n"
-"<li> لدينا موظفون يسهرون على خدمتكم والاجابة علي استفساراتكم </li>\n"
+"<li> فريق خدمة العملاء لدينا يسهر على خدمتكم والاجابة علي استفساراتكم </li>\n"
 "</ol>\n"
 "            "
 
-#: templates/public/contact_us.html:52
+#: templates/public/contact_us.html:54
 msgid "Subject: what's this about?"
 msgstr "نوع الاستفسار (ساعدنا في سرعة الرد عليك!)"
 
-#: templates/public/contact_us.html:68
+#: templates/public/contact_us.html:66
 msgid "Your name (or nickname)"
 msgstr "الإسم"
 
-#: templates/public/contact_us.html:110
+#: templates/public/contact_us.html:78
+msgid "Mobile number"
+msgstr "رقم الموبايل"
+
+#: templates/public/contact_us.html:102
 msgid "Email address (again)"
 msgstr "تأكيد عنوان الإيميل"
 
-#: templates/public/contact_us.html:126
+#: templates/public/contact_us.html:114
 msgid "City/Country"
 msgstr "المدينة/الدولة"
 
-#: templates/public/contact_us.html:142
+#: templates/public/contact_us.html:126
 msgid "Message: What's on your mind?"
 msgstr "موضوع الرسالة"
 
-#: templates/public/contact_us.html:172
+#: templates/public/contact_us.html:140
+msgid "Captcha"
+msgstr ""
+
+#: templates/public/contact_us.html:151
 msgid "Send"
 msgstr "أرسل"
 
-#: templates/public/contact_us_complete.html:21
+#: templates/public/contact_us_complete.html:17
 msgid ""
 "\n"
-"                Sweet!<br /> \n"
-"                A customer care dubizzler will handle your message "
-"personally and \n"
-"                will get back to you as soon as they have an answer...<br /"
-">\n"
-"                In the meantime, if you want to contact us again, we're more "
-"than happy to help.\n"
-"            "
+"        <div class=\"u-c u-c--12o12\">\n"
+"            <h3>Sweet!</h3>\n"
+"            <p>A customer care dubizzler will handle your message personally "
+"and will get back to you as soon as they have an answer...</p>\n"
+"            <p>In the meantime, if you want to contact us again, we're more "
+"than happy to help.</p>\n"
+"        </div>\n"
+"    "
 msgstr ""
 "\n"
 "يا حلاوة!<br />\n"
-"سيقوم اخصائي دوبيزلي بتولي استفسارك والرد عليك حال أن يجد اجابة...<br />\n"
-"واذا كان هناك طلب آخر.. فتفضلوا.. نحن في خدمتكم.\n"
+"سيقوم أخصائي دوبيزلاوي بتولي مهمة الرد على استفسارك في أسرع وقت ممكن...<br />\n"
+"وفي حال وجود استفسارات أخرى، راسلنا مجدداً، طلباتك أوامر ونحن في خدمتك.\n"
 "                "
 
-#: templates/public/home.html:17 templates/search/search.html:63
+#: templates/public/home.html:23 templates/search/search.html:62
 msgid "Buy, sell and find anything"
 msgstr "بيع واشتري وأعثر على أى شيء "
 
-#: templates/public/home.html:33
+#: templates/public/home.html:68
+#, python-format
 msgid ""
 "\n"
-"                                Cars, jobs, properties, classifieds and so "
-"much more!\n"
-"                            "
+"                                                            <span class=\"d-"
+"listing__price__value\">\n"
+"                                                                %(price)s\n"
+"                                                            </span>\n"
+"                                                            <span class=\"d-"
+"listing__price__currency\">\n"
+"                                                                %(translated_currency)s\n"
+"                                                            </span>\n"
+"                                                        "
 msgstr ""
-"\n"
-"عقارات وسيارت وإلكترونيات وفرص عمل والكثير الكثير غيرها\n"
-"                    "
 
-#: templates/public/home.html:37
+#: templates/public/home.html:91
+msgid "Oh camel droppings!"
+msgstr "يا للهوووول!!"
+
+#: templates/public/home.html:92
+msgid "We couldn't find anything to match your search."
+msgstr "لم نجد أي نتائج لبحثك!"
+
+#: templates/public/home.html:93
 msgid ""
-"\n"
-"                                Thousands of cars, jobs, properties, "
-"classifieds and so much more!\n"
-"                            "
-msgstr ""
-"\n"
-"آلاف السيارات والوظائف والعقار والمبوبات والكثير الكثير.\n"
-"                    "
+"Try using different keywords or widening your seach and it should be more "
+"fruitful."
+msgstr "جرب كلمات بحث اخرى لتسهل البحث. "
 
-#: templates/public/home.html:48
+#: templates/public/home.html:98 templates/sell/badass-classifieds-ads.html:18
+#: templates/sell/how-it-works.html:17 templates/sell/how-to-post-ad.html:16
+#: templates/sell/why-dubizzle.html:16
+msgid "Home"
+msgstr "الصفحة الرئيسية"
+
+#: templates/public/home.html:110
 msgid "Load more"
 msgstr "ارني المزيد"
 
-#: templates/public/landing.html:42 templates/public/landing.html.py:47
-msgid "Place your free ad"
-msgstr "أضف إعلانك المجاني"
-
-#: templates/public/landing.html:60
+#: templates/public/landing.html:41
 msgid "Select your city and find the best deals from thousands of ads!"
 msgstr "اختر مدينتك و ابحث عن أفضل الصفقات من بين آلاف الإعلانات."
 
-#: templates/public/landing.html:105
+#: templates/public/landing.html:85
 msgid "Property for Sale"
 msgstr "عقارات للبيع"
 
-#: templates/public/landing.html:117
+#: templates/public/landing.html:97
 msgid "Jobs"
 msgstr "وظائف"
 
-#: templates/public/landing.html:129
+#: templates/public/landing.html:109
 msgid "Select your city"
 msgstr "اختر مدينتك"
 
-#: templates/public/landing.html:133
+#: templates/public/landing.html:113
 msgid "Select the city closest to where you live"
 msgstr "حدد المدينة الأقرب لك"
 
-#: templates/public/landing.html:138
+#: templates/public/landing.html:118
 msgid "Contact the advertiser"
 msgstr "تواصل مع المعلن"
 
-#: templates/public/landing.html:142
+#: templates/public/landing.html:122
 msgid "Find the ad you like, and contact the advertiser directly"
 msgstr "تواصل مع المعلن عندما تجد ما تبحث عنه"
 
-#: templates/public/landing.html:147
+#: templates/public/landing.html:127
 msgid "Get a great deal"
 msgstr "أحصل على عرض رائع"
 
-#: templates/public/landing.html:151
+#: templates/public/landing.html:131
 msgid "Meet and finish your bargain face to face."
 msgstr "اتمم الصفقة وجها لوجه"
 
-#: templates/search/_pagination.html:10 templates/search/_pagination.html:20
-msgid "First page"
-msgstr "الاولى"
-
-#: templates/search/_pagination.html:15 templates/search/_pagination.html:23
-msgid "Previous"
-msgstr "السابقة"
-
-#: templates/search/_pagination.html:38 templates/search/_pagination.html:48
-#: templates/user_profiles/my_live_listings.html:22
-#: templates/user_profiles/my_pending_listings.html:22
-#: templates/user_profiles/my_rejected_listings.html:22
+#: templates/search/_pagination.html:41
+#: templates/user_profiles/my_live_listings.html:23
+#: templates/user_profiles/my_pending_listings.html:23
+#: templates/user_profiles/my_rejected_listings.html:23
 msgid "Next"
 msgstr "التالية"
 
-#: templates/search/_pagination.html:43 templates/search/_pagination.html:51
-msgid "Last page"
-msgstr "الاخيرة"
-
 #: templates/search/_search_bar_snippet.html:11
-#: templates/search/_search_bar_snippet.html:14
 msgid "Search"
 msgstr "إبحث"
 
-#: templates/search/_search_bar_snippet.html:19
-#, python-format
+#: templates/search/_search_bar_snippet.html:18
+msgid "Click to search"
+msgstr "اضغط للبحث"
+
+#: templates/search/_search_bar_snippet.html:23
+
+msgid ""
+"\n"
+"        Show only %(CURRENT_LANGUAGE)s ads\n"
+"        "
+msgstr ""
+"\n"
+"اظهر فقط الإعلانات المضافة بال%(CURRENT_LANGUAGE)s\n"
+"                    "
+
+#: templates/search/browse_widget.html:68
+
 msgid ""
 "\n"
 "                        Show only %(CURRENT_LANGUAGE)s ads\n"
@@ -3611,43 +3633,47 @@ msgstr ""
 "اظهر فقط الإعلانات المضافة بال%(CURRENT_LANGUAGE)s\n"
 "                    "
 
-#: templates/search/browse_widget.html:19
-#: templates/search/browse_widget.html:37
-msgid "in all of dubizzle"
-msgstr "في كامل الموقع"
-
-#: templates/search/browse_widget.html:47
-msgid "More options"
-msgstr "إختيارات أكثر"
-
-#: templates/search/browse_widget.html:85
-#, python-format
-msgid ""
-"\n"
-"                                Show only %(CURRENT_LANGUAGE)s ads\n"
-"                            "
-msgstr ""
-"\n"
-"اظهر فقط الإعلانات المضافة بال%(CURRENT_LANGUAGE)s\n"
-"                    "
-
-#: templates/search/browse_widget.html:118
+#: templates/search/browse_widget.html:94
 msgid "Refine"
 msgstr "تصفية البحث"
 
-#: templates/search/category_widget.html:78
-msgid "Show all"
-msgstr "اظهر الجميع"
+#: templates/search/category_widget.html:8
+msgid "or pick a category"
+msgstr "إختر فئة"
 
-#: templates/search/search.html:60
+#: templates/search/category_widget.html:18
+msgid "back to dubizzle"
+msgstr "الرجوع إلى صفحة دوبيزل"
+
+#: templates/search/category_widget.html:45
+#: templates/search/category_widget.html:66
+#: templates/search/category_widget.html:88
+#, fuzzy
+msgid "back to"
+msgstr "العودة الى بداية الصفحة"
+
+
+#: templates/search/search.html:47
+msgid "Wosh! This has either expired or been deleted."
+msgstr "ياللهول! الإعلان اختفى إما لانتهاء مدته أو أن صاحبه حذفه."
+
+#: templates/search/search.html:48
+msgid "Continue browsing, you might find what you were looking for :)"
+msgstr "لكن على فكرة، مازال بإمكانك الاستمتاع بتصفح الموقع وقد تجد الذي كنت تبحث عنه"
+
+#: templates/search/search.html:59
 msgid "in"
 msgstr "في"
 
-#: templates/search/search.html:60
+#: templates/search/search.html:59
 msgid ","
 msgstr "،"
 
-#: templates/search/search.html:73
+#: templates/search/search.html:85
+msgid "Sort"
+msgstr "رتب"
+
+#: templates/search/search.html:95
 #, python-format
 msgid ""
 "\n"
@@ -3682,17 +3708,9 @@ msgstr[5] ""
 "وجدنا <span class=\"red\">%(counter)s</span> اعلان\n"
 "                "
 
-#: templates/search/search.html:82
-msgid "Sort by"
-msgstr "رتب حسب"
-
-#: templates/search/search.html:88
-msgid "Sort"
-msgstr "رتب"
-
-#: templates/search/search_listings.html:27
-msgid "Place your ad"
-msgstr "أضف إعلانك"
+#: templates/search/search.html:110
+msgid "edit filters"
+msgstr "تصفية البحث"
 
 #: templates/search/widget.html:71
 msgid "No results..."
@@ -4206,24 +4224,22 @@ msgstr "الأدوية"
 msgid "Drugs"
 msgstr "العقاقير المخدرة"
 
-#: templates/shared/listings.html:68
+#: templates/shared/listings.html:55
 #, python-format
-msgid "%(translated_currency)s %(price)s"
-msgstr "%(price)s %(translated_currency)s"
-
-#: templates/shared/listings.html:79
-msgid "Oh camel droppings!"
-msgstr "يا للهوووول!!"
-
-#: templates/shared/listings.html:80
-msgid "We couldn't find anything to match your search."
-msgstr "لم نجد أي نتائج لبحثك!"
-
-#: templates/shared/listings.html:82
 msgid ""
-"Try using different keywords or widening your seach and it should be more "
-"fruitful."
-msgstr "جرب كلمات بحث اخرى لتسهل البحث. "
+"\n"
+"                                                    %(price)s\n"
+"                                                    <span class=\"d-"
+"listing__currency\">\n"
+"                                                        %(translated_currency)s\n"
+"                                                    </span>\n"
+"                                                "
+msgstr ""
+
+#: templates/shared/listings.html:101
+#, fuzzy
+msgid "Go to the homepage"
+msgstr "العودة الى الصفحة الرئيسية"
 
 #: templates/sitemaps/sitemap.html:35
 msgid "Cities we're in..."
@@ -4237,44 +4253,16 @@ msgstr "سوف تشاهد إعلانات مثيرة للانتباه على..."
 msgid "See all"
 msgstr "اظهر الجميع"
 
-#: templates/user_profiles/my_listings.html:25
-msgctxt "my_listings"
-msgid "Change password"
-msgstr "غير كلمة السر"
-
-#: templates/user_profiles/my_listings.html:29
-msgid "Account settings"
-msgstr "إعدادات الحساب"
-
-#: templates/user_profiles/my_listings.html:42
-#: templates/user_profiles/my_listings.html:198
-#: templates/user_profiles/my_listings.html:256
-#: templates/user_profiles/my_listings.html:343
+#: templates/user_profiles/my_listings.html:44
+#: templates/user_profiles/my_listings.html:179
+#: templates/user_profiles/my_listings.html:230
+#: templates/user_profiles/my_listings.html:329
 msgid ""
 "This page is emptier than the Sahara. Come on, let's fill it up by placing "
 "some awesome ads."
 msgstr "حسابك كالصحراء - يبدو خالي من أي نشاط. احيي ربعك الخالي باعلاناتك! "
 
-#: templates/user_profiles/my_listings.html:59
-msgid "My ads"
-msgstr "جميع إعلاناتي"
-
-#: templates/user_profiles/my_listings.html:63
-#: templates/user_profiles/my_listings.html:98
-msgid "My rejected ads"
-msgstr "إعلاناتي المرفوضة"
-
-#: templates/user_profiles/my_listings.html:67
-#: templates/user_profiles/my_listings.html:213
-msgid "My pending ads"
-msgstr "إعلاناتي في انتظار المراجعة"
-
-#: templates/user_profiles/my_listings.html:70
-#: templates/user_profiles/my_listings.html:270
-msgid "My live ads"
-msgstr "إعلاناتي المنشورة"
-
-#: templates/user_profiles/my_listings.html:78
+#: templates/user_profiles/my_listings.html:74
 #, python-format
 msgid ""
 "\n"
@@ -4309,11 +4297,11 @@ msgstr[5] ""
 "لديك %(counter)s إعلان\n"
 "                        "
 
-#: templates/user_profiles/my_listings.html:90
+#: templates/user_profiles/my_listings.html:94
 msgid "Your ad has been successfully deleted"
 msgstr "لقد تم حذف إعلانك بنجاح."
 
-#: templates/user_profiles/my_listings.html:108
+#: templates/user_profiles/my_listings.html:114
 #, python-format
 msgid ""
 "The following %(counter)s ad did not meet our rules and has been rejected by "
@@ -4346,58 +4334,55 @@ msgstr[5] ""
 "المراجعة، عدم التزامه بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك "
 "تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره."
 
-#: templates/user_profiles/my_listings.html:128
+#: templates/user_profiles/my_listings.html:146
 msgid "Recommended suggestion:"
 msgstr "إقتراحنا:"
 
-#: templates/user_profiles/my_listings.html:171
-msgid "Resubmit"
+#: templates/user_profiles/my_listings.html:152
+#: templates/user_profiles/my_listings.html:154
+#: templates/user_profiles/my_listings.html:293
+#: templates/user_profiles/my_listings.html:295
+msgid "delete"
+msgstr "حذف"
+
+#: templates/user_profiles/my_listings.html:156
+#: templates/user_profiles/my_listings.html:158
+#, fuzzy
+msgid "resubmit"
 msgstr "إعادة وضع الإعلان"
 
-#: templates/user_profiles/my_listings.html:178
-#: templates/user_profiles/my_listings.html:324
-msgid "Delete"
-msgstr "احذفها "
-
-#: templates/user_profiles/my_listings.html:184
-#: templates/user_profiles/my_listings.html:329
+#: templates/user_profiles/my_listings.html:166
+#: templates/user_profiles/my_listings.html:314
 msgid "Are you sure you want to delete this listing?"
 msgstr "من فضلك أكد طلبك لحذف الإعلان."
 
-#: templates/user_profiles/my_listings.html:189
-#: templates/user_profiles/my_listings.html:333
+#: templates/user_profiles/my_listings.html:172
+#: templates/user_profiles/my_listings.html:319
 msgid "Yes, delete it."
 msgstr "نعم، احذفه."
 
-#: templates/user_profiles/my_listings.html:193
-msgid "No, keep it."
-msgstr "لا تحذف اعلاني."
-
-#: templates/user_profiles/my_listings.html:202
+#: templates/user_profiles/my_listings.html:184
 msgid "Show all my rejected ads"
 msgstr "اظهر جميع اعلاناتي المرفوضة"
 
-#: templates/user_profiles/my_listings.html:221
+#: templates/user_profiles/my_listings.html:200
 msgid "These ads are awaiting approval and will be live soon."
 msgstr "جاري الآن الموافقة على الإعلان وسيتم نشره في أقرب وقت."
 
-#: templates/user_profiles/my_listings.html:260
+#: templates/user_profiles/my_listings.html:234
 msgid "Show all my pending ads"
 msgstr "اظهر جميع إعلاناتي التي لا زالت تحت المراجعة"
 
-#: templates/user_profiles/my_listings.html:309
+#: templates/user_profiles/my_listings.html:284
 msgid "Your edits will go live soon."
 msgstr "سنقوم بنشر تعديلاتك قريبا."
 
-#: templates/user_profiles/my_listings.html:317
-msgid "Edit"
+#: templates/user_profiles/my_listings.html:297
+#: templates/user_profiles/my_listings.html:299
+msgid "edit"
 msgstr "تعديل"
 
-#: templates/user_profiles/my_listings.html:336
-msgid "No, keep it live."
-msgstr "لا تحذف اعلاني."
-
-#: templates/user_profiles/my_listings.html:349
+#: templates/user_profiles/my_listings.html:334
 msgid "Show all my live ads"
 msgstr "اظهر جميع اعلاناتي المنشورة"
 
@@ -4511,6 +4496,15 @@ msgstr[5] ""
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
 
+#: utils/prettify_filters.py:35
+msgid " km"
+msgstr ""
+
+#: utils/prettify_filters.py:57 utils/prettify_filters.py:58
+#, python-format
+msgid "%s"
+msgstr ""
+
 #: utils/rejected_context.py:19
 msgid ""
 "Your ad is missing some important information that helps you sell your item."
@@ -4589,8 +4583,250 @@ msgid ""
 "it with English or Arabic"
 msgstr "أكتب الإعلان بحروف عربية"
 
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "                                By clicking on 'Send reply' I agree to "
+#~ "the dubizzle <a href=\"%(terms_url)s\" class=\"u-link\"> Terms & "
+#~ "Conditions</a> and the dubizzle <a href=\"%(privacy_url)s\" class=\"u-link"
+#~ "\">Privacy Policy</a>\n"
+#~ "                                "
+#~ msgstr ""
+#~ "\n"
+#~ "عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" target=\"_blank"
+#~ "\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank"
+#~ "\">سياسة الخصوصية</a> لدوبيزل، بالإضافة إلى قبول عروض تسويقية."
+
+#~ msgid "Place your free ad"
+#~ msgstr "أضف إعلانك المجاني"
+
+#~ msgid "My rejected ads"
+#~ msgstr "إعلاناتي المرفوضة"
+
+#~ msgid "My pending ads"
+#~ msgstr "إعلاناتي في انتظار المراجعة"
+
+#~ msgid "My live ads"
+#~ msgstr "إعلاناتي المنشورة"
+
+#~ msgid "Post your ad"
+#~ msgstr "أضف إعلانك"
+
+#~ msgid "Error - 404"
+#~ msgstr "خطأ - 404"
+
+#~ msgid "Escaped page alert"
+#~ msgstr " بلاغ هروب الصفحة"
+
+#~ msgid ""
+#~ "Thank you for noticing - we've dispatched our ninja web monkeys who will "
+#~ "hunt the errant page down"
+#~ msgstr ""
+#~ "شكراً لتعاونكم مع مسؤولي دوبيزل. سوف يتم البحث والعثور على هذه الصفحة في "
+#~ "أقرب وقت ممكن وسنتأكد من عدم هروبها مرة أخرى! "
+
+#~ msgid "Not all is lost! There's great stuff just around the corner"
+#~ msgstr ""
+#~ "ولا يهمك.. يوجد المزيد من الصفحات الأخرى المسلية والمفيدة. فقط اضغط ادناه!"
+
+#~ msgid "Go back"
+#~ msgstr "الصفحة السابقة"
+
+#~ msgid "Browse"
+#~ msgstr "تصفح"
+
+#~ msgid "View all"
+#~ msgstr "اظهر الجميع - "
+
+# not too clear
+#~ msgid "My Account"
+#~ msgstr "الحساب"
+
+#~ msgid "Facebook"
+#~ msgstr "فيسبوك"
+
+#~ msgid "Twitter"
+#~ msgstr "تويتر"
+
+#~ msgid "Step 2 of 3"
+#~ msgstr "الخطوة 2 من 3"
+
+#~ msgid "Choose your category"
+#~ msgstr "نوع الإعلان؟"
+
+#~ msgid "Add photos & enter details"
+#~ msgstr "أضف صور و تفاصيل الإعلان"
+
+#~ msgid "Finish"
+#~ msgstr "إنتهينا"
+
+#~ msgid "Select your neighbourhood"
+#~ msgstr "اختر محافظتك"
+
+
+#~ msgid "Step 1 of 3"
+#~ msgstr "الخطوة 1 من 3"
+
+#~ msgid "What do you wanna sell today?"
+#~ msgstr "ماذا ستبيع اليوم؟"
+
+#~ msgid "Edit this ad"
+#~ msgstr "تعديل"
+
+#~ msgid "Delete this ad"
+#~ msgstr "حذف الإعلان "
+
+#~ msgid "<span>%(price)s</span> %(translated_currency)s"
+#~ msgstr "<span>%(price)s</span> %(translated_currency)s"
+
+#~ msgid "Show mobile number"
+#~ msgstr "اظهر رقم الموبايل"
+
+#~ msgid "Send an email"
+#~ msgstr "ارسل إيميل"
+
+#~ msgid "Step 3 of 3"
+#~ msgstr "الخطوة 3 من 3"
+
+#~ msgid ""
+#~ "Tips from dubizzle: <br/>1) Meet in person in a public place. <br/>2) "
+#~ "Don't send money or your financial details (e.g. cheques, deposit, etc.) "
+#~ "<br/>3) Ask for relevant documentation, if applicable (e.g. warranties, "
+#~ "ID)."
+#~ msgstr ""
+#~ "من أجل سلامتك:<br/>1. تعامل مع معلنين من مدينتك وقم بإجراء جميع معاملات "
+#~ "البيع والشراء وجهاً لوجه. <br/>2. لا ترسل الأموال أو معلوماتك المصرفية إلى "
+#~ "أي شخص تعرفت عليه عبر الإنترنت تحت أي ظرف من الظروف."
+
+#~ msgid ""
+#~ "By clicking on 'Send my reply' I agree to the dubizzle <a href="
+#~ "\"%(terms_url)s\"> terms and conditions</a> and the dubizzle <a href="
+#~ "\"%(privacy_url)s\">privacy policy</a>"
+#~ msgstr ""
+#~ "عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s"
+#~ "\">شروط وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\">سياسة "
+#~ "الخصوصية</a>."
+
+#~ msgid "Bravo!"
+#~ msgstr "مبروك وبالتوفيق!"
+
+#~ msgid ""
+#~ "dubizzle offers its service for free and has no middlemen or subsidiaries."
+#~ msgstr ""
+#~ " دوبيزل يُقدم خدماته مجاناً من دون مقابل من دون وجود وسيط تجاري أو شركات "
+#~ "فرعية."
+
+#~ msgid ""
+#~ "Please be careful not to fall for scam messages sent to buyers or sellers."
+#~ msgstr ""
+#~ "لأن الحذر واجب، إنتبه من الوقوع في فخ رسائل النصب \"السكام\" التي ترسل "
+#~ "إلى البائع أو المشتري."
+
+#~ msgid ""
+#~ "Always meet in person and in a public place like a club, a coffee shop, "
+#~ "or a metro station."
+#~ msgstr ""
+#~ " دائماً قابل الناس شخصياً و في أماكن عامة مثل الكوفي شوب أو محطات المواصلات."
+
+#~ msgid ""
+#~ "Never send money or your financial details to any person you knew from "
+#~ "the internet (e.g. cheques, deposit, etc.)."
+#~ msgstr ""
+#~ "لا تشارك معلوماتك البنكية أو المالية مع أي شخص تعرفت عليه عن طريق "
+#~ "الإنترنت (يعني لا ترسل شيكات أو دفعة مالية مقدمة ولا أي شي مثله)."
+
+#~ msgid ""
+#~ "If a buyer or seller sounds fishy or the offer is too good to be true, "
+#~ "they probably are!"
+#~ msgstr ""
+#~ "لمّا تكون السلعة أو الخدمة غير منطقية، غير واقعية، وصعب تصديقها، فهذا "
+#~ "يعني: إنتبه!"
+
+#~ msgid ""
+#~ "If the buyer or seller asks you to ship the item you’re selling or want "
+#~ "to buy in return for money transfers, then it is almost certainly a "
+#~ "fraud. Never give your bank details to any person and never sell or buy "
+#~ "anything unless you meet the person yourself."
+#~ msgstr ""
+#~ " إذا طلب منك الشخص القيام بشحن السلعة أو عرض عليك خدمة مقابل حوالة بنكية، "
+#~ "هذا يعني أن الآخ محتال. لا تعطي تفاصيل حسابك البنكي لأي شخص، ولا تبيع أو "
+#~ "تشتري أي شيء من دون لقاء الطرف الثاني شخصياً."
+
+#~ msgid ""
+#~ "Add original photos and get your ad featured on our home page (where "
+#~ "everyone can see it)."
+#~ msgstr ""
+#~ " أضف صورأصلية لإعلانك لتزيد من فرصة عرضه على الصفحة الرئيسية (لكى يراه "
+#~ "الجميع)."
+
+#~ msgid ""
+#~ "\n"
+#~ "                                Cars, jobs, properties, classifieds and "
+#~ "so much more!\n"
+#~ "                            "
+#~ msgstr ""
+#~ "\n"
+#~ "عقارات وسيارت وإلكترونيات وفرص عمل والكثير الكثير غيرها\n"
+#~ "                    "
+
+#~ msgid ""
+#~ "\n"
+#~ "                                Thousands of cars, jobs, properties, "
+#~ "classifieds and so much more!\n"
+#~ "                            "
+#~ msgstr ""
+#~ "\n"
+#~ "آلاف السيارات والوظائف والعقار والمبوبات والكثير الكثير.\n"
+#~ "                    "
+
+#~ msgid "First page"
+#~ msgstr "الاولى"
+
+#~ msgid "Previous"
+#~ msgstr "السابقة"
+
+#~ msgid "Last page"
+#~ msgstr "الاخيرة"
+
+#~ msgid "in all of dubizzle"
+#~ msgstr "في كامل الموقع"
+
+#~ msgid "More options"
+#~ msgstr "إختيارات أكثر"
+
+#~ msgid "Show all"
+#~ msgstr "اظهر الجميع"
+
+#~ msgid "Sort by"
+#~ msgstr "رتب حسب"
+
+#~ msgid "Place your ad"
+#~ msgstr "أضف إعلانك"
+
+#~ msgid "%(translated_currency)s %(price)s"
+#~ msgstr "%(price)s %(translated_currency)s"
+
+#~ msgid "Account settings"
+#~ msgstr "إعدادات الحساب"
+
+#~ msgid "My ads"
+#~ msgstr "جميع إعلاناتي"
+
+#~ msgid "No, keep it."
+#~ msgstr "لا تحذف اعلاني."
+
+#~ msgid "Edit"
+#~ msgstr "تعديل"
+
+#~ msgid "No, keep it live."
+#~ msgstr "لا تحذف اعلاني."
+
 #~ msgid "Sell anything... from frankincense to fridges."
 #~ msgstr "بيع أي شيء في السلطنة... من البخور إلى القصور"
 
 #~ msgid "Qatar's free local classifieds community."
 #~ msgstr "رفيقك للإعلانات المُبوبة المجانية في قطر"
+
+#: templates/search/category_widget.html:56
+msgid "All"
+msgstr "(الكل)"

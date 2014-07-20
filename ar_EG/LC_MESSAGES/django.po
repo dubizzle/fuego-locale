@@ -4491,17 +4491,6 @@ msgstr ""
 "اختر كلمة سر قوية وآمنة ويستحسن ان لا تكون كلمة السر تخص إسمك أو تاريخ "
 "ميلادك أو أي من افراد عائلتك."
 
-#: templates/listings/manage_listing.html:341
-#, python-format
-msgid ""
-"By posting your ad you are agreeing to the dubizzle <a href=\"%(terms_url)s"
-"\" target=\"_blank\">terms & conditions</a>, the dubizzle <a href=\"%"
-"(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving "
-"marketing and promotional offers."
-msgstr ""
-"عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" target=\"_blank"
-"\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\">سياسة "
-"الخصوصية</a> لدوبيزل، بالإضافة إلى قبول عروض تسويقية."
 
 #: templates/listings/manage_listing.html:352
 msgid "Uploading photos, please wait..."
@@ -6225,3 +6214,170 @@ msgstr "أكتب الإعلان بحروف عربية"
 #~ "موقع المبوّبات <span class=\"free-ads\">المجاني</span> رقم ١ في مصر- أكثر "
 #~ "من <span id=\"counter\">%(count)s</span> إعلان\n"
 #~ "                        "
+
+msgid "Filters"
+msgstr "فلاتر البحث"
+
+msgid "Show"
+msgstr "أظهر"
+
+msgid "Show number"
+msgstr "أظهر العدد"
+
+msgid "Send reply"
+msgstr "أرسل رد"
+
+msgid "Inspect the item you wish to buy carefully or ask for the help of one of "
+"your friends."
+msgstr ""
+"افحص الغرض الذي تريد شراؤه ويُفضل طلب المساعدة من صديق عنده خبرة بالموضوع."
+
+msgid "Please report scams."
+msgstr "انتبه من الوقوع في فخ رسائل النصب ""السكام"" وساعدنا عن طريق الإبلاغ عنها."
+
+msgid "Your account"
+msgstr "حسابك"
+
+msgid "Your ads"
+msgstr "إعلاناتك"
+
+msgid "Your rejected ads"
+msgstr "إعلاناتك المرفوضة"
+
+msgid "Your pending ads"
+msgstr "إعلاناتك التي تنتظر الموافقة"
+
+msgid "Your live ads"
+msgstr "إعلاناتك المنشورة"
+
+msgid "edit"
+msgstr "تعديل"
+
+msgid "delete"
+msgstr "حذف"
+
+msgid "Continue browsing, you might find what you were looking for :)"
+msgstr "لكن على فكرة، مازال بإمكانك الاستمتاع بتصفح الموقع وقد تجد الذي كنت تبحث عنه"
+
+msgid "Place your FREE ad in 3 easy steps"
+msgstr "أضف إعلانك مجاناً في ثلاث خطوات بسيطة"
+
+msgid "Wosh! This has either expired or been deleted."
+msgstr "ياللهول! الإعلان اختفى إما لانتهاء مدته أو أن صاحبه حذفه."
+
+msgid "edit filters"
+msgstr "تصفية البحث"
+
+msgid "Date: newest"
+msgstr "بحسب التاريخ: الأحدث"
+
+msgid "Date: oldest"
+msgstr "بحسب التاريخ: الأقدم"
+
+msgid "Price: highest"
+msgstr "بحسب السعر: الأعلى"
+
+msgid "Price: lowest"
+msgstr "بحسب السعر: الأدنى"
+
+msgid "Show only Arabic ads"
+msgstr "دعني أرى الإعلانات التي باللغة العربية فقط"
+
+msgid "Reset"
+msgstr "إعادة ضبط"
+
+msgid "close"
+msgstr "إغلاق"
+
+msgid ""
+"\n"
+"            <div class=\"u-r\">\n"
+"                <div class=\"u-c u-c--12o12\">\n"
+"                    <h1>Hello again,</h1>\n"
+"                    <p>Here are 3 reasons why you should contact us: </p>\n"
+"                    <ol>\n"
+"                        <li>we love to help our dubizzlers</li>\n"
+"                        <li>it's more fun when we know who you are</li>\n"
+"                        <li>we hired friendly staff whose job is to respond "
+"to your queries (not browse the net all day)</li>\n"
+"                    </ol>\n"
+"                </div>\n"
+"            </div>\n"
+"        "
+msgstr ""
+"\n"
+"<p>\n"
+"السلااااام<br />\n"
+"عندكم ثلاثة أسباب لمراسلتنا:\n"
+"</p>\n"
+"<ol>\n"
+"<li> نحن نحب مساعدتكم</li>\n"
+"<li> النبي وصى على سابع جار</li>\n"
+"<li> فريق خدمة العملاء لدينا يسهر على خدمتكم والاجابة علي استفساراتكم </li>\n"
+"</ol>\n"
+"            "
+
+msgid ""
+"\n"
+"        <div class=\"u-c u-c--12o12\">\n"
+"            <h3>Sweet!</h3>\n"
+"            <p>A customer care dubizzler will handle your message personally "
+"and will get back to you as soon as they have an answer...</p>\n"
+"            <p>In the meantime, if you want to contact us again, we're more "
+"than happy to help.</p>\n"
+"        </div>\n"
+"    "
+msgstr ""
+"\n"
+"يا حلاوة!<br />\n"
+"سيقوم أخصائي دوبيزلاوي بتولي مهمة الرد على استفسارك في أسرع وقت ممكن...<br />\n"
+"وفي حال وجود استفسارات أخرى، راسلنا مجدداً، طلباتك أوامر ونحن في خدمتك.\n"
+"                "
+
+msgid "All"
+msgstr "(الكل)"
+
+msgid "Back to dubizzle"
+msgstr "الرجوع إلى صفحة دوبيزل"
+
+#: templates/search/category_widget.html:8
+msgid "or pick a category"
+msgstr "اختر الفئة"
+
+#: templates/listings/add/paa_taxonomy.html:20
+msgid "Pick a category"
+msgstr "اختر الفئة"
+
+
+msgid ""
+"By posting your ad you are agreeing to the dubizzle <a href=\"%(terms_url)s"
+"\" target=\"_blank\">terms & conditions</a>, the dubizzle <a href=\"%"
+"(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving "
+"marketing and promotional offers."
+msgstr ""
+"عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" target=\"_blank"
+"\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\">سياسة "
+"الخصوصية</a> لدوبيزل، بالإضافة إلى قبول عروض تسويقية."
+
+msgid "Houston... we have problem."
+msgstr "هناك خطا ما. لم نتمكن من العثور على الصفحة المطلوبة"
+
+msgid "Couldn't find the page. go"
+msgstr "يمكنك الذهاب الى صفحتنا الرئيسية "
+
+msgid ""
+"                        Show only عربي ads"
+"                "
+msgstr "دعني أرى الإعلانات التي باللغة العربية فقط"
+
+msgid "Page not found"
+msgstr "خطأ"
+
+msgid "Place your FREE ad in 3 easy steps."
+msgstr "أضف إعلانك مجاناً في ثلاث خطوات بسيطة"
+
+msgid "Website under maintenance 500"
+msgstr "الموقع تحت الصيانة"
+
+msgid "We 'll be back soon"
+msgstr "سنعود بعد قليل"
