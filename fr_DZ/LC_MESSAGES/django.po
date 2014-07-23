@@ -217,6 +217,7 @@ msgid ""
 "Wherever you are, our customer support heros help you post the perfect ad "
 "and draw a smile upon your face."
 msgstr ""
+"Le service clientele de dubizzle reste en correspondence avec vous et cherche a vous redonner le sourire"
 
 #: country_templates/shared_landing.html:112
 msgid "Got something to sell?"
@@ -256,7 +257,7 @@ msgstr ""
 #: country_templates/bahrain/public/landing.html:21
 
 msgid "Place your FREE ad in 3 easy steps."
-msgstr "Passez votre annonce gratuite"
+msgstr "Deposer une annonce en 3 etapes faciles"
 
 #: country_templates/bahrain/public/landing.html:26
 #: country_templates/kuwait/public/landing.html:26
@@ -1153,22 +1154,22 @@ msgstr "Inconnu"
 #: fuego/base_settings.py:840
 
 msgid "Date: newest"
-msgstr "Date (plus anciennes au plus récentes)"
+msgstr "Date: plus recente"
 
 #: fuego/base_settings.py:841
 
 msgid "Date: oldest"
-msgstr "Date (plus récentes au plus anciennes)"
+msgstr "Date: moins recente"
 
 #: fuego/base_settings.py:845
 
 msgid "Price: highest"
-msgstr "Prix (moins cher au plus cher)"
+msgstr "Prix: plus cher"
 
 #: fuego/base_settings.py:846
 
 msgid "Price: lowest"
-msgstr "Prix (plus cher au moins cher)"
+msgstr "Prix: moins cher"
 
 #: fuego/base_settings.py:987
 msgid "Other"
@@ -2989,7 +2990,7 @@ msgstr "Veuillez entrer un sujet"
 
 #: public/forms.py:18
 msgid "Subject"
-msgstr ""
+msgstr "الموضوع"
 
 #. Translators: This is in CrystelCalls new listing interface
 #: public/forms.py:25 public/forms.py:30
@@ -3088,7 +3089,7 @@ msgstr "اضغط هنا"
 #: templates/base.html:90 templates/user_profiles/my_listings.html:27
 
 msgid "Your account"
-msgstr "Mon compte"
+msgstr "Votre compte"
 
 #: templates/base.html:140
 msgid "Menu"
@@ -3130,27 +3131,27 @@ msgstr ""
 #: templates/generic.html:36 templates/search/category_widget.html:37
 
 msgid "Back to dubizzle"
-msgstr "Tout sur dubizzle"
+msgstr "Retour a dubizzle"
 
 #: templates/generic.html:43
 
 msgid "Your ads"
-msgstr "Votre annonce est GRATUITE"
+msgstr "Vos annonces"
 
 #: templates/generic.html:49 templates/user_profiles/my_listings.html:108
 
 msgid "Your rejected ads"
-msgstr "Les annonces rejetées"
+msgstr "Vos annonces rejetees"
 
 #: templates/generic.html:55 templates/user_profiles/my_listings.html:193
 
 msgid "Your pending ads"
-msgstr "Les annonces en cours de modération"
+msgstr "Vos annonces en attente"
 
 #: templates/generic.html:60 templates/user_profiles/my_listings.html:245
 
 msgid "Your live ads"
-msgstr "Les annonces publiées"
+msgstr "Vos annonces en ligne"
 
 #: templates/generic.html:65
 msgctxt "my_listings"
@@ -3164,16 +3165,16 @@ msgstr "Déconnexion"
 #: templates/generic.html:137
 
 msgid "Filters"
-msgstr "Kilomètres"
+msgstr "Filtrer la recherche"
 
 #: templates/generic.html:151
 #: templates/listings/snippets/_scam_warning.html:12
 msgid "Close"
-msgstr "إغلاق"
+msgstr "Fermer"
 
 #: templates/generic.html:158
 msgid "Reset"
-msgstr "إعادة ضبط"
+msgstr "Remettre"
 
 #: templates/authentication/change_password.html:11
 msgid "Change password"
@@ -3463,7 +3464,7 @@ msgstr ""
 #: templates/listings/get/get_listing.html:108
 
 msgid "View all details"
-msgstr "Tout voir dans"
+msgstr "Voir les details"
 
 #: templates/listings/get/get_listing.html:121
 
@@ -3485,7 +3486,7 @@ msgstr "Conseils importants sur dubizzle:"
 #: templates/listings/get/get_listing.html:165
 
 msgid "Show"
-msgstr "Afficher tout"
+msgstr "Voir"
 
 #: templates/listings/get/get_listing.html:191
 #, python-format
@@ -3504,7 +3505,7 @@ msgstr "إتصل"
 #: templates/listings/get/get_listing.html:206
 
 msgid "Show number"
-msgstr "Afficher tout"
+msgstr "Afficher le numéro de téléphone portable"
 
 #: templates/listings/get/get_listing.html:215
 #: templates/listings/reply/reply_to_listing_include.html:9
@@ -3515,7 +3516,7 @@ msgstr "أرسل رسالة"
 #: templates/listings/reply/reply_to_listing_include.html:123
 
 msgid "Send reply"
-msgstr "Envoyer ma réponse"
+msgstr "Envoyer"
 
 #: templates/listings/preview/listing_complete.html:20
 msgid "Hooray! Congratulations, your ad will go live very very soon."
@@ -3681,24 +3682,22 @@ msgstr ""
 #: templates/listings/snippets/_scam_warning.html:4
 msgid "Never wire money or financial info to a seller on the internet."
 msgstr ""
-"لا تُشارك معلوماتك البنكية أو المالية مع أي شخص تعرفت عليه عن طريق الإنترنت "
-"(لا ترسل شيكات أو دفعة مالية مقدمة ولا أي شي مثله)"
+"Ne jamais envoyer vos coordonees bancaires a un individu a travers internet."
 
 #: templates/listings/snippets/_scam_warning.html:5
 msgid "For your security, all transactions should be done in person."
-msgstr "لأن الحذر واجب، لا تبيع أو تشتري أي شيء من لقاء الطرف الثاني شخصياً."
+msgstr "Pour votre securites, toute vos transactions doivent etre face a face avec votre acheteur ou vendeur."
 
 #: templates/listings/snippets/_scam_warning.html:6
 msgid ""
 "Inspect the item you wish to buy carefully or ask for the help of one of "
 "your friends."
 msgstr ""
-"Dernière chose, vérifier l'article que vous aller acheter ou demander l'aide "
-"d'un de vos amis qui pourra vous conseiller."
+"Veuillez inspecter les objets avant de les acheter face a face avec l'autre personne."
 
 #: templates/listings/snippets/_scam_warning.html:7
 msgid "Please report scams."
-msgstr "انتبه من الوقوع في فخ رسائل النصب ""السكام"" وساعدنا عن طريق الإبلاغ عنها."
+msgstr "Veuillez denoncer les scams."
 
 #: templates/listings/snippets/fields/typed_list_field.html:17
 #, python-format
@@ -3821,13 +3820,12 @@ msgstr ""
 "\n"
 "<p>\n"
 "Bonjour à tous, <br/>\n"
-"Voici 3 raisons pour nous contacter:\n"
+"Voici les 3 raisons pour les quelles vous pouriez nous contacter:\n"
 "</p>\n"
 "<ol>\n"
-"<li>nous aimons aider nos dubizzleurs</li>\n"
-"<li>c'est plus sympa quand on sait qui vous êtes</li>\n"
-"<li>nous avons embauché un personnel aimable pour répondre à vos questions "
-"(et non pas pour surfer sur le net toute la journée)</li>\n"
+"<li>On aime aider nos dubizzleurs</li>\n"
+"<li>C'est plus agreable de savoir qui vous etes</li>\n"
+"<li>Nous avons embauché un personnel tres amical dont le travail consiste à répondre à vos questions (pas naviguer sur le net toute la journée)</li>\n"
 "</ol>"
 
 #: templates/public/contact_us.html:54
@@ -3981,7 +3979,7 @@ msgstr "Rechercher"
 
 #: templates/search/_search_bar_snippet.html:18
 msgid "Click to search"
-msgstr "اضغط للبحث"
+msgstr "Clicker pour rechercher"
 
 #: templates/search/_search_bar_snippet.html:23
 
@@ -4014,7 +4012,7 @@ msgstr "Affiner"
 #: templates/search/category_widget.html:8
 
 msgid "or pick a category"
-msgstr "Choisir une catégorie"
+msgstr "ou choisir une categorie"
 
 #: templates/search/category_widget.html:18
 
@@ -4035,11 +4033,11 @@ msgstr "Toute l'"
 
 #: templates/search/search.html:47
 msgid "Wosh! This has either expired or been deleted."
-msgstr "ياللهول! الإعلان اختفى إما لانتهاء مدته أو أن صاحبه حذفه."
+msgstr "Wosh! l'annonce a expiree ou a ete supprimee par l'annonceur."
 
 #: templates/search/search.html:48
 msgid "Continue browsing, you might find what you were looking for :)"
-msgstr "لكن على فكرة، مازال بإمكانك الاستمتاع بتصفح الموقع وقد تجد الذي كنت تبحث عنه"
+msgstr "Vous pouvez encore trouver ce que vous chercher en continuant de naviguer :) "
 
 #: templates/search/search.html:59
 msgid "in"
@@ -4072,7 +4070,7 @@ msgstr[1] ""
 
 #: templates/search/search.html:110
 msgid "edit filters"
-msgstr "تصفية البحث"
+msgstr "Modifier les filtres"
 
 #: templates/search/widget.html:71
 msgid "No results..."
@@ -4660,7 +4658,7 @@ msgstr ""
 #: templates/shared/listings.html:101
 
 msgid "Go to the homepage"
-msgstr "Retour à la page d'accueil"
+msgstr "Aller sur la page d'accueil"
 
 #: templates/sitemaps/sitemap.html:35
 msgid "Cities we're in..."

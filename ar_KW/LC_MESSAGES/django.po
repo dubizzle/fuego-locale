@@ -239,7 +239,7 @@ msgstr "يلا، جرب وبيع."
 #: templates/authentication/login.html:86
 #: templates/user_profiles/my_listings.html:52
 msgid "Place an ad"
-msgstr "أضف إعلان"
+msgstr "أضف إعلانك"
 
 #: country_templates/bahrain/public/_map.html:326
 
@@ -2767,7 +2767,7 @@ msgstr "نوع الاستفسار"
 
 #: public/forms.py:18
 msgid "Subject"
-msgstr ""
+msgstr "الموضوع"
 
 #. Translators: This is in CrystelCalls new listing interface
 #: public/forms.py:25 public/forms.py:30
@@ -3346,9 +3346,8 @@ msgstr "من فضلك أدخل الحروف في الصورة أدناه"
 msgid ""
 "You did it...you're one step closer to getting what you want. Never stop "
 "searching and you'll find more of what you want."
-msgstr ""
-"اضغط على \"العودة إلى صفحة الإعلانات\" لمتابعة البحث وكما قال الشاعر: اصبر "
-"على الحصرم يصير عنب"
+msgstr "يا سلام، تمت العملية بنجاح. الآن اضغط على العودة إلى صفحة الإعلانات"
+"واستمتع بالبحث دون كلل أو ملل."
 
 #: templates/listings/reply/reply_to_listing_include.html:148
 #: templates/listings/report/report_listing.html:29
@@ -3735,7 +3734,7 @@ msgstr "تصفية البحث"
 
 #: templates/search/category_widget.html:8
 msgid "or pick a category"
-msgstr "اختر الفئة"
+msgstr "أو اختر فئة "
 
 #: templates/search/category_widget.html:18
 msgid "back to dubizzle"
@@ -4920,8 +4919,6 @@ msgstr "أكتب الإعلان بحروف عربية"
 #~ msgstr "رفيقك للإعلانات المُبوبة المجانية في قطر"
 
 #: templates/search/category_widget.html:56
-msgid "All"
-msgstr "(الكل)"
 
 msgid ""
 "By posting your ad you are agreeing to the dubizzle <a href=\"%(terms_url)s"
@@ -4933,10 +4930,14 @@ msgstr ""
 "\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\">سياسة "
 "الخصوصية</a> لدوبيزل، بالإضافة إلى قبول عروض تسويقية."
 
-
+msgid "All"
+msgstr "(الكل)"
 
 msgid "Houston... we have problem."
-msgstr "يبدوا أنك وصلت إلى مكان خارج نطاق خدمتنا، للرجوع إلى دوبيزل كوكب الأرض"
+msgstr "عفواً، لا يوجد لدينا فروع في كواكب أُخرى"
+
+msgid "Couldn't find the page. go"
+msgstr "يبدوا أنك وصلت إلى مكان خارج نطاق خدمتنا، للرجوع إلى دوبيزل كوكب الأرض،"
 
 msgid ""
 "                        Show only عربي ads"
@@ -4945,7 +4946,6 @@ msgstr "دعني أرى الإعلانات التي باللغة العربية 
 
 msgid "Page not found"
 msgstr "خطأ"
-
 
 msgid "Website under maintenance 500"
 msgstr "الموقع تحت الصيانة"
