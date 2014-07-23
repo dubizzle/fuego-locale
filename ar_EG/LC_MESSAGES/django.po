@@ -4703,9 +4703,8 @@ msgstr "مبروك وبالتوفيق!"
 msgid ""
 "You did it...you're one step closer to getting what you want. Never stop "
 "searching and you'll find more of what you want."
-msgstr ""
-"اضغط على \"العودة إلى صفحة الإعلانات\" لمتابعة البحث وكما قال الشاعر: اصبر "
-"على الحصرم يصير عنب"
+msgstr "يا سلام، تمت العملية بنجاح. الآن اضغط على العودة إلى صفحة الإعلانات"
+"واستمتع بالبحث دون كلل أو ملل."
 
 #: templates/listings/reply/reply_to_listing_include.html:155
 #: templates/listings/report/report_listing.html:19
@@ -4985,6 +4984,9 @@ msgstr ""
 "<li> لدينا موظفون يسهرون على خدمتكم والاجابة علي استفساراتكم </li>\n"
 "</ol>\n"
 "            "
+
+msgid "Subject"
+msgstr "الموضوع"
 
 #: templates/public/contact_us.html:52
 msgid "Subject: what's this about?"
@@ -6334,20 +6336,19 @@ msgstr ""
 "وفي حال وجود استفسارات أخرى، راسلنا مجدداً، طلباتك أوامر ونحن في خدمتك.\n"
 "                "
 
-msgid "All"
-msgstr "(الكل)"
-
 msgid "Back to dubizzle"
 msgstr "الرجوع إلى صفحة دوبيزل"
 
 #: templates/search/category_widget.html:8
 msgid "or pick a category"
-msgstr "اختر الفئة"
+msgstr "أو اختر فئة "
 
 #: templates/listings/add/paa_taxonomy.html:20
 msgid "Pick a category"
 msgstr "اختر الفئة"
 
+
+#: templates/search/category_widget.html:56
 
 msgid ""
 "By posting your ad you are agreeing to the dubizzle <a href=\"%(terms_url)s"
@@ -6359,10 +6360,14 @@ msgstr ""
 "\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\">سياسة "
 "الخصوصية</a> لدوبيزل، بالإضافة إلى قبول عروض تسويقية."
 
-
+msgid "All"
+msgstr "(الكل)"
 
 msgid "Houston... we have problem."
-msgstr "يبدوا أنك وصلت إلى مكان خارج نطاق خدمتنا، للرجوع إلى دوبيزل كوكب الأرض"
+msgstr "عفواً، لا يوجد لدينا فروع في كواكب أُخرى"
+
+msgid "Couldn't find the page. go"
+msgstr "يبدوا أنك وصلت إلى مكان خارج نطاق خدمتنا، للرجوع إلى دوبيزل كوكب الأرض،"
 
 msgid ""
 "                        Show only عربي ads"
@@ -6380,7 +6385,6 @@ msgstr "الموقع تحت الصيانة"
 
 msgid "We 'll be back soon"
 msgstr "سنعود بعد قليل"
-
 
 #~ msgid "price"
 #~ msgstr "السعر"
