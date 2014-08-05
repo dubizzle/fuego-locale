@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-05 11:24+0400\n"
+"POT-Creation-Date: 2014-08-05 13:35+0400\n"
 "PO-Revision-Date: 2014-06-10 15:40+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Tunisian <http://translate.dubizzlecloud.com/"
@@ -128,107 +128,6 @@ msgstr "خطأ"
 #: captcha/conf/settings.py:21
 msgid "Please enter the correct letters"
 msgstr "من فضلك اكتب الحروف بشكل صحيح"
-
-#: country_templates/shared_landing.html:13
-#: templates/public/contact_us.html:11
-#: templates/public/contact_us_complete.html:7
-#: templates/public/landing.html:15
-msgid "Ahlan wa sahlan..."
-msgstr "اهلا وسهلا بكم في دوبيزل..."
-
-#: country_templates/shared_landing.html:28 templates/public/landing.html:32
-msgid "Change country"
-msgstr "تغيير الدولة"
-
-#: country_templates/shared_landing.html:40
-#: templates/sell/why-dubizzle.html:35
-msgid "Why use dubizzle?"
-msgstr "فوائد دوبيزل السبع"
-
-#: country_templates/shared_landing.html:48
-#: templates/sell/why-dubizzle.html:42
-msgid "Make money"
-msgstr "فرصة لكسب المال"
-
-#: country_templates/shared_landing.html:49
-#: templates/sell/why-dubizzle.html:43
-msgid "Turn your unused items into cash."
-msgstr "يمكنك كسب المال من بيع الأشياء التي لم تعد تحتاج إليها."
-
-#: country_templates/shared_landing.html:57
-msgid "Your ad is free"
-msgstr "مجانا وبدون أي رسوم"
-
-#: country_templates/shared_landing.html:58
-msgid "No fees, no hidden agendas and no twists or turns. It’s FREE"
-msgstr "ضيف إعلانك على دوبيزل مجانا ولن نطلب منك أي رسوم على الإطلاق."
-
-#: country_templates/shared_landing.html:66
-#: templates/sell/why-dubizzle.html:60
-msgid "It's safe"
-msgstr "وسيلة آمنة"
-
-#: country_templates/shared_landing.html:67
-#: templates/sell/why-dubizzle.html:61
-msgid "No credit cards, no online payments and no money transfers."
-msgstr "بدون كروت إئتمان أو معاملات بنكية أو دفع إلكتروني."
-
-#: country_templates/shared_landing.html:75
-#: templates/sell/why-dubizzle.html:69
-msgid "Fast and easy"
-msgstr "سهل وسريع"
-
-#: country_templates/shared_landing.html:76
-msgid "A few simple steps to create your ad in one page only."
-msgstr "خطوات بسيطة لإضافة إعلانك في صفحة واحدة فقط."
-
-#: country_templates/shared_landing.html:86
-#: templates/sell/why-dubizzle.html:80
-msgid "We're local"
-msgstr "بالقرب منك وحواليك"
-
-#: country_templates/shared_landing.html:87
-msgid ""
-"Find and connect with thousands of buyers in your city and neighborhood."
-msgstr "تواصل مع آلاف المشتريين في مدينتك ومنطقتك."
-
-#: country_templates/shared_landing.html:95
-msgid "Access anytime anywhere"
-msgstr "في أي وقت ومن أي مكان"
-
-#: country_templates/shared_landing.html:96
-msgid ""
-"Post your ad, update it and browse from your computer, mobile phone, tablet "
-"or Mars."
-msgstr ""
-"ضيف إعلانك وقم بتعديله من الكمبيوتر أو الموبايل أو التابلت أو حتى من المريخ!"
-
-#: country_templates/shared_landing.html:104
-msgid "Support 24/7"
-msgstr ""
-
-#: country_templates/shared_landing.html:105
-msgid ""
-"Wherever you are, our customer support heros help you post the perfect ad "
-"and draw a smile upon your face."
-msgstr ""
-
-#: country_templates/shared_landing.html:113
-msgid "Got something to sell?"
-msgstr "لديك شيء للبيع؟"
-
-#: country_templates/shared_landing.html:115
-msgid "Yalla try it."
-msgstr ""
-
-#: country_templates/shared_landing.html:120
-#: country_templates/shared_landing.html:125 templates/base.html:115
-#: templates/generic.html:81 templates/generic.html.py:88
-#: templates/authentication/login.html:88 templates/public/landing.html:54
-#: templates/public/landing.html.py:59
-#: templates/user_profiles/my_listings.html:54
-msgid "Place an ad"
-msgstr "أضف إعلانك"
 
 #: fuego/base_settings.py:492 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
@@ -2512,6 +2411,13 @@ msgstr "الموقع تحت الصيانة"
 msgid "Menu"
 msgstr "القائمة"
 
+#: templates/base.html:115 templates/generic.html:81
+#: templates/generic.html.py:88 templates/authentication/login.html:88
+#: templates/public/landing.html:54 templates/public/landing.html.py:59
+#: templates/user_profiles/my_listings.html:54
+msgid "Place an ad"
+msgstr "أضف إعلانك"
+
 # not too clear
 #: templates/base.html:122
 msgid "My account"
@@ -3225,6 +3131,12 @@ msgstr ""
 msgid "About Us"
 msgstr "تعرف علينا"
 
+#: templates/public/contact_us.html:11
+#: templates/public/contact_us_complete.html:7
+#: templates/public/landing.html:15
+msgid "Ahlan wa sahlan..."
+msgstr "اهلا وسهلا بكم في دوبيزل..."
+
 #: templates/public/contact_us.html:19
 msgid ""
 "\n"
@@ -3323,6 +3235,10 @@ msgstr ""
 #: templates/public/home.html:98
 msgid "Load more"
 msgstr "ارني المزيد"
+
+#: templates/public/landing.html:32
+msgid "Change country"
+msgstr "تغيير الدولة"
 
 #: templates/public/landing.html:49
 msgid "Select your city and find the best deals from thousands of ads!"
@@ -3830,6 +3746,18 @@ msgstr ""
 msgid "Next up"
 msgstr "التالي"
 
+#: templates/sell/why-dubizzle.html:35
+msgid "Why use dubizzle?"
+msgstr "فوائد دوبيزل السبع"
+
+#: templates/sell/why-dubizzle.html:42
+msgid "Make money"
+msgstr "فرصة لكسب المال"
+
+#: templates/sell/why-dubizzle.html:43
+msgid "Turn your unused items into cash."
+msgstr "يمكنك كسب المال من بيع الأشياء التي لم تعد تحتاج إليها."
+
 #: templates/sell/why-dubizzle.html:51
 msgid "Your ad is FREE"
 msgstr "مجانا وبدون أي رسوم"
@@ -3838,9 +3766,25 @@ msgstr "مجانا وبدون أي رسوم"
 msgid "No fees, no hidden agendas and no twists or turns."
 msgstr "ضيف إعلانك على دوبيزل مجانا ولن نطلب منك أي رسوم على الإطلاق."
 
+#: templates/sell/why-dubizzle.html:60
+msgid "It's safe"
+msgstr "وسيلة آمنة"
+
+#: templates/sell/why-dubizzle.html:61
+msgid "No credit cards, no online payments and no money transfers."
+msgstr "بدون كروت إئتمان أو معاملات بنكية أو دفع إلكتروني."
+
+#: templates/sell/why-dubizzle.html:69
+msgid "Fast and easy"
+msgstr "سهل وسريع"
+
 #: templates/sell/why-dubizzle.html:70
 msgid "A few simple steps to create your ad in 1 page only."
 msgstr "خطوات بسيطة لإضافة إعلانك في صفحة واحدة فقط."
+
+#: templates/sell/why-dubizzle.html:80
+msgid "We're local"
+msgstr "بالقرب منك وحواليك"
 
 #: templates/sell/why-dubizzle.html:81
 msgid ""
@@ -4354,6 +4298,32 @@ msgid ""
 "Remove Franco Arabic from your ad (no '3adi, ya3ni, wa7id, etc') and replace "
 "it with English or Arabic"
 msgstr "أكتب الإعلان بحروف عربية"
+
+#~ msgid "Your ad is free"
+#~ msgstr "مجانا وبدون أي رسوم"
+
+#~ msgid "No fees, no hidden agendas and no twists or turns. It’s FREE"
+#~ msgstr "ضيف إعلانك على دوبيزل مجانا ولن نطلب منك أي رسوم على الإطلاق."
+
+#~ msgid "A few simple steps to create your ad in one page only."
+#~ msgstr "خطوات بسيطة لإضافة إعلانك في صفحة واحدة فقط."
+
+#~ msgid ""
+#~ "Find and connect with thousands of buyers in your city and neighborhood."
+#~ msgstr "تواصل مع آلاف المشتريين في مدينتك ومنطقتك."
+
+#~ msgid "Access anytime anywhere"
+#~ msgstr "في أي وقت ومن أي مكان"
+
+#~ msgid ""
+#~ "Post your ad, update it and browse from your computer, mobile phone, "
+#~ "tablet or Mars."
+#~ msgstr ""
+#~ "ضيف إعلانك وقم بتعديله من الكمبيوتر أو الموبايل أو التابلت أو حتى من "
+#~ "المريخ!"
+
+#~ msgid "Got something to sell?"
+#~ msgstr "لديك شيء للبيع؟"
 
 #~ msgid "Manama"
 #~ msgstr "المعمورة"

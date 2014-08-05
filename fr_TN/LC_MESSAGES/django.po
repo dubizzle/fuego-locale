@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-05 11:24+0400\n"
+"POT-Creation-Date: 2014-08-05 13:35+0400\n"
 "PO-Revision-Date: 2014-06-10 15:44+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/"
@@ -123,113 +123,6 @@ msgstr "Erreur"
 #: captcha/conf/settings.py:21
 msgid "Please enter the correct letters"
 msgstr "Veuillez entrer les bonnes lettres"
-
-#: country_templates/shared_landing.html:13
-#: templates/public/contact_us.html:11
-#: templates/public/contact_us_complete.html:7
-#: templates/public/landing.html:15
-msgid "Ahlan wa sahlan..."
-msgstr "Ahlan wa sahlan..."
-
-#: country_templates/shared_landing.html:28 templates/public/landing.html:32
-msgid "Change country"
-msgstr "Changer de pays"
-
-#: country_templates/shared_landing.html:40
-#: templates/sell/why-dubizzle.html:35
-msgid "Why use dubizzle?"
-msgstr "Pourquoi utiliser dubizzle ?"
-
-#: country_templates/shared_landing.html:48
-#: templates/sell/why-dubizzle.html:42
-msgid "Make money"
-msgstr "Gagner de l’argent"
-
-#: country_templates/shared_landing.html:49
-#: templates/sell/why-dubizzle.html:43
-msgid "Turn your unused items into cash."
-msgstr "Transformez tout ce dont vous n'aviez plus besoin en argent."
-
-#: country_templates/shared_landing.html:57
-msgid "Your ad is free"
-msgstr "Votre annonce est GRATUITE"
-
-#: country_templates/shared_landing.html:58
-msgid "No fees, no hidden agendas and no twists or turns. It’s FREE"
-msgstr "Pas de frais et pas de comissions - dubizzle est totalement gratuit."
-
-#: country_templates/shared_landing.html:66
-#: templates/sell/why-dubizzle.html:60
-msgid "It's safe"
-msgstr "C’est sécurisé."
-
-#: country_templates/shared_landing.html:67
-#: templates/sell/why-dubizzle.html:61
-msgid "No credit cards, no online payments and no money transfers."
-msgstr ""
-"Pas de cartes de crédit, pas de paiements en ligne ni de transferts d’argent."
-
-#: country_templates/shared_landing.html:75
-#: templates/sell/why-dubizzle.html:69
-msgid "Fast and easy"
-msgstr "Rapide et facile"
-
-#: country_templates/shared_landing.html:76
-msgid "A few simple steps to create your ad in one page only."
-msgstr "Quelques étapes simples pour créer votre annonce en une seule page."
-
-#: country_templates/shared_landing.html:86
-#: templates/sell/why-dubizzle.html:80
-msgid "We're local"
-msgstr "Nous sommes près de chez vous"
-
-#: country_templates/shared_landing.html:87
-msgid ""
-"Find and connect with thousands of buyers in your city and neighborhood."
-msgstr ""
-"Trouvez et connectez-vous avec des milliers d’acheteurs dans votre ville et "
-"votre region."
-
-#: country_templates/shared_landing.html:95
-msgid "Access anytime anywhere"
-msgstr "Accéder n’importe où et n’importe quand"
-
-#: country_templates/shared_landing.html:96
-msgid ""
-"Post your ad, update it and browse from your computer, mobile phone, tablet "
-"or Mars."
-msgstr ""
-"Publiez votre annonce, modifiez là et consultez dubizzle de votre "
-"ordinateur, smartphone, tablette ou sur la planète Mars!"
-
-#: country_templates/shared_landing.html:104
-msgid "Support 24/7"
-msgstr ""
-
-#: country_templates/shared_landing.html:105
-msgid ""
-"Wherever you are, our customer support heros help you post the perfect ad "
-"and draw a smile upon your face."
-msgstr ""
-"Le service clientele de dubizzle reste en correspondence avec vous et "
-"cherche a vous redonner le sourire"
-
-#: country_templates/shared_landing.html:113
-msgid "Got something to sell?"
-msgstr ""
-
-#: country_templates/shared_landing.html:115
-msgid "Yalla try it."
-msgstr ""
-
-#: country_templates/shared_landing.html:120
-#: country_templates/shared_landing.html:125 templates/base.html:115
-#: templates/generic.html:81 templates/generic.html.py:88
-#: templates/authentication/login.html:88 templates/public/landing.html:54
-#: templates/public/landing.html.py:59
-#: templates/user_profiles/my_listings.html:54
-msgid "Place an ad"
-msgstr "Passer une annonce"
 
 #: fuego/base_settings.py:492 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
@@ -2666,6 +2559,13 @@ msgstr ""
 msgid "Menu"
 msgstr "القائمة"
 
+#: templates/base.html:115 templates/generic.html:81
+#: templates/generic.html.py:88 templates/authentication/login.html:88
+#: templates/public/landing.html:54 templates/public/landing.html.py:59
+#: templates/user_profiles/my_listings.html:54
+msgid "Place an ad"
+msgstr "Passer une annonce"
+
 #: templates/base.html:122
 msgid "My account"
 msgstr "Mon compte"
@@ -3389,6 +3289,12 @@ msgstr ""
 msgid "About Us"
 msgstr "À propos de nous"
 
+#: templates/public/contact_us.html:11
+#: templates/public/contact_us_complete.html:7
+#: templates/public/landing.html:15
+msgid "Ahlan wa sahlan..."
+msgstr "Ahlan wa sahlan..."
+
 #: templates/public/contact_us.html:19
 msgid ""
 "\n"
@@ -3489,6 +3395,10 @@ msgstr ""
 #: templates/public/home.html:98
 msgid "Load more"
 msgstr "Charger d'avantage"
+
+#: templates/public/landing.html:32
+msgid "Change country"
+msgstr "Changer de pays"
 
 #: templates/public/landing.html:49
 msgid "Select your city and find the best deals from thousands of ads!"
@@ -4023,6 +3933,18 @@ msgstr ""
 msgid "Next up"
 msgstr "Suivant"
 
+#: templates/sell/why-dubizzle.html:35
+msgid "Why use dubizzle?"
+msgstr "Pourquoi utiliser dubizzle ?"
+
+#: templates/sell/why-dubizzle.html:42
+msgid "Make money"
+msgstr "Gagner de l’argent"
+
+#: templates/sell/why-dubizzle.html:43
+msgid "Turn your unused items into cash."
+msgstr "Transformez tout ce dont vous n'aviez plus besoin en argent."
+
 #: templates/sell/why-dubizzle.html:51
 msgid "Your ad is FREE"
 msgstr "Votre annonce est GRATUITE"
@@ -4031,9 +3953,26 @@ msgstr "Votre annonce est GRATUITE"
 msgid "No fees, no hidden agendas and no twists or turns."
 msgstr "Pas de frais et pas de comissions - dubizzle est totalement gratuit."
 
+#: templates/sell/why-dubizzle.html:60
+msgid "It's safe"
+msgstr "C’est sécurisé."
+
+#: templates/sell/why-dubizzle.html:61
+msgid "No credit cards, no online payments and no money transfers."
+msgstr ""
+"Pas de cartes de crédit, pas de paiements en ligne ni de transferts d’argent."
+
+#: templates/sell/why-dubizzle.html:69
+msgid "Fast and easy"
+msgstr "Rapide et facile"
+
 #: templates/sell/why-dubizzle.html:70
 msgid "A few simple steps to create your ad in 1 page only."
 msgstr "Quelques étapes simples pour créer votre annonce en une seule page."
+
+#: templates/sell/why-dubizzle.html:80
+msgid "We're local"
+msgstr "Nous sommes près de chez vous"
 
 #: templates/sell/why-dubizzle.html:81
 msgid ""
@@ -4501,6 +4440,39 @@ msgid ""
 msgstr ""
 "Veuillez vous assurer de ne pas utiliser les lettres latines en écrivant "
 "votre annonce en Arabe"
+
+#~ msgid "Your ad is free"
+#~ msgstr "Votre annonce est GRATUITE"
+
+#~ msgid "No fees, no hidden agendas and no twists or turns. It’s FREE"
+#~ msgstr ""
+#~ "Pas de frais et pas de comissions - dubizzle est totalement gratuit."
+
+#~ msgid "A few simple steps to create your ad in one page only."
+#~ msgstr "Quelques étapes simples pour créer votre annonce en une seule page."
+
+#~ msgid ""
+#~ "Find and connect with thousands of buyers in your city and neighborhood."
+#~ msgstr ""
+#~ "Trouvez et connectez-vous avec des milliers d’acheteurs dans votre ville "
+#~ "et votre region."
+
+#~ msgid "Access anytime anywhere"
+#~ msgstr "Accéder n’importe où et n’importe quand"
+
+#~ msgid ""
+#~ "Post your ad, update it and browse from your computer, mobile phone, "
+#~ "tablet or Mars."
+#~ msgstr ""
+#~ "Publiez votre annonce, modifiez là et consultez dubizzle de votre "
+#~ "ordinateur, smartphone, tablette ou sur la planète Mars!"
+
+#~ msgid ""
+#~ "Wherever you are, our customer support heros help you post the perfect ad "
+#~ "and draw a smile upon your face."
+#~ msgstr ""
+#~ "Le service clientele de dubizzle reste en correspondence avec vous et "
+#~ "cherche a vous redonner le sourire"
 
 #~ msgid "Place your FREE ad in 3 easy steps."
 #~ msgstr "Deposer une annonce en 3 etapes faciles"
