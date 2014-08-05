@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-05 13:34+0400\n"
+"POT-Creation-Date: 2014-08-05 15:14+0400\n"
 "PO-Revision-Date: 2014-08-05 14:48+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: Arabic - Saudi "
-"<http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_SA/>\n"
+"Language-Team: Arabic - Saudi <http://translate.dubizzlecloud.com/projects/"
+"fuego/fuego/ar_SA/>\n"
 "Language: ar_SA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2588,7 +2588,8 @@ msgstr "عفواً، لا يوجد لدينا فروع في كواكب أُخر�
 
 #: templates/404-web.html:21
 msgid "Couldn't find the page. go"
-msgstr "يبدوا أنك وصلت إلى مكان خارج نطاق خدمتنا، للرجوع إلى دوبيزل كوكب الأرض،"
+msgstr ""
+"يبدوا أنك وصلت إلى مكان خارج نطاق خدمتنا، للرجوع إلى دوبيزل كوكب الأرض،"
 
 #: templates/404-web.html:21
 msgid "home"
@@ -2624,7 +2625,6 @@ msgid "Terms of Use"
 msgstr "شروط وأحكام إستخدام موقع دوبيزل"
 
 #: templates/base_terms.html:16
-#, fuzzy
 msgid ""
 "\n"
 "        THIS IS A LEGAL AGREEMENT BETWEEN YOU AND DUBIZZLE.COM STATING THE "
@@ -2644,6 +2644,7 @@ msgstr ""
 "الموافقة والخضوع لشروط الاستخدام المذكورة، ولا يقبل موقع دوبيزل حق الاعتراض "
 "على أي تغيير، إضافات، أو حذف، ويملك حرية التصرف في منعك من دخول الموقع في "
 "حال عدم الاخلال بأي شرط من الشروط المذكورة في الاتفاقية. \n"
+"    "
 
 # not too clear
 #: templates/generic.html:26 templates/user_profiles/my_listings.html:29
@@ -3181,8 +3182,8 @@ msgid ""
 msgstr ""
 "\n"
 "عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" class=\"u-link\" "
-"target=\"_blank\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" "
-"target=\"_blank\" class=\"u-link\">سياسة الخصوصية</a> لدوبيزل، بالإضافة إلى قبول "
+"target=\"_blank\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target="
+"\"_blank\" class=\"u-link\">سياسة الخصوصية</a> لدوبيزل، بالإضافة إلى قبول "
 "عروض تسويقية."
 
 #: templates/listings/snippets/_scam_warning.html:4
@@ -3312,11 +3313,9 @@ msgstr ""
 msgid "About Us"
 msgstr "تعرف علينا"
 
-#: templates/public/contact_us.html:19
+#: templates/public/contact_us.html:21
 msgid ""
 "\n"
-"            <div class=\"u-r\">\n"
-"                <div class=\"u-c u-c--12o12\">\n"
 "                    <h1>Hello again,</h1>\n"
 "                    <p>Here are 3 reasons why you should contact us: </p>\n"
 "                    <ol>\n"
@@ -3325,9 +3324,7 @@ msgid ""
 "                        <li>we hired friendly staff whose job is to respond "
 "to your queries (not browse the net all day)</li>\n"
 "                    </ol>\n"
-"                </div>\n"
-"            </div>\n"
-"        "
+"                "
 msgstr ""
 "\n"
 "<p>\n"
@@ -3369,18 +3366,15 @@ msgstr "موضوع الرسالة"
 msgid "Send"
 msgstr "أرسل"
 
-#: templates/public/contact_us_complete.html:19
-#, fuzzy
+#: templates/public/contact_us_complete.html:20
 msgid ""
 "\n"
-"        <div class=\"u-c u-c--12o12\">\n"
-"            <h3>Sweet!</h3>\n"
-"            <p>A customer care dubizzler will handle your message personally "
-"and will get back to you as soon as they have an answer...</p>\n"
-"            <p>In the meantime, if you want to contact us again, we're more "
-"than happy to help.</p>\n"
-"        </div>\n"
-"    "
+"                <h3>Sweet!</h3>\n"
+"                <p>A customer care dubizzler will handle your message "
+"personally and will get back to you as soon as they have an answer...</p>\n"
+"                <p>In the meantime, if you want to contact us again, we're "
+"more than happy to help.</p>\n"
+"            "
 msgstr ""
 "\n"
 "تمام!<br />\n"
