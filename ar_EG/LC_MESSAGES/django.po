@@ -243,7 +243,7 @@ msgid "What are your items really worth? Click here to find out!"
 msgstr "عايز تعرف قيمة حاجاتك الي مبتستعملهاش؟ أضغط هنا!"
 
 #: country_templates/egypt/public/landing.html:35
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "                                <span id=\"counter\">%(count)s</span> items "
@@ -3626,7 +3626,6 @@ msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
 
 #: listings/forms.py:396
-#, fuzzy
 msgid "Price Type"
 msgstr "السعر"
 
@@ -3679,7 +3678,6 @@ msgid "Amenities"
 msgstr "الكماليات"
 
 #: listings/forms.py:540
-#, fuzzy
 msgid "Area "
 msgstr "المساحة"
 
@@ -3790,7 +3788,6 @@ msgid "Email address(again)"
 msgstr "تأكيد عنوان الإيميل"
 
 #: public/forms.py:41
-#, fuzzy
 msgid "Confirm Email"
 msgstr "تأكيد عنوان الإيميل"
 
@@ -3799,7 +3796,6 @@ msgid "We need your location so that we can help you"
 msgstr "لا تنسى اضافة إسم المدينة/الدولة لكي نستطيع مساعدتك"
 
 #: public/forms.py:53
-#, fuzzy
 msgid "Location"
 msgstr "الراتب"
 
@@ -3910,7 +3906,6 @@ msgid "Terms of Use"
 msgstr "شروط الاستخدام"
 
 #: templates/base_terms.html:16
-#, fuzzy
 msgid ""
 "\n"
 "        THIS IS A LEGAL AGREEMENT BETWEEN YOU AND DUBIZZLE.COM STATING THE "
@@ -3928,6 +3923,7 @@ msgstr ""
 "بالشروط والأحكام أدناه يرجى عدم إستخدام موقع dubizzle.com. يجب الموافقة على "
 "هذه الشروط والأحكام بالكامل: الإضافات والتعديلات والإزالات غير مقبولة. في "
 "حال عدم الإلتزام بأي من شروط هذه الاتفاقية قد ترفض dubizzle منح الإستخدام.\n"
+"    "
 
 #: templates/generic.html:26 templates/user_profiles/my_listings.html:28
 msgid "Your account"
@@ -3944,7 +3940,6 @@ msgstr "فلاتر البحث"
 
 #: templates/generic.html:131
 #: templates/listings/snippets/_scam_warning.html:12
-#, fuzzy
 msgid "Close"
 msgstr "إغلاق"
 
@@ -3990,12 +3985,15 @@ msgid "Change password"
 msgstr "تأكيد كلمة السر"
 
 #: templates/authentication/change_password.html:18
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "        Not %(email)s?\n"
 "    "
-msgstr "لست %(email)s؟"
+msgstr ""
+"\n"
+"لست %(email)s؟"
+"    "
 
 #: templates/authentication/change_password.html:37
 #: templates/authentication/forgot_password.html:39
@@ -4027,7 +4025,6 @@ msgstr ""
 
 #: templates/authentication/forgot_password.html:53
 #: templates/authentication/forgot_password.html:54
-#, fuzzy
 msgid "Email adress"
 msgstr "عنوان الإيميل"
 
@@ -4266,7 +4263,7 @@ msgstr ""
 "ميلادك أو أي من افراد عائلتك."
 
 #: templates/listings/manage_listing.html:285
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "                                        By posting your ad you are agreeing "
@@ -4281,6 +4278,7 @@ msgstr ""
 "target=\"_blank\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target="
 "\"_blank\" class=\"u-link\">سياسة الخصوصية</a> لدوبيزل، بالإضافة إلى قبول "
 "عروض تسويقية."
+"                                    "
 
 #: templates/listings/manage_listing.html:294
 #: templates/listings/snippets/_form.html:324
@@ -4318,7 +4316,6 @@ msgid "Select an option"
 msgstr "إختر فئة."
 
 #: templates/listings/add/paa_taxonomy.html:94
-#, fuzzy
 msgid "Select a category"
 msgstr "اختر الفئة"
 
@@ -4327,12 +4324,10 @@ msgid "Go"
 msgstr "عرض"
 
 #: templates/listings/add/paa_taxonomy.html:120
-#, fuzzy
 msgid "Category"
 msgstr "القسم"
 
 #: templates/listings/add/paa_taxonomy.html:124
-#, fuzzy
 msgid "Pick a sub-category"
 msgstr "اختر الفئة"
 
@@ -4354,12 +4349,10 @@ msgid "Image %(count)s of %(listing_title)s"
 msgstr ""
 
 #: templates/listings/get/get_listing.html:108
-#, fuzzy
 msgid "View all details"
 msgstr "اظهر الجميع في"
 
 #: templates/listings/get/get_listing.html:121
-#, fuzzy
 msgid "Read more"
 msgstr "ارني المزيد"
 
@@ -4412,7 +4405,6 @@ msgid "Hooray! Congratulations, your ad will go live very very soon."
 msgstr "مبروك! لقد اضفت إعلانك بنجاح وسنقوم بنشره قريبا."
 
 #: templates/listings/preview/listing_complete.html:29
-#, fuzzy
 msgid ""
 "\n"
 "                                Right now, we're going to quickly review "
@@ -4429,6 +4421,7 @@ msgstr ""
 "\t\t\t\t سنوافيك بالاخبار السعيدة في إيميل عندما يتم نشر الإعلان.\n"
 "\t\t\t</p>\n"
 "\t\t\t"
+"                            "
 
 #: templates/listings/preview/listing_complete.html:43
 msgid "Back to home page"
@@ -4493,7 +4486,7 @@ msgid "Captcha"
 msgstr ""
 
 #: templates/listings/reply/reply_to_listing_include.html:126
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "By clicking on 'Send my reply' I agree to the dubizzle <a target=\"_blank\" "
 "class=\"u-link\" href=\"%(terms_url)s\"> terms and conditions</a> and the "
@@ -4532,7 +4525,6 @@ msgid "Your name is?"
 msgstr "الإسم"
 
 #: templates/listings/report/report_listing.html:98
-#, fuzzy
 msgid "What&#39;s your email?"
 msgstr "عنوان الإيميل"
 
@@ -4560,7 +4552,7 @@ msgid "Neighborhood"
 msgstr "المنطقة"
 
 #: templates/listings/snippets/_form.html:316
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "                By posting your ad you are agreeing to the dubizzle <a href="
@@ -4569,10 +4561,12 @@ msgid ""
 "receiving marketing and promotional offers.\n"
 "            "
 msgstr ""
+"\n"
 "عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" class=\"u-link\" "
 "target=\"_blank\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target="
 "\"_blank\" class=\"u-link\">سياسة الخصوصية</a> لدوبيزل، بالإضافة إلى قبول "
 "عروض تسويقية."
+"            "
 
 #: templates/listings/snippets/_scam_warning.html:4
 msgid "Never wire money or financial info to a seller on the internet."
@@ -4594,12 +4588,11 @@ msgid "Please report scams."
 msgstr "انتبه من الوقوع في فخ رسائل النصب السكام وساعدنا عن طريق الإبلاغ عنها."
 
 #: templates/listings/snippets/fields/typed_list_field.html:17
-#, fuzzy, python-format
+#, python-format
 msgid " Add %(label)s "
 msgstr "اضف %(label)s"
 
 #: templates/listings/snippets/fields/widgets/hideable_multi_widget.html:9
-#, fuzzy
 msgid "Skill"
 msgstr "المهارات"
 
@@ -4620,15 +4613,17 @@ msgid "Add a photo"
 msgstr "اضف صور"
 
 #: templates/listings/snippets/photos/_manage_photos.html:97
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "                        Ads with photos sell much better. Use up to "
 "%(max_photos)s good quality photos. Accepted formats: jpg, png, or gif.\n"
 "                    "
 msgstr ""
+"\n"
 "هل تعلم أن الصور تؤدي للبيع بمعدل أعلى بكثير؟ يمكنك إضافة %(max_photos)s صور "
 "واضحة وأصلية. انواع الملفات المدعومة: jpg, png, gif."
+"                    "
 
 #: templates/listings/snippets/photos/_photo_preview.html:38
 #: templates/listings/snippets/photos/_photo_preview.html:44
@@ -4711,7 +4706,6 @@ msgstr ""
 "لم نجد أي نتائج :(<br /><strong> يبدو أنك وصلت إلى صحراء قاحلة</strong>"
 
 #: templates/public/_no-results.html:14
-#, fuzzy
 msgid "Go to the homepage"
 msgstr "العودة الى الصفحة الرئيسية"
 
@@ -4759,7 +4753,6 @@ msgid "About Us"
 msgstr "تعرف علينا"
 
 #: templates/public/contact_us.html:21
-#, fuzzy
 msgid ""
 "\n"
 "                    <h1>Hello again,</h1>\n"
@@ -4813,7 +4806,6 @@ msgid "Send"
 msgstr "أرسل"
 
 #: templates/public/contact_us_complete.html:20
-#, fuzzy
 msgid ""
 "\n"
 "                <h3>Sweet!</h3>\n"
@@ -4988,7 +4980,7 @@ msgid "Click to search"
 msgstr ""
 
 #: templates/search/_search_bar_snippet.html:23
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "        Show only %(CURRENT_LANGUAGE)s ads\n"
@@ -5018,14 +5010,12 @@ msgid "or pick a category"
 msgstr "أو اختر فئة "
 
 #: templates/search/category_widget.html:18
-#, fuzzy
 msgid "back to dubizzle"
 msgstr "الرجوع إلى صفحة دوبيزل"
 
 #: templates/search/category_widget.html:45
 #: templates/search/category_widget.html:66
 #: templates/search/category_widget.html:88
-#, fuzzy
 msgid "back to"
 msgstr "العودة الى بداية الصفحة"
 
@@ -5094,7 +5084,6 @@ msgstr[5] ""
 "                "
 
 #: templates/search/search.html:101
-#, fuzzy
 msgid "Edit filters"
 msgstr "تصفية البحث"
 
@@ -5730,7 +5719,6 @@ msgstr "حذف"
 
 #: templates/user_profiles/my_listings.html:167
 #: templates/user_profiles/my_listings.html:169
-#, fuzzy
 msgid "resubmit"
 msgstr "إعادة وضع الإعلان"
 
