@@ -4773,3 +4773,8 @@ msgstr "أكتب الإعلان بحروف عربية"
 
 msgid "Enter a valid mobile number."
 msgstr "أدخل رقم جوال صحيح‎"
+
+#: listings/forms.py:186
+#, python-format
+msgid "Provide a valid mobile number in this format %(mobile_example)s"
+msgstr "أدخل رقم صحيح لجوالك بالشكل التالي %(mobile_example)s"
