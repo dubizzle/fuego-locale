@@ -2869,7 +2869,7 @@ msgstr "Se connecter - affichez le résultat"
 
 #: templates/authentication/login.html:86
 msgid "Don't have an account?"
-msgstr "Vous n'avez pas de compte?"
+msgstr "Pas encore membre?"
 
 #: templates/authentication/login.html:90
 msgid " to create one on the fly!"
@@ -4966,22 +4966,22 @@ msgid "Create a free account on dubizzle"
 msgstr "Créer un compte gratuitement"
 
 msgid "Register via email"
-msgstr "S'inscrire via E-mail"
+msgstr "S'inscrire via email"
 
 msgid "Already have a dubizzle account?"
-msgstr "Déjà membre?"
+msgstr "Pas encore membre?"
 
 msgid ""
 "\n"
 "                By clicking on Register, you agree to our <a href="
-"\"%(terms_url)s\" target=\"_blank\">terms & conditions</a> and the dubizzle <a "
-"href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a>.\n"
+"\"%(terms_url)s\" target=\"_blank\" class=\"u-link\">terms & conditions</a> and the dubizzle <a "
+"href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link\">privacy policy</a>.\n"
 "            "
 msgstr ""
 "\n"
 "En cliquant sur se connecter, vous confirmez avoir lu et accepté nos <a href=\"%(terms_url)s\" target=\"_blank"
-"\">termes et conditions</a> ainsi que notre <a href=\"%(privacy_url)s\" target=\"_blank\">"
+"\" class=\"u-link\">termes et conditions</a> ainsi que notre <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link\">"
 "politique de confidentialité.</a>.                    "
 
 msgid "Sign in to your account"
-msgstr "Connectez- vous en utilisant votre Adresse e-mail"
+msgstr "Se connecter à votre compte"
