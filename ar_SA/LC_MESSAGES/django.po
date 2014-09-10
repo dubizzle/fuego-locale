@@ -230,7 +230,7 @@ msgstr "يلا، جرب وبيع."
 #: templates/public/landing.html.py:59
 #: templates/user_profiles/my_listings.html:54
 msgid "Place an ad"
-msgstr "أضف إعلانك"
+msgstr "أضف إعلانك مجاناً"
 
 #: country_templates/saudi/public/_map.html:16 fuego/saudi_settings.py:81
 #: fuego/saudi_settings.py:168
@@ -2257,9 +2257,9 @@ msgid ""
 "Highlight benefits and specific details (warranties, features, etc.) <br/"
 ">For your safety, email addresses and HTML formatting are not allowed."
 msgstr ""
-"الوصف الدقيق هو مفتاح البيع الاسرع: <br/>- حاول الرد على أسئلة المشتري "
-"(مثلاً: الحجم والأبعاد)<br/>- إشرح أهم المواصفات والمعلومات (مثلاً: الضمان إن "
-"وجد) يرجى عدم اضافة عنوان إيميلك داخل الوصف وهذا لحماية خصوصيتك."
+"الكثير من الباحثين عن العمل موجودين الآن على دوبيزل ضع وصف دقيق لكى تحصل على "
+"أفضل المتقدمين :<br/>- حاول التركيز على وصف الوظيفة بالتفاصيل المهمة حتى تجد "
+"الموظف المناسب<br/>- وضعك للراتب المميز يساعدك اكثر على جذب المهتمين بالوظيفة"
 
 #: listings/forms.py:136
 msgid "You forgot to add a description. Go on, tell the world about your ad."
@@ -2345,7 +2345,7 @@ msgid ""
 "When in doubt, check out other ads to see the price range of your item. "
 "Please remember to price your ad in %(currency)s."
 msgstr ""
-"ضع السعر المناسب لإعلانك .. إطلاعك على إعلانات مماثلة فى الموقع ستساعدك فى "
+"ضع السعر المناسب لإعلانك .. إطلاعك على إعلانات مماثلة في الموقع ستساعدك على "
 "ذلك، تأكد أيضاً أن السعر المطلوب في عملة %(currency)s"
 
 #: listings/forms.py:373 listings/forms.py:406 listings/models.py:343
@@ -3041,23 +3041,19 @@ msgstr "مبروك! لقد اضفت إعلانك بنجاح وسنقوم بنش�
 
 #: templates/listings/preview/listing_complete.html:29
 msgid ""
-"\n"
-"                                Right now, we're going to quickly review "
-"your ad and make sure it's ready for dubizzle.\n"
-"                                Once it's up and live, we'll tell you the "
-"good news in an email.\n"
-"                            "
+"Right now, we're going to quickly review your ad and make sure it's ready "
+"for dubizzle. Once it's up and live, we'll tell you the good news in an "
+"email."
 msgstr ""
-"\n"
-"\t\t\t\tسنراجع إعلانك فورا لنتأكد انه ملائم لدوبيزل.\n"
-"\t\t\t\t سنوافيك بالاخبار السعيدة في إيميل عندما يتم نشر الإعلان.\n"
-"\t\t\t"
+"سنراجع إعلانك فوراً لنتأكد أنه ملا ئم لدوبيزل. الأمر لا يستغرق كثيراً ... سنوافيك بالأخبار السعيدة "
+"في إيميل عندما يتم نشر إعلانك. لديك شئ آخر تريد بيعه ... إضغط  أضف إعلان آخر."
 
-#: templates/listings/preview/listing_complete.html:42
+
+#: templates/listings/preview/listing_complete.html:39
 msgid "Back to home page"
 msgstr "العودة الى الصفحة الرئيسية"
 
-#: templates/listings/preview/listing_complete.html:49
+#: templates/listings/preview/listing_complete.html:46
 msgid "Place another ad"
 msgstr "اضف إعلان آخر"
 
@@ -3465,28 +3461,15 @@ msgid "Click to search"
 msgstr "اضغط للبحث"
 
 #: templates/search/_search_bar_snippet.html:23
-#, python-format
-msgid ""
-"\n"
-"        Show only %(CURRENT_LANGUAGE)s ads\n"
-"        "
-msgstr ""
-"\n"
-"اظهر فقط الإعلانات المضافة بال%(CURRENT_LANGUAGE)s\n"
-"                    "
-
 #: templates/search/browse_widget.html:68
-#, python-format
-msgid ""
-"\n"
-"                        Show only %(CURRENT_LANGUAGE)s ads\n"
-"                    "
+#, fuzzy, python-format
+msgid "Show only %(CURRENT_LANGUAGE)s ads"
 msgstr ""
 "\n"
 "اظهر فقط الإعلانات المضافة بال%(CURRENT_LANGUAGE)s\n"
 "                    "
 
-#: templates/search/browse_widget.html:94
+#: templates/search/browse_widget.html:92
 msgid "Refine"
 msgstr "عرض النتائج"
 
