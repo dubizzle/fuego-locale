@@ -462,11 +462,11 @@ msgstr "يبدو الإعلان كأنه احتيال"
 
 #: fuego/dt_translations.py:10
 msgid "neighbourhood"
-msgstr "المنطقة"
+msgstr "المدينة"
 
 #: fuego/dt_translations.py:11
 msgid "city"
-msgstr "المدينة"
+msgstr "المنطقة"
 
 #: fuego/meta_settings.py:62
 #, python-format
@@ -2152,7 +2152,7 @@ msgstr "اختر منطقتك"
 #: fuego/forms/__init__.py:195 search/forms.py:170
 #: templates/public/_change_country.html:15
 msgid "City"
-msgstr "المدينة"
+msgstr "المنطقة"
 
 #: fuego/forms/__init__.py:203 search/forms.py:45
 #, python-format
@@ -2862,7 +2862,7 @@ msgstr "تعديل"
 #: templates/listings/manage_listing.html:132
 #: templates/listings/snippets/_form.html:136
 msgid "Neighborhood"
-msgstr "المنطقة"
+msgstr ""
 
 #: templates/listings/manage_listing.html:165
 #: templates/listings/snippets/_form.html:168
@@ -4835,8 +4835,11 @@ msgstr "أكتب الإعلان بحروف عربية"
 #~ msgid "Saved (manage)"
 #~ msgstr "حفظ (إدارة)"
 
-#~ msgid "Language"
-#~ msgstr "اللغة"
+msgid "Language"
+msgstr "اللغة"
+
+msgid "language"
+msgstr "اللغة"
 
 #~ msgid "km"
 #~ msgstr "كم"
