@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-11 11:36+0400\n"
+"POT-Creation-Date: 2014-10-07 17:09+0400\n"
 "PO-Revision-Date: 2014-08-05 14:48+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Saudi <http://translate.dubizzlecloud.com/projects/"
@@ -20,64 +20,35 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 1.3\n"
 
-#: authentication/forms.py:17 authentication/forms.py:153
-#: templates/authentication/login.html:57
-#: templates/authentication/login.html:58
+#: authentication/forms.py:24 authentication/forms.py:100
+#: authentication/forms.py:198 templates/authentication/login.html:80
 msgid "Email address"
 msgstr "عنوان الإيميل"
 
-#: authentication/forms.py:18 authentication/forms.py:154
-#: fuego/forms/__init__.py:148 public/forms.py:26
+#: authentication/forms.py:25 authentication/forms.py:101
+#: authentication/forms.py:199 fuego/forms/__init__.py:148 public/forms.py:26
 msgid "Oh no! Your email is invalid. Try again."
 msgstr "لا تنسى إدخال عنوان إيميل صحيح!"
 
 #. Translators: This is in CrystelCalls new listing interface
-#: authentication/forms.py:20 authentication/forms.py:42
-#: authentication/forms.py:66 templates/authentication/login.html:69
-#: templates/authentication/login.html:70ter
+#: authentication/forms.py:27 authentication/forms.py:75
+#: authentication/forms.py:103 templates/authentication/login.html:95
+#: templates/authentication/login.html:97
+#: templates/authentication/register.html:92
+#: templates/authentication/register.html:93
 #: templates/listings/add/create_inorganic_listing.html:57
 msgid "Password"
 msgstr "كلمة السر"
 
-#: authentication/forms.py:29
-msgid "Eeek, the password you entered isn't right. Try again."
+#: authentication/forms.py:32
+msgid "Token"
 msgstr ""
-"كلمة السر غير صحيحة ( ننصحك بالتأكد من كون الحروف الإنجليزية كبيرة أو صغيرة)."
 
-#: authentication/forms.py:44 authentication/forms.py:68
-msgid "Your password must be a minimum of 6 characters. Try again."
-msgstr "يجب ادخال كلمة سر لا تقل عن 6 أحرف!"
-
-#: authentication/forms.py:70
-msgid "Confirm Email address"
-msgstr "تأكيد عنوان الإيميل"
-
-#: authentication/forms.py:72
-msgid "Confirm Password"
-msgstr "تأكيد كلمة السر"
-
-#: authentication/forms.py:86 authentication/forms.py:197
-msgid "Sorry, please re-enter your password using only English characters."
-msgstr "عفوا, كلمة السر يجب أن تتكون من حروف لاتينية (English)"
-
-#: authentication/forms.py:104 listings/tests.py:1719
-#, fuzzy
-msgid ""
-"This email address is already in use. Click 'I have a dubizzle password', or "
-"use a different email."
+#: authentication/forms.py:45 authentication/forms.py:48
+msgid "This field is required."
 msgstr ""
-"عنوان الإيميل هذا مسجل لدينا. إختر \"لدي حساب وكلمة سر\" اعلاه أو ادخل عنوان "
-"ايميل آخر."
 
-#: authentication/forms.py:121 listings/tests.py:1792
-msgid "Huh... that's not the same one! Try again."
-msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
-
-#: authentication/forms.py:129 listings/tests.py:1865
-msgid "Hmm... this doesn't match up. Try again."
-msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
-
-#: authentication/forms.py:167
+#: authentication/forms.py:50 authentication/forms.py:212
 msgid ""
 "Something's not right. This email address is not associated with a dubizzle "
 "account."
@@ -85,35 +56,73 @@ msgstr ""
 "يوجد خطآ ما. للأسف لا يوجد لدينا حساب مسجل تحت عنوان الإيميل الذي أدخلته. "
 "حاول مرة أخرى."
 
-#: authentication/forms.py:179
+#: authentication/forms.py:61
+msgid "Eeek, the password you entered isn't right. Try again."
+msgstr ""
+"كلمة السر غير صحيحة ( ننصحك بالتأكد من كون الحروف الإنجليزية كبيرة أو صغيرة)."
+
+#: authentication/forms.py:77 authentication/forms.py:105
+msgid "Your password must be a minimum of 6 characters. Try again."
+msgstr "يجب ادخال كلمة سر لا تقل عن 6 أحرف!"
+
+#: authentication/forms.py:107
+msgid "Confirm Email address"
+msgstr "تأكيد عنوان الإيميل"
+
+#: authentication/forms.py:109
+msgid "Confirm Password"
+msgstr "تأكيد كلمة السر"
+
+#: authentication/forms.py:123 authentication/forms.py:242
+msgid "Sorry, please re-enter your password using only English characters."
+msgstr "عفوا, كلمة السر يجب أن تتكون من حروف لاتينية (English)"
+
+#: authentication/forms.py:141 listings/tests.py:1784
+msgid ""
+"This email address is already in use. Click 'Sign in to your account', or "
+"use a different email."
+msgstr ""
+"عنوان الإيميل هذا مسجل لدينا. إختر \"سجل الدخول لحسابك\" اعلاه أو ادخل عنوان "
+"ايميل آخر."
+
+#: authentication/forms.py:158 listings/tests.py:1857
+msgid "Huh... that's not the same one! Try again."
+msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
+
+#: authentication/forms.py:166 listings/tests.py:1930
+msgid "Hmm... this doesn't match up. Try again."
+msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
+
+#: authentication/forms.py:224
 msgid "Shiny new password"
 msgstr "كلمة السر الجديدة"
 
-#: authentication/forms.py:181 authentication/forms.py:229
+#: authentication/forms.py:226 authentication/forms.py:274
 msgid "Your password must be a minimum 6 characters. Try again."
 msgstr "يجب ادخال كلمة سر لا تقل عن 6 أحرف!"
 
-#: authentication/forms.py:183 templates/listings/manage_listing.html:284
-#: templates/listings/manage_listing.html:291
+#: authentication/forms.py:228 templates/authentication/register.html:106
+#: templates/authentication/register.html:107
+#: templates/listings/manage_listing.html:273
 #: templates/listings/snippets/_form.html:291
 msgid "Confirm password"
 msgstr "تأكيد كلمة السر"
 
-#: authentication/forms.py:214
+#: authentication/forms.py:259
 msgid "Hmm... that doesn't match up!"
 msgstr "كلمات السر لا تتطابق! حاول مرة أخرى..."
 
-#: authentication/forms.py:227
+#: authentication/forms.py:272
 msgid "Ye olde password"
 msgstr "كلمة السر القديمة"
 
-#: authentication/forms.py:244
+#: authentication/forms.py:289
 msgid "Ooops, the password you entered is incorrect."
 msgstr ""
 "كلمة السر غير صحيحة (ألو.. ؟! خليك معانا .. تأكد من كون الحروف الانجليزية  "
 "كبيرة أو صغيرة)."
 
-#: authentication/views.py:87
+#: authentication/views.py:107
 msgid "Please enter the correct Username and Password combination."
 msgstr "البيانات التي ادخلتها غير صحيحة."
 
@@ -225,11 +234,10 @@ msgstr "يلا، جرب وبيع."
 #: country_templates/shared_landing.html:120
 #: country_templates/shared_landing.html:125
 #: country_templates/saudi/public/landing.html:49
-#: country_templates/saudi/public/landing.html:54 templates/base.html:121
-#: templates/generic.html:81 templates/generic.html.py:88
-#: templates/authentication/login.html:88 templates/public/landing.html:54
-#: templates/public/landing.html.py:59
-#: templates/user_profiles/my_listings.html:54
+#: country_templates/saudi/public/landing.html:54 templates/base.html:128
+#: templates/generic.html:87 templates/generic.html.py:94
+#: templates/public/landing.html:54 templates/public/landing.html.py:59
+#: templates/user_profiles/my_listings.html:80
 msgid "Place an ad"
 msgstr "أضف إعلانك مجاناً"
 
@@ -371,92 +379,92 @@ msgstr "مجوهرات وساعات"
 msgid "So much more."
 msgstr "فئات أكثر"
 
-#: fuego/base_settings.py:492 templates/search/widget.html:27
-#: templates/search/widget.html.py:44
+#: fuego/base_settings.py:515 search/search_utils.py:96
+#: templates/search/widget.html:27 templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:550
+#: fuego/base_settings.py:573
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:583 fuego/base_settings.py:999
+#: fuego/base_settings.py:606 fuego/base_settings.py:1053
 msgid "Spam"
 msgstr "إعلان مزعج"
 
-#: fuego/base_settings.py:584
+#: fuego/base_settings.py:607
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:585 fuego/base_settings.py:994
+#: fuego/base_settings.py:608 fuego/base_settings.py:1048
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:586 fuego/base_settings.py:996
+#: fuego/base_settings.py:609 fuego/base_settings.py:1050
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:587
+#: fuego/base_settings.py:610
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:588
+#: fuego/base_settings.py:611
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:589 fuego/base_settings.py:997
+#: fuego/base_settings.py:612 fuego/base_settings.py:1051
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:590
+#: fuego/base_settings.py:613
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:591
+#: fuego/base_settings.py:614
 msgid "No Category"
 msgstr "القسم؟"
 
-#: fuego/base_settings.py:610
+#: fuego/base_settings.py:633
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في الفئة غير الصحيحة"
 
-#: fuego/base_settings.py:611
+#: fuego/base_settings.py:634
 msgid "Your ad is misleading"
 msgstr "مجانا 100%"
 
-#: fuego/base_settings.py:681
+#: fuego/base_settings.py:704
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:840
+#: fuego/base_settings.py:894
 msgid "Date: newest"
 msgstr "بحسب التاريخ: الأحدث"
 
-#: fuego/base_settings.py:841
+#: fuego/base_settings.py:895
 msgid "Date: oldest"
 msgstr "بحسب التاريخ: الأقدم"
 
-#: fuego/base_settings.py:845
+#: fuego/base_settings.py:899
 msgid "Price: highest"
 msgstr "بحسب السعر: الأعلى"
 
-#: fuego/base_settings.py:846
+#: fuego/base_settings.py:900
 msgid "Price: lowest"
 msgstr "بحسب السعر: الأدنى"
 
-#: fuego/base_settings.py:989
+#: fuego/base_settings.py:1043
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:991
+#: fuego/base_settings.py:1045
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:995
+#: fuego/base_settings.py:1049
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:998
+#: fuego/base_settings.py:1052
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
@@ -2078,15 +2086,12 @@ msgstr "ضباء"
 msgid "Baljurashi"
 msgstr "الباحة"
 
-#: fuego/saudi_settings.py:680
+#: fuego/saudi_settings.py:680 utils/prettify_filters.py:54
 msgid "English"
 msgstr ""
 
-#: fuego/saudi_settings.py:681
+#: fuego/saudi_settings.py:681 utils/prettify_filters.py:54
 msgid "Arabic"
-msgstr "عربي"
-
-msgid "ar"
 msgstr "عربي"
 
 #: fuego/saudi_settings.py:691
@@ -2114,7 +2119,7 @@ msgstr ""
 "دوبيزل السعودية ، مبوبة مجانيه، اعلانات مبوبة عبر الإنترنت، مبوبة السعودية، "
 "اعلانات مبوبة مجانيه في السعودية"
 
-#: fuego/shared_settings.py:462
+#: fuego/shared_settings.py:467
 msgid "#dubizzle"
 msgstr "#دوبيزل"
 
@@ -2178,14 +2183,22 @@ msgstr ""
 msgid "Lists too large."
 msgstr ""
 
-#: listings/formatters.py:31 listings/forms.py:406
+#: fuego/management/commands/email_alerts.py:466
+#, fuzzy
+msgid "All of Dubizzle"
+msgstr "الموقع بالكامل"
+
+#: listings/formatters.py:31 listings/forms.py:408
+#: templates/email_alerts/email_alerts_ar.html:77
+#: templates/email_alerts/email_alerts_en.html:78
+#: templates/email_alerts/email_alerts_fr.html:79
 #: templates/feedbox/index_horizontal.html:326
 #: templates/listings/get/get_listing.html:102
 #: templates/listings/get/get_listing.html:205 templates/public/home.html:77
 #: templates/shared/listings.html:62
-#: templates/user_profiles/my_listings.html:147
-#: templates/user_profiles/my_listings.html:239
-#: templates/user_profiles/my_listings.html:299
+#: templates/user_profiles/my_listings.html:151
+#: templates/user_profiles/my_listings.html:244
+#: templates/user_profiles/my_listings.html:303 utils/prettify_filters.py:92
 msgid "Free"
 msgstr "مجاني"
 
@@ -2291,7 +2304,7 @@ msgstr " من فضلك لا تنسى إضافة إسم مدينتك. (الا ا�
 #: listings/models.py:375 listings/models.py:406 listings/models.py:431
 #: listings/models.py:471 listings/models.py:509 listings/models.py:546
 #: listings/models.py:584 search/forms.py:176
-#: templates/listings/manage_listing.html:151
+#: templates/listings/manage_listing.html:145
 msgid "Neighbourhood"
 msgstr "المدينة"
 
@@ -2314,44 +2327,44 @@ msgid ""
 "below)."
 msgstr "لا تقلق، لن نظهر رقم جوالك على الموقع بدون موافقتك (التفاصيل أدناه)."
 
-#: listings/forms.py:171 templates/listings/manage_listing.html:175
+#: listings/forms.py:173 templates/listings/manage_listing.html:167
 #: templates/listings/snippets/_form.html:192
 msgid "Show this number on my ad"
 msgstr "اظهر رقمي في الإعلان"
 
-#: listings/forms.py:186
+#: listings/forms.py:188
 msgid "Provide a valid mobile number in this format 05XXXXXXXX"
 msgstr "أدخل رقم صحيح لجوالك بالشكل التالي ٠‎٥XXXXXXXX"
 
-#: listings/forms.py:236
+#: listings/forms.py:238
 msgid "The neighborhood you have selected is not in the city you selected."
 msgstr "يبدو أن هذه المنطقة ليست فى المدينة المحددة."
 
-#: listings/forms.py:274
+#: listings/forms.py:276
 msgid "Oops, something has gone wrong. Let us know and we will fix it."
 msgstr "هناك خطأ ما. راسلنا لكي نصلحه."
 
-#: listings/forms.py:275
+#: listings/forms.py:277
 msgid "Photo verifiers did not match photos."
 msgstr ""
 
-#: listings/forms.py:276
+#: listings/forms.py:278
 msgid "Photo upload failed, please try again."
 msgstr "هناك خطأ في تحميل الصورة. حاول مرة اخرى."
 
-#: listings/forms.py:277
+#: listings/forms.py:279
 msgid "Oh no, we can only read jpg, png or gif formats."
 msgstr "هناك مشكلة في نوع الملف. من فضلك حمل ملف من نوع: jpg, png, gif"
 
-#: listings/forms.py:278
+#: listings/forms.py:280
 msgid "Damn, that file is too big - 5MB maximum."
 msgstr "حاول مرة أخرى وتأكد أن لا يزيد حجم الملف عن 5 ميغا!"
 
-#: listings/forms.py:279
+#: listings/forms.py:281
 msgid "Max number of photos is 10"
 msgstr "أقصى عدد لتحميل الصور هو 10"
 
-#: listings/forms.py:367
+#: listings/forms.py:369
 #, python-format
 msgid ""
 "When in doubt, check out other ads to see the price range of your item. "
@@ -2360,138 +2373,132 @@ msgstr ""
 "ضع السعر المناسب لإعلانك .. إطلاعك على إعلانات مماثلة في الموقع ستساعدك على "
 "ذلك، تأكد أيضاً أن السعر المطلوب في عملة %(currency)s"
 
-#: listings/forms.py:373 listings/forms.py:406 listings/models.py:343
+#: listings/forms.py:375 listings/forms.py:408 listings/models.py:343
 #: listings/models.py:376 listings/models.py:407 listings/models.py:432
 #: listings/models.py:473 listings/models.py:513 listings/models.py:548
 #: listings/models.py:588
 msgid "Price"
 msgstr "السعر"
 
-#: listings/forms.py:376
+#: listings/forms.py:378
 msgid "You forgot to add the price."
 msgstr " لقد نسيت اضافة السعر المطلوب."
 
-#: listings/forms.py:385
+#: listings/forms.py:387
 msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
 
-#: listings/forms.py:408
+#: listings/forms.py:410
 msgid "Price Type"
 msgstr "السعر"
 
-#: listings/forms.py:425
+#: listings/forms.py:427
 msgid "You forgot to add the price"
 msgstr " لقد نسيت اضافة السعر المطلوب."
 
-#: listings/forms.py:468 listings/forms.py:472 listings/models.py:373
+#: listings/forms.py:470 listings/forms.py:474 listings/models.py:373
 #: listings/models.py:382
 msgid "Year"
 msgstr "السنة"
 
-msgid "year"
-msgstr "السنة"
-
-#: listings/forms.py:474
+#: listings/forms.py:476
 msgid "Sweet wheels, but how old?"
 msgstr "سيارتك .. موديل أي سنة ؟"
 
-#: listings/forms.py:482
+#: listings/forms.py:484
 msgid "How many KM?"
 msgstr "عدد الكيلومترات"
 
-#: listings/forms.py:484
+#: listings/forms.py:486
 msgid "Great ride, how far has it gone?"
 msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
 
-#: listings/forms.py:489 listings/forms.py:492 listings/models.py:377
+#: listings/forms.py:491 listings/forms.py:494 listings/models.py:377
 #: listings/models.py:381
 msgid "Model"
 msgstr "موديل"
 
-#: listings/forms.py:491
+#: listings/forms.py:493
 msgid "Please specify the model"
 msgstr "الرجاء تحديد الموديل"
 
-#: listings/forms.py:497 listings/forms.py:500 listings/models.py:378
+#: listings/forms.py:499 listings/forms.py:502 listings/models.py:378
 msgid "Engine Size"
 msgstr "سعة المحرك"
 
-#: listings/forms.py:499
+#: listings/forms.py:501
 msgid "Please specify the engine size"
 msgstr "الرجاء تحديد سعة المحرك"
 
-#: listings/forms.py:536
+#: listings/forms.py:538
 #, python-format
 msgid "Area (%(unit)s)"
 msgstr "المساحة (%(unit)s)"
 
-#: listings/forms.py:539 listings/models.py:474 listings/models.py:514
+#: listings/forms.py:541 listings/models.py:474 listings/models.py:514
 #: listings/models.py:549 listings/models.py:589
 msgid "Amenities"
 msgstr "الكماليات"
 
-#: listings/forms.py:552
+#: listings/forms.py:554
 msgid "Area "
 msgstr "المساحة"
 
-#: listings/forms.py:584 listings/forms.py:585 listings/forms.py:621
-#: listings/forms.py:622 listings/models.py:510 listings/models.py:518
+#: listings/forms.py:586 listings/forms.py:587 listings/forms.py:623
+#: listings/forms.py:624 listings/models.py:510 listings/models.py:518
 #: listings/models.py:585 listings/models.py:592
 msgid "Bedrooms"
 msgstr "غرف نوم"
 
-msgid "bedrooms"
-msgstr "غرف نوم"
-
-#: listings/forms.py:586 listings/forms.py:623
+#: listings/forms.py:588 listings/forms.py:625
 msgid "Nice property, but how many bedrooms?"
 msgstr "حدثنا عن عقارك. كم عدد غرف النوم؟"
 
-#: listings/forms.py:592 listings/forms.py:593 listings/forms.py:629
-#: listings/forms.py:630 listings/models.py:511 listings/models.py:586
+#: listings/forms.py:594 listings/forms.py:595 listings/forms.py:631
+#: listings/forms.py:632 listings/models.py:511 listings/models.py:586
 msgid "Bathrooms"
 msgstr "الحمامات"
 
-#: listings/forms.py:594 listings/forms.py:631
+#: listings/forms.py:596 listings/forms.py:633
 msgid "Nice property, but how many bathrooms?"
 msgstr "الرجاء تحديد عدد الحمامات"
 
-#: listings/forms.py:652 listings/forms.py:655 listings/models.py:627
+#: listings/forms.py:654 listings/forms.py:657 listings/models.py:627
 #: listings/models.py:663
 msgid "Experience Level"
 msgstr "مستوى الخبرة"
 
-#: listings/forms.py:654
+#: listings/forms.py:656
 msgid "Please specify the experience level"
 msgstr "الرجاء تحديد مستوى الخبرة"
 
-#: listings/forms.py:660 listings/forms.py:663 listings/models.py:626
+#: listings/forms.py:662 listings/forms.py:665 listings/models.py:626
 #: listings/models.py:662
 msgid "Education Level"
 msgstr "المستوى التعليمي"
 
-#: listings/forms.py:662
+#: listings/forms.py:664
 msgid "Please specify the education level"
 msgstr "الرجاء تحديد المستوى التعليمي"
 
-#: listings/forms.py:668
+#: listings/forms.py:670
 msgid "Commitment"
 msgstr ""
 
-#: listings/forms.py:670
+#: listings/forms.py:672
 msgid "Please specify the employment type"
 msgstr "الرجاء تحديد نوع العمل"
 
-#: listings/forms.py:671 listings/models.py:628 listings/models.py:632
+#: listings/forms.py:673 listings/models.py:628 listings/models.py:632
 #: listings/models.py:664 listings/models.py:667
 msgid "Employment Type"
 msgstr "نوع العمل"
 
-#: listings/forms.py:676 templates/listings/get/get_listing.html:140
+#: listings/forms.py:678 templates/listings/get/get_listing.html:140
 msgid "Skills"
 msgstr "المهارات"
 
-#: listings/forms.py:691 listings/models.py:629
+#: listings/forms.py:693 listings/models.py:629
 msgid "Compensation"
 msgstr "الراتب"
 
@@ -2507,9 +2514,6 @@ msgstr "نُشر بتاريخ"
 
 #: listings/models.py:374 listings/models.py:383
 msgid "Kilometers"
-msgstr "كيلومترات"
-
-msgid "kilometers"
 msgstr "كيلومترات"
 
 #: listings/models.py:472 listings/models.py:477 listings/models.py:512
@@ -2528,9 +2532,10 @@ msgstr "الموضوع"
 
 #. Translators: This is in CrystelCalls new listing interface
 #: public/forms.py:25 public/forms.py:30
-#: templates/listings/manage_listing.html:187
-#: templates/listings/manage_listing.html:223
-#: templates/listings/manage_listing.html:225
+#: templates/authentication/register.html:60
+#: templates/authentication/register.html:62
+#: templates/listings/manage_listing.html:216
+#: templates/listings/manage_listing.html:218
 #: templates/listings/add/create_inorganic_listing.html:35
 #: templates/listings/reply/reply_to_listing_include.html:39
 #: templates/listings/reply/reply_to_listing_include.html:40
@@ -2584,7 +2589,7 @@ msgid "Keywords"
 msgstr "كلمات البحث"
 
 #: search/forms.py:339 search/forms.py:444 search/forms.py:494
-#: search/forms.py:554
+#: search/forms.py:554 utils/prettify_filters.py:96
 msgid "Show only ads with photos"
 msgstr "أظهر الإعلانات التي معها صور"
 
@@ -2616,7 +2621,8 @@ msgstr "عفواً، لم يتم العثور على الصفحة :("
 
 #: templates/404-web.html:21
 msgid "Couldn't find the page. go"
-msgstr "يبدوا أنك وصلت الى صفحة غير موجودة ... للرجوع الى صفحة دوبيزل  الرئيسية"
+msgstr ""
+"يبدوا أنك وصلت الى صفحة غير موجودة ... للرجوع الى صفحة دوبيزل  الرئيسية"
 
 #: templates/404-web.html:21
 msgid "home"
@@ -2634,20 +2640,20 @@ msgstr ""
 msgid "Website under maintenance (500)"
 msgstr "الموقع تحت الصيانة"
 
-#: templates/base.html:113
+#: templates/base.html:120
 msgid "Menu"
 msgstr "القائمة"
 
 # not too clear
-#: templates/base.html:128
+#: templates/base.html:135
 msgid "My account"
 msgstr "الحساب"
 
-#: templates/base_privacy.html:12 templates/public/_footer.html:17
+#: templates/base_privacy.html:12 templates/public/_footer.html:23
 msgid "Privacy Policy"
 msgstr "سياسة الخصوصية"
 
-#: templates/base_terms.html:12 templates/public/_footer.html:13
+#: templates/base_terms.html:12 templates/public/_footer.html:19
 msgid "Terms of Use"
 msgstr "شروط وأحكام إستخدام موقع دوبيزل"
 
@@ -2674,53 +2680,61 @@ msgstr ""
 "    "
 
 # not too clear
-#: templates/generic.html:26 templates/user_profiles/my_listings.html:28
+#: templates/generic.html:26 templates/user_profiles/my_listings.html:29
 msgid "Your account"
 msgstr "حسابك"
 
-#: templates/generic.html:117
+#: templates/generic.html:123
+#: templates/user_profiles/my_saved_searches.html:46
 msgid "Filters"
 msgstr "خيارات البحث"
 
-#: templates/generic.html:131
+#: templates/generic.html:137
 #: templates/listings/snippets/_scam_warning.html:12
 msgid "Close"
 msgstr "إغلاق"
 
-#: templates/generic.html:138
+#: templates/generic.html:144
 msgid "Reset"
 msgstr "إعادة ضبط"
 
-#: templates/generic.html:156 templates/search/category_widget.html:37
+#: templates/generic.html:162 templates/search/category_widget.html:37
 msgid "Back to dubizzle"
 msgstr "الرجوع الى الرئيسية"
 
-#: templates/generic.html:163
+#: templates/generic.html:169
 msgid "Login"
 msgstr "تسجيل الدخول"
 
-#: templates/generic.html:168
+#: templates/generic.html:174
 msgid "Your ads"
 msgstr "إعلاناتك"
 
-#: templates/generic.html:174 templates/user_profiles/my_listings.html:107
+#: templates/generic.html:180 templates/user_profiles/my_listings.html:111
 msgid "Your rejected ads"
 msgstr "إعلاناتك المرفوضة"
 
-#: templates/generic.html:180 templates/user_profiles/my_listings.html:206
+#: templates/generic.html:186 templates/user_profiles/my_listings.html:210
 msgid "Your pending ads"
 msgstr "إعلاناتك التي تنتظر الموافقة"
 
-#: templates/generic.html:185 templates/user_profiles/my_listings.html:264
+#: templates/generic.html:191 templates/user_profiles/my_listings.html:269
 msgid "Your live ads"
 msgstr "إعلاناتك المنشورة"
 
-#: templates/generic.html:190
+#: templates/generic.html:197
+#: templates/email_alerts/save_search_button.html:16
+#: templates/email_alerts/save_search_button.html:33
+#: templates/user_profiles/my_saved_searches.html:33
+msgid "Your saved searches"
+msgstr "بحوثك المحفوظة"
+
+#: templates/generic.html:203
 msgctxt "my_listings"
 msgid "Change password"
 msgstr "غير كلمة السر"
 
-#: templates/generic.html:195 templates/authentication/change_password.html:22
+#: templates/generic.html:208 templates/authentication/change_password.html:22
 msgid "Logout"
 msgstr "الخروج من الحساب"
 
@@ -2740,7 +2754,8 @@ msgstr ""
 
 #: templates/authentication/change_password.html:37
 #: templates/authentication/forgot_password.html:39
-#: templates/authentication/login.html:40
+#: templates/authentication/login.html:49
+#: templates/authentication/register.html:47
 #: templates/authentication/reset_password.html:20
 #: templates/listings/report/report_listing.html:51
 #: templates/public/contact_us.html:42
@@ -2753,8 +2768,8 @@ msgid "Change it for me"
 msgstr "تغيير"
 
 #: templates/authentication/forgot_password.html:10
-#: templates/authentication/login.html:77
-#: templates/listings/manage_listing.html:215
+#: templates/authentication/login.html:111
+#: templates/listings/manage_listing.html:266
 #: templates/listings/snippets/_form.html:217
 msgid "Forgot your password?"
 msgstr "نسيت كلمة السر؟"
@@ -2768,6 +2783,7 @@ msgstr ""
 
 #: templates/authentication/forgot_password.html:53
 #: templates/authentication/forgot_password.html:54
+#: templates/authentication/login.html:78
 msgid "Email adress"
 msgstr "عنوان الإيميل"
 
@@ -2779,26 +2795,32 @@ msgstr "اعادة تعيين كلمة السر"
 msgid "Help is on the way. We've e-mailed you a link to reset your password."
 msgstr "لا داعي للقلق. سيصلك إيميل قريباً برابط لإعادة تعيين كلمة السر."
 
+#: templates/authentication/login.html:12
+#: templates/authentication/register.html:143
+msgid "Sign in to your account"
+msgstr "سجل الدخول لحسابك"
+
+#: templates/authentication/login.html:30
+#: templates/listings/manage_listing.html:196
+msgid "Sign in via facebook"
+msgstr "سجل دخولك عبر facebook "
+
 # this needs a full stop at end; it's followed by 271
-#: templates/authentication/login.html:10
+#: templates/authentication/login.html:116
+#: templates/listings/manage_listing.html:287
 msgid "Sign in"
 msgstr "سجل دخولك"
 
-#: templates/authentication/login.html:14
-msgid "It's as fast as saying &#34;Open Sesame&#34;"
-msgstr "أسهل مما تتخيل :)"
-
-#: templates/authentication/login.html:81
-msgid "Sign in – show me my stuff"
-msgstr "ادخل حسابك وراجع اعلاناتك"
-
-#: templates/authentication/login.html:86
+#: templates/authentication/login.html:121
+#: templates/listings/manage_listing.html:284
 msgid "Don't have an account?"
 msgstr "ليس لديك حساب؟"
 
-#: templates/authentication/login.html:90
-msgid " to create one on the fly!"
-msgstr "لإنشاء حساب جديد"
+#: templates/authentication/login.html:125
+#: templates/authentication/register.html:117
+#: templates/listings/manage_listing.html:284
+msgid "Register"
+msgstr "سجل الآن"
 
 #: templates/authentication/login_denied.html:13
 msgid ""
@@ -2815,6 +2837,47 @@ msgstr "راسلنا"
 msgid "You have been Logged Out!"
 msgstr "لقد تم تسجيل خروجك."
 
+#: templates/authentication/register.html:11
+msgid "Create a free account on dubizzle"
+msgstr "أنشئ حساب مجاني على دوبيزل"
+
+#: templates/authentication/register.html:27
+msgid "Register via facebook"
+msgstr "سجل باستخدام facebook"
+
+#: templates/authentication/register.html:35
+msgid "Register via email"
+msgstr "سجل باستخدام الإيميل"
+
+#: templates/authentication/register.html:77
+#: templates/authentication/register.html:78
+#: templates/listings/manage_listing.html:233
+#: templates/listings/manage_listing.html:234
+#: templates/listings/manage_listing.html:236
+#: templates/listings/snippets/_form.html:247
+#: templates/listings/snippets/_form.html:248
+msgid "Confirm email"
+msgstr "تأكيد عنوان الإيميل"
+
+#: templates/authentication/register.html:127
+#, python-format
+msgid ""
+"\n"
+"                By clicking on Register, you agree to our <a href="
+"\"%(terms_url)s\" target=\"_blank\" class=\"u-link\">terms & conditions</a> "
+"and the dubizzle <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link"
+"\">privacy policy</a>.\n"
+"            "
+msgstr ""
+"\n"
+"بالضغط على سجل الآن، أنت توافق على <a href=\"%(terms_url)s\" target=\"_blank"
+"\" class=\"u-link\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target="
+"\"_blank\" class=\"u-link\">سياسة الخصوصية</a> لدوبيزل.                    "
+
+#: templates/authentication/register.html:137
+msgid "Already have a dubizzle account?"
+msgstr "لديك حساب على دوبيزل؟"
+
 #: templates/authentication/reset_password.html:11
 msgctxt "from_reset_pwd"
 msgid "Change password"
@@ -2823,6 +2886,27 @@ msgstr "غير كلمة السر"
 #: templates/authentication/reset_password_complete.html:10
 msgid "Phew! Your password has now been changed."
 msgstr "وأخيرا. تم تغيير كلمة السر الخاصة بك."
+
+#: templates/email_alerts/email_alerts_ar.html:91
+#: templates/email_alerts/email_alerts_en.html:92
+#: templates/email_alerts/email_alerts_fr.html:93
+#, python-format
+msgid "%(value)s"
+msgstr ""
+
+#: templates/email_alerts/email_alerts_en.html:96
+#: templates/user_profiles/my_saved_searches.html:48
+msgid "No Filters"
+msgstr "لا يوجد خيارات بحث"
+
+#: templates/email_alerts/save_search_button.html:20
+#: templates/email_alerts/save_search_button.html:25
+msgid "Save search"
+msgstr "احفظ هذا البحث"
+
+#: templates/email_alerts/save_search_button.html:30
+msgid "Try Again"
+msgstr "حاول مرة أخرى‎"
 
 #: templates/listings/delete_listing.html:16
 #: templates/listings/rejected/delete_workspace.html:16
@@ -2865,52 +2949,50 @@ msgstr "لم ننتهي بعد ولكن إقتربنا. من فضلك صحح ا�
 msgid "Something went wrong, please try again."
 msgstr "هناك خطأ ما. حاول مرة اخرى"
 
-#: templates/listings/manage_listing.html:67
+#: templates/listings/manage_listing.html:74
 #: templates/listings/add/create_inorganic_listing.html:27
 #: templates/listings/snippets/_form.html:28
 msgid "Change"
 msgstr "تعديل"
 
-#: templates/listings/manage_listing.html:132
+#: templates/listings/manage_listing.html:126
 #: templates/listings/snippets/_form.html:136
 msgid "Neighborhood"
 msgstr ""
 
-#: templates/listings/manage_listing.html:165
-#: templates/listings/snippets/_form.html:168
-msgid "example"
-msgstr "مثال"
+#: templates/listings/manage_listing.html:181
+msgid "Welcome!"
+msgstr "أهلاً!"
 
-#: templates/listings/manage_listing.html:202
-#: templates/listings/snippets/_form.html:209
-msgid "I'm new to dubizzle. I need a password."
-msgstr "ليس لدي حساب على دوبيزل"
+#: templates/listings/manage_listing.html:186
+msgid "That's not you?"
+msgstr "هذا ليس حسابك؟"
 
-#: templates/listings/manage_listing.html:210
-#: templates/listings/snippets/_form.html:215
-msgid "I have a dubizzle password"
-msgstr "لدي حساب وكلمة سر"
+#: templates/listings/manage_listing.html:186
+msgid "Sign out"
+msgstr "تسجيل الخروج"
 
-#: templates/listings/manage_listing.html:233
+#: templates/listings/manage_listing.html:205
+msgid "Or sign in with your email address"
+msgstr "أو سجل دخولك باستخدام إيميلك"
+
+#: templates/listings/manage_listing.html:209
+#, fuzzy
+msgid "Sign in with your email address"
+msgstr "أو سجل دخولك باستخدام إيميلك"
+
+#: templates/listings/manage_listing.html:226
 #: templates/listings/snippets/_form.html:236
 msgid "A valid email address ensures your ad will go live."
 msgstr "تأكد من ادخال عنوان ايميل صحيح حتى يتم نشر إعلانك."
 
-#: templates/listings/manage_listing.html:244
-#: templates/listings/manage_listing.html:245
-#: templates/listings/manage_listing.html:247
-#: templates/listings/snippets/_form.html:247
-#: templates/listings/snippets/_form.html:248
-msgid "Confirm email"
-msgstr "تأكيد عنوان الإيميل"
-
-#: templates/listings/manage_listing.html:259
-#: templates/listings/manage_listing.html:261
+#: templates/listings/manage_listing.html:248
+#: templates/listings/manage_listing.html:250
 #: templates/listings/snippets/_form.html:259
 msgid "Password (cAse SenSiTIvE)"
 msgstr "كلمة السر"
 
-#: templates/listings/manage_listing.html:273
+#: templates/listings/manage_listing.html:262
 #: templates/listings/snippets/_form.html:279
 msgid ""
 "Make it safe and secure. Use a mix of numbers and letters, and don't use "
@@ -2919,7 +3001,19 @@ msgstr ""
 "إختر كلمة سر قوية وآمنة ويفضل أن لا تكون كلمة السر تخص إسمك أو تاريخ ميلادك "
 "أو أي من أفراد عائلتك"
 
-#: templates/listings/manage_listing.html:315
+#: templates/listings/manage_listing.html:287
+msgid "Have an account?"
+msgstr "لديك حساب؟"
+
+#: templates/listings/manage_listing.html:297
+msgid "You are now connected with Facebook"
+msgstr "أنت الأن مسجل بحساب فيسبوك"
+
+#: templates/listings/manage_listing.html:303
+msgid "Connecting to facebook didn't work"
+msgstr "التسجيل عبر الفيسبوك لم يتم بنجاح"
+
+#: templates/listings/manage_listing.html:333
 #, python-format
 msgid ""
 "\n"
@@ -2935,12 +3029,12 @@ msgstr ""
 "\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\">سياسة "
 "الخصوصية</a> لدوبيزل، بالإضافة إلى قبول عروض تسويقية."
 
-#: templates/listings/manage_listing.html:324
+#: templates/listings/manage_listing.html:342
 #: templates/listings/snippets/_form.html:324
 msgid "Yalla! Publish my ad"
 msgstr "يلا...انشر اعلاني!"
 
-#: templates/listings/manage_listing.html:330
+#: templates/listings/manage_listing.html:348
 msgid "Uploading photos, please wait..."
 msgstr "جاري التحميل. الرجاء الإنتظار."
 
@@ -2958,31 +3052,32 @@ msgstr ""
 msgid "Create a free ad in no time at all."
 msgstr "أضف أسهل وأسرع إعلان مجانا. "
 
-#: templates/listings/add/paa_taxonomy.html:20
+#: templates/listings/add/paa_taxonomy.html:27
 msgid "Pick a category"
 msgstr "إختر القسم المناسب لإعلانك"
 
-#: templates/listings/add/paa_taxonomy.html:31
+#: templates/listings/add/paa_taxonomy.html:38
 msgid "Please select a sub-category."
 msgstr "ما هو أنسب قسم لعرض إعلانك؟"
 
-#: templates/listings/add/paa_taxonomy.html:86
+#: templates/listings/add/paa_taxonomy.html:93
 msgid "Select an option"
 msgstr "إختر فئة."
 
-#: templates/listings/add/paa_taxonomy.html:94
+#: templates/listings/add/paa_taxonomy.html:101
 msgid "Select a category"
 msgstr "إختر فئة"
 
-#: templates/listings/add/paa_taxonomy.html:97 templates/search/widget.html:66
+#: templates/listings/add/paa_taxonomy.html:104
+#: templates/search/widget.html:66
 msgid "Go"
 msgstr "عرض"
 
-#: templates/listings/add/paa_taxonomy.html:120
+#: templates/listings/add/paa_taxonomy.html:127
 msgid "Category"
 msgstr "القسم"
 
-#: templates/listings/add/paa_taxonomy.html:124
+#: templates/listings/add/paa_taxonomy.html:131
 msgid "Pick a sub-category"
 msgstr "إختر فئة إعلانك الفرعية"
 
@@ -3083,7 +3178,7 @@ msgid "Resubmit your ad"
 msgstr "إعادة وضع الإعلان"
 
 #: templates/listings/rejected/rejected_workspace.html:21
-#: templates/user_profiles/my_listings.html:154
+#: templates/user_profiles/my_listings.html:158
 msgid "Rejection reason:"
 msgstr "سبب الرفض:"
 
@@ -3193,6 +3288,18 @@ msgstr "بلغ عن هذا الإعلان"
 msgid "Your ad title"
 msgstr "موضوع الإعلان"
 
+#: templates/listings/snippets/_form.html:168
+msgid "example"
+msgstr "مثال"
+
+#: templates/listings/snippets/_form.html:209
+msgid "I'm new to dubizzle. I need a password."
+msgstr "ليس لدي حساب على دوبيزل"
+
+#: templates/listings/snippets/_form.html:215
+msgid "I have a dubizzle password"
+msgstr "لدي حساب وكلمة سر"
+
 #: templates/listings/snippets/_form.html:316
 #, python-format
 msgid ""
@@ -3252,11 +3359,11 @@ msgstr "لحذف الصور، عليك تفعيل تقنية الجافا سكر
 msgid "Add some photos"
 msgstr "اضف صور"
 
-#: templates/listings/snippets/photos/_manage_photos.html:92
+#: templates/listings/snippets/photos/_manage_photos.html:94
 msgid "Add a photo"
 msgstr "اضف صور"
 
-#: templates/listings/snippets/photos/_manage_photos.html:97
+#: templates/listings/snippets/photos/_manage_photos.html:101
 #, python-format
 msgid ""
 "\n"
@@ -3278,18 +3385,19 @@ msgstr "احذفها"
 msgid "Edit your ad."
 msgstr "تعديل"
 
-#: templates/public/_footer.html:9
+#: templates/public/_footer.html:15
 msgid "Contact"
 msgstr "راسلنا"
 
-#: templates/public/_footer.html:21
+#: templates/public/_footer.html:27
 msgid "Sitemap"
 msgstr "خريطة الموقع"
 
-#: templates/public/_footer.html:25
+#: templates/public/_footer.html:31
 msgid ", dubizzle.com, All Rights Reserved."
 msgstr ", dubizzle.com, جميع الحقوق محفوظة."
 
+#: templates/public/_no-results-home.html:7
 #: templates/public/_no-results.html:7
 msgid ""
 "We couldn't find any matches :(<br /><strong>It's like a desert out here</"
@@ -3298,7 +3406,8 @@ msgstr ""
 "لم نجد أي نتائج لبحثك :( <br /><strong> يمكنك إستخدام كلمات اخرى للبحث ... "
 "حاول مرة آخرى </strong>"
 
-#: templates/public/_no-results.html:14
+#: templates/public/_no-results-home.html:14
+#: templates/public/_no-results.html:16
 msgid "Go to the homepage"
 msgstr "العودة الى الصفحة الرئيسية"
 
@@ -3469,7 +3578,8 @@ msgstr "اتمم الصفقة وجها لوجه"
 #: templates/search/_pagination.html:41
 #: templates/user_profiles/my_live_listings.html:23
 #: templates/user_profiles/my_pending_listings.html:23
-#: templates/user_profiles/my_rejected_listings.html:23
+#: templates/user_profiles/my_rejected_listings.html:22
+#: templates/user_profiles/my_saved_searches.html:82
 msgid "Next"
 msgstr "التالي"
 
@@ -3483,9 +3593,9 @@ msgstr "اضغط للبحث"
 
 #: templates/search/_search_bar_snippet.html:23
 #: templates/search/browse_widget.html:68
+#, fuzzy, python-format
 msgid "Show only %(CURRENT_LANGUAGE)s ads"
-msgstr ""
-" أظهر فقط الإعلانات المضافة بالعربي"
+msgstr " أظهر فقط الإعلانات المضافة بالعربي"
 
 #: templates/search/browse_widget.html:92
 msgid "Refine"
@@ -3515,8 +3625,7 @@ msgstr "الإعلان الذي تبحث عنه غير موجود الآن."
 
 #: templates/search/search.html:43
 msgid "Continue browsing, you might find what you were looking for :)"
-msgstr ""
-"مازال بإمكانك الاستمتاع بتصفح الموقع وقد تجد الذي كنت تبحث عنه"
+msgstr "مازال بإمكانك الاستمتاع بتصفح الموقع وقد تجد الذي كنت تبحث عنه"
 
 #: templates/search/search.html:54
 msgid "in"
@@ -3565,7 +3674,7 @@ msgstr[5] ""
 "وجدنا <span class=\"red\">%(counter)s</span> اعلان\n"
 "                "
 
-#: templates/search/search.html:101
+#: templates/search/search.html:109
 msgid "Edit filters"
 msgstr "تصفية البحث"
 
@@ -4111,16 +4220,7 @@ msgstr "سوف تشاهد إعلانات مثيرة للانتباه على..."
 msgid "See all"
 msgstr "اظهر الجميع"
 
-#: templates/user_profiles/my_listings.html:45
-#: templates/user_profiles/my_listings.html:190
-#: templates/user_profiles/my_listings.html:247
-#: templates/user_profiles/my_listings.html:356
-msgid ""
-"This page is emptier than the Sahara. Come on, let's fill it up by placing "
-"some awesome ads."
-msgstr "يبدو أن حسابك خالٍ من أي نشاطات"
-
-#: templates/user_profiles/my_listings.html:72
+#: templates/user_profiles/my_listings.html:49
 #, python-format
 msgid ""
 "\n"
@@ -4155,11 +4255,20 @@ msgstr[5] ""
 "لديك %(counter)s إعلان\n"
 "                        "
 
-#: templates/user_profiles/my_listings.html:93
+#: templates/user_profiles/my_listings.html:71
+#: templates/user_profiles/my_listings.html:194
+#: templates/user_profiles/my_listings.html:252
+#: templates/user_profiles/my_listings.html:351
+msgid ""
+"This page is emptier than the Sahara. Come on, let's fill it up by placing "
+"some awesome ads."
+msgstr "يبدو أن حسابك خالٍ من أي نشاطات"
+
+#: templates/user_profiles/my_listings.html:97
 msgid "Your ad has been successfully deleted"
 msgstr "لقد تم حذف إعلانك بنجاح."
 
-#: templates/user_profiles/my_listings.html:113
+#: templates/user_profiles/my_listings.html:117
 #, python-format
 msgid ""
 "The following %(counter)s ad did not meet our rules and has been rejected by "
@@ -4167,81 +4276,79 @@ msgid ""
 msgid_plural ""
 "The following %(counter)s ads did not meet our rules and have been rejected "
 "by dubizzle support team , however you can correct and resubmit"
-
 msgstr[0] ""
-"يبدو أن إعلانك لم يوافق عليه فريق الدعم في دوبيزل، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط "
-"النشر في دوبيزل ، "
-"لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
+"يبدو أن إعلانك لم يوافق عليه فريق الدعم في دوبيزل، حيث اتضح لدينا بعد "
+"المراجعة، عدم التزامه بشروط النشر في دوبيزل ، لكن الخبر الجيد هو أنك تستطيع "
+"تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
 msgstr[1] ""
-"يبدو أن إعلانك لم يوافق عليه فريق الدعم في دوبيزل، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط "
-"النشر في دوبيزل ، "
-"لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
+"يبدو أن إعلانك لم يوافق عليه فريق الدعم في دوبيزل، حيث اتضح لدينا بعد "
+"المراجعة، عدم التزامه بشروط النشر في دوبيزل ، لكن الخبر الجيد هو أنك تستطيع "
+"تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
 msgstr[2] ""
-"يبدو أن إعلانك لم يوافق عليه فريق الدعم في دوبيزل، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط "
-"النشر في دوبيزل ، "
-"لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
+"يبدو أن إعلانك لم يوافق عليه فريق الدعم في دوبيزل، حيث اتضح لدينا بعد "
+"المراجعة، عدم التزامه بشروط النشر في دوبيزل ، لكن الخبر الجيد هو أنك تستطيع "
+"تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
 msgstr[3] ""
-"يبدو أن إعلانك لم يوافق عليه فريق الدعم في دوبيزل، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط "
-"النشر في دوبيزل ، "
-"لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
+"يبدو أن إعلانك لم يوافق عليه فريق الدعم في دوبيزل، حيث اتضح لدينا بعد "
+"المراجعة، عدم التزامه بشروط النشر في دوبيزل ، لكن الخبر الجيد هو أنك تستطيع "
+"تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
 msgstr[4] ""
-"يبدو أن إعلانك لم يوافق عليه فريق الدعم في دوبيزل، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط "
-"النشر في دوبيزل ، "
-"لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
+"يبدو أن إعلانك لم يوافق عليه فريق الدعم في دوبيزل، حيث اتضح لدينا بعد "
+"المراجعة، عدم التزامه بشروط النشر في دوبيزل ، لكن الخبر الجيد هو أنك تستطيع "
+"تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
 msgstr[5] ""
-"يبدو أن إعلانك لم يوافق عليه فريق الدعم في دوبيزل، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط "
-"النشر في دوبيزل ، "
-"لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
+"يبدو أن إعلانك لم يوافق عليه فريق الدعم في دوبيزل، حيث اتضح لدينا بعد "
+"المراجعة، عدم التزامه بشروط النشر في دوبيزل ، لكن الخبر الجيد هو أنك تستطيع "
+"تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
 
-
-#: templates/user_profiles/my_listings.html:157
+#: templates/user_profiles/my_listings.html:161
 msgid "Recommended suggestion:"
 msgstr "إقتراحنا:"
 
-#: templates/user_profiles/my_listings.html:163
-#: templates/user_profiles/my_listings.html:165
-#: templates/user_profiles/my_listings.html:320
-#: templates/user_profiles/my_listings.html:322
+#: templates/user_profiles/my_listings.html:167
+#: templates/user_profiles/my_listings.html:169
+#: templates/user_profiles/my_listings.html:324
+#: templates/user_profiles/my_listings.html:326
 msgid "delete"
 msgstr "حذف"
 
-#: templates/user_profiles/my_listings.html:167
-#: templates/user_profiles/my_listings.html:169
+#: templates/user_profiles/my_listings.html:171
+#: templates/user_profiles/my_listings.html:173
 msgid "resubmit"
 msgstr "إعادة وضع الإعلان"
 
-#: templates/user_profiles/my_listings.html:177
-#: templates/user_profiles/my_listings.html:341
+#: templates/user_profiles/my_listings.html:181
+#: templates/user_profiles/my_listings.html:337
 msgid "Are you sure you want to delete this listing?"
 msgstr "هل أنت متأكد من حذف إعلانك ؟"
 
-#: templates/user_profiles/my_listings.html:183
-#: templates/user_profiles/my_listings.html:346
+#: templates/user_profiles/my_listings.html:187
+#: templates/user_profiles/my_listings.html:342
 msgid "Yes, delete it."
 msgstr "نعم، احذفه."
 
-#: templates/user_profiles/my_listings.html:195
+#: templates/user_profiles/my_listings.html:199
 msgid "Show all my rejected ads"
 msgstr "اظهر جميع اعلاناتي المرفوضة"
 
-#: templates/user_profiles/my_listings.html:213
+#: templates/user_profiles/my_listings.html:218
 msgid "These ads are awaiting approval and will be live soon."
 msgstr "جاري الآن الموافقة على الإعلان وسيتم نشره في أقرب وقت."
 
-#: templates/user_profiles/my_listings.html:252
+#: templates/user_profiles/my_listings.html:257
 msgid "Show all my pending ads"
 msgstr "اظهر جميع إعلاناتي التي لا زالت تحت المراجعة"
 
-#: templates/user_profiles/my_listings.html:312
+#: templates/user_profiles/my_listings.html:316
 msgid "Your edits will go live soon."
 msgstr "سنقوم بنشر تعديلاتك قريبا."
 
-#: templates/user_profiles/my_listings.html:324
-#: templates/user_profiles/my_listings.html:326
+#: templates/user_profiles/my_listings.html:328
+#: templates/user_profiles/my_listings.html:330
 msgid "edit"
 msgstr "تعديل"
 
-#: templates/user_profiles/my_listings.html:362
+#: templates/user_profiles/my_listings.html:357
 msgid "Show all my live ads"
 msgstr "اظهر جميع اعلاناتي المنشورة"
 
@@ -4350,19 +4457,101 @@ msgstr[5] ""
 "لديك %(counter)s إعلان منشور\n"
 "    "
 
+#: templates/user_profiles/my_saved_searches.html:10
+#, python-format
+msgid ""
+"\n"
+"        You've got %(counter)s saved search\n"
+"    "
+msgid_plural ""
+"\n"
+"        You've got %(counter)s saved searches\n"
+"    "
+msgstr[0] ""
+"\n"
+"لديك بحث محفوظ واحد\n"
+"    "
+msgstr[1] ""
+"\n"
+"لديك بحث محفوظ واحد\n"
+"    "
+msgstr[2] ""
+"\n"
+"لديك %(counter)s بحوث محفوظة\n"
+"    "
+msgstr[3] ""
+"\n"
+"لديك %(counter)s بحوث محفوظة\n"
+"    "
+msgstr[4] ""
+"\n"
+"لديك %(counter)s بحوث محفوظة\n"
+"    "
+msgstr[5] ""
+"\n"
+"لديك %(counter)s بحوث محفوظة\n"
+"    "
+
+#: templates/user_profiles/my_saved_searches.html:24
+msgid "Your saved search has been deleted."
+msgstr "لقد تم حذف بحثك المحفوظ"
+
+#: templates/user_profiles/my_saved_searches.html:62
+msgid "ON"
+msgstr "تشغيل"
+
+#: templates/user_profiles/my_saved_searches.html:62
+msgid "OFF"
+msgstr "إلغاء"
+
+#: templates/user_profiles/my_saved_searches.html:66
+msgid "Email alerts"
+msgstr "تنبيهات الإيميل"
+
+#: templates/user_profiles/my_saved_searches.html:72
+#, fuzzy
+msgid "Delete"
+msgstr "حذف"
+
 #: utils/meta_builder.py:93 utils/meta_builder.py:98
 #, python-format
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
 
-#: utils/prettify_filters.py:35
-msgid " km"
+#: utils/prettify_filters.py:43 utils/prettify_filters.py:46
+msgid "Studio"
+msgstr "الاستوديو"
+
+#: utils/prettify_filters.py:51
+msgid "km"
+msgstr "كم"
+
+#: utils/prettify_filters.py:54
+msgid "French"
 msgstr ""
 
-#: utils/prettify_filters.py:57 utils/prettify_filters.py:58
+#: utils/prettify_filters.py:74 utils/prettify_filters.py:75
 #, python-format
 msgid "%s"
 msgstr ""
+
+#: utils/prettify_filters.py:76
+msgid "language"
+msgstr "اللغة"
+
+#: utils/prettify_filters.py:77
+#, fuzzy
+msgid "keywords"
+msgstr "كلمات البحث"
+
+#: utils/prettify_filters.py:92
+msgid "price"
+msgstr "السعر"
+
+#: utils/prettify_filters.py:96
+#, fuzzy
+msgid "photos"
+msgstr "الصور"
 
 #: utils/rejected_context.py:19
 msgid ""
@@ -4441,6 +4630,35 @@ msgid ""
 "Remove Franco Arabic from your ad (no '3adi, ya3ni, wa7id, etc') and replace "
 "it with English or Arabic"
 msgstr "أكتب الإعلان بحروف عربية"
+
+#, fuzzy
+#~ msgid ""
+#~ "This email address is already in use. Click 'I have a dubizzle password', "
+#~ "or use a different email."
+#~ msgstr ""
+#~ "عنوان الإيميل هذا مسجل لدينا. إختر \"لدي حساب وكلمة سر\" اعلاه أو ادخل "
+#~ "عنوان ايميل آخر."
+
+#~ msgid "ar"
+#~ msgstr "عربي"
+
+#~ msgid "year"
+#~ msgstr "السنة"
+
+#~ msgid "bedrooms"
+#~ msgstr "غرف نوم"
+
+#~ msgid "kilometers"
+#~ msgstr "كيلومترات"
+
+#~ msgid "It's as fast as saying &#34;Open Sesame&#34;"
+#~ msgstr "أسهل مما تتخيل :)"
+
+#~ msgid "Sign in – show me my stuff"
+#~ msgstr "ادخل حسابك وراجع اعلاناتك"
+
+#~ msgid " to create one on the fly!"
+#~ msgstr "لإنشاء حساب جديد"
 
 #~ msgid "* More regions coming soon"
 #~ msgstr "*المزيد من المناطق قريباً"
@@ -4530,10 +4748,10 @@ msgstr "أكتب الإعلان بحروف عربية"
 
 #, fuzzy
 #~ msgid ""
-#~ "By posting your ad you are agreeing to the dubizzle <a href="
-#~ "\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the dubizzle "
-#~ "<a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to "
-#~ "receiving marketing and promotional offers."
+#~ "By posting your ad you are agreeing to the dubizzle <a href=\"%(terms_url)"
+#~ "s\" target=\"_blank\">terms & conditions</a>, the dubizzle <a href="
+#~ "\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving "
+#~ "marketing and promotional offers."
 #~ msgstr ""
 #~ "\n"
 #~ "عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" class=\"u-link\" "
@@ -4750,8 +4968,8 @@ msgstr "أكتب الإعلان بحروف عربية"
 #~ msgid "Upload"
 #~ msgstr "تحميل السيرة الذاتية"
 
-msgid "Remove skill"
-msgstr "احذفها"
+#~ msgid "Remove skill"
+#~ msgstr "احذفها"
 
 #~ msgid ""
 #~ "\n"
@@ -4772,140 +4990,20 @@ msgstr "احذفها"
 #~ msgid "Qatar's free local classifieds community."
 #~ msgstr "رفيقك للإعلانات المُبوبة المجانية في قطر"
 
-msgid "price"
-msgstr "السعر"
-
-msgid "languague"
-msgstr "اللغة"
+#~ msgid "languague"
+#~ msgstr "اللغة"
 
 #~ msgid "Website under maintenance. We 'll be back soon"
 #~ msgstr "الموقع تحت الصيانة سنعود بعد قليل"
 
-msgid "No Filters"
-msgstr "لا يوجد خيارات بحث"
+#~ msgid "Your Saved Searches"
+#~ msgstr "بحوثك المحفوظة"
 
-msgid "Save search"
-msgstr "احفظ هذا البحث"
+#~ msgid "Saved (manage)"
+#~ msgstr "حفظ (إدارة)"
 
-msgid "Your Saved Searches"
-msgstr "بحوثك المحفوظة"
+#~ msgid "Language"
+#~ msgstr "اللغة"
 
-msgid "Your saved searches"
-msgstr "بحوثك المحفوظة"
-
-msgid "Email alerts"
-msgstr "تنبيهات الإيميل"
-
-msgid "Your saved search has been deleted."
-msgstr "لقد تم حذف بحثك المحفوظ"
-
-msgid ""
-"\n"
-"        You've got %(counter)s saved search\n"
-"    "
-msgid_plural ""
-"\n"
-"        You've got %(counter)s saved searches\n"
-"    "
-msgstr[0] ""
-"\n"
-"لديك بحث محفوظ واحد\n"
-"    "
-msgstr[1] ""
-"\n"
-"لديك بحث محفوظ واحد\n"
-"    "
-msgstr[2] ""
-"\n"
-"لديك %(counter)s بحوث محفوظة\n"
-"    "
-msgstr[3] ""
-"\n"
-"لديك %(counter)s بحوث محفوظة\n"
-"    "
-msgstr[4] ""
-"\n"
-"لديك %(counter)s بحوث محفوظة\n"
-"    "
-msgstr[5] ""
-"\n"
-"لديك %(counter)s بحوث محفوظة\n"
-"    "
-
-msgid "ON"
-msgstr "تشغيل"
-
-msgid "OFF"
-msgstr "إلغاء"
-
-msgid "Studio"
-msgstr "الاستوديو"
-
-msgid "Photos"
-msgstr "الصور"
-
-msgid "Saved (manage)"
-msgstr "حفظ (إدارة)"
-
-msgid "Language"
-msgstr "اللغة"
-
-msgid "language"
-msgstr "اللغة"
-
-msgid "km"
-msgstr "كم"
-
-msgid "Sign in with your email"
-msgstr "سجل دخولك باستخدام إيميلك"
-
-msgid "Register"
-msgstr "سجل الآن"
-
-msgid "Create a free account on dubizzle"
-msgstr "أنشئ حساب مجاني على دوبيزل"
-
-msgid "Register via email"
-msgstr "سجل باستخدام الإيميل"
-
-msgid ""
-"\n"
-"                By clicking on Register, you agree to our <a href="
-"\"%(terms_url)s\" target=\"_blank\" class=\"u-link\">terms & conditions</"
-"a> and the dubizzle <a href=\"%(privacy_url)s\" target=\"_blank\" class="
-"\"u-link\">privacy policy</a>.\n"
-"            "
-msgstr ""
-"\n"
-"بالضغط على سجل الآن، أنت توافق على <a href=\"%(terms_url)s\" target="
-"\"_blank\" class=\"u-link\">الشروط والأحكام</a> و <a href="
-"\"%(privacy_url)s\" target=\"_blank\" class=\"u-link\">سياسة الخصوصية</a> "
-"لدوبيزل.                    "
-
-msgid "Sign in to your account"
-msgstr "سجل الدخول لحسابك"
-
-msgid "Already have a dubizzle account?"
-msgstr "لديك حساب على دوبيزل؟"
-
-msgid ""
-"This email address is already in use. Click 'Sign in to your account', or "
-"use a different email."
-msgstr ""
-"عنوان الإيميل هذا مسجل لدينا. إختر \"سجل الدخول لحسابك\" اعلاه أو ادخل "
-"عنوان ايميل آخر."
-
-msgid "Try Again"
-msgstr "حاول مرة أخرى‎"
-
-msgid "Sign in via facebook"
-msgstr "سجل دخولك عبر facebook "
-
-msgid "Or sign in with your email address"
-msgstr "أو سجل دخولك باستخدام إيميلك"
-
-msgid "Register via facebook"
-msgstr "سجل باستخدام facebook"
-
-msgid "Have an account?"
-msgstr "لديك حساب؟"
+#~ msgid "Sign in with your email"
+#~ msgstr "سجل دخولك باستخدام إيميلك"
