@@ -3542,9 +3542,8 @@ msgstr "اضغط للبحث"
 
 #: templates/search/_search_bar_snippet.html:23
 #: templates/search/browse_widget.html:68
-#, fuzzy, python-format
 msgid "Show only %(CURRENT_LANGUAGE)s ads"
-msgstr " أظهر فقط الإعلانات المضافة بالعربي"
+msgstr "اظهر فقط الإعلانات المضافة بال%(CURRENT_LANGUAGE)s"
 
 #: templates/search/browse_widget.html:92
 msgid "Refine"
