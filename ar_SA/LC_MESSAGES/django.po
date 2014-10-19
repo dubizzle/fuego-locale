@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-07 17:09+0400\n"
+"POT-Creation-Date: 2014-10-19 12:47+0400\n"
 "PO-Revision-Date: 2014-08-05 14:48+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Saudi <http://translate.dubizzlecloud.com/projects/"
@@ -21,12 +21,12 @@ msgstr ""
 "X-Generator: Weblate 1.3\n"
 
 #: authentication/forms.py:24 authentication/forms.py:100
-#: authentication/forms.py:198 templates/authentication/login.html:80
+#: authentication/forms.py:199 templates/authentication/login.html:80
 msgid "Email address"
 msgstr "عنوان الإيميل"
 
 #: authentication/forms.py:25 authentication/forms.py:101
-#: authentication/forms.py:199 fuego/forms/__init__.py:148 public/forms.py:26
+#: authentication/forms.py:200 fuego/forms/__init__.py:148 public/forms.py:26
 msgid "Oh no! Your email is invalid. Try again."
 msgstr "لا تنسى إدخال عنوان إيميل صحيح!"
 
@@ -48,7 +48,7 @@ msgstr ""
 msgid "This field is required."
 msgstr ""
 
-#: authentication/forms.py:50 authentication/forms.py:212
+#: authentication/forms.py:50 authentication/forms.py:213
 msgid ""
 "Something's not right. This email address is not associated with a dubizzle "
 "account."
@@ -73,7 +73,7 @@ msgstr "تأكيد عنوان الإيميل"
 msgid "Confirm Password"
 msgstr "تأكيد كلمة السر"
 
-#: authentication/forms.py:123 authentication/forms.py:242
+#: authentication/forms.py:123 authentication/forms.py:243
 msgid "Sorry, please re-enter your password using only English characters."
 msgstr "عفوا, كلمة السر يجب أن تتكون من حروف لاتينية (English)"
 
@@ -93,36 +93,36 @@ msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
 
-#: authentication/forms.py:224
+#: authentication/forms.py:225
 msgid "Shiny new password"
 msgstr "كلمة السر الجديدة"
 
-#: authentication/forms.py:226 authentication/forms.py:274
+#: authentication/forms.py:227 authentication/forms.py:275
 msgid "Your password must be a minimum 6 characters. Try again."
 msgstr "يجب ادخال كلمة سر لا تقل عن 6 أحرف!"
 
-#: authentication/forms.py:228 templates/authentication/register.html:106
+#: authentication/forms.py:229 templates/authentication/register.html:106
 #: templates/authentication/register.html:107
 #: templates/listings/manage_listing.html:273
 #: templates/listings/snippets/_form.html:291
 msgid "Confirm password"
 msgstr "تأكيد كلمة السر"
 
-#: authentication/forms.py:259
+#: authentication/forms.py:260
 msgid "Hmm... that doesn't match up!"
 msgstr "كلمات السر لا تتطابق! حاول مرة أخرى..."
 
-#: authentication/forms.py:272
+#: authentication/forms.py:273
 msgid "Ye olde password"
 msgstr "كلمة السر القديمة"
 
-#: authentication/forms.py:289
+#: authentication/forms.py:290
 msgid "Ooops, the password you entered is incorrect."
 msgstr ""
 "كلمة السر غير صحيحة (ألو.. ؟! خليك معانا .. تأكد من كون الحروف الانجليزية  "
 "كبيرة أو صغيرة)."
 
-#: authentication/views.py:107
+#: authentication/views.py:108
 msgid "Please enter the correct Username and Password combination."
 msgstr "البيانات التي ادخلتها غير صحيحة."
 
@@ -379,92 +379,92 @@ msgstr "مجوهرات وساعات"
 msgid "So much more."
 msgstr "فئات أكثر"
 
-#: fuego/base_settings.py:515 search/search_utils.py:96
+#: fuego/base_settings.py:517 search/search_utils.py:101
 #: templates/search/widget.html:27 templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:573
+#: fuego/base_settings.py:575
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:606 fuego/base_settings.py:1053
+#: fuego/base_settings.py:608 fuego/base_settings.py:1055
 msgid "Spam"
 msgstr "إعلان مزعج"
 
-#: fuego/base_settings.py:607
+#: fuego/base_settings.py:609
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:608 fuego/base_settings.py:1048
+#: fuego/base_settings.py:610 fuego/base_settings.py:1050
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:609 fuego/base_settings.py:1050
+#: fuego/base_settings.py:611 fuego/base_settings.py:1052
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:610
+#: fuego/base_settings.py:612
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:611
+#: fuego/base_settings.py:613
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:612 fuego/base_settings.py:1051
+#: fuego/base_settings.py:614 fuego/base_settings.py:1053
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:613
+#: fuego/base_settings.py:615
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:614
+#: fuego/base_settings.py:616
 msgid "No Category"
 msgstr "القسم؟"
 
-#: fuego/base_settings.py:633
+#: fuego/base_settings.py:635
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في الفئة غير الصحيحة"
 
-#: fuego/base_settings.py:634
+#: fuego/base_settings.py:636
 msgid "Your ad is misleading"
 msgstr "مجانا 100%"
 
-#: fuego/base_settings.py:704
+#: fuego/base_settings.py:706
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:894
+#: fuego/base_settings.py:896
 msgid "Date: newest"
 msgstr "بحسب التاريخ: الأحدث"
 
-#: fuego/base_settings.py:895
+#: fuego/base_settings.py:897
 msgid "Date: oldest"
 msgstr "بحسب التاريخ: الأقدم"
 
-#: fuego/base_settings.py:899
+#: fuego/base_settings.py:901
 msgid "Price: highest"
 msgstr "بحسب السعر: الأعلى"
 
-#: fuego/base_settings.py:900
+#: fuego/base_settings.py:902
 msgid "Price: lowest"
 msgstr "بحسب السعر: الأدنى"
 
-#: fuego/base_settings.py:1043
+#: fuego/base_settings.py:1045
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:1045
+#: fuego/base_settings.py:1047
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:1049
+#: fuego/base_settings.py:1051
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:1052
+#: fuego/base_settings.py:1054
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
@@ -2710,31 +2710,30 @@ msgstr "تسجيل الدخول"
 msgid "Your ads"
 msgstr "إعلاناتك"
 
-#: templates/generic.html:180 templates/user_profiles/my_listings.html:111
+#: templates/generic.html:179 templates/user_profiles/my_listings.html:111
 msgid "Your rejected ads"
 msgstr "إعلاناتك المرفوضة"
 
-#: templates/generic.html:186 templates/user_profiles/my_listings.html:210
+#: templates/generic.html:184 templates/user_profiles/my_listings.html:210
 msgid "Your pending ads"
 msgstr "إعلاناتك التي تنتظر الموافقة"
 
-#: templates/generic.html:191 templates/user_profiles/my_listings.html:269
+#: templates/generic.html:189 templates/user_profiles/my_listings.html:269
 msgid "Your live ads"
 msgstr "إعلاناتك المنشورة"
 
-#: templates/generic.html:197
-#: templates/email_alerts/save_search_button.html:16
-#: templates/email_alerts/save_search_button.html:33
+#: templates/generic.html:195
+#: templates/email_alerts/save_search_button.html:24
 #: templates/user_profiles/my_saved_searches.html:33
 msgid "Your saved searches"
 msgstr "بحوثك المحفوظة"
 
-#: templates/generic.html:203
+#: templates/generic.html:201
 msgctxt "my_listings"
 msgid "Change password"
 msgstr "غير كلمة السر"
 
-#: templates/generic.html:208 templates/authentication/change_password.html:22
+#: templates/generic.html:206 templates/authentication/change_password.html:22
 msgid "Logout"
 msgstr "الخروج من الحساب"
 
@@ -2899,14 +2898,14 @@ msgstr ""
 msgid "No Filters"
 msgstr "لا يوجد خيارات بحث"
 
-#: templates/email_alerts/save_search_button.html:20
-#: templates/email_alerts/save_search_button.html:25
-msgid "Save search"
-msgstr "احفظ هذا البحث"
-
-#: templates/email_alerts/save_search_button.html:30
+#: templates/email_alerts/save_search_button.html:7
 msgid "Try Again"
 msgstr "حاول مرة أخرى‎"
+
+#: templates/email_alerts/save_search_button.html:12
+#: templates/email_alerts/save_search_button.html:18
+msgid "Save search"
+msgstr "احفظ هذا البحث"
 
 #: templates/listings/delete_listing.html:16
 #: templates/listings/rejected/delete_workspace.html:16
@@ -3358,11 +3357,11 @@ msgstr "لحذف الصور، عليك تفعيل تقنية الجافا سكر
 msgid "Add some photos"
 msgstr "اضف صور"
 
-#: templates/listings/snippets/photos/_manage_photos.html:94
+#: templates/listings/snippets/photos/_manage_photos.html:92
 msgid "Add a photo"
 msgstr "اضف صور"
 
-#: templates/listings/snippets/photos/_manage_photos.html:101
+#: templates/listings/snippets/photos/_manage_photos.html:97
 #, python-format
 msgid ""
 "\n"
@@ -3406,7 +3405,7 @@ msgstr ""
 "حاول مرة آخرى </strong>"
 
 #: templates/public/_no-results-home.html:14
-#: templates/public/_no-results.html:16
+#: templates/public/_no-results.html:17
 msgid "Go to the homepage"
 msgstr "العودة الى الصفحة الرئيسية"
 
@@ -3592,6 +3591,7 @@ msgstr "اضغط للبحث"
 
 #: templates/search/_search_bar_snippet.html:23
 #: templates/search/browse_widget.html:68
+#, python-format
 msgid "Show only %(CURRENT_LANGUAGE)s ads"
 msgstr "اظهر فقط الإعلانات المضافة بال%(CURRENT_LANGUAGE)s"
 
@@ -4550,9 +4550,6 @@ msgstr "السعر"
 msgid "photos"
 msgstr "الصور"
 
-msgid "Photos"
-msgstr "الصور"
-
 #: utils/rejected_context.py:19
 msgid ""
 "Your ad is missing some important information that helps you sell your item."
@@ -4630,6 +4627,9 @@ msgid ""
 "Remove Franco Arabic from your ad (no '3adi, ya3ni, wa7id, etc') and replace "
 "it with English or Arabic"
 msgstr "أكتب الإعلان بحروف عربية"
+
+#~ msgid "Photos"
+#~ msgstr "الصور"
 
 #, fuzzy
 #~ msgid ""
@@ -4748,10 +4748,10 @@ msgstr "أكتب الإعلان بحروف عربية"
 
 #, fuzzy
 #~ msgid ""
-#~ "By posting your ad you are agreeing to the dubizzle <a href=\"%(terms_url)"
-#~ "s\" target=\"_blank\">terms & conditions</a>, the dubizzle <a href="
-#~ "\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving "
-#~ "marketing and promotional offers."
+#~ "By posting your ad you are agreeing to the dubizzle <a href="
+#~ "\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the dubizzle "
+#~ "<a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to "
+#~ "receiving marketing and promotional offers."
 #~ msgstr ""
 #~ "\n"
 #~ "عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" class=\"u-link\" "

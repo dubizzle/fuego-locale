@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-07 17:10+0400\n"
+"POT-Creation-Date: 2014-10-19 12:49+0400\n"
 "PO-Revision-Date: 2014-08-05 15:02+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/"
@@ -15,12 +15,12 @@ msgstr ""
 "X-Generator: Weblate 1.3\n"
 
 #: authentication/forms.py:24 authentication/forms.py:100
-#: authentication/forms.py:198 templates/authentication/login.html:80
+#: authentication/forms.py:199 templates/authentication/login.html:80
 msgid "Email address"
 msgstr "Adresse email"
 
 #: authentication/forms.py:25 authentication/forms.py:101
-#: authentication/forms.py:199 fuego/forms/__init__.py:148 public/forms.py:26
+#: authentication/forms.py:200 fuego/forms/__init__.py:148 public/forms.py:26
 msgid "Oh no! Your email is invalid. Try again."
 msgstr "Oh non! Votre adresse email n'est pas valide. Réessayez."
 
@@ -42,7 +42,7 @@ msgstr ""
 msgid "This field is required."
 msgstr ""
 
-#: authentication/forms.py:50 authentication/forms.py:212
+#: authentication/forms.py:50 authentication/forms.py:213
 msgid ""
 "Something's not right. This email address is not associated with a dubizzle "
 "account."
@@ -67,7 +67,7 @@ msgstr "Confirmez votre adresse email"
 msgid "Confirm Password"
 msgstr "Confirmez votre mot de passe"
 
-#: authentication/forms.py:123 authentication/forms.py:242
+#: authentication/forms.py:123 authentication/forms.py:243
 msgid "Sorry, please re-enter your password using only English characters."
 msgstr ""
 "Désolé, veuillez entrer de nouveau votre mot de passe en utilisant "
@@ -89,35 +89,35 @@ msgstr "Oups... ce n'est pas la męme! Réessayez."
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "Hmm... ça ne marche pas. Réessayez."
 
-#: authentication/forms.py:224
+#: authentication/forms.py:225
 msgid "Shiny new password"
 msgstr "Voici un mot de passe flambant neuf"
 
-#: authentication/forms.py:226 authentication/forms.py:274
+#: authentication/forms.py:227 authentication/forms.py:275
 msgid "Your password must be a minimum 6 characters. Try again."
 msgstr ""
 "Votre mot de passe doit comprendre un minimum de 6 caractères. Réessayez."
 
-#: authentication/forms.py:228 templates/authentication/register.html:106
+#: authentication/forms.py:229 templates/authentication/register.html:106
 #: templates/authentication/register.html:107
 #: templates/listings/manage_listing.html:273
 #: templates/listings/snippets/_form.html:291
 msgid "Confirm password"
 msgstr "Confirmez votre mot de passe"
 
-#: authentication/forms.py:259
+#: authentication/forms.py:260
 msgid "Hmm... that doesn't match up!"
 msgstr "Hmm... ça ne colle pas!"
 
-#: authentication/forms.py:272
+#: authentication/forms.py:273
 msgid "Ye olde password"
 msgstr "Votre ancien mot de passe"
 
-#: authentication/forms.py:289
+#: authentication/forms.py:290
 msgid "Ooops, the password you entered is incorrect."
 msgstr "Oups, le mot de passe que vous avez entré est incorrect."
 
-#: authentication/views.py:107
+#: authentication/views.py:108
 msgid "Please enter the correct Username and Password combination."
 msgstr ""
 "Veuillez entrer le bon nom d'utilisateur et le mot de passe correspondant."
@@ -134,92 +134,92 @@ msgstr "Erreur"
 msgid "Please enter the correct letters"
 msgstr "Veuillez entrer les bonnes lettres"
 
-#: fuego/base_settings.py:515 search/search_utils.py:96
+#: fuego/base_settings.py:517 search/search_utils.py:101
 #: templates/search/widget.html:27 templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "Tout sur dubizzle"
 
-#: fuego/base_settings.py:573
+#: fuego/base_settings.py:575
 msgid "m&sup2;"
 msgstr "m&sup2;"
 
-#: fuego/base_settings.py:606 fuego/base_settings.py:1053
+#: fuego/base_settings.py:608 fuego/base_settings.py:1055
 msgid "Spam"
 msgstr "Indésirable"
 
-#: fuego/base_settings.py:607
+#: fuego/base_settings.py:609
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:608 fuego/base_settings.py:1048
+#: fuego/base_settings.py:610 fuego/base_settings.py:1050
 msgid "Miscategorized"
 msgstr "Mauvaise catégorie"
 
-#: fuego/base_settings.py:609 fuego/base_settings.py:1050
+#: fuego/base_settings.py:611 fuego/base_settings.py:1052
 msgid "Repetitive"
 msgstr "Répétée"
 
-#: fuego/base_settings.py:610
+#: fuego/base_settings.py:612
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:611
+#: fuego/base_settings.py:613
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:612 fuego/base_settings.py:1051
+#: fuego/base_settings.py:614 fuego/base_settings.py:1053
 msgid "Misleading"
 msgstr "Trompeuse"
 
-#: fuego/base_settings.py:613
+#: fuego/base_settings.py:615
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:614
+#: fuego/base_settings.py:616
 msgid "No Category"
 msgstr "Catégorie"
 
-#: fuego/base_settings.py:633
+#: fuego/base_settings.py:635
 msgid "You have chosen the wrong category."
 msgstr "Votre annonce a été placé dans la mauvaise catégorie"
 
-#: fuego/base_settings.py:634
+#: fuego/base_settings.py:636
 msgid "Your ad is misleading"
 msgstr "Votre annonce est GRATUITE"
 
-#: fuego/base_settings.py:704
+#: fuego/base_settings.py:706
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: fuego/base_settings.py:894
+#: fuego/base_settings.py:896
 msgid "Date: newest"
 msgstr "Date: plus recente"
 
-#: fuego/base_settings.py:895
+#: fuego/base_settings.py:897
 msgid "Date: oldest"
 msgstr "Date: moins recente"
 
-#: fuego/base_settings.py:899
+#: fuego/base_settings.py:901
 msgid "Price: highest"
 msgstr "Prix: plus cher"
 
-#: fuego/base_settings.py:900
+#: fuego/base_settings.py:902
 msgid "Price: lowest"
 msgstr "Prix: moins cher"
 
-#: fuego/base_settings.py:1043
+#: fuego/base_settings.py:1045
 msgid "Other"
 msgstr "Autre"
 
-#: fuego/base_settings.py:1045
+#: fuego/base_settings.py:1047
 msgid "Please select"
 msgstr "Choisissez votre raison"
 
-#: fuego/base_settings.py:1049
+#: fuego/base_settings.py:1051
 msgid "Offensive"
 msgstr "Offensive"
 
-#: fuego/base_settings.py:1052
+#: fuego/base_settings.py:1054
 msgid "Possible fraud"
 msgstr "Possible fraude"
 
@@ -2673,31 +2673,30 @@ msgstr ""
 msgid "Your ads"
 msgstr "Vos annonces"
 
-#: templates/generic.html:180 templates/user_profiles/my_listings.html:111
+#: templates/generic.html:179 templates/user_profiles/my_listings.html:111
 msgid "Your rejected ads"
 msgstr "Vos annonces rejetées"
 
-#: templates/generic.html:186 templates/user_profiles/my_listings.html:210
+#: templates/generic.html:184 templates/user_profiles/my_listings.html:210
 msgid "Your pending ads"
 msgstr "Vos annonces en attente"
 
-#: templates/generic.html:191 templates/user_profiles/my_listings.html:269
+#: templates/generic.html:189 templates/user_profiles/my_listings.html:269
 msgid "Your live ads"
 msgstr "Vos annonces en ligne"
 
-#: templates/generic.html:197
-#: templates/email_alerts/save_search_button.html:16
-#: templates/email_alerts/save_search_button.html:33
+#: templates/generic.html:195
+#: templates/email_alerts/save_search_button.html:24
 #: templates/user_profiles/my_saved_searches.html:33
 msgid "Your saved searches"
 msgstr "Vos recherches favorites"
 
-#: templates/generic.html:203
+#: templates/generic.html:201
 msgctxt "my_listings"
 msgid "Change password"
 msgstr "Modifier mot de passe"
 
-#: templates/generic.html:208 templates/authentication/change_password.html:22
+#: templates/generic.html:206 templates/authentication/change_password.html:22
 msgid "Logout"
 msgstr "Déconnexion"
 
@@ -2868,14 +2867,14 @@ msgstr ""
 msgid "No Filters"
 msgstr "Sans filtres de recherche"
 
-#: templates/email_alerts/save_search_button.html:20
-#: templates/email_alerts/save_search_button.html:25
-msgid "Save search"
-msgstr "Enregistrer cette recherche"
-
-#: templates/email_alerts/save_search_button.html:30
+#: templates/email_alerts/save_search_button.html:7
 msgid "Try Again"
 msgstr "essayer encore"
+
+#: templates/email_alerts/save_search_button.html:12
+#: templates/email_alerts/save_search_button.html:18
+msgid "Save search"
+msgstr "Enregistrer cette recherche"
 
 #: templates/listings/delete_listing.html:16
 #: templates/listings/rejected/delete_workspace.html:16
@@ -3337,11 +3336,11 @@ msgstr "Pour supprimer les images, vous avez besoin d'activer Javascript."
 msgid "Add some photos"
 msgstr "Ajouter des photos"
 
-#: templates/listings/snippets/photos/_manage_photos.html:94
+#: templates/listings/snippets/photos/_manage_photos.html:92
 msgid "Add a photo"
 msgstr "Ajouter une photo"
 
-#: templates/listings/snippets/photos/_manage_photos.html:101
+#: templates/listings/snippets/photos/_manage_photos.html:97
 #, python-format
 msgid ""
 "\n"
@@ -3385,7 +3384,7 @@ msgstr ""
 "strong>"
 
 #: templates/public/_no-results-home.html:14
-#: templates/public/_no-results.html:16
+#: templates/public/_no-results.html:17
 msgid "Go to the homepage"
 msgstr "Aller sur la page d'accueil"
 
@@ -3590,6 +3589,7 @@ msgstr "Clicker pour rechercher"
 
 #: templates/search/_search_bar_snippet.html:23
 #: templates/search/browse_widget.html:68
+#, python-format
 msgid "Show only %(CURRENT_LANGUAGE)s ads"
 msgstr "Afficher seulement les annonces en %(CURRENT_LANGUAGE)s"
 
@@ -4543,9 +4543,6 @@ msgstr "Prix"
 msgid "photos"
 msgstr "Ajouter une photo"
 
-msgid "Photos"
-msgstr "Ajouter une photo"
-
 #: utils/rejected_context.py:19
 msgid ""
 "Your ad is missing some important information that helps you sell your item."
@@ -4636,6 +4633,9 @@ msgid ""
 msgstr ""
 "Veuillez vous assurer de ne pas utiliser les lettres latines en écrivant "
 "votre annonce en Arabe"
+
+#~ msgid "Photos"
+#~ msgstr "Ajouter une photo"
 
 #~ msgid ""
 #~ "This email address is already in use. Click 'I have a password', or use a "
@@ -4839,10 +4839,10 @@ msgstr ""
 #~ msgstr "Choisissez votre quartier"
 
 #~ msgid ""
-#~ "By posting your ad you are agreeing to the dubizzle <a href=\"%(terms_url)"
-#~ "s\" target=\"_blank\">terms & conditions</a>, the dubizzle <a href="
-#~ "\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving "
-#~ "marketing and promotional offers."
+#~ "By posting your ad you are agreeing to the dubizzle <a href="
+#~ "\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the dubizzle "
+#~ "<a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to "
+#~ "receiving marketing and promotional offers."
 #~ msgstr ""
 #~ "En postant une annonce, vous acceptez tous <a href=\"%(terms_url)s\" "
 #~ "class=\"u-link\" target=\"_blank\">les termes et conditions</a> de "
