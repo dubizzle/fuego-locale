@@ -301,12 +301,12 @@ msgid "Jazan"
 msgstr "جازان"
 
 #: country_templates/saudi/public/landing.html:16
-msgid "The Kingdom's free local classifieds community."
-msgstr "رفيقك للإعلانات المُبوبة المجانية في المملكة"
+msgid "Saudi Arabia's free local online classifieds community"
+msgstr "موقع الإعلانات المبوبة المجانيّة الأول فى السعودية"
 
 #: country_templates/saudi/public/landing.html:23
-msgid "Place your FREE ad in 1, 2, 3."
-msgstr "أضف إعلانك مجــاناً في ثلاث خطوات بسيطة "
+msgid "Sell anything you can imagine"
+msgstr "دبزِلها وبيع أي يء تتخيله من الإبرة للطيّارة"
 
 #: country_templates/saudi/public/landing.html:28
 msgid "Place your FREE ad."
@@ -378,6 +378,39 @@ msgstr "مجوهرات وساعات"
 #: country_templates/saudi/public/landing.html:167
 msgid "So much more."
 msgstr "فئات أكثر"
+
+#: country_templates/saudi/public/landing.html:
+msgid "Al Tayyeb Ali"
+msgstr "الطيب علي"
+
+#: country_templates/saudi/public/landing.html:
+msgid "Big thanks and gratitude for your distinctive services. I was really happy when I saw my ad on the site. Your business is a role model and inspiration for the youth in the Arab world."
+msgstr "لكم شكري وفائق إمتناني لخدماتكم المميزة فكم كنت سعيداً عندما رأيت إعلاني سعادتي ان قرأت اعلاني فدمتم رمزا للتميز ودامت خدماتكم المتميزة ذخراً وأملاً لكل الشباب والخريجين في الوطن العربي والعالم اجمع شاكرين لكن حسن تعاونكم وتميزكم"
+
+#: country_templates/saudi/public/landing.html:
+msgid "Ahmad Mutair"
+msgstr "احمد مطير"
+
+#: country_templates/saudi/public/landing.html:
+msgid "I’ve successfully sold my stuff, thanks dubizzle!"
+msgstr "شكراً دوبيزل لقد تم بيع ما عرضته على موقعكم !"
+
+#: country_templates/saudi/public/landing.html:
+msgid "Jomaan Al Ghamdi"
+msgstr "جمعان الغامدي"
+
+#: country_templates/saudi/public/landing.html:
+msgid "Thanks dubizzle for all the support. I've benefited from posting and selling my stuff on your website. God bless you!"
+msgstr "حبيت أشكركم على ما تقدمونه من دعم لأنني استفدت من عرض إعلاناتي على موقعكم وتم ولله الحمد بيع الأجهزة المعروضة. لكم الأجر"
+
+
+#: country_templates/saudi/public/landing.html:
+msgid "Download our mobile app"
+msgstr "تحميل تطبيق الموبايل"
+
+#: country_templates/saudi/public/landing.html:
+msgid "Follow us"
+msgstr "تابعنا"
 
 #: fuego/base_settings.py:517 search/search_utils.py:101
 #: templates/search/widget.html:27 templates/search/widget.html.py:44
@@ -2977,6 +3010,14 @@ msgstr "أو سجل دخولك باستخدام إيميلك"
 
 #: templates/listings/manage_listing.html:209
 msgid "Sign in with your email address"
+msgstr "سجل دخولك باستخدام إيميلك"
+
+#: templates/listings/manage_listing.html:209
+msgid "Register with your email address"
+msgstr "سجل دخولك باستخدام إيميلك"
+
+#: templates/listings/manage_listing.html:209
+msgid "or register with your email address"
 msgstr "أو سجل دخولك باستخدام إيميلك"
 
 #: templates/listings/manage_listing.html:226
@@ -3302,17 +3343,16 @@ msgstr "لدي حساب وكلمة سر"
 #, python-format
 msgid ""
 "\n"
-"                By posting your ad you are agreeing to the dubizzle <a href="
-"\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the dubizzle <a "
-"href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to "
-"receiving marketing and promotional offers.\n"
-"            "
+"                                        By posting your ad you are agreeing "
+"to the dubizzle <a class=\"u-link\" href=\"%(terms_url)s\" target=\"_blank"
+"\">terms & conditions</a> and the dubizzle <a class=\"u-link\" href="
+"\"%(privacy_url)s\" target=\"_blank\">privacy policy</a>.\n"
+"                                    "
 msgstr ""
 "\n"
-"عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" class=\"u-link\" "
-"target=\"_blank\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target="
-"\"_blank\" class=\"u-link\">سياسة الخصوصية</a> لدوبيزل، بالإضافة إلى قبول "
-"عروض تسويقية."
+"قيامك بنشر إعلانك، يعني أنك قد وافقت على <a href=\"%(terms_url)s\" target="
+"\"_blank\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank"
+"\">سياسة الخصوصية</a> لموقع دوبيزل."
 
 #: templates/listings/snippets/_scam_warning.html:4
 msgid "Never wire money or financial info to a seller on the internet."
