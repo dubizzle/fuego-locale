@@ -2910,12 +2910,16 @@ msgstr "هذا ليس حسابك؟"
 msgid "Sign out"
 msgstr "تسجيل الخروج"
 
-#: templates/listings/manage_listing.html:205
 msgid "Or sign in with your email address"
 msgstr "أو سجل دخولك باستخدام إيميلك"
 
-#: templates/listings/manage_listing.html:209
 msgid "Sign in with your email address"
+msgstr "سجل دخولك باستخدام إيميلك"
+
+msgid "Register with your email address"
+msgstr "سجل دخولك باستخدام إيميلك"
+
+msgid "or register with your email address"
 msgstr "أو سجل دخولك باستخدام إيميلك"
 
 #: templates/listings/manage_listing.html:226
@@ -3173,7 +3177,8 @@ msgid ""
 "By clicking on 'Send my reply' I agree to the dubizzle <a target=\"_blank\" "
 "class=\"u-link\" href=\"%(terms_url)s\"> terms and conditions</a> and the "
 "dubizzle <a target=\"_blank\" class=\"u-link\" href=\"%(privacy_url)s"
-"\">privacy policy</a>"
+"\">privacy policy</a>."
+
 msgstr ""
 "عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\">شروط "
 "وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\">سياسة الخصوصية</a>"
