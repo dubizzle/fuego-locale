@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-27 13:07+0400\n"
+"POT-Creation-Date: 2014-11-27 16:33+0400\n"
 "PO-Revision-Date: 2014-08-05 13:57+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Jordanian <http://translate.dubizzlecloud.com/"
@@ -2377,21 +2377,6 @@ msgstr "الضمان"
 msgid "Please specify the warranty condition"
 msgstr "الرجاء تحديد حالة الضمان"
 
-msgid "Transmission type"
-msgstr "ناقل الحركة"
-
-msgid "No of doors"
-msgstr "عدد الابواب"
-
-msgid "Body type"
-msgstr "هيكل السيارة"
-
-msgid "Engine size"
-msgstr "سعة المحرك"
-
-msgid "Item type"
-msgstr "النوع"
-
 #: listings/forms.py:648
 #, python-format
 msgid "Area (%(unit)s)"
@@ -2607,11 +2592,11 @@ msgstr ""
 msgid "Website under maintenance (500)"
 msgstr "الموقع تحت الصيانة"
 
-#: templates/base.html:123
+#: templates/base.html:124
 msgid "Menu"
 msgstr "القائمة"
 
-#: templates/base.html:131 templates/generic.html:87
+#: templates/base.html:132 templates/generic.html:87
 #: templates/generic.html.py:94 templates/public/landing.html:54
 #: templates/public/landing.html.py:59
 #: templates/user_profiles/my_listings.html:80
@@ -2619,7 +2604,7 @@ msgid "Place an ad"
 msgstr "أضف إعلانك"
 
 # not too clear
-#: templates/base.html:138
+#: templates/base.html:139
 msgid "My account"
 msgstr "الحساب"
 
@@ -4654,6 +4639,21 @@ msgid ""
 "Remove Franco Arabic from your ad (no '3adi, ya3ni, wa7id, etc') and replace "
 "it with English or Arabic"
 msgstr "أكتب الإعلان بحروف عربية"
+
+#~ msgid "Transmission type"
+#~ msgstr "ناقل الحركة"
+
+#~ msgid "No of doors"
+#~ msgstr "عدد الابواب"
+
+#~ msgid "Body type"
+#~ msgstr "هيكل السيارة"
+
+#~ msgid "Engine size"
+#~ msgstr "سعة المحرك"
+
+#~ msgid "Item type"
+#~ msgstr "النوع"
 
 #~ msgid "Photos"
 #~ msgstr "الصور"
