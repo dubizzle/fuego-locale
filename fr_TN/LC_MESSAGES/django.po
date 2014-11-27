@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-19 12:49+0400\n"
+"POT-Creation-Date: 2014-11-27 13:08+0400\n"
 "PO-Revision-Date: 2014-08-05 15:02+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/"
@@ -101,6 +101,7 @@ msgstr ""
 #: authentication/forms.py:229 templates/authentication/register.html:106
 #: templates/authentication/register.html:107
 #: templates/listings/manage_listing.html:273
+#: templates/listings/manage_listing.html:274
 #: templates/listings/snippets/_form.html:291
 msgid "Confirm password"
 msgstr "Confirmez votre mot de passe"
@@ -134,92 +135,92 @@ msgstr "Erreur"
 msgid "Please enter the correct letters"
 msgstr "Veuillez entrer les bonnes lettres"
 
-#: fuego/base_settings.py:517 search/search_utils.py:101
+#: fuego/base_settings.py:519 search/search_utils.py:107
 #: templates/search/widget.html:27 templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "Tout sur dubizzle"
 
-#: fuego/base_settings.py:575
+#: fuego/base_settings.py:585
 msgid "m&sup2;"
 msgstr "m&sup2;"
 
-#: fuego/base_settings.py:608 fuego/base_settings.py:1055
+#: fuego/base_settings.py:618 fuego/base_settings.py:1071
 msgid "Spam"
 msgstr "Indésirable"
 
-#: fuego/base_settings.py:609
+#: fuego/base_settings.py:619
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:610 fuego/base_settings.py:1050
+#: fuego/base_settings.py:620 fuego/base_settings.py:1066
 msgid "Miscategorized"
 msgstr "Mauvaise catégorie"
 
-#: fuego/base_settings.py:611 fuego/base_settings.py:1052
+#: fuego/base_settings.py:621 fuego/base_settings.py:1068
 msgid "Repetitive"
 msgstr "Répétée"
 
-#: fuego/base_settings.py:612
+#: fuego/base_settings.py:622
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:613
+#: fuego/base_settings.py:623
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:614 fuego/base_settings.py:1053
+#: fuego/base_settings.py:624 fuego/base_settings.py:1069
 msgid "Misleading"
 msgstr "Trompeuse"
 
-#: fuego/base_settings.py:615
+#: fuego/base_settings.py:625
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:616
+#: fuego/base_settings.py:626
 msgid "No Category"
 msgstr "Catégorie"
 
-#: fuego/base_settings.py:635
+#: fuego/base_settings.py:645
 msgid "You have chosen the wrong category."
 msgstr "Votre annonce a été placé dans la mauvaise catégorie"
 
-#: fuego/base_settings.py:636
+#: fuego/base_settings.py:646
 msgid "Your ad is misleading"
 msgstr "Votre annonce est GRATUITE"
 
-#: fuego/base_settings.py:706
+#: fuego/base_settings.py:716
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: fuego/base_settings.py:896
+#: fuego/base_settings.py:908
 msgid "Date: newest"
 msgstr "Date: plus recente"
 
-#: fuego/base_settings.py:897
+#: fuego/base_settings.py:909
 msgid "Date: oldest"
 msgstr "Date: moins recente"
 
-#: fuego/base_settings.py:901
+#: fuego/base_settings.py:913
 msgid "Price: highest"
 msgstr "Prix: plus cher"
 
-#: fuego/base_settings.py:902
+#: fuego/base_settings.py:914
 msgid "Price: lowest"
 msgstr "Prix: moins cher"
 
-#: fuego/base_settings.py:1045
+#: fuego/base_settings.py:1061
 msgid "Other"
 msgstr "Autre"
 
-#: fuego/base_settings.py:1047
+#: fuego/base_settings.py:1063
 msgid "Please select"
 msgstr "Choisissez votre raison"
 
-#: fuego/base_settings.py:1051
+#: fuego/base_settings.py:1067
 msgid "Offensive"
 msgstr "Offensive"
 
-#: fuego/base_settings.py:1054
+#: fuego/base_settings.py:1070
 msgid "Possible fraud"
 msgstr "Possible fraude"
 
@@ -2023,11 +2024,11 @@ msgstr "Sidi El Hani"
 msgid "Zaouiet Sousse"
 msgstr "Zaouiet Sousse"
 
-#: fuego/tunisie_settings.py:579 utils/prettify_filters.py:54
+#: fuego/tunisie_settings.py:579 utils/prettify_filters.py:94
 msgid "French"
 msgstr "Français"
 
-#: fuego/tunisie_settings.py:580 utils/prettify_filters.py:54
+#: fuego/tunisie_settings.py:580 utils/prettify_filters.py:94
 msgid "Arabic"
 msgstr "Arabe"
 
@@ -2118,7 +2119,7 @@ msgstr ""
 msgid "Lists too large."
 msgstr ""
 
-#: fuego/management/commands/email_alerts.py:466
+#: fuego/management/commands/email_alerts.py:471
 #, fuzzy
 msgid "All of Dubizzle"
 msgstr "Tout sur dubizzle"
@@ -2133,7 +2134,7 @@ msgstr "Tout sur dubizzle"
 #: templates/shared/listings.html:62
 #: templates/user_profiles/my_listings.html:151
 #: templates/user_profiles/my_listings.html:244
-#: templates/user_profiles/my_listings.html:303 utils/prettify_filters.py:92
+#: templates/user_profiles/my_listings.html:303 utils/prettify_filters.py:132
 msgid "Free"
 msgstr "Gratuite"
 
@@ -2241,11 +2242,11 @@ msgstr "Choisir la ville"
 msgid "Hey, you forgot to tell us where you are."
 msgstr "Hep! Vous avez oublié de nous dire oů vous ętes."
 
-#: listings/forms.py:149 listings/models.py:125 listings/models.py:342
-#: listings/models.py:375 listings/models.py:406 listings/models.py:431
-#: listings/models.py:471 listings/models.py:509 listings/models.py:546
-#: listings/models.py:584 search/forms.py:176
-#: templates/listings/manage_listing.html:145
+#: listings/forms.py:149 listings/models.py:133 listings/models.py:350
+#: listings/models.py:389 listings/models.py:425 listings/models.py:450
+#: listings/models.py:474 listings/models.py:493 listings/models.py:586
+#: listings/models.py:624 listings/models.py:661 listings/models.py:699
+#: search/forms.py:176 templates/listings/manage_listing.html:145
 msgid "Neighbourhood"
 msgstr "Voisinage"
 
@@ -2324,10 +2325,10 @@ msgstr ""
 "laquelle se trouve votre article. N'oubliez pas le prix de votre annonce en "
 "%(currency)s."
 
-#: listings/forms.py:375 listings/forms.py:408 listings/models.py:343
-#: listings/models.py:376 listings/models.py:407 listings/models.py:432
-#: listings/models.py:473 listings/models.py:513 listings/models.py:548
-#: listings/models.py:588
+#: listings/forms.py:375 listings/forms.py:408 listings/models.py:351
+#: listings/models.py:390 listings/models.py:426 listings/models.py:451
+#: listings/models.py:475 listings/models.py:494 listings/models.py:588
+#: listings/models.py:628 listings/models.py:663 listings/models.py:703
 msgid "Price"
 msgstr "Prix"
 
@@ -2347,129 +2348,186 @@ msgstr "Prix"
 msgid "You forgot to add the price"
 msgstr "Vous avez oublié d'ajouter le prix."
 
-#: listings/forms.py:470 listings/forms.py:474 listings/models.py:373
-#: listings/models.py:382
+#: listings/forms.py:474 listings/forms.py:478 listings/models.py:387
+#: listings/models.py:399
 msgid "Year"
 msgstr "Année"
 
-#: listings/forms.py:476
+#: listings/forms.py:480
 msgid "Sweet wheels, but how old?"
 msgstr "Jolies roues mais quelle ancienneté?"
 
-#: listings/forms.py:484
+#: listings/forms.py:488
 msgid "How many KM?"
 msgstr "Combien de KM?"
 
-#: listings/forms.py:486
+#: listings/forms.py:490
 msgid "Great ride, how far has it gone?"
 msgstr "Joli petit tour! Jusqu'ou ętes-vous allé?"
 
-#: listings/forms.py:491 listings/forms.py:494 listings/models.py:377
-#: listings/models.py:381
+#: listings/forms.py:495 listings/forms.py:498 listings/models.py:391
+#: listings/models.py:398 search/forms.py:418 search/forms.py:422
 msgid "Model"
 msgstr "Modèle"
 
-#: listings/forms.py:493
+#: listings/forms.py:497
 msgid "Please specify the model"
 msgstr "Veuillez spécifier le modèle"
 
-#: listings/forms.py:499 listings/forms.py:502 listings/models.py:378
-msgid "Engine Size"
-msgstr "Taille du moteur"
+#: listings/forms.py:503 listings/forms.py:506 listings/models.py:392
+#: listings/models.py:402 search/forms.py:462 search/forms.py:466
+msgid "Engine Size (CC)"
+msgstr "Cylindrée en cm³"
 
-#: listings/forms.py:501
+#: listings/forms.py:505
 msgid "Please specify the engine size"
-msgstr "Veuillez spécifier la taille du moteur"
+msgstr "Veuillez spécifier la cylindrée de voiture"
 
-#: listings/forms.py:538
+#: listings/forms.py:511 listings/forms.py:514 listings/models.py:393
+#: listings/models.py:400 search/forms.py:451 search/forms.py:455
+msgid "Transmission Type"
+msgstr "Type de transmission"
+
+#: listings/forms.py:513
+msgid "Please specify the transmission type"
+msgstr "Veuillez spécifier le type de transmission"
+
+#: listings/forms.py:519 listings/forms.py:522 listings/models.py:394
+#: search/forms.py:440 search/forms.py:444
+msgid "Body Type"
+msgstr "Type de Voiture"
+
+#: listings/forms.py:521
+msgid "Please specify the body type"
+msgstr "Veuillez spécifier le type de voiture"
+
+#: listings/forms.py:527 listings/forms.py:530 listings/models.py:395
+#: search/forms.py:429 search/forms.py:433
+msgid "Number of Doors"
+msgstr "Nombre de portes"
+
+#: listings/forms.py:529
+msgid "Please specify the number of doors"
+msgstr "Veuillez spécifier le nombre de portes"
+
+#: listings/forms.py:560 listings/forms.py:563 listings/models.py:476
+#: listings/models.py:479 listings/models.py:495 listings/models.py:500
+#: search/forms.py:597 search/forms.py:601
+msgid "Type"
+msgstr "Type"
+
+#: listings/forms.py:562
+msgid "Please specify the type"
+msgstr "Veuillez spécifier le type"
+
+#: listings/forms.py:578 listings/forms.py:581 listings/models.py:496
+#: listings/models.py:501 search/forms.py:608 search/forms.py:612
+msgid "Brand"
+msgstr "Marque"
+
+#: listings/forms.py:580
+msgid "Please specify the brand"
+msgstr "Veuillez spécifier la marque"
+
+#: listings/forms.py:586 listings/forms.py:589 listings/models.py:497
+#: listings/models.py:502 search/forms.py:619 search/forms.py:623
+msgid "Warranty"
+msgstr "Garantie"
+
+#: listings/forms.py:588
+msgid "Please specify the warranty condition"
+msgstr "Veuillez spécifier le statut de garantie"
+
+#: listings/forms.py:648
 #, python-format
 msgid "Area (%(unit)s)"
 msgstr "Surface (%(unit)s)"
 
-#: listings/forms.py:541 listings/models.py:474 listings/models.py:514
-#: listings/models.py:549 listings/models.py:589
+#: listings/forms.py:651 listings/models.py:589 listings/models.py:629
+#: listings/models.py:664 listings/models.py:704
 msgid "Amenities"
 msgstr "Commodités"
 
-#: listings/forms.py:554
+#: listings/forms.py:664
 msgid "Area "
 msgstr "Surface"
 
-#: listings/forms.py:586 listings/forms.py:587 listings/forms.py:623
-#: listings/forms.py:624 listings/models.py:510 listings/models.py:518
-#: listings/models.py:585 listings/models.py:592
+#: listings/forms.py:696 listings/forms.py:697 listings/forms.py:733
+#: listings/forms.py:734 listings/models.py:625 listings/models.py:633
+#: listings/models.py:700 listings/models.py:707
 msgid "Bedrooms"
 msgstr "Chambres à coucher"
 
-#: listings/forms.py:588 listings/forms.py:625
+#: listings/forms.py:698 listings/forms.py:735
 msgid "Nice property, but how many bedrooms?"
 msgstr "Belle propriété, mais combien de chambres?"
 
-#: listings/forms.py:594 listings/forms.py:595 listings/forms.py:631
-#: listings/forms.py:632 listings/models.py:511 listings/models.py:586
+#: listings/forms.py:704 listings/forms.py:705 listings/forms.py:741
+#: listings/forms.py:742 listings/models.py:626 listings/models.py:701
 msgid "Bathrooms"
 msgstr "Salles de bains"
 
-#: listings/forms.py:596 listings/forms.py:633
+#: listings/forms.py:706 listings/forms.py:743
 msgid "Nice property, but how many bathrooms?"
 msgstr "Veuillez spécifier combien de salle de bains"
 
-#: listings/forms.py:654 listings/forms.py:657 listings/models.py:627
-#: listings/models.py:663
+#: listings/forms.py:764 listings/forms.py:767 listings/models.py:742
+#: listings/models.py:778
 msgid "Experience Level"
 msgstr "Niveau d’expérience"
 
-#: listings/forms.py:656
+#: listings/forms.py:766
 msgid "Please specify the experience level"
 msgstr "Veuillez spécifier le niveau d'expérience"
 
-#: listings/forms.py:662 listings/forms.py:665 listings/models.py:626
-#: listings/models.py:662
+#: listings/forms.py:772 listings/forms.py:775 listings/models.py:741
+#: listings/models.py:777
 msgid "Education Level"
 msgstr "Niveau d’études"
 
-#: listings/forms.py:664
+#: listings/forms.py:774
 msgid "Please specify the education level"
 msgstr "Veuillez spécifier le niveau d'études"
 
-#: listings/forms.py:670
+#: listings/forms.py:780
 msgid "Commitment"
 msgstr ""
 
-#: listings/forms.py:672
+#: listings/forms.py:782
 msgid "Please specify the employment type"
 msgstr "Veuillez spécifier le type d'emploi"
 
-#: listings/forms.py:673 listings/models.py:628 listings/models.py:632
-#: listings/models.py:664 listings/models.py:667
+#: listings/forms.py:783 listings/models.py:743 listings/models.py:747
+#: listings/models.py:779 listings/models.py:782
 msgid "Employment Type"
 msgstr "Type d’emploi"
 
-#: listings/forms.py:678 templates/listings/get/get_listing.html:140
+#: listings/forms.py:788 templates/listings/get/get_listing.html:140
 msgid "Skills"
 msgstr "Compétences"
 
-#: listings/forms.py:693 listings/models.py:629
+#: listings/forms.py:803 listings/models.py:744
 msgid "Compensation"
 msgstr "Salaire"
 
-#: listings/models.py:124 listings/models.py:625 listings/models.py:661
+#: listings/models.py:132 listings/models.py:740 listings/models.py:776
 msgid "Posted On"
 msgstr "Posté sur"
 
-#: listings/models.py:341 listings/models.py:372 listings/models.py:405
-#: listings/models.py:430 listings/models.py:470 listings/models.py:508
-#: listings/models.py:545 listings/models.py:583
+#: listings/models.py:349 listings/models.py:386 listings/models.py:424
+#: listings/models.py:449 listings/models.py:473 listings/models.py:492
+#: listings/models.py:585 listings/models.py:623 listings/models.py:660
+#: listings/models.py:698
 msgid "Posted on"
 msgstr "Posté le"
 
-#: listings/models.py:374 listings/models.py:383
+#: listings/models.py:388 listings/models.py:401
 msgid "Kilometers"
 msgstr "Kilomètres"
 
-#: listings/models.py:472 listings/models.py:477 listings/models.py:512
-#: listings/models.py:517 listings/models.py:547 listings/models.py:552
-#: listings/models.py:587 listings/models.py:593
+#: listings/models.py:587 listings/models.py:592 listings/models.py:627
+#: listings/models.py:632 listings/models.py:662 listings/models.py:667
+#: listings/models.py:702 listings/models.py:708
 msgid "Area"
 msgstr "Surface"
 
@@ -2485,8 +2543,8 @@ msgstr "الموضوع"
 #: public/forms.py:25 public/forms.py:30
 #: templates/authentication/register.html:60
 #: templates/authentication/register.html:62
-#: templates/listings/manage_listing.html:216
-#: templates/listings/manage_listing.html:218
+#: templates/listings/manage_listing.html:215
+#: templates/listings/manage_listing.html:217
 #: templates/listings/add/create_inorganic_listing.html:35
 #: templates/listings/reply/reply_to_listing_include.html:39
 #: templates/listings/reply/reply_to_listing_include.html:40
@@ -2539,34 +2597,38 @@ msgstr "Oh... ce n'est pas la męme chose!?"
 msgid "All of %(city)s"
 msgstr "Tout - %(city)s"
 
+#: search/forms.py:46 templates/public/landing.html:147
+msgid "Select your city"
+msgstr "Sélectionnez votre ville"
+
 #: search/forms.py:165
 msgid "Keywords"
 msgstr "Mots-clés"
 
-#: search/forms.py:339 search/forms.py:444 search/forms.py:494
-#: search/forms.py:554 utils/prettify_filters.py:96
+#: search/forms.py:342 search/forms.py:495 search/forms.py:551
+#: search/forms.py:647 utils/prettify_filters.py:136
 msgid "Show only ads with photos"
 msgstr "Montrer uniquement les annonces avec photos"
 
-#: search/forms.py:354 search/forms.py:357 search/forms.py:375
-#: search/forms.py:379 search/forms.py:396 search/forms.py:399
-#: search/forms.py:458 search/forms.py:461 search/forms.py:519
-#: search/forms.py:522 search/forms.py:568 search/forms.py:571
-#: search/forms.py:590 search/forms.py:629 search/forms.py:633
-#: search/forms.py:651 search/forms.py:655 search/forms.py:674
+#: search/forms.py:357 search/forms.py:360 search/forms.py:378
+#: search/forms.py:382 search/forms.py:399 search/forms.py:402
+#: search/forms.py:509 search/forms.py:512 search/forms.py:576
+#: search/forms.py:579 search/forms.py:661 search/forms.py:664
+#: search/forms.py:683 search/forms.py:722 search/forms.py:726
+#: search/forms.py:744 search/forms.py:748 search/forms.py:767
 msgid "From"
 msgstr "De"
 
-#: search/forms.py:365 search/forms.py:368 search/forms.py:386
-#: search/forms.py:390 search/forms.py:405 search/forms.py:408
-#: search/forms.py:469 search/forms.py:472 search/forms.py:530
-#: search/forms.py:533 search/forms.py:579 search/forms.py:582
-#: search/forms.py:597 search/forms.py:640 search/forms.py:644
-#: search/forms.py:662 search/forms.py:666 search/forms.py:681
+#: search/forms.py:368 search/forms.py:371 search/forms.py:389
+#: search/forms.py:393 search/forms.py:408 search/forms.py:411
+#: search/forms.py:520 search/forms.py:523 search/forms.py:587
+#: search/forms.py:590 search/forms.py:672 search/forms.py:675
+#: search/forms.py:690 search/forms.py:733 search/forms.py:737
+#: search/forms.py:755 search/forms.py:759 search/forms.py:774
 msgid "To"
 msgstr "A"
 
-#: search/forms.py:505
+#: search/forms.py:562
 msgid "Show only free ads"
 msgstr "Montrer seulement les annonces gratuites"
 
@@ -2594,18 +2656,18 @@ msgstr "404"
 msgid "Website under maintenance (500)"
 msgstr "Site en maintenance (500)"
 
-#: templates/base.html:120
+#: templates/base.html:123
 msgid "Menu"
 msgstr "Menu"
 
-#: templates/base.html:128 templates/generic.html:87
+#: templates/base.html:131 templates/generic.html:87
 #: templates/generic.html.py:94 templates/public/landing.html:54
 #: templates/public/landing.html.py:59
 #: templates/user_profiles/my_listings.html:80
 msgid "Place an ad"
 msgstr "Passer une annonce"
 
-#: templates/base.html:135
+#: templates/base.html:138
 msgid "My account"
 msgstr "Mon compte"
 
@@ -2643,7 +2705,7 @@ msgstr ""
 msgid "Your account"
 msgstr "Votre compte"
 
-#: templates/generic.html:35 templates/public/landing.html:66
+#: templates/generic.html:35 templates/public/landing.html:67
 msgid "All of"
 msgstr "Toute la"
 
@@ -2725,13 +2787,13 @@ msgid "Please fix the errors below"
 msgstr "Veuillez corriger les erreurs ci-dessous"
 
 #: templates/authentication/change_password.html:92
-#: templates/authentication/reset_password.html:56
+#: templates/authentication/reset_password.html:55
 msgid "Change it for me"
 msgstr "Changez-le pour moi"
 
 #: templates/authentication/forgot_password.html:10
 #: templates/authentication/login.html:111
-#: templates/listings/manage_listing.html:266
+#: templates/listings/manage_listing.html:268
 #: templates/listings/snippets/_form.html:217
 msgid "Forgot your password?"
 msgstr "Mot de passe oublié?"
@@ -2767,23 +2829,23 @@ msgid "Sign in to your account"
 msgstr "Se connecter à votre compte"
 
 #: templates/authentication/login.html:30
-#: templates/listings/manage_listing.html:196
+#: templates/listings/manage_listing.html:191
 msgid "Sign in via facebook"
 msgstr "Se Connecter avec Facebook"
 
 #: templates/authentication/login.html:116
-#: templates/listings/manage_listing.html:287
+#: templates/listings/manage_listing.html:289
 msgid "Sign in"
 msgstr "Se connecter"
 
 #: templates/authentication/login.html:121
-#: templates/listings/manage_listing.html:284
+#: templates/listings/manage_listing.html:285
 msgid "Don't have an account?"
 msgstr "Pas encore membre?"
 
 #: templates/authentication/login.html:125
 #: templates/authentication/register.html:117
-#: templates/listings/manage_listing.html:284
+#: templates/listings/manage_listing.html:285
 msgid "Register"
 msgstr "Inscription"
 
@@ -2818,9 +2880,9 @@ msgstr "S'inscrire via email"
 
 #: templates/authentication/register.html:77
 #: templates/authentication/register.html:78
+#: templates/listings/manage_listing.html:232
 #: templates/listings/manage_listing.html:233
-#: templates/listings/manage_listing.html:234
-#: templates/listings/manage_listing.html:236
+#: templates/listings/manage_listing.html:235
 #: templates/listings/snippets/_form.html:247
 #: templates/listings/snippets/_form.html:248
 msgid "Confirm email"
@@ -2930,42 +2992,47 @@ msgstr "Changer"
 msgid "Neighborhood"
 msgstr "Quartier"
 
-#: templates/listings/manage_listing.html:181
+#: templates/listings/manage_listing.html:179
 msgid "Welcome!"
 msgstr "Bienvenue!"
 
-#: templates/listings/manage_listing.html:186
+#: templates/listings/manage_listing.html:182
 msgid "That's not you?"
 msgstr "Ce n'est pas votre compte?"
 
-#: templates/listings/manage_listing.html:186
+#: templates/listings/manage_listing.html:182
 msgid "Sign out"
 msgstr "Se déconnecter"
 
-#: templates/listings/manage_listing.html:205
-msgid "Or sign in with your email address"
-msgstr "Ou connectez-vous en utilisant votre adresse e-mail"
+#: templates/listings/manage_listing.html:199
+msgid "or register with your email address"
+msgstr "ou inscrivez vous avec votre adresse email"
 
-#: templates/listings/manage_listing.html:209
-msgid "Sign in with your email address"
-msgstr "Ou connectez-vous en utilisant votre adresse e-mail"
-
+#: templates/listings/manage_listing.html:201
 msgid "Register with your email address"
 msgstr "S'enregistrer en utilisant votre adresse e-mail"
 
-#: templates/listings/manage_listing.html:226
+#: templates/listings/manage_listing.html:206
+msgid "or sign in with your email address"
+msgstr "ou authentifiez vous avec votre adresse email"
+
+#: templates/listings/manage_listing.html:208
+msgid "Sign in with your email address"
+msgstr "Ou connectez-vous en utilisant votre adresse e-mail"
+
+#: templates/listings/manage_listing.html:225
 #: templates/listings/snippets/_form.html:236
 msgid "A valid email address ensures your ad will go live."
 msgstr ""
 "Pour que votre annonce soit mise en ligne, il faut une adresse email valable."
 
-#: templates/listings/manage_listing.html:248
-#: templates/listings/manage_listing.html:250
+#: templates/listings/manage_listing.html:247
+#: templates/listings/manage_listing.html:249
 #: templates/listings/snippets/_form.html:259
 msgid "Password (cAse SenSiTIvE)"
 msgstr "Mot de passe (sensible à la police de caractères)"
 
-#: templates/listings/manage_listing.html:262
+#: templates/listings/manage_listing.html:261
 #: templates/listings/snippets/_form.html:279
 msgid ""
 "Make it safe and secure. Use a mix of numbers and letters, and don't use "
@@ -2975,19 +3042,20 @@ msgstr ""
 "lettres, et ne choisissez pas quelque chose de trop évident comme le chat de "
 "l'ami de votre tante  - encore que ça ça peut marcher."
 
-#: templates/listings/manage_listing.html:287
+#: templates/listings/manage_listing.html:289
 msgid "Have an account?"
 msgstr "Avez-Vouz un compte?"
 
-#: templates/listings/manage_listing.html:297
+#: templates/listings/manage_listing.html:299
 msgid "You are now connected with Facebook"
 msgstr "Vous êtes désormais connecté à Facebook"
 
-#: templates/listings/manage_listing.html:303
+#: templates/listings/manage_listing.html:305
 msgid "Connecting to facebook didn't work"
 msgstr "La connexion à Facebook a échoué"
 
-#: templates/listings/manage_listing.html:333
+#: templates/listings/manage_listing.html:335
+#, python-format
 msgid ""
 "\n"
 "                                        By posting your ad you are agreeing "
@@ -3002,12 +3070,12 @@ msgstr ""
 "href=\"%(privacy_url)s\" target=\"_blank\">la politique de confidentialité</"
 "a> de dubizzle.                    "
 
-#: templates/listings/manage_listing.html:342
+#: templates/listings/manage_listing.html:344
 #: templates/listings/snippets/_form.html:324
 msgid "Yalla! Publish my ad"
 msgstr "Yalla! Publiez mon annonce"
 
-#: templates/listings/manage_listing.html:348
+#: templates/listings/manage_listing.html:350
 msgid "Uploading photos, please wait..."
 msgstr "Chargement de l'image en cours"
 
@@ -3332,15 +3400,15 @@ msgstr "Veuillez télecharger l'image de nouveau."
 msgid "To delete photos, you'll need to enable Javascript."
 msgstr "Pour supprimer les images, vous avez besoin d'activer Javascript."
 
-#: templates/listings/snippets/photos/_manage_photos.html:47
+#: templates/listings/snippets/photos/_manage_photos.html:57
 msgid "Add some photos"
 msgstr "Ajouter des photos"
 
-#: templates/listings/snippets/photos/_manage_photos.html:92
+#: templates/listings/snippets/photos/_manage_photos.html:104
 msgid "Add a photo"
 msgstr "Ajouter une photo"
 
-#: templates/listings/snippets/photos/_manage_photos.html:97
+#: templates/listings/snippets/photos/_manage_photos.html:111
 #, python-format
 msgid ""
 "\n"
@@ -3534,40 +3602,36 @@ msgstr ""
 "Sélectionnez votre ville et trouver les meilleurs affaires parmi des "
 "milliers d'annonces!"
 
-#: templates/public/landing.html:95
+#: templates/public/landing.html:106
 msgid "Cars"
 msgstr "Voitures"
 
-#: templates/public/landing.html:107
+#: templates/public/landing.html:120
 msgid "Property for Sale"
 msgstr "Immobilier à vendre"
 
-#: templates/public/landing.html:119
+#: templates/public/landing.html:134
 msgid "Jobs"
 msgstr "Offres d'emploi"
 
-#: templates/public/landing.html:131
-msgid "Select your city"
-msgstr "Sélectionnez votre ville"
-
-#: templates/public/landing.html:135
+#: templates/public/landing.html:151
 msgid "Select the city closest to where you live"
 msgstr "Sélectionnez la ville la plus proche de chez vous"
 
-#: templates/public/landing.html:140
+#: templates/public/landing.html:156
 msgid "Contact the advertiser"
 msgstr "Contactez l'annonceur"
 
-#: templates/public/landing.html:144
+#: templates/public/landing.html:160
 msgid "Find the ad you like, and contact the advertiser directly"
 msgstr ""
 "Trouvez l'annonce que vous souhaitez, et contacter directement l'annonceur"
 
-#: templates/public/landing.html:149
+#: templates/public/landing.html:165
 msgid "Get a great deal"
 msgstr "Faites une bonne afffaire"
 
-#: templates/public/landing.html:153
+#: templates/public/landing.html:169
 msgid "Meet and finish your bargain face to face."
 msgstr "Répondez et terminez votre négociation face à face."
 
@@ -3588,12 +3652,12 @@ msgid "Click to search"
 msgstr "Clicker pour rechercher"
 
 #: templates/search/_search_bar_snippet.html:23
-#: templates/search/browse_widget.html:68
+#: templates/search/browse_widget.html:70
 #, python-format
 msgid "Show only %(CURRENT_LANGUAGE)s ads"
 msgstr "Afficher seulement les annonces en %(CURRENT_LANGUAGE)s"
 
-#: templates/search/browse_widget.html:92
+#: templates/search/browse_widget.html:94
 msgid "Refine"
 msgstr "Affiner"
 
@@ -4507,39 +4571,39 @@ msgstr "supprimer"
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s, %(country)s"
 
-#: utils/prettify_filters.py:43 utils/prettify_filters.py:46
+#: utils/prettify_filters.py:83 utils/prettify_filters.py:86
 msgid "Studio"
 msgstr ""
 
-#: utils/prettify_filters.py:51
+#: utils/prettify_filters.py:91
 msgid "km"
 msgstr ""
 
-#: utils/prettify_filters.py:54
+#: utils/prettify_filters.py:94
 msgid "English"
 msgstr ""
 
-#: utils/prettify_filters.py:74 utils/prettify_filters.py:75
+#: utils/prettify_filters.py:114 utils/prettify_filters.py:115
 #, python-format
 msgid "%s"
 msgstr ""
 
-#: utils/prettify_filters.py:76
+#: utils/prettify_filters.py:116
 #, fuzzy
 msgid "language"
 msgstr "langue"
 
-#: utils/prettify_filters.py:77
+#: utils/prettify_filters.py:117
 #, fuzzy
 msgid "keywords"
 msgstr "Mots-clés"
 
-#: utils/prettify_filters.py:92
+#: utils/prettify_filters.py:132
 #, fuzzy
 msgid "price"
 msgstr "Prix"
 
-#: utils/prettify_filters.py:96
+#: utils/prettify_filters.py:136
 msgid "photos"
 msgstr "Ajouter une photo"
 
@@ -4633,6 +4697,9 @@ msgid ""
 msgstr ""
 "Veuillez vous assurer de ne pas utiliser les lettres latines en écrivant "
 "votre annonce en Arabe"
+
+#~ msgid "Or sign in with your email address"
+#~ msgstr "Ou connectez-vous en utilisant votre adresse e-mail"
 
 #~ msgid "Photos"
 #~ msgstr "Ajouter une photo"
@@ -5015,9 +5082,3 @@ msgstr ""
 #~ msgstr ""
 #~ "En cliquant sur se connecter, vous confirmez avoir lu et accepté nos "
 #~ "termes et conditions, ainsi que notre politique de confidentialité."
-
-msgid "or sign in with your email address"
-msgstr "ou authentifiez vous avec votre adresse email"
-
-msgid "or register with your email address"
-msgstr "ou inscrivez vous avec votre adresse email"
