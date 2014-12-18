@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-15 15:15+0400\n"
+"POT-Creation-Date: 2014-12-18 11:02+0400\n"
 "PO-Revision-Date: 2014-08-05 15:02+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/"
@@ -135,92 +135,92 @@ msgstr "Erreur"
 msgid "Please enter the correct letters"
 msgstr "Veuillez entrer les bonnes lettres"
 
-#: fuego/base_settings.py:521 search/search_utils.py:107
+#: fuego/base_settings.py:522 search/search_utils.py:107
 #: templates/search/widget.html:27 templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "Tout sur dubizzle"
 
-#: fuego/base_settings.py:587
+#: fuego/base_settings.py:588
 msgid "m&sup2;"
 msgstr "m&sup2;"
 
-#: fuego/base_settings.py:620 fuego/base_settings.py:1073
+#: fuego/base_settings.py:621 fuego/base_settings.py:1082
 msgid "Spam"
 msgstr "Indésirable"
 
-#: fuego/base_settings.py:621
+#: fuego/base_settings.py:622
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:622 fuego/base_settings.py:1068
+#: fuego/base_settings.py:623 fuego/base_settings.py:1077
 msgid "Miscategorized"
 msgstr "Mauvaise catégorie"
 
-#: fuego/base_settings.py:623 fuego/base_settings.py:1070
+#: fuego/base_settings.py:624 fuego/base_settings.py:1079
 msgid "Repetitive"
 msgstr "Répétée"
 
-#: fuego/base_settings.py:624
+#: fuego/base_settings.py:625
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:625
+#: fuego/base_settings.py:626
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:626 fuego/base_settings.py:1071
+#: fuego/base_settings.py:627 fuego/base_settings.py:1080
 msgid "Misleading"
 msgstr "Trompeuse"
 
-#: fuego/base_settings.py:627
+#: fuego/base_settings.py:628
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:628
+#: fuego/base_settings.py:629
 msgid "No Category"
 msgstr "Catégorie"
 
-#: fuego/base_settings.py:647
+#: fuego/base_settings.py:648
 msgid "You have chosen the wrong category."
 msgstr "Votre annonce a été placé dans la mauvaise catégorie"
 
-#: fuego/base_settings.py:648
+#: fuego/base_settings.py:649
 msgid "Your ad is misleading"
 msgstr "Votre annonce est GRATUITE"
 
-#: fuego/base_settings.py:718
+#: fuego/base_settings.py:719
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: fuego/base_settings.py:910
+#: fuego/base_settings.py:911
 msgid "Date: newest"
 msgstr "Date: plus recente"
 
-#: fuego/base_settings.py:911
+#: fuego/base_settings.py:912
 msgid "Date: oldest"
 msgstr "Date: moins recente"
 
-#: fuego/base_settings.py:915
+#: fuego/base_settings.py:916
 msgid "Price: highest"
 msgstr "Prix: plus cher"
 
-#: fuego/base_settings.py:916
+#: fuego/base_settings.py:917
 msgid "Price: lowest"
 msgstr "Prix: moins cher"
 
-#: fuego/base_settings.py:1063
+#: fuego/base_settings.py:1072
 msgid "Other"
 msgstr "Autre"
 
-#: fuego/base_settings.py:1065
+#: fuego/base_settings.py:1074
 msgid "Please select"
 msgstr "Choisissez votre raison"
 
-#: fuego/base_settings.py:1069
+#: fuego/base_settings.py:1078
 msgid "Offensive"
 msgstr "Offensive"
 
-#: fuego/base_settings.py:1072
+#: fuego/base_settings.py:1081
 msgid "Possible fraud"
 msgstr "Possible fraude"
 
@@ -2086,8 +2086,8 @@ msgstr "Tout sur dubizzle"
 #: templates/email_alerts/email_alerts_en.html:78
 #: templates/email_alerts/email_alerts_fr.html:79
 #: templates/feedbox/index_horizontal.html:326
-#: templates/listings/get/get_listing.html:103
-#: templates/listings/get/get_listing.html:206 templates/public/home.html:78
+#: templates/listings/get/get_listing.html:110
+#: templates/listings/get/get_listing.html:213 templates/public/home.html:79
 #: templates/shared/listings.html:62
 #: templates/user_profiles/my_listings.html:151
 #: templates/user_profiles/my_listings.html:244
@@ -2148,7 +2148,7 @@ msgstr "Raison"
 msgid "Tell us why you are reporting this ad."
 msgstr "Dites-nous pourquoi vous signalez cette annonce."
 
-#: listings/forms.py:89 templates/listings/get/get_listing.html:120
+#: listings/forms.py:89 templates/listings/get/get_listing.html:127
 msgid "Details"
 msgstr "Détails"
 
@@ -2167,7 +2167,7 @@ msgstr ""
 msgid "You're going to need a title."
 msgstr "On a besoin d'un titre."
 
-#: listings/forms.py:132 templates/listings/get/get_listing.html:133
+#: listings/forms.py:132 templates/listings/get/get_listing.html:140
 #: templates/listings/snippets/_form.html:77
 msgid "Description"
 msgstr "Description"
@@ -2459,7 +2459,7 @@ msgstr "Veuillez spécifier le type d'emploi"
 msgid "Employment Type"
 msgstr "Type d’emploi"
 
-#: listings/forms.py:788 templates/listings/get/get_listing.html:141
+#: listings/forms.py:788 templates/listings/get/get_listing.html:148
 msgid "Skills"
 msgstr "Compétences"
 
@@ -2554,7 +2554,7 @@ msgstr "Oh... ce n'est pas la męme chose!?"
 msgid "All of %(city)s"
 msgstr "Tout - %(city)s"
 
-#: search/forms.py:46 templates/public/landing.html:148
+#: search/forms.py:46 templates/public/landing.html:142
 msgid "Select your city"
 msgstr "Sélectionnez votre ville"
 
@@ -2618,8 +2618,8 @@ msgid "Menu"
 msgstr "Menu"
 
 #: templates/base.html:136 templates/generic.html:96
-#: templates/generic.html.py:103 templates/public/landing.html:55
-#: templates/public/landing.html.py:60
+#: templates/generic.html.py:103 templates/public/landing.html:49
+#: templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:80
 msgid "Place an ad"
 msgstr "Passer une annonce"
@@ -2666,7 +2666,8 @@ msgstr ""
 msgid "Your account"
 msgstr "Votre compte"
 
-#: templates/generic.html:44 templates/public/landing.html:68
+#: templates/generic.html:44 templates/public/_breadcrumbs.html:14
+#: templates/public/landing.html:62
 msgid "All of"
 msgstr "Toute la"
 
@@ -3083,7 +3084,7 @@ msgstr "Catégorie"
 msgid "Pick a sub-category"
 msgstr "Veuillez choisir une sous catégorie."
 
-#: templates/listings/get/get_listing.html:71
+#: templates/listings/get/get_listing.html:78
 msgid ""
 "This ad has already been edited and is awaiting approval. You'll get an "
 "email once the changes are live."
@@ -3091,12 +3092,12 @@ msgstr ""
 "Cette annonce a déjà été modifiée et est en attente de validation. Vous "
 "recevrez un email dès que les modifications seront en ligne."
 
-#: templates/listings/get/get_listing.html:81
+#: templates/listings/get/get_listing.html:88
 msgid "Back to results"
 msgstr "Retour aux résultats"
 
-#: templates/listings/get/get_listing.html:99
-#: templates/listings/get/get_listing.html:202
+#: templates/listings/get/get_listing.html:106
+#: templates/listings/get/get_listing.html:209
 #, python-format
 msgid ""
 "\n"
@@ -3106,49 +3107,49 @@ msgid ""
 "%(translated_currency)s"
 msgstr ""
 
-#: templates/listings/get/get_listing.html:113
+#: templates/listings/get/get_listing.html:120
 #, python-format
 msgid "Image %(count)s of %(listing_title)s"
 msgstr ""
 
-#: templates/listings/get/get_listing.html:119
+#: templates/listings/get/get_listing.html:126
 msgid "View all details"
 msgstr "Voir les details"
 
-#: templates/listings/get/get_listing.html:132
+#: templates/listings/get/get_listing.html:139
 msgid "Read more"
 msgstr "Charger d'avantage"
 
-#: templates/listings/get/get_listing.html:153
+#: templates/listings/get/get_listing.html:160
 msgid "Share with friends"
 msgstr "Partager avec des amis"
 
-#: templates/listings/get/get_listing.html:160
+#: templates/listings/get/get_listing.html:167
 msgid "Report this ad"
 msgstr "Signaler cette annonce"
 
-#: templates/listings/get/get_listing.html:171
+#: templates/listings/get/get_listing.html:178
 msgid "Important tips from dubizzle"
 msgstr "Conseils importants sur dubizzle:"
 
-#: templates/listings/get/get_listing.html:176
+#: templates/listings/get/get_listing.html:183
 msgid "Show"
 msgstr "Voir"
 
-#: templates/listings/get/get_listing.html:216
+#: templates/listings/get/get_listing.html:223
 msgid "Call"
 msgstr "Appeler"
 
-#: templates/listings/get/get_listing.html:217
+#: templates/listings/get/get_listing.html:224
 msgid "Show number"
 msgstr "Afficher le numéro de téléphone portable"
 
-#: templates/listings/get/get_listing.html:226
+#: templates/listings/get/get_listing.html:233
 #: templates/listings/reply/reply_to_listing_include.html:10
 msgid "Reply"
 msgstr "Envoyer un message"
 
-#: templates/listings/get/get_listing.html:227
+#: templates/listings/get/get_listing.html:234
 #: templates/listings/reply/reply_to_listing_include.html:130
 msgid "Send reply"
 msgstr "Envoyer"
@@ -3454,7 +3455,7 @@ msgstr "A propos de nous"
 
 #: templates/public/contact_us.html:11
 #: templates/public/contact_us_complete.html:7
-#: templates/public/landing.html:16
+#: templates/public/landing.html:10
 msgid "Ahlan wa sahlan..."
 msgstr "Ahlan wa sahlan..."
 
@@ -3530,11 +3531,11 @@ msgstr ""
 "aider.\n"
 " "
 
-#: templates/public/home.html:23 templates/search/search.html:62
+#: templates/public/home.html:23 templates/search/search.html:65
 msgid "Buy, sell and find anything"
 msgstr "Acheter, vendre et trouver quelque chose"
 
-#: templates/public/home.html:69
+#: templates/public/home.html:70
 #, python-format
 msgid ""
 "\n"
@@ -3549,50 +3550,50 @@ msgid ""
 "                                                    "
 msgstr ""
 
-#: templates/public/home.html:99
+#: templates/public/home.html:100
 msgid "Load more"
 msgstr "Charger d'avantage"
 
-#: templates/public/landing.html:33
+#: templates/public/landing.html:27
 msgid "Change country"
 msgstr "Changer de pays"
 
-#: templates/public/landing.html:50
+#: templates/public/landing.html:44
 msgid "Select your city and find the best deals from thousands of ads!"
 msgstr ""
 "Sélectionnez votre ville et trouver les meilleurs affaires parmi des "
 "milliers d'annonces!"
 
-#: templates/public/landing.html:107
+#: templates/public/landing.html:101
 msgid "Cars"
 msgstr "Voitures"
 
-#: templates/public/landing.html:121
+#: templates/public/landing.html:115
 msgid "Property for Sale"
 msgstr "Immobilier à vendre"
 
-#: templates/public/landing.html:135
+#: templates/public/landing.html:129
 msgid "Jobs"
 msgstr "Offres d'emploi"
 
-#: templates/public/landing.html:152
+#: templates/public/landing.html:146
 msgid "Select the city closest to where you live"
 msgstr "Sélectionnez la ville la plus proche de chez vous"
 
-#: templates/public/landing.html:157
+#: templates/public/landing.html:151
 msgid "Contact the advertiser"
 msgstr "Contactez l'annonceur"
 
-#: templates/public/landing.html:161
+#: templates/public/landing.html:155
 msgid "Find the ad you like, and contact the advertiser directly"
 msgstr ""
 "Trouvez l'annonce que vous souhaitez, et contacter directement l'annonceur"
 
-#: templates/public/landing.html:166
+#: templates/public/landing.html:160
 msgid "Get a great deal"
 msgstr "Faites une bonne afffaire"
 
-#: templates/public/landing.html:170
+#: templates/public/landing.html:164
 msgid "Meet and finish your bargain face to face."
 msgstr "Répondez et terminez votre négociation face à face."
 
@@ -3640,33 +3641,33 @@ msgstr "Revenir en haut"
 msgid "All"
 msgstr "Toute la"
 
-#: templates/search/search.html:47
+#: templates/search/search.html:50
 msgid "Wosh! This has either expired or been deleted."
 msgstr "Wosh! l'annonce a expiree ou a ete supprimee par l'annonceur."
 
-#: templates/search/search.html:48
+#: templates/search/search.html:51
 msgid "Continue browsing, you might find what you were looking for :)"
 msgstr ""
 "Vous pouvez encore trouver ce que vous chercher en continuant de naviguer :) "
 
-#: templates/search/search.html:59
+#: templates/search/search.html:62
 msgid "in"
 msgstr "en"
 
-#: templates/search/search.html:59
+#: templates/search/search.html:62
 #, fuzzy
 msgid ", "
 msgstr ","
 
-#: templates/search/search.html:59
+#: templates/search/search.html:62
 msgid ","
 msgstr ","
 
-#: templates/search/search.html:81
+#: templates/search/search.html:84
 msgid "Sort"
 msgstr "Trier"
 
-#: templates/search/search.html:91
+#: templates/search/search.html:94
 #, python-format
 msgid ""
 "\n"
@@ -3685,7 +3686,7 @@ msgstr[1] ""
 "Nous avons trouvé <span class=\"red\">%(counter)s</span> annonces\n"
 "                    "
 
-#: templates/search/search.html:114
+#: templates/search/search.html:117
 msgid "Edit filters"
 msgstr "Modifier les filtres"
 
