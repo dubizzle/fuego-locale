@@ -1168,7 +1168,7 @@ msgstr ""
 "en vente %(city_or_country)s, ventes appartements %(city_or_country)s"
 
 #: fuego/meta_settings.py:168
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Commercial Property for Sale - Offices, Shops & Buildings in "
 "%(full_location)s | dubizzle %(country)s"
@@ -1337,7 +1337,7 @@ msgstr ""
 "en location %(city_or_country)s"
 
 #: fuego/meta_settings.py:204
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Commercial Property for Rent - Offices, Shops & Buildings in "
 "%(full_location)s | dubizzle %(country)s"
@@ -1370,7 +1370,7 @@ msgstr ""
 "propriètés commerciaux %(city_or_country)s"
 
 #: fuego/meta_settings.py:210
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Room for Rent in %(full_location)s - Villas & Apartments | dubizzle "
 "%(country)s"
@@ -1991,7 +1991,7 @@ msgid "Items wanted, looking for"
 msgstr "Articles Recherchés, Recherche articles"
 
 #: fuego/meta_settings.py:354
-#, fuzzy, python-format
+#, python-format
 msgid "Other Items for Sale in %(full_location)s | dubizzle %(country)s"
 msgstr "Autres Objets à Vendre à %(full_location)s | dubizzle %(country)s"
 
@@ -4680,9 +4680,9 @@ msgid "%(city)s, %(country)s"
 msgstr "%(city)s, %(country)s"
 
 #: utils/meta_builder.py:111
-#, fuzzy, python-format
+#, python-format
 msgid "%(neighbourhood)s, %(full_location)s"
-msgstr "%(neighbourhood)s, %(city)s"
+msgstr "%(neighbourhood)s, %(full_location)s"
 
 #: utils/prettify_filters.py:83 utils/prettify_filters.py:86
 msgid "Studio"
