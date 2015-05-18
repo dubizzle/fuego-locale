@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-28 17:48+0400\n"
+"POT-Creation-Date: 2015-05-18 11:50+0400\n"
 "PO-Revision-Date: 2014-08-05 14:48+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Saudi <http://translate.dubizzlecloud.com/projects/"
@@ -245,7 +245,7 @@ msgid "Place an ad"
 msgstr "أضف إعلانك مجاناً"
 
 #: country_templates/saudi/public/_map.html:16 fuego/saudi_settings.py:77
-#: fuego/saudi_settings.py:171
+#: fuego/saudi_settings.py:164
 msgid "Al Juf"
 msgstr "الجوف"
 
@@ -254,7 +254,7 @@ msgid "Northern Frontier"
 msgstr "الحدود الشمالية"
 
 #: country_templates/saudi/public/_map.html:38 fuego/saudi_settings.py:108
-#: fuego/saudi_settings.py:361
+#: fuego/saudi_settings.py:354
 msgid "Hail"
 msgstr "حائل"
 
@@ -267,7 +267,7 @@ msgid "Eastern Region"
 msgstr "المنطقة الشرقية"
 
 #: country_templates/saudi/public/_map.html:71 fuego/saudi_settings.py:138
-#: fuego/saudi_settings.py:496
+#: fuego/saudi_settings.py:489
 msgid "Riyadh"
 msgstr "الرياض"
 
@@ -276,12 +276,12 @@ msgid "Al Madinah"
 msgstr "المدينة المنورة"
 
 #: country_templates/saudi/public/_map.html:93 fuego/saudi_settings.py:120
-#: fuego/saudi_settings.py:398
+#: fuego/saudi_settings.py:391
 msgid "Makkah"
 msgstr "مكة"
 
 #: country_templates/saudi/public/_map.html:104 fuego/saudi_settings.py:126
-#: fuego/saudi_settings.py:459
+#: fuego/saudi_settings.py:452
 msgid "Najran"
 msgstr "نجران"
 
@@ -290,7 +290,7 @@ msgid "Al Qassim"
 msgstr "القصيم"
 
 #: country_templates/saudi/public/_map.html:126 fuego/saudi_settings.py:150
-#: fuego/saudi_settings.py:623
+#: fuego/saudi_settings.py:616
 msgid "Al Baha"
 msgstr "الباحة"
 
@@ -299,7 +299,7 @@ msgid "Asir"
 msgstr "عسير"
 
 #: country_templates/saudi/public/_map.html:148 fuego/saudi_settings.py:114
-#: fuego/saudi_settings.py:367
+#: fuego/saudi_settings.py:360
 msgid "Jazan"
 msgstr "جازان"
 
@@ -466,96 +466,96 @@ msgstr "تابعنا"
 msgid "Download our mobile app"
 msgstr "حمَل تطبيق الجوال"
 
-#: fuego/base_settings.py:557 search/search_utils.py:107
+#: fuego/base_settings.py:560 search/search_utils.py:107
 #: templates/search/widget.html:27 templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:623
+#: fuego/base_settings.py:626
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:656 fuego/base_settings.py:1130
+#: fuego/base_settings.py:659 fuego/base_settings.py:1139
 msgid "Spam"
 msgstr "إعلان مزعج"
 
-#: fuego/base_settings.py:657
+#: fuego/base_settings.py:660
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:658 fuego/base_settings.py:1125
+#: fuego/base_settings.py:661 fuego/base_settings.py:1134
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:659 fuego/base_settings.py:1127
+#: fuego/base_settings.py:662 fuego/base_settings.py:1136
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:660
+#: fuego/base_settings.py:663
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:661
+#: fuego/base_settings.py:664
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:662 fuego/base_settings.py:1128
+#: fuego/base_settings.py:665 fuego/base_settings.py:1137
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:663
+#: fuego/base_settings.py:666
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:664
+#: fuego/base_settings.py:667
 msgid "No Category"
 msgstr "القسم؟"
 
-#: fuego/base_settings.py:686
+#: fuego/base_settings.py:695
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في الفئة غير الصحيحة"
 
-#: fuego/base_settings.py:687
+#: fuego/base_settings.py:696
 msgid "Your ad is misleading"
 msgstr "مجانا 100%"
 
-#: fuego/base_settings.py:759
+#: fuego/base_settings.py:768
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:949
+#: fuego/base_settings.py:958
 msgid "Date: newest"
 msgstr "بحسب التاريخ: الأحدث"
 
-#: fuego/base_settings.py:950
+#: fuego/base_settings.py:959
 msgid "Date: oldest"
 msgstr "بحسب التاريخ: الأقدم"
 
-#: fuego/base_settings.py:954
+#: fuego/base_settings.py:963
 msgid "Price: highest"
 msgstr "بحسب السعر: الأعلى"
 
-#: fuego/base_settings.py:955
+#: fuego/base_settings.py:964
 msgid "Price: lowest"
 msgstr "بحسب السعر: الأدنى"
 
-#: fuego/base_settings.py:1114 fuego/saudi_settings.py:741
+#: fuego/base_settings.py:1123 fuego/saudi_settings.py:730
 msgid "#dubizzle"
 msgstr "#دوبيزل"
 
-#: fuego/base_settings.py:1120
+#: fuego/base_settings.py:1129
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:1122
+#: fuego/base_settings.py:1131
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:1126
+#: fuego/base_settings.py:1135
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:1129
+#: fuego/base_settings.py:1138
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
@@ -1804,347 +1804,347 @@ msgstr "ريال سعودي"
 msgid "05XXXXXXXXX"
 msgstr "٠‎٥XXXXXXXXX"
 
-#: fuego/saudi_settings.py:176
+#: fuego/saudi_settings.py:169
 msgid "Sakaka"
 msgstr "سكاكا"
 
-#: fuego/saudi_settings.py:181
+#: fuego/saudi_settings.py:174
 msgid "Gurayat"
 msgstr "القريات"
 
-#: fuego/saudi_settings.py:186
+#: fuego/saudi_settings.py:179
 msgid "Tabarjal"
 msgstr "طبرجل"
 
-#: fuego/saudi_settings.py:192
+#: fuego/saudi_settings.py:185
 msgid "Madinah"
 msgstr "المدينة المنورة"
 
-#: fuego/saudi_settings.py:197
+#: fuego/saudi_settings.py:190
 msgid "Yunbu"
 msgstr "ينبع"
 
-#: fuego/saudi_settings.py:202
+#: fuego/saudi_settings.py:195
 msgid "Badr"
 msgstr "بدر"
 
-#: fuego/saudi_settings.py:207
+#: fuego/saudi_settings.py:200
 msgid "Mahd Aldahab"
 msgstr "مهد الذهب"
 
-#: fuego/saudi_settings.py:213
+#: fuego/saudi_settings.py:206
 msgid "Buraydah"
 msgstr "بريدة"
 
-#: fuego/saudi_settings.py:218
+#: fuego/saudi_settings.py:211
 msgid "Onizah"
 msgstr "عنيزة"
 
-#: fuego/saudi_settings.py:223
+#: fuego/saudi_settings.py:216
 msgid "Arras"
 msgstr "الرس"
 
-#: fuego/saudi_settings.py:228
+#: fuego/saudi_settings.py:221
 msgid "Bukairyah"
 msgstr "البكيرية"
 
-#: fuego/saudi_settings.py:233
+#: fuego/saudi_settings.py:226
 msgid "Riyadh Alkhabra"
 msgstr "رياض الخبراء"
 
-#: fuego/saudi_settings.py:238
+#: fuego/saudi_settings.py:231
 msgid "Al Bada'e"
 msgstr "البدائع"
 
-#: fuego/saudi_settings.py:243
+#: fuego/saudi_settings.py:236
 msgid "Al Methnab"
 msgstr "المذنب"
 
-#: fuego/saudi_settings.py:248
+#: fuego/saudi_settings.py:241
 msgid "Al Nabhaniyah"
 msgstr "النبهانية"
 
-#: fuego/saudi_settings.py:253
+#: fuego/saudi_settings.py:246
 msgid "Al Asiyah"
 msgstr "الأسياح"
 
-#: fuego/saudi_settings.py:259
+#: fuego/saudi_settings.py:252
 msgid "Abha"
 msgstr "أبها"
 
-#: fuego/saudi_settings.py:264
+#: fuego/saudi_settings.py:257
 msgid "Khamis Musheet"
 msgstr "خميس مشيط"
 
-#: fuego/saudi_settings.py:269
+#: fuego/saudi_settings.py:262
 msgid "Beshah"
 msgstr "بيشة"
 
-#: fuego/saudi_settings.py:274
+#: fuego/saudi_settings.py:267
 msgid "Al Namas"
 msgstr "النماص"
 
-#: fuego/saudi_settings.py:279
+#: fuego/saudi_settings.py:272
 msgid "Tanumah"
 msgstr "تنومة"
 
-#: fuego/saudi_settings.py:284
+#: fuego/saudi_settings.py:277
 msgid "Al Halbah"
 msgstr "الحلبة"
 
-#: fuego/saudi_settings.py:290
+#: fuego/saudi_settings.py:283
 msgid "Dammam"
 msgstr "الدمام"
 
-#: fuego/saudi_settings.py:295
+#: fuego/saudi_settings.py:288
 msgid "Khobar"
 msgstr "الخبر"
 
-#: fuego/saudi_settings.py:300
+#: fuego/saudi_settings.py:293
 msgid "Dhahran"
 msgstr "الظهران"
 
-#: fuego/saudi_settings.py:305
+#: fuego/saudi_settings.py:298
 msgid "Ras Tanura"
 msgstr "رأس تنورة"
 
-#: fuego/saudi_settings.py:310
+#: fuego/saudi_settings.py:303
 msgid "Al Ihsa"
 msgstr "الأحساء"
 
-#: fuego/saudi_settings.py:315
+#: fuego/saudi_settings.py:308
 msgid "Al Qatif"
 msgstr "القطيف"
 
-#: fuego/saudi_settings.py:320
+#: fuego/saudi_settings.py:313
 msgid "Hafr Al Batin"
 msgstr "حفر الباطن"
 
-#: fuego/saudi_settings.py:325
+#: fuego/saudi_settings.py:318
 msgid "Bagaig"
 msgstr "بقيق"
 
-#: fuego/saudi_settings.py:330
+#: fuego/saudi_settings.py:323
 msgid "Khurais"
 msgstr "خريص"
 
-#: fuego/saudi_settings.py:335
+#: fuego/saudi_settings.py:328
 msgid "Al Nu'iryah"
 msgstr "النعيرية"
 
-#: fuego/saudi_settings.py:340
+#: fuego/saudi_settings.py:333
 msgid "Sayhat"
 msgstr "سيهات"
 
-#: fuego/saudi_settings.py:345
+#: fuego/saudi_settings.py:338
 msgid "Safwa"
 msgstr "صفوى"
 
-#: fuego/saudi_settings.py:350
+#: fuego/saudi_settings.py:343
 msgid "Al Jubail"
 msgstr "الجبيل"
 
-#: fuego/saudi_settings.py:355
+#: fuego/saudi_settings.py:348
 msgid "Hofuf"
 msgstr "الهفوف"
 
-#: fuego/saudi_settings.py:372
+#: fuego/saudi_settings.py:365
 msgid "Farasan Islands"
 msgstr "جزر فرسان"
 
-#: fuego/saudi_settings.py:377
+#: fuego/saudi_settings.py:370
 msgid "Sabya"
 msgstr "صبيا"
 
-#: fuego/saudi_settings.py:382
+#: fuego/saudi_settings.py:375
 msgid "Faifa"
 msgstr "فيفا"
 
-#: fuego/saudi_settings.py:387
+#: fuego/saudi_settings.py:380
 msgid "Jazan Economic City"
 msgstr "جازان الاقتصادية"
 
-#: fuego/saudi_settings.py:392
+#: fuego/saudi_settings.py:385
 msgid "Samtah"
 msgstr "صامطة"
 
-#: fuego/saudi_settings.py:403
+#: fuego/saudi_settings.py:396
 msgid "Jeddah"
 msgstr "جدة"
 
-#: fuego/saudi_settings.py:408
+#: fuego/saudi_settings.py:401
 msgid "Al Taif"
 msgstr "الطائف"
 
-#: fuego/saudi_settings.py:413
+#: fuego/saudi_settings.py:406
 msgid "Al Qunfidhah"
 msgstr "القنفذة"
 
-#: fuego/saudi_settings.py:418
+#: fuego/saudi_settings.py:411
 msgid "Al Lith"
 msgstr "الليث"
 
-#: fuego/saudi_settings.py:423
+#: fuego/saudi_settings.py:416
 msgid "Rabigh"
 msgstr "رابغ"
 
-#: fuego/saudi_settings.py:428
+#: fuego/saudi_settings.py:421
 msgid "Al Jumum"
 msgstr "الجموم"
 
-#: fuego/saudi_settings.py:433
+#: fuego/saudi_settings.py:426
 msgid "Khulays"
 msgstr "خليص"
 
-#: fuego/saudi_settings.py:438
+#: fuego/saudi_settings.py:431
 msgid "Al Kamil"
 msgstr "الكامل"
 
-#: fuego/saudi_settings.py:443
+#: fuego/saudi_settings.py:436
 msgid "Al Khurmah"
 msgstr "الخرمة"
 
-#: fuego/saudi_settings.py:448
+#: fuego/saudi_settings.py:441
 msgid "Ranyah"
 msgstr "رنية"
 
-#: fuego/saudi_settings.py:453
+#: fuego/saudi_settings.py:446
 msgid "Turubah"
 msgstr "تربة"
 
-#: fuego/saudi_settings.py:464
+#: fuego/saudi_settings.py:457
 msgid "Sharorah"
 msgstr "شرورة"
 
-#: fuego/saudi_settings.py:469 fuego/saudi_settings.py:633
+#: fuego/saudi_settings.py:462 fuego/saudi_settings.py:626
 msgid "Al Hajrah"
 msgstr "الحجرة"
 
-#: fuego/saudi_settings.py:475
+#: fuego/saudi_settings.py:468
 msgid "Hazm Aljalamid"
 msgstr "حزم الجلاميد"
 
-#: fuego/saudi_settings.py:480
+#: fuego/saudi_settings.py:473
 msgid "Rafaha"
 msgstr "رفحاء"
 
-#: fuego/saudi_settings.py:485
+#: fuego/saudi_settings.py:478
 msgid "Tarif"
 msgstr "طريف"
 
-#: fuego/saudi_settings.py:490
+#: fuego/saudi_settings.py:483
 msgid "Ararr"
 msgstr "عرعر"
 
-#: fuego/saudi_settings.py:501
+#: fuego/saudi_settings.py:494
 msgid "Al Kharj"
 msgstr "الخرج"
 
-#: fuego/saudi_settings.py:506
+#: fuego/saudi_settings.py:499
 msgid "Al Der'yah"
 msgstr "الدرعية"
 
-#: fuego/saudi_settings.py:511
+#: fuego/saudi_settings.py:504
 msgid "Al Ghat"
 msgstr "الغاط"
 
-#: fuego/saudi_settings.py:516
+#: fuego/saudi_settings.py:509
 msgid "Al Gawya'yah"
 msgstr "القويعية"
 
-#: fuego/saudi_settings.py:521
+#: fuego/saudi_settings.py:514
 msgid "Al Selil"
 msgstr "السليل"
 
-#: fuego/saudi_settings.py:526
+#: fuego/saudi_settings.py:519
 msgid "Salboukh"
 msgstr "صلبوخ"
 
-#: fuego/saudi_settings.py:531
+#: fuego/saudi_settings.py:524
 msgid "Sajir"
 msgstr "ساجر"
 
-#: fuego/saudi_settings.py:536
+#: fuego/saudi_settings.py:529
 msgid "Al Zulfi"
 msgstr "الزلفي"
 
-#: fuego/saudi_settings.py:541
+#: fuego/saudi_settings.py:534
 msgid "Afif"
 msgstr "عفيف"
 
-#: fuego/saudi_settings.py:546
+#: fuego/saudi_settings.py:539
 msgid "Wadi Al Dawasir"
 msgstr "وادي الدواسر"
 
-#: fuego/saudi_settings.py:551
+#: fuego/saudi_settings.py:544
 msgid "Rumah"
 msgstr "رماح"
 
-#: fuego/saudi_settings.py:556
+#: fuego/saudi_settings.py:549
 msgid "Hotat Bani Tamim"
 msgstr "حوطة بني تميم"
 
-#: fuego/saudi_settings.py:561
+#: fuego/saudi_settings.py:554
 msgid "Shaqra"
 msgstr "شقراء"
 
-#: fuego/saudi_settings.py:566
+#: fuego/saudi_settings.py:559
 msgid "Dhurma"
 msgstr "ضرماء"
 
-#: fuego/saudi_settings.py:571
+#: fuego/saudi_settings.py:564
 msgid "Al Muzahmyah"
 msgstr "المزاحمية"
 
-#: fuego/saudi_settings.py:576
+#: fuego/saudi_settings.py:569
 msgid "Al Aflaj"
 msgstr "الأفلاج"
 
-#: fuego/saudi_settings.py:581
+#: fuego/saudi_settings.py:574
 msgid "Al Bejadyah"
 msgstr "البجادية"
 
-#: fuego/saudi_settings.py:586
+#: fuego/saudi_settings.py:579
 msgid "Al Artawyah"
 msgstr "الأرطاوية"
 
-#: fuego/saudi_settings.py:591
+#: fuego/saudi_settings.py:584
 msgid "Al Dalm"
 msgstr "الدلم"
 
-#: fuego/saudi_settings.py:597
+#: fuego/saudi_settings.py:590
 msgid "Tabuk City"
 msgstr "تبوك"
 
-#: fuego/saudi_settings.py:602
+#: fuego/saudi_settings.py:595
 msgid "Tayma'"
 msgstr "تيماء"
 
-#: fuego/saudi_settings.py:607
+#: fuego/saudi_settings.py:600
 msgid "Haql"
 msgstr "حقل"
 
-#: fuego/saudi_settings.py:612
+#: fuego/saudi_settings.py:605
 msgid "Al Wajh"
 msgstr "الوجه"
 
-#: fuego/saudi_settings.py:617
+#: fuego/saudi_settings.py:610
 msgid "Dheba"
 msgstr "ضباء"
 
-#: fuego/saudi_settings.py:628
+#: fuego/saudi_settings.py:621
 msgid "Baljurashi"
 msgstr "بلجرشي"
 
-#: fuego/saudi_settings.py:683 utils/prettify_filters.py:95
+#: fuego/saudi_settings.py:672 utils/prettify_filters.py:95
 msgid "English"
 msgstr ""
 
-#: fuego/saudi_settings.py:684 utils/prettify_filters.py:95
+#: fuego/saudi_settings.py:673 utils/prettify_filters.py:95
 msgid "Arabic"
 msgstr "عربي"
 
-#: fuego/saudi_settings.py:694
+#: fuego/saudi_settings.py:683
 msgid ""
 "Jobs in Saudi Arabia, Property & Real Estate For Sale & Rent, Cars for Sale "
 "- Free Classifieds in Saudi Arabia | dubizzle Saudi Arabia"
@@ -2152,7 +2152,7 @@ msgstr ""
 "وظائف في السعودية، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في "
 "السعودية | دوبيزل السعودية"
 
-#: fuego/saudi_settings.py:698
+#: fuego/saudi_settings.py:687
 msgid ""
 "dubizzle is your free and friendly local classifieds website in Saudi "
 "Arabia. Jobs, property, real estate, cars and classifieds in Saudi Arabia. "
@@ -2161,7 +2161,7 @@ msgstr ""
 "وظائف، عقارات، سيارات و اعلانات مبوبة في السعودية. اضف اعلان، تصفح اعلانات، "
 "بيع واشتري وأجر على دوبيزل"
 
-#: fuego/saudi_settings.py:703
+#: fuego/saudi_settings.py:692
 msgid ""
 "dubizzle Saudi Arabia, free classifieds, online classifieds, Saudi Arabia "
 "classifieds, free classifieds in Saudi Arabia"
@@ -2229,7 +2229,7 @@ msgstr ""
 msgid "Lists too large."
 msgstr ""
 
-#: fuego/management/commands/email_alerts.py:502
+#: fuego/management/commands/email_alerts.py:506
 #, fuzzy
 msgid "All of Dubizzle"
 msgstr "الموقع بالكامل"
@@ -5010,6 +5010,22 @@ msgid ""
 "Remove Franco Arabic from your ad (no '3adi, ya3ni, wa7id, etc') and replace "
 "it with English or Arabic"
 msgstr "أكتب الإعلان بحروف عربية"
+
+#: utils/rejected_context.py:55
+msgid "Your ad does not have photos."
+msgstr "لا يوجد صورة مرفقة بالاعلان"
+
+#: utils/rejected_context.py:56
+msgid "Add some photos."
+msgstr "قم بأضافة صور لاعلانك"
+
+#: utils/rejected_context.py:58
+msgid "Your ad had unsuitable photo."
+msgstr "الصورة المرفقة بالاعلان غير مناسبة"
+
+#: utils/rejected_context.py:59
+msgid "Add some suitable photos."
+msgstr "قم بأضافة صور مناسبة لاعلانك"
 
 #~ msgid "Uploading photos, please wait..."
 #~ msgstr "جاري التحميل. الرجاء الإنتظار."
