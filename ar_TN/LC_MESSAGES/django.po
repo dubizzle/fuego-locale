@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-19 12:14+0400\n"
+"POT-Creation-Date: 2015-05-20 16:25+0400\n"
 "PO-Revision-Date: 2014-08-05 14:52+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Tunisian <http://translate.dubizzlecloud.com/"
@@ -26,7 +26,7 @@ msgid "Email address"
 msgstr "عنوان الإيميل"
 
 #: authentication/forms.py:25 authentication/forms.py:101
-#: authentication/forms.py:200 fuego/forms/__init__.py:148 public/forms.py:26
+#: authentication/forms.py:200 fuego/forms/__init__.py:148
 msgid "Oh no! Your email is invalid. Try again."
 msgstr "لا تنسى إدخال عنوان إيميل صحيح!"
 
@@ -140,96 +140,96 @@ msgstr "خطأ"
 msgid "Please enter the correct letters"
 msgstr "من فضلك اكتب الحروف بشكل صحيح"
 
-#: fuego/base_settings.py:560 search/search_utils.py:107
+#: fuego/base_settings.py:558 search/search_utils.py:107
 #: templates/search/widget.html:27 templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:626
+#: fuego/base_settings.py:624
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:659 fuego/base_settings.py:1139
+#: fuego/base_settings.py:657 fuego/base_settings.py:1137
 msgid "Spam"
 msgstr "إعلان مزعج"
 
-#: fuego/base_settings.py:660
+#: fuego/base_settings.py:658
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:661 fuego/base_settings.py:1134
+#: fuego/base_settings.py:659 fuego/base_settings.py:1132
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:662 fuego/base_settings.py:1136
+#: fuego/base_settings.py:660 fuego/base_settings.py:1134
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:663
+#: fuego/base_settings.py:661
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:664
+#: fuego/base_settings.py:662
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:665 fuego/base_settings.py:1137
+#: fuego/base_settings.py:663 fuego/base_settings.py:1135
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:666
+#: fuego/base_settings.py:664
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:667
+#: fuego/base_settings.py:665
 msgid "No Category"
 msgstr "القسم؟"
 
-#: fuego/base_settings.py:695
+#: fuego/base_settings.py:693
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في الفئة غير الصحيحة"
 
-#: fuego/base_settings.py:696
+#: fuego/base_settings.py:694
 msgid "Your ad is misleading"
 msgstr "مجانا وبدون أي رسوم"
 
-#: fuego/base_settings.py:768
+#: fuego/base_settings.py:766
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:958
+#: fuego/base_settings.py:956
 msgid "Date: newest"
 msgstr "بحسب التاريخ: الأحدث"
 
-#: fuego/base_settings.py:959
+#: fuego/base_settings.py:957
 msgid "Date: oldest"
 msgstr "بحسب التاريخ: الأقدم"
 
-#: fuego/base_settings.py:963
+#: fuego/base_settings.py:961
 msgid "Price: highest"
 msgstr "بحسب السعر: الأعلى"
 
-#: fuego/base_settings.py:964
+#: fuego/base_settings.py:962
 msgid "Price: lowest"
 msgstr "بحسب السعر: الأدنى"
 
-#: fuego/base_settings.py:1123
+#: fuego/base_settings.py:1121
 msgid "#dubizzle"
 msgstr "#دوبيزل"
 
-#: fuego/base_settings.py:1129
+#: fuego/base_settings.py:1127
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:1131
+#: fuego/base_settings.py:1129
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:1135
+#: fuego/base_settings.py:1133
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:1138
+#: fuego/base_settings.py:1136
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
@@ -2357,73 +2357,16 @@ msgstr "كيلومترات"
 msgid "Area"
 msgstr "المساحة"
 
-#: public/forms.py:14
-msgid "Enter a subject please"
-msgstr "نوع الاستفسار"
-
-#: public/forms.py:18
-msgid "Subject"
-msgstr "الموضوع"
-
-#. Translators: This is in CrystelCalls new listing interface
-#: public/forms.py:25 public/forms.py:30
-#: templates/authentication/register.html:60
-#: templates/authentication/register.html:62
-#: templates/listings/manage_listing.html:215
-#: templates/listings/manage_listing.html:217
-#: templates/listings/add/create_inorganic_listing.html:35
-#: templates/listings/reply/reply_to_listing_include.html:39
-#: templates/listings/reply/reply_to_listing_include.html:40
-#: templates/listings/snippets/_form.html:201
-#: templates/listings/snippets/_form.html:225
-#: templates/listings/snippets/_form.html:226
-#: templates/listings/snippets/_form.html:228
-#: templates/public/contact_us.html:90
-msgid "Email"
-msgstr "عنوان الإيميل"
-
-#: public/forms.py:37
-msgid "Email address(again)"
-msgstr "تأكيد عنوان الإيميل"
-
-#: public/forms.py:41
-msgid "Confirm Email"
-msgstr "تأكيد عنوان الإيميل"
-
-#: public/forms.py:49
-msgid "We need your location so that we can help you"
-msgstr "لا تنسى اضافة إسم المدينة/الدولة لكي نستطيع مساعدتك"
-
-#: public/forms.py:53
-msgid "Location"
-msgstr "المدينة/الدولة"
-
-#: public/forms.py:64
-msgid "You forgot to tell us who you are"
-msgstr "نسيت اضافة إسمك!"
-
-#: public/forms.py:66
-msgid "We need your mobile number so that we can help you"
-msgstr "من فضلك ادخل رقم الموبايل لكي نستطيع مساعدتك"
-
-#: public/forms.py:67
-msgid "You left the message box empty...please tell us how we can help you"
-msgstr "لقد نسيت اضافة الرسالة. عندك مشكلة؟ راسلنا وسنساعدك!"
-
-#: public/forms.py:80
-msgid "Huh... that's not the same one!?"
-msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
-
-#: public/views.py:341
+#: public/views.py:279
 #, fuzzy
 msgid "dubizzle factsheet"
 msgstr "ما هو دوبيزل؟"
 
-#: public/views.py:345
+#: public/views.py:283
 msgid "infographic: what's it worth?"
 msgstr ""
 
-#: public/views.py:350
+#: public/views.py:288
 msgid "Pilar Rashad"
 msgstr ""
 
@@ -2628,7 +2571,6 @@ msgstr ""
 #: templates/authentication/register.html:47
 #: templates/authentication/reset_password.html:20
 #: templates/listings/report/report_listing.html:51
-#: templates/public/contact_us.html:42
 msgid "Please fix the errors below"
 msgstr "من فضلك راجع وصحح الاخطاء أدناه. "
 
@@ -2699,7 +2641,6 @@ msgid ""
 msgstr " يبدو أنه تم إيقاف أو تعليق حسابك، اتصل بنا لمزيد من التفاصيل"
 
 #: templates/authentication/login_denied.html:16
-#: templates/public/contact_us_complete.html:30
 msgid "Contact us"
 msgstr "راسلنا"
 
@@ -2718,6 +2659,21 @@ msgstr "سجل باستخدام facebook"
 #: templates/authentication/register.html:35
 msgid "Register via email"
 msgstr "سجل باستخدام الإيميل"
+
+#. Translators: This is in CrystelCalls new listing interface
+#: templates/authentication/register.html:60
+#: templates/authentication/register.html:62
+#: templates/listings/manage_listing.html:215
+#: templates/listings/manage_listing.html:217
+#: templates/listings/add/create_inorganic_listing.html:35
+#: templates/listings/reply/reply_to_listing_include.html:39
+#: templates/listings/reply/reply_to_listing_include.html:40
+#: templates/listings/snippets/_form.html:201
+#: templates/listings/snippets/_form.html:225
+#: templates/listings/snippets/_form.html:226
+#: templates/listings/snippets/_form.html:228
+msgid "Email"
+msgstr "عنوان الإيميل"
 
 #: templates/authentication/register.html:77
 #: templates/authentication/register.html:78
@@ -2757,9 +2713,7 @@ msgstr "غير كلمة السر"
 msgid "Phew! Your password has now been changed."
 msgstr "وأخيرا. تم تغيير كلمة السر الخاصة بك."
 
-#: templates/buysell/index.html:18 templates/public/contact_us.html:11
-#: templates/public/contact_us_complete.html:7
-#: templates/public/landing.html:10
+#: templates/buysell/index.html:18 templates/public/landing.html:10
 msgid "Ahlan wa sahlan..."
 msgstr "اهلا وسهلا بكم في دوبيزل..."
 
@@ -3242,13 +3196,11 @@ msgstr "الملفات المدعومة: rtf/doc/pdf/docx"
 
 #: templates/listings/reply/reply_to_listing_include.html:104
 #: templates/listings/report/report_listing.html:166
-#: templates/public/contact_us.html:137
 msgid "Please enter the 4 letters as shown in the image below"
 msgstr "من فضلك أدخل الحروف في الصورة أدناه"
 
 #: templates/listings/reply/reply_to_listing_include.html:107
 #: templates/listings/report/report_listing.html:169
-#: templates/public/contact_us.html:140
 msgid "Captcha"
 msgstr "نريد أن نتأكد بأنك لست رجل آلي (كابتشا)"
 
@@ -3437,7 +3389,6 @@ msgid "e.g. +966 12 000 0000"
 msgstr ""
 
 #: templates/public/_email_form_modal.html:29
-#: templates/public/contact_us.html:151
 msgid "Send"
 msgstr "أرسل"
 
@@ -3447,8 +3398,8 @@ msgid "You have successfully subscribed."
 msgstr "لقد تم حذف إعلانك بنجاح."
 
 #: templates/public/_footer.html:15
-msgid "Contact"
-msgstr "راسلنا"
+msgid "Help"
+msgstr "مساعدة"
 
 #: templates/public/_footer.html:27
 msgid "Sitemap"
@@ -3556,72 +3507,6 @@ msgstr ""
 #: templates/public/about.html:7
 msgid "About Us"
 msgstr "تعرف علينا"
-
-#: templates/public/contact_us.html:21
-msgid ""
-"\n"
-"                    <h1>Hello again,</h1>\n"
-"                    <p>Here are 3 reasons why you should contact us: </p>\n"
-"                    <ol>\n"
-"                        <li>we love to help our dubizzlers</li>\n"
-"                        <li>it's more fun when we know who you are</li>\n"
-"                        <li>we hired friendly staff whose job is to respond "
-"to your queries (not browse the net all day)</li>\n"
-"                    </ol>\n"
-"                "
-msgstr ""
-"\n"
-"<p>\n"
-"السلااااام<br />\n"
-"عندكم ثلاثة أسباب لمراسلتنا:\n"
-"</p>\n"
-"<ol>\n"
-"<li> نحن نحب مساعدتكم</li>\n"
-"<li> النبي وصى على سابع جار</li>\n"
-"<li> فريق خدمة العملاء لدينا يسهر على خدمتكم والاجابة علي استفساراتكم </li>\n"
-"</ol>\n"
-"            "
-
-#: templates/public/contact_us.html:54
-msgid "Subject: what's this about?"
-msgstr "نوع الاستفسار (ساعدنا في سرعة الرد عليك!)"
-
-#: templates/public/contact_us.html:66
-msgid "Your name (or nickname)"
-msgstr "الإسم"
-
-#: templates/public/contact_us.html:78
-msgid "Mobile number"
-msgstr "رقم الموبايل"
-
-#: templates/public/contact_us.html:102
-msgid "Email address (again)"
-msgstr "تأكيد عنوان الإيميل"
-
-#: templates/public/contact_us.html:114
-msgid "City/Country"
-msgstr "المدينة/الدولة"
-
-#: templates/public/contact_us.html:126
-msgid "Message: What's on your mind?"
-msgstr "موضوع الرسالة"
-
-#: templates/public/contact_us_complete.html:20
-msgid ""
-"\n"
-"                <h3>Sweet!</h3>\n"
-"                <p>A customer care dubizzler will handle your message "
-"personally and will get back to you as soon as they have an answer...</p>\n"
-"                <p>In the meantime, if you want to contact us again, we're "
-"more than happy to help.</p>\n"
-"            "
-msgstr ""
-"\n"
-"تمام!<br />\n"
-"سيقوم أخصائي دوبيزلاوي بتولي مهمة الرد على استفسارك في أسرع وقت ممكن...<br /"
-">\n"
-"وفي حال وجود استفسارات أخرى، راسلنا مجدداً، طلباتك أوامر ونحن في خدمتك.\n"
-"                "
 
 #: templates/public/home.html:23
 #, python-format
@@ -4725,7 +4610,6 @@ msgid "%s"
 msgstr ""
 
 #: utils/prettify_filters.py:116
-#, fuzzy
 msgid "language"
 msgstr "اللغة"
 
@@ -4835,6 +4719,100 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
+
+#~ msgid "Enter a subject please"
+#~ msgstr "نوع الاستفسار"
+
+#~ msgid "Subject"
+#~ msgstr "الموضوع"
+
+#~ msgid "Email address(again)"
+#~ msgstr "تأكيد عنوان الإيميل"
+
+#~ msgid "Confirm Email"
+#~ msgstr "تأكيد عنوان الإيميل"
+
+#~ msgid "We need your location so that we can help you"
+#~ msgstr "لا تنسى اضافة إسم المدينة/الدولة لكي نستطيع مساعدتك"
+
+#~ msgid "Location"
+#~ msgstr "المدينة/الدولة"
+
+#~ msgid "You forgot to tell us who you are"
+#~ msgstr "نسيت اضافة إسمك!"
+
+#~ msgid "We need your mobile number so that we can help you"
+#~ msgstr "من فضلك ادخل رقم الموبايل لكي نستطيع مساعدتك"
+
+#~ msgid "You left the message box empty...please tell us how we can help you"
+#~ msgstr "لقد نسيت اضافة الرسالة. عندك مشكلة؟ راسلنا وسنساعدك!"
+
+#~ msgid "Huh... that's not the same one!?"
+#~ msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
+
+#~ msgid "Contact"
+#~ msgstr "راسلنا"
+
+#~ msgid ""
+#~ "\n"
+#~ "                    <h1>Hello again,</h1>\n"
+#~ "                    <p>Here are 3 reasons why you should contact us: </"
+#~ "p>\n"
+#~ "                    <ol>\n"
+#~ "                        <li>we love to help our dubizzlers</li>\n"
+#~ "                        <li>it's more fun when we know who you are</li>\n"
+#~ "                        <li>we hired friendly staff whose job is to "
+#~ "respond to your queries (not browse the net all day)</li>\n"
+#~ "                    </ol>\n"
+#~ "                "
+#~ msgstr ""
+#~ "\n"
+#~ "<p>\n"
+#~ "السلااااام<br />\n"
+#~ "عندكم ثلاثة أسباب لمراسلتنا:\n"
+#~ "</p>\n"
+#~ "<ol>\n"
+#~ "<li> نحن نحب مساعدتكم</li>\n"
+#~ "<li> النبي وصى على سابع جار</li>\n"
+#~ "<li> فريق خدمة العملاء لدينا يسهر على خدمتكم والاجابة علي استفساراتكم </"
+#~ "li>\n"
+#~ "</ol>\n"
+#~ "            "
+
+#~ msgid "Subject: what's this about?"
+#~ msgstr "نوع الاستفسار (ساعدنا في سرعة الرد عليك!)"
+
+#~ msgid "Your name (or nickname)"
+#~ msgstr "الإسم"
+
+#~ msgid "Mobile number"
+#~ msgstr "رقم الموبايل"
+
+#~ msgid "Email address (again)"
+#~ msgstr "تأكيد عنوان الإيميل"
+
+#~ msgid "City/Country"
+#~ msgstr "المدينة/الدولة"
+
+#~ msgid "Message: What's on your mind?"
+#~ msgstr "موضوع الرسالة"
+
+#~ msgid ""
+#~ "\n"
+#~ "                <h3>Sweet!</h3>\n"
+#~ "                <p>A customer care dubizzler will handle your message "
+#~ "personally and will get back to you as soon as they have an answer...</"
+#~ "p>\n"
+#~ "                <p>In the meantime, if you want to contact us again, "
+#~ "we're more than happy to help.</p>\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "تمام!<br />\n"
+#~ "سيقوم أخصائي دوبيزلاوي بتولي مهمة الرد على استفسارك في أسرع وقت ممكن..."
+#~ "<br />\n"
+#~ "وفي حال وجود استفسارات أخرى، راسلنا مجدداً، طلباتك أوامر ونحن في خدمتك.\n"
+#~ "                "
 
 #~ msgid "Uploading photos, please wait..."
 #~ msgstr "جاري التحميل. الرجاء الإنتظار."
