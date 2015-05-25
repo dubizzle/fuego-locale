@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-24 16:04+0400\n"
+"POT-Creation-Date: 2015-05-25 11:05+0400\n"
 "PO-Revision-Date: 2014-08-05 14:41+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Qatari <http://translate.dubizzlecloud.com/projects/"
@@ -3174,6 +3174,10 @@ msgstr "القسم"
 msgid "Pick a sub-category"
 msgstr "ما هو أنسب قسم لعرض إعلانك؟"
 
+#: templates/listings/get/get_listing.html:88
+msgid "This ad has expired."
+msgstr "لقد انتهت صلاحية هذا الاعلان"
+
 #: templates/listings/get/get_listing.html:94
 #, python-format
 msgid "Looking for %(category_name)s in %(city_name)s?"
@@ -3183,6 +3187,10 @@ msgstr "هل تبحث عن %(category_name)s في %(city_name)s؟"
 #, python-format
 msgid "Looking for %(category_name)s?"
 msgstr "هل تبحث عن %(category_name)s؟"
+
+#: templates/listings/get/get_listing.html:100
+msgid "See similar ads"
+msgstr "شاهد اعلانات مشابهة"
 
 #: templates/listings/get/get_listing.html:113
 msgid ""
@@ -3276,7 +3284,8 @@ msgid ""
 "Once your ad is approved, it will remain live for %(LISTING_EXPIRE_DAYS)s "
 "days. You can go to \"your account\" to edit or delete the ad after it has "
 "been approved."
-msgstr "بمجرد نشر اعلانك سيكون ساري المفعول لمدة %(LISTING_EXPIRE_DAYS)s يوم. "
+msgstr ""
+"بمجرد نشر اعلانك سيكون ساري المفعول لمدة %(LISTING_EXPIRE_DAYS)s يوم. "
 "بامكانك في هذه الاثناء تعديل او حذف اعلانك من صفحة حسابك."
 
 #: templates/listings/preview/listing_complete.html:43
@@ -4500,15 +4509,14 @@ msgid "See all"
 msgstr "اظهر الجميع"
 
 #: templates/user_profiles/my_expired_listings.html:10
-#: templates/user_profiles/my_live_listings.html:10
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "\n"
-"        You've got %(counter)s live ad\n"
+"        You've got %(counter)s expired ad\n"
 "    "
 msgid_plural ""
 "\n"
-"        You've got %(counter)s live ads\n"
+"        You've got %(counter)s expired ads\n"
 "    "
 msgstr[0] ""
 "\n"
@@ -4674,6 +4682,41 @@ msgstr "اظهر جميع اعلاناتي المنشورة"
 #: templates/user_profiles/my_listings.html:436
 msgid "Show all my expired ads"
 msgstr "اظهر جميع اعلاناتي المنتهية الصلاحية"
+
+#: templates/user_profiles/my_live_listings.html:10
+#, python-format
+msgid ""
+"\n"
+"        You've got %(counter)s live ad\n"
+"    "
+msgid_plural ""
+"\n"
+"        You've got %(counter)s live ads\n"
+"    "
+msgstr[0] ""
+"\n"
+"ليس لديك إعلانات منشورة\n"
+"    "
+msgstr[1] ""
+"\n"
+"لديك إعلان منشور\n"
+"    "
+msgstr[2] ""
+"\n"
+"لديك إعلانين منشورين\n"
+"    "
+msgstr[3] ""
+"\n"
+"لديك %(counter)s إعلانات منشورة\n"
+"    "
+msgstr[4] ""
+"\n"
+"لديك %(counter)s إعلان منشور\n"
+"    "
+msgstr[5] ""
+"\n"
+"لديك %(counter)s إعلان منشور\n"
+"    "
 
 #: templates/user_profiles/my_pending_listings.html:10
 #, python-format
