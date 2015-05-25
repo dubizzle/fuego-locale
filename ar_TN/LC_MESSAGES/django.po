@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-25 11:06+0400\n"
+"POT-Creation-Date: 2015-05-25 15:59+0400\n"
 "PO-Revision-Date: 2014-08-05 14:52+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Tunisian <http://translate.dubizzlecloud.com/"
@@ -1969,8 +1969,8 @@ msgstr "الموقع بالكامل"
 #: templates/email_alerts/email_alerts_en.html:78
 #: templates/email_alerts/email_alerts_fr.html:79
 #: templates/feedbox/index_horizontal.html:326
-#: templates/listings/get/get_listing.html:138
-#: templates/listings/get/get_listing.html:244 templates/public/home.html:80
+#: templates/listings/get/get_listing.html:112
+#: templates/listings/get/get_listing.html:218 templates/public/home.html:80
 #: templates/shared/listings.html:62
 #: templates/user_profiles/my_listings.html:151
 #: templates/user_profiles/my_listings.html:244
@@ -2030,7 +2030,7 @@ msgstr "السبب"
 msgid "Tell us why you are reporting this ad."
 msgstr "لماذا تريد الإبلاغ عن هذا الإعلان؟"
 
-#: listings/forms.py:88 templates/listings/get/get_listing.html:155
+#: listings/forms.py:88 templates/listings/get/get_listing.html:129
 msgid "Details"
 msgstr "التفاصيل"
 
@@ -2047,7 +2047,7 @@ msgstr "فكر في عنوان واضح ومختصر لإعلانك."
 msgid "You're going to need a title."
 msgstr "لا تنسى إضافة عنوان لإعلانك."
 
-#: listings/forms.py:131 templates/listings/get/get_listing.html:168
+#: listings/forms.py:131 templates/listings/get/get_listing.html:142
 #: templates/listings/snippets/_form.html:77
 msgid "Description"
 msgstr "مواصفات الإعلان"
@@ -2329,7 +2329,7 @@ msgstr "الرجاء تحديد نوع العمل"
 msgid "Employment Type"
 msgstr "نوع العمل"
 
-#: listings/forms.py:787 templates/listings/get/get_listing.html:176
+#: listings/forms.py:787 templates/listings/get/get_listing.html:150
 msgid "Skills"
 msgstr "المهارات"
 
@@ -2415,16 +2415,16 @@ msgstr "لقد نسيت اضافة الرسالة. عندك مشكلة؟ راس�
 msgid "Huh... that's not the same one!?"
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
-#: public/views.py:341
+#: public/views.py:350
 #, fuzzy
 msgid "dubizzle factsheet"
 msgstr "ما هو دوبيزل؟"
 
-#: public/views.py:345
+#: public/views.py:354
 msgid "infographic: what's it worth?"
 msgstr ""
 
-#: public/views.py:350
+#: public/views.py:359
 msgid "Pilar Rashad"
 msgstr ""
 
@@ -3109,25 +3109,7 @@ msgstr "القسم"
 msgid "Pick a sub-category"
 msgstr "ما هو أنسب قسم لعرض إعلانك؟"
 
-#: templates/listings/get/get_listing.html:88
-msgid "This ad has expired."
-msgstr "لقد انتهت صلاحية هذا الاعلان"
-
-#: templates/listings/get/get_listing.html:94
-#, python-format
-msgid "Looking for %(category_name)s in %(city_name)s?"
-msgstr "هل تبحث عن %(category_name)s في %(city_name)s؟"
-
-#: templates/listings/get/get_listing.html:96
-#, python-format
-msgid "Looking for %(category_name)s?"
-msgstr "هل تبحث عن %(category_name)s؟"
-
-#: templates/listings/get/get_listing.html:100
-msgid "See similar ads"
-msgstr "شاهد اعلانات مشابهة"
-
-#: templates/listings/get/get_listing.html:113
+#: templates/listings/get/get_listing.html:87
 msgid ""
 "This ad has already been edited and is awaiting approval. You'll get an "
 "email once the changes are live."
@@ -3135,12 +3117,12 @@ msgstr ""
 "عفواً، لن تستطيع تعديل اعلانك حتى تتم الموافقة على نشره. سنرسل لك إيميل عند "
 "نشره. لن نتأخر عليك!"
 
-#: templates/listings/get/get_listing.html:124
+#: templates/listings/get/get_listing.html:98
 msgid "Back to results"
 msgstr "العودة إلى صفحة الإعلانات"
 
-#: templates/listings/get/get_listing.html:134
-#: templates/listings/get/get_listing.html:240
+#: templates/listings/get/get_listing.html:108
+#: templates/listings/get/get_listing.html:214
 #, python-format
 msgid ""
 "\n"
@@ -3150,54 +3132,72 @@ msgid ""
 "%(translated_currency)s"
 msgstr ""
 
-#: templates/listings/get/get_listing.html:148
+#: templates/listings/get/get_listing.html:122
 #, python-format
 msgid "Image %(count)s of %(listing_title)s"
 msgstr ""
 
-#: templates/listings/get/get_listing.html:154
+#: templates/listings/get/get_listing.html:128
 msgid "View all details"
 msgstr "أظهر كافة التفاصيل"
 
-#: templates/listings/get/get_listing.html:167
+#: templates/listings/get/get_listing.html:141
 msgid "Read more"
 msgstr "ارني المزيد"
 
-#: templates/listings/get/get_listing.html:189
+#: templates/listings/get/get_listing.html:163
 msgid "Share with friends"
 msgstr "شارك مع أصدقائك"
 
-#: templates/listings/get/get_listing.html:196
+#: templates/listings/get/get_listing.html:170
 msgid "Report this ad"
 msgstr "بلغ عن هذا الإعلان"
 
-#: templates/listings/get/get_listing.html:207
+#: templates/listings/get/get_listing.html:181
 msgid "Important tips from dubizzle"
 msgstr ""
 "نصائح دوبيزلاوية عالسريع (نصائح عالسريع علشان يكون عندك صورة واضحة عن "
 "دوبيزل):"
 
-#: templates/listings/get/get_listing.html:212
+#: templates/listings/get/get_listing.html:186
 msgid "Show"
 msgstr "أظهر"
 
-#: templates/listings/get/get_listing.html:255
+#: templates/listings/get/get_listing.html:229
 msgid "Call"
 msgstr "إتصل"
 
-#: templates/listings/get/get_listing.html:256
+#: templates/listings/get/get_listing.html:230
 msgid "Show number"
 msgstr "اظهر الرقم"
 
-#: templates/listings/get/get_listing.html:264
+#: templates/listings/get/get_listing.html:238
 #: templates/listings/reply/reply_to_listing_include.html:10
 msgid "Reply"
 msgstr "أرسل رسالة"
 
-#: templates/listings/get/get_listing.html:265
+#: templates/listings/get/get_listing.html:239
 #: templates/listings/reply/reply_to_listing_include.html:130
 msgid "Send reply"
 msgstr "أرسل رد"
+
+#: templates/listings/get/get_listing.html:254
+msgid "This ad has expired."
+msgstr "لقد انتهت صلاحية هذا الاعلان"
+
+#: templates/listings/get/get_listing.html:259
+#, python-format
+msgid "Looking for %(category_name)s in %(city_name)s?"
+msgstr "هل تبحث عن %(category_name)s في %(city_name)s؟"
+
+#: templates/listings/get/get_listing.html:261
+#, python-format
+msgid "Looking for %(category_name)s?"
+msgstr "هل تبحث عن %(category_name)s؟"
+
+#: templates/listings/get/get_listing.html:265
+msgid "See similar ads"
+msgstr "شاهد اعلانات مشابهة"
 
 #: templates/listings/preview/listing_complete.html:20
 msgid "Hooray! Congratulations, your ad will go live very very soon."
@@ -4439,7 +4439,6 @@ msgid "See all"
 msgstr "اظهر الجميع"
 
 #: templates/user_profiles/my_expired_listings.html:10
-#, fuzzy, python-format
 msgid ""
 "\n"
 "        You've got %(counter)s expired ad\n"
@@ -4450,27 +4449,27 @@ msgid_plural ""
 "    "
 msgstr[0] ""
 "\n"
-"ليس لديك إعلانات منشورة\n"
+"ليس لديك إعلانات منتهية الصلاحية\n"
 "    "
 msgstr[1] ""
 "\n"
-"لديك إعلان منشور\n"
+"لديك إعلان منتهي الصلاحية\n"
 "    "
 msgstr[2] ""
 "\n"
-"لديك إعلانين منشورين\n"
+"لديك إعلانين منتهيين الصلاحية\n"
 "    "
 msgstr[3] ""
 "\n"
-"لديك %(counter)s إعلانات منشورة\n"
+"لديك %(counter)s إعلانات منتهية الصلاحية\n"
 "    "
 msgstr[4] ""
 "\n"
-"لديك %(counter)s إعلان منشور\n"
+"لديك %(counter)s إعلانات منتهية الصلاحية\n"
 "    "
 msgstr[5] ""
 "\n"
-"لديك %(counter)s إعلان منشور\n"
+"لديك %(counter)s إعلانات منتهية الصلاحية\n"
 "    "
 
 #: templates/user_profiles/my_listings.html:49
