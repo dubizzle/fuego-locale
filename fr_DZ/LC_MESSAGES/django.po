@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-25 15:59+0400\n"
+"POT-Creation-Date: 2015-05-26 14:50+0400\n"
 "PO-Revision-Date: 2014-08-05 15:00+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Algerian <http://translate.dubizzlecloud.com/"
@@ -2242,7 +2242,7 @@ msgstr "Tout sur dubizzle"
 #: templates/email_alerts/email_alerts_fr.html:79
 #: templates/feedbox/index_horizontal.html:326
 #: templates/listings/get/get_listing.html:112
-#: templates/listings/get/get_listing.html:218 templates/public/home.html:80
+#: templates/listings/get/get_listing.html:240 templates/public/home.html:80
 #: templates/shared/listings.html:62
 #: templates/user_profiles/my_listings.html:151
 #: templates/user_profiles/my_listings.html:244
@@ -2304,7 +2304,7 @@ msgstr "Raison"
 msgid "Tell us why you are reporting this ad."
 msgstr "Dites-nous pourquoi vous signalez cette annonce."
 
-#: listings/forms.py:88 templates/listings/get/get_listing.html:129
+#: listings/forms.py:88 templates/listings/get/get_listing.html:151
 msgid "Details"
 msgstr "Détails"
 
@@ -2323,7 +2323,7 @@ msgstr ""
 msgid "You're going to need a title."
 msgstr "Vous allez avoir besoin d'un titre."
 
-#: listings/forms.py:131 templates/listings/get/get_listing.html:142
+#: listings/forms.py:131 templates/listings/get/get_listing.html:164
 #: templates/listings/snippets/_form.html:77
 msgid "Description"
 msgstr "Description"
@@ -2616,7 +2616,7 @@ msgstr "Veuillez spécifier le type d'emploi"
 msgid "Employment Type"
 msgstr "Type d’emploi"
 
-#: listings/forms.py:787 templates/listings/get/get_listing.html:150
+#: listings/forms.py:787 templates/listings/get/get_listing.html:172
 msgid "Skills"
 msgstr "Compétences"
 
@@ -3427,7 +3427,7 @@ msgid "Back to results"
 msgstr "Retour aux résultats"
 
 #: templates/listings/get/get_listing.html:108
-#: templates/listings/get/get_listing.html:214
+#: templates/listings/get/get_listing.html:236
 #, python-format
 msgid ""
 "\n"
@@ -3437,70 +3437,74 @@ msgid ""
 "%(translated_currency)s"
 msgstr ""
 
-#: templates/listings/get/get_listing.html:122
-#, python-format
-msgid "Image %(count)s of %(listing_title)s"
-msgstr ""
-
-#: templates/listings/get/get_listing.html:128
-msgid "View all details"
-msgstr "Voir les details"
-
-#: templates/listings/get/get_listing.html:141
-msgid "Read more"
-msgstr "Charger d'avantage"
-
-#: templates/listings/get/get_listing.html:163
-msgid "Share with friends"
-msgstr "Partager avec des amis"
-
-#: templates/listings/get/get_listing.html:170
-msgid "Report this ad"
-msgstr "Signaler cette annonce"
-
-#: templates/listings/get/get_listing.html:181
-msgid "Important tips from dubizzle"
-msgstr "Conseils importants sur dubizzle:"
-
-#: templates/listings/get/get_listing.html:186
-msgid "Show"
-msgstr "Voir"
-
-#: templates/listings/get/get_listing.html:229
-msgid "Call"
-msgstr "Appeler"
-
-#: templates/listings/get/get_listing.html:230
-msgid "Show number"
-msgstr "Afficher le numéro de téléphone portable"
-
-#: templates/listings/get/get_listing.html:238
-#: templates/listings/reply/reply_to_listing_include.html:10
-msgid "Reply"
-msgstr "Envoyer un message"
-
-#: templates/listings/get/get_listing.html:239
-#: templates/listings/reply/reply_to_listing_include.html:130
-msgid "Send reply"
-msgstr "Envoyer"
-
-#: templates/listings/get/get_listing.html:254
+#: templates/listings/get/get_listing.html:120
+#: templates/listings/get/get_listing.html:277
 msgid "This ad has expired."
-msgstr ""
+msgstr "Cette annonce a expiré."
 
-#: templates/listings/get/get_listing.html:259
+#: templates/listings/get/get_listing.html:125
+#: templates/listings/get/get_listing.html:282
 #, python-format
 msgid "Looking for %(category_name)s in %(city_name)s?"
 msgstr "Chercher %(category_name)s dans %(city_name)s?"
 
-#: templates/listings/get/get_listing.html:261
+#: templates/listings/get/get_listing.html:127
+#: templates/listings/get/get_listing.html:284
 #, python-format
 msgid "Looking for %(category_name)s?"
 msgstr "Chercher %(category_name)s?"
 
-#: templates/listings/get/get_listing.html:265
+#: templates/listings/get/get_listing.html:131
+#: templates/listings/get/get_listing.html:288
 msgid "See similar ads"
 msgstr "Voir les annonces similaires"
+
+#: templates/listings/get/get_listing.html:144
+#, python-format
+msgid "Image %(count)s of %(listing_title)s"
+msgstr ""
+
+#: templates/listings/get/get_listing.html:150
+msgid "View all details"
+msgstr "Voir les details"
+
+#: templates/listings/get/get_listing.html:163
+msgid "Read more"
+msgstr "Charger d'avantage"
+
+#: templates/listings/get/get_listing.html:185
+msgid "Share with friends"
+msgstr "Partager avec des amis"
+
+#: templates/listings/get/get_listing.html:192
+msgid "Report this ad"
+msgstr "Signaler cette annonce"
+
+#: templates/listings/get/get_listing.html:203
+msgid "Important tips from dubizzle"
+msgstr "Conseils importants sur dubizzle:"
+
+#: templates/listings/get/get_listing.html:208
+msgid "Show"
+msgstr "Voir"
+
+#: templates/listings/get/get_listing.html:251
+msgid "Call"
+msgstr "Appeler"
+
+#: templates/listings/get/get_listing.html:252
+msgid "Show number"
+msgstr "Afficher le numéro de téléphone portable"
+
+#: templates/listings/get/get_listing.html:260
+#: templates/listings/reply/reply_to_listing_include.html:10
+msgid "Reply"
+msgstr "Envoyer un message"
+
+#: templates/listings/get/get_listing.html:261
+#: templates/listings/reply/reply_to_listing_include.html:130
+msgid "Send reply"
+msgstr "Envoyer"
 
 #: templates/listings/preview/listing_complete.html:20
 msgid "Hooray! Congratulations, your ad will go live very very soon."
@@ -3521,7 +3525,8 @@ msgid ""
 "Once your ad is approved, it will remain live for %(LISTING_EXPIRE_DAYS)s "
 "days. You can go to \"your account\" to edit or delete the ad after it has "
 "been approved."
-msgstr "Dès que votre annonce est approuvée, elle restera active pour "
+msgstr ""
+"Dès que votre annonce est approuvée, elle restera active pour "
 "%(LISTING_EXPIRE_DAYS)s. Vous pouvez aller à \"Votre compte\" pour modifier "
 "ou supprimer l'annonce après qu'elle a été approuvé."
 
@@ -4793,7 +4798,7 @@ msgid "See all"
 msgstr "Tout voir"
 
 #: templates/user_profiles/my_expired_listings.html:10
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "        You've got %(counter)s expired ad\n"
