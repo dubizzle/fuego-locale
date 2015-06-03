@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-26 14:50+0400\n"
+"POT-Creation-Date: 2015-06-03 14:05+0400\n"
 "PO-Revision-Date: 2014-08-05 15:02+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/"
@@ -20,7 +20,7 @@ msgid "Email address"
 msgstr "Adresse email"
 
 #: authentication/forms.py:25 authentication/forms.py:101
-#: authentication/forms.py:200 fuego/forms/__init__.py:148 public/forms.py:26
+#: authentication/forms.py:200 fuego/forms/__init__.py:148
 msgid "Oh no! Your email is invalid. Try again."
 msgstr "Oh non! Votre adresse email n'est pas valide. Réessayez."
 
@@ -135,96 +135,96 @@ msgstr "Erreur"
 msgid "Please enter the correct letters"
 msgstr "Veuillez entrer les bonnes lettres"
 
-#: fuego/base_settings.py:562 search/search_utils.py:107
+#: fuego/base_settings.py:560 search/search_utils.py:107
 #: templates/search/widget.html:27 templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "Tout sur dubizzle"
 
-#: fuego/base_settings.py:628
+#: fuego/base_settings.py:626
 msgid "m&sup2;"
 msgstr "m&sup2;"
 
-#: fuego/base_settings.py:661 fuego/base_settings.py:1149
+#: fuego/base_settings.py:659 fuego/base_settings.py:1147
 msgid "Spam"
 msgstr "Indésirable"
 
-#: fuego/base_settings.py:662
+#: fuego/base_settings.py:660
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:663 fuego/base_settings.py:1144
+#: fuego/base_settings.py:661 fuego/base_settings.py:1142
 msgid "Miscategorized"
 msgstr "Mauvaise catégorie"
 
-#: fuego/base_settings.py:664 fuego/base_settings.py:1146
+#: fuego/base_settings.py:662 fuego/base_settings.py:1144
 msgid "Repetitive"
 msgstr "Répétée"
 
-#: fuego/base_settings.py:665
+#: fuego/base_settings.py:663
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:666
+#: fuego/base_settings.py:664
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:667 fuego/base_settings.py:1147
+#: fuego/base_settings.py:665 fuego/base_settings.py:1145
 msgid "Misleading"
 msgstr "Trompeuse"
 
-#: fuego/base_settings.py:668
+#: fuego/base_settings.py:666
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:669
+#: fuego/base_settings.py:667
 msgid "No Category"
 msgstr "Catégorie"
 
-#: fuego/base_settings.py:697
+#: fuego/base_settings.py:695
 msgid "You have chosen the wrong category."
 msgstr "Votre annonce a été placé dans la mauvaise catégorie"
 
-#: fuego/base_settings.py:698
+#: fuego/base_settings.py:696
 msgid "Your ad is misleading"
 msgstr "Votre annonce est GRATUITE"
 
-#: fuego/base_settings.py:778
+#: fuego/base_settings.py:776
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: fuego/base_settings.py:968
+#: fuego/base_settings.py:966
 msgid "Date: newest"
 msgstr "Date: plus recente"
 
-#: fuego/base_settings.py:969
+#: fuego/base_settings.py:967
 msgid "Date: oldest"
 msgstr "Date: moins recente"
 
-#: fuego/base_settings.py:973
+#: fuego/base_settings.py:971
 msgid "Price: highest"
 msgstr "Prix: plus cher"
 
-#: fuego/base_settings.py:974
+#: fuego/base_settings.py:972
 msgid "Price: lowest"
 msgstr "Prix: moins cher"
 
-#: fuego/base_settings.py:1133
+#: fuego/base_settings.py:1131
 msgid "#dubizzle"
 msgstr "dubizzle démarré"
 
-#: fuego/base_settings.py:1139
+#: fuego/base_settings.py:1137
 msgid "Other"
 msgstr "Autre"
 
-#: fuego/base_settings.py:1141
+#: fuego/base_settings.py:1139
 msgid "Please select"
 msgstr "Choisissez votre raison"
 
-#: fuego/base_settings.py:1145
+#: fuego/base_settings.py:1143
 msgid "Offensive"
 msgstr "Offensive"
 
-#: fuego/base_settings.py:1148
+#: fuego/base_settings.py:1146
 msgid "Possible fraud"
 msgstr "Possible fraude"
 
@@ -2501,77 +2501,16 @@ msgstr "Kilomètres"
 msgid "Area"
 msgstr "Surface"
 
-#: public/forms.py:14
-msgid "Enter a subject please"
-msgstr "Veuillez entrer un sujet"
-
-#: public/forms.py:18
-msgid "Subject"
-msgstr "الموضوع"
-
-#. Translators: This is in CrystelCalls new listing interface
-#: public/forms.py:25 public/forms.py:30
-#: templates/authentication/register.html:60
-#: templates/authentication/register.html:62
-#: templates/listings/manage_listing.html:215
-#: templates/listings/manage_listing.html:217
-#: templates/listings/add/create_inorganic_listing.html:35
-#: templates/listings/reply/reply_to_listing_include.html:39
-#: templates/listings/reply/reply_to_listing_include.html:40
-#: templates/listings/snippets/_form.html:201
-#: templates/listings/snippets/_form.html:225
-#: templates/listings/snippets/_form.html:226
-#: templates/listings/snippets/_form.html:228
-#: templates/public/contact_us.html:90
-msgid "Email"
-msgstr "Email"
-
-#: public/forms.py:37
-msgid "Email address(again)"
-msgstr "Adresse email (de nouveau)"
-
-#: public/forms.py:41
-msgid "Confirm Email"
-msgstr "Confirmez votre adresse email"
-
-#: public/forms.py:49
-msgid "We need your location so that we can help you"
-msgstr ""
-"Nous avons besoin de connaître votre emplacement pour pouvoir vous ętre utile"
-
-#: public/forms.py:53
-msgid "Location"
-msgstr "Salaire"
-
-#: public/forms.py:64
-msgid "You forgot to tell us who you are"
-msgstr "Vous avez oublié de nous dire qui vous ętes"
-
-#: public/forms.py:66
-msgid "We need your mobile number so that we can help you"
-msgstr ""
-"Nous avons besoin de votre numéro de téléphone portable pour vous aider"
-
-#: public/forms.py:67
-msgid "You left the message box empty...please tell us how we can help you"
-msgstr ""
-"Vous avez laissé votre boîte de messagerie vide... dites-nous si vous avez "
-"besoin d'aide"
-
-#: public/forms.py:80
-msgid "Huh... that's not the same one!?"
-msgstr "Oh... ce n'est pas la męme chose!?"
-
-#: public/views.py:350
+#: public/views.py:295
 #, fuzzy
 msgid "dubizzle factsheet"
 msgstr "dubizzle démarré"
 
-#: public/views.py:354
+#: public/views.py:299
 msgid "infographic: what's it worth?"
 msgstr ""
 
-#: public/views.py:359
+#: public/views.py:304
 msgid "Pilar Rashad"
 msgstr ""
 
@@ -2777,7 +2716,6 @@ msgstr ""
 #: templates/authentication/register.html:47
 #: templates/authentication/reset_password.html:20
 #: templates/listings/report/report_listing.html:51
-#: templates/public/contact_us.html:42
 msgid "Please fix the errors below"
 msgstr "Veuillez corriger les erreurs ci-dessous"
 
@@ -2853,7 +2791,6 @@ msgstr ""
 "Contacter nous pour plus d'information. "
 
 #: templates/authentication/login_denied.html:16
-#: templates/public/contact_us_complete.html:30
 msgid "Contact us"
 msgstr "Contactez-nous"
 
@@ -2872,6 +2809,21 @@ msgstr "S'inscrire avec Facebook"
 #: templates/authentication/register.html:35
 msgid "Register via email"
 msgstr "S'inscrire via email"
+
+#. Translators: This is in CrystelCalls new listing interface
+#: templates/authentication/register.html:60
+#: templates/authentication/register.html:62
+#: templates/listings/manage_listing.html:215
+#: templates/listings/manage_listing.html:217
+#: templates/listings/add/create_inorganic_listing.html:35
+#: templates/listings/reply/reply_to_listing_include.html:39
+#: templates/listings/reply/reply_to_listing_include.html:40
+#: templates/listings/snippets/_form.html:201
+#: templates/listings/snippets/_form.html:225
+#: templates/listings/snippets/_form.html:226
+#: templates/listings/snippets/_form.html:228
+msgid "Email"
+msgstr "Email"
 
 #: templates/authentication/register.html:77
 #: templates/authentication/register.html:78
@@ -2912,9 +2864,7 @@ msgstr "Modifier mot de passe"
 msgid "Phew! Your password has now been changed."
 msgstr "Ouf! Votre mot de passe a maintenant été modifié."
 
-#: templates/buysell/index.html:18 templates/public/contact_us.html:11
-#: templates/public/contact_us_complete.html:7
-#: templates/public/landing.html:10
+#: templates/buysell/index.html:18 templates/public/landing.html:10
 msgid "Ahlan wa sahlan..."
 msgstr "Ahlan wa sahlan..."
 
@@ -3440,13 +3390,11 @@ msgstr "Formats acceptés: pdf, doc, txt, rtf"
 
 #: templates/listings/reply/reply_to_listing_include.html:104
 #: templates/listings/report/report_listing.html:166
-#: templates/public/contact_us.html:137
 msgid "Please enter the 4 letters as shown in the image below"
 msgstr "Veuillez saisir les 4 lettres indiquées dans l'image ci-dessous"
 
 #: templates/listings/reply/reply_to_listing_include.html:107
 #: templates/listings/report/report_listing.html:169
-#: templates/public/contact_us.html:140
 msgid "Captcha"
 msgstr "Etes-vous humain? (Captcha)"
 
@@ -3638,7 +3586,6 @@ msgid "e.g. +966 12 000 0000"
 msgstr ""
 
 #: templates/public/_email_form_modal.html:29
-#: templates/public/contact_us.html:151
 msgid "Send"
 msgstr "Envoyer"
 
@@ -3648,8 +3595,8 @@ msgid "You have successfully subscribed."
 msgstr "Votre annonce a été supprimée avec succès"
 
 #: templates/public/_footer.html:15
-msgid "Contact"
-msgstr "Contactez nous"
+msgid "Help"
+msgstr "Aide"
 
 #: templates/public/_footer.html:27
 msgid "Sitemap"
@@ -3758,74 +3705,6 @@ msgstr ""
 #: templates/public/about.html:7
 msgid "About Us"
 msgstr "A propos de nous"
-
-#: templates/public/contact_us.html:21
-msgid ""
-"\n"
-"                    <h1>Hello again,</h1>\n"
-"                    <p>Here are 3 reasons why you should contact us: </p>\n"
-"                    <ol>\n"
-"                        <li>we love to help our dubizzlers</li>\n"
-"                        <li>it's more fun when we know who you are</li>\n"
-"                        <li>we hired friendly staff whose job is to respond "
-"to your queries (not browse the net all day)</li>\n"
-"                    </ol>\n"
-"                "
-msgstr ""
-"\n"
-"<p>\n"
-"Bonjour à tous, <br/>\n"
-"Voici les 3 raisons pour les quelles vous pouriez nous contacter:\n"
-"</p>\n"
-"<ol>\n"
-"<li>On aime aider nos dubizzleurs</li>\n"
-"<li>C'est plus agreable de savoir qui vous etes</li>\n"
-"<li>Nous avons embauché un personnel tres amical dont le travail consiste à "
-"répondre à vos questions (pas naviguer sur le net toute la journée)</li>\n"
-"</ol>"
-
-#: templates/public/contact_us.html:54
-msgid "Subject: what's this about?"
-msgstr "Sujet: De quoi s'agit-il?"
-
-#: templates/public/contact_us.html:66
-msgid "Your name (or nickname)"
-msgstr "Votre nom (ou pseudo)"
-
-#: templates/public/contact_us.html:78
-msgid "Mobile number"
-msgstr "Numéro de téléphone portable"
-
-#: templates/public/contact_us.html:102
-msgid "Email address (again)"
-msgstr "Adresse email (de nouveau)"
-
-#: templates/public/contact_us.html:114
-msgid "City/Country"
-msgstr "Ville / Pays"
-
-#: templates/public/contact_us.html:126
-msgid "Message: What's on your mind?"
-msgstr "Message: A quoi pensez-vous?"
-
-#: templates/public/contact_us_complete.html:20
-msgid ""
-"\n"
-"                <h3>Sweet!</h3>\n"
-"                <p>A customer care dubizzler will handle your message "
-"personally and will get back to you as soon as they have an answer...</p>\n"
-"                <p>In the meantime, if you want to contact us again, we're "
-"more than happy to help.</p>\n"
-"            "
-msgstr ""
-"\n"
-"Chouette!<br />\n"
-"Un dubizzleur du service clientèle traitera votre message personnellement et "
-"reviendra vers vous dès qu'il aura une réponse ...  <br/>\n"
-"\n"
-"D'ici là, si vous souhaitez nous recontacter, nous sommes ravis de vous "
-"aider.\n"
-" "
 
 #: templates/public/home.html:23
 #, python-format
@@ -5048,8 +4927,106 @@ msgstr "Votre annonce avait impropre photo."
 msgid "Add some suitable photos."
 msgstr "Ajouter quelques photos appropriés."
 
-#~ msgid "Help"
-#~ msgstr "Aide"
+#~ msgid "Enter a subject please"
+#~ msgstr "Veuillez entrer un sujet"
+
+#~ msgid "Subject"
+#~ msgstr "الموضوع"
+
+#~ msgid "Email address(again)"
+#~ msgstr "Adresse email (de nouveau)"
+
+#~ msgid "Confirm Email"
+#~ msgstr "Confirmez votre adresse email"
+
+#~ msgid "We need your location so that we can help you"
+#~ msgstr ""
+#~ "Nous avons besoin de connaître votre emplacement pour pouvoir vous ętre "
+#~ "utile"
+
+#~ msgid "Location"
+#~ msgstr "Salaire"
+
+#~ msgid "You forgot to tell us who you are"
+#~ msgstr "Vous avez oublié de nous dire qui vous ętes"
+
+#~ msgid "We need your mobile number so that we can help you"
+#~ msgstr ""
+#~ "Nous avons besoin de votre numéro de téléphone portable pour vous aider"
+
+#~ msgid "You left the message box empty...please tell us how we can help you"
+#~ msgstr ""
+#~ "Vous avez laissé votre boîte de messagerie vide... dites-nous si vous "
+#~ "avez besoin d'aide"
+
+#~ msgid "Huh... that's not the same one!?"
+#~ msgstr "Oh... ce n'est pas la męme chose!?"
+
+#~ msgid "Contact"
+#~ msgstr "Contactez nous"
+
+#~ msgid ""
+#~ "\n"
+#~ "                    <h1>Hello again,</h1>\n"
+#~ "                    <p>Here are 3 reasons why you should contact us: </"
+#~ "p>\n"
+#~ "                    <ol>\n"
+#~ "                        <li>we love to help our dubizzlers</li>\n"
+#~ "                        <li>it's more fun when we know who you are</li>\n"
+#~ "                        <li>we hired friendly staff whose job is to "
+#~ "respond to your queries (not browse the net all day)</li>\n"
+#~ "                    </ol>\n"
+#~ "                "
+#~ msgstr ""
+#~ "\n"
+#~ "<p>\n"
+#~ "Bonjour à tous, <br/>\n"
+#~ "Voici les 3 raisons pour les quelles vous pouriez nous contacter:\n"
+#~ "</p>\n"
+#~ "<ol>\n"
+#~ "<li>On aime aider nos dubizzleurs</li>\n"
+#~ "<li>C'est plus agreable de savoir qui vous etes</li>\n"
+#~ "<li>Nous avons embauché un personnel tres amical dont le travail consiste "
+#~ "à répondre à vos questions (pas naviguer sur le net toute la journée)</"
+#~ "li>\n"
+#~ "</ol>"
+
+#~ msgid "Subject: what's this about?"
+#~ msgstr "Sujet: De quoi s'agit-il?"
+
+#~ msgid "Your name (or nickname)"
+#~ msgstr "Votre nom (ou pseudo)"
+
+#~ msgid "Mobile number"
+#~ msgstr "Numéro de téléphone portable"
+
+#~ msgid "Email address (again)"
+#~ msgstr "Adresse email (de nouveau)"
+
+#~ msgid "City/Country"
+#~ msgstr "Ville / Pays"
+
+#~ msgid "Message: What's on your mind?"
+#~ msgstr "Message: A quoi pensez-vous?"
+
+#~ msgid ""
+#~ "\n"
+#~ "                <h3>Sweet!</h3>\n"
+#~ "                <p>A customer care dubizzler will handle your message "
+#~ "personally and will get back to you as soon as they have an answer...</"
+#~ "p>\n"
+#~ "                <p>In the meantime, if you want to contact us again, "
+#~ "we're more than happy to help.</p>\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "Chouette!<br />\n"
+#~ "Un dubizzleur du service clientèle traitera votre message personnellement "
+#~ "et reviendra vers vous dès qu'il aura une réponse ...  <br/>\n"
+#~ "\n"
+#~ "D'ici là, si vous souhaitez nous recontacter, nous sommes ravis de vous "
+#~ "aider.\n"
+#~ " "
 
 #~ msgid "Uploading photos, please wait..."
 #~ msgstr "Chargement de l'image en cours"
