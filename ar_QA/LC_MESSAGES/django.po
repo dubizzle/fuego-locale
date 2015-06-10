@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-03 14:04+0400\n"
+"POT-Creation-Date: 2015-06-10 15:25+0400\n"
 "PO-Revision-Date: 2014-08-05 14:41+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Qatari <http://translate.dubizzlecloud.com/projects/"
@@ -235,7 +235,7 @@ msgstr "يلا، جرب وبيع. "
 #: country_templates/shared_landing.html:137
 #: country_templates/shared_landing.html:142
 #: country_templates/qatar/public/landing.html:52
-#: country_templates/qatar/public/landing.html:57 templates/base.html:137
+#: country_templates/qatar/public/landing.html:57 templates/base.html:201
 #: templates/generic.html:96 templates/generic.html.py:103
 #: templates/buysell/index.html:65 templates/buysell/index.html.py:70
 #: templates/buysell/index.html:111 templates/buysell/index.html.py:116
@@ -364,96 +364,98 @@ msgstr "قيمة أكثر مما تتخيل"
 msgid "Click here to find out more"
 msgstr "اضغط هنا لتعرف المزيد."
 
-#: fuego/base_settings.py:560 search/search_utils.py:107
-#: templates/search/widget.html:27 templates/search/widget.html.py:44
+#: fuego/base_settings.py:577 fuego/management/commands/email_alerts.py:506
+#: fuego/management/commands/saved_search_alerts.py:505
+#: search/search_utils.py:107 templates/search/widget.html:27
+#: templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:626
+#: fuego/base_settings.py:643
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:659 fuego/base_settings.py:1147
+#: fuego/base_settings.py:676 fuego/base_settings.py:1164
 msgid "Spam"
 msgstr "إعلان مزعج"
 
-#: fuego/base_settings.py:660
+#: fuego/base_settings.py:677
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:661 fuego/base_settings.py:1142
+#: fuego/base_settings.py:678 fuego/base_settings.py:1159
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:662 fuego/base_settings.py:1144
+#: fuego/base_settings.py:679 fuego/base_settings.py:1161
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:663
+#: fuego/base_settings.py:680
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:664
+#: fuego/base_settings.py:681
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:665 fuego/base_settings.py:1145
+#: fuego/base_settings.py:682 fuego/base_settings.py:1162
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:666
+#: fuego/base_settings.py:683
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:667
+#: fuego/base_settings.py:684
 msgid "No Category"
 msgstr "القسم؟"
 
-#: fuego/base_settings.py:695
+#: fuego/base_settings.py:712
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في الفئة غير الصحيحة"
 
-#: fuego/base_settings.py:696
+#: fuego/base_settings.py:713
 msgid "Your ad is misleading"
 msgstr "مجانا 100%"
 
-#: fuego/base_settings.py:776
+#: fuego/base_settings.py:793
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:966
+#: fuego/base_settings.py:983
 msgid "Date: newest"
 msgstr "بحسب التاريخ: الأحدث"
 
-#: fuego/base_settings.py:967
+#: fuego/base_settings.py:984
 msgid "Date: oldest"
 msgstr "بحسب التاريخ: الأقدم"
 
-#: fuego/base_settings.py:971
+#: fuego/base_settings.py:988
 msgid "Price: highest"
 msgstr "بحسب السعر: الأعلى"
 
-#: fuego/base_settings.py:972
+#: fuego/base_settings.py:989
 msgid "Price: lowest"
 msgstr "بحسب السعر: الأدنى"
 
-#: fuego/base_settings.py:1131
+#: fuego/base_settings.py:1148
 msgid "#dubizzle"
 msgstr "#دوبيزل"
 
-#: fuego/base_settings.py:1137
+#: fuego/base_settings.py:1154
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:1139
+#: fuego/base_settings.py:1156
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:1143
+#: fuego/base_settings.py:1160
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:1146
+#: fuego/base_settings.py:1163
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
@@ -1709,307 +1711,307 @@ msgstr "قطر"
 msgid "QAR"
 msgstr "ريال قطري"
 
-#: fuego/qatar_settings.py:63 fuego/qatar_settings.py:440
+#: fuego/qatar_settings.py:63 fuego/qatar_settings.py:443
 msgid "Madinat Ash Shamal"
 msgstr "مدينة الشمال"
 
-#: fuego/qatar_settings.py:69 fuego/qatar_settings.py:445
+#: fuego/qatar_settings.py:69 fuego/qatar_settings.py:448
 msgid "Al Khawr"
 msgstr "الخور"
 
-#: fuego/qatar_settings.py:75 fuego/qatar_settings.py:450
+#: fuego/qatar_settings.py:75 fuego/qatar_settings.py:453
 msgid "Umm Salal"
 msgstr "أم صلال"
 
-#: fuego/qatar_settings.py:81 fuego/qatar_settings.py:455
+#: fuego/qatar_settings.py:81 fuego/qatar_settings.py:458
 msgid "Al Daayen"
 msgstr "الضعاين"
 
-#: fuego/qatar_settings.py:87 fuego/qatar_settings.py:460
+#: fuego/qatar_settings.py:87 fuego/qatar_settings.py:463
 msgid "Ar Rayyan"
 msgstr "الريان"
 
-#: fuego/qatar_settings.py:93 fuego/qatar_settings.py:465
+#: fuego/qatar_settings.py:93 fuego/qatar_settings.py:468
 msgid "Al Wakrah"
 msgstr "الوكرة"
 
-#: fuego/qatar_settings.py:105
+#: fuego/qatar_settings.py:108
 msgid "West Bay"
 msgstr "الخليج الغربي"
 
-#: fuego/qatar_settings.py:110
+#: fuego/qatar_settings.py:113
 msgid "Madinat Khalifa"
 msgstr "مدينة خليفة"
 
-#: fuego/qatar_settings.py:115
+#: fuego/qatar_settings.py:118
 msgid "Fereej Bin Mahmoud"
 msgstr "فريج بن محمود"
 
-#: fuego/qatar_settings.py:120
+#: fuego/qatar_settings.py:123
 msgid "Wadi Al Sail"
 msgstr "وادي السيل"
 
-#: fuego/qatar_settings.py:125
+#: fuego/qatar_settings.py:128
 msgid "Al Salata"
 msgstr "السلطة"
 
-#: fuego/qatar_settings.py:130
+#: fuego/qatar_settings.py:133
 msgid "Al Souq"
 msgstr "السوق"
 
-#: fuego/qatar_settings.py:135
+#: fuego/qatar_settings.py:138
 msgid "Al Hitmi"
 msgstr "الهتمي"
 
-#: fuego/qatar_settings.py:140
+#: fuego/qatar_settings.py:143
 msgid "Al Jasra"
 msgstr "الجسرة"
 
-#: fuego/qatar_settings.py:145
+#: fuego/qatar_settings.py:148
 msgid "Al Najada"
 msgstr "النجادة"
 
-#: fuego/qatar_settings.py:150
+#: fuego/qatar_settings.py:153
 msgid "Doha Port"
 msgstr "ميناء دوحة"
 
-#: fuego/qatar_settings.py:155
+#: fuego/qatar_settings.py:158
 msgid "Al Hilal"
 msgstr "الهلال"
 
-#: fuego/qatar_settings.py:160
+#: fuego/qatar_settings.py:163
 msgid "Old Airport"
 msgstr "المطار القديم"
 
-#: fuego/qatar_settings.py:165
+#: fuego/qatar_settings.py:168
 msgid "Nuaija"
 msgstr "النعيجة"
 
-#: fuego/qatar_settings.py:170
+#: fuego/qatar_settings.py:173
 msgid "Fereej Al Ali"
 msgstr "فريج العلي"
 
-#: fuego/qatar_settings.py:175
+#: fuego/qatar_settings.py:178
 msgid "New Slata"
 msgstr "السلطة الجديدة"
 
-#: fuego/qatar_settings.py:180
+#: fuego/qatar_settings.py:183
 msgid "Al Asiri"
 msgstr "العسيري"
 
-#: fuego/qatar_settings.py:185
+#: fuego/qatar_settings.py:188
 msgid "Al Nasr"
 msgstr "النصر"
 
-#: fuego/qatar_settings.py:190
+#: fuego/qatar_settings.py:193
 msgid "Al Mirqab Al Jadeed"
 msgstr "المرقاب الجديد"
 
-#: fuego/qatar_settings.py:195
+#: fuego/qatar_settings.py:198
 msgid "Hamad Medical City"
 msgstr "مدينة حمد الطبية"
 
-#: fuego/qatar_settings.py:200
+#: fuego/qatar_settings.py:203
 msgid "Al Sadd"
 msgstr "السد"
 
-#: fuego/qatar_settings.py:205
+#: fuego/qatar_settings.py:208
 msgid "Al Rumaila West"
 msgstr "الرميلة -غرب"
 
-#: fuego/qatar_settings.py:210
+#: fuego/qatar_settings.py:213
 msgid "Al Rumaila East"
 msgstr "الرميلة -شرق"
 
-#: fuego/qatar_settings.py:215
+#: fuego/qatar_settings.py:218
 msgid "Al Bida"
 msgstr "البدا"
 
-#: fuego/qatar_settings.py:220
+#: fuego/qatar_settings.py:223
 msgid "Al Dafna"
 msgstr "الدفنة"
 
-#: fuego/qatar_settings.py:225
+#: fuego/qatar_settings.py:228
 msgid "Al khuwair"
 msgstr "الخوير"
 
-#: fuego/qatar_settings.py:230
+#: fuego/qatar_settings.py:233
 msgid "Onaiza"
 msgstr "عنيزة"
 
-#: fuego/qatar_settings.py:235
+#: fuego/qatar_settings.py:238
 msgid "Al Corniche"
 msgstr "الكورنيش"
 
-#: fuego/qatar_settings.py:240
+#: fuego/qatar_settings.py:243
 msgid "Diplomatic Area"
 msgstr "المنطقة الدبلوماسية"
 
-#: fuego/qatar_settings.py:245
+#: fuego/qatar_settings.py:248
 msgid "Onaiza 65"
 msgstr "عنيزة 65"
 
-#: fuego/qatar_settings.py:250
+#: fuego/qatar_settings.py:253
 msgid "Onaiza 63"
 msgstr "عنيزة 63"
 
-#: fuego/qatar_settings.py:255
+#: fuego/qatar_settings.py:258
 msgid "The Pearl-Qatar"
 msgstr "الؤلؤة -قطر"
 
-#: fuego/qatar_settings.py:260
+#: fuego/qatar_settings.py:263
 msgid "Al Tarfa"
 msgstr "الطرفة"
 
-#: fuego/qatar_settings.py:265
+#: fuego/qatar_settings.py:268
 msgid "Jeryan Nejaima"
 msgstr "جريان نجيمة"
 
-#: fuego/qatar_settings.py:270
+#: fuego/qatar_settings.py:273
 msgid "Jelaiah"
 msgstr "جلية"
 
-#: fuego/qatar_settings.py:275
+#: fuego/qatar_settings.py:278
 msgid "Al Markhiya"
 msgstr "المرخية"
 
-#: fuego/qatar_settings.py:280
+#: fuego/qatar_settings.py:283
 msgid "Al Duhail"
 msgstr "الدحيل"
 
-#: fuego/qatar_settings.py:285
+#: fuego/qatar_settings.py:288
 msgid "Fereej Kulaib"
 msgstr "فريج كليب"
 
-#: fuego/qatar_settings.py:290
+#: fuego/qatar_settings.py:293
 msgid "Fereej Bin Omran"
 msgstr "فريج بن عمران"
 
-#: fuego/qatar_settings.py:295
+#: fuego/qatar_settings.py:298
 msgid "Al Messila"
 msgstr "المسيلة"
 
-#: fuego/qatar_settings.py:300
+#: fuego/qatar_settings.py:303
 msgid "Fereej Al Amir"
 msgstr "فريج الأمير"
 
-#: fuego/qatar_settings.py:305
+#: fuego/qatar_settings.py:308
 msgid "Al Soudan"
 msgstr "السودان"
 
-#: fuego/qatar_settings.py:310
+#: fuego/qatar_settings.py:313
 msgid "Al Mansoura"
 msgstr "المنصورة"
 
-#: fuego/qatar_settings.py:315
+#: fuego/qatar_settings.py:318
 msgid "Najma"
 msgstr "نجمة"
 
-#: fuego/qatar_settings.py:320
+#: fuego/qatar_settings.py:323
 msgid "Al Muntazah"
 msgstr "المنتزه"
 
-#: fuego/qatar_settings.py:325
+#: fuego/qatar_settings.py:328
 msgid "Musherib"
 msgstr "المشيرب"
 
-#: fuego/qatar_settings.py:330
+#: fuego/qatar_settings.py:333
 msgid "Fereej Abdul Aziz"
 msgstr "فريج عبدالعزيز"
 
-#: fuego/qatar_settings.py:335
+#: fuego/qatar_settings.py:338
 msgid "Al Doha Al Jadeeda"
 msgstr "الدوحة الجديدة"
 
-#: fuego/qatar_settings.py:340
+#: fuego/qatar_settings.py:343
 msgid "Al Ghanim"
 msgstr "الغانم"
 
-#: fuego/qatar_settings.py:345
+#: fuego/qatar_settings.py:348
 msgid "Umm Ghuwailina"
 msgstr "ام غويلينه"
 
-#: fuego/qatar_settings.py:350
+#: fuego/qatar_settings.py:353
 msgid "Al Khulaifat"
 msgstr "الخليفات"
 
-#: fuego/qatar_settings.py:355
+#: fuego/qatar_settings.py:358
 msgid "Doha Airport"
 msgstr "مطار الدوحة"
 
-#: fuego/qatar_settings.py:360
+#: fuego/qatar_settings.py:363
 msgid "Ras Abu Abboud"
 msgstr "راس أبو عبود"
 
-#: fuego/qatar_settings.py:365
+#: fuego/qatar_settings.py:368
 msgid "Al Thumama"
 msgstr "الثمامة"
 
-#: fuego/qatar_settings.py:370
+#: fuego/qatar_settings.py:373
 msgid "The Heart Of Doha"
 msgstr "قلب الدوحة"
 
-#: fuego/qatar_settings.py:375
+#: fuego/qatar_settings.py:378
 msgid "Emiri Diwan"
 msgstr "الديوان الأميري"
 
-#: fuego/qatar_settings.py:380
+#: fuego/qatar_settings.py:383
 msgid "Al Khalifa Al Jadeeda"
 msgstr "الخليفة الجديدة"
 
-#: fuego/qatar_settings.py:385
+#: fuego/qatar_settings.py:388
 msgid "Al Maamoura"
 msgstr "المعمورة"
 
-#: fuego/qatar_settings.py:390
+#: fuego/qatar_settings.py:393
 msgid "Ain Khaled"
 msgstr "عين خالد"
 
-#: fuego/qatar_settings.py:395
+#: fuego/qatar_settings.py:398
 msgid "Al Gharrafa"
 msgstr "الغرافة"
 
-#: fuego/qatar_settings.py:400
+#: fuego/qatar_settings.py:403
 msgid "Al Jebailat"
 msgstr "الجبيلات"
 
-#: fuego/qatar_settings.py:405
+#: fuego/qatar_settings.py:408
 msgid "Al Luqta"
 msgstr "اللقطة"
 
-#: fuego/qatar_settings.py:410
+#: fuego/qatar_settings.py:413
 msgid "Al Qassar"
 msgstr "القصار"
 
-#: fuego/qatar_settings.py:415
+#: fuego/qatar_settings.py:418
 msgid "Al Qutaifiya"
 msgstr "القطيفة"
 
-#: fuego/qatar_settings.py:420
+#: fuego/qatar_settings.py:423
 msgid "Industrial Area"
 msgstr "المدينة الصناعية"
 
-#: fuego/qatar_settings.py:425
+#: fuego/qatar_settings.py:428
 msgid "Al Wajba"
 msgstr "الوجبة"
 
-#: fuego/qatar_settings.py:430
+#: fuego/qatar_settings.py:433
 msgid "Rawdat Al Khail"
 msgstr "روضة الخيل"
 
-#: fuego/qatar_settings.py:435
+#: fuego/qatar_settings.py:438
 msgid "Umm Lekhba"
 msgstr "أم لخبا"
 
-#: fuego/qatar_settings.py:484 utils/prettify_filters.py:95
+#: fuego/qatar_settings.py:487 utils/prettify_filters.py:95
 msgid "English"
 msgstr ""
 
-#: fuego/qatar_settings.py:485 utils/prettify_filters.py:95
+#: fuego/qatar_settings.py:488 utils/prettify_filters.py:95
 msgid "Arabic"
 msgstr "عربي"
 
-#: fuego/qatar_settings.py:495
+#: fuego/qatar_settings.py:498
 msgid ""
 "Jobs in Qatar, Property & Real Estate For Sale & Rent, Cars for Sale - Free "
 "Classifieds in Qatar | dubizzle Qatar"
@@ -2017,7 +2019,7 @@ msgstr ""
 "وظائف في قطر، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في قطر | "
 "دوبيزل قطر"
 
-#: fuego/qatar_settings.py:499
+#: fuego/qatar_settings.py:502
 msgid ""
 "dubizzle is your free and friendly local classifieds website in Qatar. Jobs, "
 "property, real estate, cars and classifieds in Qatar. Post an ad, browse "
@@ -2027,7 +2029,7 @@ msgstr ""
 "وظائف، عقارات، سيارات و اعلانات مبوبة في قطر. اضف اعلان، تصفح اعلانات، بيع "
 "واشتري وأجر."
 
-#: fuego/qatar_settings.py:504
+#: fuego/qatar_settings.py:507
 msgid ""
 "dubizzle Qatar, free classifieds, online classifieds, Qatar classifieds, "
 "free classifieds in Qatar"
@@ -2094,11 +2096,6 @@ msgstr ""
 #: fuego/forms/fields.py:143
 msgid "Lists too large."
 msgstr ""
-
-#: fuego/management/commands/email_alerts.py:506
-#, fuzzy
-msgid "All of Dubizzle"
-msgstr "الموقع بالكامل"
 
 #: listings/formatters.py:31 listings/forms.py:407
 #: templates/email_alerts/email_alerts_ar.html:77
@@ -2572,12 +2569,36 @@ msgstr ""
 msgid "Website under maintenance (500)"
 msgstr "الموقع تحت الصيانة"
 
-#: templates/base.html:129
+#: templates/base.html:148
+msgid "Ramadan Kareem"
+msgstr "رمضان كريم"
+
+#: templates/base.html:152
+msgid "Ramadan"
+msgstr "رمضان"
+
+#: templates/base.html:153
+msgid "Iftar"
+msgstr "افطار"
+
+#: templates/base.html:153
+msgid "pm"
+msgstr "مساء"
+
+#: templates/base.html:154
+msgid "Imsak"
+msgstr "امساك"
+
+#: templates/base.html:154
+msgid "am"
+msgstr "صباحا"
+
+#: templates/base.html:193
 msgid "Menu"
 msgstr "القائمة"
 
 # not too clear
-#: templates/base.html:144 templates/buysell/index.html:48
+#: templates/base.html:208 templates/buysell/index.html:48
 msgid "My account"
 msgstr "الحساب"
 
@@ -4870,6 +4891,10 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
+
+#, fuzzy
+#~ msgid "All of Dubizzle"
+#~ msgstr "الموقع بالكامل"
 
 #~ msgid "Enter a subject please"
 #~ msgstr "نوع الاستفسار"
