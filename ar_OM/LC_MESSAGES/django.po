@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-03 14:04+0400\n"
+"POT-Creation-Date: 2015-06-10 15:25+0400\n"
 "PO-Revision-Date: 2014-08-05 14:30+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Omani <http://translate.dubizzlecloud.com/projects/"
@@ -235,7 +235,7 @@ msgstr "يلا، جرب وبيع."
 #: country_templates/shared_landing.html:137
 #: country_templates/shared_landing.html:142
 #: country_templates/oman/public/landing.html:52
-#: country_templates/oman/public/landing.html:57 templates/base.html:137
+#: country_templates/oman/public/landing.html:57 templates/base.html:201
 #: templates/generic.html:96 templates/generic.html.py:103
 #: templates/buysell/index.html:65 templates/buysell/index.html.py:70
 #: templates/buysell/index.html:111 templates/buysell/index.html.py:116
@@ -261,7 +261,7 @@ msgid "Al Batinah"
 msgstr "الباطنة"
 
 #: country_templates/oman/public/_map.html:211 fuego/oman_settings.py:96
-#: fuego/oman_settings.py:413
+#: fuego/oman_settings.py:416
 msgid "Muscat"
 msgstr "مسقط"
 
@@ -274,7 +274,7 @@ msgid "Musandam"
 msgstr "مسندم"
 
 #: country_templates/oman/public/_map.html:348 fuego/oman_settings.py:54
-#: fuego/oman_settings.py:176
+#: fuego/oman_settings.py:179
 msgid "Al Buraimi"
 msgstr "البريمي"
 
@@ -393,96 +393,98 @@ msgstr "قيمة أكثر مما تتخيل"
 msgid "Click here to find out more"
 msgstr "اضغط هنا لتعرف المزيد."
 
-#: fuego/base_settings.py:560 search/search_utils.py:107
-#: templates/search/widget.html:27 templates/search/widget.html.py:44
+#: fuego/base_settings.py:577 fuego/management/commands/email_alerts.py:506
+#: fuego/management/commands/saved_search_alerts.py:505
+#: search/search_utils.py:107 templates/search/widget.html:27
+#: templates/search/widget.html.py:44
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:626
+#: fuego/base_settings.py:643
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:659 fuego/base_settings.py:1147
+#: fuego/base_settings.py:676 fuego/base_settings.py:1164
 msgid "Spam"
 msgstr "إعلان مزعج"
 
-#: fuego/base_settings.py:660
+#: fuego/base_settings.py:677
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:661 fuego/base_settings.py:1142
+#: fuego/base_settings.py:678 fuego/base_settings.py:1159
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:662 fuego/base_settings.py:1144
+#: fuego/base_settings.py:679 fuego/base_settings.py:1161
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:663
+#: fuego/base_settings.py:680
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:664
+#: fuego/base_settings.py:681
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:665 fuego/base_settings.py:1145
+#: fuego/base_settings.py:682 fuego/base_settings.py:1162
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:666
+#: fuego/base_settings.py:683
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:667
+#: fuego/base_settings.py:684
 msgid "No Category"
 msgstr "القسم؟"
 
-#: fuego/base_settings.py:695
+#: fuego/base_settings.py:712
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في الفئة غير الصحيحة"
 
-#: fuego/base_settings.py:696
+#: fuego/base_settings.py:713
 msgid "Your ad is misleading"
 msgstr "مجانا 100%"
 
-#: fuego/base_settings.py:776
+#: fuego/base_settings.py:793
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:966
+#: fuego/base_settings.py:983
 msgid "Date: newest"
 msgstr "بحسب التاريخ: الأحدث"
 
-#: fuego/base_settings.py:967
+#: fuego/base_settings.py:984
 msgid "Date: oldest"
 msgstr "بحسب التاريخ: الأقدم"
 
-#: fuego/base_settings.py:971
+#: fuego/base_settings.py:988
 msgid "Price: highest"
 msgstr "بحسب السعر: الأعلى"
 
-#: fuego/base_settings.py:972
+#: fuego/base_settings.py:989
 msgid "Price: lowest"
 msgstr "بحسب السعر: الأدنى"
 
-#: fuego/base_settings.py:1131
+#: fuego/base_settings.py:1148
 msgid "#dubizzle"
 msgstr "#دوبيزل"
 
-#: fuego/base_settings.py:1137
+#: fuego/base_settings.py:1154
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:1139
+#: fuego/base_settings.py:1156
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:1143
+#: fuego/base_settings.py:1160
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:1146
+#: fuego/base_settings.py:1163
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
@@ -1739,247 +1741,247 @@ msgstr "عمان"
 msgid "OMR"
 msgstr "ريال عماني"
 
-#: fuego/oman_settings.py:110
+#: fuego/oman_settings.py:113
 msgid "Sohar"
 msgstr "صحار"
 
-#: fuego/oman_settings.py:115
+#: fuego/oman_settings.py:118
 msgid "Shinas"
 msgstr "شناص"
 
-#: fuego/oman_settings.py:120
+#: fuego/oman_settings.py:123
 msgid "Liwa"
 msgstr "لوى"
 
-#: fuego/oman_settings.py:125
+#: fuego/oman_settings.py:128
 msgid "Saham"
 msgstr "صحم"
 
-#: fuego/oman_settings.py:130
+#: fuego/oman_settings.py:133
 msgid "Al Khaboura"
 msgstr "الخابورة"
 
-#: fuego/oman_settings.py:135
+#: fuego/oman_settings.py:138
 msgid "Suwaiq"
 msgstr "السويق"
 
-#: fuego/oman_settings.py:140
+#: fuego/oman_settings.py:143
 msgid "Al Rustaq"
 msgstr "الرستاق"
 
-#: fuego/oman_settings.py:145
+#: fuego/oman_settings.py:148
 msgid "Al 'Awabi"
 msgstr "العوابي"
 
-#: fuego/oman_settings.py:150
+#: fuego/oman_settings.py:153
 msgid "Nakhl"
 msgstr "نخل"
 
-#: fuego/oman_settings.py:155
+#: fuego/oman_settings.py:158
 msgid "Wadi Al Ma'awal"
 msgstr "وادي المعاول"
 
-#: fuego/oman_settings.py:160
+#: fuego/oman_settings.py:163
 msgid "Barka"
 msgstr "بركاء"
 
-#: fuego/oman_settings.py:165
+#: fuego/oman_settings.py:168
 msgid "Al Masn'a"
 msgstr "المصنعة"
 
-#: fuego/oman_settings.py:171
+#: fuego/oman_settings.py:174
 msgid "Al Sinainah"
 msgstr "السنينة"
 
-#: fuego/oman_settings.py:181
+#: fuego/oman_settings.py:184
 msgid "Mahdhah"
 msgstr "محضة"
 
-#: fuego/oman_settings.py:187
+#: fuego/oman_settings.py:190
 msgid "Adam"
 msgstr "أدم"
 
-#: fuego/oman_settings.py:192
+#: fuego/oman_settings.py:195
 msgid "Nizwa"
 msgstr "نزوى"
 
-#: fuego/oman_settings.py:197
+#: fuego/oman_settings.py:200
 msgid "Bahla"
 msgstr "بهلاء"
 
-#: fuego/oman_settings.py:202
+#: fuego/oman_settings.py:205
 msgid "Manah"
 msgstr "منح"
 
-#: fuego/oman_settings.py:207
+#: fuego/oman_settings.py:210
 msgid "Hamra"
 msgstr "الحمراء"
 
-#: fuego/oman_settings.py:212
+#: fuego/oman_settings.py:215
 msgid "Izki"
 msgstr "ازكي"
 
-#: fuego/oman_settings.py:217
+#: fuego/oman_settings.py:220
 msgid "Sumail"
 msgstr "سمائل"
 
-#: fuego/oman_settings.py:222
+#: fuego/oman_settings.py:225
 msgid "Bidbid"
 msgstr "بدبد"
 
-#: fuego/oman_settings.py:228
+#: fuego/oman_settings.py:231
 msgid "Haima"
 msgstr "هيما"
 
-#: fuego/oman_settings.py:233
+#: fuego/oman_settings.py:236
 msgid "Mahut"
 msgstr "محوت"
 
-#: fuego/oman_settings.py:238
+#: fuego/oman_settings.py:241
 msgid "Al Duqum"
 msgstr "الدقم"
 
-#: fuego/oman_settings.py:243
+#: fuego/oman_settings.py:246
 msgid "Al Jazur"
 msgstr "الجازر"
 
-#: fuego/oman_settings.py:249
+#: fuego/oman_settings.py:252
 msgid "Ibri"
 msgstr "عبري"
 
-#: fuego/oman_settings.py:254
+#: fuego/oman_settings.py:257
 msgid "Yunqul"
 msgstr "ينقل"
 
-#: fuego/oman_settings.py:259
+#: fuego/oman_settings.py:262
 msgid "Dhank"
 msgstr "ضنك"
 
-#: fuego/oman_settings.py:265
+#: fuego/oman_settings.py:268
 msgid "Sur"
 msgstr "صور"
 
-#: fuego/oman_settings.py:270
+#: fuego/oman_settings.py:273
 msgid "Al Kamil and Al Waafi"
 msgstr "الكامل و الوافي"
 
-#: fuego/oman_settings.py:275
+#: fuego/oman_settings.py:278
 msgid "Ja'alan Bani Bu Ali"
 msgstr "جعلان بني بو علي"
 
-#: fuego/oman_settings.py:280
+#: fuego/oman_settings.py:283
 msgid "Masira"
 msgstr "مصيرة"
 
-#: fuego/oman_settings.py:285
+#: fuego/oman_settings.py:288
 msgid "Ibra"
 msgstr "إبراء"
 
-#: fuego/oman_settings.py:290
+#: fuego/oman_settings.py:293
 msgid "Al Mudaibi"
 msgstr "المضيبي"
 
-#: fuego/oman_settings.py:295
+#: fuego/oman_settings.py:298
 msgid "Bidiya"
 msgstr "بدية"
 
-#: fuego/oman_settings.py:300
+#: fuego/oman_settings.py:303
 msgid "Al Qabil"
 msgstr "القابل"
 
-#: fuego/oman_settings.py:305
+#: fuego/oman_settings.py:308
 msgid "Wadi Bani Khalid"
 msgstr "وادي بني خالد"
 
-#: fuego/oman_settings.py:310
+#: fuego/oman_settings.py:313
 msgid "Dima and Al Taaiyin"
 msgstr "دماء و الطائيين"
 
-#: fuego/oman_settings.py:316
+#: fuego/oman_settings.py:319
 msgid "Khasab"
 msgstr "خصب"
 
-#: fuego/oman_settings.py:321
+#: fuego/oman_settings.py:324
 msgid "Dibba"
 msgstr "دبا"
 
-#: fuego/oman_settings.py:326
+#: fuego/oman_settings.py:329
 msgid "Bukha"
 msgstr "بخا"
 
-#: fuego/oman_settings.py:331
+#: fuego/oman_settings.py:334
 msgid "Madha"
 msgstr "مدحاء"
 
-#: fuego/oman_settings.py:337
+#: fuego/oman_settings.py:340
 msgid "Al Mazyona"
 msgstr "المزيونة"
 
-#: fuego/oman_settings.py:342
+#: fuego/oman_settings.py:345
 msgid "Dhalkut"
 msgstr "ضلكوت"
 
-#: fuego/oman_settings.py:347
+#: fuego/oman_settings.py:350
 msgid "Mirbat"
 msgstr "مرباط"
 
-#: fuego/oman_settings.py:352
+#: fuego/oman_settings.py:355
 msgid "Muqshin"
 msgstr "مقشن"
 
-#: fuego/oman_settings.py:357
+#: fuego/oman_settings.py:360
 msgid "Rakhyut"
 msgstr "رخيوت"
 
-#: fuego/oman_settings.py:362
+#: fuego/oman_settings.py:365
 msgid "Sadah"
 msgstr "سدح"
 
-#: fuego/oman_settings.py:367
+#: fuego/oman_settings.py:370
 msgid "Salalah"
 msgstr "صلالة"
 
-#: fuego/oman_settings.py:372
+#: fuego/oman_settings.py:375
 msgid "Shalim and The Hallaniyat Island"
 msgstr "شليم وجزر الحلانيات"
 
-#: fuego/oman_settings.py:377
+#: fuego/oman_settings.py:380
 msgid "Taqah"
 msgstr "طاقة"
 
-#: fuego/oman_settings.py:382
+#: fuego/oman_settings.py:385
 msgid "Thumrait"
 msgstr "ثمريت"
 
-#: fuego/oman_settings.py:388
+#: fuego/oman_settings.py:391
 msgid "Al Amrat"
 msgstr "العامرات"
 
-#: fuego/oman_settings.py:393
+#: fuego/oman_settings.py:396
 msgid "Bawshar"
 msgstr "بوشر"
 
-#: fuego/oman_settings.py:398
+#: fuego/oman_settings.py:401
 msgid "Muttrah"
 msgstr "مطرح"
 
-#: fuego/oman_settings.py:403
+#: fuego/oman_settings.py:406
 msgid "Al Seeb"
 msgstr "السيب"
 
-#: fuego/oman_settings.py:408
+#: fuego/oman_settings.py:411
 msgid "Qurayyat"
 msgstr "قريات"
 
-#: fuego/oman_settings.py:458 utils/prettify_filters.py:95
+#: fuego/oman_settings.py:461 utils/prettify_filters.py:95
 msgid "English"
 msgstr ""
 
-#: fuego/oman_settings.py:459 utils/prettify_filters.py:95
+#: fuego/oman_settings.py:462 utils/prettify_filters.py:95
 msgid "Arabic"
 msgstr "عربي"
 
-#: fuego/oman_settings.py:469
+#: fuego/oman_settings.py:472
 msgid ""
 "Jobs in Oman, Property & Real Estate For Sale & Rent, Cars for Sale - Free "
 "Classifieds in Oman | dubizzle Oman"
@@ -1987,7 +1989,7 @@ msgstr ""
 "وظائف في عمان، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في عمان | "
 "دوبيزل عمان"
 
-#: fuego/oman_settings.py:473
+#: fuego/oman_settings.py:476
 msgid ""
 "dubizzle is your free and friendly local classifieds website in Oman. Jobs, "
 "property, real estate, cars and classifieds in Oman. Post an ad, browse ads, "
@@ -1997,7 +1999,7 @@ msgstr ""
 "والبساطة. وظائف، عقارات، سيارات و اعلانات مبوبة في عمان. اضف اعلان، تصفح "
 "اعلانات، بيع واشتري وأجر."
 
-#: fuego/oman_settings.py:478
+#: fuego/oman_settings.py:481
 msgid ""
 "dubizzle Oman, free classifieds, online classifieds, Oman classifieds, free "
 "classifieds in Oman"
@@ -2064,11 +2066,6 @@ msgstr ""
 #: fuego/forms/fields.py:143
 msgid "Lists too large."
 msgstr ""
-
-#: fuego/management/commands/email_alerts.py:506
-#, fuzzy
-msgid "All of Dubizzle"
-msgstr "الموقع بالكامل"
 
 #: listings/formatters.py:31 listings/forms.py:407
 #: templates/email_alerts/email_alerts_ar.html:77
@@ -2542,12 +2539,36 @@ msgstr ""
 msgid "Website under maintenance (500)"
 msgstr "الموقع تحت الصيانة"
 
-#: templates/base.html:129
+#: templates/base.html:148
+msgid "Ramadan Kareem"
+msgstr "رمضان كريم"
+
+#: templates/base.html:152
+msgid "Ramadan"
+msgstr "رمضان"
+
+#: templates/base.html:153
+msgid "Iftar"
+msgstr "افطار"
+
+#: templates/base.html:153
+msgid "pm"
+msgstr "مساء"
+
+#: templates/base.html:154
+msgid "Imsak"
+msgstr "امساك"
+
+#: templates/base.html:154
+msgid "am"
+msgstr "صباحا"
+
+#: templates/base.html:193
 msgid "Menu"
 msgstr "القائمة"
 
 # not too clear
-#: templates/base.html:144 templates/buysell/index.html:48
+#: templates/base.html:208 templates/buysell/index.html:48
 msgid "My account"
 msgstr "الحساب"
 
@@ -4838,6 +4859,10 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
+
+#, fuzzy
+#~ msgid "All of Dubizzle"
+#~ msgstr "الموقع بالكامل"
 
 #~ msgid "Enter a subject please"
 #~ msgstr "نوع الاستفسار"
