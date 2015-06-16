@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-15 10:41+0400\n"
+"POT-Creation-Date: 2015-06-16 15:16+0400\n"
 "PO-Revision-Date: 2014-08-05 14:25+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Lebanese <http://translate.dubizzlecloud.com/"
@@ -142,8 +142,7 @@ msgstr "من فضلك اكتب الحروف بشكل صحيح"
 
 #: fuego/base_settings.py:579 fuego/management/commands/email_alerts.py:506
 #: fuego/management/commands/saved_search_alerts.py:505
-#: search/search_utils.py:107 templates/search/widget.html:27
-#: templates/search/widget.html.py:44
+#: search/search_utils.py:107
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
@@ -673,14 +672,13 @@ msgstr ""
 "دوبيزل  لبنان، مبوبة مجانيه، اعلانات مبوبة عبر الإنترنت، مبوبة  لبنان، "
 "اعلانات مبوبة مجانيه في لبنان"
 
-#: fuego/meta_settings.py:62
+#: fuego/meta_settings.py:62 fuego/meta_settings.py:68
+#: fuego/meta_settings.py:74 fuego/meta_settings.py:80
+#: fuego/meta_settings.py:86 fuego/meta_settings.py:92
+#: fuego/meta_settings.py:98
 #, python-format
-msgid ""
-"%(ad_title)s - Car Parts & Accessories in %(neighbourhood)s %(city)s | "
-"dubizzle %(country)s"
-msgstr ""
-"%(ad_title)s - زينة و قطع سيارات في %(neighbourhood)s %(city)s | دوبيزل "
-"%(country)s"
+msgid "%(ad_title)s | dubizzle OLX %(country)s"
+msgstr "%(ad_title)s | دوبيزل اوليكس %(country)s"
 
 #: fuego/meta_settings.py:63 fuego/meta_settings.py:69
 #: fuego/meta_settings.py:75 fuego/meta_settings.py:81
@@ -695,15 +693,6 @@ msgstr "%(ad_description)s"
 msgid "%(ad_title)s, car accessories, cars for sale in %(full_location)s"
 msgstr "%(ad_title)s, زينة سيارات, سيارات للبيع في %(full_location)s"
 
-#: fuego/meta_settings.py:68
-#, python-format
-msgid ""
-"%(ad_title)s - %(category_leaf)s Cars in %(neighbourhood)s %(city)s | "
-"dubizzle %(country)s"
-msgstr ""
-"%(ad_title)s - %(category_leaf)s سيارات في %(neighbourhood)s %(city)s | "
-"دوبيزل %(country)s"
-
 #: fuego/meta_settings.py:70
 #, python-format
 msgid ""
@@ -713,11 +702,6 @@ msgstr ""
 "%(ad_title)s, %(category_leaf)s سيارات للبيع في %(city)s, سيارات للبيع "
 "%(country)s"
 
-#: fuego/meta_settings.py:74
-#, python-format
-msgid "%(ad_title)s - %(category_leaf)s Jobs | dubizzle %(country)s"
-msgstr "%(ad_title)s - %(category_leaf)s وظائف شاغرة | دوبيزل %(country)s"
-
 #: fuego/meta_settings.py:76
 #, python-format
 msgid ""
@@ -725,11 +709,6 @@ msgid ""
 msgstr ""
 "%(ad_title)s, %(category_leaf)s وظائف شاغرة, %(category_leaf)s وظائف شاغرة "
 "في %(city)s"
-
-#: fuego/meta_settings.py:80
-#, python-format
-msgid "%(ad_title)s - %(category_leaf)s Jobs Wanted | dubizzle %(country)s"
-msgstr "%(ad_title)s - %(category_leaf)s مطلوب للعمل | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:82
 #, python-format
@@ -739,12 +718,6 @@ msgid ""
 msgstr ""
 "%(ad_title)s, أضف اعلانات وظائف %(category_leaf)s أضف اعلانات وظائف "
 "%(category_leaf)s في %(city)s"
-
-#: fuego/meta_settings.py:86 fuego/meta_settings.py:92
-#: fuego/meta_settings.py:98
-#, python-format
-msgid "%(ad_title)s - %(category_leaf)s | dubizzle %(country)s"
-msgstr "%(ad_title)s - %(category_leaf)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:88
 #, python-format
@@ -774,10 +747,10 @@ msgstr ""
 "%(country)s"
 
 #: fuego/meta_settings.py:108
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Second Hand Vehicles & Used Cars for Sale in %(full_location)s | dubizzle "
-"%(country)s"
+"OLX %(country)s"
 msgstr "سيارات مستعملة للبيع في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:109
@@ -799,10 +772,10 @@ msgstr ""
 "للبيع"
 
 #: fuego/meta_settings.py:114
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Buy & Sell Car Accessories & Auto Parts in %(city_or_country)s | dubizzle "
-"%(country)s"
+"OLX %(country)s"
 msgstr ""
 "بيع وشراء زينة و قطع سيارات في %(city_or_country)s | دوبيزل %(country)s"
 
@@ -823,9 +796,10 @@ msgid ""
 msgstr "زينة وقطع سيارات في %(city_or_country)s"
 
 #: fuego/meta_settings.py:120
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"%(category_leaf)s Cars for Sale in %(full_location)s | dubizzle %(country)s"
+"%(category_leaf)s Cars for Sale in %(full_location)s | dubizzle OLX "
+"%(country)s"
 msgstr ""
 "%(category_leaf)s سيارات للبيع في %(full_location)s | دوبيزل %(country)s"
 
@@ -848,15 +822,16 @@ msgstr ""
 "%(category_leaf)s للبيع في %(city_or_country)s"
 
 #: fuego/meta_settings.py:126
-#, python-format
-msgid "Careers & Jobs in %(full_location)s | dubizzle %(country)s"
+#, fuzzy, python-format
+msgid "Careers & Jobs in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "وظائف شاغرة في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:127
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Looking for vacancies and jobs in %(city_or_country)s? Search for job "
-"vacancies updated regularly with dubizzle %(country)s. Send your CV for FREE."
+"vacancies updated regularly with dubizzle OLX %(country)s. Send your CV for "
+"FREE."
 msgstr ""
 "هل تبحث عن وظيفة شاغرة في %(city_or_country)s؟ أبحث عن الوظائف الخالية أولاً "
 "بأول على دوبيزل %(country)s وارسل سيرتك الذاتية مجاناً."
@@ -871,8 +846,8 @@ msgstr ""
 "%(city_or_country)s، فرص عمل "
 
 #: fuego/meta_settings.py:132
-#, python-format
-msgid "%(category_leaf)s Jobs in %(full_location)s | dubizzle %(country)s"
+#, fuzzy, python-format
+msgid "%(category_leaf)s Jobs in %(full_location)s | dubizzle OLX %(country)s"
 msgstr ""
 "وظائف %(category_leaf)s شاغرة في %(full_location)s | دوبيزل %(country)s"
 
@@ -898,15 +873,15 @@ msgstr ""
 "خالية، توظيف %(category_leaf)s"
 
 #: fuego/meta_settings.py:138
-#, python-format
-msgid "Wanted - Careers & Jobs in %(full_location)s | dubizzle %(country)s"
+#, fuzzy, python-format
+msgid "Wanted - Careers & Jobs in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "مطلوب للعمل في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:139
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Looking to land a job in %(full_location)s? Post Your skills and experience "
-"on dubizzle %(country)s's Free Job Classifieds."
+"on dubizzle OLX %(country)s's Free Job Classifieds."
 msgstr ""
 "هل تبحث عن وظيفة في %(full_location)s؟ أضف خبراتك وسيرتك الذاتية على دوبيزل "
 "%(country)s لتشاهد مجموعة من الوظائف الشاغرة"
@@ -921,9 +896,10 @@ msgstr ""
 "شاغرة"
 
 #: fuego/meta_settings.py:144
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Wanted %(category_leaf)s Jobs in %(city_or_country)s | dubizzle %(country)s"
+"Wanted %(category_leaf)s Jobs in %(city_or_country)s | dubizzle OLX "
+"%(country)s"
 msgstr ""
 "مطلوب للعمل - وظائف %(category_leaf)s في %(city_or_country)s | دوبيزل "
 "%(country)s"
@@ -947,9 +923,10 @@ msgstr ""
 "%(category_leaf)s مجانية"
 
 #: fuego/meta_settings.py:150
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Real Estate & Property for Sale in %(full_location)s | dubizzle %(country)s"
+"Real Estate & Property for Sale in %(full_location)s | dubizzle OLX "
+"%(country)s"
 msgstr "عقارات للبيع في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:151
@@ -971,8 +948,8 @@ msgstr ""
 "عقارات للايجار في %(country)s"
 
 #: fuego/meta_settings.py:156
-#, python-format
-msgid "House & Villas For Sale in %(full_location)s | dubizzle %(country)s"
+#, fuzzy, python-format
+msgid "House & Villas For Sale in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "بيوت وفلل للايجار في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:157
@@ -994,8 +971,9 @@ msgstr ""
 "%(city_or_country)s للبيع، بيع فلل في %(city_or_country)s"
 
 #: fuego/meta_settings.py:162
-#, python-format
-msgid "Flats & Apartments for Sale in %(full_location)s | dubizzle %(country)s"
+#, fuzzy, python-format
+msgid ""
+"Flats & Apartments for Sale in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "شقق للبيع في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:163
@@ -1020,9 +998,9 @@ msgstr ""
 "%(city_or_country)s، فلل للبيع %(city_or_country)s"
 
 #: fuego/meta_settings.py:168
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Commercial Property for Sale - Offices, Shops & Buildings | dubizzle "
+"Commercial Property for Sale - Offices, Shops & Buildings | dubizzle OLX "
 "%(country)s"
 msgstr "عقارات ومحلات تجارية للبيع - مكاتب، مقاهي، عمارات | دوبيزل %(country)s"
 
@@ -1049,8 +1027,9 @@ msgstr ""
 "تجارية للبيع في %(city_or_country)s"
 
 #: fuego/meta_settings.py:174
-#, python-format
-msgid "Towers & Buildings for Sale in %(full_location)s | dubizzle %(country)s"
+#, fuzzy, python-format
+msgid ""
+"Towers & Buildings for Sale in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "أبراج ومباني للبيع في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:175
@@ -1073,8 +1052,8 @@ msgstr ""
 "عقارات تجارية للبيع في %(city_or_country)s"
 
 #: fuego/meta_settings.py:180
-#, python-format
-msgid "Plots & Land for Sale in %(full_location)s | dubizzle %(country)s"
+#, fuzzy, python-format
+msgid "Plots & Land for Sale in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "أراضي للبيع في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:181
@@ -1095,9 +1074,10 @@ msgstr ""
 "%(city_or_country)s"
 
 #: fuego/meta_settings.py:186
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Real Estate & Property for Rent in %(full_location)s | dubizzle %(country)s"
+"Real Estate & Property for Rent in %(full_location)s | dubizzle OLX "
+"%(country)s"
 msgstr "عقارات للايجار في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:187
@@ -1122,8 +1102,8 @@ msgstr ""
 "للايجار، عقار للايجار، ايجار عقارات %(city_or_country)s"
 
 #: fuego/meta_settings.py:192
-#, python-format
-msgid "House & Villas for Rent in %(full_location)s | dubizzle %(country)s"
+#, fuzzy, python-format
+msgid "House & Villas for Rent in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "بيوت وفلل للايجار في %(full_location)s - دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:193
@@ -1148,8 +1128,9 @@ msgstr ""
 "%(city_or_country)s، بيوت للايجار في %(city_or_country)s"
 
 #: fuego/meta_settings.py:198
-#, python-format
-msgid "Flats & Apartments for Rent in %(full_location)s | dubizzle %(country)s"
+#, fuzzy, python-format
+msgid ""
+"Flats & Apartments for Rent in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "شقق للايجار في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:199
@@ -1171,9 +1152,9 @@ msgstr ""
 "شقة للايجار في %(city_or_country)s"
 
 #: fuego/meta_settings.py:204
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Commercial Property for Rent - Offices, Shops & Buildings | dubizzle "
+"Commercial Property for Rent - Offices, Shops & Buildings | dubizzle OLX "
 "%(country)s"
 msgstr ""
 "عقارات ومحلات تجارية للايجار - مكاتب، مقاهي، عمارات | دوبيزل %(country)s"
@@ -1201,9 +1182,9 @@ msgstr ""
 "%(city_or_country)s"
 
 #: fuego/meta_settings.py:210
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Room for Rent in %(full_location)s - Villas & Apartments | dubizzle "
+"Room for Rent in %(full_location)s - Villas & Apartments | dubizzle OLX "
 "%(country)s"
 msgstr "غرف للايجار في %(full_location)s - شقق وفلل | دوبيزل %(country)s"
 
@@ -1226,9 +1207,9 @@ msgstr ""
 "%(city_or_country)s"
 
 #: fuego/meta_settings.py:216
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Short Term & Vacation Rentals in %(full_location)s | dubizzle %(country)s"
+"Short Term & Vacation Rentals in %(full_location)s | dubizzle OLX %(country)s"
 msgstr ""
 "شقق بعقود قصيرة الأمد و شقق سياحية في %(full_location)s | دوبيزل %(country)s"
 
@@ -1250,17 +1231,17 @@ msgstr ""
 "وغيرها"
 
 #: fuego/meta_settings.py:222
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Wanted - Properties for Rent in %(full_location)s | dubizzle %(country)s"
+"Wanted - Properties for Rent in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "مطلوب عقارات للايجار في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:223
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Looking to rent properties and real estate in %(full_location)s including "
 "apartments, villas, houses, and commercial properties? Post what you need "
-"now on dubizzle %(country)s free classifieds."
+"now on dubizzle OLX %(country)s free classifieds."
 msgstr ""
 " هل تبحث عن أجار عقارات في %(full_location)s - فلل، منازل، شقق، عقارات "
 "تجارية وغيرها؟ أضف اعلانك الان على دوبيزل %(country)s"
@@ -1275,10 +1256,10 @@ msgstr ""
 "سياحية، غرف و شقق بعقود يومية او اسبوعية، شقق فندقية وغيرها "
 
 #: fuego/meta_settings.py:228
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Items for Sale in %(full_location)s - Find, Buy & Sell Anything | dubizzle "
-"%(country)s"
+"OLX %(country)s"
 msgstr ""
 "اعلانات مبوبة مجانية في %(full_location)s - بيع وشراء اي شيء | دوبيزل "
 "%(country)s"
@@ -1298,9 +1279,10 @@ msgid "ads, free ads, %(country)s classifieds"
 msgstr "اعلانات مبوبة، اعلانات مجانية، اعلانات %(country)s"
 
 #: fuego/meta_settings.py:234
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Buy & Sell Baby Clothes & Items in %(full_location)s | dubizzle %(country)s"
+"Buy & Sell Baby Clothes & Items in %(full_location)s | dubizzle OLX "
+"%(country)s"
 msgstr ""
 "بيع وشراء ملابس ومستلزمات الاطفال في %(full_location)s | دوبيزل %(country)s"
 
@@ -1324,8 +1306,8 @@ msgstr ""
 "%(city_or_country)s، في %(country)s"
 
 #: fuego/meta_settings.py:240
-#, python-format
-msgid "Yachts & Boats for sale in %(full_location)s | dubizzle %(country)s"
+#, fuzzy, python-format
+msgid "Yachts & Boats for sale in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "يخوت وقوارب للبيع في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:241
@@ -1346,8 +1328,9 @@ msgid ""
 msgstr "يخوت وقوارب للبيع، قوارب صيد الأسماك في %(city_or_country)s"
 
 #: fuego/meta_settings.py:246
-#, python-format
-msgid "Buy & Sell New & Used Books in %(full_location)s | dubizzle %(country)s"
+#, fuzzy, python-format
+msgid ""
+"Buy & Sell New & Used Books in %(full_location)s | dubizzle OLX %(country)s"
 msgstr ""
 "بيع وشراء الكتب الجديدة والمستعملة في %(full_location)s | دوبيزل %(country)s"
 
@@ -1373,9 +1356,9 @@ msgstr ""
 "%(city_or_country)s "
 
 #: fuego/meta_settings.py:252
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Business & Industrial Equipment for Sale in %(full_location)s | dubizzle "
+"Business & Industrial Equipment for Sale in %(full_location)s | dubizzle OLX "
 "%(country)s"
 msgstr "معدات صناعية للبيع في %(full_location)s | دوبيزل %(country)s"
 
@@ -1396,9 +1379,9 @@ msgid ""
 msgstr "معدات صناعية، معدات ثقيلة، رافعات، خلاطات، معدات ثقيلة للبيع "
 
 #: fuego/meta_settings.py:258
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Camcorders & Cameras for Sale in %(full_location)s | dubizzle %(country)s"
+"Camcorders & Cameras for Sale in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "كاميرات للبيع في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:259
@@ -1419,9 +1402,9 @@ msgstr ""
 "فوجي، كانون "
 
 #: fuego/meta_settings.py:264
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Accessories, Clothes & Dresses for Sale in %(full_location)s | dubizzle "
+"Accessories, Clothes & Dresses for Sale in %(full_location)s | dubizzle OLX "
 "%(country)s"
 msgstr ""
 "أكسسوارات, ملابس فساتين للبيع في %(full_location)s | دوبيزل %(country)s"
@@ -1443,9 +1426,9 @@ msgid ""
 msgstr "فساتين للبيع، ملابس للبيع، موضة، ملابس ستاتي، ملابس رجال، اكسسوارات"
 
 #: fuego/meta_settings.py:270
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Laptops, Tablets & Computers for Sale in %(full_location)s | dubizzle "
+"Laptops, Tablets & Computers for Sale in %(full_location)s | dubizzle OLX "
 "%(country)s"
 msgstr "كمبيوترات ولابتوبات للبيع في %(full_location)s | دوبيزل %(country)s"
 
@@ -1464,9 +1447,9 @@ msgid "laptops for sale, computer, computers, ipad, mac, printers"
 msgstr "لابتوبات للبيع، كمبيوترات محمولة، ايباد، طابعة، ماك للبيع"
 
 #: fuego/meta_settings.py:276
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Home Appliances & Electronics for Sale in %(full_location)s | dubizzle "
+"Home Appliances & Electronics for Sale in %(full_location)s | dubizzle OLX "
 "%(country)s"
 msgstr ""
 "أدوات منزلية و ألكترونيات للبيع في %(full_location)s | دوبيزل %(country)s"
@@ -1492,9 +1475,10 @@ msgstr ""
 "%(city_or_country)s"
 
 #: fuego/meta_settings.py:282
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Garden & Home Furniture for Sale in %(full_location)s | dubizzle %(country)s"
+"Garden & Home Furniture for Sale in %(full_location)s | dubizzle OLX "
+"%(country)s"
 msgstr "أثاث المنزل والحدائق للبيع في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:283
@@ -1517,8 +1501,9 @@ msgstr ""
 "%(city_or_country)s"
 
 #: fuego/meta_settings.py:288
-#, python-format
-msgid "Jewelry & Watches for Sale in %(full_location)s | dubizzle %(country)s"
+#, fuzzy, python-format
+msgid ""
+"Jewelry & Watches for Sale in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "مجوهرات وساعات للبيع في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:289
@@ -1540,8 +1525,9 @@ msgstr ""
 "للبيع في %(city_or_country)s"
 
 #: fuego/meta_settings.py:294
-#, python-format
-msgid "Motorcycle & Bikes for Sale in %(full_location)s | dubizzle %(country)s"
+#, fuzzy, python-format
+msgid ""
+"Motorcycle & Bikes for Sale in %(full_location)s | dubizzle OLX %(country)s"
 msgstr ""
 "دراجات هوائية ودراجات نارية للبيع في %(full_location)s | دوبيزل %(country)s"
 
@@ -1564,9 +1550,9 @@ msgstr ""
 "موتوسيكل للبيع في %(city_or_country)s"
 
 #: fuego/meta_settings.py:300
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Mobile Phones, PDA's & iPhones for Sale in %(full_location)s | dubizzle "
+"Mobile Phones, PDA's & iPhones for Sale in %(full_location)s | dubizzle OLX "
 "%(country)s"
 msgstr "هواتف محمولة و آيفونات للبيع في %(full_location)s | دوبيزل %(country)s"
 
@@ -1588,8 +1574,9 @@ msgstr ""
 "سامسونج، نوكيا"
 
 #: fuego/meta_settings.py:306
-#, python-format
-msgid "Music & DVD Movies for Sale in %(full_location)s | dubizzle %(country)s"
+#, fuzzy, python-format
+msgid ""
+"Music & DVD Movies for Sale in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "موسيقى وأفلام ديفيدي للبيع في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:307
@@ -1606,9 +1593,9 @@ msgid "dvd for sale, cd's, mp3 music"
 msgstr "أفلام ديفيدي، أفلام ديفيدي للبيع، موسيقى للبيع، أغاني ام بي ثري للبيع"
 
 #: fuego/meta_settings.py:312
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Musical Instruments for Sale in %(full_location)s | dubizzle %(country)s"
+"Musical Instruments for Sale in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "آلات موسيقية للبيع في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:313
@@ -1631,8 +1618,8 @@ msgstr ""
 "%(city_or_country)s"
 
 #: fuego/meta_settings.py:318
-#, python-format
-msgid "Animals & Pets in %(full_location)s | dubizzle %(country)s"
+#, fuzzy, python-format
+msgid "Animals & Pets in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "حيوانات أليفة للتبني في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:319
@@ -1649,9 +1636,10 @@ msgid "pets, dogs, cats, puppies, kittens, pets, pet adoption"
 msgstr "حيوانات أليفة للتبني، كلاب، قطط، طيور، حيوانات، حيوانات أليفة للتبني"
 
 #: fuego/meta_settings.py:324
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Sports & Gym Equipment for Sale in %(full_location)s | dubizzle %(country)s"
+"Sports & Gym Equipment for Sale in %(full_location)s | dubizzle OLX "
+"%(country)s"
 msgstr "معدات رياضية للبيع في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:325
@@ -1669,10 +1657,10 @@ msgid "Gym equipment, treadmill, sports, fitness, weight, weights"
 msgstr "معدات رياضية، أجهزة رياضة، جهاز مشي، جهاز معدة، جهاز تقوية عضلا، أثقال"
 
 #: fuego/meta_settings.py:330
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Vouchers, Concert & Airline Tickets for Sale in %(full_location)s | dubizzle "
-"%(country)s"
+"OLX %(country)s"
 msgstr ""
 "كوبونات وقسائم و تذاكر طيارات للبيع في %(full_location)s | دوبيزل  "
 "%(country)s"
@@ -1695,9 +1683,9 @@ msgid ""
 msgstr "كوبونات وقسائم وتذاكر طيارات. تذاكر خفلات للبيع في %(city_or_country)s"
 
 #: fuego/meta_settings.py:336
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Collectibles & Toys for Sale in %(full_location)s | dubizzle %(country)s"
+"Collectibles & Toys for Sale in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "ألعاب للبيع في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:337
@@ -1715,9 +1703,9 @@ msgid "Toys for sale, collectibles, gifts, collectibles, antiques"
 msgstr "ألعاب للبيع، حزازير، ألغاز، المقتنيات"
 
 #: fuego/meta_settings.py:342
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Game Consoles & Video Games for Sale in %(full_location)s | dubizzle "
+"Game Consoles & Video Games for Sale in %(full_location)s | dubizzle OLX "
 "%(country)s"
 msgstr "أجهزة و ألعاب فيديو للبيع في %(full_location)s | دوبيزل %(country)s"
 
@@ -1736,13 +1724,13 @@ msgid "video games, xbox 360, playstation, ps3, psp, nintendo, pc games"
 msgstr "ألعاب فيديو، بليستيشن، بلايستيشن، أكس بوكس، ألعاب كمبيوتر "
 
 #: fuego/meta_settings.py:348
-#, python-format
-msgid "Items Wanted in %(full_location)s | dubizzle %(country)s"
+#, fuzzy, python-format
+msgid "Items Wanted in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "أشياء مطلوبة في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:349
-#, python-format
-msgid "List your wanted items & stuff for free on dubizzle %(country)s."
+#, fuzzy, python-format
+msgid "List your wanted items & stuff for free on dubizzle OLX %(country)s."
 msgstr "أضف اعلان بالأشياء المطلوبة التي تحتاجها مجاناً على دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:350
@@ -1750,14 +1738,15 @@ msgid "Items wanted, looking for"
 msgstr "أشياء مطلوبة، سلع مطلوبة"
 
 #: fuego/meta_settings.py:354
-#, python-format
-msgid "Other Items for Sale in %(full_location)s | dubizzle %(country)s"
+#, fuzzy, python-format
+msgid "Other Items for Sale in %(full_location)s | dubizzle OLX %(country)s"
 msgstr "أشياء أخرى للبيع في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:355
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Buy & sell any other items. List your ads for free on dubizzle %(country)s."
+"Buy & sell any other items. List your ads for free on dubizzle OLX "
+"%(country)s."
 msgstr "بيع وشراء أشياء أخرى. أضف اعلانك مجاناً على دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:356
@@ -1767,25 +1756,15 @@ msgid ""
 msgstr "أشياء للبيع، سلع للبيع، أغراض للبيع في %(city_or_country)s"
 
 #: fuego/meta_settings.py:364
-#, python-format
-msgid ""
-"Free Classifieds in %(full_location)s - Jobs in %(full_location)s, Property "
-"& Real Estate For Sale & Rent, Cars for Sale | dubizzle %(full_location)s"
+msgid "Buy and sell anything | dubizzle, an OLX company"
 msgstr ""
-"اعلانات مبوبة مجانية في %(full_location)s - وظائف شاغرة في "
-"%(full_location)s, عقارات للبيع او الايجار, سيارات للبيع | دوبيزل "
-"%(full_location)s"
 
 #: fuego/meta_settings.py:365
 #, python-format
 msgid ""
-"dubizzle is your free and friendly local classifieds website in "
-"%(full_location)s. Jobs, property, real estate, cars and classifieds in "
-"%(full_location)s. Post an ad, browse ads, buy, sell or rent."
+"Find the best deals from thousands of ads on dubizzle, an OLX company. Post "
+"ads & browse for real estate, cars, jobs and classifieds in %(country)s."
 msgstr ""
-"دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(full_location)s. "
-"وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في %(full_location)s. أضف "
-"اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
 
 #: fuego/meta_settings.py:366 fuego/meta_settings.py:372
 #, python-format
@@ -1797,24 +1776,19 @@ msgstr ""
 "%(full_location)s، اعلانات مبوبة مجانيه في %(full_location)s"
 
 #: fuego/meta_settings.py:370
-#, python-format
-msgid ""
-"Free Classifieds in %(full_location)s - Buy a car, Find a Job or Buy a house "
-"| dubizzle %(full_location)s"
-msgstr ""
-"اعلانات مبوبة مجانية في %(full_location)s - بيع سيارات, وظائف شاغرة, بيع "
-"منازل | دوبيزل %(full_location)s"
+#, fuzzy, python-format
+msgid "Free Classifieds in %(full_location)s | dubizzle OLX"
+msgstr "أشياء مطلوبة في %(full_location)s | دوبيزل %(country)s"
 
 #: fuego/meta_settings.py:371
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"dubizzle is your free and friendly local classifieds website in "
-"%(full_location)s to buy, sell and find anything. Find cars, jobs, "
-"properties for rent or items for sale in %(full_location)s."
+"dubizzle OLX is your free local classifieds website in %(full_location)s. "
+"Post ads & browse for real estate, cars, jobs and classifieds in %(country)s."
 msgstr ""
-"دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(full_location)s لبيع "
-"وشراء أي شيء. ايجاد سيارات, وظائف شاغرة, عقارات للايجار و سلع للبيع في  "
-"%(full_location)s."
+"دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(full_location)s. "
+"وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في %(full_location)s. أضف "
+"اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
 
 #: fuego/meta_settings.py:381
 #, python-format
@@ -1963,7 +1937,7 @@ msgstr ""
 #: templates/email_alerts/email_alerts_fr.html:79
 #: templates/feedbox/index_horizontal.html:326
 #: templates/listings/get/get_listing.html:112
-#: templates/listings/get/get_listing.html:240 templates/public/home.html:80
+#: templates/listings/get/get_listing.html:240 templates/public/home.html:78
 #: templates/shared/listings.html:62
 #: templates/user_profiles/my_listings.html:151
 #: templates/user_profiles/my_listings.html:244
@@ -2509,13 +2483,14 @@ msgid "Terms of Use"
 msgstr "شروط وأحكام إستخدام موقع دوبيزل"
 
 #: templates/base_terms.html:16
+#, fuzzy
 msgid ""
 "\n"
 "        THIS IS A LEGAL AGREEMENT BETWEEN YOU AND DUBIZZLE.COM STATING THE "
 "TERMS THAT GOVERN YOUR USE OF THE WEBSITE. BY ACCESSING AND USING THE "
 "WEBSITE YOU AGREE TO THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS DO NOT "
 "USE THE WEBSITE. YOU MUST ACCEPT AND ABIDE BY THESE TERMS AS PRESENTED TO "
-"YOU: CHANGES, ADDITIONS OR DELETIONS ARE NOT ACCEPTABLE AND DUBIZZLE MAY "
+"YOU: CHANGES, ADDITIONS OR DELETIONS ARE NOT ACCEPTABLE AND DUBIZZLE OLX MAY "
 "REFUSE ACCESS TO THE WEBSITE FOR NONCOMPLIANCE WITH ANY OF THE TERMS OF THIS "
 "AGREEMENT\n"
 "    "
@@ -2531,7 +2506,8 @@ msgstr ""
 "    "
 
 #: templates/generic.html:27
-msgid "dubizzle on your phone"
+#, fuzzy
+msgid "dubizzle OLX on your phone"
 msgstr "دوبيزل على موبايلك"
 
 # not too clear
@@ -2559,8 +2535,9 @@ msgstr "إغلاق"
 msgid "Reset"
 msgstr "إعادة ضبط"
 
-#: templates/generic.html:171 templates/search/category_widget.html:35
-msgid "Back to dubizzle"
+#: templates/generic.html:171
+#, fuzzy
+msgid "Back to dubizzle OLX"
 msgstr "الرجوع إلى صفحة دوبيزل"
 
 #: templates/generic.html:178
@@ -2700,7 +2677,8 @@ msgid "You have been Logged Out!"
 msgstr "لقد تم تسجيل خروجك."
 
 #: templates/authentication/register.html:11
-msgid "Create a free account on dubizzle"
+#, fuzzy
+msgid "Create a free account on dubizzle OLX"
 msgstr "أنشئ حساب مجاني على دوبيزل"
 
 #: templates/authentication/register.html:27
@@ -2737,13 +2715,13 @@ msgid "Confirm email"
 msgstr "تأكيد عنوان الإيميل"
 
 #: templates/authentication/register.html:127
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "\n"
 "                By clicking on Register, you agree to our <a href="
 "\"%(terms_url)s\" target=\"_blank\" class=\"u-link\">terms & conditions</a> "
-"and the dubizzle <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link"
-"\">privacy policy</a>.\n"
+"and the dubizzle OLX <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-"
+"link\">privacy policy</a>.\n"
 "            "
 msgstr ""
 "\n"
@@ -2752,7 +2730,8 @@ msgstr ""
 "\"_blank\" class=\"u-link\">سياسة الخصوصية</a> لدوبيزل.                    "
 
 #: templates/authentication/register.html:137
-msgid "Already have a dubizzle account?"
+#, fuzzy
+msgid "Already have a dubizzle OLX account?"
 msgstr "لديك حساب على دوبيزل؟"
 
 #: templates/authentication/reset_password.html:11
@@ -2837,7 +2816,7 @@ msgid "Show me the ads"
 msgstr "اظهر جميع اعلاناتي المنشورة"
 
 #: templates/buysell/index.html:223
-msgid "Watch dubizzle commercial on youtube"
+msgid "Watch dubizzle OLX commercial on youtube"
 msgstr ""
 
 #: templates/buysell/index.html:226
@@ -2845,7 +2824,8 @@ msgid "Do you know how good it feels to sell something? Watch our ad here."
 msgstr ""
 
 #: templates/buysell/index.html:234 templates/sell/why-dubizzle.html:35
-msgid "Why use dubizzle?"
+#, fuzzy
+msgid "Why use dubizzle OLX?"
 msgstr "فوائد دوبيزل السبع"
 
 #: templates/buysell/index.html:242 templates/sell/why-dubizzle.html:42
@@ -3047,13 +3027,13 @@ msgid "Connecting to facebook didn't work"
 msgstr "التسجيل عبر الفيسبوك لم يتم بنجاح"
 
 #: templates/listings/manage_listing.html:335
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "\n"
 "                                        By posting your ad you are agreeing "
-"to the dubizzle <a class=\"u-link\" href=\"%(terms_url)s\" target=\"_blank"
-"\">terms & conditions</a> and the dubizzle <a class=\"u-link\" href="
-"\"%(privacy_url)s\" target=\"_blank\">privacy policy</a>.\n"
+"to the dubizzle OLX <a class=\"u-link\" href=\"%(terms_url)s\" target="
+"\"_blank\">terms & conditions</a> and the dubizzle OLX <a class=\"u-link\" "
+"href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a>.\n"
 "                                    "
 msgstr ""
 "\n"
@@ -3288,11 +3268,11 @@ msgid "Captcha"
 msgstr "نريد أن نتأكد بأنك لست رجل آلي (كابتشا)"
 
 #: templates/listings/reply/reply_to_listing_include.html:126
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"By clicking on 'Send my reply' I agree to the dubizzle <a target=\"_blank\" "
-"class=\"u-link\" href=\"%(terms_url)s\"> terms and conditions</a> and the "
-"dubizzle <a target=\"_blank\" class=\"u-link\" href=\"%(privacy_url)s"
+"By clicking on 'Send my reply' I agree to the dubizzle OLX <a target=\"_blank"
+"\" class=\"u-link\" href=\"%(terms_url)s\"> terms and conditions</a> and the "
+"dubizzle OLX <a target=\"_blank\" class=\"u-link\" href=\"%(privacy_url)s"
 "\">privacy policy</a>"
 msgstr ""
 "عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\">شروط "
@@ -3355,21 +3335,23 @@ msgid "example"
 msgstr "مثال"
 
 #: templates/listings/snippets/_form.html:209
-msgid "I'm new to dubizzle. I need a password."
+#, fuzzy
+msgid "I'm new to dubizzle OLX. I need a password."
 msgstr "ليس لدي حساب على دوبيزل"
 
 #: templates/listings/snippets/_form.html:215
-msgid "I have a dubizzle password"
+#, fuzzy
+msgid "I have a dubizzle OLX password"
 msgstr "لدي حساب وكلمة سر"
 
 #: templates/listings/snippets/_form.html:316
 #, fuzzy, python-format
 msgid ""
 "\n"
-"                By posting your ad you are agreeing to the dubizzle <a href="
-"\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the dubizzle <a "
-"href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to "
-"receiving marketing and promotional offers.\n"
+"                By posting your ad you are agreeing to the dubizzle OLX <a "
+"href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the "
+"dubizzle OLX <a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</"
+"a> and to receiving marketing and promotional offers.\n"
 "            "
 msgstr ""
 "عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" class=\"u-link\" "
@@ -3447,13 +3429,13 @@ msgid "Edit your ad."
 msgstr "تعديل"
 
 #: templates/public/_email_form_modal.html:6
-msgid "Be part of the dubizzle family"
+msgid "Be part of the dubizzle OLX family"
 msgstr ""
 
 #: templates/public/_email_form_modal.html:10
 msgid ""
 "Start selling your unused belongings and finding good deals. Sign up so you "
-"can get the latest dubizzle news and try winning T-shirts and other "
+"can get the latest dubizzle OLX news and try winning T-shirts and other "
 "surprises."
 msgstr ""
 
@@ -3488,7 +3470,8 @@ msgid "Sitemap"
 msgstr "خريطة الموقع"
 
 #: templates/public/_footer.html:31
-msgid ", dubizzle.com, All Rights Reserved."
+#, fuzzy
+msgid ", dubizzle OLX, All Rights Reserved."
 msgstr ", dubizzle.com, جميع الحقوق محفوظة."
 
 #: templates/public/_footer_cat_links.html:7
@@ -3558,31 +3541,31 @@ msgstr "العودة الى الصفحة الرئيسية"
 #: templates/public/_testemonials.html:13
 #: templates/public/_testemonials.html:25
 msgid ""
-"Nobody wanted to buy this couch. Until I found dubizzle and got more than 10 "
-"calls in half an hour."
+"Nobody wanted to buy this couch. Until I found dubizzle OLX and got more "
+"than 10 calls in half an hour."
 msgstr ""
 
 #: templates/public/_testemonials.html:36
 msgid ""
-"I sold this bag on dubizzle. It's free to post an ad and it's super easy and "
-"very fast. I love it!"
+"I sold this bag on dubizzle OLX. It's free to post an ad and it's super easy "
+"and very fast. I love it!"
 msgstr ""
 
 #: templates/public/_testemonials.html:47
 msgid ""
-"I placed an ad on dubizzle to sell these brand new shoes. I sold them in 15 "
-"minutes!"
+"I placed an ad on dubizzle OLX to sell these brand new shoes. I sold them in "
+"15 minutes!"
 msgstr ""
 
 #: templates/public/_testemonials.html:58
 msgid ""
-"dubizzle helped me sell my second phone. It was completely hassle free! I'll "
-"definitely use this site again."
+"dubizzle OLX helped me sell my second phone. It was completely hassle free! "
+"I'll definitely use this site again."
 msgstr ""
 
 #: templates/public/_testemonials.html:69
 msgid ""
-"I sold my unused laptop on dubizzle! It's easy money for the things you "
+"I sold my unused laptop on dubizzle OLX! It's easy money for the things you "
 "don't use anymore!"
 msgstr ""
 
@@ -3590,13 +3573,13 @@ msgstr ""
 msgid "About Us"
 msgstr "تعرف علينا"
 
-#: templates/public/home.html:23
-#, python-format
-msgid "Free Classifieds in %(CITY_OR_COUNTRY)s - Buy, sell and find anything"
+#: templates/public/home.html:22
+#, fuzzy, python-format
+msgid "Free Classifieds in %(CITY_OR_COUNTRY)s on dubizzle, an OLX company"
 msgstr ""
 "اعلانات مبوبة مجانية في %(CITY_OR_COUNTRY)s - بيع واشتري وأعثر على أى شيء"
 
-#: templates/public/home.html:71
+#: templates/public/home.html:69
 #, python-format
 msgid ""
 "\n"
@@ -3611,7 +3594,7 @@ msgid ""
 "                                                    "
 msgstr ""
 
-#: templates/public/home.html:101
+#: templates/public/home.html:99
 msgid "Load more"
 msgstr "ارني المزيد"
 
@@ -3620,7 +3603,8 @@ msgid "Change country"
 msgstr "تغيير الدولة"
 
 #: templates/public/landing.html:46
-msgid "Select your city and find the best deals from thousands of ads!"
+#, fuzzy
+msgid "Find the best deals from thousands of ads on dubizzle, an OLX company!"
 msgstr "اختر مدينتك و ابحث عن أفضل الصفقات من بين آلاف الإعلانات."
 
 #: templates/public/landing.html:117
@@ -3653,17 +3637,17 @@ msgstr ""
 
 #: templates/public/press.html:23
 #, fuzzy
-msgid "About dubizzle"
+msgid "About dubizzle OLX"
 msgstr "الموقع بالكامل"
 
 #: templates/public/press.html:26
 msgid ""
 "\n"
-"                        dubizzle is a leading free classifieds website in "
-"the\n"
+"                        dubizzle OLX is a leading free classifieds website "
+"in the\n"
 "                        Middle East and North Africa. Since its launch in "
 "2005,\n"
-"                        dubizzle has become the number one platform for "
+"                        dubizzle OLX has become the number one platform for "
 "users\n"
 "                        to buy, sell, or find anything in their city.\n"
 "                    "
@@ -3672,15 +3656,16 @@ msgstr ""
 #: templates/public/press.html:35
 msgid ""
 "\n"
-"                        dubizzle Egypt is managed centrally in Cairo by "
+"                        dubizzle OLX Egypt is managed centrally in Cairo by "
 "Ahmed\n"
 "                        Eraqi, and is headquartered in the United Arab\n"
-"                        Emirates. dubizzle is also available in Algeria,\n"
+"                        Emirates. dubizzle OLX is also available in "
+"Algeria,\n"
 "                        Bahrain Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi\n"
 "                        Arabia, Tunisia, and the United Arab Emirates. "
 "dubizzle\n"
-"                        is accessed by over 5 million unique visitors with "
-"more\n"
+"                        OLX is accessed by over 5 million unique visitors "
+"with more\n"
 "                        than 210 million page views on a monthly basis.\n"
 "                    "
 msgstr ""
@@ -3752,7 +3737,9 @@ msgid "or pick a category"
 msgstr "أو اختر فئة "
 
 #: templates/search/category_widget.html:18
-msgid "back to dubizzle"
+#: templates/search/category_widget.html:35
+#, fuzzy
+msgid "back to dubizzle OLX"
 msgstr "الرجوع إلى صفحة دوبيزل"
 
 #: templates/search/category_widget.html:43
@@ -3834,6 +3821,11 @@ msgstr[5] ""
 msgid "Edit filters"
 msgstr "تصفية البحث"
 
+#: templates/search/widget.html:27 templates/search/widget.html.py:44
+#, fuzzy
+msgid "All of dubizzle OLX"
+msgstr "الموقع بالكامل"
+
 #: templates/search/widget.html:71
 msgid "No results..."
 msgstr "لا يوجد نتائج..."
@@ -3854,7 +3846,8 @@ msgstr "إستعمال دوبيزل"
 #: templates/sell/badass-classifieds-ads.html:33
 #: templates/sell/how-it-works.html:59 templates/sell/how-it-works.html:62
 #: templates/sell/how-it-works.html:63 templates/sell/how-to-post-ad.html:132
-msgid "Check out these badass dubizzle ads"
+#, fuzzy
+msgid "Check out these badass dubizzle OLX ads"
 msgstr "إخترنا لك هذه الإعلانات على دوبيزل  لنوضح أهمية جودة الإعلان"
 
 #: templates/sell/badass-classifieds-ads.html:34
@@ -3951,24 +3944,28 @@ msgid ""
 msgstr "المواصفات بالتفصيل وتشمل سعر الشراء وحالة النظارة."
 
 #: templates/sell/how-it-works.html:31
+#, fuzzy
 msgid ""
-"dubizzle is where it all happens - selling, buying, finding awesome deals "
-"and connecting with dubizzlers around you."
+"dubizzle OLX is where it all happens - selling, buying, finding awesome "
+"deals and connecting with dubizzlers around you."
 msgstr ""
 "تعرف على دوبيزل وكيفية الإستفادة منه -  من خلال البيع و الشراء والتواصل مع \n"
 "الآلاف بالقرب منك. "
 
 #: templates/sell/how-it-works.html:32
-msgid "Here’s a guide on how to dubizzle."
+#, fuzzy
+msgid "Here’s a guide on how to dubizzle OLX."
 msgstr "دليل على كيفية إستخدام موقع  دوبيزل."
 
 #: templates/sell/how-it-works.html:37
-msgid "Why use dubizzle"
+#, fuzzy
+msgid "Why use dubizzle OLX"
 msgstr "فوائد دوبيزل السبع"
 
 #: templates/sell/how-it-works.html:40 templates/sell/how-it-works.html:41
 #: templates/sell/why-dubizzle.html:22 templates/sell/why-dubizzle.html:30
-msgid "dubizzle 101"
+#, fuzzy
+msgid "dubizzle OLX 101"
 msgstr "ما هو دوبيزل؟"
 
 #: templates/sell/how-it-works.html:43 templates/sell/why-dubizzle.html:31
@@ -3983,7 +3980,8 @@ msgid "The nitty gritty details"
 msgstr "كل التفاصيل"
 
 #: templates/sell/how-it-works.html:54 templates/sell/how-to-post-ad.html:29
-msgid "How to make a badass dubizzle ad"
+#, fuzzy
+msgid "How to make a badass dubizzle OLX ad"
 msgstr "كيف تجعل إعلانك رائع"
 
 #: templates/sell/how-to-post-ad.html:41 templates/sell/how-to-post-ad.html:42
@@ -4118,7 +4116,8 @@ msgstr ""
 "الصور تلعب دور كبير جدا وتمنح المشتري  فكرة واقعية وتجيب عن أسئلة كثيرة."
 
 #: templates/sell/how-to-post-ad.html:105
-msgid "That's why your dubizzle ads can include up to 10 photos."
+#, fuzzy
+msgid "That's why your dubizzle OLX ads can include up to 10 photos."
 msgstr "يمكنك إضافة ١٠ صور في إعلانك على دوبيزل."
 
 #: templates/sell/how-to-post-ad.html:106
@@ -4200,9 +4199,10 @@ msgid "Access anytime, anywhere"
 msgstr "في أي وقت ومن أي مكان"
 
 #: templates/sell/why-dubizzle.html:90
+#, fuzzy
 msgid ""
-"Post your ad, update it and browse dubizzle from your computer, smart phone, "
-"tablet or Mars!"
+"Post your ad, update it and browse dubizzle OLX from your computer, smart "
+"phone, tablet or Mars!"
 msgstr ""
 "ضيف إعلانك وقم بتعديله من الكمبيوتر أو الموبايل أو التابلت أو حتى من المريخ!"
 
@@ -4215,7 +4215,8 @@ msgid "Get round-the-clock help in creating and posting your ads."
 msgstr "فريق دعم دوبيزل يتواصل معك شخصيا لمساعدتك في إضافة إعلانك أينما كنت."
 
 #: templates/sell/why-dubizzle.html:106
-msgid "What is dubizzle anyway?"
+#, fuzzy
+msgid "What is dubizzle OLX anyway?"
 msgstr "من أنتم !؟"
 
 #: templates/sell/why-dubizzle.html:107
@@ -4235,13 +4236,15 @@ msgid "buyers and sellers connect and trade face-to-face."
 msgstr "طريقة مبتكرة للتواصل مع آلاف البائعين والمشتريين مباشرة."
 
 #: templates/sell/why-dubizzle.html:120
+#, fuzzy
 msgid ""
-"dubizzle is not an e-commerce website for promoting commercial businesses or "
-"services."
+"dubizzle OLX is not an e-commerce website for promoting commercial "
+"businesses or services."
 msgstr "موقع للافراد و ليس للتجارة أو لشركات التسويق والخدمات."
 
 #: templates/sell/why-dubizzle.html:126
-msgid "What are the dubizzle ad posting rules?"
+#, fuzzy
+msgid "What are the dubizzle OLX ad posting rules?"
 msgstr "ما هي قواعد دوبيزل؟"
 
 #: templates/sell/why-dubizzle.html:128
@@ -4285,8 +4288,10 @@ msgid ""
 msgstr "إضافة روابط أو عنوان الإيميل في مواصفات الإعلان أو على الصُور."
 
 #: templates/sell/why-dubizzle.html:155
+#, fuzzy
 msgid ""
-"Placing items for sale that do not exist in the selected dubizzle country."
+"Placing items for sale that do not exist in the selected dubizzle OLX "
+"country."
 msgstr "الإعلان عن شيء خارج بلد الموقع."
 
 #: templates/sell/why-dubizzle.html:159
@@ -4306,7 +4311,8 @@ msgid "Uploading rotated photos (i.e. upside down)."
 msgstr "إضافة صور مقلوبة/غير مستقيمة (راساً علي عقب)."
 
 #: templates/sell/why-dubizzle.html:170
-msgid "Not permitted in dubizzle ads:"
+#, fuzzy
+msgid "Not permitted in dubizzle OLX ads:"
 msgstr "ممنوع الإعلان عن:"
 
 #: templates/sell/why-dubizzle.html:174
@@ -4457,13 +4463,13 @@ msgid "Your ad has been successfully deleted"
 msgstr "لقد تم حذف إعلانك بنجاح."
 
 #: templates/user_profiles/my_listings.html:117
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "The following %(counter)s ad did not meet our rules and has been rejected by "
-"dubizzle support team , however you can correct and resubmit"
+"dubizzle OLX support team , however you can correct and resubmit"
 msgid_plural ""
 "The following %(counter)s ads did not meet our rules and have been rejected "
-"by dubizzle support team , however you can correct and resubmit"
+"by dubizzle OLX support team , however you can correct and resubmit"
 msgstr[0] ""
 "يبدو أن الإعلانات التالية لم يوافق عليها فريق الدعم في دوبيزل، حيث اتضح "
 "لدينا بعد مراجعتها، عدم التزامها بشروط النشر الدوبيزلاوية، لكن الخبر الجيد "
@@ -4842,6 +4848,51 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
+
+#~ msgid ""
+#~ "%(ad_title)s - Car Parts & Accessories in %(neighbourhood)s %(city)s | "
+#~ "dubizzle %(country)s"
+#~ msgstr ""
+#~ "%(ad_title)s - زينة و قطع سيارات في %(neighbourhood)s %(city)s | دوبيزل "
+#~ "%(country)s"
+
+#~ msgid ""
+#~ "%(ad_title)s - %(category_leaf)s Cars in %(neighbourhood)s %(city)s | "
+#~ "dubizzle %(country)s"
+#~ msgstr ""
+#~ "%(ad_title)s - %(category_leaf)s سيارات في %(neighbourhood)s %(city)s | "
+#~ "دوبيزل %(country)s"
+
+#~ msgid "%(ad_title)s - %(category_leaf)s Jobs | dubizzle %(country)s"
+#~ msgstr "%(ad_title)s - %(category_leaf)s وظائف شاغرة | دوبيزل %(country)s"
+
+#~ msgid "%(ad_title)s - %(category_leaf)s Jobs Wanted | dubizzle %(country)s"
+#~ msgstr "%(ad_title)s - %(category_leaf)s مطلوب للعمل | دوبيزل %(country)s"
+
+#~ msgid ""
+#~ "Free Classifieds in %(full_location)s - Jobs in %(full_location)s, "
+#~ "Property & Real Estate For Sale & Rent, Cars for Sale | dubizzle "
+#~ "%(full_location)s"
+#~ msgstr ""
+#~ "اعلانات مبوبة مجانية في %(full_location)s - وظائف شاغرة في "
+#~ "%(full_location)s, عقارات للبيع او الايجار, سيارات للبيع | دوبيزل "
+#~ "%(full_location)s"
+
+#~ msgid ""
+#~ "Free Classifieds in %(full_location)s - Buy a car, Find a Job or Buy a "
+#~ "house | dubizzle %(full_location)s"
+#~ msgstr ""
+#~ "اعلانات مبوبة مجانية في %(full_location)s - بيع سيارات, وظائف شاغرة, بيع "
+#~ "منازل | دوبيزل %(full_location)s"
+
+#~ msgid ""
+#~ "dubizzle is your free and friendly local classifieds website in "
+#~ "%(full_location)s to buy, sell and find anything. Find cars, jobs, "
+#~ "properties for rent or items for sale in %(full_location)s."
+#~ msgstr ""
+#~ "دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(full_location)s "
+#~ "لبيع وشراء أي شيء. ايجاد سيارات, وظائف شاغرة, عقارات للايجار و سلع للبيع "
+#~ "في  %(full_location)s."
 
 #, fuzzy
 #~ msgid "All of Dubizzle"
