@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-17 15:24+0400\n"
+"POT-Creation-Date: 2015-06-17 17:27+0400\n"
 "PO-Revision-Date: 2014-08-05 14:41+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Qatari <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_QA/>\n"
@@ -569,9 +569,9 @@ msgid "Wanted - Careers & Jobs in %(full_location)s | %(BRAND_NAME)s %(country)s
 msgstr "مطلوب للعمل في %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:139
-#, fuzzy, python-format
+#, python-format
 msgid "Looking to land a job in %(full_location)s? Post Your skills and experience on %(BRAND_NAME)s %(country)s's Free Job Classifieds."
-msgstr "هل تبحث عن وظيفة في %(full_location)s؟ أضف خبراتك وسيرتك الذاتية على دوبيزل %(country)s لتشاهد مجموعة من الوظائف الشاغرة"
+msgstr "هل تبحث عن وظيفة في %(full_location)s؟ أضف خبراتك وسيرتك الذاتية على %(BRAND_NAME)s %(country)s لتشاهد مجموعة من الوظائف الشاغرة"
 
 #: fuego/meta_settings.py:140
 #, python-format
@@ -699,9 +699,9 @@ msgid "properties in %(city_or_country)s, properties %(city_or_country)s, proper
 msgstr "عقارات في %(city_or_country)s، عقارات للايجار في %(city_or_country)s، عقارات للايجار، عقار للايجار، ايجار عقارات %(city_or_country)s"
 
 #: fuego/meta_settings.py:192
-#, fuzzy, python-format
+#, python-format
 msgid "House & Villas for Rent in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "بيوت وفلل للايجار في %(full_location)s - دوبيزل %(country)s"
+msgstr "بيوت وفلل للايجار في %(full_location)s - %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:193
 #, python-format
@@ -778,9 +778,9 @@ msgid "Wanted - Properties for Rent in %(full_location)s | %(BRAND_NAME)s %(coun
 msgstr "مطلوب عقارات للايجار في %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:223
-#, fuzzy, python-format
+#, python-format
 msgid "Looking to rent properties and real estate in %(full_location)s including apartments, villas, houses, and commercial properties? Post what you need now on %(BRAND_NAME)s %(country)s free classifieds."
-msgstr " هل تبحث عن أجار عقارات في %(full_location)s - فلل، منازل، شقق، عقارات تجارية وغيرها؟ أضف اعلانك الان على دوبيزل %(country)s"
+msgstr "هل تبحث عن أجار عقارات في %(full_location)s - فلل، منازل، شقق، عقارات تجارية وغيرها؟ أضف اعلانك الان على %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:224
 #, python-format
@@ -1082,9 +1082,9 @@ msgid "Items Wanted in %(full_location)s | %(BRAND_NAME)s %(country)s"
 msgstr "أشياء مطلوبة في %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:349
-#, fuzzy, python-format
+#, python-format
 msgid "List your wanted items & stuff for free on %(BRAND_NAME)s %(country)s."
-msgstr "أضف اعلان بالأشياء المطلوبة التي تحتاجها مجاناً على دوبيزل %(country)s"
+msgstr "أضف اعلان بالأشياء المطلوبة التي تحتاجها مجاناً على %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:350
 msgid "Items wanted, looking for"
@@ -1096,9 +1096,9 @@ msgid "Other Items for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
 msgstr "أشياء أخرى للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:355
-#, fuzzy, python-format
+#, python-format
 msgid "Buy & sell any other items. List your ads for free on %(BRAND_NAME)s %(country)s."
-msgstr "بيع وشراء أشياء أخرى. أضف اعلانك مجاناً على دوبيزل %(country)s"
+msgstr "بيع وشراء أشياء أخرى. أضف اعلانك مجاناً على %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:356
 #, python-format
@@ -3449,12 +3449,12 @@ msgstr "تنبيهات الإيميل"
 msgid "Delete"
 msgstr "حذف"
 
-#: utils/meta_builder.py:102
+#: utils/meta_builder.py:105
 #, python-format
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
 
-#: utils/meta_builder.py:109
+#: utils/meta_builder.py:112
 #, python-format
 msgid "%(neighbourhood)s, %(full_location)s"
 msgstr "%(neighbourhood)s، %(full_location)s"
