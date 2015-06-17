@@ -804,9 +804,9 @@ msgstr "عدد الابواب"
 #: fuego/meta_settings.py:74 fuego/meta_settings.py:80
 #: fuego/meta_settings.py:86 fuego/meta_settings.py:92
 #: fuego/meta_settings.py:98
-#, fuzzy, python-format
+#, python-format
 msgid "%(ad_title)s | %(BRAND_NAME)s %(country)s"
-msgstr "%(ad_title)s | دوبيزل اوليكس %(country)s"
+msgstr "%(ad_title)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:63 fuego/meta_settings.py:69
 #: fuego/meta_settings.py:75 fuego/meta_settings.py:81
@@ -902,9 +902,9 @@ msgid "Careers & Jobs in %(full_location)s | %(BRAND_NAME)s %(country)s"
 msgstr "وظائف شاغرة في %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:127
-#, fuzzy, python-format
+#, python-format
 msgid "Looking for vacancies and jobs in %(city_or_country)s? Search for job vacancies updated regularly with %(BRAND_NAME)s %(country)s. Send your CV for FREE."
-msgstr "هل تبحث عن وظيفة شاغرة في %(city_or_country)s؟ أبحث عن الوظائف الخالية أولاً بأول على دوبيزل %(country)s وارسل سيرتك الذاتية مجاناً."
+msgstr "هل تبحث عن وظيفة شاغرة في %(city_or_country)s؟ أبحث عن الوظائف الخالية أولاً بأول على %(BRAND_NAME)s %(country)s وارسل سيرتك الذاتية مجاناً."
 
 #: fuego/meta_settings.py:128
 #, python-format
@@ -1475,7 +1475,7 @@ msgstr "بيع واشتري اي شيء | دوبيزل احدى شركات او�
 #: fuego/meta_settings.py:365
 #, python-format
 msgid "Find the best deals from thousands of ads on dubizzle, an OLX company. Post ads & browse for real estate, cars, jobs and classifieds in %(country)s."
-msgstr ""
+msgstr "دوبيزل، احدى شركات اوليكس، هو الموقع المحلي المجاني للإعلانات المبوبة في %(country)s. وظائف شاغرة, عقارات, سيارات. أضف اعلان, بيع واشتري واستأجر."
 
 #: fuego/meta_settings.py:366 fuego/meta_settings.py:372
 #, python-format
@@ -1483,14 +1483,14 @@ msgid "dubizzle %(full_location)s, free classifieds, online classifieds, %(full_
 msgstr "دوبيزل  %(full_location)s، مبوبة مجانيه، اعلانات مبوبة عبر الإنترنت، مبوبة  %(full_location)s، اعلانات مبوبة مجانيه في %(full_location)s"
 
 #: fuego/meta_settings.py:370
-#, fuzzy, python-format
+#, python-format
 msgid "Free Classifieds in %(full_location)s | %(BRAND_NAME)s"
-msgstr "أشياء مطلوبة في %(full_location)s | دوبيزل %(country)s"
+msgstr "أشياء مطلوبة في %(full_location)s | %(BRAND_NAME)s"
 
 #: fuego/meta_settings.py:371
-#, fuzzy, python-format
+#, python-format
 msgid "%(BRAND_NAME)s is your free local classifieds website in %(full_location)s. Post ads & browse for real estate, cars, jobs and classifieds in %(country)s."
-msgstr "دوبيزل هو الموقع المحلي المجاني للاعلانات المبوبة في %(full_location)s. وظائف شاغرة, عقارات, سيارات و اعلانات مبوبة مجانية في %(full_location)s. أضف اعلان, تصفح الاعلانات, بيع واشتري واستأجر"
+msgstr "%(BRAND_NAME)s هو الموقع المحلي المجاني للاعلانات المبوبة في %(full_location)s. وظائف شاغرة، عقارات، سيارات وإعلانات مبوبة. أضف إعلان، تصفح الإعلانات، بيع واشتري واستأجر في %(country)s."
 
 #: fuego/forms/__init__.py:144
 msgid "Enter your name please, nobody likes to talk to a stranger ;)"
