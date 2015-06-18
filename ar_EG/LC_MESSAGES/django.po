@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-18 12:50+0400\n"
+"POT-Creation-Date: 2015-06-18 15:06+0400\n"
 "PO-Revision-Date: 2015-01-18 14:43+0200\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
@@ -137,9 +137,9 @@ msgid "Change country"
 msgstr "تغيير الدولة"
 
 #: country_templates/shared_landing.html:57
-#, fuzzy, python-format
+#, python-format
 msgid "Why use %(BRAND_NAME)s?"
-msgstr "لديك حساب على دوبيزل؟"
+msgstr "فوائد %(BRAND_NAME)s السبع"
 
 #: country_templates/shared_landing.html:65
 msgid "Make money"
@@ -3353,10 +3353,11 @@ msgstr "إغلاق"
 msgid "Reset"
 msgstr "إعادة ضبط"
 
-#: templates/generic.html:171
-#, fuzzy, python-format
+#: templates/generic.html:171 templates/search/category_widget.html:18
+#: templates/search/category_widget.html:35
+#, python-format
 msgid "Back to %(BRAND_NAME)s"
-msgstr "أنشئ حساب مجاني على دوبيزل"
+msgstr "الرجوع إلى صفحة %(BRAND_NAME)s"
 
 #: templates/generic.html:178
 msgid "Login"
@@ -3490,9 +3491,9 @@ msgid "You have been Logged Out!"
 msgstr "لقد تم تسجيل خروجك."
 
 #: templates/authentication/register.html:11
-#, fuzzy, python-format
+#, python-format
 msgid "Create a free account on %(BRAND_NAME)s"
-msgstr "أنشئ حساب مجاني على دوبيزل"
+msgstr "أنشئ حساب مجاني على %(BRAND_NAME)s"
 
 #: templates/authentication/register.html:27
 msgid "Register via facebook"
@@ -3538,9 +3539,9 @@ msgstr ""
 "بالضغط على سجل الآن، أنت توافق على <a href=\"%(terms_url)s\" target=\"_blank\" class=\"u-link\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link\">سياسة الخصوصية</a> لدوبيزل.                    "
 
 #: templates/authentication/register.html:137
-#, fuzzy, python-format
+#, python-format
 msgid "Already have a %(BRAND_NAME)s account?"
-msgstr "لديك حساب على دوبيزل؟"
+msgstr "لديك حساب على %(BRAND_NAME)s؟"
 
 #: templates/authentication/reset_password.html:11
 msgctxt "from_reset_pwd"
@@ -3896,9 +3897,9 @@ msgid "Captcha"
 msgstr "نريد أن نتأكد بأنك لست رجل آلي (كابتشا)"
 
 #: templates/listings/reply/reply_to_listing_include.html:126
-#, fuzzy, python-format
+#, python-format
 msgid "By clicking on 'Send my reply' I agree to the %(BRAND_NAME)s <a target=\"_blank\" class=\"u-link\" href=\"%(terms_url)s\"> terms and conditions</a> and the %(BRAND_NAME)s <a target=\"_blank\" class=\"u-link\" href=\"%(privacy_url)s\">privacy policy</a>"
-msgstr "عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\" class=\"u-link\">شروط وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\">سياسة الخصوصية</a>."
+msgstr "عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\">شروط وأحكام</a> %(BRAND_NAME)s وعلى <a href=\"%(privacy_url)s\">سياسة الخصوصية</a> %(BRAND_NAME)s"
 
 #: templates/listings/reply/reply_to_listing_include.html:148
 msgid "You did it...you're one step closer to getting what you want. Never stop searching and you'll find more of what you want."
@@ -3951,20 +3952,19 @@ msgid "example"
 msgstr "مثال"
 
 #: templates/listings/snippets/_form.html:209
-#, fuzzy
-msgid "I'm new to dubizzle OLX. I need a password."
-msgstr "ليس لدي حساب على دوبيزل"
+#, python-format
+msgid "I'm new to %(BRAND_NAME)s. I need a password."
+msgstr "ليس لدي حساب على %(BRAND_NAME)s"
 
 #: templates/listings/snippets/_form.html:215
-#, fuzzy
-msgid "I have a dubizzle OLX password"
+msgid "I have an account and a password"
 msgstr "لدي حساب وكلمة سر"
 
 #: templates/listings/snippets/_form.html:316
 #, fuzzy, python-format
 msgid ""
 "\n"
-"                By posting your ad you are agreeing to the dubizzle OLX <a href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the dubizzle OLX <a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving marketing and promotional offers.\n"
+"                By posting your ad you are agreeing to the %(BRAND_NAME)s <a href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the %(BRAND_NAME)s <a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving marketing and promotional offers.\n"
 "            "
 msgstr ""
 "\n"
@@ -4034,7 +4034,7 @@ msgstr "تعديل"
 #: templates/public/_email_form_modal.html:6
 #, python-format
 msgid "Be part of the %(BRAND_NAME)s family"
-msgstr ""
+msgstr "انضموا الى عائلة %(BRAND_NAME)s"
 
 #: templates/public/_email_form_modal.html:10
 #, python-format
@@ -4168,9 +4168,9 @@ msgid "About Us"
 msgstr "تعرف علينا"
 
 #: templates/public/home.html:22
-#, fuzzy, python-format
+#, python-format
 msgid "Free Classifieds in %(CITY_OR_COUNTRY)s on dubizzle, an OLX company"
-msgstr "إعلانات مبوبة في %(CITY_OR_COUNTRY)s - بيع واشتري واعثر على أي شيء"
+msgstr "أكبر سوق للمستعمل في %(CITY_OR_COUNTRY)s على موقع دوبيزل، احدى شركات اوليكس"
 
 #: templates/public/home.html:69
 #, python-format
@@ -4256,12 +4256,6 @@ msgstr "تصفية البحث"
 msgid "or pick a category"
 msgstr "أو اختر فئة "
 
-#: templates/search/category_widget.html:18
-#: templates/search/category_widget.html:35
-#, fuzzy, python-format
-msgid "back to %(BRAND_NAME)s"
-msgstr "أنشئ حساب مجاني على دوبيزل"
-
 #: templates/search/category_widget.html:43
 #: templates/search/category_widget.html:64
 #: templates/search/category_widget.html:86
@@ -4341,9 +4335,8 @@ msgid "Edit filters"
 msgstr "تصفية البحث"
 
 #: templates/search/widget.html:27 templates/search/widget.html.py:44
-#, fuzzy, python-format
-msgid "All of %(BRAND_NAME)s"
-msgstr "%(city)s بالكامل"
+msgid "All of dubizzle OLX"
+msgstr "الموقع بالكامل"
 
 #: templates/search/widget.html:71
 msgid "No results..."
@@ -4454,15 +4447,15 @@ msgid "Your ad has been successfully deleted"
 msgstr "لقد تم حذف إعلانك بنجاح."
 
 #: templates/user_profiles/my_listings.html:117
-#, fuzzy, python-format
+#, python-format
 msgid "The following %(counter)s ad did not meet our rules and has been rejected by %(BRAND_NAME)s support team , however you can correct and resubmit"
 msgid_plural "The following %(counter)s ads did not meet our rules and have been rejected by %(BRAND_NAME)s support team , however you can correct and resubmit"
-msgstr[0] "يبدو أن الإعلانات التالية لم يوافق عليها فريق الدعم في دوبيزل، حيث اتضح لدينا بعد مراجعتها، عدم التزامها بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديلها مرة ثانية وسنقوم بإعادة نشرها"
-msgstr[1] "يبدو أن إعلانك لم يوافق عليه فريق الدعم في دوبيزل، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
-msgstr[2] "يبدو أن الإعلانات التالية لم يوافق عليها فريق الدعم في دوبيزل، حيث اتضح لدينا بعد مراجعتها، عدم التزامها بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديلها مرة ثانية وسنقوم بإعادة نشرها"
-msgstr[3] "يبدو أن الإعلانات التالية لم يوافق عليها فريق الدعم في دوبيزل، حيث اتضح لدينا بعد مراجعتها، عدم التزامها بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديلها مرة ثانية وسنقوم بإعادة نشرها"
-msgstr[4] "يبدو أن إعلانك لم يوافق عليه فريق الدعم في دوبيزل، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
-msgstr[5] "يبدو أن إعلانك لم يوافق عليه فريق الدعم في دوبيزل، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره."
+msgstr[0] "يبدو أن الإعلانات التالية لم يوافق عليها فريق الدعم في %(BRAND_NAME)s، حيث اتضح لدينا بعد مراجعتها، عدم التزامها بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديلها مرة ثانية وسنقوم بإعادة نشرها"
+msgstr[1] "يبدو أن إعلانك لم يوافق عليه فريق الدعم في %(BRAND_NAME)s، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
+msgstr[2] "يبدو أن الإعلانات التالية لم يوافق عليها فريق الدعم في %(BRAND_NAME)s، حيث اتضح لدينا بعد مراجعتها، عدم التزامها بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديلها مرة ثانية وسنقوم بإعادة نشرها"
+msgstr[3] "يبدو أن الإعلانات التالية لم يوافق عليها فريق الدعم في %(BRAND_NAME)s، حيث اتضح لدينا بعد مراجعتها، عدم التزامها بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديلها مرة ثانية وسنقوم بإعادة نشرها"
+msgstr[4] "يبدو أن إعلانك لم يوافق عليه فريق الدعم في %(BRAND_NAME)s، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
+msgstr[5] "يبدو أن إعلانك لم يوافق عليه فريق الدعم في %(BRAND_NAME)s، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره."
 
 #: templates/user_profiles/my_listings.html:161
 msgid "Recommended suggestion:"
@@ -4798,6 +4791,17 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
 
+#, fuzzy
+#~ msgid "I have a %(BRAND_NAME)s password"
+#~ msgstr "لديك حساب على دوبيزل؟"
+
+#, fuzzy
+#~ msgid "back to %(BRAND_NAME)s"
+#~ msgstr "أنشئ حساب مجاني على دوبيزل"
+
+#~ msgid "All of %(BRAND_NAME)s"
+#~ msgstr "الموقع بالكامل"
+
 #~ msgid "dubizzle factsheet"
 #~ msgstr "صفحة بيانات دوبيزل"
 
@@ -4881,10 +4885,6 @@ msgstr "قم بأضافة صور مناسبة لاعلانك"
 #, fuzzy
 #~ msgid "back to dubizzle OLX"
 #~ msgstr "الرجوع إلى صفحة دوبيزل"
-
-#, fuzzy
-#~ msgid "All of dubizzle OLX"
-#~ msgstr "الموقع بالكامل"
 
 #~ msgid "How dubizzle works - Guide on how to use dubizzle for free online classified ads | dubizzle %(country)s"
 #~ msgstr "كيفية إستعمال والإستفادة من موقع دوبيزل - بيع واشترى اى شيء |دوبيزل %(country)s"

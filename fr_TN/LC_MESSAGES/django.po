@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-18 12:51+0400\n"
+"POT-Creation-Date: 2015-06-18 15:07+0400\n"
 "PO-Revision-Date: 2014-08-05 15:02+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_TN/>\n"
@@ -1956,7 +1956,8 @@ msgstr "Fermer"
 msgid "Reset"
 msgstr "Remettre"
 
-#: templates/generic.html:171
+#: templates/generic.html:171 templates/search/category_widget.html:18
+#: templates/search/category_widget.html:35
 #, fuzzy, python-format
 msgid "Back to %(BRAND_NAME)s"
 msgstr "Revenir en haut"
@@ -2553,20 +2554,20 @@ msgid "example"
 msgstr "exemple"
 
 #: templates/listings/snippets/_form.html:209
-#, fuzzy
-msgid "I'm new to dubizzle OLX. I need a password."
+#, fuzzy, python-format
+msgid "I'm new to %(BRAND_NAME)s. I need a password."
 msgstr "Je suis nouveau sur dubizzle. J'ai besoin d'un mot de passe."
 
 #: templates/listings/snippets/_form.html:215
 #, fuzzy
-msgid "I have a dubizzle OLX password"
+msgid "I have an account and a password"
 msgstr "J'ai un mot de passe dubizzle"
 
 #: templates/listings/snippets/_form.html:316
 #, fuzzy, python-format
 msgid ""
 "\n"
-"                By posting your ad you are agreeing to the dubizzle OLX <a href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the dubizzle OLX <a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving marketing and promotional offers.\n"
+"                By posting your ad you are agreeing to the %(BRAND_NAME)s <a href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the %(BRAND_NAME)s <a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving marketing and promotional offers.\n"
 "            "
 msgstr ""
 "\n"
@@ -2868,12 +2869,6 @@ msgstr "Affiner"
 msgid "or pick a category"
 msgstr "ou choisir une catégorie"
 
-#: templates/search/category_widget.html:18
-#: templates/search/category_widget.html:35
-#, fuzzy, python-format
-msgid "back to %(BRAND_NAME)s"
-msgstr "Revenir en haut"
-
 #: templates/search/category_widget.html:43
 #: templates/search/category_widget.html:64
 #: templates/search/category_widget.html:86
@@ -2937,9 +2932,9 @@ msgid "Edit filters"
 msgstr "Modifier les filtres"
 
 #: templates/search/widget.html:27 templates/search/widget.html.py:44
-#, fuzzy, python-format
-msgid "All of %(BRAND_NAME)s"
-msgstr "Revenir en haut"
+#, fuzzy
+msgid "All of dubizzle OLX"
+msgstr "Tout sur dubizzle"
 
 #: templates/search/widget.html:71
 msgid "No results..."
@@ -3310,6 +3305,18 @@ msgid "Add some suitable photos."
 msgstr "Ajouter quelques photos appropriés."
 
 #, fuzzy
+#~ msgid "I have a %(BRAND_NAME)s password"
+#~ msgstr "Pas encore membre?"
+
+#, fuzzy
+#~ msgid "back to %(BRAND_NAME)s"
+#~ msgstr "Revenir en haut"
+
+#, fuzzy
+#~ msgid "All of %(BRAND_NAME)s"
+#~ msgstr "Revenir en haut"
+
+#, fuzzy
 #~ msgid "dubizzle factsheet"
 #~ msgstr "dubizzle démarré"
 
@@ -3331,10 +3338,6 @@ msgstr "Ajouter quelques photos appropriés."
 
 #, fuzzy
 #~ msgid "back to dubizzle OLX"
-#~ msgstr "Tout sur dubizzle"
-
-#, fuzzy
-#~ msgid "All of dubizzle OLX"
 #~ msgstr "Tout sur dubizzle"
 
 #~ msgid "How dubizzle works - Guide on how to use dubizzle for free online classified ads | dubizzle %(country)s"
