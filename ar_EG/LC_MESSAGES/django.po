@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-17 17:27+0400\n"
+"POT-Creation-Date: 2015-06-18 12:50+0400\n"
 "PO-Revision-Date: 2015-01-18 14:43+0200\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
@@ -137,9 +137,9 @@ msgid "Change country"
 msgstr "تغيير الدولة"
 
 #: country_templates/shared_landing.html:57
-#, fuzzy
-msgid "Why use dubizzle OLX?"
-msgstr "فوائد دوبيزل السبع"
+#, fuzzy, python-format
+msgid "Why use %(BRAND_NAME)s?"
+msgstr "لديك حساب على دوبيزل؟"
 
 #: country_templates/shared_landing.html:65
 msgid "Make money"
@@ -224,7 +224,8 @@ msgid "Find the best deals on nearly a million items on dubizzle Egypt, an OLX c
 msgstr ""
 
 #: country_templates/egypt/public/landing.html:36
-msgid "dubizzle OLX the largest market for used in Egypt, you can buy and sell anything"
+#, python-format
+msgid "%(BRAND_NAME)s the largest market for used in Egypt, you can buy and sell anything"
 msgstr ""
 
 #: country_templates/egypt/public/landing.html:56
@@ -3179,18 +3180,6 @@ msgstr "كيلومترات"
 msgid "Area"
 msgstr "المساحة"
 
-#: public/views.py:295
-msgid "dubizzle factsheet"
-msgstr "صفحة بيانات دوبيزل"
-
-#: public/views.py:299
-msgid "infographic: what's it worth?"
-msgstr "بيانات تصويرية: ما هي قيمتها؟"
-
-#: public/views.py:304
-msgid "Pilar Rashad"
-msgstr "بيلار رشاد"
-
 #: search/forms.py:37
 #, python-format
 msgid "All of %(city)s"
@@ -3337,9 +3326,9 @@ msgstr ""
 "    "
 
 #: templates/generic.html:27
-#, fuzzy
-msgid "dubizzle OLX on your phone"
-msgstr "دوبيزل على موبايلك"
+#, python-format
+msgid "%(BRAND_NAME)s on your phone"
+msgstr ""
 
 #: templates/generic.html:35 templates/user_profiles/my_listings.html:29
 msgid "Your account"
@@ -3365,9 +3354,9 @@ msgid "Reset"
 msgstr "إعادة ضبط"
 
 #: templates/generic.html:171
-#, fuzzy
-msgid "Back to dubizzle OLX"
-msgstr "الرجوع إلى صفحة دوبيزل"
+#, fuzzy, python-format
+msgid "Back to %(BRAND_NAME)s"
+msgstr "أنشئ حساب مجاني على دوبيزل"
 
 #: templates/generic.html:178
 msgid "Login"
@@ -3501,8 +3490,8 @@ msgid "You have been Logged Out!"
 msgstr "لقد تم تسجيل خروجك."
 
 #: templates/authentication/register.html:11
-#, fuzzy
-msgid "Create a free account on dubizzle OLX"
+#, fuzzy, python-format
+msgid "Create a free account on %(BRAND_NAME)s"
 msgstr "أنشئ حساب مجاني على دوبيزل"
 
 #: templates/authentication/register.html:27
@@ -3542,15 +3531,15 @@ msgstr "تأكيد عنوان الإيميل"
 #, fuzzy, python-format
 msgid ""
 "\n"
-"                By clicking on Register, you agree to our <a href=\"%(terms_url)s\" target=\"_blank\" class=\"u-link\">terms & conditions</a> and the dubizzle OLX <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link\">privacy policy</a>.\n"
+"                By clicking on Register, you agree to our <a href=\"%(terms_url)s\" target=\"_blank\" class=\"u-link\">terms & conditions</a> and the %(BRAND_NAME)s <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link\">privacy policy</a>.\n"
 "            "
 msgstr ""
 "\n"
 "بالضغط على سجل الآن، أنت توافق على <a href=\"%(terms_url)s\" target=\"_blank\" class=\"u-link\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link\">سياسة الخصوصية</a> لدوبيزل.                    "
 
 #: templates/authentication/register.html:137
-#, fuzzy
-msgid "Already have a dubizzle OLX account?"
+#, fuzzy, python-format
+msgid "Already have a %(BRAND_NAME)s account?"
 msgstr "لديك حساب على دوبيزل؟"
 
 #: templates/authentication/reset_password.html:11
@@ -3693,7 +3682,7 @@ msgstr ""
 #, fuzzy, python-format
 msgid ""
 "\n"
-"                                        By posting your ad you are agreeing to the dubizzle OLX <a class=\"u-link\" href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a> and the dubizzle OLX <a class=\"u-link\" href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a>.\n"
+"                                        By posting your ad you are agreeing to the %(BRAND_NAME)s <a class=\"u-link\" href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a> and the %(BRAND_NAME)s <a class=\"u-link\" href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a>.\n"
 "                                    "
 msgstr ""
 "\n"
@@ -3908,7 +3897,7 @@ msgstr "نريد أن نتأكد بأنك لست رجل آلي (كابتشا)"
 
 #: templates/listings/reply/reply_to_listing_include.html:126
 #, fuzzy, python-format
-msgid "By clicking on 'Send my reply' I agree to the dubizzle OLX <a target=\"_blank\" class=\"u-link\" href=\"%(terms_url)s\"> terms and conditions</a> and the dubizzle OLX <a target=\"_blank\" class=\"u-link\" href=\"%(privacy_url)s\">privacy policy</a>"
+msgid "By clicking on 'Send my reply' I agree to the %(BRAND_NAME)s <a target=\"_blank\" class=\"u-link\" href=\"%(terms_url)s\"> terms and conditions</a> and the %(BRAND_NAME)s <a target=\"_blank\" class=\"u-link\" href=\"%(privacy_url)s\">privacy policy</a>"
 msgstr "عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\" class=\"u-link\">شروط وأحكام</a> دوبيزل وعلى <a href=\"%(privacy_url)s\">سياسة الخصوصية</a>."
 
 #: templates/listings/reply/reply_to_listing_include.html:148
@@ -4043,11 +4032,13 @@ msgid "Edit your ad."
 msgstr "تعديل"
 
 #: templates/public/_email_form_modal.html:6
-msgid "Be part of the dubizzle OLX family"
+#, python-format
+msgid "Be part of the %(BRAND_NAME)s family"
 msgstr ""
 
 #: templates/public/_email_form_modal.html:10
-msgid "Start selling your unused belongings and finding good deals. Sign up so you can get the latest dubizzle OLX news and try winning T-shirts and other surprises."
+#, python-format
+msgid "Start selling your unused belongings and finding good deals. Sign up so you can get the latest %(BRAND_NAME)s news and try winning T-shirts and other surprises."
 msgstr ""
 
 #: templates/public/_email_form_modal.html:15
@@ -4081,9 +4072,9 @@ msgid "Sitemap"
 msgstr "خريطة الموقع"
 
 #: templates/public/_footer.html:31
-#, fuzzy
-msgid ", dubizzle OLX, All Rights Reserved."
-msgstr ", dubizzle.com, جميع الحقوق محفوظة."
+#, python-format
+msgid ", %(BRAND_NAME)s, All Rights Reserved."
+msgstr ", %(BRAND_NAME)s, جميع الحقوق محفوظة."
 
 #: templates/public/_footer_cat_links.html:7
 #, python-format
@@ -4148,28 +4139,28 @@ msgstr "العودة الى الصفحة الرئيسية"
 
 #: templates/public/_testemonials.html:13
 #: templates/public/_testemonials.html:25
-#, fuzzy
-msgid "Nobody wanted to buy this couch. Until I found dubizzle OLX and got more than 10 calls in half an hour."
+#, fuzzy, python-format
+msgid "Nobody wanted to buy this couch. Until I found %(BRAND_NAME)s and got more than 10 calls in half an hour."
 msgstr "محدش كان عاوز يشتري الكنبة بتاعتي وساعة ما حطتها على دوبيزل جالي عشر مكالمات في نص ساعة"
 
 #: templates/public/_testemonials.html:36
-#, fuzzy
-msgid "I sold this bag on dubizzle OLX. It's free to post an ad and it's super easy and very fast. I love it!"
+#, fuzzy, python-format
+msgid "I sold this bag on %(BRAND_NAME)s. It's free to post an ad and it's super easy and very fast. I love it!"
 msgstr "أنا بعت شنطتي على دوبيزل والصراحة مفيش أسهل من كده، أنا بجد حبيت دوبيزل"
 
 #: templates/public/_testemonials.html:47
-#, fuzzy
-msgid "I placed an ad on dubizzle OLX to sell these brand new shoes. I sold them in 15 minutes!"
+#, fuzzy, python-format
+msgid "I placed an ad on %(BRAND_NAME)s to sell these brand new shoes. I sold them in 15 minutes!"
 msgstr "جبت جزمة جديدة وبعدها حسيت انها مش ستايلي و مبقتش عارف أعمل ايه لحد ما لقيت دوبيزل فبعتها عليه في ربع ساعة بس"
 
 #: templates/public/_testemonials.html:58
-#, fuzzy
-msgid "dubizzle OLX helped me sell my second phone. It was completely hassle free! I'll definitely use this site again."
+#, fuzzy, python-format
+msgid "%(BRAND_NAME)s helped me sell my second phone. It was completely hassle free! I'll definitely use this site again."
 msgstr "دوبيزل ساعدني ابيع موبايلي. العملية كانت سهلة جداً وأكيد مش هتردد في استخدامُه مرة تانيه"
 
 #: templates/public/_testemonials.html:69
-#, fuzzy
-msgid "I sold my unused laptop on dubizzle OLX! It's easy money for the things you don't use anymore!"
+#, fuzzy, python-format
+msgid "I sold my unused laptop on %(BRAND_NAME)s! It's easy money for the things you don't use anymore!"
 msgstr "بعت اللابتوب بتاعي على دوبيزل. عملت فلوس بسهوله من حاجات أنامكُنتش بستخدمها"
 
 #: templates/public/about.html:7
@@ -4199,9 +4190,8 @@ msgid "Load more"
 msgstr "ارني المزيد"
 
 #: templates/public/landing.html:46
-#, fuzzy
 msgid "Find the best deals from thousands of ads on dubizzle, an OLX company!"
-msgstr "اختر مدينتك و ابحث عن أفضل الصفقات من بين آلاف الإعلانات."
+msgstr "بيع واشتري أي شيء تتخيله على دوبيزل احدى شركات اوليكس"
 
 #: templates/public/landing.html:103
 msgid "Cars"
@@ -4234,72 +4224,6 @@ msgstr "أحصل على عرض رائع"
 #: templates/public/landing.html:166
 msgid "Meet and finish your bargain face to face."
 msgstr "اتمم الصفقة وجها لوجه"
-
-#: templates/public/press.html:17
-msgid "PRESS CENTER"
-msgstr "مركز الإعلام"
-
-#: templates/public/press.html:23
-#, fuzzy
-msgid "About dubizzle OLX"
-msgstr "ما هو موقع دوبيزل؟"
-
-#: templates/public/press.html:26
-#, fuzzy
-msgid ""
-"\n"
-"                        dubizzle OLX is a leading free classifieds website in the\n"
-"                        Middle East and North Africa. Since its launch in 2005,\n"
-"                        dubizzle OLX has become the number one platform for users\n"
-"                        to buy, sell, or find anything in their city.\n"
-"                    "
-msgstr ""
-"\n"
-"يعتبر دوبيزل الموقع الرائد للإعلانات المبوّبة في الشرق الاوسط وشمال أفريقيا. منذ انشاءه في سنة 2005، أصبح دوبيزل أفضل وسيلة لبيع و شراء أي شيء في المجتمع المحلي."
-
-#: templates/public/press.html:35
-#, fuzzy
-msgid ""
-"\n"
-"                        dubizzle OLX Egypt is managed centrally in Cairo by Ahmed\n"
-"                        Eraqi, and is headquartered in the United Arab\n"
-"                        Emirates. dubizzle OLX is also available in Algeria,\n"
-"                        Bahrain Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi\n"
-"                        Arabia, Tunisia, and the United Arab Emirates. dubizzle\n"
-"                        OLX is accessed by over 5 million unique visitors with more\n"
-"                        than 210 million page views on a monthly basis.\n"
-"                    "
-msgstr ""
-"\n"
-"يدار موقع دوبيزل مصر في القاهرة من خلال احمد عراقي، مدير دوبيزل مصر ويقع المقر الرئيسي ل دوبيزل في الامارات العربية المتحدة. دوبيزل موجود ايضا في الجزائر، البحرين، الاردن، لبنان، الكويت، عمان، قطر، السعودية و تونس. يدخل على موقع دوبيزل شهرياً اكثر من 5.5 مليون زائر، ليتصفحوا اكثر من 210 مليون صفحة شهريا."
-
-#: templates/public/press.html:49
-msgid "The numbers"
-msgstr "الارقام"
-
-#: templates/public/press.html:53
-msgid "<div class=\"numbers-content\">over<br /><span>13 million</span><br />visits a month</div>"
-msgstr "أكثر من<br/>13 مليون<br/>زيارة في الشهر"
-
-#: templates/public/press.html:57
-msgid "<div class=\"numbers-content\">over<br /><span>5.5 million</span><br />unique visitors a month</div>"
-msgstr "أكثر من<br/>5.5 مليون<br/>زائر في الشهر"
-
-#: templates/public/press.html:61
-msgid "<div class=\"numbers-content\">over<br /><span>210 million</span><br />page views a month</div>"
-msgstr "أكثر من<br/>210 مليون<br/>مشاهدة للصفحات في الشهر"
-
-#: templates/public/press.html:67
-msgid "Downloads"
-msgstr "التحميلات"
-
-#: templates/public/press.html:81
-msgid "Inquiries"
-msgstr "للاستفسارات"
-
-#: templates/public/press.html:84
-msgid "For press inquiries or more information please contact:"
-msgstr "للاستفسارات أو لمزيد من المعلومات، يرجى الاتصال ب:"
 
 #: templates/search/_pagination.html:41
 #: templates/user_profiles/my_expired_listings.html:23
@@ -4334,9 +4258,9 @@ msgstr "أو اختر فئة "
 
 #: templates/search/category_widget.html:18
 #: templates/search/category_widget.html:35
-#, fuzzy
-msgid "back to dubizzle OLX"
-msgstr "الرجوع إلى صفحة دوبيزل"
+#, fuzzy, python-format
+msgid "back to %(BRAND_NAME)s"
+msgstr "أنشئ حساب مجاني على دوبيزل"
 
 #: templates/search/category_widget.html:43
 #: templates/search/category_widget.html:64
@@ -4417,9 +4341,9 @@ msgid "Edit filters"
 msgstr "تصفية البحث"
 
 #: templates/search/widget.html:27 templates/search/widget.html.py:44
-#, fuzzy
-msgid "All of dubizzle OLX"
-msgstr "الموقع بالكامل"
+#, fuzzy, python-format
+msgid "All of %(BRAND_NAME)s"
+msgstr "%(city)s بالكامل"
 
 #: templates/search/widget.html:71
 msgid "No results..."
@@ -4531,8 +4455,8 @@ msgstr "لقد تم حذف إعلانك بنجاح."
 
 #: templates/user_profiles/my_listings.html:117
 #, fuzzy, python-format
-msgid "The following %(counter)s ad did not meet our rules and has been rejected by dubizzle OLX support team , however you can correct and resubmit"
-msgid_plural "The following %(counter)s ads did not meet our rules and have been rejected by dubizzle OLX support team , however you can correct and resubmit"
+msgid "The following %(counter)s ad did not meet our rules and has been rejected by %(BRAND_NAME)s support team , however you can correct and resubmit"
+msgid_plural "The following %(counter)s ads did not meet our rules and have been rejected by %(BRAND_NAME)s support team , however you can correct and resubmit"
 msgstr[0] "يبدو أن الإعلانات التالية لم يوافق عليها فريق الدعم في دوبيزل، حيث اتضح لدينا بعد مراجعتها، عدم التزامها بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديلها مرة ثانية وسنقوم بإعادة نشرها"
 msgstr[1] "يبدو أن إعلانك لم يوافق عليه فريق الدعم في دوبيزل، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
 msgstr[2] "يبدو أن الإعلانات التالية لم يوافق عليها فريق الدعم في دوبيزل، حيث اتضح لدينا بعد مراجعتها، عدم التزامها بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديلها مرة ثانية وسنقوم بإعادة نشرها"
@@ -4873,6 +4797,94 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
+
+#~ msgid "dubizzle factsheet"
+#~ msgstr "صفحة بيانات دوبيزل"
+
+#~ msgid "infographic: what's it worth?"
+#~ msgstr "بيانات تصويرية: ما هي قيمتها؟"
+
+#~ msgid "Pilar Rashad"
+#~ msgstr "بيلار رشاد"
+
+#~ msgid "PRESS CENTER"
+#~ msgstr "مركز الإعلام"
+
+#, fuzzy
+#~ msgid "About %(BRAND_NAME)s"
+#~ msgstr "أنشئ حساب مجاني على دوبيزل"
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "                        dubizzle OLX is a leading free classifieds website in the\n"
+#~ "                        Middle East and North Africa. Since its launch in 2005,\n"
+#~ "                        dubizzle OLX has become the number one platform for users\n"
+#~ "                        to buy, sell, or find anything in their city.\n"
+#~ "                    "
+#~ msgstr ""
+#~ "\n"
+#~ "يعتبر دوبيزل الموقع الرائد للإعلانات المبوّبة في الشرق الاوسط وشمال أفريقيا. منذ انشاءه في سنة 2005، أصبح دوبيزل أفضل وسيلة لبيع و شراء أي شيء في المجتمع المحلي."
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "                        dubizzle OLX Egypt is managed centrally in Cairo by Ahmed\n"
+#~ "                        Eraqi, and is headquartered in the United Arab\n"
+#~ "                        Emirates. dubizzle OLX is also available in Algeria,\n"
+#~ "                        Bahrain Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi\n"
+#~ "                        Arabia, Tunisia, and the United Arab Emirates. dubizzle\n"
+#~ "                        OLX is accessed by over 5 million unique visitors with more\n"
+#~ "                        than 210 million page views on a monthly basis.\n"
+#~ "                    "
+#~ msgstr ""
+#~ "\n"
+#~ "يدار موقع دوبيزل مصر في القاهرة من خلال احمد عراقي، مدير دوبيزل مصر ويقع المقر الرئيسي ل دوبيزل في الامارات العربية المتحدة. دوبيزل موجود ايضا في الجزائر، البحرين، الاردن، لبنان، الكويت، عمان، قطر، السعودية و تونس. يدخل على موقع دوبيزل شهرياً اكثر من 5.5 مليون زائر، ليتصفحوا اكثر من 210 مليون صفحة شهريا."
+
+#~ msgid "The numbers"
+#~ msgstr "الارقام"
+
+#~ msgid "<div class=\"numbers-content\">over<br /><span>13 million</span><br />visits a month</div>"
+#~ msgstr "أكثر من<br/>13 مليون<br/>زيارة في الشهر"
+
+#~ msgid "<div class=\"numbers-content\">over<br /><span>5.5 million</span><br />unique visitors a month</div>"
+#~ msgstr "أكثر من<br/>5.5 مليون<br/>زائر في الشهر"
+
+#~ msgid "<div class=\"numbers-content\">over<br /><span>210 million</span><br />page views a month</div>"
+#~ msgstr "أكثر من<br/>210 مليون<br/>مشاهدة للصفحات في الشهر"
+
+#~ msgid "Downloads"
+#~ msgstr "التحميلات"
+
+#~ msgid "Inquiries"
+#~ msgstr "للاستفسارات"
+
+#~ msgid "For press inquiries or more information please contact:"
+#~ msgstr "للاستفسارات أو لمزيد من المعلومات، يرجى الاتصال ب:"
+
+#, fuzzy
+#~ msgid "Why use dubizzle OLX?"
+#~ msgstr "فوائد دوبيزل السبع"
+
+#, fuzzy
+#~ msgid "dubizzle OLX on your phone"
+#~ msgstr "دوبيزل على موبايلك"
+
+#, fuzzy
+#~ msgid "Back to dubizzle OLX"
+#~ msgstr "الرجوع إلى صفحة دوبيزل"
+
+#, fuzzy
+#~ msgid "About dubizzle OLX"
+#~ msgstr "ما هو موقع دوبيزل؟"
+
+#, fuzzy
+#~ msgid "back to dubizzle OLX"
+#~ msgstr "الرجوع إلى صفحة دوبيزل"
+
+#, fuzzy
+#~ msgid "All of dubizzle OLX"
+#~ msgstr "الموقع بالكامل"
 
 #~ msgid "How dubizzle works - Guide on how to use dubizzle for free online classified ads | dubizzle %(country)s"
 #~ msgstr "كيفية إستعمال والإستفادة من موقع دوبيزل - بيع واشترى اى شيء |دوبيزل %(country)s"
