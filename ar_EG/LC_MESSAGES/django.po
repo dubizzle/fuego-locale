@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-18 15:06+0400\n"
+"POT-Creation-Date: 2015-06-21 11:01+0400\n"
 "PO-Revision-Date: 2015-01-18 14:43+0200\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
@@ -3315,14 +3315,14 @@ msgid "Terms of Use"
 msgstr "شروط الاستخدام"
 
 #: templates/base_terms.html:16
-#, fuzzy
+#, python-format
 msgid ""
 "\n"
-"        THIS IS A LEGAL AGREEMENT BETWEEN YOU AND DUBIZZLE.COM STATING THE TERMS THAT GOVERN YOUR USE OF THE WEBSITE. BY ACCESSING AND USING THE WEBSITE YOU AGREE TO THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS DO NOT USE THE WEBSITE. YOU MUST ACCEPT AND ABIDE BY THESE TERMS AS PRESENTED TO YOU: CHANGES, ADDITIONS OR DELETIONS ARE NOT ACCEPTABLE AND DUBIZZLE OLX MAY REFUSE ACCESS TO THE WEBSITE FOR NONCOMPLIANCE WITH ANY OF THE TERMS OF THIS AGREEMENT\n"
+"        THIS IS A LEGAL AGREEMENT BETWEEN YOU AND DUBIZZLE.COM STATING THE TERMS THAT GOVERN YOUR USE OF THE WEBSITE. BY ACCESSING AND USING THE WEBSITE YOU AGREE TO THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS DO NOT USE THE WEBSITE. YOU MUST ACCEPT AND ABIDE BY THESE TERMS AS PRESENTED TO YOU: CHANGES, ADDITIONS OR DELETIONS ARE NOT ACCEPTABLE AND %(BRAND_NAME)s MAY REFUSE ACCESS TO THE WEBSITE FOR NONCOMPLIANCE WITH ANY OF THE TERMS OF THIS AGREEMENT\n"
 "    "
 msgstr ""
 "\n"
-"ن دخول موقع dubizzle.com وإستخدامه يعني قبولك للإلتزامات القانونية المترتبة عليك وموافقتك الكاملة عليها بموجب هذه الشروط والآحكام. في حال عدم موافقتك بالشروط والأحكام أدناه يرجى عدم إستخدام موقع dubizzle.com. يجب الموافقة على هذه الشروط والأحكام بالكامل: الإضافات والتعديلات والإزالات غير مقبولة. في حال عدم الإلتزام بأي من شروط هذه الاتفاقية قد ترفض dubizzle منح الإستخدام.\n"
+"ن دخول موقع dubizzle.com وإستخدامه يعني قبولك للإلتزامات القانونية المترتبة عليك وموافقتك الكاملة عليها بموجب هذه الشروط والآحكام. في حال عدم موافقتك بالشروط والأحكام أدناه يرجى عدم إستخدام موقع dubizzle.com. يجب الموافقة على هذه الشروط والأحكام بالكامل: الإضافات والتعديلات والإزالات غير مقبولة. في حال عدم الإلتزام بأي من شروط هذه الاتفاقية قد ترفض %(BRAND_NAME)s منح الإستخدام.\n"
 "    "
 
 #: templates/generic.html:27
@@ -3529,14 +3529,14 @@ msgid "Confirm email"
 msgstr "تأكيد عنوان الإيميل"
 
 #: templates/authentication/register.html:127
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "                By clicking on Register, you agree to our <a href=\"%(terms_url)s\" target=\"_blank\" class=\"u-link\">terms & conditions</a> and the %(BRAND_NAME)s <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link\">privacy policy</a>.\n"
 "            "
 msgstr ""
 "\n"
-"بالضغط على سجل الآن، أنت توافق على <a href=\"%(terms_url)s\" target=\"_blank\" class=\"u-link\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link\">سياسة الخصوصية</a> لدوبيزل.                    "
+"بالضغط على سجل الآن، أنت توافق على <a href=\"%(terms_url)s\" target=\"_blank\" class=\"u-link\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link\">سياسة الخصوصية</a> %(BRAND_NAME)s.                    "
 
 #: templates/authentication/register.html:137
 #, python-format
@@ -4139,29 +4139,29 @@ msgstr "العودة الى الصفحة الرئيسية"
 
 #: templates/public/_testemonials.html:13
 #: templates/public/_testemonials.html:25
-#, fuzzy, python-format
+#, python-format
 msgid "Nobody wanted to buy this couch. Until I found %(BRAND_NAME)s and got more than 10 calls in half an hour."
-msgstr "محدش كان عاوز يشتري الكنبة بتاعتي وساعة ما حطتها على دوبيزل جالي عشر مكالمات في نص ساعة"
+msgstr "محدش كان عاوز يشتري الكنبة بتاعتي وساعة ما حطتها على %(BRAND_NAME)s جالي عشر مكالمات في نص ساعة"
 
 #: templates/public/_testemonials.html:36
-#, fuzzy, python-format
+#, python-format
 msgid "I sold this bag on %(BRAND_NAME)s. It's free to post an ad and it's super easy and very fast. I love it!"
-msgstr "أنا بعت شنطتي على دوبيزل والصراحة مفيش أسهل من كده، أنا بجد حبيت دوبيزل"
+msgstr "أنا بعت شنطتي على %(BRAND_NAME)s والصراحة مفيش أسهل من كده، أنا بجد حبيتها"
 
 #: templates/public/_testemonials.html:47
-#, fuzzy, python-format
+#, python-format
 msgid "I placed an ad on %(BRAND_NAME)s to sell these brand new shoes. I sold them in 15 minutes!"
-msgstr "جبت جزمة جديدة وبعدها حسيت انها مش ستايلي و مبقتش عارف أعمل ايه لحد ما لقيت دوبيزل فبعتها عليه في ربع ساعة بس"
+msgstr "جبت جزمة جديدة وبعدها حسيت انها مش ستايلي و مبقتش عارف أعمل ايه لحد ما لقيت %(BRAND_NAME)s فبعتها عليه في ربع ساعة بس"
 
 #: templates/public/_testemonials.html:58
-#, fuzzy, python-format
+#, python-format
 msgid "%(BRAND_NAME)s helped me sell my second phone. It was completely hassle free! I'll definitely use this site again."
-msgstr "دوبيزل ساعدني ابيع موبايلي. العملية كانت سهلة جداً وأكيد مش هتردد في استخدامُه مرة تانيه"
+msgstr "%(BRAND_NAME)s ساعدني ابيع موبايلي. العملية كانت سهلة جداً وأكيد مش هتردد في استخدامُه مرة تانيه"
 
 #: templates/public/_testemonials.html:69
-#, fuzzy, python-format
+#, python-format
 msgid "I sold my unused laptop on %(BRAND_NAME)s! It's easy money for the things you don't use anymore!"
-msgstr "بعت اللابتوب بتاعي على دوبيزل. عملت فلوس بسهوله من حاجات أنامكُنتش بستخدمها"
+msgstr "بعت اللابتوب بتاعي على %(BRAND_NAME)s. عملت فلوس بسهوله من حاجات أنامكُنتش بستخدمها"
 
 #: templates/public/about.html:7
 msgid "About Us"
