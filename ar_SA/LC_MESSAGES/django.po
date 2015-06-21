@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-21 11:01+0400\n"
+"POT-Creation-Date: 2015-06-21 12:23+0400\n"
 "PO-Revision-Date: 2014-08-05 14:48+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Saudi <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_SA/>\n"
@@ -278,9 +278,9 @@ msgid "%(BRAND_NAME)s"
 msgstr ""
 
 #: country_templates/saudi/public/landing.html:25
-#, fuzzy, python-format
+#, python-format
 msgid "Download the fast and FREE %(BRAND_NAME)s mobile app!"
-msgstr "حمل تطبيق دوبيزل المجاني و السريع!"
+msgstr "حمل تطبيق %(BRAND_NAME)s المجاني و السريع!"
 
 #: country_templates/saudi/public/landing.html:28
 #: country_templates/saudi/public/landing.html:29
@@ -288,9 +288,8 @@ msgid "FREE"
 msgstr ""
 
 #: country_templates/saudi/public/landing.html:43
-#, fuzzy
 msgid "Saudi Arabia's free local online classifieds community on dubizzle, an OLX company"
-msgstr "موقع الإعلانات المبوبة المجانيّة الأول فى السعودية"
+msgstr "بيع واشتري أي شيء تتخيله على دوبيزل احدى شركات اوليكس"
 
 #: country_templates/saudi/public/landing.html:50
 msgid ""
@@ -389,17 +388,16 @@ msgid "Ahmad Mutair"
 msgstr "احمد مطير"
 
 #: country_templates/saudi/public/landing.html:225
-#, fuzzy, python-format
-msgid "I’ve successfully sold my stuff, thanks %(BRAND_NAME)s!\""
-msgstr "شكراً دوبيزل لقد تم بيع ما عرضته على موقعكم !"
+#, python-format
+msgid "I’ve successfully sold my stuff, thanks %(BRAND_NAME)s!"
+msgstr "شكراً %(BRAND_NAME)s لقد تم بيع ما عرضته على موقعكم !"
 
 #: country_templates/saudi/public/landing.html:233
 msgid "Jomaan Al Ghamdi"
 msgstr "جمعان الغامدي"
 
 #: country_templates/saudi/public/landing.html:236
-#, fuzzy, python-format
-msgid " \"Thanks %(BRAND_NAME)s for all the support. I've benefited from posting and selling my stuff on your website. God bless you!"
+msgid "Thanks for all the support. I've benefited from posting and selling my stuff on your website. God bless you!"
 msgstr "حبيت أشكركم على ما تقدمونه من دعم لأنني استفدت من عرض إعلاناتي على موقعكم وتم ولله الحمد بيع الأجهزة المعروضة. لكم الأجر"
 
 #: country_templates/saudi/public/landing.html:244
@@ -2515,17 +2513,13 @@ msgid "Connecting to facebook didn't work"
 msgstr "التسجيل عبر الفيسبوك لم يتم بنجاح"
 
 #: templates/listings/manage_listing.html:335
-#, fuzzy, python-format
-msgid ""
-"\n"
-"                                        By posting your ad you are agreeing to the %(BRAND_NAME)s <a class=\"u-link\" href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a> and the %(BRAND_NAME)s <a class=\"u-link\" href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a>.\n"
-"                                    "
-msgstr ""
-"\n"
-"قيامك بنشر إعلانك، يعني أنك قد وافقت على <a href=\"%(terms_url)s\" target=\"_blank\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\">سياسة الخصوصية</a> لموقع دوبيزل."
+#: templates/listings/snippets/_form.html:316
+#, python-format
+msgid "By posting your ad you are agreeing to the %(BRAND_NAME)s <a class=\"u-link\" href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a> and <a class=\"u-link\" href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a>."
+msgstr "قيامك بنشر إعلانك، يعني أنك قد وافقت على <a href=\"%(terms_url)s\" target=\"_blank\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\">سياسة الخصوصية</a> لموقع %(BRAND_NAME)s."
 
-#: templates/listings/manage_listing.html:344
-#: templates/listings/snippets/_form.html:324
+#: templates/listings/manage_listing.html:342
+#: templates/listings/snippets/_form.html:322
 msgid "Yalla! Publish my ad"
 msgstr "يلا...انشر اعلاني!"
 
@@ -2795,16 +2789,6 @@ msgstr "ليس لدي حساب على %(BRAND_NAME)s"
 msgid "I have an account and a password"
 msgstr "لدي حساب وكلمة سر"
 
-#: templates/listings/snippets/_form.html:316
-#, fuzzy, python-format
-msgid ""
-"\n"
-"                By posting your ad you are agreeing to the %(BRAND_NAME)s <a href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the %(BRAND_NAME)s <a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving marketing and promotional offers.\n"
-"            "
-msgstr ""
-"\n"
-"عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" class=\"u-link\" target=\"_blank\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link\">سياسة الخصوصية</a> لدوبيزل، بالإضافة إلى قبول عروض تسويقية."
-
 #: templates/listings/snippets/_scam_warning.html:4
 msgid "Never wire money or financial info to a seller on the internet."
 msgstr "لا تُشارك معلوماتك البنكية أو المالية مع أي شخص تعرفت عليه عن طريق الإنترنت (لا ترسل شيكات أو دفعة مالية مقدمة ولا أي شي مثله)"
@@ -2872,9 +2856,9 @@ msgid "Be part of the %(BRAND_NAME)s family"
 msgstr "انضموا الى عائلة %(BRAND_NAME)s"
 
 #: templates/public/_email_form_modal.html:10
-#, fuzzy, python-format
+#, python-format
 msgid "Start selling your unused belongings and finding good deals. Sign up so you can get the latest %(BRAND_NAME)s news and try winning T-shirts and other surprises."
-msgstr "ابدأ ببيع ما لاتحتاجه وابحث عن عروض رهيبة. انضموا لتصلكم اخبار دوبيزل بالسعودية أول بأول ولدخول السحب على تي شيرت ومفاجآت أخرى"
+msgstr "ابدأ ببيع ما لاتحتاجه وابحث عن عروض رهيبة. انضموا لتصلكم اخبار %(BRAND_NAME)s بالسعودية أول بأول ولدخول السحب على تي شيرت ومفاجآت أخرى"
 
 #: templates/public/_email_form_modal.html:15
 msgid "Please insert your email or phone number"
@@ -3108,11 +3092,6 @@ msgid "in"
 msgstr "في"
 
 #: templates/search/search.html:62
-#, fuzzy
-msgid ", "
-msgstr "،"
-
-#: templates/search/search.html:62
 msgid ","
 msgstr "،"
 
@@ -3276,7 +3255,7 @@ msgid "Your ad has been successfully deleted"
 msgstr "لقد تم حذف إعلانك بنجاح."
 
 #: templates/user_profiles/my_listings.html:117
-#, fuzzy, python-format
+#, python-format
 msgid "The following %(counter)s ad did not meet our rules and has been rejected by %(BRAND_NAME)s support team , however you can correct and resubmit"
 msgid_plural "The following %(counter)s ads did not meet our rules and have been rejected by %(BRAND_NAME)s support team , however you can correct and resubmit"
 msgstr[0] "يبدو أن إعلانك لم يوافق عليه فريق الدعم في %(BRAND_NAME)s، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط النشر ، لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
@@ -3502,7 +3481,6 @@ msgid "Email alerts"
 msgstr "تنبيهات الإيميل"
 
 #: templates/user_profiles/my_saved_searches.html:72
-#, fuzzy
 msgid "Delete"
 msgstr "حذف"
 
@@ -3534,7 +3512,6 @@ msgid "language"
 msgstr "اللغة"
 
 #: utils/prettify_filters.py:117
-#, fuzzy
 msgid "keywords"
 msgstr "كلمات البحث"
 

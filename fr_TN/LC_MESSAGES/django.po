@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-21 11:02+0400\n"
+"POT-Creation-Date: 2015-06-21 12:14+0400\n"
 "PO-Revision-Date: 2014-08-05 15:02+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_TN/>\n"
@@ -2282,17 +2282,15 @@ msgid "Connecting to facebook didn't work"
 msgstr "La connexion à Facebook a échoué"
 
 #: templates/listings/manage_listing.html:335
+#: templates/listings/snippets/_form.html:316
 #, fuzzy, python-format
-msgid ""
-"\n"
-"                                        By posting your ad you are agreeing to the %(BRAND_NAME)s <a class=\"u-link\" href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a> and the %(BRAND_NAME)s <a class=\"u-link\" href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a>.\n"
-"                                    "
+msgid "By posting your ad you are agreeing to the %(BRAND_NAME)s <a class=\"u-link\" href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a> and <a class=\"u-link\" href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a>."
 msgstr ""
 "\n"
 "En postant une annonce, vous acceptez tous <a href=\"%(terms_url)s\" class=\"u-link\" target=\"_blank\">les termes et conditions</a> de dubizzle, <a href=\"%(privacy_url)s\" target=\"_blank\">la politique de confidentialité</a> de dubizzle.                    "
 
-#: templates/listings/manage_listing.html:344
-#: templates/listings/snippets/_form.html:324
+#: templates/listings/manage_listing.html:342
+#: templates/listings/snippets/_form.html:322
 msgid "Yalla! Publish my ad"
 msgstr "Yalla! Publiez mon annonce"
 
@@ -2562,17 +2560,6 @@ msgstr "Je suis nouveau sur dubizzle. J'ai besoin d'un mot de passe."
 #, fuzzy
 msgid "I have an account and a password"
 msgstr "J'ai un mot de passe dubizzle"
-
-#: templates/listings/snippets/_form.html:316
-#, fuzzy, python-format
-msgid ""
-"\n"
-"                By posting your ad you are agreeing to the %(BRAND_NAME)s <a href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the %(BRAND_NAME)s <a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving marketing and promotional offers.\n"
-"            "
-msgstr ""
-"\n"
-"En postant une annonce, vous acceptez tous <a href=\"%(terms_url)s\" class=\"u-link\" target=\"_blank\">les termes et conditions</a> de dubizzle, <a href=\"%(privacy_url)s\" target=\"_blank\">la politique de confidentialité</a> de dubizzle.\n"
-"                    "
 
 #: templates/listings/snippets/_scam_warning.html:4
 msgid "Never wire money or financial info to a seller on the internet."
@@ -2890,11 +2877,6 @@ msgstr "Vous pouvez encore trouver ce que vous chercher en continuant de navigue
 #: templates/search/search.html:62
 msgid "in"
 msgstr "en"
-
-#: templates/search/search.html:62
-#, fuzzy
-msgid ", "
-msgstr ","
 
 #: templates/search/search.html:62
 msgid ","
@@ -3303,6 +3285,20 @@ msgstr "Votre annonce avait impropre photo."
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "Ajouter quelques photos appropriés."
+
+#, fuzzy
+#~ msgid ", "
+#~ msgstr ","
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "                By posting your ad you are agreeing to the %(BRAND_NAME)s <a href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a> and <a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving marketing and promotional offers.\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "En postant une annonce, vous acceptez tous <a href=\"%(terms_url)s\" class=\"u-link\" target=\"_blank\">les termes et conditions</a> de dubizzle, <a href=\"%(privacy_url)s\" target=\"_blank\">la politique de confidentialité</a> de dubizzle.\n"
+#~ "                    "
 
 #, fuzzy
 #~ msgid "I have a %(BRAND_NAME)s password"

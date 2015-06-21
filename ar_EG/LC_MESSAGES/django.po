@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-21 11:01+0400\n"
+"POT-Creation-Date: 2015-06-21 12:13+0400\n"
 "PO-Revision-Date: 2015-01-18 14:43+0200\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
@@ -2924,7 +2924,6 @@ msgid "We need your mobile number for verification."
 msgstr "من فضلك ادخل رقم الموبايل لكي نتأكد من صلاحية حسابك."
 
 #: listings/forms.py:164
-#, fuzzy
 msgid "Enter a valid mobile number."
 msgstr "لقد قمت بوضع رقم موبايل غير صحيح."
 
@@ -3680,17 +3679,13 @@ msgid "Connecting to facebook didn't work"
 msgstr ""
 
 #: templates/listings/manage_listing.html:335
-#, fuzzy, python-format
-msgid ""
-"\n"
-"                                        By posting your ad you are agreeing to the %(BRAND_NAME)s <a class=\"u-link\" href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a> and the %(BRAND_NAME)s <a class=\"u-link\" href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a>.\n"
-"                                    "
-msgstr ""
-"\n"
-"قيامك بنشر إعلانك، يعني أنك قد وافقت على <a href=\"%(terms_url)s\" target=\"_blank\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\">سياسة الخصوصية</a> لموقع دوبيزل."
+#: templates/listings/snippets/_form.html:316
+#, python-format
+msgid "By posting your ad you are agreeing to the %(BRAND_NAME)s <a class=\"u-link\" href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a> and <a class=\"u-link\" href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a>."
+msgstr "قيامك بنشر إعلانك، يعني أنك قد وافقت على <a href=\"%(terms_url)s\" target=\"_blank\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\">سياسة الخصوصية</a> لموقع %(BRAND_NAME)s."
 
-#: templates/listings/manage_listing.html:344
-#: templates/listings/snippets/_form.html:324
+#: templates/listings/manage_listing.html:342
+#: templates/listings/snippets/_form.html:322
 msgid "Yalla! Publish my ad"
 msgstr "يلا...انشر اعلاني!"
 
@@ -3960,16 +3955,6 @@ msgstr "ليس لدي حساب على %(BRAND_NAME)s"
 msgid "I have an account and a password"
 msgstr "لدي حساب وكلمة سر"
 
-#: templates/listings/snippets/_form.html:316
-#, fuzzy, python-format
-msgid ""
-"\n"
-"                By posting your ad you are agreeing to the %(BRAND_NAME)s <a href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the %(BRAND_NAME)s <a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving marketing and promotional offers.\n"
-"            "
-msgstr ""
-"\n"
-"عند إضافة إعلانك أنت توافق على <a href=\"%(terms_url)s\" class=\"u-link\" target=\"_blank\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link\">سياسة الخصوصية</a> لدوبيزل، بالإضافة إلى قبول عروض تسويقية.            "
-
 #: templates/listings/snippets/_scam_warning.html:4
 msgid "Never wire money or financial info to a seller on the internet."
 msgstr "لا تُشارك معلوماتك البنكية أو المالية مع أي شخص تعرفت عليه عن طريق الإنترنت (لا ترسل شيكات أو دفعة مالية مقدمة ولا أي شي مثله)"
@@ -4046,7 +4031,6 @@ msgid "Please insert your email or phone number"
 msgstr ""
 
 #: templates/public/_email_form_modal.html:23
-#, fuzzy
 msgid "Your phone number"
 msgstr "رقم الموبايل"
 
@@ -4059,9 +4043,8 @@ msgid "Send"
 msgstr "أرسل"
 
 #: templates/public/_email_form_modal.html:34
-#, fuzzy
 msgid "You have successfully subscribed."
-msgstr "لقد تم حذف إعلانك بنجاح."
+msgstr "تم انضمامك بنجاح"
 
 #: templates/public/_footer.html:15
 msgid "Help"
@@ -4277,11 +4260,6 @@ msgstr "لكن على فكرة، مازال بإمكانك الاستمتاع ب
 #: templates/search/search.html:62
 msgid "in"
 msgstr "في"
-
-#: templates/search/search.html:62
-#, fuzzy
-msgid ", "
-msgstr "،"
 
 #: templates/search/search.html:62
 msgid ","
