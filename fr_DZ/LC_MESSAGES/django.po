@@ -777,13 +777,12 @@ msgid "Possible fraud"
 msgstr "Possible fraude"
 
 #: fuego/dt_translations.py:10
-#, fuzzy
 msgid "neighbourhood"
-msgstr "Voisinage"
+msgstr "voisinage"
 
 #: fuego/dt_translations.py:11
 msgid "city"
-msgstr ""
+msgstr "ville"
 
 #: fuego/dt_translations.py:12
 msgid "Engine Size"
@@ -1665,9 +1664,8 @@ msgid "We need your mobile number for verification."
 msgstr "Merci de nous communiquer votre numéro de portable pour vérification."
 
 #: listings/forms.py:164
-#, fuzzy
 msgid "Enter a valid mobile number."
-msgstr "Le numéro de téléphone que vous avez mentionné n' est pas valable"
+msgstr "Le numéro de téléphone que vous avez mentionné n'est pas valable"
 
 #: listings/forms.py:166 templates/listings/snippets/_form.html:180
 msgid "We need mobile numbers to verify accounts and to detect scammers. Don't worry, you can choose not to show your mobile number in the ad (see option below)."
@@ -1797,7 +1795,6 @@ msgid "Number of Doors"
 msgstr "Nombre de portes"
 
 #: listings/forms.py:528
-#, fuzzy
 msgid "Please specify the number of doors"
 msgstr "Veuillez spécifier le nombre de portes"
 
@@ -2063,14 +2060,14 @@ msgid "Terms of Use"
 msgstr "Conditions d'utilisation"
 
 #: templates/base_terms.html:16
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "        THIS IS A LEGAL AGREEMENT BETWEEN YOU AND DUBIZZLE.COM STATING THE TERMS THAT GOVERN YOUR USE OF THE WEBSITE. BY ACCESSING AND USING THE WEBSITE YOU AGREE TO THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS DO NOT USE THE WEBSITE. YOU MUST ACCEPT AND ABIDE BY THESE TERMS AS PRESENTED TO YOU: CHANGES, ADDITIONS OR DELETIONS ARE NOT ACCEPTABLE AND %(BRAND_NAME)s MAY REFUSE ACCESS TO THE WEBSITE FOR NONCOMPLIANCE WITH ANY OF THE TERMS OF THIS AGREEMENT\n"
 "    "
 msgstr ""
 "\n"
-"CECI EST UN ACCORD JURIDIQUE ENTRE VOUS ET DUBIZZLE.COM PRECISANT LES CONDITIONS QUI REGISSENT VOTRE UTILISATION DU SITE WEB. EN ACCÉDANT ET EN UTILISANT CE SITE WEB VOUS ACCEPTEZ CES CONDITIONS. SI VOUS N'ĘTES PAS D'ACCORD AVEC ELLES N'UTILISEZ PAS LE SITE. VOUS DEVEZ ACCEPTER CES CONDITIONS TELLES QUELLES : LES MODIFICATIONS, AJOUTS OU SUPRESSIONS NE SONT PAS ACCEPTABLES ET DUBIZZLE PEUT REFUSER L'ACCES AU SITE POUR NON CONFORMITE AVEC L'ENSEMBLE DES TERMES DU PRÉSENT CONTRAT.\n"
+"CECI EST UN ACCORD JURIDIQUE ENTRE VOUS ET DUBIZZLE.COM PRECISANT LES CONDITIONS QUI REGISSENT VOTRE UTILISATION DU SITE WEB. EN ACCÉDANT ET EN UTILISANT CE SITE WEB VOUS ACCEPTEZ CES CONDITIONS. SI VOUS N'ĘTES PAS D'ACCORD AVEC ELLES N'UTILISEZ PAS LE SITE. VOUS DEVEZ ACCEPTER CES CONDITIONS TELLES QUELLES : LES MODIFICATIONS, AJOUTS OU SUPRESSIONS NE SONT PAS ACCEPTABLES ET %(BRAND_NAME)s PEUT REFUSER L'ACCES AU SITE POUR NON CONFORMITE AVEC L'ENSEMBLE DES TERMES DU PRÉSENT CONTRAT.\n"
 "    "
 
 #: templates/generic.html:27
@@ -2103,9 +2100,9 @@ msgstr "Remettre"
 
 #: templates/generic.html:171 templates/search/category_widget.html:18
 #: templates/search/category_widget.html:35
-#, fuzzy, python-format
+#, python-format
 msgid "Back to %(BRAND_NAME)s"
-msgstr "Revenir en haut"
+msgstr "Revenir en %(BRAND_NAME)s"
 
 #: templates/generic.html:178
 msgid "Login"
@@ -2238,9 +2235,9 @@ msgid "You have been Logged Out!"
 msgstr "Vous avez été déconnecté!"
 
 #: templates/authentication/register.html:11
-#, fuzzy, python-format
+#, python-format
 msgid "Create a free account on %(BRAND_NAME)s"
-msgstr "Créer un compte gratuitement"
+msgstr "Créer un compte gratuitement sur %(BRAND_NAME)s"
 
 #: templates/authentication/register.html:27
 msgid "Register via facebook"
@@ -2276,19 +2273,19 @@ msgid "Confirm email"
 msgstr "Confirmez votre adresse email"
 
 #: templates/authentication/register.html:127
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "                By clicking on Register, you agree to our <a href=\"%(terms_url)s\" target=\"_blank\" class=\"u-link\">terms & conditions</a> and the %(BRAND_NAME)s <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link\">privacy policy</a>.\n"
 "            "
 msgstr ""
 "\n"
-"En cliquant sur Inscription, vous confirmez avoir lu et accepté nos <a href=\"%(terms_url)s\" target=\"_blank\" class=\"u-link\">termes et conditions</a> ainsi que notre <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link\">politique de confidentialité.</a>.                    "
+"En cliquant sur Inscription, vous confirmez avoir lu et accepté les <a href=\"%(terms_url)s\" target=\"_blank\" class=\"u-link\">termes et conditions</a> ainsi que la <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link\">politique de confidentialité de %(BRAND_NAME)s.</a>.                    "
 
 #: templates/authentication/register.html:137
-#, fuzzy, python-format
+#, python-format
 msgid "Already have a %(BRAND_NAME)s account?"
-msgstr "Pas encore membre?"
+msgstr "Vous avez déjà un compte %(BRAND_NAME)s?"
 
 #: templates/authentication/reset_password.html:11
 msgctxt "from_reset_pwd"
@@ -2428,11 +2425,9 @@ msgstr "La connexion à Facebook a échoué"
 
 #: templates/listings/manage_listing.html:335
 #: templates/listings/snippets/_form.html:316
-#, fuzzy, python-format
+#, python-format
 msgid "By posting your ad you are agreeing to the %(BRAND_NAME)s <a class=\"u-link\" href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a> and <a class=\"u-link\" href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a>."
-msgstr ""
-"\n"
-"En postant une annonce, vous acceptez tous <a href=\"%(terms_url)s\" class=\"u-link\" target=\"_blank\">les termes et conditions</a> de dubizzle, <a href=\"%(privacy_url)s\" target=\"_blank\">la politique de confidentialité</a> de dubizzle.                    "
+msgstr "En postant une annonce, vous acceptez tous <a href=\"%(terms_url)s\" class=\"u-link\" target=\"_blank\">les termes et conditions</a> de %(BRAND_NAME)s, <a href=\"%(privacy_url)s\" target=\"_blank\">la politique de confidentialité</a> de %(BRAND_NAME)s."
 
 #: templates/listings/manage_listing.html:342
 #: templates/listings/snippets/_form.html:322
@@ -2642,9 +2637,9 @@ msgid "Captcha"
 msgstr "Etes-vous humain? (Captcha)"
 
 #: templates/listings/reply/reply_to_listing_include.html:126
-#, fuzzy, python-format
+#, python-format
 msgid "By clicking on 'Send my reply' I agree to the %(BRAND_NAME)s <a target=\"_blank\" class=\"u-link\" href=\"%(terms_url)s\"> terms and conditions</a> and the %(BRAND_NAME)s <a target=\"_blank\" class=\"u-link\" href=\"%(privacy_url)s\">privacy policy</a>"
-msgstr "En cliquant sur 'Envoyer ma réponse', j'accepte les <a href=\"%(terms_url)s\">termes et conditions</a> de dubizzle et la <a href=\"%(privacy_url)s\">politique de confidentialité</a> de dubizzle"
+msgstr "En cliquant sur 'Envoyer ma réponse', j'accepte les <a href=\"%(terms_url)s\">termes et conditions</a> de %(BRAND_NAME)s et la <a href=\"%(privacy_url)s\">politique de confidentialité</a> de %(BRAND_NAME)s"
 
 #: templates/listings/reply/reply_to_listing_include.html:148
 msgid "You did it...you're one step closer to getting what you want. Never stop searching and you'll find more of what you want."
@@ -2697,14 +2692,13 @@ msgid "example"
 msgstr "exemple"
 
 #: templates/listings/snippets/_form.html:209
-#, fuzzy, python-format
+#, python-format
 msgid "I'm new to %(BRAND_NAME)s. I need a password."
-msgstr "Je suis nouveau sur dubizzle. J'ai besoin d'un mot de passe."
+msgstr "Je suis nouveau sur %(BRAND_NAME)s. J'ai besoin d'un mot de passe."
 
 #: templates/listings/snippets/_form.html:215
-#, fuzzy
 msgid "I have an account and a password"
-msgstr "J'ai un mot de passe dubizzle"
+msgstr "J'ai un compte et un mot de passe"
 
 #: templates/listings/snippets/_scam_warning.html:4
 msgid "Never wire money or financial info to a seller on the internet."
@@ -2768,9 +2762,9 @@ msgid "Edit your ad."
 msgstr "Modifier cette annonce"
 
 #: templates/public/_email_form_modal.html:6
-#, fuzzy, python-format
+#, python-format
 msgid "Be part of the %(BRAND_NAME)s family"
-msgstr "Revenir en haut"
+msgstr ""
 
 #: templates/public/_email_form_modal.html:10
 #, python-format
@@ -2782,7 +2776,6 @@ msgid "Please insert your email or phone number"
 msgstr ""
 
 #: templates/public/_email_form_modal.html:23
-#, fuzzy
 msgid "Your phone number"
 msgstr "Votre numéro de téléphone portable"
 
@@ -2795,9 +2788,8 @@ msgid "Send"
 msgstr "Envoyer"
 
 #: templates/public/_email_form_modal.html:34
-#, fuzzy
 msgid "You have successfully subscribed."
-msgstr "Votre annonce a été supprimée avec succès"
+msgstr ""
 
 #: templates/public/_footer.html:15
 msgid "Help"
@@ -2808,9 +2800,9 @@ msgid "Sitemap"
 msgstr "Plan du site"
 
 #: templates/public/_footer.html:31
-#, fuzzy, python-format
+#, python-format
 msgid ", %(BRAND_NAME)s, All Rights Reserved."
-msgstr ", dubizzle.com, Tous droits réservés."
+msgstr ", %(BRAND_NAME)s, Tous droits réservés."
 
 #: templates/public/_footer_cat_links.html:7
 #, python-format
@@ -2904,9 +2896,9 @@ msgid "About Us"
 msgstr "A propos de nous"
 
 #: templates/public/home.html:22
-#, fuzzy, python-format
+#, python-format
 msgid "Free Classifieds in %(CITY_OR_COUNTRY)s on dubizzle, an OLX company"
-msgstr "Petites Annonces Gratuites à %(CITY_OR_COUNTRY)s - Acheter, vendre et trouver quelque chose"
+msgstr "Petites Annonces Gratuites à %(CITY_OR_COUNTRY)s - dubizzle, membre du group OLX"
 
 #: templates/public/home.html:69
 #, python-format
@@ -2934,9 +2926,8 @@ msgid "Change country"
 msgstr "Changer de pays"
 
 #: templates/public/landing.html:46
-#, fuzzy
 msgid "Find the best deals from thousands of ads on dubizzle, an OLX company!"
-msgstr "Sélectionnez votre ville et trouver les meilleurs prix parmi des milliers d'annonces!"
+msgstr "Trouvez les meilleurs affaires parmi des milliers d'annonces sur dubizzle, membre du group OLX!"
 
 #: templates/public/landing.html:103
 msgid "Cars"
@@ -3057,9 +3048,8 @@ msgid "Edit filters"
 msgstr "Modifier les filtres"
 
 #: templates/search/widget.html:27 templates/search/widget.html.py:44
-#, fuzzy
 msgid "All of dubizzle OLX"
-msgstr "Tout sur dubizzle"
+msgstr "Tout sur dubizzle OLX"
 
 #: templates/search/widget.html:71
 msgid "No results..."
@@ -3136,11 +3126,11 @@ msgid "Your ad has been successfully deleted"
 msgstr "Votre annonce a été supprimée avec succès"
 
 #: templates/user_profiles/my_listings.html:117
-#, fuzzy, python-format
+#, python-format
 msgid "The following %(counter)s ad did not meet our rules and has been rejected by %(BRAND_NAME)s support team , however you can correct and resubmit"
 msgid_plural "The following %(counter)s ads did not meet our rules and have been rejected by %(BRAND_NAME)s support team , however you can correct and resubmit"
-msgstr[0] "Votre annonce a été rejetée par l'equipe de support dubizzle pour des raisons qui se contredisent avec les règles et conditions de rédaction du Site, nous vous conseillons de déposer votre annonce enore une fois avec les corrections nécessaires."
-msgstr[1] "Les annonces suivantes ont été rejetées par l'equipe de support dubizzle pour des raisons qui se contredisent avec les règles et les conditions de rédaction du Site, nous vous conseillons de déposer vos annonces enore une fois avec les corrections nécessaires."
+msgstr[0] "Votre annonce a été rejetée par l'equipe de support %(BRAND_NAME)s pour des raisons qui se contredisent avec les règles et conditions de rédaction du Site, nous vous conseillons de déposer votre annonce enore une fois avec les corrections nécessaires."
+msgstr[1] "Les annonces suivantes ont été rejetées par l'equipe de support %(BRAND_NAME)s pour des raisons qui se contredisent avec les règles et les conditions de rédaction du Site, nous vous conseillons de déposer vos annonces enore une fois avec les corrections nécessaires."
 
 #: templates/user_profiles/my_listings.html:161
 msgid "Recommended suggestion:"
@@ -3308,7 +3298,6 @@ msgid "Email alerts"
 msgstr "Les alertes par email"
 
 #: templates/user_profiles/my_saved_searches.html:72
-#, fuzzy
 msgid "Delete"
 msgstr "Supprimer"
 
@@ -3340,14 +3329,12 @@ msgid "language"
 msgstr "langue"
 
 #: utils/prettify_filters.py:117
-#, fuzzy
 msgid "keywords"
-msgstr "Mots-clés"
+msgstr "mots-clés"
 
 #: utils/prettify_filters.py:132
-#, fuzzy
 msgid "price"
-msgstr "Prix"
+msgstr "prix"
 
 #: utils/prettify_filters.py:136
 msgid "photos"
@@ -3428,839 +3415,3 @@ msgstr "Votre annonce avait impropre photo."
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "Ajouter quelques photos appropriés."
-
-#, fuzzy
-#~ msgid ", "
-#~ msgstr ","
-
-#, fuzzy
-#~ msgid ""
-#~ "\n"
-#~ "                By posting your ad you are agreeing to the %(BRAND_NAME)s <a href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a> and <a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving marketing and promotional offers.\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "En postant une annonce, vous acceptez tous <a href=\"%(terms_url)s\" class=\"u-link\" target=\"_blank\">les termes et conditions</a> de dubizzle, <a href=\"%(privacy_url)s\" target=\"_blank\">la politique de confidentialité</a> de dubizzle et de recevoir des offres promotionnelles.                    "
-
-#, fuzzy
-#~ msgid "I have a %(BRAND_NAME)s password"
-#~ msgstr "Pas encore membre?"
-
-#, fuzzy
-#~ msgid "back to %(BRAND_NAME)s"
-#~ msgstr "Revenir en haut"
-
-#, fuzzy
-#~ msgid "All of %(BRAND_NAME)s"
-#~ msgstr "Revenir en haut"
-
-#, fuzzy
-#~ msgid "dubizzle factsheet"
-#~ msgstr "dubizzle démarré"
-
-#, fuzzy
-#~ msgid "About %(BRAND_NAME)s"
-#~ msgstr "Revenir en haut"
-
-#, fuzzy
-#~ msgid "The numbers"
-#~ msgstr "Afficher le numéro de téléphone portable"
-
-#, fuzzy
-#~ msgid "Back to dubizzle OLX"
-#~ msgstr "Retour a dubizzle"
-
-#, fuzzy
-#~ msgid "About dubizzle OLX"
-#~ msgstr "Tout sur dubizzle"
-
-#, fuzzy
-#~ msgid "back to dubizzle OLX"
-#~ msgstr "Tout sur dubizzle"
-
-#~ msgid "How dubizzle works - Guide on how to use dubizzle for free online classified ads | dubizzle %(country)s"
-#~ msgstr "Comment dubizzle fonctionne - guide d'ulilisation de dubizzle pour les petites annonces gratuites en ligne | dubizzle %(country)s"
-
-#~ msgid "Here's a guide on how to use dubizzle to sell, buy and find anything in your city. Free classified ads in %(country)s"
-#~ msgstr "Voici un petit guide sur la façon d'utiliser dubizzle pour acheter, vendre et trouver n'importe quoi dans votre ville. Petites annonces gratuites en %(country)s"
-
-#~ msgid "Why use dubizzle - Post your classified ad for FREE and make money instantly | dubizzle %(country)s"
-#~ msgstr "Pourquoi utiliser dubizzle - Publiez gratuitemenet votre annonce et faites de l'argent instantanément | dubizzle %(country)s"
-
-#~ msgid "Turn your unused items into cash by placing an ad for free with a few simple steps. Find and connect with thousands of buyers in your city and neighborhood."
-#~ msgstr "transformer vos objets inutilisés en argent en plaçant une annonce gratuite en quelques étapes simples. Trouver et se connecter avec des milliers d'acheteurs dans votre ville et quartier."
-
-#~ msgid "How dubizzle works - Guide on how to use dubizzle for free online classifieds ads | dubizzle %(country)s"
-#~ msgstr "Comment dubizzle fonctionne - guide d'ulilisation de dubizzle pour les petites annonces gratuites en ligne | dubizzle %(country)s"
-
-#~ msgid "Here's a guide on how to use dubizzle to sell, buy, find anything in your city. Free classified ads in %(country)s"
-#~ msgstr "Voici un petit guide sur la façon d'utiliser dubizzle pour acheter, vendre et trouver n'importe quoi dans votre ville. Petites annonces gratuites en %(country)s"
-
-#~ msgid "How to post an ad - Best practices on writing effective ads for dubizzle | dubizzle %(country)s"
-#~ msgstr "Comment publier une annonce - Les meilleures pratiques sur la rédaction d'annonces efficaces pour dubizzle | dubizzle %(country)s"
-
-#~ msgid "Learn how to write compelling titles, descriptions and how to take photos of your items for sale on dubizzle. Share your ad on social networks to get more potential buyers."
-#~ msgstr "Apprendre à rédiger des titres et des descriptions convainquantes et comment  prendre des photos de vos articles à vendre sur dubizzle. Partagez votre annonce sur les réseaux sociaux pour trouver plus d'acheteurs potentiels."
-
-#~ msgid "Excellent classified ads - badass dubizzle ads | dubizzle %(country)s"
-#~ msgstr "Excellentes petites annonces sur dubizzle | dubizzle %(country)s"
-
-#~ msgid "Look at some of dubizzle's best written classified ads for cars, items for sale, property and more. Learn from dubizzlers on how to write the most effective classified ads on dubizzle."
-#~ msgstr "Consultez quelques-unes des meilleures annonces publiés sur dubizzle dans les catégories automobiles, articles à vendre, propriétés et encore plus . Apprenez d'apres les dubizzlers comment rédiger les annonces les plus efficaces."
-
-#~ msgid "Browse"
-#~ msgstr "Parcourir"
-
-#~ msgid "My Account"
-#~ msgstr "Mon compte"
-
-#~ msgid ""
-#~ "\n"
-#~ "                            Egypt's #1 classifieds - more than <span id=\"counter\">%(count)s</span> ads\n"
-#~ "                        "
-#~ msgstr ""
-#~ "\n"
-#~ "Nous avons trouvé <span class=\"red\">%(counter)s</span> annonce"
-
-#~ msgid "Apartments for sale"
-#~ msgstr "Appartement a louer"
-
-#~ msgid "lots more"
-#~ msgstr "Charger d'avantage"
-
-#~ msgid "All of Egypt"
-#~ msgstr "Toute l'"
-
-#~ msgid "Show me the ads"
-#~ msgstr "Voir toutes mes annonces en ligne"
-
-#~ msgid "Why use dubizzle OLX?"
-#~ msgstr "Pourquoi utiliser dubizzle ?"
-
-#~ msgid "Make money"
-#~ msgstr "Gagner de l’argent"
-
-#~ msgid "Turn your unused items into cash."
-#~ msgstr "Transformez tout ce dont vous n'aviez plus besoin en argent."
-
-#~ msgid "Your ad is free"
-#~ msgstr "Votre annonce est GRATUITE"
-
-#~ msgid "No fees, no hidden agendas and no twists or turns. It’s FREE - now and forever."
-#~ msgstr "Pas de frais et pas de comissions - dubizzle est totalement gratuit."
-
-#~ msgid "It's safe"
-#~ msgstr "C’est sécurisé."
-
-#~ msgid "No credit cards, no online payments and no money transfers."
-#~ msgstr "Pas de cartes de crédit, pas de paiements en ligne ni de transferts d’argent."
-
-#~ msgid "Fast and easy"
-#~ msgstr "Rapide et facile"
-
-#~ msgid "A few simple steps to create your ad in 1 page only."
-#~ msgstr "Quelques étapes simples pour créer votre annonce en une seule page."
-
-#~ msgid "We're local"
-#~ msgstr "Nous sommes près de chez vous"
-
-#~ msgid "Find and connect with 1000s of buyers in your city and neighborhood."
-#~ msgstr "Trouvez et connectez-vous avec des milliers d’acheteurs dans votre ville et votre region."
-
-#~ msgid "Access anytime anywhere"
-#~ msgstr "Accéder n’importe où et n’importe quand"
-
-#~ msgid "Post your ad, update it and browse from your computer, mobile phone, tablet or Mars."
-#~ msgstr "Publiez votre annonce, modifiez là et consultez dubizzle de votre ordinateur, smartphone, tablette ou sur la planète Mars!"
-
-#~ msgid "Our customer support team get a kick out of helping our dear dubizzlers make their ads shine and draw a smile upon their face."
-#~ msgstr "Le service clientele de dubizzle reste en correspondence avec vous et cherche a vous redonner le sourire"
-
-#~ msgid "Home"
-#~ msgstr "Accueil"
-
-#~ msgid "How it works"
-#~ msgstr "Comment utiliser dubizzle?"
-
-#~ msgid "Check out these badass dubizzle OLX ads"
-#~ msgstr "Consultez ces annonces qui décoiffent sur dubizzle"
-
-#~ msgid "Why we like these ads so much"
-#~ msgstr "Pourquoi nous aimons tellement ces annonces."
-
-#~ msgid "Car for sale"
-#~ msgstr "Voiture a vendre"
-
-#~ msgid "Show me"
-#~ msgstr "Afficher tout"
-
-#~ msgid "1"
-#~ msgstr "1"
-
-#~ msgid "A brief but descriptive title that shows what the ad is all about."
-#~ msgstr "Le titre inclut le modèle de la voiture, l’année et la puissance moteur."
-
-#~ msgid "2"
-#~ msgstr "2"
-
-#~ msgid "The photos show many angles, including the interior and exterior body."
-#~ msgstr "L’eclairage des photos est parfait - ni trop sombre, ni trop brillant et on peut voir la voiture de tous les perspectives, de droite de gauche et de face."
-
-#~ msgid "3"
-#~ msgstr "3"
-
-#~ msgid "The description covers the essentials (e.g. paint, condition, interior details and more)."
-#~ msgstr "La description liste en détail les caractéristiques et les avantages de la voiture en détail."
-
-#~ msgid "Apartment for rent"
-#~ msgstr "Appartement a louer"
-
-#~ msgid "The ad title includes the location of the property."
-#~ msgstr "Le titre cite l'emplacement exact de la proprieté et la surface."
-
-#~ msgid "The photos show many parts of the apartment (rooms and garden)."
-#~ msgstr "Les dix photos montrent les différentes parties et chambres de la proprieté."
-
-#~ msgid "The ad description lists all the crucial property benefits, even the floor number."
-#~ msgstr "La description liste tous les benefices de la proprieté même le numero de l’étage ."
-
-#~ msgid "Item for sale"
-#~ msgstr "Vélo a vendre"
-
-#~ msgid "The title clearly states what the item is, its model and year of manufacturing."
-#~ msgstr "Le titre est bref et inclut la marque et le modèle."
-
-#~ msgid "The photo shows most of the items listed (mouse, manuals, discs, etc.)."
-#~ msgstr "Les images montrent tous les détails du vélo."
-
-#~ msgid "The description lists the complete specs, including other items that the buyer will get."
-#~ msgstr "La description est bien organisée, detaillée, courte et lisible."
-
-#~ msgid "dubizzle OLX is where it all happens - selling, buying, finding awesome deals and connecting with dubizzlers around you."
-#~ msgstr "dubizzle c’est là où tout se passe - vendre, acheter, trouver des offres incroyables et se connecter avec d’autres dubizzleurs autour de vous."
-
-#~ msgid "Here’s a guide on how to dubizzle OLX."
-#~ msgstr "Voici un guide sur comment être un dubizzleur."
-
-#~ msgid "Why use dubizzle OLX"
-#~ msgstr "Pourquoi utiliser dubizzle ?"
-
-#~ msgid "Enlighten me"
-#~ msgstr "Eclairez-moi !"
-
-#~ msgid "The nitty gritty details"
-#~ msgstr "Les détails qui comptent"
-
-#~ msgid "How to make a badass dubizzle OLX ad"
-#~ msgstr "Comment créer une annonce dubizzle qui décoiffe."
-
-#~ msgid "Your ad description"
-#~ msgstr "La description de votre annonce"
-
-#~ msgid "Your photos"
-#~ msgstr "Vos photos"
-
-#~ msgid "Get social and share your ad "
-#~ msgstr "Socialisez-vous et partagez votre annonce"
-
-#~ msgid "Get social and share your ad"
-#~ msgstr "Socialisez-vous et partagez votre annonce"
-
-#~ msgid "A title should:"
-#~ msgstr "Le titre de l'annonce doit:"
-
-#~ msgid "Capture the buyer's interest and attention; and"
-#~ msgstr "Susciter l'intérêt et l’attention de l'acheteur."
-
-#~ msgid "Maximize the chances of your ad appearing in search engine results (e.g. Google and Bing)."
-#~ msgstr "Optimiser les chances d’apparition de votre annonce dans les résultats des moteurs de recherche (exemple: Google et Bing)."
-
-#~ msgid "Here's how:"
-#~ msgstr "Voici donc comment faire:"
-
-#~ msgid "Write your title using a maximum of 65 characters."
-#~ msgstr "Écrivez votre titre en utilisant 65 caractères au maximum."
-
-#~ msgid "Be specific and use relevant keywords to describe your item."
-#~ msgstr "Soyez précis et utilisez des mots clés pertinents pour décrire votre article."
-
-#~ msgid "List all specs such as brand name, manufacturer, designer and model number."
-#~ msgstr "Listez toutes les caractéristiques techniques telles que le nom de marque, le fabricant, le concepteur et le numéro du modèle."
-
-#~ msgid "Include details such as color, size, weight, condition, quantity or history."
-#~ msgstr "Donnez des détails comme la couleur, la taille, le poids, l'état, la quantité ou l'historique."
-
-#~ msgid "Check your spelling and make sure it makes sense to the reader."
-#~ msgstr "Vérifiez l'orthographe et assurez-vous que le lecteur comprenne ce que vous avez écrit."
-
-#~ msgid "Avoid unnecessary words that don't describe your item objectively (e.g. “Excellent”, “Great”, “Buy Now”)."
-#~ msgstr "Évitez les mots inutiles qui ne décrivent pas votre article de façon objective (exemple: « Excellent », « Super », « Acheter immédiatement »)."
-
-#~ msgid "Avoid using ALL CAPS. No need to 'shout' - they can hear you loud and clear."
-#~ msgstr "Évitez d'utiliser LES MAJUSCULES. Pas besoin de «crier» - on peut vous entendre cinq sur cinq."
-
-#~ msgid "Once a potential buyer clicks on your ad title to find out more, your ad description will play a big part in getting them to pick up the phone and call you."
-#~ msgstr "Lorsqu'un acheteur potentiel clique sur le titre de votre annonce pour en savoir plus, la description de votre annonce va jouer un rôle important pour l’amener à prendre son téléphone et vous appeler."
-
-#~ msgid "Just like your ad title, your ad description also appears in search engine results when users search for particular items online."
-#~ msgstr "Tout comme le titre de votre annonce, votre description de l'annonce apparaît aussi dans les résultats des moteurs de recherche lorsque les utilisateurs recherchent des articles particuliers sur internet."
-
-#~ msgid "A few things to keep in mind:"
-#~ msgstr "Quelques petites choses à garder à l'esprit:"
-
-#~ msgid "List your item's features and benefits in detail."
-#~ msgstr "Listez les caractéristiques et les avantages de votre article en détail."
-
-#~ msgid "Keep it well-organized, brief and easy to read."
-#~ msgstr "Gardez la description bien organisée, courte et facile à lire."
-
-#~ msgid "Always start with the most important features (e.g. list your car's condition, mileage and engine type first)."
-#~ msgstr "Commencez toujours par les caractéristiques les plus importantes (exemple: listez l'état de votre véhicule, son kilométrage et le type du moteur en premier)."
-
-#~ msgid "Be very descriptive - use around 150-200 words."
-#~ msgstr "Soyez très descriptif - utilisez 150 à 200 mots environ."
-
-#~ msgid "Put yourself in the buyer's shoes - what would you want to know?"
-#~ msgstr "Mettez-vous dans la peau de l'acheteur – qu’est ce que vous voulez savoir?"
-
-#~ msgid "Be clear and honest - what will the buyer get/not get if they buy your item."
-#~ msgstr "Soyez clair et honnête – qu’est ce que l'acheteur va obtenir/ou pas s'il achète votre article."
-
-#~ msgid "Avoid overusing irrelevant keywords as this will only confuse your potential buyer."
-#~ msgstr "Évitez d'abuser des mots clés non pertinents car cela ne fera qu’embrouiller votre acheteur potentiel."
-
-#~ msgid "As cliche as it sounds but a picture truly speaks a thousand words."
-#~ msgstr "On ne le répétera jamais assez, mais une image vaut vraiment mieux que mille mots."
-
-#~ msgid "That's why your dubizzle OLX ads can include up to 10 photos."
-#~ msgstr "C'est pourquoi vos annonces sur dubizzle peuvent contenir jusqu'à 10 photos."
-
-#~ msgid "We know for a fact that the more photos you include in your ad, the better the chances of selling it. So get snapping!"
-#~ msgstr "Nous savons pertinemment que plus vous mettez de photos dans votre annonce, plus vous avez de chances de vendre votre article. Alors, à vos appareils photos!"
-
-#~ msgid "A few tips when snapping your photos:"
-#~ msgstr "Quelques conseils quand vous prenez vos photos:"
-
-#~ msgid "Focus on the item and use a plain backdrop/background."
-#~ msgstr "Concentrez-vous sur l’article et utilisez un fond/arrière-plan simple."
-
-#~ msgid "Check your lighting - not too dark and not too bright."
-#~ msgstr "Vérifiez votre éclairage - pas trop sombre ni trop brillant."
-
-#~ msgid "Take photos from all possible angles: front, back, sides, top, inside or bottom. Get the picture?"
-#~ msgstr "Prenez des photos sous tous les angles possibles: avant, arrière, côtés, dessus, à l'intérieur ou en bas. Je vous fais un dessin?"
-
-#~ msgid "Use high resolution photos for a crisper and clearer image."
-#~ msgstr "Utilisez des photos à haute résolution pour obtenir une image plus nette et plus claire."
-
-#~ msgid "Capture all necessary details (e.g. brand name, model number, color, features, tags, labels and warranty)."
-#~ msgstr "Capturez tous les détails nécessaires (exemple: nom de la marque, numéro de modèle, couleur, caractéristiques, étiquettes, griffes et garantie)."
-
-#~ msgid "Don't be afraid to show your item defects - buyers appreciate honesty."
-#~ msgstr "N’ayez pas peur de montrer les défauts de l’article - les acheteurs préfèrent l'honnêteté."
-
-#~ msgid "Check your photos before uploading. Make sure that the total size of all photos is under 5MB and are in these formats: .jpeg, .jpg, .bmp, .png."
-#~ msgstr "Vérifiez vos photos avant de les poster. Assurez-vous que la taille totale de toutes les photos est inférieure à 5 MO et que les photos sont sous les formats suivants: .jpeg, .jpg, .bmp ou .png."
-
-#~ msgid "Spread the word - tell everyone about your ad on Facebook and Twitter. It's free and super easy."
-#~ msgstr "Faites passer le mot! Parlez de votre annonce à tout le monde sur Facebook et Twitter à partir de dubizzle. C'est gratuit et très facile."
-
-#~ msgid "Next up"
-#~ msgstr "Suivant"
-
-#~ msgid "Your ad is FREE"
-#~ msgstr "Votre annonce est GRATUITE"
-
-#~ msgid "No fees, no hidden agendas and no twists or turns."
-#~ msgstr "Pas de frais et pas de comissions - dubizzle est totalement gratuit."
-
-#~ msgid "Find and connect with 1000s of buyers and sellers in your city and neighborhood."
-#~ msgstr "Trouvez et connectez-vous avec des milliers d’acheteurs dans votre ville et votre region."
-
-#~ msgid "Access anytime, anywhere"
-#~ msgstr "Accéder n’importe où et n’importe quand"
-
-#~ msgid "Post your ad, update it and browse dubizzle OLX from your computer, smart phone, tablet or Mars!"
-#~ msgstr "Publiez votre annonce, modifiez là et consultez dubizzle de votre ordinateur, smartphone, tablette ou sur la planète Mars!"
-
-#~ msgid "Real support"
-#~ msgstr "Soutien réel"
-
-#~ msgid "Get round-the-clock help in creating and posting your ads."
-#~ msgstr "Grace a nos modérateurs, obtenez de l’aide à tout moment, pour la création et l’affichage de vos annonces."
-
-#~ msgid "What is dubizzle OLX anyway?"
-#~ msgstr "C’est quoi dubizzle ?"
-
-#~ msgid "A badass website where:"
-#~ msgstr "Un site qui décoiffe où: "
-
-#~ msgid "sellers post free ads for their unwanted unused items;"
-#~ msgstr "Les vendeurs peuvent poster gratuitement des annonces pour des articles qu’ils n’utilisent plus et qu’ils ne veulent plus."
-
-#~ msgid "buyers search for great deals and bargains; and"
-#~ msgstr "Les acheteurs peuvent rechercher de superbes offres et de bonnes affaires."
-
-#~ msgid "buyers and sellers connect and trade face-to-face."
-#~ msgstr "Les acheteurs et les vendeurs peuvent se connecter et négocier face-à-face."
-
-#~ msgid "dubizzle OLX is not an e-commerce website for promoting commercial businesses or services."
-#~ msgstr "dubizzle n’est pas un site de commerce électronique ni de promotion d’activités et des services commerciaux."
-
-#~ msgid "What are the dubizzle OLX ad posting rules?"
-#~ msgstr "Quelles sont les règles concernant l’affichage d’annonces sur dubizzle ?"
-
-#~ msgid "Just follow these simple rules and your ad will be approved to go live quicker. Our pals in Customer Support manually review and approve each ad."
-#~ msgstr "Il vous suffit de suivre ces règles simples pour que votre annonce soit approuvée et affichée plus rapidement. Nos potes dans la section de Soutien à la Clientèle vont examiner et approuver manuellement chaque annonce."
-
-#~ msgid "Ads may be edited or deleted if they don't comply with our posting rules."
-#~ msgstr "Les annonces peuvent être modifiées ou supprimées si elles ne respectent pas nos règles d’affichage."
-
-#~ msgid "Ad posting no-no's"
-#~ msgstr "Les pas de…ni de … concernant l’affichage d’annonces:"
-
-#~ msgid "Placing more than one item in one ad."
-#~ msgstr "Mettre plusieurs articles dans une même annonce."
-
-#~ msgid "Duplicating ads - each ad is to be posted once only."
-#~ msgstr "Dupliquer les annonces - chaque annonce doit être postée une seule fois."
-
-#~ msgid "Placing one ad under more than one category."
-#~ msgstr "Placer une même annonce dans plusieurs catégories."
-
-#~ msgid "Including phone numbers, prices or email addresses in the ad title."
-#~ msgstr "Inclure des numéros de téléphone, des prix ou des adresses e-mail dans le titre de l’annonce."
-
-#~ msgid "Including web links or email addresses in the ad description and/or photos."
-#~ msgstr "Inclure des liens internet ou des adresses e-mail dans la description de l'annonce et/ou dans les photos."
-
-#~ msgid "Placing items for sale that do not exist in the selected dubizzle OLX country."
-#~ msgstr "Placer des articles à vendre qui n'existent pas dans le pays sélectionné sur dubizzle."
-
-#~ msgid "Writing your ad in a language other than English, Arabic or French (no Arabeasy please - e.g. “bayt lelbe3”)."
-#~ msgstr "Rédiger votre annonce dans une langue autre que l'anglais, l'arabe ou le français (Pas de chiffres pour les lettres arabes SVP – Exemple : «bayt lelbe3»)."
-
-#~ msgid "Using offensive language."
-#~ msgstr "Utiliser un langage injurieux. C’est grave."
-
-#~ msgid "Uploading rotated photos (i.e. upside down)."
-#~ msgstr "Poster des photos pivotées (c’est à-dire à l'envers)."
-
-#~ msgid "Not permitted in dubizzle OLX ads:"
-#~ msgstr "Ne sont pas autorisés dans les annonces de dubizzle:"
-
-#~ msgid "Social marketing/Forex"
-#~ msgstr "Le marketing social/Forex"
-
-#~ msgid "Guns or weapons"
-#~ msgstr "Pistolets et/ou armes"
-
-#~ msgid "Spying equipment"
-#~ msgstr "Equipements d’espionnage"
-
-#~ msgid "Burning laser"
-#~ msgstr "Laser brûlant"
-
-#~ msgid "Fireworks"
-#~ msgstr "Feux d'artifice"
-
-#~ msgid "Self defence tools (e.g. pepper spray)"
-#~ msgstr "Outils d’autodéfense (exemple: bombe lacrymogène)"
-
-#~ msgid "Body organs (e.g. liver, blood, etc.)"
-#~ msgstr "Organes du corps (exemples: foie, sang, etc.)"
-
-#~ msgid "Wild dogs"
-#~ msgstr "Chiens sauvages"
-
-#~ msgid "Medicine"
-#~ msgstr "Médicaments"
-
-#~ msgid "Drugs"
-#~ msgstr "Drogues"
-
-#~ msgid "%(ad_title)s - Car Parts & Accessories in %(neighbourhood)s %(city)s | dubizzle %(country)s"
-#~ msgstr " %(ad_title)s - Pièces et Accessoires d'Automobiles - %(neighbourhood)s %(city)s | dubizzle %(country)s"
-
-#~ msgid "%(ad_title)s - %(category_leaf)s Cars in %(neighbourhood)s %(city)s | dubizzle %(country)s"
-#~ msgstr " %(ad_title)s - Voitures %(category_leaf)s - %(neighbourhood)s %(city)s | dubizzle %(country)s"
-
-#~ msgid "%(ad_title)s - %(category_leaf)s Jobs | dubizzle %(country)s"
-#~ msgstr "%(ad_title)s - %(category_leaf)s Emploi | dubizzle %(country)s"
-
-#~ msgid "%(ad_title)s - %(category_leaf)s Jobs Wanted | dubizzle %(country)s"
-#~ msgstr "%(ad_title)s - %(category_leaf)s Emploi Recherché | dubizzle %(country)s"
-
-#~ msgid "Free Classifieds in %(full_location)s - Jobs in %(full_location)s, Property & Real Estate For Sale & Rent, Cars for Sale | dubizzle %(full_location)s"
-#~ msgstr "Petites annonces gratuits en %(full_location)s - Emploi à %(full_location)s, Propriètés à Vendre et à Louer, Voitures Occasion | dubizzle %(full_location)s"
-
-#~ msgid "Free Classifieds in %(full_location)s - Buy a car, Find a Job or Buy a house | dubizzle %(full_location)s"
-#~ msgstr "Petites Annonces Gratuites à %(full_location)s - Trouvez une voiture, emploi ou immobilier | dubizzle %(full_location)s"
-
-#~ msgid "dubizzle is your free and friendly local classifieds website in %(full_location)s to buy, sell and find anything. Find cars, jobs, properties for rent or items for sale in %(full_location)s."
-#~ msgstr "dubizzle est votre premier site de petites annonces gratuites en %(full_location)s. Trouvez un emploi, des biens et services immobiliers à la vente ainsi que des  voitures à vendre en %(full_location)s."
-
-#~ msgid "All of Dubizzle"
-#~ msgstr "Tout sur dubizzle"
-
-#~ msgid "Enter a subject please"
-#~ msgstr "Veuillez entrer un sujet"
-
-#~ msgid "Subject"
-#~ msgstr "الموضوع"
-
-#~ msgid "Email address(again)"
-#~ msgstr "Adresse email (de nouveau)"
-
-#~ msgid "Confirm Email"
-#~ msgstr "Confirmez votre adresse email"
-
-#~ msgid "We need your location so that we can help you"
-#~ msgstr "Nous avons besoin de connaître votre emplacement pour pouvoir vous ętre utile"
-
-#~ msgid "Location"
-#~ msgstr "Salaire"
-
-#~ msgid "You forgot to tell us who you are"
-#~ msgstr "Vous avez oublié de nous dire qui vous ętes"
-
-#~ msgid "We need your mobile number so that we can help you"
-#~ msgstr "Nous avons besoin de votre numéro de téléphone portable pour vous aider"
-
-#~ msgid "You left the message box empty...please tell us how we can help you"
-#~ msgstr "Vous avez laissé votre boîte de messagerie vide... dites-nous si vous avez besoin d'aide"
-
-#~ msgid "Huh... that's not the same one!?"
-#~ msgstr "Oh... ce n'est pas la męme chose!?"
-
-#~ msgid "Contact"
-#~ msgstr "Contactez nous"
-
-#~ msgid ""
-#~ "\n"
-#~ "                    <h1>Hello again,</h1>\n"
-#~ "                    <p>Here are 3 reasons why you should contact us: </p>\n"
-#~ "                    <ol>\n"
-#~ "                        <li>we love to help our dubizzlers</li>\n"
-#~ "                        <li>it's more fun when we know who you are</li>\n"
-#~ "                        <li>we hired friendly staff whose job is to respond to your queries (not browse the net all day)</li>\n"
-#~ "                    </ol>\n"
-#~ "                "
-#~ msgstr ""
-#~ "\n"
-#~ "<p>\n"
-#~ "Bonjour à tous, <br/>\n"
-#~ "Voici les 3 raisons pour les quelles vous pouriez nous contacter:\n"
-#~ "</p>\n"
-#~ "<ol>\n"
-#~ "<li>On aime aider nos dubizzleurs</li>\n"
-#~ "<li>C'est plus agreable de savoir qui vous etes</li>\n"
-#~ "<li>Nous avons embauché un personnel tres amical dont le travail consiste à répondre à vos questions (pas naviguer sur le net toute la journée)</li>\n"
-#~ "</ol>"
-
-#~ msgid "Subject: what's this about?"
-#~ msgstr "Sujet: De quoi s'agit-il?"
-
-#~ msgid "Your name (or nickname)"
-#~ msgstr "Votre nom (ou pseudo)"
-
-#~ msgid "Mobile number"
-#~ msgstr "Numéro de téléphone portable"
-
-#~ msgid "Email address (again)"
-#~ msgstr "Adresse e-mail (de nouveau)"
-
-#~ msgid "City/Country"
-#~ msgstr "Ville / Pays"
-
-#~ msgid "Message: What's on your mind?"
-#~ msgstr "Message: A quoi pensez-vous?"
-
-#~ msgid ""
-#~ "\n"
-#~ "                <h3>Sweet!</h3>\n"
-#~ "                <p>A customer care dubizzler will handle your message personally and will get back to you as soon as they have an answer...</p>\n"
-#~ "                <p>In the meantime, if you want to contact us again, we're more than happy to help.</p>\n"
-#~ "            "
-#~ msgstr ""
-#~ "\n"
-#~ "Chouette!<br />\n"
-#~ "Un dubizzleur du service clientèle traitera votre message personnellement et reviendra vers vous dès qu'il aura une réponse ...  <br/>\n"
-#~ "\n"
-#~ "D'ici là, si vous souhaitez nous recontacter, nous sommes ravis de vous aider.\n"
-#~ " "
-
-#~ msgid "Uploading photos, please wait..."
-#~ msgstr "Chargement de l'image en cours"
-
-#~ msgid "Transmission type"
-#~ msgstr "Type de transmission"
-
-#~ msgid "No of doors"
-#~ msgstr "Nombre de portes"
-
-#~ msgid "Body type"
-#~ msgstr "Type de Voiture"
-
-#~ msgid "Engine size"
-#~ msgstr "Cylindrée en"
-
-#~ msgid "Item type"
-#~ msgstr "Type"
-
-#~ msgid "Or sign in with your email address"
-#~ msgstr "Ou connectez-vous en utilisant votre adresse e-mail"
-
-#~ msgid "Photos"
-#~ msgstr "Ajouter une photo"
-
-#~ msgid "This email address is already in use. Click 'I have a password', or use a different email."
-#~ msgstr "Cette adresse email est déja en cours d'utilisation. Cliquez sur 'J'ai un mot de passe dubizzle', ou utiliser une autre adresse."
-
-#~ msgid "It's as fast as saying &#34;Open Sesame&#34;"
-#~ msgstr "C'est aussi rapide que de dire \"Sésame ouvre-toi\""
-
-#~ msgid "Sign in – show me my stuff"
-#~ msgstr "Se connecter - affichez le résultat"
-
-#~ msgid " to create one on the fly!"
-#~ msgstr "en créer un dans la foulée!"
-
-#~ msgid ""
-#~ "\n"
-#~ "                                Right now, we're going to quickly review your ad and make sure it's ready for dubizzle.\n"
-#~ "                                Once it's up and live, we'll tell you the good news in an email.\n"
-#~ "                            "
-#~ msgstr ""
-#~ "\n"
-#~ "\t    \t\t<p>\n"
-#~ "\t    \t\t\tNous examinons votre annonce tout de suite et la préparons pour dubizzle.\n"
-#~ "\t    \t\t</p>\n"
-#~ "\t    \t\t<p>\n"
-#~ "\t    \t\t\tUne fois en ligne, nous vous annoncerons la bonne nouvelle dans un courriel.\n"
-#~ "\t    \t\t</p>\n"
-#~ "\t    \t\t"
-
-#~ msgid "Edit"
-#~ msgstr "Modifier"
-
-#~ msgid "A few simple steps to create your ad in one page only."
-#~ msgstr "Quelques étapes simples pour créer votre annonce en une seule page."
-
-#~ msgid "Find and connect with thousands of buyers in your city and neighborhood."
-#~ msgstr "Trouvez et connectez-vous avec des milliers d’acheteurs dans votre ville et votre region."
-
-#~ msgid "Manama"
-#~ msgstr "Maaouia"
-
-#~ msgid "Place your FREE ad in 3 easy steps."
-#~ msgstr "Deposer une annonce en 3 etapes faciles"
-
-#~ msgid "Place your FREE ad."
-#~ msgstr "Passez votre annonce gratuite"
-
-#~ msgid "Choose a category"
-#~ msgstr "Choisir une catégorie"
-
-#~ msgid "Place your FREE ad in 1, 2, 3."
-#~ msgstr "Passez votre annonce gratuite"
-
-#~ msgid "What are your items really worth?"
-#~ msgstr "Que voulez-vous leur dire?"
-
-#~ msgid "Al Madinah"
-#~ msgstr "Al Manzah"
-
-#~ msgid "Upload"
-#~ msgstr "Déposez votre CV"
-
-#~ msgid "Remove skill"
-#~ msgstr "Supprimer"
-
-#~ msgid "Oh camel droppings!"
-#~ msgstr "Zut et crotte de chameau!"
-
-#~ msgid "We couldn't find anything to match your search."
-#~ msgstr "Nous n'avons rien trouvé qui corresponde à votre recherche."
-
-#~ msgid "Try using different keywords or widening your seach and it should be more fruitful."
-#~ msgstr "Essayez avec d'autres mots clés ou en élargissant votre recherche. Vous devriez avoir plus de chance."
-
-#~ msgid ""
-#~ "\n"
-#~ "                                By clicking on 'Send reply' I agree to the dubizzle <a href=\"%(terms_url)s\" class=\"u-link\" class=\"u-link\"> Terms & Conditions</a> and the dubizzle <a href=\"%(privacy_url)s\" class=\"u-link\">Privacy Policy</a>\n"
-#~ "                                "
-#~ msgstr ""
-#~ "\n"
-#~ "En postant une annonce, vous acceptez tous <a href=\"%(terms_url)s\" class=\"u-link\" target=\"_blank\">les termes et conditions</a> de dubizzle, <a href=\"%(privacy_url)s\" target=\"_blank\">la politique de confidentialité</a> de dubizzle et de recevoir des offres promotionnelles.                    "
-
-#~ msgid "Place your free ad"
-#~ msgstr "Passez votre annonce gratuite"
-
-#~ msgid "My rejected ads"
-#~ msgstr "Les annonces rejetées"
-
-#~ msgid "My pending ads"
-#~ msgstr "Les annonces en cours de modération"
-
-#~ msgid "My live ads"
-#~ msgstr "Les annonces publiées"
-
-#~ msgid "Post your ad"
-#~ msgstr "Passer une annonce"
-
-#~ msgid "Error - 404"
-#~ msgstr "Erreur - 404"
-
-#~ msgid "Escaped page alert"
-#~ msgstr "Alerte page disparue"
-
-#~ msgid "Thank you for noticing - we've dispatched our ninja web monkeys who will hunt the errant page down"
-#~ msgstr "Merci pour la remarque -  nous avons envoyé nos singes ninjas  du net qui vont partir à la chasse de cette page défaillante"
-
-#~ msgid "Not all is lost! There's great stuff just around the corner"
-#~ msgstr "Tout n'est pas perdu! Il y a des choses géniales dans le coin"
-
-#~ msgid "Go back"
-#~ msgstr "Retour"
-
-#~ msgid "View all"
-#~ msgstr "Tout voir"
-
-#~ msgid "Facebook"
-#~ msgstr "Facebook"
-
-#~ msgid "Twitter"
-#~ msgstr "Twitter"
-
-#~ msgid "Step 2 of 3"
-#~ msgstr "Etape 2 sur 3"
-
-#~ msgid "Choose your category"
-#~ msgstr "Choisir une catégorie"
-
-#~ msgid "Add photos & enter details"
-#~ msgstr "Ajouter photos et détails"
-
-#~ msgid "Finish"
-#~ msgstr "Terminé"
-
-#~ msgid "Select your neighbourhood"
-#~ msgstr "Choisissez votre quartier"
-
-#~ msgid "By posting your ad you are agreeing to the dubizzle <a href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a>, the dubizzle <a href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a> and to receiving marketing and promotional offers."
-#~ msgstr "En postant une annonce, vous acceptez tous <a href=\"%(terms_url)s\" class=\"u-link\" target=\"_blank\">les termes et conditions</a> de dubizzle, <a href=\"%(privacy_url)s\" target=\"_blank\">la politique de confidentialité</a> de dubizzle et de recevoir des offres promotionnelles."
-
-#~ msgid "Step 1 of 3"
-#~ msgstr "Etape 1 sur 3"
-
-#~ msgid "What do you wanna sell today?"
-#~ msgstr "Que voulez vous vendre aujourdh'ui?"
-
-#~ msgid "Edit this ad"
-#~ msgstr "Modifier cette annonce"
-
-#~ msgid "Delete this ad"
-#~ msgstr "Supprimer cette annonce"
-
-#~ msgid "<span>%(price)s</span> %(translated_currency)s"
-#~ msgstr "<span>%(price)s</span> %(translated_currency)s"
-
-#~ msgid "Show mobile number"
-#~ msgstr "Afficher le numéro de téléphone portable"
-
-#~ msgid "Send an email"
-#~ msgstr "Envoyer un email"
-
-#~ msgid "Step 3 of 3"
-#~ msgstr "Etape 3 sur 3"
-
-#~ msgid "Tips from dubizzle: <br/>1) Meet in person in a public place. <br/>2) Don't send money or your financial details (e.g. cheques, deposit, etc.) <br/>3) Ask for relevant documentation, if applicable (e.g. warranties, ID)."
-#~ msgstr "Conseils de dubizzle: <br/>1) Rencontrez-vous en personne dans un lieu public. <br/>2) N'envoyez pas d'argent ni de coordonnées financières (chèques, par exemple, dépôt, etc) <br/> 3) Demandez des pièces d'identité le cas échéant (par exemple, une garanties, carte d'identité)."
-
-#~ msgid "Bravo!"
-#~ msgstr "Bravo!"
-
-#~ msgid "dubizzle offers its service for free and has no middlemen or subsidiaries."
-#~ msgstr "dubizzle offre ses services gratuitement sans aucun intermédiaires ou de filiales."
-
-#~ msgid "Please be careful not to fall for scam messages sent to buyers or sellers."
-#~ msgstr "Soyez prudent et vigilant des fraudeur qui envoient des messages aux acheteurs ou vendeurs."
-
-#~ msgid "Always meet in person and in a public place like a club, a coffee shop, or a metro station."
-#~ msgstr "Toujours rencontrer les vendeurs ou les acheteurs en personne et en publique."
-
-#~ msgid "Never send money or your financial details to any person you knew from the internet (e.g. cheques, deposit, etc.)."
-#~ msgstr "Ne jamais envoyer de l'argent ou vos informations bancaires pour qui que se soit vous connaissez seulement au virtuel."
-
-#~ msgid "If a buyer or seller sounds fishy or the offer is too good to be true, they probably are!"
-#~ msgstr "Si un acheteur ou un vendeur sent louche ou l'offre est loin d'être vrai,,, ils le sont probablement!"
-
-#~ msgid "If the buyer or seller asks you to ship the item you’re selling or want to buy in return for money transfers, then it is almost certainly a fraud. Never give your bank details to any person and never sell or buy anything unless you meet the person yourself."
-#~ msgstr "Si un acheteur vous demande d'envoyer l'article que vous vendez ou veut l'acheter par faire un transfert d'argent,  alors il est certainement un fraudeur, ne jamais donner vos coordonnées bancaires à une personne et de ne jamais vendre ou acheter quoi que ce soit, sauf si vous rencontrez la personne vous-même."
-
-#~ msgid "Add original photos and get your ad featured on our home page (where everyone can see it)."
-#~ msgstr "Ajoutez des photos originales et votre annonce figurera sur notre page d'accueil (tout le monde pourra la voir)."
-
-#~ msgid ""
-#~ "\n"
-#~ "                                Cars, jobs, properties, classifieds and so much more!\n"
-#~ "                            "
-#~ msgstr ""
-#~ "\n"
-#~ "                            Voitures, emplois, immobilier, petites annonces et bien plus encore!\n"
-#~ "                        "
-
-#~ msgid ""
-#~ "\n"
-#~ "                                Thousands of cars, jobs, properties, classifieds and so much more!\n"
-#~ "                            "
-#~ msgstr ""
-#~ "\n"
-#~ "Des milliers de voitures, emplois,  propriétés, petites annonces et bien plus encore!\n"
-#~ "                        "
-
-#~ msgid "First page"
-#~ msgstr "Première"
-
-#~ msgid "Previous"
-#~ msgstr "Précédente"
-
-#~ msgid "Last page"
-#~ msgstr "Dernière"
-
-#~ msgid "in all of dubizzle"
-#~ msgstr "dans tout dubizzle"
-
-#~ msgid "More options"
-#~ msgstr "Plus d'options"
-
-#~ msgid "Show all"
-#~ msgstr "Afficher tout"
-
-#~ msgid "Sort by"
-#~ msgstr "Trier par"
-
-#~ msgid "Place your ad"
-#~ msgstr "Passez votre annonce gratuite"
-
-#~ msgid "%(translated_currency)s %(price)s"
-#~ msgstr "%(translated_currency)s %(price)s"
-
-#~ msgid "Account settings"
-#~ msgstr "Paramètres de compte"
-
-#~ msgid "My ads"
-#~ msgstr "Mes annonces"
-
-#~ msgid "No, keep it."
-#~ msgstr "Non, le garder."
-
-#~ msgid "No, keep it live."
-#~ msgstr "Non, la garder en ligne."
-
-#~ msgid "Your Saved Searches"
-#~ msgstr "Vos recherches favorites"
-
-#~ msgid "Sign in with your email"
-#~ msgstr "Connectez- vous en utilisant votre adresse email"
