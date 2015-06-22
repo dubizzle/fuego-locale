@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-21 14:54+0400\n"
+"POT-Creation-Date: 2015-06-22 12:09+0400\n"
 "PO-Revision-Date: 2015-01-18 14:43+0200\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
@@ -155,7 +155,7 @@ msgstr "حاجة ببلاش كده"
 
 #: country_templates/shared_landing.html:75
 msgid "No fees, no hidden agendas and no twists or turns. It’s FREE"
-msgstr "ضيف إعلانك على دوبيزل مجانا ولن نطلب منك أي رسوم على الإطلاق."
+msgstr "ضيف إعلانك على دوبيزل اوليكس مجانا ولن نطلب منك أي رسوم على الإطلاق."
 
 #: country_templates/shared_landing.html:83
 msgid "It's safe"
@@ -3793,7 +3793,7 @@ msgid "Report this ad"
 msgstr "بلغ عن هذا الإعلان"
 
 #: templates/listings/get/get_listing.html:203
-msgid "Important tips from dubizzle"
+msgid "Important tips from dubizzle OLX"
 msgstr "معلومات \"في السريع\" علشان تبقى صاحي ومدقدق"
 
 #: templates/listings/get/get_listing.html:208
@@ -3823,8 +3823,9 @@ msgid "Hooray! Congratulations, your ad will go live very very soon."
 msgstr "مبروك! لقد اضفت إعلانك بنجاح وسنقوم بنشره قريبا."
 
 #: templates/listings/preview/listing_complete.html:29
-msgid "Right now, we're going to quickly review your ad and make sure it's ready for dubizzle. Once it's up and live, we'll tell you the good news in an email."
-msgstr "سنراجع إعلانك فوراً لنتأكد أنه ملا ئم لدوبيزل. الأمر لا يستغرق كثيراً ... سنوافيك بالأخبار السعيدة في إيميل عندما يتم نشر إعلانك. لديك شئ آخر تريد بيعه ... إضغط  أضف إعلان آخر."
+#, python-format
+msgid "Right now, we're going to quickly review your ad and make sure it's ready for %(BRAND_NAME)s. Once it's up and live, we'll tell you the good news in an email."
+msgstr "سنراجع إعلانك فوراً لنتأكد أنه ملا ئم ل%(BRAND_NAME)s. الأمر لا يستغرق كثيراً ... سنوافيك بالأخبار السعيدة في إيميل عندما يتم نشر إعلانك. لديك شئ آخر تريد بيعه ... إضغط أضف إعلان آخر."
 
 #: templates/listings/preview/listing_complete.html:33
 #, python-format

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-21 14:53+0400\n"
+"POT-Creation-Date: 2015-06-22 12:09+0400\n"
 "PO-Revision-Date: 2014-08-05 14:48+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Saudi <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_SA/>\n"
@@ -153,7 +153,7 @@ msgstr "مجانا 100%"
 
 #: country_templates/shared_landing.html:75
 msgid "No fees, no hidden agendas and no twists or turns. It’s FREE"
-msgstr "إضافة الإعلان على دوبيزل مجاناً و بدون أي رسوم على الإطلاق."
+msgstr "إضافة الإعلان على دوبيزل اوليكس مجاناً و بدون أي رسوم على الإطلاق."
 
 #: country_templates/shared_landing.html:83
 msgid "It's safe"
@@ -193,7 +193,7 @@ msgstr "نحن معك  24/7"
 
 #: country_templates/shared_landing.html:122
 msgid "Wherever you are, our customer support heros help you post the perfect ad and draw a smile upon your face."
-msgstr "فريق دعم دوبيزل يتواصل معك شخصياً في إضافة إعلانك أينما كنت ويسعى لرسم الإبتسامة على وجهك."
+msgstr "فريق دعم دوبيزل اوليكس يتواصل معك شخصياً في إضافة إعلانك أينما كنت ويسعى لرسم الإبتسامة على وجهك."
 
 #: country_templates/shared_landing.html:130
 msgid "Got something to sell?"
@@ -2149,7 +2149,7 @@ msgstr "سياسة الخصوصية"
 
 #: templates/base_terms.html:12 templates/public/_footer.html:19
 msgid "Terms of Use"
-msgstr "شروط وأحكام إستخدام موقع دوبيزل"
+msgstr "شروط الاستخدام"
 
 #: templates/base_terms.html:16
 #, python-format
@@ -2627,8 +2627,8 @@ msgid "Report this ad"
 msgstr "بلغ عن هذا الإعلان"
 
 #: templates/listings/get/get_listing.html:203
-msgid "Important tips from dubizzle"
-msgstr "لأنك صديق دوبيزل فنحن ننصحك بالتالى"
+msgid "Important tips from dubizzle OLX"
+msgstr "نصائح عالسريع علشان يكون عندك صورة واضحة عن دوبيزل اوليكس"
 
 #: templates/listings/get/get_listing.html:208
 msgid "Show"
@@ -2657,8 +2657,9 @@ msgid "Hooray! Congratulations, your ad will go live very very soon."
 msgstr "مبروك! لقد اضفت إعلانك بنجاح وسنقوم بنشره قريبا."
 
 #: templates/listings/preview/listing_complete.html:29
-msgid "Right now, we're going to quickly review your ad and make sure it's ready for dubizzle. Once it's up and live, we'll tell you the good news in an email."
-msgstr "سنراجع إعلانك فوراً لنتأكد أنه ملا ئم لدوبيزل. الأمر لا يستغرق كثيراً ... سنوافيك بالأخبار السعيدة في إيميل عندما يتم نشر إعلانك. لديك شئ آخر تريد بيعه ... إضغط  أضف إعلان آخر."
+#, python-format
+msgid "Right now, we're going to quickly review your ad and make sure it's ready for %(BRAND_NAME)s. Once it's up and live, we'll tell you the good news in an email."
+msgstr "سنراجع إعلانك فوراً لنتأكد أنه ملا ئم ل%(BRAND_NAME)s. الأمر لا يستغرق كثيراً ... سنوافيك بالأخبار السعيدة في إيميل عندما يتم نشر إعلانك. لديك شئ آخر تريد بيعه ... إضغط أضف إعلان آخر."
 
 #: templates/listings/preview/listing_complete.html:33
 #, python-format
