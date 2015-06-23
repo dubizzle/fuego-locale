@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-23 13:21+0400\n"
+"POT-Creation-Date: 2015-06-23 13:56+0400\n"
 "PO-Revision-Date: 2015-01-18 14:43+0200\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
@@ -207,60 +207,38 @@ msgstr "يلا، جرب وبيع."
 
 #: country_templates/shared_landing.html:137
 #: country_templates/shared_landing.html:142
-#: country_templates/egypt/public/landing.html:41
-#: country_templates/egypt/public/landing.html:46 templates/base.html:157
+#: country_templates/egypt/public/landing.html:35
+#: country_templates/egypt/public/landing.html:40 templates/base.html:157
 #: templates/generic.html:96 templates/generic.html.py:103
 #: templates/public/landing.html:51 templates/public/landing.html.py:56
 #: templates/user_profiles/my_listings.html:80
 msgid "Place an ad"
 msgstr "بيع أي حاجة"
 
-#: country_templates/egypt/public/landing.html:19
-msgid "What are your items really worth? Click here to find out!"
-msgstr "عايز تعرف قيمة حاجاتك الي مبتستعملهاش؟ أضغط هنا!"
-
-#: country_templates/egypt/public/landing.html:29
+#: country_templates/egypt/public/landing.html:23
 msgid "Find the best deals on nearly a million items on dubizzle Egypt, an OLX company"
 msgstr "اشتري وبيع اي حاجة في مصر على دوبيزل، احدى شركات اوليكس"
 
-#: country_templates/egypt/public/landing.html:36
+#: country_templates/egypt/public/landing.html:30
 #, python-format
 msgid "%(BRAND_NAME)s the largest market for used in Egypt, you can buy and sell anything"
 msgstr "%(BRAND_NAME)s أكبر سوق للمستعمل في مصر تقدر تشتري وتبيع عليه أي حاجة تتخيلها"
 
-#: country_templates/egypt/public/landing.html:56
+#: country_templates/egypt/public/landing.html:50
 msgid "Even better, you can finally buy the things you really want!"
 msgstr "الحلو في الموضوع، إنك اخيرآ تقدر تشتري الحاجات الي أنت عايزها"
 
-#: country_templates/egypt/public/landing.html:94
+#: country_templates/egypt/public/landing.html:88
 msgid "All of Egypt"
 msgstr "كل مصر"
 
-#: country_templates/egypt/public/landing.html:103
+#: country_templates/egypt/public/landing.html:97
 msgid "Coming Soon"
 msgstr "قريبا"
 
-#: country_templates/egypt/public/landing.html:112
+#: country_templates/egypt/public/landing.html:106
 msgid "Show me the ads"
 msgstr "شوف الإعلانات"
-
-#: country_templates/egypt/public/landing.html:127
-msgid "What if your old keyboard helped a young girl play her first recital?"
-msgstr "اتخيل لو أن آلتك الموسيقية الي مبتستعملهاش، منحت فتاة فرصة تحقيق حلمها؟"
-
-#: country_templates/egypt/public/landing.html:129
-msgid "Items that you no longer use may not mean much to you, but they&#39;ve got huge potential waiting to be unlocked. So take a second to think of your unused items that can be the next chapter of someone else&#39;s life. Be it a phone, laptop, piece of furniture, home appliance or a musical instrument"
-msgstr ""
-"الحاجات اللي مبقتش تستعملها، مكانها مش في الدولاب...مكانها على دوبيزل اوليكس!\n"
-"ليه؟ عشان في مليون شخص ممكن يبقى عايزها. سواء كان تليفونك، اللابتوب، آلة موسيقية، أو أي حاجة في البيت"
-
-#: country_templates/egypt/public/landing.html:129
-msgid "it&#39;s worth more than you think"
-msgstr "كلهم قيمتهم أكتر مما تتخيل"
-
-#: country_templates/egypt/public/landing.html:132
-msgid "Click here to find out more"
-msgstr "اضغط هنا لتعرف المزيد"
 
 #: fuego/base_settings.py:579 fuego/management/commands/email_alerts.py:506
 #: fuego/management/commands/saved_search_alerts.py:505
@@ -3273,12 +3251,12 @@ msgid "Website under maintenance (500)"
 msgstr "الموقع تحت الصيانة"
 
 #: templates/base.html:97
-msgid "Incase you missed it..."
-msgstr ""
+msgid "In case you missed it..."
+msgstr "على فكرة!"
 
 #: templates/base.html:97
 msgid "dubizzle is now an OLX company, bringing you the best of both worlds"
-msgstr ""
+msgstr "في حال لم تعلم بالأخبار السارة، دوبيزل الآن هو إحدى شركات أوليكس. يعني أنك ستتمتع بأفضل المزايا من عالم دوبيزل وعالم أوليكس."
 
 #: templates/base.html:104
 msgid "Ramadan Kareem"
@@ -4777,3 +4755,20 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
+
+#~ msgid "What are your items really worth? Click here to find out!"
+#~ msgstr "عايز تعرف قيمة حاجاتك الي مبتستعملهاش؟ أضغط هنا!"
+
+#~ msgid "What if your old keyboard helped a young girl play her first recital?"
+#~ msgstr "اتخيل لو أن آلتك الموسيقية الي مبتستعملهاش، منحت فتاة فرصة تحقيق حلمها؟"
+
+#~ msgid "Items that you no longer use may not mean much to you, but they&#39;ve got huge potential waiting to be unlocked. So take a second to think of your unused items that can be the next chapter of someone else&#39;s life. Be it a phone, laptop, piece of furniture, home appliance or a musical instrument"
+#~ msgstr ""
+#~ "الحاجات اللي مبقتش تستعملها، مكانها مش في الدولاب...مكانها على دوبيزل اوليكس!\n"
+#~ "ليه؟ عشان في مليون شخص ممكن يبقى عايزها. سواء كان تليفونك، اللابتوب، آلة موسيقية، أو أي حاجة في البيت"
+
+#~ msgid "it&#39;s worth more than you think"
+#~ msgstr "كلهم قيمتهم أكتر مما تتخيل"
+
+#~ msgid "Click here to find out more"
+#~ msgstr "اضغط هنا لتعرف المزيد"
