@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-22 12:10+0400\n"
+"POT-Creation-Date: 2015-06-23 13:22+0400\n"
 "PO-Revision-Date: 2014-08-05 14:52+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Tunisian <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_TN/>\n"
@@ -1872,35 +1872,43 @@ msgstr ""
 msgid "Website under maintenance (500)"
 msgstr "الموقع تحت الصيانة"
 
-#: templates/base.html:100
+#: templates/base.html:97
+msgid "Incase you missed it..."
+msgstr ""
+
+#: templates/base.html:97
+msgid "dubizzle is now an OLX company, bringing you the best of both worlds"
+msgstr ""
+
+#: templates/base.html:104
 msgid "Ramadan Kareem"
 msgstr "رمضان كريم"
 
-#: templates/base.html:104
+#: templates/base.html:108
 msgid "Ramadan"
 msgstr "رمضان"
 
-#: templates/base.html:105
+#: templates/base.html:109
 msgid "Iftar"
 msgstr "افطار"
 
-#: templates/base.html:105
+#: templates/base.html:109
 msgid "pm"
 msgstr "مساءً"
 
-#: templates/base.html:106
+#: templates/base.html:110
 msgid "Imsak"
 msgstr "امساك"
 
-#: templates/base.html:106
+#: templates/base.html:110
 msgid "am"
 msgstr "صباحاً"
 
-#: templates/base.html:145
+#: templates/base.html:149
 msgid "Menu"
 msgstr "القائمة"
 
-#: templates/base.html:153 templates/generic.html:96
+#: templates/base.html:157 templates/generic.html:96
 #: templates/generic.html.py:103 templates/public/landing.html:51
 #: templates/public/landing.html.py:56
 #: templates/user_profiles/my_listings.html:80
@@ -1908,7 +1916,7 @@ msgid "Place an ad"
 msgstr "أضف إعلانك"
 
 # not too clear
-#: templates/base.html:160
+#: templates/base.html:164
 msgid "My account"
 msgstr "الحساب"
 
