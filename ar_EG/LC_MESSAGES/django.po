@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-30 13:11+0400\n"
+"POT-Creation-Date: 2015-07-01 16:08+0400\n"
 "PO-Revision-Date: 2015-01-18 14:43+0200\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
@@ -132,7 +132,7 @@ msgstr "من فضلك اكتب الحروف بشكل صحيح"
 msgid "Ahlan wa sahlan..."
 msgstr "اهلا وسهلا بكم في دوبيزل..."
 
-#: country_templates/shared_landing.html:45 templates/public/landing.html:29
+#: country_templates/shared_landing.html:45
 msgid "Change country"
 msgstr "تغيير الدولة"
 
@@ -210,7 +210,7 @@ msgstr "يلا، جرب وبيع."
 #: country_templates/egypt/public/landing.html:35
 #: country_templates/egypt/public/landing.html:40 templates/base.html:157
 #: templates/generic.html:96 templates/generic.html.py:103
-#: templates/public/landing.html:51 templates/public/landing.html.py:56
+#: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:80
 msgid "Place an ad"
 msgstr "بيع أي حاجة"
@@ -3162,7 +3162,7 @@ msgstr "المساحة"
 msgid "All of %(city)s"
 msgstr "%(city)s بالكامل"
 
-#: search/forms.py:46 templates/public/landing.html:144
+#: search/forms.py:46
 msgid "Select your city"
 msgstr "اختر مدينتك"
 
@@ -3288,11 +3288,11 @@ msgid "My account"
 msgstr "الحساب"
 
 #: templates/base_privacy.html:12 templates/terms_ar.html:178
-#: templates/public/_footer.html:23
+#: templates/public/_footer.html:27
 msgid "Privacy Policy"
 msgstr "سياسة الخصوصية"
 
-#: templates/base_terms.html:12 templates/public/_footer.html:19
+#: templates/base_terms.html:12 templates/public/_footer.html:23
 msgid "Terms of Use"
 msgstr "شروط الاستخدام"
 
@@ -3316,7 +3316,7 @@ msgid "Your account"
 msgstr "حسابك"
 
 #: templates/generic.html:44 templates/public/_breadcrumbs.html:14
-#: templates/public/landing.html:64
+#: templates/public/landing.html:70
 msgid "All of"
 msgstr "كل"
 
@@ -4033,11 +4033,15 @@ msgstr "تم انضمامك بنجاح"
 msgid "Help"
 msgstr "مساعدة"
 
-#: templates/public/_footer.html:27
+#: templates/public/_footer.html:19 templates/public/about.html:6
+msgid "About Us"
+msgstr "تعرف علينا"
+
+#: templates/public/_footer.html:31
 msgid "Sitemap"
 msgstr "خريطة الموقع"
 
-#: templates/public/_footer.html:31
+#: templates/public/_footer.html:35
 #, python-format
 msgid ", %(BRAND_NAME)s, All Rights Reserved."
 msgstr ", %(BRAND_NAME)s, جميع الحقوق محفوظة."
@@ -4129,10 +4133,6 @@ msgstr "%(BRAND_NAME)s ساعدني ابيع موبايلي. العملية كا
 msgid "I sold my unused laptop on %(BRAND_NAME)s! It's easy money for the things you don't use anymore!"
 msgstr "بعت اللابتوب بتاعي على %(BRAND_NAME)s. عملت فلوس بسهوله من حاجات أنامكُنتش بستخدمها"
 
-#: templates/public/about.html:6
-msgid "About Us"
-msgstr "تعرف علينا"
-
 #: templates/public/about.html:16
 msgid "dubizzle.com is the leading classifieds website for users in the Middle East and North Africa. Since its launch in 2005, dubizzle.com has become the number one platform for users to buy, sell, or find anything in their community. A community where underused goods are redistributed to fill a new need, and become wanted again, where non- product assets such as space, skills and money are exchanged and traded in new ways that don’t always require centralized institutions or ‘middlemen’. dubizzle.com is headquartered in the UAE, and is also available in Algeria, Bahrain, Egypt, Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi Arabia and Tunisia."
 msgstr "dubizzle.com هو موقع إلكتروني رائد للإعلانات المبوبة ومجاني للمستخدمين في الشرق الأوسط وشمال أفريقيا. منذ إطلاقه في عام 2005، أصبح موقع دوبيزل البوابة الأولى للمستخدمين للشراء أو البيع أو لإيجاد أي شيء في مجتمعهم. تتجلى رؤية دوبيزل في تكوين مجتمع يقوم على توزيع الأشياء التي لا يستخدمها لكي تلعب دوراً مفيداً لدى أشخاص بحاجة فعلية إليها. يساهم دوبيزل في بناء بيئة لا تتعلق بالمُنتج وتمنح الجمهور أساليب جديدة تُمكنهم من تبادل المكان والكفاءة والقيمة المادية دون الحاجة إلى وسيط تجاري والتعامل وجهاً لوجه مع بعض. تُعتبر الإمارات العربية المتحدة، دبي المقر الرئيسي لموقع دوبيزل، ويتواجد كذلك في الأردن والبحرين وتونس والجزائر وسلطنة عمان وقطر والكويت ولبنان ومصر والمملكة العربية السعودية."
@@ -4163,41 +4163,69 @@ msgstr ""
 msgid "Load more"
 msgstr "ارني المزيد"
 
-#: templates/public/landing.html:46
+#: templates/public/landing.html:18
 msgid "Find the best deals from thousands of ads on dubizzle, an OLX company!"
 msgstr "بيع واشتري أي شيء تتخيله على دوبيزل احدى شركات اوليكس"
 
-#: templates/public/landing.html:103
-msgid "Cars"
-msgstr "سيارات"
+#: templates/public/landing.html:23
+msgid "Selling your items &amp; giving them a new chapter is as easy as 1-2-3"
+msgstr ""
 
-#: templates/public/landing.html:117
-msgid "Property for Sale"
-msgstr "شقق للايجار في مصر"
+#: templates/public/landing.html:28
+msgid "Place your FREE ad."
+msgstr "أضف إعلانك"
 
-#: templates/public/landing.html:131
+#: templates/public/landing.html:33
+msgid "Choose a category"
+msgstr "إختر فئة"
+
+#: templates/public/landing.html:37
+msgid "Add photos"
+msgstr "حمّل صُور"
+
+#: templates/public/landing.html:41
+msgid "Describe your item"
+msgstr "أضف مواصفات"
+
+#: templates/public/landing.html:63
+msgid "Want to buy something? Choose your location or browse our categories."
+msgstr "ترغب بشراء شيء؟ إختر موقعك أو تصفح الفئات المختارة"
+
+#: templates/public/landing.html:89
+msgid "Clothing  & accessories"
+msgstr ""
+
+#: templates/public/landing.html:95
+msgid "Jewelry & watches"
+msgstr ""
+
+#: templates/public/landing.html:102
 msgid "Jobs"
 msgstr "وظائف"
 
-#: templates/public/landing.html:148
-msgid "Select the city closest to where you live"
-msgstr "حدد المدينة الأقرب لك"
+#: templates/public/landing.html:108
+msgid "Mobile phones &amp; accessories"
+msgstr ""
 
-#: templates/public/landing.html:153
-msgid "Contact the advertiser"
-msgstr "تواصل مع المعلن"
+#: templates/public/landing.html:114
+msgid "Electronics &amp; home appliances"
+msgstr ""
 
-#: templates/public/landing.html:157
-msgid "Find the ad you like, and contact the advertiser directly"
-msgstr "تواصل مع المعلن عندما تجد ما تبحث عنه"
+#: templates/public/landing.html:120
+msgid "Cars"
+msgstr "سيارات"
 
-#: templates/public/landing.html:162
-msgid "Get a great deal"
-msgstr "أحصل على عرض رائع"
+#: templates/public/landing.html:126
+msgid "Home, furniture &amp; garden"
+msgstr ""
 
-#: templates/public/landing.html:166
-msgid "Meet and finish your bargain face to face."
-msgstr "اتمم الصفقة وجها لوجه"
+#: templates/public/landing.html:132
+msgid "Tablets &amp; computers "
+msgstr ""
+
+#: templates/public/landing.html:138
+msgid "So much more."
+msgstr ""
 
 #: templates/search/_pagination.html:41
 #: templates/user_profiles/my_expired_listings.html:23
@@ -4759,3 +4787,21 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
+
+#~ msgid "Property for Sale"
+#~ msgstr "شقق للايجار في مصر"
+
+#~ msgid "Select the city closest to where you live"
+#~ msgstr "حدد المدينة الأقرب لك"
+
+#~ msgid "Contact the advertiser"
+#~ msgstr "تواصل مع المعلن"
+
+#~ msgid "Find the ad you like, and contact the advertiser directly"
+#~ msgstr "تواصل مع المعلن عندما تجد ما تبحث عنه"
+
+#~ msgid "Get a great deal"
+#~ msgstr "أحصل على عرض رائع"
+
+#~ msgid "Meet and finish your bargain face to face."
+#~ msgstr "اتمم الصفقة وجها لوجه"
