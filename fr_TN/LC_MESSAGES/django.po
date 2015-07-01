@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-25 12:54+0400\n"
+"POT-Creation-Date: 2015-06-30 13:12+0400\n"
 "PO-Revision-Date: 2014-08-05 15:02+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_TN/>\n"
@@ -1911,7 +1911,8 @@ msgstr "Passer une annonce"
 msgid "My account"
 msgstr "Mon compte"
 
-#: templates/base_privacy.html:12 templates/public/_footer.html:23
+#: templates/base_privacy.html:12 templates/terms_ar.html:178
+#: templates/public/_footer.html:23
 msgid "Privacy Policy"
 msgstr "Politique de confidentialité"
 
@@ -2751,9 +2752,17 @@ msgstr ""
 msgid "I sold my unused laptop on %(BRAND_NAME)s! It's easy money for the things you don't use anymore!"
 msgstr ""
 
-#: templates/public/about.html:7
+#: templates/public/about.html:6
 msgid "About Us"
 msgstr "A propos de nous"
+
+#: templates/public/about.html:16
+msgid "dubizzle.com is the leading classifieds website for users in the Middle East and North Africa. Since its launch in 2005, dubizzle.com has become the number one platform for users to buy, sell, or find anything in their community. A community where underused goods are redistributed to fill a new need, and become wanted again, where non- product assets such as space, skills and money are exchanged and traded in new ways that don’t always require centralized institutions or ‘middlemen’. dubizzle.com is headquartered in the UAE, and is also available in Algeria, Bahrain, Egypt, Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi Arabia and Tunisia."
+msgstr ""
+
+#: templates/public/about.html:20
+msgid "dubizzle is an OLX company: OLX is the world's leading classifieds brand. The OLX network of companies operates in more than 40 growth markets in Asia, Africa, Middle East, Latin America and Europe. Worldwide we get more than 200 million unique visitors monthly generating more than 360 million page views per day."
+msgstr ""
 
 #: templates/public/home.html:22
 #, python-format
