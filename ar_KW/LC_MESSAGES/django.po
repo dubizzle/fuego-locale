@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-01 14:06+0400\n"
+"POT-Creation-Date: 2015-07-01 16:09+0400\n"
 "PO-Revision-Date: 2015-01-11 09:57+0000\n"
 "Last-Translator: Andrea Valdi <andrea@dubizzle.com>\n"
 "Language-Team: Arabic <http://translate.dubizzle.test/projects/fuego/fuego-web/ar_KW/>\n"
@@ -2188,11 +2188,11 @@ msgid "My account"
 msgstr "الحساب"
 
 #: templates/base_privacy.html:12 templates/terms_ar.html:178
-#: templates/public/_footer.html:23
+#: templates/public/_footer.html:27
 msgid "Privacy Policy"
 msgstr "سياسة الخصوصية"
 
-#: templates/base_terms.html:12 templates/public/_footer.html:19
+#: templates/base_terms.html:12 templates/public/_footer.html:23
 msgid "Terms of Use"
 msgstr "شروط الاستخدام"
 
@@ -2929,11 +2929,15 @@ msgstr "تم انضمامك بنجاح"
 msgid "Help"
 msgstr "مساعدة"
 
-#: templates/public/_footer.html:27
+#: templates/public/_footer.html:19 templates/public/about.html:6
+msgid "About Us"
+msgstr "تعرف علينا"
+
+#: templates/public/_footer.html:31
 msgid "Sitemap"
 msgstr "خريطة الموقع"
 
-#: templates/public/_footer.html:31
+#: templates/public/_footer.html:35
 #, python-format
 msgid ", %(BRAND_NAME)s, All Rights Reserved."
 msgstr ", %(BRAND_NAME)s, جميع الحقوق محفوظة."
@@ -3024,10 +3028,6 @@ msgstr "%(BRAND_NAME)s ساعدني ابيع موبايلي. العملية كا
 #, python-format
 msgid "I sold my unused laptop on %(BRAND_NAME)s! It's easy money for the things you don't use anymore!"
 msgstr "بعت اللابتوب بتاعي على %(BRAND_NAME)s. عملت فلوس بسهوله من حاجات أنامكُنتش بستخدمها"
-
-#: templates/public/about.html:6
-msgid "About Us"
-msgstr "تعرف علينا"
 
 #: templates/public/about.html:16
 msgid "dubizzle.com is the leading classifieds website for users in the Middle East and North Africa. Since its launch in 2005, dubizzle.com has become the number one platform for users to buy, sell, or find anything in their community. A community where underused goods are redistributed to fill a new need, and become wanted again, where non- product assets such as space, skills and money are exchanged and traded in new ways that don’t always require centralized institutions or ‘middlemen’. dubizzle.com is headquartered in the UAE, and is also available in Algeria, Bahrain, Egypt, Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi Arabia and Tunisia."
