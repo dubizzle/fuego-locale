@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-30 13:10+0400\n"
+"POT-Creation-Date: 2015-07-01 14:05+0400\n"
 "PO-Revision-Date: 2014-08-05 14:48+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Saudi <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_SA/>\n"
@@ -130,7 +130,7 @@ msgstr "من فضلك اكتب الحروف بشكل صحيح"
 msgid "Ahlan wa sahlan..."
 msgstr "اهلا وسهلا بكم في دوبيزل..."
 
-#: country_templates/shared_landing.html:45 templates/public/landing.html:29
+#: country_templates/shared_landing.html:45
 msgid "Change country"
 msgstr "تغيير الدولة"
 
@@ -208,7 +208,7 @@ msgstr "يلا، جرب وبيع."
 #: country_templates/saudi/public/landing.html:81
 #: country_templates/saudi/public/landing.html:86 templates/base.html:157
 #: templates/generic.html:96 templates/generic.html.py:103
-#: templates/public/landing.html:51 templates/public/landing.html.py:56
+#: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:80
 msgid "Place an ad"
 msgstr "أضف إعلانك مجاناً"
@@ -301,28 +301,33 @@ msgstr ""
 "<h2> </h2>"
 
 #: country_templates/saudi/public/landing.html:56
+#: templates/public/landing.html:28
 msgid "Place your FREE ad."
 msgstr "أضف إعلانك"
 
 #: country_templates/saudi/public/landing.html:62
+#: templates/public/landing.html:33
 msgid "Choose a category"
 msgstr "إختر فئة"
 
 #: country_templates/saudi/public/landing.html:68
+#: templates/public/landing.html:37
 msgid "Add photos"
 msgstr "حمّل صُور"
 
 #: country_templates/saudi/public/landing.html:73
+#: templates/public/landing.html:41
 msgid "Describe your item"
 msgstr "أضف مواصفات"
 
 #: country_templates/saudi/public/landing.html:94
+#: templates/public/landing.html:63
 msgid "Want to buy something? Choose your location or browse our categories."
 msgstr "ترغب بشراء شيء؟ إختر موقعك أو تصفح الفئات المختارة"
 
 #: country_templates/saudi/public/landing.html:101
 #: country_templates/saudi/public/landing.html:122 templates/generic.html:44
-#: templates/public/_breadcrumbs.html:14 templates/public/landing.html:64
+#: templates/public/_breadcrumbs.html:14 templates/public/landing.html:70
 msgid "All of"
 msgstr "كل"
 
@@ -331,14 +336,17 @@ msgid "Show me the ads"
 msgstr "اظهر جميع اعلاناتي المنشورة"
 
 #: country_templates/saudi/public/landing.html:142
+#: templates/public/landing.html:126
 msgid "Home, furniture &amp; garden"
 msgstr " المنزل والأثاث والحديقة"
 
 #: country_templates/saudi/public/landing.html:148
+#: templates/public/landing.html:108
 msgid "Mobile phones &amp; accessories"
 msgstr "جوالات واكسسواراتها"
 
 #: country_templates/saudi/public/landing.html:154
+#: templates/public/landing.html:114
 msgid "Electronics &amp; home appliances"
 msgstr "إلكترونيات وأجهزة منزلية"
 
@@ -347,15 +355,17 @@ msgid "Car accessories"
 msgstr "إكسسوارات السيارة"
 
 #: country_templates/saudi/public/landing.html:166
-#: templates/public/landing.html:103
+#: templates/public/landing.html:120
 msgid "Cars"
 msgstr "سيارات"
 
 #: country_templates/saudi/public/landing.html:172
+#: templates/public/landing.html:89
 msgid "Clothing  & accessories"
 msgstr "ملابس واكسسواراتها"
 
 #: country_templates/saudi/public/landing.html:178
+#: templates/public/landing.html:132
 msgid "Tablets &amp; computers "
 msgstr "تابلت/أجهزة لوحية وكمبيوتر"
 
@@ -364,10 +374,12 @@ msgid "Cameras & accessories"
 msgstr "كاميرات واكسسواراتها"
 
 #: country_templates/saudi/public/landing.html:190
+#: templates/public/landing.html:95
 msgid "Jewelry & watches"
 msgstr "مجوهرات وساعات"
 
 #: country_templates/saudi/public/landing.html:196
+#: templates/public/landing.html:138
 msgid "So much more."
 msgstr "فئات أكثر"
 
@@ -2022,7 +2034,7 @@ msgstr "المساحة"
 msgid "All of %(city)s"
 msgstr "%(city)s بالكامل"
 
-#: search/forms.py:46 templates/public/landing.html:144
+#: search/forms.py:46
 msgid "Select your city"
 msgstr "اختر مدينتك"
 
@@ -3019,37 +3031,17 @@ msgstr ""
 msgid "Load more"
 msgstr "ارني المزيد"
 
-#: templates/public/landing.html:46
+#: templates/public/landing.html:18
 msgid "Find the best deals from thousands of ads on dubizzle, an OLX company!"
 msgstr "بيع واشتري أي شيء تتخيله على دوبيزل احدى شركات اوليكس"
 
-#: templates/public/landing.html:117
-msgid "Property for Sale"
-msgstr "عقارات للبيع"
+#: templates/public/landing.html:23
+msgid "Selling your items &amp; giving them a new chapter is as easy as 1-2-3"
+msgstr ""
 
-#: templates/public/landing.html:131
+#: templates/public/landing.html:102
 msgid "Jobs"
 msgstr "وظائف"
-
-#: templates/public/landing.html:148
-msgid "Select the city closest to where you live"
-msgstr "حدد المدينة الأقرب لك"
-
-#: templates/public/landing.html:153
-msgid "Contact the advertiser"
-msgstr "تواصل مع المعلن"
-
-#: templates/public/landing.html:157
-msgid "Find the ad you like, and contact the advertiser directly"
-msgstr "تواصل مع المعلن عندما تجد ما تبحث عنه"
-
-#: templates/public/landing.html:162
-msgid "Get a great deal"
-msgstr "أحصل على عرض رائع"
-
-#: templates/public/landing.html:166
-msgid "Meet and finish your bargain face to face."
-msgstr "اتمم الصفقة وجها لوجه"
 
 #: templates/search/_pagination.html:41
 #: templates/user_profiles/my_expired_listings.html:23
@@ -3611,3 +3603,21 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
+
+#~ msgid "Property for Sale"
+#~ msgstr "عقارات للبيع"
+
+#~ msgid "Select the city closest to where you live"
+#~ msgstr "حدد المدينة الأقرب لك"
+
+#~ msgid "Contact the advertiser"
+#~ msgstr "تواصل مع المعلن"
+
+#~ msgid "Find the ad you like, and contact the advertiser directly"
+#~ msgstr "تواصل مع المعلن عندما تجد ما تبحث عنه"
+
+#~ msgid "Get a great deal"
+#~ msgstr "أحصل على عرض رائع"
+
+#~ msgid "Meet and finish your bargain face to face."
+#~ msgstr "اتمم الصفقة وجها لوجه"

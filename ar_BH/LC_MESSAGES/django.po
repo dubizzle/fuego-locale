@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-30 13:10+0400\n"
+"POT-Creation-Date: 2015-07-01 14:05+0400\n"
 "PO-Revision-Date: 2014-06-10 15:35+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Bahraini <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_BH/>\n"
@@ -130,7 +130,7 @@ msgstr "من فضلك اكتب الحروف بشكل صحيح"
 msgid "Ahlan wa sahlan..."
 msgstr "اهلا وسهلا بكم في دوبيزل..."
 
-#: country_templates/shared_landing.html:45 templates/public/landing.html:29
+#: country_templates/shared_landing.html:45
 msgid "Change country"
 msgstr "تغيير الدولة"
 
@@ -208,7 +208,7 @@ msgstr "يلا، جرب وبيع."
 #: country_templates/bahrain/public/landing.html:47
 #: country_templates/bahrain/public/landing.html:52 templates/base.html:157
 #: templates/generic.html:96 templates/generic.html.py:103
-#: templates/public/landing.html:51 templates/public/landing.html.py:56
+#: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:80
 msgid "Place an ad"
 msgstr "أضف إعلان"
@@ -219,7 +219,7 @@ msgid "Manama"
 msgstr "المنامة"
 
 #: country_templates/bahrain/public/landing.html:15
-#: templates/public/landing.html:46
+#: templates/public/landing.html:18
 msgid "Find the best deals from thousands of ads on dubizzle, an OLX company!"
 msgstr "بيع واشتري أي شيء تتخيله على دوبيزل احدى شركات اوليكس"
 
@@ -228,28 +228,33 @@ msgid "Place your FREE ad in 3 easy steps."
 msgstr "أضف إعلانك مجاناً في ثلاث خطوات بسيطة"
 
 #: country_templates/bahrain/public/landing.html:26
+#: templates/public/landing.html:28
 msgid "Place your FREE ad."
 msgstr "أضف إعلانك "
 
 #: country_templates/bahrain/public/landing.html:31
+#: templates/public/landing.html:33
 msgid "Choose a category"
 msgstr "اختر الفئة"
 
 #: country_templates/bahrain/public/landing.html:35
+#: templates/public/landing.html:37
 msgid "Add photos"
 msgstr "حمّل صُور"
 
 #: country_templates/bahrain/public/landing.html:39
+#: templates/public/landing.html:41
 msgid "Describe your item"
 msgstr "أضف مواصفات"
 
 #: country_templates/bahrain/public/landing.html:60
+#: templates/public/landing.html:63
 msgid "Want to buy something? Choose your location or browse our categories."
 msgstr "ترغب بشراء شيء؟ إختر موقعك أو تصفح الفئات المختارة"
 
 #: country_templates/bahrain/public/landing.html:67
 #: country_templates/bahrain/public/landing.html:92 templates/generic.html:44
-#: templates/public/_breadcrumbs.html:14 templates/public/landing.html:64
+#: templates/public/_breadcrumbs.html:14 templates/public/landing.html:70
 msgid "All of"
 msgstr "كل"
 
@@ -263,19 +268,22 @@ msgid "Show me the ads"
 msgstr "اظهر جميع اعلاناتي المنشورة"
 
 #: country_templates/bahrain/public/landing.html:113
+#: templates/public/landing.html:126
 msgid "Home, furniture &amp; garden"
 msgstr " المنزل والأثاث والحديقة"
 
 #: country_templates/bahrain/public/landing.html:119
+#: templates/public/landing.html:108
 msgid "Mobile phones &amp; accessories"
 msgstr "جوالات وإكسسواراتها"
 
 #: country_templates/bahrain/public/landing.html:125
+#: templates/public/landing.html:114
 msgid "Electronics &amp; home appliances"
 msgstr "إلكترونيات وأجهزة منزلية"
 
 #: country_templates/bahrain/public/landing.html:131
-#: templates/public/landing.html:103
+#: templates/public/landing.html:120
 msgid "Cars"
 msgstr "سيارات"
 
@@ -284,10 +292,12 @@ msgid "Car accessories"
 msgstr "إكسسوارات السيارة"
 
 #: country_templates/bahrain/public/landing.html:143
+#: templates/public/landing.html:89
 msgid "Clothing  & accessories"
 msgstr "ملابس وإكسسواراتها"
 
 #: country_templates/bahrain/public/landing.html:149
+#: templates/public/landing.html:132
 msgid "Tablets &amp; computers "
 msgstr "تابلت/أجهزة لوحية وكمبيوتر"
 
@@ -296,6 +306,7 @@ msgid "Cameras & accessories"
 msgstr "كاميرات وإكسسواراتها"
 
 #: country_templates/bahrain/public/landing.html:161
+#: templates/public/landing.html:95
 msgid "Jewelry & watches"
 msgstr "مجوهرات وساعات"
 
@@ -308,6 +319,7 @@ msgid "Video games & consoles"
 msgstr "أجهزة وألعاب فيديو"
 
 #: country_templates/bahrain/public/landing.html:179
+#: templates/public/landing.html:138
 msgid "So much more."
 msgstr "فئات أكثر"
 
@@ -1765,7 +1777,7 @@ msgstr "المساحة"
 msgid "All of %(city)s"
 msgstr "%(city)s بالكامل"
 
-#: search/forms.py:46 templates/public/landing.html:144
+#: search/forms.py:46
 msgid "Select your city"
 msgstr "اختر مدينتك"
 
@@ -2762,33 +2774,13 @@ msgstr ""
 msgid "Load more"
 msgstr "ارني المزيد"
 
-#: templates/public/landing.html:117
-msgid "Property for Sale"
-msgstr "عقارات للبيع"
+#: templates/public/landing.html:23
+msgid "Selling your items &amp; giving them a new chapter is as easy as 1-2-3"
+msgstr ""
 
-#: templates/public/landing.html:131
+#: templates/public/landing.html:102
 msgid "Jobs"
 msgstr "وظائف"
-
-#: templates/public/landing.html:148
-msgid "Select the city closest to where you live"
-msgstr "حدد المدينة الأقرب لك"
-
-#: templates/public/landing.html:153
-msgid "Contact the advertiser"
-msgstr "تواصل مع المعلن"
-
-#: templates/public/landing.html:157
-msgid "Find the ad you like, and contact the advertiser directly"
-msgstr "تواصل مع المعلن عندما تجد ما تبحث عنه"
-
-#: templates/public/landing.html:162
-msgid "Get a great deal"
-msgstr "أحصل على عرض رائع"
-
-#: templates/public/landing.html:166
-msgid "Meet and finish your bargain face to face."
-msgstr "اتمم الصفقة وجها لوجه"
 
 #: templates/search/_pagination.html:41
 #: templates/user_profiles/my_expired_listings.html:23
@@ -3350,3 +3342,21 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
+
+#~ msgid "Property for Sale"
+#~ msgstr "عقارات للبيع"
+
+#~ msgid "Select the city closest to where you live"
+#~ msgstr "حدد المدينة الأقرب لك"
+
+#~ msgid "Contact the advertiser"
+#~ msgstr "تواصل مع المعلن"
+
+#~ msgid "Find the ad you like, and contact the advertiser directly"
+#~ msgstr "تواصل مع المعلن عندما تجد ما تبحث عنه"
+
+#~ msgid "Get a great deal"
+#~ msgstr "أحصل على عرض رائع"
+
+#~ msgid "Meet and finish your bargain face to face."
+#~ msgstr "اتمم الصفقة وجها لوجه"
