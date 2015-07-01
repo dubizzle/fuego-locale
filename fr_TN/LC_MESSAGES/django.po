@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-01 13:02+0400\n"
+"POT-Creation-Date: 2015-07-01 14:06+0400\n"
 "PO-Revision-Date: 2014-08-05 15:02+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_TN/>\n"
@@ -121,6 +121,92 @@ msgstr "Erreur"
 #: captcha/conf/settings.py:58
 msgid "Please enter the correct letters"
 msgstr "Veuillez entrer les bonnes lettres"
+
+#: country_templates/shared_landing.html:30 templates/public/landing.html:10
+msgid "Ahlan wa sahlan..."
+msgstr "Ahlan wa sahlan..."
+
+#: country_templates/shared_landing.html:45
+msgid "Change country"
+msgstr "Changer de pays"
+
+#: country_templates/shared_landing.html:57
+#, fuzzy, python-format
+msgid "Why use %(BRAND_NAME)s?"
+msgstr "Revenir en %(BRAND_NAME)s"
+
+#: country_templates/shared_landing.html:65
+msgid "Make money"
+msgstr ""
+
+#: country_templates/shared_landing.html:66
+msgid "Turn your unused items into cash."
+msgstr ""
+
+#: country_templates/shared_landing.html:74
+#, fuzzy
+msgid "Your ad is free"
+msgstr "Titre de votre annonce"
+
+#: country_templates/shared_landing.html:75
+msgid "No fees, no hidden agendas and no twists or turns. It’s FREE"
+msgstr ""
+
+#: country_templates/shared_landing.html:83
+msgid "It's safe"
+msgstr ""
+
+#: country_templates/shared_landing.html:84
+msgid "No credit cards, no online payments and no money transfers."
+msgstr ""
+
+#: country_templates/shared_landing.html:92
+msgid "Fast and easy"
+msgstr ""
+
+#: country_templates/shared_landing.html:93
+msgid "A few simple steps to create your ad in one page only."
+msgstr ""
+
+#: country_templates/shared_landing.html:103
+msgid "We're local"
+msgstr ""
+
+#: country_templates/shared_landing.html:104
+msgid "Find and connect with thousands of buyers in your city and neighborhood."
+msgstr ""
+
+#: country_templates/shared_landing.html:112
+msgid "Access anytime anywhere"
+msgstr ""
+
+#: country_templates/shared_landing.html:113
+msgid "Post your ad, update it and browse from your computer, mobile phone, tablet or Mars."
+msgstr ""
+
+#: country_templates/shared_landing.html:121
+msgid "Support 24/7"
+msgstr ""
+
+#: country_templates/shared_landing.html:122
+msgid "Wherever you are, our customer support heros help you post the perfect ad and draw a smile upon your face."
+msgstr ""
+
+#: country_templates/shared_landing.html:130
+msgid "Got something to sell?"
+msgstr ""
+
+#: country_templates/shared_landing.html:132
+msgid "Yalla try it."
+msgstr ""
+
+#: country_templates/shared_landing.html:137
+#: country_templates/shared_landing.html:142 templates/base.html:157
+#: templates/generic.html:96 templates/generic.html.py:103
+#: templates/public/landing.html:49 templates/public/landing.html.py:54
+#: templates/user_profiles/my_listings.html:80
+msgid "Place an ad"
+msgstr "Passer une annonce"
 
 #: fuego/base_settings.py:579 fuego/management/commands/email_alerts.py:506
 #: fuego/management/commands/saved_search_alerts.py:505
@@ -1900,13 +1986,6 @@ msgstr "am"
 msgid "Menu"
 msgstr "Menu"
 
-#: templates/base.html:157 templates/generic.html:96
-#: templates/generic.html.py:103 templates/public/landing.html:49
-#: templates/public/landing.html.py:54
-#: templates/user_profiles/my_listings.html:80
-msgid "Place an ad"
-msgstr "Passer une annonce"
-
 #: templates/base.html:164
 msgid "My account"
 msgstr "Mon compte"
@@ -2786,10 +2865,6 @@ msgstr ""
 msgid "Load more"
 msgstr "Charger d'avantage"
 
-#: templates/public/landing.html:10
-msgid "Ahlan wa sahlan..."
-msgstr "Ahlan wa sahlan..."
-
 #: templates/public/landing.html:18
 msgid "Find the best deals from thousands of ads on dubizzle, an OLX company!"
 msgstr "Trouvez les meilleurs affaires parmi des milliers d'annonces sur dubizzle, membre du group OLX!"
@@ -3313,9 +3388,6 @@ msgstr "Votre annonce avait impropre photo."
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "Ajouter quelques photos appropriés."
-
-#~ msgid "Change country"
-#~ msgstr "Changer de pays"
 
 #~ msgid "Property for Sale"
 #~ msgstr "Immobilier à vendre"

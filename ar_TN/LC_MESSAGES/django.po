@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-01 13:02+0400\n"
+"POT-Creation-Date: 2015-07-01 14:06+0400\n"
 "PO-Revision-Date: 2014-08-05 14:52+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Tunisian <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_TN/>\n"
@@ -125,6 +125,91 @@ msgstr "خطأ"
 #: captcha/conf/settings.py:58
 msgid "Please enter the correct letters"
 msgstr "من فضلك اكتب الحروف بشكل صحيح"
+
+#: country_templates/shared_landing.html:30 templates/public/landing.html:10
+msgid "Ahlan wa sahlan..."
+msgstr "اهلا وسهلا بكم في دوبيزل..."
+
+#: country_templates/shared_landing.html:45
+msgid "Change country"
+msgstr "تغيير الدولة"
+
+#: country_templates/shared_landing.html:57
+#, python-format
+msgid "Why use %(BRAND_NAME)s?"
+msgstr "فوائد %(BRAND_NAME)s السبع"
+
+#: country_templates/shared_landing.html:65
+msgid "Make money"
+msgstr "إكسب المال"
+
+#: country_templates/shared_landing.html:66
+msgid "Turn your unused items into cash."
+msgstr "بيع اغراض لست بحاجة لها واستفيد."
+
+#: country_templates/shared_landing.html:74
+msgid "Your ad is free"
+msgstr "مجانا 100%"
+
+#: country_templates/shared_landing.html:75
+msgid "No fees, no hidden agendas and no twists or turns. It’s FREE"
+msgstr "إضافة الإعلان على دوبيزل اوليكس مجاناً و بدون أي رسوم على الإطلاق."
+
+#: country_templates/shared_landing.html:83
+msgid "It's safe"
+msgstr "خليك في الأمان"
+
+#: country_templates/shared_landing.html:84
+msgid "No credit cards, no online payments and no money transfers."
+msgstr "بدون كروت إئتمان أو معاملات بنكية أو دفع إلكتروني."
+
+#: country_templates/shared_landing.html:92
+msgid "Fast and easy"
+msgstr "سهل وسريع"
+
+#: country_templates/shared_landing.html:93
+msgid "A few simple steps to create your ad in one page only."
+msgstr "إضافة الإعلان في خطوات بسيطة وسريعة وإستخدام الموقع سهل جداً."
+
+#: country_templates/shared_landing.html:103
+msgid "We're local"
+msgstr "تواصل مع مستخدمي دوبيزل اوليكس بكل عُمان"
+
+#: country_templates/shared_landing.html:104
+msgid "Find and connect with thousands of buyers in your city and neighborhood."
+msgstr "تواصل مع الآف المشترين والبائعين في مدينتك ومنطقتك."
+
+#: country_templates/shared_landing.html:112
+msgid "Access anytime anywhere"
+msgstr "في أي وقت ومن أي مكان. "
+
+#: country_templates/shared_landing.html:113
+msgid "Post your ad, update it and browse from your computer, mobile phone, tablet or Mars."
+msgstr "أضف إعلانك وقم بتعديله من الكمبيوتر أو الموبايل أو التابلت أو حتى من المريخ!"
+
+#: country_templates/shared_landing.html:121
+msgid "Support 24/7"
+msgstr "نحن معك  24/7"
+
+#: country_templates/shared_landing.html:122
+msgid "Wherever you are, our customer support heros help you post the perfect ad and draw a smile upon your face."
+msgstr "فريق دعم دوبيزل اوليكس يتواصل معك شخصياً في إضافة إعلانك أينما كنت ويسعى لرسم الإبتسامة على وجهك."
+
+#: country_templates/shared_landing.html:130
+msgid "Got something to sell?"
+msgstr "تريد بيع شيء ما؟"
+
+#: country_templates/shared_landing.html:132
+msgid "Yalla try it."
+msgstr "يلا، جرب وبيع."
+
+#: country_templates/shared_landing.html:137
+#: country_templates/shared_landing.html:142 templates/base.html:157
+#: templates/generic.html:96 templates/generic.html.py:103
+#: templates/public/landing.html:49 templates/public/landing.html.py:54
+#: templates/user_profiles/my_listings.html:80
+msgid "Place an ad"
+msgstr "أضف إعلانك"
 
 #: fuego/base_settings.py:579 fuego/management/commands/email_alerts.py:506
 #: fuego/management/commands/saved_search_alerts.py:505
@@ -1904,13 +1989,6 @@ msgstr "صباحاً"
 msgid "Menu"
 msgstr "القائمة"
 
-#: templates/base.html:157 templates/generic.html:96
-#: templates/generic.html.py:103 templates/public/landing.html:49
-#: templates/public/landing.html.py:54
-#: templates/user_profiles/my_listings.html:80
-msgid "Place an ad"
-msgstr "أضف إعلانك"
-
 # not too clear
 #: templates/base.html:164
 msgid "My account"
@@ -2793,10 +2871,6 @@ msgstr ""
 msgid "Load more"
 msgstr "ارني المزيد"
 
-#: templates/public/landing.html:10
-msgid "Ahlan wa sahlan..."
-msgstr "اهلا وسهلا بكم في دوبيزل..."
-
 #: templates/public/landing.html:18
 msgid "Find the best deals from thousands of ads on dubizzle, an OLX company!"
 msgstr "بيع واشتري أي شيء تتخيله على دوبيزل احدى شركات اوليكس"
@@ -2827,7 +2901,7 @@ msgstr "ترغب بشراء شيء؟ إختر موقعك أو تصفح الفئ�
 
 #: templates/public/landing.html:89
 msgid "Clothing  & accessories"
-msgstr "إكسسوارات و لابس"
+msgstr "إكسسوارات و ملابس"
 
 #: templates/public/landing.html:95
 msgid "Jewelry & watches"
@@ -3421,9 +3495,6 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
-
-#~ msgid "Change country"
-#~ msgstr "تغيير الدولة"
 
 #~ msgid "Property for Sale"
 #~ msgstr "عقارات للبيع"
