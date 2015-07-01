@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-30 13:12+0400\n"
+"POT-Creation-Date: 2015-07-01 13:02+0400\n"
 "PO-Revision-Date: 2014-08-05 15:02+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_TN/>\n"
@@ -1780,7 +1780,7 @@ msgstr "Surface"
 msgid "All of %(city)s"
 msgstr "Tout - %(city)s"
 
-#: search/forms.py:46 templates/public/landing.html:144
+#: search/forms.py:46
 msgid "Select your city"
 msgstr "Sélectionnez votre ville"
 
@@ -1901,8 +1901,8 @@ msgid "Menu"
 msgstr "Menu"
 
 #: templates/base.html:157 templates/generic.html:96
-#: templates/generic.html.py:103 templates/public/landing.html:51
-#: templates/public/landing.html.py:56
+#: templates/generic.html.py:103 templates/public/landing.html:49
+#: templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:80
 msgid "Place an ad"
 msgstr "Passer une annonce"
@@ -1940,7 +1940,7 @@ msgid "Your account"
 msgstr "Votre compte"
 
 #: templates/generic.html:44 templates/public/_breadcrumbs.html:14
-#: templates/public/landing.html:64
+#: templates/public/landing.html:70
 msgid "All of"
 msgstr "Toute la"
 
@@ -2790,45 +2790,72 @@ msgstr "Charger d'avantage"
 msgid "Ahlan wa sahlan..."
 msgstr "Ahlan wa sahlan..."
 
-#: templates/public/landing.html:29
-msgid "Change country"
-msgstr "Changer de pays"
-
-#: templates/public/landing.html:46
+#: templates/public/landing.html:18
 msgid "Find the best deals from thousands of ads on dubizzle, an OLX company!"
 msgstr "Trouvez les meilleurs affaires parmi des milliers d'annonces sur dubizzle, membre du group OLX!"
 
-#: templates/public/landing.html:103
-msgid "Cars"
-msgstr "Voitures"
+#: templates/public/landing.html:23
+msgid "Selling your items &amp; giving them a new chapter is as easy as 1-2-3"
+msgstr ""
 
-#: templates/public/landing.html:117
-msgid "Property for Sale"
-msgstr "Immobilier à vendre"
+#: templates/public/landing.html:28
+#, fuzzy
+msgid "Place your FREE ad."
+msgstr "Passer une autre annonce"
 
-#: templates/public/landing.html:131
+#: templates/public/landing.html:33
+#, fuzzy
+msgid "Choose a category"
+msgstr "Changer de pays"
+
+#: templates/public/landing.html:37
+#, fuzzy
+msgid "Add photos"
+msgstr "Ajouter une photo"
+
+#: templates/public/landing.html:41
+msgid "Describe your item"
+msgstr ""
+
+#: templates/public/landing.html:63
+msgid "Want to buy something? Choose your location or browse our categories."
+msgstr ""
+
+#: templates/public/landing.html:89
+msgid "Clothing  & accessories"
+msgstr ""
+
+#: templates/public/landing.html:95
+msgid "Jewelry & watches"
+msgstr ""
+
+#: templates/public/landing.html:102
 msgid "Jobs"
 msgstr "Offres d'emploi"
 
-#: templates/public/landing.html:148
-msgid "Select the city closest to where you live"
-msgstr "Sélectionnez la ville la plus proche de chez vous"
+#: templates/public/landing.html:108
+msgid "Mobile phones &amp; accessories"
+msgstr ""
 
-#: templates/public/landing.html:153
-msgid "Contact the advertiser"
-msgstr "Contactez l'annonceur"
+#: templates/public/landing.html:114
+msgid "Electronics &amp; home appliances"
+msgstr ""
 
-#: templates/public/landing.html:157
-msgid "Find the ad you like, and contact the advertiser directly"
-msgstr "Trouvez l'annonce que vous souhaitez, et contacter directement l'annonceur"
+#: templates/public/landing.html:120
+msgid "Cars"
+msgstr "Voitures"
 
-#: templates/public/landing.html:162
-msgid "Get a great deal"
-msgstr "Faites une bonne afffaire"
+#: templates/public/landing.html:126
+msgid "Home, furniture &amp; garden"
+msgstr ""
 
-#: templates/public/landing.html:166
-msgid "Meet and finish your bargain face to face."
-msgstr "Répondez et terminez votre négociation face à face."
+#: templates/public/landing.html:132
+msgid "Tablets &amp; computers "
+msgstr ""
+
+#: templates/public/landing.html:138
+msgid "So much more."
+msgstr ""
 
 #: templates/search/_pagination.html:41
 #: templates/user_profiles/my_expired_listings.html:23
@@ -3286,3 +3313,24 @@ msgstr "Votre annonce avait impropre photo."
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "Ajouter quelques photos appropriés."
+
+#~ msgid "Change country"
+#~ msgstr "Changer de pays"
+
+#~ msgid "Property for Sale"
+#~ msgstr "Immobilier à vendre"
+
+#~ msgid "Select the city closest to where you live"
+#~ msgstr "Sélectionnez la ville la plus proche de chez vous"
+
+#~ msgid "Contact the advertiser"
+#~ msgstr "Contactez l'annonceur"
+
+#~ msgid "Find the ad you like, and contact the advertiser directly"
+#~ msgstr "Trouvez l'annonce que vous souhaitez, et contacter directement l'annonceur"
+
+#~ msgid "Get a great deal"
+#~ msgstr "Faites une bonne afffaire"
+
+#~ msgid "Meet and finish your bargain face to face."
+#~ msgstr "Répondez et terminez votre négociation face à face."
