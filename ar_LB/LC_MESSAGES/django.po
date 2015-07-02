@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-01 16:09+0400\n"
+"POT-Creation-Date: 2015-07-02 13:58+0400\n"
 "PO-Revision-Date: 2014-08-05 14:25+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Lebanese <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_LB/>\n"
@@ -173,7 +173,7 @@ msgstr "إضافة الإعلان في خطوات بسيطة وسريعة وإس
 
 #: country_templates/shared_landing.html:103
 msgid "We're local"
-msgstr "تواصل مع مستخدمي دوبيزل اوليكس بكل عُمان"
+msgstr "تواصل مع مستخدمي دوبيزل اوليكس بكل منطقتك"
 
 #: country_templates/shared_landing.html:104
 msgid "Find and connect with thousands of buyers in your city and neighborhood."
@@ -263,7 +263,7 @@ msgstr "القسم؟"
 
 #: fuego/base_settings.py:716
 msgid "You have chosen the wrong category."
-msgstr "لقد قمت بوضع إعلانك في الفئة غير الصحيحة"
+msgstr "لقد قمت بوضع إعلانك في القسم غير الصحيحة"
 
 #: fuego/base_settings.py:717
 msgid "Your ad is misleading"
@@ -1453,7 +1453,7 @@ msgstr "الرسالة"
 
 #: fuego/forms/__init__.py:184 templates/listings/snippets/_form.html:116
 msgid "Choose your city"
-msgstr "اختر مدينتك"
+msgstr "إختر مدينتك"
 
 #: fuego/forms/__init__.py:191 search/forms.py:170
 #: templates/public/_change_country.html:15
@@ -1863,7 +1863,7 @@ msgstr "%(city)s بالكامل"
 
 #: search/forms.py:46
 msgid "Select your city"
-msgstr "اختر مدينتك"
+msgstr "إختر مدينتك"
 
 #: search/forms.py:165
 msgid "Keywords"
@@ -2346,7 +2346,7 @@ msgstr "كلمة السر"
 #: templates/listings/manage_listing.html:261
 #: templates/listings/snippets/_form.html:279
 msgid "Make it safe and secure. Use a mix of numbers and letters, and don't use something obvious like your auntie's friend's cat - well, maybe that's OK."
-msgstr "اختر كلمة سر قوية وآمنة ويستحسن ان لا تكون كلمة السر تخص إسمك أو تاريخ ميلادك أو أي من افراد عائلتك."
+msgstr "إختر كلمة سر قوية وآمنة ويستحسن ان لا تكون كلمة السر تخص إسمك أو تاريخ ميلادك أو أي من افراد عائلتك."
 
 #: templates/listings/manage_listing.html:289
 msgid "Have an account?"
@@ -2387,19 +2387,19 @@ msgstr "أضف أسهل وأسرع إعلان مجانا. "
 
 #: templates/listings/add/paa_taxonomy.html:27
 msgid "Pick a category"
-msgstr "اختر الفئة"
+msgstr "إختر القسم"
 
 #: templates/listings/add/paa_taxonomy.html:38
 msgid "Please select a sub-category."
-msgstr "ما هو أنسب قسم لعرض إعلانك؟"
+msgstr "إختر الفئة المناسبة لإعلانك"
 
 #: templates/listings/add/paa_taxonomy.html:90
 msgid "Select an option"
-msgstr "إختر فئة."
+msgstr "حدد إختيارك"
 
 #: templates/listings/add/paa_taxonomy.html:98
 msgid "Select a category"
-msgstr "نوع الإعلان؟"
+msgstr "إختر القسم"
 
 #: templates/listings/add/paa_taxonomy.html:101
 #: templates/search/widget.html:66
@@ -2412,7 +2412,7 @@ msgstr "القسم"
 
 #: templates/listings/add/paa_taxonomy.html:128
 msgid "Pick a sub-category"
-msgstr "ما هو أنسب قسم لعرض إعلانك؟"
+msgstr "إختر الفئة المناسبة لإعلانك"
 
 #: templates/listings/get/get_listing.html:87
 msgid "This ad has already been edited and is awaiting approval. You'll get an email once the changes are live."
@@ -2537,7 +2537,7 @@ msgstr "إقتراحنا:"
 
 #: templates/listings/rejected/rejected_workspace.html:29
 msgid "Change category"
-msgstr "تغيير الدولة"
+msgstr "إختر القسم"
 
 #: templates/listings/rejected/rejected_workspace.html:71
 msgid "Choose"
@@ -2877,7 +2877,7 @@ msgstr "أضف إعلانك"
 
 #: templates/public/landing.html:33
 msgid "Choose a category"
-msgstr "اختر الفئة"
+msgstr "إختر القسم"
 
 #: templates/public/landing.html:37
 msgid "Add photos"
@@ -2905,7 +2905,7 @@ msgstr "وظائف"
 
 #: templates/public/landing.html:108
 msgid "Mobile phones &amp; accessories"
-msgstr "جوالات واكسسواراتها"
+msgstr "موبايلات وملحقاتها"
 
 #: templates/public/landing.html:114
 msgid "Electronics &amp; home appliances"
@@ -2956,7 +2956,7 @@ msgstr "تصفية البحث"
 
 #: templates/search/category_widget.html:8
 msgid "or pick a category"
-msgstr "أو اختر فئة "
+msgstr "أو إختر القسم "
 
 #: templates/search/category_widget.html:43
 #: templates/search/category_widget.html:64
@@ -3422,7 +3422,7 @@ msgstr "تأكد من مواصفات إعلانك أوعنوان إعلانك أ
 
 #: utils/rejected_context.py:38
 msgid "You have placed your item in the wrong category"
-msgstr "لقد قمت بوضع إعلانك في الفئة غير الصحيحة"
+msgstr "لقد قمت بوضع إعلانك في القسم غير الصحيحة"
 
 #: utils/rejected_context.py:41
 msgid "How about placing your ad in"
