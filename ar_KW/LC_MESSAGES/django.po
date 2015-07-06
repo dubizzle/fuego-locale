@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-01 16:09+0400\n"
+"POT-Creation-Date: 2015-07-05 10:25+0400\n"
 "PO-Revision-Date: 2015-01-11 09:57+0000\n"
 "Last-Translator: Andrea Valdi <andrea@dubizzle.com>\n"
 "Language-Team: Arabic <http://translate.dubizzle.test/projects/fuego/fuego-web/ar_KW/>\n"
@@ -233,7 +233,7 @@ msgstr "أضف إعلانك"
 #: country_templates/kuwait/public/landing.html:31
 #: templates/public/landing.html:33
 msgid "Choose a category"
-msgstr "اختر الفئة"
+msgstr "إختر القسم"
 
 #: country_templates/kuwait/public/landing.html:35
 #: templates/public/landing.html:37
@@ -319,7 +319,7 @@ msgstr "أجهزة وألعاب فيديو"
 #: country_templates/kuwait/public/landing.html:180
 #: templates/public/landing.html:138
 msgid "So much more."
-msgstr "فئات أكثر"
+msgstr "أقسام أكثر"
 
 #: fuego/base_settings.py:579 fuego/management/commands/email_alerts.py:506
 #: fuego/management/commands/saved_search_alerts.py:505
@@ -373,7 +373,7 @@ msgstr "القسم؟"
 
 #: fuego/base_settings.py:716
 msgid "You have chosen the wrong category."
-msgstr "لقد قمت بوضع إعلانك في الفئة غير الصحيحة"
+msgstr "لقد قمت بوضع إعلانك في القسم غير الصحيحة"
 
 #: fuego/base_settings.py:717
 msgid "Your ad is misleading"
@@ -909,15 +909,11 @@ msgstr "كبد"
 msgid "Saad Al Abdullah"
 msgstr "سعد العبدالله"
 
-#: fuego/kuwait_settings.py:659
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:81
-#: utils/prettify_filters.py:95
+#: fuego/kuwait_settings.py:659 utils/prettify_filters.py:95
 msgid "English"
 msgstr ""
 
-#: fuego/kuwait_settings.py:660
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:82
-#: utils/prettify_filters.py:95
+#: fuego/kuwait_settings.py:660 utils/prettify_filters.py:95
 msgid "Arabic"
 msgstr "عربي"
 
@@ -1654,7 +1650,7 @@ msgstr "الرسالة"
 
 #: fuego/forms/__init__.py:184 templates/listings/snippets/_form.html:116
 msgid "Choose your city"
-msgstr "اختر مدينتك"
+msgstr "إختر مدينتك"
 
 #: fuego/forms/__init__.py:191 search/forms.py:170
 #: templates/public/_change_country.html:15
@@ -2064,7 +2060,7 @@ msgstr "%(city)s بالكامل"
 
 #: search/forms.py:46
 msgid "Select your city"
-msgstr "اختر مدينتك"
+msgstr "إختر مدينتك"
 
 #: search/forms.py:165
 msgid "Keywords"
@@ -2096,35 +2092,6 @@ msgstr "إلى"
 #: search/forms.py:562
 msgid "Show only free ads"
 msgstr "أظهر فقط الإعلانات المجانية"
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:83
-#: utils/prettify_filters.py:95
-msgid "French"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:91
-msgid "Inorganic"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:92
-msgid "Payed Organic"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:93
-msgid "Free Orgainic"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:97
-msgid "Active"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:98
-msgid "Deactive"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:99
-msgid "Blocked"
-msgstr ""
 
 #: templates/404-web.html:18
 msgid "Houston... we have problem."
@@ -2542,7 +2509,7 @@ msgstr "كلمة السر"
 #: templates/listings/manage_listing.html:261
 #: templates/listings/snippets/_form.html:279
 msgid "Make it safe and secure. Use a mix of numbers and letters, and don't use something obvious like your auntie's friend's cat - well, maybe that's OK."
-msgstr "اختر كلمة سر قوية وآمنة ويستحسن ان لا تكون كلمة السر تخص إسمك أو تاريخ ميلادك أو أي من افراد عائلتك."
+msgstr "إختر كلمة سر قوية وآمنة ويستحسن ان لا تكون كلمة السر تخص إسمك أو تاريخ ميلادك أو أي من افراد عائلتك."
 
 #: templates/listings/manage_listing.html:289
 msgid "Have an account?"
@@ -2583,19 +2550,19 @@ msgstr "أضف أسهل وأسرع إعلان مجانا. "
 
 #: templates/listings/add/paa_taxonomy.html:27
 msgid "Pick a category"
-msgstr "اختر الفئة"
+msgstr "إختر القسم"
 
 #: templates/listings/add/paa_taxonomy.html:38
 msgid "Please select a sub-category."
-msgstr "ما هو أنسب قسم لعرض إعلانك؟"
+msgstr "إختر الفئة المناسبة لإعلانك"
 
 #: templates/listings/add/paa_taxonomy.html:90
 msgid "Select an option"
-msgstr "إختر فئة."
+msgstr "حدد إختيارك"
 
 #: templates/listings/add/paa_taxonomy.html:98
 msgid "Select a category"
-msgstr "اختر الفئة"
+msgstr "إختر القسم"
 
 #: templates/listings/add/paa_taxonomy.html:101
 #: templates/search/widget.html:66
@@ -2608,7 +2575,7 @@ msgstr "القسم"
 
 #: templates/listings/add/paa_taxonomy.html:128
 msgid "Pick a sub-category"
-msgstr "ما هو أنسب قسم لعرض إعلانك؟"
+msgstr "إختر الفئة المناسبة لإعلانك"
 
 #: templates/listings/get/get_listing.html:87
 msgid "This ad has already been edited and is awaiting approval. You'll get an email once the changes are live."
@@ -2733,7 +2700,7 @@ msgstr "إقتراحنا:"
 
 #: templates/listings/rejected/rejected_workspace.html:29
 msgid "Change category"
-msgstr "تغيير الدولة"
+msgstr "إختر القسم"
 
 #: templates/listings/rejected/rejected_workspace.html:71
 msgid "Choose"
@@ -3100,7 +3067,7 @@ msgstr "تصفية البحث"
 
 #: templates/search/category_widget.html:8
 msgid "or pick a category"
-msgstr "أو اختر فئة "
+msgstr "أو إختر القسم "
 
 #: templates/search/category_widget.html:43
 #: templates/search/category_widget.html:64
@@ -3535,6 +3502,10 @@ msgstr "الاستوديو"
 msgid "km"
 msgstr "كم"
 
+#: utils/prettify_filters.py:95
+msgid "French"
+msgstr ""
+
 #: utils/prettify_filters.py:114 utils/prettify_filters.py:115
 #, python-format
 msgid "%s"
@@ -3566,7 +3537,7 @@ msgstr "تأكد من مواصفات إعلانك أوعنوان إعلانك أ
 
 #: utils/rejected_context.py:38
 msgid "You have placed your item in the wrong category"
-msgstr "لقد قمت بوضع إعلانك في الفئة غير الصحيحة"
+msgstr "لقد قمت بوضع إعلانك في القسم غير الصحيحة"
 
 #: utils/rejected_context.py:41
 msgid "How about placing your ad in"
