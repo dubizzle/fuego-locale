@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-05 10:26+0400\n"
+"POT-Creation-Date: 2015-07-13 14:16+0400\n"
 "PO-Revision-Date: 2014-08-05 15:00+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Algerian <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_DZ/>\n"
@@ -200,7 +200,7 @@ msgid "Yalla try it."
 msgstr "Allez-y, essayez."
 
 #: country_templates/shared_landing.html:137
-#: country_templates/shared_landing.html:142 templates/base.html:157
+#: country_templates/shared_landing.html:142 templates/base.html:162
 #: templates/generic.html:96 templates/generic.html.py:103
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:80
@@ -773,7 +773,7 @@ msgstr "dubizzle OLX"
 msgid "m&sup2;"
 msgstr "m&sup2;"
 
-#: fuego/base_settings.py:680 fuego/base_settings.py:1168
+#: fuego/base_settings.py:680 fuego/base_settings.py:1171
 msgid "Spam"
 msgstr "Indésirable"
 
@@ -781,11 +781,11 @@ msgstr "Indésirable"
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:682 fuego/base_settings.py:1163
+#: fuego/base_settings.py:682 fuego/base_settings.py:1166
 msgid "Miscategorized"
 msgstr "Mauvaise catégorie"
 
-#: fuego/base_settings.py:683 fuego/base_settings.py:1165
+#: fuego/base_settings.py:683 fuego/base_settings.py:1168
 msgid "Repetitive"
 msgstr "Répétée"
 
@@ -797,7 +797,7 @@ msgstr ""
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:686 fuego/base_settings.py:1166
+#: fuego/base_settings.py:686 fuego/base_settings.py:1169
 msgid "Misleading"
 msgstr "Trompeuse"
 
@@ -821,39 +821,39 @@ msgstr "Votre annonce est GRATUITE"
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: fuego/base_settings.py:987
+#: fuego/base_settings.py:990
 msgid "Date: newest"
 msgstr "Date: plus recente"
 
-#: fuego/base_settings.py:988
+#: fuego/base_settings.py:991
 msgid "Date: oldest"
 msgstr "Date: moins recente"
 
-#: fuego/base_settings.py:992
+#: fuego/base_settings.py:995
 msgid "Price: highest"
 msgstr "Prix: plus cher"
 
-#: fuego/base_settings.py:993
+#: fuego/base_settings.py:996
 msgid "Price: lowest"
 msgstr "Prix: moins cher"
 
-#: fuego/base_settings.py:1152
+#: fuego/base_settings.py:1155
 msgid "#dubizzle"
 msgstr "dubizzle démarré"
 
-#: fuego/base_settings.py:1158
+#: fuego/base_settings.py:1161
 msgid "Other"
 msgstr "Autre"
 
-#: fuego/base_settings.py:1160
+#: fuego/base_settings.py:1163
 msgid "Please select"
 msgstr "Choisissez votre raison"
 
-#: fuego/base_settings.py:1164
+#: fuego/base_settings.py:1167
 msgid "Offensive"
 msgstr "Offensive"
 
-#: fuego/base_settings.py:1167
+#: fuego/base_settings.py:1170
 msgid "Possible fraud"
 msgstr "Possible fraude"
 
@@ -1596,15 +1596,16 @@ msgid "Message"
 msgstr "Message"
 
 #: fuego/forms/__init__.py:184 templates/listings/snippets/_form.html:116
+#: templates/public/landing.html:88
 msgid "Choose your city"
 msgstr "Choisissez votre ville"
 
-#: fuego/forms/__init__.py:191 search/forms.py:170
+#: fuego/forms/__init__.py:191 search/forms.py:175
 #: templates/public/_change_country.html:15
 msgid "City"
 msgstr "Ville"
 
-#: fuego/forms/__init__.py:199 search/forms.py:45
+#: fuego/forms/__init__.py:199 search/forms.py:50
 #, python-format
 msgid "All of %(country)s"
 msgstr "Toute l'%(country)s"
@@ -1732,7 +1733,7 @@ msgstr "Hep! Vous avez oublié de nous dire oů vous ętes."
 #: listings/models.py:401 listings/models.py:437 listings/models.py:462
 #: listings/models.py:486 listings/models.py:505 listings/models.py:598
 #: listings/models.py:636 listings/models.py:673 listings/models.py:711
-#: search/forms.py:176 templates/listings/manage_listing.html:145
+#: search/forms.py:181 templates/listings/manage_listing.html:145
 msgid "Neighbourhood"
 msgstr "Voisinage"
 
@@ -1835,7 +1836,7 @@ msgid "Great ride, how far has it gone?"
 msgstr "Joli petit tour! Jusqu'ou ętes-vous allé?"
 
 #: listings/forms.py:494 listings/forms.py:497 listings/models.py:403
-#: listings/models.py:410 search/forms.py:418 search/forms.py:422
+#: listings/models.py:410 search/forms.py:423 search/forms.py:427
 msgid "Model"
 msgstr "Modèle"
 
@@ -1844,7 +1845,7 @@ msgid "Please specify the model"
 msgstr "Veuillez spécifier le modèle"
 
 #: listings/forms.py:502 listings/forms.py:505 listings/models.py:404
-#: listings/models.py:414 search/forms.py:462 search/forms.py:466
+#: listings/models.py:414 search/forms.py:467 search/forms.py:471
 msgid "Engine Size (CC)"
 msgstr "Cylindrée en cm³"
 
@@ -1853,7 +1854,7 @@ msgid "Please specify the engine size"
 msgstr "Veuillez spécifier la cylindrée de voiture"
 
 #: listings/forms.py:510 listings/forms.py:513 listings/models.py:405
-#: listings/models.py:412 search/forms.py:451 search/forms.py:455
+#: listings/models.py:412 search/forms.py:456 search/forms.py:460
 msgid "Transmission Type"
 msgstr "Type de transmission"
 
@@ -1862,7 +1863,7 @@ msgid "Please specify the transmission type"
 msgstr "Veuillez spécifier le type de transmission"
 
 #: listings/forms.py:518 listings/forms.py:521 listings/models.py:406
-#: search/forms.py:440 search/forms.py:444
+#: search/forms.py:445 search/forms.py:449
 msgid "Body Type"
 msgstr "Type de Voiture"
 
@@ -1871,7 +1872,7 @@ msgid "Please specify the body type"
 msgstr "Veuillez spécifier le type de voiture"
 
 #: listings/forms.py:526 listings/forms.py:529 listings/models.py:407
-#: search/forms.py:429 search/forms.py:433
+#: search/forms.py:434 search/forms.py:438
 msgid "Number of Doors"
 msgstr "Nombre de portes"
 
@@ -1881,7 +1882,7 @@ msgstr "Veuillez spécifier le nombre de portes"
 
 #: listings/forms.py:559 listings/forms.py:562 listings/models.py:488
 #: listings/models.py:491 listings/models.py:507 listings/models.py:512
-#: search/forms.py:597 search/forms.py:601
+#: search/forms.py:602 search/forms.py:606
 msgid "Type"
 msgstr "Type"
 
@@ -1890,7 +1891,7 @@ msgid "Please specify the type"
 msgstr "Veuillez spécifier le type"
 
 #: listings/forms.py:577 listings/forms.py:580 listings/models.py:508
-#: listings/models.py:513 search/forms.py:608 search/forms.py:612
+#: listings/models.py:513 search/forms.py:613 search/forms.py:617
 msgid "Brand"
 msgstr "Marque"
 
@@ -1899,7 +1900,7 @@ msgid "Please specify the brand"
 msgstr "Veuillez spécifier la marque"
 
 #: listings/forms.py:585 listings/forms.py:588 listings/models.py:509
-#: listings/models.py:514 search/forms.py:619 search/forms.py:623
+#: listings/models.py:514 search/forms.py:624 search/forms.py:628
 msgid "Warranty"
 msgstr "Garantie"
 
@@ -2000,43 +2001,43 @@ msgstr "Kilomètres"
 msgid "Area"
 msgstr "Surface"
 
-#: search/forms.py:37
+#: search/forms.py:42
 #, python-format
 msgid "All of %(city)s"
 msgstr "Tout - %(city)s"
 
-#: search/forms.py:46
+#: search/forms.py:51
 msgid "Select your city"
 msgstr "Sélectionnez votre ville"
 
-#: search/forms.py:165
+#: search/forms.py:170
 msgid "Keywords"
 msgstr "Mots-clés"
 
-#: search/forms.py:342 search/forms.py:495 search/forms.py:551
-#: search/forms.py:647 utils/prettify_filters.py:136
+#: search/forms.py:347 search/forms.py:500 search/forms.py:556
+#: search/forms.py:652 utils/prettify_filters.py:136
 msgid "Show only ads with photos"
 msgstr "Montrer uniquement les annonces avec photos"
 
-#: search/forms.py:357 search/forms.py:360 search/forms.py:378
-#: search/forms.py:382 search/forms.py:399 search/forms.py:402
-#: search/forms.py:509 search/forms.py:512 search/forms.py:576
-#: search/forms.py:579 search/forms.py:661 search/forms.py:664
-#: search/forms.py:683 search/forms.py:722 search/forms.py:726
-#: search/forms.py:744 search/forms.py:748 search/forms.py:767
+#: search/forms.py:362 search/forms.py:365 search/forms.py:383
+#: search/forms.py:387 search/forms.py:404 search/forms.py:407
+#: search/forms.py:514 search/forms.py:517 search/forms.py:581
+#: search/forms.py:584 search/forms.py:666 search/forms.py:669
+#: search/forms.py:688 search/forms.py:727 search/forms.py:731
+#: search/forms.py:749 search/forms.py:753 search/forms.py:772
 msgid "From"
 msgstr "De"
 
-#: search/forms.py:368 search/forms.py:371 search/forms.py:389
-#: search/forms.py:393 search/forms.py:408 search/forms.py:411
-#: search/forms.py:520 search/forms.py:523 search/forms.py:587
-#: search/forms.py:590 search/forms.py:672 search/forms.py:675
-#: search/forms.py:690 search/forms.py:733 search/forms.py:737
-#: search/forms.py:755 search/forms.py:759 search/forms.py:774
+#: search/forms.py:373 search/forms.py:376 search/forms.py:394
+#: search/forms.py:398 search/forms.py:413 search/forms.py:416
+#: search/forms.py:525 search/forms.py:528 search/forms.py:592
+#: search/forms.py:595 search/forms.py:677 search/forms.py:680
+#: search/forms.py:695 search/forms.py:738 search/forms.py:742
+#: search/forms.py:760 search/forms.py:764 search/forms.py:779
 msgid "To"
 msgstr "A"
 
-#: search/forms.py:562
+#: search/forms.py:567
 msgid "Show only free ads"
 msgstr "Montrer seulement les annonces gratuites"
 
@@ -2064,39 +2065,39 @@ msgstr "404"
 msgid "Website under maintenance (500)"
 msgstr "Site en maintenance (500)"
 
-#: templates/base.html:97
+#: templates/base.html:102
 msgid "dubizzle is now an OLX company, bringing you the best of both worlds"
 msgstr "dubizzle fait maintenant parti du groupe OLX"
 
-#: templates/base.html:104
+#: templates/base.html:109
 msgid "Ramadan Kareem"
 msgstr "Ramadan Kareem"
 
-#: templates/base.html:108
+#: templates/base.html:113
 msgid "Ramadan"
 msgstr "Ramadan"
 
-#: templates/base.html:109
+#: templates/base.html:114
 msgid "Iftar"
 msgstr "Iftar"
 
-#: templates/base.html:109
+#: templates/base.html:114
 msgid "pm"
 msgstr "pm"
 
-#: templates/base.html:110
+#: templates/base.html:115
 msgid "Imsak"
 msgstr "Imsak"
 
-#: templates/base.html:110
+#: templates/base.html:115
 msgid "am"
 msgstr "am"
 
-#: templates/base.html:149
+#: templates/base.html:154
 msgid "Menu"
 msgstr "Menu"
 
-#: templates/base.html:164
+#: templates/base.html:169
 msgid "My account"
 msgstr "Mon compte"
 
@@ -2612,25 +2613,25 @@ msgstr "Envoyer un message"
 msgid "Send reply"
 msgstr "Envoyer"
 
-#: templates/listings/preview/listing_complete.html:20
+#: templates/listings/preview/listing_complete.html:29
 msgid "Hooray! Congratulations, your ad will go live very very soon."
 msgstr "Hourra! Félicitations, votre annonce sera mise en ligne très bientôt."
 
-#: templates/listings/preview/listing_complete.html:29
+#: templates/listings/preview/listing_complete.html:38
 #, python-format
 msgid "Right now, we're going to quickly review your ad and make sure it's ready for %(BRAND_NAME)s. Once it's up and live, we'll tell you the good news in an email."
 msgstr "Nous examinons votre annonce tout de suite et la préparons pour %(BRAND_NAME)s. Une fois en ligne, nous vous annoncerons la bonne nouvelle dans un courriel."
 
-#: templates/listings/preview/listing_complete.html:33
+#: templates/listings/preview/listing_complete.html:42
 #, python-format
 msgid "Once your ad is approved, it will remain live for %(LISTING_EXPIRE_DAYS)s days. You can go to \"your account\" to edit or delete the ad after it has been approved."
 msgstr "Dès que votre annonce est approuvée, elle restera active pour %(LISTING_EXPIRE_DAYS)s. Vous pouvez aller à \"Votre compte\" pour modifier ou supprimer l'annonce après qu'elle a été approuvé."
 
-#: templates/listings/preview/listing_complete.html:43
+#: templates/listings/preview/listing_complete.html:52
 msgid "Back to home page"
 msgstr "Retour à la page d'accueil"
 
-#: templates/listings/preview/listing_complete.html:50
+#: templates/listings/preview/listing_complete.html:59
 msgid "Place another ad"
 msgstr "Passez une autre annonce"
 
@@ -3003,39 +3004,39 @@ msgstr "Décrivez votre produit"
 msgid "Want to buy something? Choose your location or browse our categories."
 msgstr "Voulez-vous acheter quelque chose? Sélectionnez l'endroit ou vous vivez et parcourez nos catégories."
 
-#: templates/public/landing.html:89
+#: templates/public/landing.html:103
 msgid "Clothing  & accessories"
 msgstr "Vêtements & accessoires"
 
-#: templates/public/landing.html:95
+#: templates/public/landing.html:109
 msgid "Jewelry & watches"
 msgstr "Bijoux & montres"
 
-#: templates/public/landing.html:102
+#: templates/public/landing.html:116
 msgid "Jobs"
 msgstr "Offres d'emploi"
 
-#: templates/public/landing.html:108
+#: templates/public/landing.html:122
 msgid "Mobile phones &amp; accessories"
 msgstr "Téléphones portables & accessoires"
 
-#: templates/public/landing.html:114
+#: templates/public/landing.html:128
 msgid "Electronics &amp; home appliances"
 msgstr "Electronique & appareils ménagers"
 
-#: templates/public/landing.html:120
+#: templates/public/landing.html:134
 msgid "Cars"
 msgstr "Voitures"
 
-#: templates/public/landing.html:126
+#: templates/public/landing.html:140
 msgid "Home, furniture &amp; garden"
 msgstr "Maison & jardinage"
 
-#: templates/public/landing.html:132
+#: templates/public/landing.html:146
 msgid "Tablets &amp; computers "
 msgstr "Ordinateurs & tablettes"
 
-#: templates/public/landing.html:138
+#: templates/public/landing.html:152
 msgid "So much more."
 msgstr "Et plus encore."
 
