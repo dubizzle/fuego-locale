@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-13 14:15+0400\n"
+"POT-Creation-Date: 2015-07-15 13:00+0400\n"
 "PO-Revision-Date: 2014-08-05 14:25+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Lebanese <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_LB/>\n"
@@ -204,108 +204,108 @@ msgid "Yalla try it."
 msgstr "يلا، جرب وبيع."
 
 #: country_templates/shared_landing.html:137
-#: country_templates/shared_landing.html:142 templates/base.html:162
+#: country_templates/shared_landing.html:142 templates/base.html:168
 #: templates/generic.html:96 templates/generic.html.py:103
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
-#: templates/user_profiles/my_listings.html:80
+#: templates/user_profiles/my_listings.html:68
 msgid "Place an ad"
 msgstr "أضف إعلانك"
 
-#: fuego/base_settings.py:579 fuego/management/commands/email_alerts.py:506
+#: fuego/base_settings.py:581 fuego/management/commands/email_alerts.py:506
 #: fuego/management/commands/saved_search_alerts.py:505
 #: search/search_utils.py:107
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:583
+#: fuego/base_settings.py:585
 msgid "dubizzle OLX"
 msgstr "دوبيزل اوليكس"
 
-#: fuego/base_settings.py:647
+#: fuego/base_settings.py:649
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:680 fuego/base_settings.py:1171
+#: fuego/base_settings.py:682 fuego/base_settings.py:1170
 msgid "Spam"
 msgstr "إعلان مزعج"
 
-#: fuego/base_settings.py:681
+#: fuego/base_settings.py:683
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:682 fuego/base_settings.py:1166
+#: fuego/base_settings.py:684 fuego/base_settings.py:1165
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:683 fuego/base_settings.py:1168
+#: fuego/base_settings.py:685 fuego/base_settings.py:1167
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:684
+#: fuego/base_settings.py:686
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:685
+#: fuego/base_settings.py:687
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:686 fuego/base_settings.py:1169
+#: fuego/base_settings.py:688 fuego/base_settings.py:1168
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:687
+#: fuego/base_settings.py:689
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:688
+#: fuego/base_settings.py:690
 msgid "No Category"
 msgstr "القسم؟"
 
-#: fuego/base_settings.py:716
+#: fuego/base_settings.py:718
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في القسم غير الصحيحة"
 
-#: fuego/base_settings.py:717
+#: fuego/base_settings.py:719
 msgid "Your ad is misleading"
 msgstr "مجانا وبدون أي رسوم"
 
-#: fuego/base_settings.py:797
+#: fuego/base_settings.py:799
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:990
+#: fuego/base_settings.py:989
 msgid "Date: newest"
 msgstr "بحسب التاريخ: الأحدث"
 
-#: fuego/base_settings.py:991
+#: fuego/base_settings.py:990
 msgid "Date: oldest"
 msgstr "بحسب التاريخ: الأقدم"
 
-#: fuego/base_settings.py:995
+#: fuego/base_settings.py:994
 msgid "Price: highest"
 msgstr "بحسب السعر: الأعلى"
 
-#: fuego/base_settings.py:996
+#: fuego/base_settings.py:995
 msgid "Price: lowest"
 msgstr "بحسب السعر: الأدنى"
 
-#: fuego/base_settings.py:1155
+#: fuego/base_settings.py:1154
 msgid "#dubizzle"
 msgstr "#دوبيزل"
 
-#: fuego/base_settings.py:1161
+#: fuego/base_settings.py:1160
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:1163
+#: fuego/base_settings.py:1162
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:1167
+#: fuego/base_settings.py:1166
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:1170
+#: fuego/base_settings.py:1169
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
@@ -353,555 +353,379 @@ msgstr "صيدا"
 msgid "Beirut"
 msgstr "بيروت"
 
-#: fuego/lebanon_settings.py:80
-msgid "Akkar"
-msgstr "عكار‎"
-
 #: fuego/lebanon_settings.py:87
-msgid "Aley"
-msgstr "عاليه"
-
-#: fuego/lebanon_settings.py:94
-msgid "Baabda"
-msgstr "بعبدا"
-
-#: fuego/lebanon_settings.py:101
-msgid "Baalbeck"
-msgstr "بعلبك‎"
-
-#: fuego/lebanon_settings.py:108
-msgid "Batroun"
-msgstr "البترون"
-
-#: fuego/lebanon_settings.py:115
-msgid "Becharre"
-msgstr "بشري"
-
-#: fuego/lebanon_settings.py:122
-msgid "Bint Jbeil"
-msgstr "بنت جبيل"
-
-#: fuego/lebanon_settings.py:129
-msgid "Chouf"
-msgstr "الشوف"
-
-#: fuego/lebanon_settings.py:136
-msgid "Hasbaya"
-msgstr "حاصبيا"
-
-#: fuego/lebanon_settings.py:143
-msgid "Hermel"
-msgstr "الهرمل"
-
-#: fuego/lebanon_settings.py:150
-msgid "Jbeil"
-msgstr "جبيل"
-
-#: fuego/lebanon_settings.py:157
-msgid "Jezzine"
-msgstr "جزين"
-
-#: fuego/lebanon_settings.py:164
-msgid "Keserouan"
-msgstr "كسروان"
-
-#: fuego/lebanon_settings.py:171
-msgid "Koura"
-msgstr "الكورة"
-
-#: fuego/lebanon_settings.py:178
-msgid "Marjeeyoun"
-msgstr "مرجعيون"
-
-#: fuego/lebanon_settings.py:185
-msgid "Metn"
-msgstr "المتن‎"
-
-#: fuego/lebanon_settings.py:192
-msgid "Minieh-Denniye"
-msgstr "المنية الضنية"
-
-#: fuego/lebanon_settings.py:199
-msgid "Nabatieh"
-msgstr "النبطية"
-
-#: fuego/lebanon_settings.py:206
-msgid "Rachaya"
-msgstr "راشيا"
-
-#: fuego/lebanon_settings.py:213
-msgid "Tyre"
-msgstr "صور"
-
-#: fuego/lebanon_settings.py:220
-msgid "West Bekaa"
-msgstr "البقاع الغربي"
-
-#: fuego/lebanon_settings.py:227
-msgid "Zghorta"
-msgstr "زغرتا"
-
-#: fuego/lebanon_settings.py:243
 msgid "Achrafieh"
 msgstr "أشرفية"
 
-#: fuego/lebanon_settings.py:248
+#: fuego/lebanon_settings.py:92
 msgid "Amaret Chalhoub"
 msgstr "عمارة  شلهوب"
 
-#: fuego/lebanon_settings.py:253
+#: fuego/lebanon_settings.py:97
 msgid "Antilias"
 msgstr "انطلياس"
 
-#: fuego/lebanon_settings.py:258
+#: fuego/lebanon_settings.py:102
 msgid "Bab Idriss"
 msgstr "باب ادريس"
 
-#: fuego/lebanon_settings.py:263
+#: fuego/lebanon_settings.py:107
 msgid "Bachoura"
 msgstr "باشورة"
 
-#: fuego/lebanon_settings.py:268
+#: fuego/lebanon_settings.py:112
 msgid "Baouchriye"
 msgstr "بوشرية"
 
-#: fuego/lebanon_settings.py:273
+#: fuego/lebanon_settings.py:117
 msgid "Beirut Port"
 msgstr "المرفأ"
 
-#: fuego/lebanon_settings.py:278
+#: fuego/lebanon_settings.py:122
 msgid "Biaqout"
 msgstr "بياقوت"
 
-#: fuego/lebanon_settings.py:283
+#: fuego/lebanon_settings.py:127
 msgid "Borj Hammoud"
 msgstr "برج حمود"
 
-#: fuego/lebanon_settings.py:288
+#: fuego/lebanon_settings.py:132
 msgid "Bourj el Barajneh"
 msgstr "برج البراجنة"
 
-#: fuego/lebanon_settings.py:293
+#: fuego/lebanon_settings.py:137
 msgid "Bqennaya"
 msgstr "بقنايا"
 
-#: fuego/lebanon_settings.py:298
+#: fuego/lebanon_settings.py:142
 msgid "Burj Abi Haidar"
 msgstr "برج ابي حيدر"
 
-#: fuego/lebanon_settings.py:303
+#: fuego/lebanon_settings.py:147
 msgid "Chiyah"
 msgstr "الشياح"
 
-#: fuego/lebanon_settings.py:308
+#: fuego/lebanon_settings.py:152
 msgid "Downtown"
 msgstr "وسط المدينة"
 
-#: fuego/lebanon_settings.py:313
+#: fuego/lebanon_settings.py:157
 msgid "Fanar"
 msgstr "فنار"
 
-#: fuego/lebanon_settings.py:318
+#: fuego/lebanon_settings.py:162
 msgid "Furn Al Chebak"
 msgstr "فرن الشباك"
 
-#: fuego/lebanon_settings.py:323
+#: fuego/lebanon_settings.py:167
 msgid "Gemmayzeh"
 msgstr "جميزة"
 
-#: fuego/lebanon_settings.py:328
+#: fuego/lebanon_settings.py:172
 msgid "Ghobeiry"
 msgstr "غبيري"
 
-#: fuego/lebanon_settings.py:333
+#: fuego/lebanon_settings.py:177
 msgid "Haret Hreik"
 msgstr "حارة حريك"
 
-#: fuego/lebanon_settings.py:338
+#: fuego/lebanon_settings.py:182
 msgid "Hazmiyeh"
 msgstr "حازمية"
 
-#: fuego/lebanon_settings.py:343
+#: fuego/lebanon_settings.py:187
 msgid "Jall El Dieb"
 msgstr "جل الديب"
 
-#: fuego/lebanon_settings.py:348
+#: fuego/lebanon_settings.py:192
 msgid "Jdaide"
 msgstr "جديدة"
 
-#: fuego/lebanon_settings.py:353
+#: fuego/lebanon_settings.py:197
 msgid "Khaldeh"
 msgstr "خلدة"
 
-#: fuego/lebanon_settings.py:358
+#: fuego/lebanon_settings.py:202
 msgid "Majzoub"
 msgstr "مجذوب"
 
-#: fuego/lebanon_settings.py:363 fuego/lebanon_settings.py:514
+#: fuego/lebanon_settings.py:207 fuego/lebanon_settings.py:358
 msgid "Malaab"
 msgstr "الملعب"
 
-#: fuego/lebanon_settings.py:368 fuego/lebanon_settings.py:620
+#: fuego/lebanon_settings.py:212 fuego/lebanon_settings.py:464
 msgid "Mar Elias"
 msgstr "مصطبة"
 
-#: fuego/lebanon_settings.py:373
+#: fuego/lebanon_settings.py:217
 msgid "Mar Mikhael"
 msgstr "مار مخايل"
 
-#: fuego/lebanon_settings.py:378
+#: fuego/lebanon_settings.py:222
 msgid "Mar Mitr"
 msgstr "مار متر"
 
-#: fuego/lebanon_settings.py:383
+#: fuego/lebanon_settings.py:227
 msgid "Mar Nicolas"
 msgstr "مار نقولا"
 
-#: fuego/lebanon_settings.py:388
+#: fuego/lebanon_settings.py:232
 msgid "Mina Al Hosn"
 msgstr "ميناء الحصن"
 
-#: fuego/lebanon_settings.py:393
+#: fuego/lebanon_settings.py:237
 msgid "Mkalles"
 msgstr "مكلس"
 
-#: fuego/lebanon_settings.py:398
+#: fuego/lebanon_settings.py:242
 msgid "Msaytbeh"
 msgstr "مصيطبة"
 
-#: fuego/lebanon_settings.py:403
+#: fuego/lebanon_settings.py:247
 msgid "Patriarcat"
 msgstr "البطركية"
 
-#: fuego/lebanon_settings.py:408
+#: fuego/lebanon_settings.py:252
 msgid "Ras Beirut"
 msgstr "راس  بيروت"
 
-#: fuego/lebanon_settings.py:413
+#: fuego/lebanon_settings.py:257
 msgid "Sahet Al Najmeh"
 msgstr "ساحة النجمة"
 
-#: fuego/lebanon_settings.py:418
+#: fuego/lebanon_settings.py:262
 msgid "Sanayeh"
 msgstr "صنايع"
 
-#: fuego/lebanon_settings.py:423
+#: fuego/lebanon_settings.py:267
 msgid "Sin El Fil"
 msgstr "سن الفيل"
 
-#: fuego/lebanon_settings.py:428
+#: fuego/lebanon_settings.py:272
 msgid "Sodeco"
 msgstr "سوديكو"
 
-#: fuego/lebanon_settings.py:433
+#: fuego/lebanon_settings.py:277
 msgid "Tahouitet El Ghadir"
 msgstr "تحويطة الغدير"
 
-#: fuego/lebanon_settings.py:438
+#: fuego/lebanon_settings.py:282
 msgid "Tall Ez Zaatar"
 msgstr "تل الزعتر"
 
-#: fuego/lebanon_settings.py:443
+#: fuego/lebanon_settings.py:287
 msgid "Verdun"
 msgstr "فردان"
 
-#: fuego/lebanon_settings.py:448
+#: fuego/lebanon_settings.py:292
 msgid "Zalqa"
 msgstr "زلقا"
 
-#: fuego/lebanon_settings.py:454
+#: fuego/lebanon_settings.py:298
 msgid "Abdul Latif El Bissar"
 msgstr "عبداللطيف البيسار"
 
-#: fuego/lebanon_settings.py:459
+#: fuego/lebanon_settings.py:303
 msgid "Abou Samra"
 msgstr "ابو سمراء"
 
-#: fuego/lebanon_settings.py:464
+#: fuego/lebanon_settings.py:308
 msgid "Al Bahsas"
 msgstr "البحصاص"
 
-#: fuego/lebanon_settings.py:469
+#: fuego/lebanon_settings.py:313
 msgid "Al Beddaoui"
 msgstr "البداوي"
 
-#: fuego/lebanon_settings.py:474
+#: fuego/lebanon_settings.py:318
 msgid "Al Kouds"
 msgstr "القدس"
 
-#: fuego/lebanon_settings.py:479
+#: fuego/lebanon_settings.py:323
 msgid "Al Maarad"
 msgstr "المعرض"
 
-#: fuego/lebanon_settings.py:484
+#: fuego/lebanon_settings.py:328
 msgid "Al Mina"
 msgstr "الميناء"
 
-#: fuego/lebanon_settings.py:489
+#: fuego/lebanon_settings.py:333
 msgid "Azmi"
 msgstr "عزمي"
 
-#: fuego/lebanon_settings.py:494 fuego/lebanon_settings.py:651
+#: fuego/lebanon_settings.py:338 fuego/lebanon_settings.py:495
 msgid "Foaad Chehab"
 msgstr "فؤاد شهاب"
 
-#: fuego/lebanon_settings.py:499
+#: fuego/lebanon_settings.py:343
 msgid "Hadid"
 msgstr "الحديد "
 
-#: fuego/lebanon_settings.py:504
+#: fuego/lebanon_settings.py:348
 msgid "Hdadine"
 msgstr "الحدادين"
 
-#: fuego/lebanon_settings.py:509
+#: fuego/lebanon_settings.py:353
 msgid "Jamal Abdul Nasser"
 msgstr "جمال عبد الناصر"
 
-#: fuego/lebanon_settings.py:519
+#: fuego/lebanon_settings.py:363
 msgid "Mhatreh"
 msgstr "محطريه"
 
-#: fuego/lebanon_settings.py:524
+#: fuego/lebanon_settings.py:368
 msgid "Qoubbe"
 msgstr "القوبة"
 
-#: fuego/lebanon_settings.py:529
+#: fuego/lebanon_settings.py:373
 msgid "Riad El Solh"
 msgstr "رياض الصلح"
 
-#: fuego/lebanon_settings.py:534
+#: fuego/lebanon_settings.py:378
 msgid "Sahat Al Nour"
 msgstr "ساحة النور"
 
-#: fuego/lebanon_settings.py:539
+#: fuego/lebanon_settings.py:383
 msgid "Tal"
 msgstr "تل"
 
-#: fuego/lebanon_settings.py:544
+#: fuego/lebanon_settings.py:388
 msgid "Zahrieh"
 msgstr "زاهرية"
 
-#: fuego/lebanon_settings.py:549
+#: fuego/lebanon_settings.py:393
 msgid "Zeitoun"
 msgstr "زيتون"
 
-#: fuego/lebanon_settings.py:555
+#: fuego/lebanon_settings.py:399
 msgid "Ain ed Dawq"
 msgstr "عين الضوء"
 
-#: fuego/lebanon_settings.py:560
+#: fuego/lebanon_settings.py:404
 msgid "Ain el Ghossein "
 msgstr "عين الغصين"
 
-#: fuego/lebanon_settings.py:565
+#: fuego/lebanon_settings.py:409
 msgid "Al Barbara"
 msgstr "بربارة"
 
-#: fuego/lebanon_settings.py:570
+#: fuego/lebanon_settings.py:414
 msgid "Al Madina as Sinaiya "
 msgstr "المدينة الصناعية"
 
-#: fuego/lebanon_settings.py:575
+#: fuego/lebanon_settings.py:419
 msgid "Al Midan"
 msgstr "الميدان"
 
-#: fuego/lebanon_settings.py:580
+#: fuego/lebanon_settings.py:424
 msgid "Al Muallaqa "
 msgstr " المعلّقة"
 
-#: fuego/lebanon_settings.py:585
+#: fuego/lebanon_settings.py:429
 msgid "Ar Rassieh"
 msgstr "الراسيـة "
 
-#: fuego/lebanon_settings.py:590
+#: fuego/lebanon_settings.py:434
 msgid "Haoush el Oumara"
 msgstr "حوش الأمراء"
 
-#: fuego/lebanon_settings.py:595
+#: fuego/lebanon_settings.py:439
 msgid "Haoush ez Zaraane"
 msgstr "حوش الزراعنة "
 
-#: fuego/lebanon_settings.py:600
+#: fuego/lebanon_settings.py:444
 msgid "Haret el Faouqa"
 msgstr "حارة الفوقا"
 
-#: fuego/lebanon_settings.py:605
+#: fuego/lebanon_settings.py:449
 msgid "Haret et Tahta "
 msgstr "حارة التحتا"
 
-#: fuego/lebanon_settings.py:610
+#: fuego/lebanon_settings.py:454
 msgid "Karak Nuh "
 msgstr "كرك"
 
-#: fuego/lebanon_settings.py:615
+#: fuego/lebanon_settings.py:459
 msgid "Ksara "
 msgstr "كسارة"
 
-#: fuego/lebanon_settings.py:625
+#: fuego/lebanon_settings.py:469
 msgid "Mar Mtanous "
 msgstr "مار مطانيوس"
 
-#: fuego/lebanon_settings.py:630
+#: fuego/lebanon_settings.py:474
 msgid "Saydet en Naja "
 msgstr "سيدة النجاة"
 
-#: fuego/lebanon_settings.py:635
+#: fuego/lebanon_settings.py:479
 msgid "Wadi el Aarayesh"
 msgstr "وادي العرايش"
 
-#: fuego/lebanon_settings.py:641
+#: fuego/lebanon_settings.py:485
 msgid "Al Rahebat"
 msgstr "الراهبات"
 
-#: fuego/lebanon_settings.py:646
+#: fuego/lebanon_settings.py:490
 msgid "Corniche El Baher"
 msgstr "كورنيش البحر"
 
-#: fuego/lebanon_settings.py:656
+#: fuego/lebanon_settings.py:500
 msgid "Ghaziyeh"
 msgstr "الغازية"
 
-#: fuego/lebanon_settings.py:661
+#: fuego/lebanon_settings.py:505
 msgid "Harat Saida"
 msgstr "حارة صيدا"
 
-#: fuego/lebanon_settings.py:666
+#: fuego/lebanon_settings.py:510
 msgid "Hlaliyeh"
 msgstr "هلالية"
 
-#: fuego/lebanon_settings.py:671
+#: fuego/lebanon_settings.py:515
 msgid "Jlall Aairam"
 msgstr "جلال عيرم"
 
-#: fuego/lebanon_settings.py:676
+#: fuego/lebanon_settings.py:520
 msgid "Maarouf Saad"
 msgstr "معروف سعد"
 
-#: fuego/lebanon_settings.py:681
+#: fuego/lebanon_settings.py:525
 msgid "Majdelyoun"
 msgstr "مجدليون"
 
-#: fuego/lebanon_settings.py:686
+#: fuego/lebanon_settings.py:530
 msgid "Miye Ou Miye"
 msgstr "المية و المية"
 
-#: fuego/lebanon_settings.py:691
+#: fuego/lebanon_settings.py:535
 msgid "Mrah Kiouane"
 msgstr "مراح كيوان"
 
-#: fuego/lebanon_settings.py:696
+#: fuego/lebanon_settings.py:540
 msgid "Qiyaa"
 msgstr "قياع"
 
-#: fuego/lebanon_settings.py:701
+#: fuego/lebanon_settings.py:545
 msgid "Salhiyet Saida"
 msgstr "الصالحية"
 
-#: fuego/lebanon_settings.py:707
-msgid "All of Akkar"
-msgstr "عكار بالكامل"
-
-#: fuego/lebanon_settings.py:713
-msgid "All of Aley"
-msgstr "عاليه بالكامل"
-
-#: fuego/lebanon_settings.py:719
-msgid "All of Baabda"
-msgstr "بعبدا بالكامل"
-
-#: fuego/lebanon_settings.py:725
-msgid "All of Baalbeck"
-msgstr "بعلبك بالكامل"
-
-#: fuego/lebanon_settings.py:731
-msgid "All of Batroun"
-msgstr "البترون بالكامل"
-
-#: fuego/lebanon_settings.py:737
-msgid "All of Becharre"
-msgstr "بشري بالكامل"
-
-#: fuego/lebanon_settings.py:743
-msgid "All of Bint Jbeil"
-msgstr "بنت جبيل بالكامل"
-
-#: fuego/lebanon_settings.py:749
-msgid "All of Chouf"
-msgstr "الشوف بالكامل"
-
-#: fuego/lebanon_settings.py:755
-msgid "All of Hasbaya"
-msgstr "حاصبيا بالكامل"
-
-#: fuego/lebanon_settings.py:761
-msgid "All of Hermel"
-msgstr "الهرمل بالكامل"
-
-#: fuego/lebanon_settings.py:767
-msgid "All of Jbeil"
-msgstr "جبيل بالكامل"
-
-#: fuego/lebanon_settings.py:773
-msgid "All of Jezzine"
-msgstr "جزين بالكامل"
-
-#: fuego/lebanon_settings.py:779
-msgid "All of Keserouan"
-msgstr "كسروان بالكامل"
-
-#: fuego/lebanon_settings.py:785
-msgid "All of Koura"
-msgstr "الكورة بالكامل"
-
-#: fuego/lebanon_settings.py:791
-msgid "All of Marjeeyoun"
-msgstr "مرجعيون بالكامل"
-
-#: fuego/lebanon_settings.py:797
-msgid "All of Metn"
-msgstr "المتن بالكامل"
-
-#: fuego/lebanon_settings.py:803
-msgid "All of Minieh-Denniye"
-msgstr "المنية الضنية بالكامل"
-
-#: fuego/lebanon_settings.py:809
-msgid "All of Nabatieh"
-msgstr "النبطية بالكامل"
-
-#: fuego/lebanon_settings.py:815
-msgid "All of Rachaya"
-msgstr "راشيا بالكامل"
-
-#: fuego/lebanon_settings.py:821
-msgid "All of Tyre"
-msgstr "صور بالكامل"
-
-#: fuego/lebanon_settings.py:827
-msgid "All of West Bekaa"
-msgstr "البقاع الغربي بالكامل"
-
-#: fuego/lebanon_settings.py:833
-msgid "All of Zghorta"
-msgstr "زغرتا بالكامل"
-
-#: fuego/lebanon_settings.py:852 utils/prettify_filters.py:95
+#: fuego/lebanon_settings.py:564 utils/prettify_filters.py:95
 msgid "English"
 msgstr "English"
 
-#: fuego/lebanon_settings.py:853 utils/prettify_filters.py:95
+#: fuego/lebanon_settings.py:565 utils/prettify_filters.py:95
 msgid "Arabic"
 msgstr "عربي"
 
-#: fuego/lebanon_settings.py:863
+#: fuego/lebanon_settings.py:575
 msgid "Jobs in Lebanon, Property & Real Estate For Sale & Rent, Cars for Sale - Free Classifieds in Lebanon | dubizzle OLX Lebanon"
 msgstr "وظائف في لبنان، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في لبنان | دوبيزل اوليكس لبنان"
 
-#: fuego/lebanon_settings.py:867
+#: fuego/lebanon_settings.py:579
 msgid "dubizzle OLX is your free and friendly local classifieds website in Lebanon. Jobs, property, real estate, cars and classifieds in Lebanon. Post an ad, browse ads, buy, sell or rent."
 msgstr "دوبيزل اوليكس لبنان موقع الإعلانات المبوبة المجانية المحلية - منتهى السهولة والبساطة. وظائف، عقارات، سيارات و اعلانات مبوبة في لبنان. اضف اعلان، تصفح اعلانات، بيع واشتري وأجر."
 
-#: fuego/lebanon_settings.py:872
+#: fuego/lebanon_settings.py:584
 msgid "dubizzle OLX Lebanon, free classifieds, online classifieds, Lebanon classifieds, free classifieds in Lebanon"
 msgstr "دوبيزل اوليكس  لبنان، مبوبة مجانيه، اعلانات مبوبة عبر الإنترنت، مبوبة  لبنان، اعلانات مبوبة مجانيه في لبنان"
 
@@ -1628,12 +1452,12 @@ msgstr "الرسالة"
 msgid "Choose your city"
 msgstr "إختر مدينتك"
 
-#: fuego/forms/__init__.py:191 search/forms.py:175
+#: fuego/forms/__init__.py:191 search/forms.py:170
 #: templates/public/_change_country.html:15
 msgid "City"
 msgstr "المدينة"
 
-#: fuego/forms/__init__.py:199 search/forms.py:50
+#: fuego/forms/__init__.py:199 search/forms.py:45
 #, python-format
 msgid "All of %(country)s"
 msgstr "%(country)s بالكامل"
@@ -1662,10 +1486,10 @@ msgstr ""
 #: templates/listings/get/get_listing.html:112
 #: templates/listings/get/get_listing.html:240 templates/public/home.html:78
 #: templates/shared/listings.html:62
-#: templates/user_profiles/my_listings.html:151
-#: templates/user_profiles/my_listings.html:244
-#: templates/user_profiles/my_listings.html:303
-#: templates/user_profiles/my_listings.html:402 utils/prettify_filters.py:132
+#: templates/user_profiles/my_listings.html:139
+#: templates/user_profiles/my_listings.html:232
+#: templates/user_profiles/my_listings.html:291
+#: templates/user_profiles/my_listings.html:390 utils/prettify_filters.py:132
 msgid "Free"
 msgstr "مجاني"
 
@@ -1761,7 +1585,7 @@ msgstr " من فضلك لا تنسى إضافة إسم مدينتك. (الا ا�
 #: listings/models.py:401 listings/models.py:437 listings/models.py:462
 #: listings/models.py:486 listings/models.py:505 listings/models.py:598
 #: listings/models.py:636 listings/models.py:673 listings/models.py:711
-#: search/forms.py:181 templates/listings/manage_listing.html:145
+#: search/forms.py:176 templates/listings/manage_listing.html:145
 msgid "Neighbourhood"
 msgstr "المنطقة"
 
@@ -1864,7 +1688,7 @@ msgid "Great ride, how far has it gone?"
 msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
 
 #: listings/forms.py:494 listings/forms.py:497 listings/models.py:403
-#: listings/models.py:410 search/forms.py:423 search/forms.py:427
+#: listings/models.py:410 search/forms.py:418 search/forms.py:422
 msgid "Model"
 msgstr "موديل"
 
@@ -1873,7 +1697,7 @@ msgid "Please specify the model"
 msgstr "الرجاء تحديد الموديل"
 
 #: listings/forms.py:502 listings/forms.py:505 listings/models.py:404
-#: listings/models.py:414 search/forms.py:467 search/forms.py:471
+#: listings/models.py:414 search/forms.py:462 search/forms.py:466
 msgid "Engine Size (CC)"
 msgstr "سعة المحرك (سي سي)"
 
@@ -1882,7 +1706,7 @@ msgid "Please specify the engine size"
 msgstr "يرجى تحديد سعة المحرك"
 
 #: listings/forms.py:510 listings/forms.py:513 listings/models.py:405
-#: listings/models.py:412 search/forms.py:456 search/forms.py:460
+#: listings/models.py:412 search/forms.py:451 search/forms.py:455
 msgid "Transmission Type"
 msgstr "ناقل الحركة"
 
@@ -1891,7 +1715,7 @@ msgid "Please specify the transmission type"
 msgstr "يرجى تحديد نوع ناقل الحركة"
 
 #: listings/forms.py:518 listings/forms.py:521 listings/models.py:406
-#: search/forms.py:445 search/forms.py:449
+#: search/forms.py:440 search/forms.py:444
 msgid "Body Type"
 msgstr "هيكل السيارة"
 
@@ -1900,7 +1724,7 @@ msgid "Please specify the body type"
 msgstr "الرجاء تحديد هيكل السيارة"
 
 #: listings/forms.py:526 listings/forms.py:529 listings/models.py:407
-#: search/forms.py:434 search/forms.py:438
+#: search/forms.py:429 search/forms.py:433
 msgid "Number of Doors"
 msgstr "عدد الابواب"
 
@@ -1910,7 +1734,7 @@ msgstr "يرجى تحديد عدد الابواب"
 
 #: listings/forms.py:559 listings/forms.py:562 listings/models.py:488
 #: listings/models.py:491 listings/models.py:507 listings/models.py:512
-#: search/forms.py:602 search/forms.py:606
+#: search/forms.py:597 search/forms.py:601
 msgid "Type"
 msgstr "النوع"
 
@@ -1919,7 +1743,7 @@ msgid "Please specify the type"
 msgstr "الرجاء تحديد النوع"
 
 #: listings/forms.py:577 listings/forms.py:580 listings/models.py:508
-#: listings/models.py:513 search/forms.py:613 search/forms.py:617
+#: listings/models.py:513 search/forms.py:608 search/forms.py:612
 msgid "Brand"
 msgstr "الماركة"
 
@@ -1928,7 +1752,7 @@ msgid "Please specify the brand"
 msgstr "الرجاء تحديد الماركة"
 
 #: listings/forms.py:585 listings/forms.py:588 listings/models.py:509
-#: listings/models.py:514 search/forms.py:624 search/forms.py:628
+#: listings/models.py:514 search/forms.py:619 search/forms.py:623
 msgid "Warranty"
 msgstr "الضمان"
 
@@ -2029,43 +1853,43 @@ msgstr "كيلومترات"
 msgid "Area"
 msgstr "المساحة"
 
-#: search/forms.py:42
+#: search/forms.py:37
 #, python-format
 msgid "All of %(city)s"
 msgstr "%(city)s بالكامل"
 
-#: search/forms.py:51
+#: search/forms.py:46
 msgid "Select your city"
 msgstr "إختر مدينتك"
 
-#: search/forms.py:170
+#: search/forms.py:165
 msgid "Keywords"
 msgstr "كلمات البحث"
 
-#: search/forms.py:347 search/forms.py:500 search/forms.py:556
-#: search/forms.py:652 utils/prettify_filters.py:136
+#: search/forms.py:342 search/forms.py:495 search/forms.py:551
+#: search/forms.py:647 utils/prettify_filters.py:136
 msgid "Show only ads with photos"
 msgstr "أظهر الإعلانات التي معها صور"
 
-#: search/forms.py:362 search/forms.py:365 search/forms.py:383
-#: search/forms.py:387 search/forms.py:404 search/forms.py:407
-#: search/forms.py:514 search/forms.py:517 search/forms.py:581
-#: search/forms.py:584 search/forms.py:666 search/forms.py:669
-#: search/forms.py:688 search/forms.py:727 search/forms.py:731
-#: search/forms.py:749 search/forms.py:753 search/forms.py:772
+#: search/forms.py:357 search/forms.py:360 search/forms.py:378
+#: search/forms.py:382 search/forms.py:399 search/forms.py:402
+#: search/forms.py:509 search/forms.py:512 search/forms.py:576
+#: search/forms.py:579 search/forms.py:661 search/forms.py:664
+#: search/forms.py:683 search/forms.py:722 search/forms.py:726
+#: search/forms.py:744 search/forms.py:748 search/forms.py:767
 msgid "From"
 msgstr "من"
 
-#: search/forms.py:373 search/forms.py:376 search/forms.py:394
-#: search/forms.py:398 search/forms.py:413 search/forms.py:416
-#: search/forms.py:525 search/forms.py:528 search/forms.py:592
-#: search/forms.py:595 search/forms.py:677 search/forms.py:680
-#: search/forms.py:695 search/forms.py:738 search/forms.py:742
-#: search/forms.py:760 search/forms.py:764 search/forms.py:779
+#: search/forms.py:368 search/forms.py:371 search/forms.py:389
+#: search/forms.py:393 search/forms.py:408 search/forms.py:411
+#: search/forms.py:520 search/forms.py:523 search/forms.py:587
+#: search/forms.py:590 search/forms.py:672 search/forms.py:675
+#: search/forms.py:690 search/forms.py:733 search/forms.py:737
+#: search/forms.py:755 search/forms.py:759 search/forms.py:774
 msgid "To"
 msgstr "إلى"
 
-#: search/forms.py:567
+#: search/forms.py:562
 msgid "Show only free ads"
 msgstr "أظهر فقط الإعلانات المجانية"
 
@@ -2097,36 +1921,40 @@ msgstr "الموقع تحت الصيانة"
 msgid "dubizzle is now an OLX company, bringing you the best of both worlds"
 msgstr "دوبيزل الآن هو إحدى شركات أوليكس. يعني أنك ستتمتع بأفضل المزايا من عالم دوبيزل وعالم أوليكس."
 
-#: templates/base.html:109
+#: templates/base.html:110
+msgid "Eid Mubarak"
+msgstr "عيد مبارك"
+
+#: templates/base.html:112
 msgid "Ramadan Kareem"
 msgstr "رمضان كريم"
 
-#: templates/base.html:113
+#: templates/base.html:118
 msgid "Ramadan"
 msgstr "رمضان"
 
-#: templates/base.html:114
+#: templates/base.html:119
 msgid "Iftar"
 msgstr "افطار"
 
-#: templates/base.html:114
+#: templates/base.html:119
 msgid "pm"
 msgstr "مساءً"
 
-#: templates/base.html:115
+#: templates/base.html:120
 msgid "Imsak"
 msgstr "امساك"
 
-#: templates/base.html:115
+#: templates/base.html:120
 msgid "am"
 msgstr "صباحاً"
 
-#: templates/base.html:154
+#: templates/base.html:160
 msgid "Menu"
 msgstr "القائمة"
 
 # not too clear
-#: templates/base.html:169
+#: templates/base.html:175
 msgid "My account"
 msgstr "الحساب"
 
@@ -2155,7 +1983,7 @@ msgid "%(BRAND_NAME)s on your phone"
 msgstr "%(BRAND_NAME)s على موبايلك"
 
 # not too clear
-#: templates/generic.html:35 templates/user_profiles/my_listings.html:29
+#: templates/generic.html:35 templates/user_profiles/my_listings.html:17
 msgid "Your account"
 msgstr "حسابك"
 
@@ -2192,19 +2020,19 @@ msgstr "تسجيل الدخول"
 msgid "Your ads"
 msgstr "إعلاناتك"
 
-#: templates/generic.html:188 templates/user_profiles/my_listings.html:111
+#: templates/generic.html:188 templates/user_profiles/my_listings.html:99
 msgid "Your rejected ads"
 msgstr "إعلاناتك المرفوضة"
 
-#: templates/generic.html:193 templates/user_profiles/my_listings.html:210
+#: templates/generic.html:193 templates/user_profiles/my_listings.html:198
 msgid "Your pending ads"
 msgstr "إعلاناتك التي تنتظر الموافقة"
 
-#: templates/generic.html:198 templates/user_profiles/my_listings.html:269
+#: templates/generic.html:198 templates/user_profiles/my_listings.html:257
 msgid "Your live ads"
 msgstr "إعلاناتك المنشورة"
 
-#: templates/generic.html:203 templates/user_profiles/my_listings.html:369
+#: templates/generic.html:203 templates/user_profiles/my_listings.html:357
 msgid "Your expired ads"
 msgstr "اعلاناتك منتهية الصلاحية"
 
@@ -2671,7 +2499,7 @@ msgid "Resubmit your ad"
 msgstr "إعادة وضع الإعلان"
 
 #: templates/listings/rejected/rejected_workspace.html:21
-#: templates/user_profiles/my_listings.html:158
+#: templates/user_profiles/my_listings.html:146
 msgid "Rejection reason:"
 msgstr "سبب الرفض:"
 
@@ -3241,7 +3069,7 @@ msgstr[5] ""
 "لديك %(counter)s إعلانات منتهية الصلاحية\n"
 "    "
 
-#: templates/user_profiles/my_listings.html:49
+#: templates/user_profiles/my_listings.html:37
 #, python-format
 msgid ""
 "\n"
@@ -3276,18 +3104,18 @@ msgstr[5] ""
 "لديك %(counter)s إعلان\n"
 "                        "
 
-#: templates/user_profiles/my_listings.html:71
-#: templates/user_profiles/my_listings.html:194
-#: templates/user_profiles/my_listings.html:252
-#: templates/user_profiles/my_listings.html:352
+#: templates/user_profiles/my_listings.html:59
+#: templates/user_profiles/my_listings.html:182
+#: templates/user_profiles/my_listings.html:240
+#: templates/user_profiles/my_listings.html:340
 msgid "This page is emptier than the Sahara. Come on, let's fill it up by placing some awesome ads."
 msgstr "حسابك كالصحراء - يبدو خالي من أي نشاط. احيي ربعك الخالي باعلاناتك! "
 
-#: templates/user_profiles/my_listings.html:97
+#: templates/user_profiles/my_listings.html:85
 msgid "Your ad has been successfully deleted"
 msgstr "لقد تم حذف إعلانك بنجاح."
 
-#: templates/user_profiles/my_listings.html:117
+#: templates/user_profiles/my_listings.html:105
 #, python-format
 msgid "The following %(counter)s ad did not meet our rules and has been rejected by %(BRAND_NAME)s support team , however you can correct and resubmit"
 msgid_plural "The following %(counter)s ads did not meet our rules and have been rejected by %(BRAND_NAME)s support team , however you can correct and resubmit"
@@ -3298,62 +3126,62 @@ msgstr[3] "يبدو أن الإعلانات التالية لم يوافق عل�
 msgstr[4] "يبدو أن إعلانك لم يوافق عليه فريق الدعم في %(BRAND_NAME)s، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
 msgstr[5] "يبدو أن إعلانك لم يوافق عليه فريق الدعم في %(BRAND_NAME)s، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره."
 
-#: templates/user_profiles/my_listings.html:161
+#: templates/user_profiles/my_listings.html:149
 msgid "Recommended suggestion:"
 msgstr "إقتراحنا:"
 
-#: templates/user_profiles/my_listings.html:167
-#: templates/user_profiles/my_listings.html:169
-#: templates/user_profiles/my_listings.html:324
-#: templates/user_profiles/my_listings.html:326
-#: templates/user_profiles/my_listings.html:410
-#: templates/user_profiles/my_listings.html:412
+#: templates/user_profiles/my_listings.html:155
+#: templates/user_profiles/my_listings.html:157
+#: templates/user_profiles/my_listings.html:312
+#: templates/user_profiles/my_listings.html:314
+#: templates/user_profiles/my_listings.html:398
+#: templates/user_profiles/my_listings.html:400
 msgid "delete"
 msgstr "حذف"
 
-#: templates/user_profiles/my_listings.html:171
-#: templates/user_profiles/my_listings.html:173
+#: templates/user_profiles/my_listings.html:159
+#: templates/user_profiles/my_listings.html:161
 msgid "resubmit"
 msgstr "إعادة وضع الإعلان"
 
-#: templates/user_profiles/my_listings.html:181
-#: templates/user_profiles/my_listings.html:337
-#: templates/user_profiles/my_listings.html:419
+#: templates/user_profiles/my_listings.html:169
+#: templates/user_profiles/my_listings.html:325
+#: templates/user_profiles/my_listings.html:407
 msgid "Are you sure you want to delete this listing?"
 msgstr "من فضلك أكد طلبك لحذف الإعلان."
 
-#: templates/user_profiles/my_listings.html:187
-#: templates/user_profiles/my_listings.html:342
-#: templates/user_profiles/my_listings.html:424
+#: templates/user_profiles/my_listings.html:175
+#: templates/user_profiles/my_listings.html:330
+#: templates/user_profiles/my_listings.html:412
 msgid "Yes, delete it."
 msgstr "نعم، احذفه."
 
-#: templates/user_profiles/my_listings.html:199
+#: templates/user_profiles/my_listings.html:187
 msgid "Show all my rejected ads"
 msgstr "اظهر جميع اعلاناتي المرفوضة"
 
-#: templates/user_profiles/my_listings.html:218
+#: templates/user_profiles/my_listings.html:206
 msgid "These ads are awaiting approval and will be live soon."
 msgstr "جاري الآن الموافقة على الإعلان وسيتم نشره في أقرب وقت."
 
-#: templates/user_profiles/my_listings.html:257
+#: templates/user_profiles/my_listings.html:245
 msgid "Show all my pending ads"
 msgstr "اظهر جميع إعلاناتي التي لا زالت تحت المراجعة"
 
-#: templates/user_profiles/my_listings.html:316
+#: templates/user_profiles/my_listings.html:304
 msgid "Your edits will go live soon."
 msgstr "سنقوم بنشر تعديلاتك قريبا."
 
-#: templates/user_profiles/my_listings.html:328
-#: templates/user_profiles/my_listings.html:330
+#: templates/user_profiles/my_listings.html:316
+#: templates/user_profiles/my_listings.html:318
 msgid "edit"
 msgstr "تعديل"
 
-#: templates/user_profiles/my_listings.html:358
+#: templates/user_profiles/my_listings.html:346
 msgid "Show all my live ads"
 msgstr "اظهر جميع اعلاناتي المنشورة"
 
-#: templates/user_profiles/my_listings.html:436
+#: templates/user_profiles/my_listings.html:424
 msgid "Show all my expired ads"
 msgstr "اظهر جميع اعلاناتي المنتهية الصلاحية"
 
@@ -3635,6 +3463,138 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
+
+#~ msgid "Akkar"
+#~ msgstr "عكار‎"
+
+#~ msgid "Aley"
+#~ msgstr "عاليه"
+
+#~ msgid "Baabda"
+#~ msgstr "بعبدا"
+
+#~ msgid "Baalbeck"
+#~ msgstr "بعلبك‎"
+
+#~ msgid "Batroun"
+#~ msgstr "البترون"
+
+#~ msgid "Becharre"
+#~ msgstr "بشري"
+
+#~ msgid "Bint Jbeil"
+#~ msgstr "بنت جبيل"
+
+#~ msgid "Chouf"
+#~ msgstr "الشوف"
+
+#~ msgid "Hasbaya"
+#~ msgstr "حاصبيا"
+
+#~ msgid "Hermel"
+#~ msgstr "الهرمل"
+
+#~ msgid "Jbeil"
+#~ msgstr "جبيل"
+
+#~ msgid "Jezzine"
+#~ msgstr "جزين"
+
+#~ msgid "Keserouan"
+#~ msgstr "كسروان"
+
+#~ msgid "Koura"
+#~ msgstr "الكورة"
+
+#~ msgid "Marjeeyoun"
+#~ msgstr "مرجعيون"
+
+#~ msgid "Metn"
+#~ msgstr "المتن‎"
+
+#~ msgid "Minieh-Denniye"
+#~ msgstr "المنية الضنية"
+
+#~ msgid "Nabatieh"
+#~ msgstr "النبطية"
+
+#~ msgid "Rachaya"
+#~ msgstr "راشيا"
+
+#~ msgid "Tyre"
+#~ msgstr "صور"
+
+#~ msgid "West Bekaa"
+#~ msgstr "البقاع الغربي"
+
+#~ msgid "Zghorta"
+#~ msgstr "زغرتا"
+
+#~ msgid "All of Akkar"
+#~ msgstr "عكار بالكامل"
+
+#~ msgid "All of Aley"
+#~ msgstr "عاليه بالكامل"
+
+#~ msgid "All of Baabda"
+#~ msgstr "بعبدا بالكامل"
+
+#~ msgid "All of Baalbeck"
+#~ msgstr "بعلبك بالكامل"
+
+#~ msgid "All of Batroun"
+#~ msgstr "البترون بالكامل"
+
+#~ msgid "All of Becharre"
+#~ msgstr "بشري بالكامل"
+
+#~ msgid "All of Bint Jbeil"
+#~ msgstr "بنت جبيل بالكامل"
+
+#~ msgid "All of Chouf"
+#~ msgstr "الشوف بالكامل"
+
+#~ msgid "All of Hasbaya"
+#~ msgstr "حاصبيا بالكامل"
+
+#~ msgid "All of Hermel"
+#~ msgstr "الهرمل بالكامل"
+
+#~ msgid "All of Jbeil"
+#~ msgstr "جبيل بالكامل"
+
+#~ msgid "All of Jezzine"
+#~ msgstr "جزين بالكامل"
+
+#~ msgid "All of Keserouan"
+#~ msgstr "كسروان بالكامل"
+
+#~ msgid "All of Koura"
+#~ msgstr "الكورة بالكامل"
+
+#~ msgid "All of Marjeeyoun"
+#~ msgstr "مرجعيون بالكامل"
+
+#~ msgid "All of Metn"
+#~ msgstr "المتن بالكامل"
+
+#~ msgid "All of Minieh-Denniye"
+#~ msgstr "المنية الضنية بالكامل"
+
+#~ msgid "All of Nabatieh"
+#~ msgstr "النبطية بالكامل"
+
+#~ msgid "All of Rachaya"
+#~ msgstr "راشيا بالكامل"
+
+#~ msgid "All of Tyre"
+#~ msgstr "صور بالكامل"
+
+#~ msgid "All of West Bekaa"
+#~ msgstr "البقاع الغربي بالكامل"
+
+#~ msgid "All of Zghorta"
+#~ msgstr "زغرتا بالكامل"
 
 #~ msgid "Property for Sale"
 #~ msgstr "عقارات للبيع"
