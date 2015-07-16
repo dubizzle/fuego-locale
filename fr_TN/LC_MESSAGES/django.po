@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-13 14:16+0400\n"
+"POT-Creation-Date: 2015-07-16 12:40+0400\n"
 "PO-Revision-Date: 2014-08-05 15:02+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_TN/>\n"
@@ -200,108 +200,108 @@ msgid "Yalla try it."
 msgstr "Allez-y, essayez."
 
 #: country_templates/shared_landing.html:137
-#: country_templates/shared_landing.html:142 templates/base.html:162
+#: country_templates/shared_landing.html:142 templates/base.html:168
 #: templates/generic.html:96 templates/generic.html.py:103
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
-#: templates/user_profiles/my_listings.html:80
+#: templates/user_profiles/my_listings.html:68
 msgid "Place an ad"
 msgstr "Passer une annonce"
 
-#: fuego/base_settings.py:579 fuego/management/commands/email_alerts.py:506
+#: fuego/base_settings.py:581 fuego/management/commands/email_alerts.py:506
 #: fuego/management/commands/saved_search_alerts.py:505
 #: search/search_utils.py:107
 msgid "All of dubizzle"
 msgstr "Tout sur dubizzle"
 
-#: fuego/base_settings.py:583
+#: fuego/base_settings.py:585
 msgid "dubizzle OLX"
 msgstr "dubizzle OLX"
 
-#: fuego/base_settings.py:647
+#: fuego/base_settings.py:649
 msgid "m&sup2;"
 msgstr "m&sup2;"
 
-#: fuego/base_settings.py:680 fuego/base_settings.py:1171
+#: fuego/base_settings.py:682 fuego/base_settings.py:1170
 msgid "Spam"
 msgstr "Indésirable"
 
-#: fuego/base_settings.py:681
+#: fuego/base_settings.py:683
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:682 fuego/base_settings.py:1166
+#: fuego/base_settings.py:684 fuego/base_settings.py:1165
 msgid "Miscategorized"
 msgstr "Mauvaise catégorie"
 
-#: fuego/base_settings.py:683 fuego/base_settings.py:1168
+#: fuego/base_settings.py:685 fuego/base_settings.py:1167
 msgid "Repetitive"
 msgstr "Répétée"
 
-#: fuego/base_settings.py:684
+#: fuego/base_settings.py:686
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:685
+#: fuego/base_settings.py:687
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:686 fuego/base_settings.py:1169
+#: fuego/base_settings.py:688 fuego/base_settings.py:1168
 msgid "Misleading"
 msgstr "Trompeuse"
 
-#: fuego/base_settings.py:687
+#: fuego/base_settings.py:689
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:688
+#: fuego/base_settings.py:690
 msgid "No Category"
 msgstr "Catégorie"
 
-#: fuego/base_settings.py:716
+#: fuego/base_settings.py:718
 msgid "You have chosen the wrong category."
 msgstr "Votre annonce a été placé dans la mauvaise catégorie"
 
-#: fuego/base_settings.py:717
+#: fuego/base_settings.py:719
 msgid "Your ad is misleading"
 msgstr "Votre annonce est GRATUITE"
 
-#: fuego/base_settings.py:797
+#: fuego/base_settings.py:799
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: fuego/base_settings.py:990
+#: fuego/base_settings.py:989
 msgid "Date: newest"
 msgstr "Date: plus recente"
 
-#: fuego/base_settings.py:991
+#: fuego/base_settings.py:990
 msgid "Date: oldest"
 msgstr "Date: moins recente"
 
-#: fuego/base_settings.py:995
+#: fuego/base_settings.py:994
 msgid "Price: highest"
 msgstr "Prix: plus cher"
 
-#: fuego/base_settings.py:996
+#: fuego/base_settings.py:995
 msgid "Price: lowest"
 msgstr "Prix: moins cher"
 
-#: fuego/base_settings.py:1155
+#: fuego/base_settings.py:1154
 msgid "#dubizzle"
 msgstr "dubizzle démarré"
 
-#: fuego/base_settings.py:1161
+#: fuego/base_settings.py:1160
 msgid "Other"
 msgstr "Autre"
 
-#: fuego/base_settings.py:1163
+#: fuego/base_settings.py:1162
 msgid "Please select"
 msgstr "Choisissez votre raison"
 
-#: fuego/base_settings.py:1167
+#: fuego/base_settings.py:1166
 msgid "Offensive"
 msgstr "Offensive"
 
-#: fuego/base_settings.py:1170
+#: fuego/base_settings.py:1169
 msgid "Possible fraud"
 msgstr "Possible fraude"
 
@@ -1456,12 +1456,12 @@ msgstr "Message"
 msgid "Choose your city"
 msgstr "Choisissez votre ville"
 
-#: fuego/forms/__init__.py:191 search/forms.py:175
+#: fuego/forms/__init__.py:191 search/forms.py:170
 #: templates/public/_change_country.html:15
 msgid "City"
 msgstr "Ville"
 
-#: fuego/forms/__init__.py:199 search/forms.py:50
+#: fuego/forms/__init__.py:199 search/forms.py:45
 #, python-format
 msgid "All of %(country)s"
 msgstr "Toute la %(country)s"
@@ -1490,10 +1490,10 @@ msgstr ""
 #: templates/listings/get/get_listing.html:112
 #: templates/listings/get/get_listing.html:240 templates/public/home.html:78
 #: templates/shared/listings.html:62
-#: templates/user_profiles/my_listings.html:151
-#: templates/user_profiles/my_listings.html:244
-#: templates/user_profiles/my_listings.html:303
-#: templates/user_profiles/my_listings.html:402 utils/prettify_filters.py:132
+#: templates/user_profiles/my_listings.html:139
+#: templates/user_profiles/my_listings.html:232
+#: templates/user_profiles/my_listings.html:291
+#: templates/user_profiles/my_listings.html:390 utils/prettify_filters.py:132
 msgid "Free"
 msgstr "Gratuite"
 
@@ -1589,7 +1589,7 @@ msgstr "Hep! Vous avez oublié de nous dire oů vous ętes."
 #: listings/models.py:401 listings/models.py:437 listings/models.py:462
 #: listings/models.py:486 listings/models.py:505 listings/models.py:598
 #: listings/models.py:636 listings/models.py:673 listings/models.py:711
-#: search/forms.py:181 templates/listings/manage_listing.html:145
+#: search/forms.py:176 templates/listings/manage_listing.html:145
 msgid "Neighbourhood"
 msgstr "Voisinage"
 
@@ -1692,7 +1692,7 @@ msgid "Great ride, how far has it gone?"
 msgstr "Joli petit tour! Jusqu'ou ętes-vous allé?"
 
 #: listings/forms.py:494 listings/forms.py:497 listings/models.py:403
-#: listings/models.py:410 search/forms.py:423 search/forms.py:427
+#: listings/models.py:410 search/forms.py:418 search/forms.py:422
 msgid "Model"
 msgstr "Modèle"
 
@@ -1701,7 +1701,7 @@ msgid "Please specify the model"
 msgstr "Veuillez spécifier le modèle"
 
 #: listings/forms.py:502 listings/forms.py:505 listings/models.py:404
-#: listings/models.py:414 search/forms.py:467 search/forms.py:471
+#: listings/models.py:414 search/forms.py:462 search/forms.py:466
 msgid "Engine Size (CC)"
 msgstr "Cylindrée en cm³"
 
@@ -1710,7 +1710,7 @@ msgid "Please specify the engine size"
 msgstr "Veuillez spécifier la cylindrée de voiture"
 
 #: listings/forms.py:510 listings/forms.py:513 listings/models.py:405
-#: listings/models.py:412 search/forms.py:456 search/forms.py:460
+#: listings/models.py:412 search/forms.py:451 search/forms.py:455
 msgid "Transmission Type"
 msgstr "Type de transmission"
 
@@ -1719,7 +1719,7 @@ msgid "Please specify the transmission type"
 msgstr "Veuillez spécifier le type de transmission"
 
 #: listings/forms.py:518 listings/forms.py:521 listings/models.py:406
-#: search/forms.py:445 search/forms.py:449
+#: search/forms.py:440 search/forms.py:444
 msgid "Body Type"
 msgstr "Type de Voiture"
 
@@ -1728,7 +1728,7 @@ msgid "Please specify the body type"
 msgstr "Veuillez spécifier le type de voiture"
 
 #: listings/forms.py:526 listings/forms.py:529 listings/models.py:407
-#: search/forms.py:434 search/forms.py:438
+#: search/forms.py:429 search/forms.py:433
 msgid "Number of Doors"
 msgstr "Nombre de portes"
 
@@ -1738,7 +1738,7 @@ msgstr "Veuillez spécifier le nombre de portes"
 
 #: listings/forms.py:559 listings/forms.py:562 listings/models.py:488
 #: listings/models.py:491 listings/models.py:507 listings/models.py:512
-#: search/forms.py:602 search/forms.py:606
+#: search/forms.py:597 search/forms.py:601
 msgid "Type"
 msgstr "Type"
 
@@ -1747,7 +1747,7 @@ msgid "Please specify the type"
 msgstr "Veuillez spécifier le type"
 
 #: listings/forms.py:577 listings/forms.py:580 listings/models.py:508
-#: listings/models.py:513 search/forms.py:613 search/forms.py:617
+#: listings/models.py:513 search/forms.py:608 search/forms.py:612
 msgid "Brand"
 msgstr "Marque"
 
@@ -1756,7 +1756,7 @@ msgid "Please specify the brand"
 msgstr "Veuillez spécifier la marque"
 
 #: listings/forms.py:585 listings/forms.py:588 listings/models.py:509
-#: listings/models.py:514 search/forms.py:624 search/forms.py:628
+#: listings/models.py:514 search/forms.py:619 search/forms.py:623
 msgid "Warranty"
 msgstr "Garantie"
 
@@ -1857,43 +1857,43 @@ msgstr "Kilomètres"
 msgid "Area"
 msgstr "Surface"
 
-#: search/forms.py:42
+#: search/forms.py:37
 #, python-format
 msgid "All of %(city)s"
 msgstr "Tout - %(city)s"
 
-#: search/forms.py:51
+#: search/forms.py:46
 msgid "Select your city"
 msgstr "Sélectionnez votre ville"
 
-#: search/forms.py:170
+#: search/forms.py:165
 msgid "Keywords"
 msgstr "Mots-clés"
 
-#: search/forms.py:347 search/forms.py:500 search/forms.py:556
-#: search/forms.py:652 utils/prettify_filters.py:136
+#: search/forms.py:342 search/forms.py:495 search/forms.py:551
+#: search/forms.py:647 utils/prettify_filters.py:136
 msgid "Show only ads with photos"
 msgstr "Montrer uniquement les annonces avec photos"
 
-#: search/forms.py:362 search/forms.py:365 search/forms.py:383
-#: search/forms.py:387 search/forms.py:404 search/forms.py:407
-#: search/forms.py:514 search/forms.py:517 search/forms.py:581
-#: search/forms.py:584 search/forms.py:666 search/forms.py:669
-#: search/forms.py:688 search/forms.py:727 search/forms.py:731
-#: search/forms.py:749 search/forms.py:753 search/forms.py:772
+#: search/forms.py:357 search/forms.py:360 search/forms.py:378
+#: search/forms.py:382 search/forms.py:399 search/forms.py:402
+#: search/forms.py:509 search/forms.py:512 search/forms.py:576
+#: search/forms.py:579 search/forms.py:661 search/forms.py:664
+#: search/forms.py:683 search/forms.py:722 search/forms.py:726
+#: search/forms.py:744 search/forms.py:748 search/forms.py:767
 msgid "From"
 msgstr "De"
 
-#: search/forms.py:373 search/forms.py:376 search/forms.py:394
-#: search/forms.py:398 search/forms.py:413 search/forms.py:416
-#: search/forms.py:525 search/forms.py:528 search/forms.py:592
-#: search/forms.py:595 search/forms.py:677 search/forms.py:680
-#: search/forms.py:695 search/forms.py:738 search/forms.py:742
-#: search/forms.py:760 search/forms.py:764 search/forms.py:779
+#: search/forms.py:368 search/forms.py:371 search/forms.py:389
+#: search/forms.py:393 search/forms.py:408 search/forms.py:411
+#: search/forms.py:520 search/forms.py:523 search/forms.py:587
+#: search/forms.py:590 search/forms.py:672 search/forms.py:675
+#: search/forms.py:690 search/forms.py:733 search/forms.py:737
+#: search/forms.py:755 search/forms.py:759 search/forms.py:774
 msgid "To"
 msgstr "A"
 
-#: search/forms.py:567
+#: search/forms.py:562
 msgid "Show only free ads"
 msgstr "Montrer seulement les annonces gratuites"
 
@@ -1925,35 +1925,39 @@ msgstr "Site en maintenance (500)"
 msgid "dubizzle is now an OLX company, bringing you the best of both worlds"
 msgstr "dubizzle fait maintenant parti du groupe OLX"
 
-#: templates/base.html:109
+#: templates/base.html:110
+msgid "Happy Eid"
+msgstr ""
+
+#: templates/base.html:112
 msgid "Ramadan Kareem"
 msgstr "Ramadan Kareem"
 
-#: templates/base.html:113
+#: templates/base.html:118
 msgid "Ramadan"
 msgstr "Ramadan"
 
-#: templates/base.html:114
+#: templates/base.html:119
 msgid "Iftar"
 msgstr "Iftar"
 
-#: templates/base.html:114
+#: templates/base.html:119
 msgid "pm"
 msgstr "pm"
 
-#: templates/base.html:115
+#: templates/base.html:120
 msgid "Imsak"
 msgstr "Imsak"
 
-#: templates/base.html:115
+#: templates/base.html:120
 msgid "am"
 msgstr "am"
 
-#: templates/base.html:154
+#: templates/base.html:160
 msgid "Menu"
 msgstr "Menu"
 
-#: templates/base.html:169
+#: templates/base.html:175
 msgid "My account"
 msgstr "Mon compte"
 
@@ -1981,7 +1985,7 @@ msgstr ""
 msgid "%(BRAND_NAME)s on your phone"
 msgstr ""
 
-#: templates/generic.html:35 templates/user_profiles/my_listings.html:29
+#: templates/generic.html:35 templates/user_profiles/my_listings.html:17
 msgid "Your account"
 msgstr "Votre compte"
 
@@ -2018,19 +2022,19 @@ msgstr ""
 msgid "Your ads"
 msgstr "Vos annonces"
 
-#: templates/generic.html:188 templates/user_profiles/my_listings.html:111
+#: templates/generic.html:188 templates/user_profiles/my_listings.html:99
 msgid "Your rejected ads"
 msgstr "Vos annonces rejetées"
 
-#: templates/generic.html:193 templates/user_profiles/my_listings.html:210
+#: templates/generic.html:193 templates/user_profiles/my_listings.html:198
 msgid "Your pending ads"
 msgstr "Vos annonces en attente"
 
-#: templates/generic.html:198 templates/user_profiles/my_listings.html:269
+#: templates/generic.html:198 templates/user_profiles/my_listings.html:257
 msgid "Your live ads"
 msgstr "Vos annonces en ligne"
 
-#: templates/generic.html:203 templates/user_profiles/my_listings.html:369
+#: templates/generic.html:203 templates/user_profiles/my_listings.html:357
 msgid "Your expired ads"
 msgstr "Vos annonces expirées"
 
@@ -2496,7 +2500,7 @@ msgid "Resubmit your ad"
 msgstr "Redéposer votre annonces"
 
 #: templates/listings/rejected/rejected_workspace.html:21
-#: templates/user_profiles/my_listings.html:158
+#: templates/user_profiles/my_listings.html:146
 msgid "Rejection reason:"
 msgstr "La raison du rejet:"
 
@@ -3034,7 +3038,7 @@ msgstr[1] ""
 "Vous avez %(counter)s annonces expirées\n"
 "    "
 
-#: templates/user_profiles/my_listings.html:49
+#: templates/user_profiles/my_listings.html:37
 #, python-format
 msgid ""
 "\n"
@@ -3051,80 +3055,80 @@ msgstr[1] ""
 "\n"
 "Vous avez %(counter)s annonces                        "
 
-#: templates/user_profiles/my_listings.html:71
-#: templates/user_profiles/my_listings.html:194
-#: templates/user_profiles/my_listings.html:252
-#: templates/user_profiles/my_listings.html:352
+#: templates/user_profiles/my_listings.html:59
+#: templates/user_profiles/my_listings.html:182
+#: templates/user_profiles/my_listings.html:240
+#: templates/user_profiles/my_listings.html:340
 msgid "This page is emptier than the Sahara. Come on, let's fill it up by placing some awesome ads."
 msgstr "Cette page est plus vide que le Sahara. Allons la remplir en plaçant des annonces génialissimes."
 
-#: templates/user_profiles/my_listings.html:97
+#: templates/user_profiles/my_listings.html:85
 msgid "Your ad has been successfully deleted"
 msgstr "Votre annonce a été supprimée avec succès"
 
-#: templates/user_profiles/my_listings.html:117
+#: templates/user_profiles/my_listings.html:105
 #, python-format
 msgid "The following %(counter)s ad did not meet our rules and has been rejected by %(BRAND_NAME)s support team , however you can correct and resubmit"
 msgid_plural "The following %(counter)s ads did not meet our rules and have been rejected by %(BRAND_NAME)s support team , however you can correct and resubmit"
 msgstr[0] "Votre annonce a été rejetée par l'equipe de support %(BRAND_NAME)s pour des raisons qui se contredisent avec les règles et conditions de rédaction du Site, nous vous conseillons de déposer votre annonce enore une fois avec les corrections nécessaires."
 msgstr[1] "Les annonces suivantes ont été rejetées par l'equipe de support %(BRAND_NAME)s pour des raisons qui se contredisent avec les règles et les conditions de rédaction du Site, nous vous conseillons de déposer vos annonces enore une fois avec les corrections nécessaires."
 
-#: templates/user_profiles/my_listings.html:161
+#: templates/user_profiles/my_listings.html:149
 msgid "Recommended suggestion:"
 msgstr "Notre suggestion:"
 
-#: templates/user_profiles/my_listings.html:167
-#: templates/user_profiles/my_listings.html:169
-#: templates/user_profiles/my_listings.html:324
-#: templates/user_profiles/my_listings.html:326
-#: templates/user_profiles/my_listings.html:410
-#: templates/user_profiles/my_listings.html:412
+#: templates/user_profiles/my_listings.html:155
+#: templates/user_profiles/my_listings.html:157
+#: templates/user_profiles/my_listings.html:312
+#: templates/user_profiles/my_listings.html:314
+#: templates/user_profiles/my_listings.html:398
+#: templates/user_profiles/my_listings.html:400
 msgid "delete"
 msgstr "supprimer"
 
-#: templates/user_profiles/my_listings.html:171
-#: templates/user_profiles/my_listings.html:173
+#: templates/user_profiles/my_listings.html:159
+#: templates/user_profiles/my_listings.html:161
 msgid "resubmit"
 msgstr "redéposer"
 
-#: templates/user_profiles/my_listings.html:181
-#: templates/user_profiles/my_listings.html:337
-#: templates/user_profiles/my_listings.html:419
+#: templates/user_profiles/my_listings.html:169
+#: templates/user_profiles/my_listings.html:325
+#: templates/user_profiles/my_listings.html:407
 msgid "Are you sure you want to delete this listing?"
 msgstr "Ętes-vous sűr de vouloir supprimer cette annonce?"
 
-#: templates/user_profiles/my_listings.html:187
-#: templates/user_profiles/my_listings.html:342
-#: templates/user_profiles/my_listings.html:424
+#: templates/user_profiles/my_listings.html:175
+#: templates/user_profiles/my_listings.html:330
+#: templates/user_profiles/my_listings.html:412
 msgid "Yes, delete it."
 msgstr "Oui, la supprimer."
 
-#: templates/user_profiles/my_listings.html:199
+#: templates/user_profiles/my_listings.html:187
 msgid "Show all my rejected ads"
 msgstr "Montrer toutes les annonces rejetées"
 
-#: templates/user_profiles/my_listings.html:218
+#: templates/user_profiles/my_listings.html:206
 msgid "These ads are awaiting approval and will be live soon."
 msgstr "Ces annonces sont en attente de validation et seront bientôt en ligne."
 
-#: templates/user_profiles/my_listings.html:257
+#: templates/user_profiles/my_listings.html:245
 msgid "Show all my pending ads"
 msgstr "Voir toutes mes annonces en cours"
 
-#: templates/user_profiles/my_listings.html:316
+#: templates/user_profiles/my_listings.html:304
 msgid "Your edits will go live soon."
 msgstr "Vos modifications seront mis en ligne prochainement."
 
-#: templates/user_profiles/my_listings.html:328
-#: templates/user_profiles/my_listings.html:330
+#: templates/user_profiles/my_listings.html:316
+#: templates/user_profiles/my_listings.html:318
 msgid "edit"
 msgstr "modifier"
 
-#: templates/user_profiles/my_listings.html:358
+#: templates/user_profiles/my_listings.html:346
 msgid "Show all my live ads"
 msgstr "Voir toutes mes annonces en ligne"
 
-#: templates/user_profiles/my_listings.html:436
+#: templates/user_profiles/my_listings.html:424
 msgid "Show all my expired ads"
 msgstr "Voir toutes mes annonces expirées"
 
