@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-20 13:01+0400\n"
+"POT-Creation-Date: 2015-07-20 17:26+0400\n"
 "PO-Revision-Date: 2015-01-18 14:43+0200\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
@@ -236,9 +236,47 @@ msgstr "كل مصر"
 msgid "Coming Soon"
 msgstr "قريبا"
 
-#: country_templates/egypt/public/landing.html:106
+#: country_templates/egypt/public/landing.html:108
 msgid "Show me the ads"
 msgstr "شوف الإعلانات"
+
+#: country_templates/egypt/public/landing.html:121
+#: templates/public/landing.html:122
+msgid "Mobile phones &amp; accessories"
+msgstr "موبايلات وملحقاتها"
+
+#: country_templates/egypt/public/landing.html:127
+#: templates/public/landing.html:128
+msgid "Electronics &amp; home appliances"
+msgstr "إلكترونيات وأجهزة منزلية"
+
+#: country_templates/egypt/public/landing.html:133
+#: templates/public/landing.html:146
+msgid "Tablets &amp; computers "
+msgstr "كمبيوتر وتابلت"
+
+#: country_templates/egypt/public/landing.html:139
+#: templates/public/landing.html:134
+msgid "Cars"
+msgstr "سيارات"
+
+#: country_templates/egypt/public/landing.html:145
+msgid "Property for sale"
+msgstr "عقار للبيع"
+
+#: country_templates/egypt/public/landing.html:151
+#: templates/public/landing.html:140
+msgid "Home, furniture &amp; garden"
+msgstr "المنزل والحديقة"
+
+#: country_templates/egypt/public/landing.html:158
+msgid "Sporting goods & outdoors"
+msgstr "مستلزمات رياضة"
+
+#: country_templates/egypt/public/landing.html:164
+#: templates/public/landing.html:152
+msgid "So much more."
+msgstr "أقسام أكثر"
 
 #: fuego/base_settings.py:581 fuego/management/commands/email_alerts.py:506
 #: fuego/management/commands/saved_search_alerts.py:505
@@ -1962,11 +2000,15 @@ msgstr "المنشاة"
 msgid "Alasirat"
 msgstr "العسيرات"
 
-#: fuego/egypt_settings.py:2239 utils/prettify_filters.py:95
+#: fuego/egypt_settings.py:2239
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:81
+#: utils/prettify_filters.py:95
 msgid "English"
 msgstr ""
 
-#: fuego/egypt_settings.py:2240 utils/prettify_filters.py:95
+#: fuego/egypt_settings.py:2240
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:82
+#: utils/prettify_filters.py:95
 msgid "Arabic"
 msgstr "عربي"
 
@@ -3194,6 +3236,35 @@ msgstr "إلى"
 msgid "Show only free ads"
 msgstr "أظهر فقط الإعلانات المجانية"
 
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:83
+#: utils/prettify_filters.py:95
+msgid "French"
+msgstr ""
+
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:91
+msgid "Inorganic"
+msgstr ""
+
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:92
+msgid "Payed Organic"
+msgstr ""
+
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:93
+msgid "Free Orgainic"
+msgstr ""
+
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:97
+msgid "Active"
+msgstr ""
+
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:98
+msgid "Deactive"
+msgstr ""
+
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:99
+msgid "Blocked"
+msgstr ""
+
 #: templates/404-web.html:18
 msgid "Houston... we have problem."
 msgstr "عفواً، لا يوجد لدينا فروع في كواكب أُخرى"
@@ -4175,30 +4246,6 @@ msgstr ""
 msgid "Jobs"
 msgstr "وظائف"
 
-#: templates/public/landing.html:122
-msgid "Mobile phones &amp; accessories"
-msgstr ""
-
-#: templates/public/landing.html:128
-msgid "Electronics &amp; home appliances"
-msgstr ""
-
-#: templates/public/landing.html:134
-msgid "Cars"
-msgstr "سيارات"
-
-#: templates/public/landing.html:140
-msgid "Home, furniture &amp; garden"
-msgstr ""
-
-#: templates/public/landing.html:146
-msgid "Tablets &amp; computers "
-msgstr ""
-
-#: templates/public/landing.html:152
-msgid "So much more."
-msgstr "أقسام أكثر"
-
 #: templates/search/_pagination.html:41
 #: templates/user_profiles/my_expired_listings.html:23
 #: templates/user_profiles/my_live_listings.html:23
@@ -4663,10 +4710,6 @@ msgstr "الاستوديو"
 msgid "km"
 msgstr "كم"
 
-#: utils/prettify_filters.py:95
-msgid "French"
-msgstr ""
-
 #: utils/prettify_filters.py:114 utils/prettify_filters.py:115
 #, python-format
 msgid "%s"
@@ -4763,9 +4806,6 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
-
-#~ msgid "Property for Sale"
-#~ msgstr "شقق للايجار في مصر"
 
 #~ msgid "Select the city closest to where you live"
 #~ msgstr "حدد المدينة الأقرب لك"
