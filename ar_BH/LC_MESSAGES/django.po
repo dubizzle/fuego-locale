@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-20 13:00+0400\n"
+"POT-Creation-Date: 2015-07-20 17:26+0400\n"
 "PO-Revision-Date: 2014-06-10 15:35+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Bahraini <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_BH/>\n"
@@ -507,11 +507,15 @@ msgstr "المحرق‎"
 msgid "Sitra"
 msgstr "سترة"
 
-#: fuego/bahrain_settings.py:325 utils/prettify_filters.py:95
+#: fuego/bahrain_settings.py:325
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:81
+#: utils/prettify_filters.py:95
 msgid "English"
 msgstr ""
 
-#: fuego/bahrain_settings.py:326 utils/prettify_filters.py:95
+#: fuego/bahrain_settings.py:326
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:82
+#: utils/prettify_filters.py:95
 msgid "Arabic"
 msgstr "عربي"
 
@@ -1808,6 +1812,35 @@ msgstr "إلى"
 #: search/forms.py:567
 msgid "Show only free ads"
 msgstr "أظهر فقط الإعلانات المجانية"
+
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:83
+#: utils/prettify_filters.py:95
+msgid "French"
+msgstr ""
+
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:91
+msgid "Inorganic"
+msgstr ""
+
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:92
+msgid "Payed Organic"
+msgstr ""
+
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:93
+msgid "Free Orgainic"
+msgstr ""
+
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:97
+msgid "Active"
+msgstr ""
+
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:98
+msgid "Deactive"
+msgstr ""
+
+#: src/greenstorm/greenstorm_client/conf/global_settings.py:99
+msgid "Blocked"
+msgstr ""
 
 #: templates/404-web.html:18
 msgid "Houston... we have problem."
@@ -3217,10 +3250,6 @@ msgstr "الاستوديو"
 #: utils/prettify_filters.py:92
 msgid "km"
 msgstr "كم"
-
-#: utils/prettify_filters.py:95
-msgid "French"
-msgstr ""
 
 #: utils/prettify_filters.py:114 utils/prettify_filters.py:115
 #, python-format
