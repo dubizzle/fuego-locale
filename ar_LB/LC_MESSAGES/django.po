@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-20 17:27+0400\n"
+"POT-Creation-Date: 2015-07-22 15:04+0400\n"
 "PO-Revision-Date: 2014-08-05 14:25+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Lebanese <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_LB/>\n"
@@ -126,85 +126,99 @@ msgstr "خطأ"
 msgid "Please enter the correct letters"
 msgstr "من فضلك اكتب الحروف بشكل صحيح"
 
-#: country_templates/shared_landing.html:30 templates/public/landing.html:10
+#: country_templates/shared_landing.html:37
+#, fuzzy, python-format
+msgid "%(BRAND_NAME)s"
+msgstr "الرجوع إلى صفحة %(BRAND_NAME)s"
+
+#: country_templates/shared_landing.html:38
+#, python-format
+msgid "Download the fast and FREE %(BRAND_NAME)s mobile app!"
+msgstr "حمل تطبيق %(BRAND_NAME)s المجاني و السريع!"
+
+#: country_templates/shared_landing.html:41
+msgid "FREE"
+msgstr "مجانا"
+
+#: country_templates/shared_landing.html:48 templates/public/landing.html:10
 msgid "Ahlan wa sahlan..."
 msgstr "اهلا وسهلا بكم في دوبيزل..."
 
-#: country_templates/shared_landing.html:45
+#: country_templates/shared_landing.html:63
 msgid "Change country"
 msgstr "تغيير الدولة"
 
-#: country_templates/shared_landing.html:57
+#: country_templates/shared_landing.html:75
 #, python-format
 msgid "Why use %(BRAND_NAME)s?"
 msgstr "فوائد %(BRAND_NAME)s السبع"
 
-#: country_templates/shared_landing.html:65
+#: country_templates/shared_landing.html:83
 msgid "Make money"
 msgstr "إكسب المال"
 
-#: country_templates/shared_landing.html:66
+#: country_templates/shared_landing.html:84
 msgid "Turn your unused items into cash."
 msgstr "بيع اغراض لست بحاجة لها واستفيد."
 
-#: country_templates/shared_landing.html:74
+#: country_templates/shared_landing.html:92
 msgid "Your ad is free"
 msgstr "مجانا 100%"
 
-#: country_templates/shared_landing.html:75
+#: country_templates/shared_landing.html:93
 msgid "No fees, no hidden agendas and no twists or turns. It’s FREE"
 msgstr "إضافة الإعلان على دوبيزل اوليكس مجاناً و بدون أي رسوم على الإطلاق."
 
-#: country_templates/shared_landing.html:83
+#: country_templates/shared_landing.html:101
 msgid "It's safe"
 msgstr "خليك في الأمان"
 
-#: country_templates/shared_landing.html:84
+#: country_templates/shared_landing.html:102
 msgid "No credit cards, no online payments and no money transfers."
 msgstr "بدون كروت إئتمان أو معاملات بنكية أو دفع إلكتروني."
 
-#: country_templates/shared_landing.html:92
+#: country_templates/shared_landing.html:110
 msgid "Fast and easy"
 msgstr "سهل وسريع"
 
-#: country_templates/shared_landing.html:93
+#: country_templates/shared_landing.html:111
 msgid "A few simple steps to create your ad in one page only."
 msgstr "إضافة الإعلان في خطوات بسيطة وسريعة وإستخدام الموقع سهل جداً."
 
-#: country_templates/shared_landing.html:103
+#: country_templates/shared_landing.html:121
 msgid "We're local"
 msgstr "تواصل مع مستخدمي دوبيزل اوليكس بكل منطقتك"
 
-#: country_templates/shared_landing.html:104
+#: country_templates/shared_landing.html:122
 msgid "Find and connect with thousands of buyers in your city and neighborhood."
 msgstr "تواصل مع الآف المشترين والبائعين في مدينتك ومنطقتك."
 
-#: country_templates/shared_landing.html:112
+#: country_templates/shared_landing.html:130
 msgid "Access anytime anywhere"
 msgstr "في أي وقت ومن أي مكان. "
 
-#: country_templates/shared_landing.html:113
+#: country_templates/shared_landing.html:131
 msgid "Post your ad, update it and browse from your computer, mobile phone, tablet or Mars."
 msgstr "أضف إعلانك وقم بتعديله من الكمبيوتر أو الموبايل أو التابلت أو حتى من المريخ!"
 
-#: country_templates/shared_landing.html:121
+#: country_templates/shared_landing.html:139
 msgid "Support 24/7"
 msgstr "نحن معك  24/7"
 
-#: country_templates/shared_landing.html:122
+#: country_templates/shared_landing.html:140
 msgid "Wherever you are, our customer support heros help you post the perfect ad and draw a smile upon your face."
 msgstr "فريق دعم دوبيزل اوليكس يتواصل معك شخصياً في إضافة إعلانك أينما كنت ويسعى لرسم الإبتسامة على وجهك."
 
-#: country_templates/shared_landing.html:130
+#: country_templates/shared_landing.html:148
 msgid "Got something to sell?"
 msgstr "تريد بيع شيء ما؟"
 
-#: country_templates/shared_landing.html:132
+#: country_templates/shared_landing.html:150
 msgid "Yalla try it."
 msgstr "يلا، جرب وبيع."
 
-#: country_templates/shared_landing.html:137
-#: country_templates/shared_landing.html:142 templates/base.html:168
+#: country_templates/shared_landing.html:155
+#: country_templates/shared_landing.html:160 templates/base.html:168
 #: templates/generic.html:96 templates/generic.html.py:103
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
@@ -885,15 +899,11 @@ msgstr "البقاع الغربي بالكامل"
 msgid "All of Zghorta"
 msgstr "زغرتا بالكامل"
 
-#: fuego/lebanon_settings.py:838
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:81
-#: utils/prettify_filters.py:95
+#: fuego/lebanon_settings.py:838 utils/prettify_filters.py:95
 msgid "English"
 msgstr "English"
 
-#: fuego/lebanon_settings.py:839
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:82
-#: utils/prettify_filters.py:95
+#: fuego/lebanon_settings.py:839 utils/prettify_filters.py:95
 msgid "Arabic"
 msgstr "عربي"
 
@@ -2072,35 +2082,6 @@ msgstr "إلى"
 #: search/forms.py:567
 msgid "Show only free ads"
 msgstr "أظهر فقط الإعلانات المجانية"
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:83
-#: utils/prettify_filters.py:95
-msgid "French"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:91
-msgid "Inorganic"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:92
-msgid "Payed Organic"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:93
-msgid "Free Orgainic"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:97
-msgid "Active"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:98
-msgid "Deactive"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:99
-msgid "Blocked"
-msgstr ""
 
 #: templates/404-web.html:18
 msgid "Houston... we have problem."
@@ -3571,6 +3552,10 @@ msgstr "الاستوديو"
 #: utils/prettify_filters.py:92
 msgid "km"
 msgstr "كم"
+
+#: utils/prettify_filters.py:95
+msgid "French"
+msgstr ""
 
 #: utils/prettify_filters.py:114 utils/prettify_filters.py:115
 #, python-format
