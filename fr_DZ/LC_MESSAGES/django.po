@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-20 17:27+0400\n"
+"POT-Creation-Date: 2015-07-22 15:04+0400\n"
 "PO-Revision-Date: 2014-08-05 15:00+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Algerian <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_DZ/>\n"
@@ -122,85 +122,99 @@ msgstr "Erreur"
 msgid "Please enter the correct letters"
 msgstr "Veuillez entrer les bonnes lettres"
 
-#: country_templates/shared_landing.html:30 templates/public/landing.html:10
+#: country_templates/shared_landing.html:37
+#, fuzzy, python-format
+msgid "%(BRAND_NAME)s"
+msgstr "Revenir en %(BRAND_NAME)s"
+
+#: country_templates/shared_landing.html:38
+#, python-format
+msgid "Download the fast and FREE %(BRAND_NAME)s mobile app!"
+msgstr ""
+
+#: country_templates/shared_landing.html:41
+msgid "FREE"
+msgstr ""
+
+#: country_templates/shared_landing.html:48 templates/public/landing.html:10
 msgid "Ahlan wa sahlan..."
 msgstr "Ahlan wa sahlan..."
 
-#: country_templates/shared_landing.html:45
+#: country_templates/shared_landing.html:63
 msgid "Change country"
 msgstr "Changer de pays"
 
-#: country_templates/shared_landing.html:57
+#: country_templates/shared_landing.html:75
 #, python-format
 msgid "Why use %(BRAND_NAME)s?"
 msgstr "Pourquoi utiliser %(BRAND_NAME)s"
 
-#: country_templates/shared_landing.html:65
+#: country_templates/shared_landing.html:83
 msgid "Make money"
 msgstr "faire de l’argent"
 
-#: country_templates/shared_landing.html:66
+#: country_templates/shared_landing.html:84
 msgid "Turn your unused items into cash."
 msgstr "Transformez vos produits inutilisés en argent sonnant et trébuchant."
 
-#: country_templates/shared_landing.html:74
+#: country_templates/shared_landing.html:92
 msgid "Your ad is free"
 msgstr "Votre annonce est gratuite"
 
-#: country_templates/shared_landing.html:75
+#: country_templates/shared_landing.html:93
 msgid "No fees, no hidden agendas and no twists or turns. It’s FREE"
 msgstr "Aucun frais caché, aucune embrouille.  c'est gratuit un point c'est tout."
 
-#: country_templates/shared_landing.html:83
+#: country_templates/shared_landing.html:101
 msgid "It's safe"
 msgstr "C'est sûr"
 
-#: country_templates/shared_landing.html:84
+#: country_templates/shared_landing.html:102
 msgid "No credit cards, no online payments and no money transfers."
 msgstr "Pas de carte de crédit, paiement en ligne ou transfert d'argent"
 
-#: country_templates/shared_landing.html:92
+#: country_templates/shared_landing.html:110
 msgid "Fast and easy"
 msgstr "Rapide et facile"
 
-#: country_templates/shared_landing.html:93
+#: country_templates/shared_landing.html:111
 msgid "A few simple steps to create your ad in one page only."
 msgstr "Vous pourrez créer votre annonce en quelques étapes simples. une seul page à remplir c'est tout."
 
-#: country_templates/shared_landing.html:103
+#: country_templates/shared_landing.html:121
 msgid "We're local"
 msgstr "Nous ​faisons dans la proximité"
 
-#: country_templates/shared_landing.html:104
+#: country_templates/shared_landing.html:122
 msgid "Find and connect with thousands of buyers in your city and neighborhood."
 msgstr "Recherchez et connectez-vous avec les milliers d'acheteurs de votre ville ou votre quartier."
 
-#: country_templates/shared_landing.html:112
+#: country_templates/shared_landing.html:130
 msgid "Access anytime anywhere"
 msgstr "Accès en tout lieu et à tout moment"
 
-#: country_templates/shared_landing.html:113
+#: country_templates/shared_landing.html:131
 msgid "Post your ad, update it and browse from your computer, mobile phone, tablet or Mars."
 msgstr "Publiez, mettez à jour et parcourez des annonces à partir de votre ordinateur, téléphone mobile, Tablette; depuis Mars?!"
 
-#: country_templates/shared_landing.html:121
+#: country_templates/shared_landing.html:139
 msgid "Support 24/7"
 msgstr "Service client 24/7"
 
-#: country_templates/shared_landing.html:122
+#: country_templates/shared_landing.html:140
 msgid "Wherever you are, our customer support heros help you post the perfect ad and draw a smile upon your face."
 msgstr "Notre assistance clientèle vous aidera à publier l’annonce parfaite qui vous donnera le sourire, où que vous soyez."
 
-#: country_templates/shared_landing.html:130
+#: country_templates/shared_landing.html:148
 msgid "Got something to sell?"
 msgstr "Avez-vous quelque chose à vendre?"
 
-#: country_templates/shared_landing.html:132
+#: country_templates/shared_landing.html:150
 msgid "Yalla try it."
 msgstr "Allez-y, essayez."
 
-#: country_templates/shared_landing.html:137
-#: country_templates/shared_landing.html:142 templates/base.html:168
+#: country_templates/shared_landing.html:155
+#: country_templates/shared_landing.html:160 templates/base.html:168
 #: templates/generic.html:96 templates/generic.html.py:103
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
@@ -739,15 +753,11 @@ msgstr "Sidi Amar"
 msgid "Treat"
 msgstr "Treat"
 
-#: fuego/algerie_settings.py:771
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:83
-#: utils/prettify_filters.py:95
+#: fuego/algerie_settings.py:771 utils/prettify_filters.py:95
 msgid "French"
 msgstr "français"
 
-#: fuego/algerie_settings.py:772
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:82
-#: utils/prettify_filters.py:95
+#: fuego/algerie_settings.py:772 utils/prettify_filters.py:95
 msgid "Arabic"
 msgstr "arabe"
 
@@ -2044,35 +2054,6 @@ msgstr "A"
 #: search/forms.py:567
 msgid "Show only free ads"
 msgstr "Montrer seulement les annonces gratuites"
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:81
-#: utils/prettify_filters.py:95
-msgid "English"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:91
-msgid "Inorganic"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:92
-msgid "Payed Organic"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:93
-msgid "Free Orgainic"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:97
-msgid "Active"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:98
-msgid "Deactive"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:99
-msgid "Blocked"
-msgstr ""
 
 #: templates/404-web.html:18
 msgid "Houston... we have problem."
@@ -3433,6 +3414,10 @@ msgstr ""
 
 #: utils/prettify_filters.py:92
 msgid "km"
+msgstr ""
+
+#: utils/prettify_filters.py:95
+msgid "English"
 msgstr ""
 
 #: utils/prettify_filters.py:114 utils/prettify_filters.py:115

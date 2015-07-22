@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-20 17:26+0400\n"
+"POT-Creation-Date: 2015-07-22 15:03+0400\n"
 "PO-Revision-Date: 2014-08-05 14:48+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Saudi <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_SA/>\n"
@@ -126,87 +126,101 @@ msgstr "خطأ"
 msgid "Please enter the correct letters"
 msgstr "من فضلك اكتب الحروف بشكل صحيح"
 
-#: country_templates/shared_landing.html:30 templates/public/landing.html:10
+#: country_templates/shared_landing.html:37
+#, python-format
+msgid "%(BRAND_NAME)s"
+msgstr ""
+
+#: country_templates/shared_landing.html:38
+#, python-format
+msgid "Download the fast and FREE %(BRAND_NAME)s mobile app!"
+msgstr "حمل تطبيق %(BRAND_NAME)s المجاني و السريع!"
+
+#: country_templates/shared_landing.html:41
+msgid "FREE"
+msgstr "مجانا"
+
+#: country_templates/shared_landing.html:48 templates/public/landing.html:10
 msgid "Ahlan wa sahlan..."
 msgstr "اهلا وسهلا بكم في دوبيزل..."
 
-#: country_templates/shared_landing.html:45
+#: country_templates/shared_landing.html:63
 msgid "Change country"
 msgstr "تغيير الدولة"
 
-#: country_templates/shared_landing.html:57
+#: country_templates/shared_landing.html:75
 #, python-format
 msgid "Why use %(BRAND_NAME)s?"
 msgstr "فوائد %(BRAND_NAME)s السبع"
 
-#: country_templates/shared_landing.html:65
+#: country_templates/shared_landing.html:83
 msgid "Make money"
 msgstr "إكسب المال"
 
-#: country_templates/shared_landing.html:66
+#: country_templates/shared_landing.html:84
 msgid "Turn your unused items into cash."
 msgstr "بيع اغراض لست بحاجة لها واستفيد."
 
-#: country_templates/shared_landing.html:74
+#: country_templates/shared_landing.html:92
 msgid "Your ad is free"
 msgstr "مجانا 100%"
 
-#: country_templates/shared_landing.html:75
+#: country_templates/shared_landing.html:93
 msgid "No fees, no hidden agendas and no twists or turns. It’s FREE"
 msgstr "إضافة الإعلان على دوبيزل اوليكس مجاناً و بدون أي رسوم على الإطلاق."
 
-#: country_templates/shared_landing.html:83
+#: country_templates/shared_landing.html:101
 msgid "It's safe"
 msgstr "خليك في الأمان"
 
-#: country_templates/shared_landing.html:84
+#: country_templates/shared_landing.html:102
 msgid "No credit cards, no online payments and no money transfers."
 msgstr "بدون كروت إئتمان أو معاملات بنكية أو دفع إلكتروني."
 
-#: country_templates/shared_landing.html:92
+#: country_templates/shared_landing.html:110
 msgid "Fast and easy"
 msgstr "سهل وسريع"
 
-#: country_templates/shared_landing.html:93
+#: country_templates/shared_landing.html:111
 msgid "A few simple steps to create your ad in one page only."
 msgstr "إضافة الإعلان في خطوات بسيطة وسريعة وإستخدام الموقع سهل جداً."
 
-#: country_templates/shared_landing.html:103
+#: country_templates/shared_landing.html:121
 msgid "We're local"
 msgstr "تواصل مع مستخدمي دوبيزل اوليكس بكل السعودية"
 
-#: country_templates/shared_landing.html:104
+#: country_templates/shared_landing.html:122
 msgid "Find and connect with thousands of buyers in your city and neighborhood."
 msgstr "تواصل مع الآف المشترين والبائعين في مدينتك ومنطقتك."
 
-#: country_templates/shared_landing.html:112
+#: country_templates/shared_landing.html:130
 msgid "Access anytime anywhere"
 msgstr "في أي وقت و من أي مكان"
 
-#: country_templates/shared_landing.html:113
+#: country_templates/shared_landing.html:131
 msgid "Post your ad, update it and browse from your computer, mobile phone, tablet or Mars."
 msgstr "أضف إعلانك وقم بتعديله من جوالك أو كمبيوترك أو جهازك اللوحي"
 
-#: country_templates/shared_landing.html:121
+#: country_templates/shared_landing.html:139
 msgid "Support 24/7"
 msgstr "نحن معك  24/7"
 
-#: country_templates/shared_landing.html:122
+#: country_templates/shared_landing.html:140
 msgid "Wherever you are, our customer support heros help you post the perfect ad and draw a smile upon your face."
 msgstr "فريق دعم دوبيزل اوليكس يتواصل معك شخصياً في إضافة إعلانك أينما كنت ويسعى لرسم الإبتسامة على وجهك."
 
-#: country_templates/shared_landing.html:130
+#: country_templates/shared_landing.html:148
 msgid "Got something to sell?"
 msgstr "تريد بيع شيء ما؟"
 
-#: country_templates/shared_landing.html:132
+#: country_templates/shared_landing.html:150
 msgid "Yalla try it."
 msgstr "يلا، جرب وبيع."
 
-#: country_templates/shared_landing.html:137
-#: country_templates/shared_landing.html:142
-#: country_templates/saudi/public/landing.html:81
-#: country_templates/saudi/public/landing.html:86 templates/base.html:168
+#: country_templates/shared_landing.html:155
+#: country_templates/shared_landing.html:160
+#: country_templates/saudi/public/landing.html:62
+#: country_templates/saudi/public/landing.html:67 templates/base.html:168
 #: templates/generic.html:96 templates/generic.html.py:103
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
@@ -273,25 +287,10 @@ msgid "Jazan"
 msgstr "جازان"
 
 #: country_templates/saudi/public/landing.html:24
-#, python-format
-msgid "%(BRAND_NAME)s"
-msgstr ""
-
-#: country_templates/saudi/public/landing.html:25
-#, python-format
-msgid "Download the fast and FREE %(BRAND_NAME)s mobile app!"
-msgstr "حمل تطبيق %(BRAND_NAME)s المجاني و السريع!"
-
-#: country_templates/saudi/public/landing.html:28
-#: country_templates/saudi/public/landing.html:29
-msgid "FREE"
-msgstr ""
-
-#: country_templates/saudi/public/landing.html:43
 msgid "Saudi Arabia's free local online classifieds community on dubizzle, an OLX company"
 msgstr "بيع واشتري أي شيء تتخيله على دوبيزل احدى شركات اوليكس"
 
-#: country_templates/saudi/public/landing.html:50
+#: country_templates/saudi/public/landing.html:31
 msgid ""
 "\n"
 "                            <h2>Sell anything you can imagine... <a target=\"_blank\" class=\"u-link\" href=\"http://twitter.com/hashtag/dubizzle_it?f=realtime&src=hash\">#dubizzle_it</a></h2>\n"
@@ -300,123 +299,123 @@ msgstr ""
 "\n"
 "<h2> </h2>"
 
-#: country_templates/saudi/public/landing.html:56
+#: country_templates/saudi/public/landing.html:37
 #: templates/public/landing.html:28
 msgid "Place your FREE ad."
 msgstr "أضف إعلانك"
 
-#: country_templates/saudi/public/landing.html:62
+#: country_templates/saudi/public/landing.html:43
 #: templates/public/landing.html:33
 msgid "Choose a category"
 msgstr "إختر فئة"
 
-#: country_templates/saudi/public/landing.html:68
+#: country_templates/saudi/public/landing.html:49
 #: templates/public/landing.html:37
 msgid "Add photos"
 msgstr "حمّل صُور"
 
-#: country_templates/saudi/public/landing.html:73
+#: country_templates/saudi/public/landing.html:54
 #: templates/public/landing.html:41
 msgid "Describe your item"
 msgstr "أضف مواصفات"
 
-#: country_templates/saudi/public/landing.html:94
+#: country_templates/saudi/public/landing.html:75
 #: templates/public/landing.html:63
 msgid "Want to buy something? Choose your location or browse our categories."
 msgstr "ترغب بشراء شيء؟ إختر موقعك أو تصفح الفئات المختارة"
 
-#: country_templates/saudi/public/landing.html:101
-#: country_templates/saudi/public/landing.html:122 templates/generic.html:44
+#: country_templates/saudi/public/landing.html:82
+#: country_templates/saudi/public/landing.html:103 templates/generic.html:44
 #: templates/public/_breadcrumbs.html:14 templates/public/landing.html:70
 msgid "All of"
 msgstr "كل"
 
-#: country_templates/saudi/public/landing.html:129
+#: country_templates/saudi/public/landing.html:110
 msgid "Show me the ads"
 msgstr "اظهر جميع اعلاناتي المنشورة"
 
-#: country_templates/saudi/public/landing.html:142
+#: country_templates/saudi/public/landing.html:123
 #: templates/public/landing.html:140
 msgid "Home, furniture &amp; garden"
 msgstr " المنزل والأثاث والحديقة"
 
-#: country_templates/saudi/public/landing.html:148
+#: country_templates/saudi/public/landing.html:129
 #: templates/public/landing.html:122
 msgid "Mobile phones &amp; accessories"
 msgstr "جوالات واكسسواراتها"
 
-#: country_templates/saudi/public/landing.html:154
+#: country_templates/saudi/public/landing.html:135
 #: templates/public/landing.html:128
 msgid "Electronics &amp; home appliances"
 msgstr "إلكترونيات وأجهزة منزلية"
 
-#: country_templates/saudi/public/landing.html:160
+#: country_templates/saudi/public/landing.html:141
 msgid "Car accessories"
 msgstr "إكسسوارات السيارة"
 
-#: country_templates/saudi/public/landing.html:166
+#: country_templates/saudi/public/landing.html:147
 #: templates/public/landing.html:134
 msgid "Cars"
 msgstr "سيارات"
 
-#: country_templates/saudi/public/landing.html:172
+#: country_templates/saudi/public/landing.html:153
 #: templates/public/landing.html:103
 msgid "Clothing  & accessories"
 msgstr "ملابس واكسسواراتها"
 
-#: country_templates/saudi/public/landing.html:178
+#: country_templates/saudi/public/landing.html:159
 #: templates/public/landing.html:146
 msgid "Tablets &amp; computers "
 msgstr "تابلت/أجهزة لوحية وكمبيوتر"
 
-#: country_templates/saudi/public/landing.html:184
+#: country_templates/saudi/public/landing.html:165
 msgid "Cameras & accessories"
 msgstr "كاميرات واكسسواراتها"
 
-#: country_templates/saudi/public/landing.html:190
+#: country_templates/saudi/public/landing.html:171
 #: templates/public/landing.html:109
 msgid "Jewelry & watches"
 msgstr "مجوهرات وساعات"
 
-#: country_templates/saudi/public/landing.html:196
+#: country_templates/saudi/public/landing.html:177
 #: templates/public/landing.html:152
 msgid "So much more."
 msgstr "أقسام أكثر"
 
-#: country_templates/saudi/public/landing.html:204
+#: country_templates/saudi/public/landing.html:185
 msgid "Testimonials from our users"
 msgstr "شهادات من مستخدمينا"
 
-#: country_templates/saudi/public/landing.html:211
+#: country_templates/saudi/public/landing.html:192
 msgid "Al Tayyeb Ali"
 msgstr "الطيب علي"
 
-#: country_templates/saudi/public/landing.html:214
+#: country_templates/saudi/public/landing.html:195
 msgid "Big thanks and gratitude for your distinctive services. I was really happy when I saw my ad on the site. Your business is a role model and inspiration for the youth in the Arab world."
 msgstr "لكم شكري وفائق إمتناني لخدماتكم المميزة فكم كنت سعيداً عندما رأيت إعلاني على الموقع. دمتم رمزاً للتميز ودامت خدماتكم المتميزة ذخراً وأملاً لكل الشباب والخريجين في الوطن العربي والعالم أجمع شاكرين لكم حسن تعاونكم وتميزكم"
 
-#: country_templates/saudi/public/landing.html:222
+#: country_templates/saudi/public/landing.html:203
 msgid "Ahmad Mutair"
 msgstr "احمد مطير"
 
-#: country_templates/saudi/public/landing.html:225
+#: country_templates/saudi/public/landing.html:206
 #, python-format
 msgid "I’ve successfully sold my stuff, thanks %(BRAND_NAME)s!"
 msgstr "شكراً %(BRAND_NAME)s لقد تم بيع ما عرضته على موقعكم !"
 
-#: country_templates/saudi/public/landing.html:233
+#: country_templates/saudi/public/landing.html:214
 msgid "Jomaan Al Ghamdi"
 msgstr "جمعان الغامدي"
 
-#: country_templates/saudi/public/landing.html:236
+#: country_templates/saudi/public/landing.html:217
 msgid "Thanks for all the support. I've benefited from posting and selling my stuff on your website. God bless you!"
 msgstr "حبيت أشكركم على ما تقدمونه من دعم لأنني استفدت من عرض إعلاناتي على موقعكم وتم ولله الحمد بيع الأجهزة المعروضة. لكم الأجر"
 
-#: country_templates/saudi/public/landing.html:244
+#: country_templates/saudi/public/landing.html:225
 msgid "Follow us"
 msgstr "تابعنا"
 
-#: country_templates/saudi/public/landing.html:269
+#: country_templates/saudi/public/landing.html:250
 msgid "Download our mobile app"
 msgstr "حمَل تطبيق الجوال"
 
@@ -1574,15 +1573,11 @@ msgstr "ضباء"
 msgid "Baljurashi"
 msgstr "بلجرشي"
 
-#: fuego/saudi_settings.py:670
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:81
-#: utils/prettify_filters.py:95
+#: fuego/saudi_settings.py:670 utils/prettify_filters.py:95
 msgid "English"
 msgstr ""
 
-#: fuego/saudi_settings.py:671
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:82
-#: utils/prettify_filters.py:95
+#: fuego/saudi_settings.py:671 utils/prettify_filters.py:95
 msgid "Arabic"
 msgstr "عربي"
 
@@ -2069,35 +2064,6 @@ msgstr "إلى"
 #: search/forms.py:567
 msgid "Show only free ads"
 msgstr "أظهر فقط الإعلانات المجانية"
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:83
-#: utils/prettify_filters.py:95
-msgid "French"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:91
-msgid "Inorganic"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:92
-msgid "Payed Organic"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:93
-msgid "Free Orgainic"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:97
-msgid "Active"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:98
-msgid "Deactive"
-msgstr ""
-
-#: src/greenstorm/greenstorm_client/conf/global_settings.py:99
-msgid "Blocked"
-msgstr ""
 
 #: templates/404-web.html:18
 msgid "Houston... we have problem."
@@ -3511,6 +3477,10 @@ msgstr "الاستوديو"
 #: utils/prettify_filters.py:92
 msgid "km"
 msgstr "كم"
+
+#: utils/prettify_filters.py:95
+msgid "French"
+msgstr ""
 
 #: utils/prettify_filters.py:114 utils/prettify_filters.py:115
 #, python-format
