@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-22 15:03+0400\n"
+"POT-Creation-Date: 2015-07-28 15:16+0400\n"
 "PO-Revision-Date: 2015-01-18 14:43+0200\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
@@ -127,9 +127,9 @@ msgid "Please enter the correct letters"
 msgstr "من فضلك اكتب الحروف بشكل صحيح"
 
 #: country_templates/shared_landing.html:37
-#, fuzzy, python-format
+#, python-format
 msgid "%(BRAND_NAME)s"
-msgstr "الرجوع إلى صفحة %(BRAND_NAME)s"
+msgstr "%(BRAND_NAME)s"
 
 #: country_templates/shared_landing.html:38
 #, python-format
@@ -298,9 +298,9 @@ msgstr "أقسام أكثر"
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:585
-msgid "dubizzle OLX"
-msgstr "دوبيزل اوليكس"
+#: fuego/base_settings.py:649
+msgid "m&sup2;"
+msgstr "م٢"
 
 #: fuego/base_settings.py:649
 msgid "m&sup2;"
@@ -2751,12 +2751,12 @@ msgid "Other items, items for sale, Other Items for Sale in %(city_or_country)s"
 msgstr "أشياء للبيع، سلع للبيع، أغراض للبيع في %(city_or_country)s"
 
 #: fuego/meta_settings.py:364
-msgid "Buy and sell anything | dubizzle, an OLX company"
-msgstr "بيع واشتري اي شيء | دوبيزل احدى شركات اوليكس"
+msgid "Buy and sell anything | OLX, powered by dubizzle"
+msgstr "بيع واشتري اي شيء | اوليكس بادارة دوبيزل"
 
 #: fuego/meta_settings.py:365
-#, python-format
-msgid "Find the best deals from thousands of ads on dubizzle, an OLX company. Post ads & browse for real estate, cars, jobs and classifieds in %(country)s."
+#, fuzzy, python-format
+msgid "Find the best deals from thousands of ads on OLX, powered by dubizzle. Post ads & browse for real estate, cars, jobs and classifieds in %(country)s."
 msgstr "دوبيزل، احدى شركات اوليكس، هو الموقع المحلي المجاني للإعلانات المبوبة في %(country)s. وظائف شاغرة, عقارات, سيارات. أضف اعلان, بيع واشتري واستأجر."
 
 #: fuego/meta_settings.py:366 fuego/meta_settings.py:372
@@ -4167,7 +4167,7 @@ msgstr "موقع دوبيزل هو إحدى شركات أوليكس \"OLX\": ت�
 
 #: templates/public/home.html:22
 #, python-format
-msgid "Free Classifieds in %(CITY_OR_COUNTRY)s on dubizzle, an OLX company"
+msgid "Free Classifieds in %(CITY_OR_COUNTRY)s on OLX, powered by dubizzle!"
 msgstr "أكبر سوق للمستعمل في %(CITY_OR_COUNTRY)s على موقع دوبيزل، احدى شركات اوليكس"
 
 #: templates/public/home.html:69
@@ -4188,8 +4188,8 @@ msgid "Load more"
 msgstr "ارني المزيد"
 
 #: templates/public/landing.html:18
-msgid "Find the best deals from thousands of ads on dubizzle, an OLX company!"
-msgstr "بيع واشتري أي شيء تتخيله على دوبيزل احدى شركات اوليكس"
+msgid "Find the best deals from thousands of ads on OLX, powered by dubizzle!"
+msgstr "بيع واشتري أي شيء تتخيله على اوليكس بادارة دوبيزل"
 
 #: templates/public/landing.html:23
 msgid "Selling your items &amp; giving them a new chapter is as easy as 1-2-3"
@@ -4791,18 +4791,3 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
-
-#~ msgid "Select the city closest to where you live"
-#~ msgstr "حدد المدينة الأقرب لك"
-
-#~ msgid "Contact the advertiser"
-#~ msgstr "تواصل مع المعلن"
-
-#~ msgid "Find the ad you like, and contact the advertiser directly"
-#~ msgstr "تواصل مع المعلن عندما تجد ما تبحث عنه"
-
-#~ msgid "Get a great deal"
-#~ msgstr "أحصل على عرض رائع"
-
-#~ msgid "Meet and finish your bargain face to face."
-#~ msgstr "اتمم الصفقة وجها لوجه"

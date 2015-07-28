@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-22 15:04+0400\n"
+"POT-Creation-Date: 2015-07-28 15:18+0400\n"
 "PO-Revision-Date: 2014-08-05 15:02+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_TN/>\n"
@@ -228,8 +228,9 @@ msgid "All of dubizzle"
 msgstr "Tout sur dubizzle"
 
 #: fuego/base_settings.py:585
-msgid "dubizzle OLX"
-msgstr "dubizzle OLX"
+#, fuzzy
+msgid "OLX dubizzle"
+msgstr "dubizzle démarré"
 
 #: fuego/base_settings.py:649
 msgid "m&sup2;"
@@ -1008,12 +1009,13 @@ msgid "Other items, items for sale, Other Items for Sale in %(city_or_country)s"
 msgstr "Autres Articles, articles à vendre, Autres Articles à Vendre %(city_or_country)s"
 
 #: fuego/meta_settings.py:364
-msgid "Buy and sell anything | dubizzle, an OLX company"
+#, fuzzy
+msgid "Buy and sell anything | OLX, powered by dubizzle"
 msgstr "Petites Annonces Gratuites sur dubizzle, membre du group OLX"
 
 #: fuego/meta_settings.py:365
-#, python-format
-msgid "Find the best deals from thousands of ads on dubizzle, an OLX company. Post ads & browse for real estate, cars, jobs and classifieds in %(country)s."
+#, fuzzy, python-format
+msgid "Find the best deals from thousands of ads on OLX, powered by dubizzle. Post ads & browse for real estate, cars, jobs and classifieds in %(country)s."
 msgstr "Trouvez un emploi, des biens et services immobiliers à la vente ainsi que des voitures à vendre en %(country)s sur dubizzle, membre du group OLX."
 
 #: fuego/meta_settings.py:366 fuego/meta_settings.py:372
@@ -2829,8 +2831,8 @@ msgid "dubizzle is an OLX company: OLX is the world's leading classifieds brand.
 msgstr ""
 
 #: templates/public/home.html:22
-#, python-format
-msgid "Free Classifieds in %(CITY_OR_COUNTRY)s on dubizzle, an OLX company"
+#, fuzzy, python-format
+msgid "Free Classifieds in %(CITY_OR_COUNTRY)s on OLX, powered by dubizzle!"
 msgstr "Petites Annonces Gratuites à %(CITY_OR_COUNTRY)s - dubizzle, membre du group OLX"
 
 #: templates/public/home.html:69
@@ -2851,7 +2853,8 @@ msgid "Load more"
 msgstr "Charger d'avantage"
 
 #: templates/public/landing.html:18
-msgid "Find the best deals from thousands of ads on dubizzle, an OLX company!"
+#, fuzzy
+msgid "Find the best deals from thousands of ads on OLX, powered by dubizzle!"
 msgstr "Trouvez les meilleurs affaires parmi des milliers d'annonces sur dubizzle, par OLX!"
 
 #: templates/public/landing.html:23
@@ -3374,6 +3377,9 @@ msgstr "Votre annonce avait impropre photo."
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "Ajouter quelques photos appropriés."
+
+#~ msgid "dubizzle OLX"
+#~ msgstr "dubizzle OLX"
 
 #~ msgid "Property for Sale"
 #~ msgstr "Immobilier à vendre"
