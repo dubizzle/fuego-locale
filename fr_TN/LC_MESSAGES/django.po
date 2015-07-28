@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-28 15:18+0400\n"
+"POT-Creation-Date: 2015-07-28 16:29+0400\n"
 "PO-Revision-Date: 2014-08-05 15:02+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_TN/>\n"
@@ -66,15 +66,15 @@ msgstr "Confirmez votre mot de passe"
 msgid "Sorry, please re-enter your password using only English characters."
 msgstr "Désolé, veuillez entrer de nouveau votre mot de passe en utilisant uniquement des caractères anglophones."
 
-#: authentication/forms.py:141 listings/tests.py:1806
+#: authentication/forms.py:141 listings/tests.py:1818
 msgid "This email address is already in use. Click 'Sign in to your account', or use a different email."
 msgstr "Cette adresse email est déja en cours d'utilisation. Cliquez sur 'Se connecter à votre compte', ou utiliser une autre adresse."
 
-#: authentication/forms.py:158 listings/tests.py:1879
+#: authentication/forms.py:158 listings/tests.py:1891
 msgid "Huh... that's not the same one! Try again."
 msgstr "Oups... ce n'est pas la męme! Réessayez."
 
-#: authentication/forms.py:166 listings/tests.py:1952
+#: authentication/forms.py:166 listings/tests.py:1964
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "Hmm... ça ne marche pas. Réessayez."
 
@@ -106,7 +106,7 @@ msgstr "Votre ancien mot de passe"
 msgid "Ooops, the password you entered is incorrect."
 msgstr "Oups, le mot de passe que vous avez entré est incorrect."
 
-#: authentication/views.py:108
+#: authentication/views.py:107
 msgid "Please enter the correct Username and Password combination."
 msgstr "Veuillez entrer le bon nom d'utilisateur et le mot de passe correspondant."
 
@@ -221,102 +221,102 @@ msgstr "Allez-y, essayez."
 msgid "Place an ad"
 msgstr "Passer une annonce"
 
-#: fuego/base_settings.py:581 fuego/management/commands/email_alerts.py:506
-#: fuego/management/commands/saved_search_alerts.py:505
+#: fuego/base_settings.py:572 fuego/management/commands/email_alerts.py:506
+#: fuego/management/commands/saved_search_alerts.py:503
 #: search/search_utils.py:107
 msgid "All of dubizzle"
 msgstr "Tout sur dubizzle"
 
-#: fuego/base_settings.py:585
+#: fuego/base_settings.py:576
 #, fuzzy
 msgid "OLX dubizzle"
 msgstr "dubizzle démarré"
 
-#: fuego/base_settings.py:649
+#: fuego/base_settings.py:640
 msgid "m&sup2;"
 msgstr "m&sup2;"
 
-#: fuego/base_settings.py:682 fuego/base_settings.py:1176
+#: fuego/base_settings.py:673 fuego/base_settings.py:1169
 msgid "Spam"
 msgstr "Indésirable"
 
-#: fuego/base_settings.py:683
+#: fuego/base_settings.py:674
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:684 fuego/base_settings.py:1171
+#: fuego/base_settings.py:675 fuego/base_settings.py:1164
 msgid "Miscategorized"
 msgstr "Mauvaise catégorie"
 
-#: fuego/base_settings.py:685 fuego/base_settings.py:1173
+#: fuego/base_settings.py:676 fuego/base_settings.py:1166
 msgid "Repetitive"
 msgstr "Répétée"
 
-#: fuego/base_settings.py:686
+#: fuego/base_settings.py:677
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:687
+#: fuego/base_settings.py:678
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:688 fuego/base_settings.py:1174
+#: fuego/base_settings.py:679 fuego/base_settings.py:1167
 msgid "Misleading"
 msgstr "Trompeuse"
 
-#: fuego/base_settings.py:689
+#: fuego/base_settings.py:680
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:690
+#: fuego/base_settings.py:681
 msgid "No Category"
 msgstr "Catégorie"
 
-#: fuego/base_settings.py:718
+#: fuego/base_settings.py:709
 msgid "You have chosen the wrong category."
 msgstr "Votre annonce a été placé dans la mauvaise catégorie"
 
-#: fuego/base_settings.py:719
+#: fuego/base_settings.py:710
 msgid "Your ad is misleading"
 msgstr "Votre annonce est GRATUITE"
 
-#: fuego/base_settings.py:799
+#: fuego/base_settings.py:790
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: fuego/base_settings.py:995
+#: fuego/base_settings.py:986
 msgid "Date: newest"
 msgstr "Date: plus recente"
 
-#: fuego/base_settings.py:996
+#: fuego/base_settings.py:987
 msgid "Date: oldest"
 msgstr "Date: moins recente"
 
-#: fuego/base_settings.py:1000
+#: fuego/base_settings.py:991
 msgid "Price: highest"
 msgstr "Prix: plus cher"
 
-#: fuego/base_settings.py:1001
+#: fuego/base_settings.py:992
 msgid "Price: lowest"
 msgstr "Prix: moins cher"
 
-#: fuego/base_settings.py:1160
+#: fuego/base_settings.py:1153
 msgid "#dubizzle"
 msgstr "dubizzle démarré"
 
-#: fuego/base_settings.py:1166
+#: fuego/base_settings.py:1159
 msgid "Other"
 msgstr "Autre"
 
-#: fuego/base_settings.py:1168
+#: fuego/base_settings.py:1161
 msgid "Please select"
 msgstr "Choisissez votre raison"
 
-#: fuego/base_settings.py:1172
+#: fuego/base_settings.py:1165
 msgid "Offensive"
 msgstr "Offensive"
 
-#: fuego/base_settings.py:1175
+#: fuego/base_settings.py:1168
 msgid "Possible fraud"
 msgstr "Possible fraude"
 
@@ -1430,15 +1430,18 @@ msgid "Arabic"
 msgstr "Arabe"
 
 #: fuego/tunisie_settings.py:595
-msgid "Jobs in Tunisie, Property & Real Estate For Sale & Rent, Cars for Sale - Free Classifieds in Tunisie | dubizzle OLX Tunisie"
+#, fuzzy
+msgid "Jobs in Tunisie, Property & Real Estate For Sale & Rent, Cars for Sale - Free Classifieds in Tunisie | OLX dubizzle Tunisie"
 msgstr "Petites Annonces en Tunisie - Offres d'emploi en Tunisie, Propriétés et Immobiliers à Vendre, Voitures à Vendre - Petites Annonces Gratuites en Tunisie |  dubizzle OLX Tunisie"
 
 #: fuego/tunisie_settings.py:599
-msgid "dubizzle OLX is your free and friendly local classifieds website in Tunisie. Jobs, property, real estate, cars and classifieds in Tunisie. Post an ad, browse ads, buy, sell or rent."
+#, fuzzy
+msgid "OLX dubizzle is your free and friendly local classifieds website in Tunisie. Jobs, property, real estate, cars and classifieds in Tunisie. Post an ad, browse ads, buy, sell or rent."
 msgstr "dubizzle OLX est votre premier site de petites annonces gratuites en Tunisie. Trouvez un emploi, des biens et services immobiliers à la vente ainsi que des  voitures à vendre en Tunisie"
 
 #: fuego/tunisie_settings.py:604
-msgid "dubizzle OLX Tunisie, free classifieds, online classifieds, Tunisie classifieds, free classifieds in Tunisie"
+#, fuzzy
+msgid "OLX dubizzle Tunisie, free classifieds, online classifieds, Tunisie classifieds, free classifieds in Tunisie"
 msgstr "dubizzle OLX Tunisie, petites annonces gratuites, petites annonces en ligne, Tunisie petites annonces, petites annonces en Tunisie"
 
 #: fuego/forms/__init__.py:144
@@ -2464,7 +2467,8 @@ msgid "Report this ad"
 msgstr "Signaler cette annonce"
 
 #: templates/listings/get/get_listing.html:203
-msgid "Important tips from dubizzle OLX"
+#, fuzzy
+msgid "Important tips from OLX dubizzle"
 msgstr "Conseils importants sur dubizzle OLX:"
 
 #: templates/listings/get/get_listing.html:208
@@ -3006,8 +3010,9 @@ msgid "Edit filters"
 msgstr "Modifier les filtres"
 
 #: templates/search/widget.html:27 templates/search/widget.html.py:44
-msgid "All of dubizzle OLX"
-msgstr "Tout sur dubizzle OLX"
+#, fuzzy
+msgid "All of OLX dubizzle"
+msgstr "Tout sur dubizzle"
 
 #: templates/search/widget.html:71
 msgid "No results..."
@@ -3377,6 +3382,9 @@ msgstr "Votre annonce avait impropre photo."
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "Ajouter quelques photos appropriés."
+
+#~ msgid "All of dubizzle OLX"
+#~ msgstr "Tout sur dubizzle OLX"
 
 #~ msgid "dubizzle OLX"
 #~ msgstr "dubizzle OLX"

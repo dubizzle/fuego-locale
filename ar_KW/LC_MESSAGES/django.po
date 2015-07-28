@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-28 15:17+0400\n"
+"POT-Creation-Date: 2015-07-28 16:29+0400\n"
 "PO-Revision-Date: 2015-01-11 09:57+0000\n"
 "Last-Translator: Andrea Valdi <andrea@dubizzle.com>\n"
 "Language-Team: Arabic <http://translate.dubizzle.test/projects/fuego/fuego-web/ar_KW/>\n"
@@ -70,15 +70,15 @@ msgstr "تأكيد كلمة السر"
 msgid "Sorry, please re-enter your password using only English characters."
 msgstr "عفوا, كلمة السر يجب أن تتكون من حروف لاتينية (English)"
 
-#: authentication/forms.py:141 listings/tests.py:1806
+#: authentication/forms.py:141 listings/tests.py:1818
 msgid "This email address is already in use. Click 'Sign in to your account', or use a different email."
 msgstr "عنوان الإيميل هذا مسجل لدينا. إختر \"سجل الدخول لحسابك\" اعلاه أو ادخل عنوان ايميل آخر."
 
-#: authentication/forms.py:158 listings/tests.py:1879
+#: authentication/forms.py:158 listings/tests.py:1891
 msgid "Huh... that's not the same one! Try again."
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
-#: authentication/forms.py:166 listings/tests.py:1952
+#: authentication/forms.py:166 listings/tests.py:1964
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
 
@@ -110,7 +110,7 @@ msgstr "كلمة السر القديمة (باي باي!)"
 msgid "Ooops, the password you entered is incorrect."
 msgstr "كلمة السر غير صحيحة (ألو.. ؟! خليك معانا .. تأكد من كون الحروف الانجليزية  كبيرة أو صغيرة)."
 
-#: authentication/views.py:108
+#: authentication/views.py:107
 msgid "Please enter the correct Username and Password combination."
 msgstr "البيانات التي ادخلتها غير صحيحة."
 
@@ -335,101 +335,102 @@ msgstr "أجهزة وألعاب فيديو"
 msgid "So much more."
 msgstr "أقسام أكثر"
 
-#: fuego/base_settings.py:581 fuego/management/commands/email_alerts.py:506
-#: fuego/management/commands/saved_search_alerts.py:505
+#: fuego/base_settings.py:572 fuego/management/commands/email_alerts.py:506
+#: fuego/management/commands/saved_search_alerts.py:503
 #: search/search_utils.py:107
 msgid "All of dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:649
+#: fuego/base_settings.py:576
+#, fuzzy
+msgid "OLX dubizzle"
+msgstr "#دوبيزل"
+
+#: fuego/base_settings.py:640
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:649
-msgid "m&sup2;"
-msgstr "م٢"
-
-#: fuego/base_settings.py:682 fuego/base_settings.py:1176
+#: fuego/base_settings.py:673 fuego/base_settings.py:1169
 msgid "Spam"
 msgstr "إعلان مزعج"
 
-#: fuego/base_settings.py:683
+#: fuego/base_settings.py:674
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:684 fuego/base_settings.py:1171
+#: fuego/base_settings.py:675 fuego/base_settings.py:1164
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:685 fuego/base_settings.py:1173
+#: fuego/base_settings.py:676 fuego/base_settings.py:1166
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:686
+#: fuego/base_settings.py:677
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:687
+#: fuego/base_settings.py:678
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:688 fuego/base_settings.py:1174
+#: fuego/base_settings.py:679 fuego/base_settings.py:1167
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:689
+#: fuego/base_settings.py:680
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:690
+#: fuego/base_settings.py:681
 msgid "No Category"
 msgstr "القسم؟"
 
-#: fuego/base_settings.py:718
+#: fuego/base_settings.py:709
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في القسم غير الصحيحة"
 
-#: fuego/base_settings.py:719
+#: fuego/base_settings.py:710
 msgid "Your ad is misleading"
 msgstr "مجانا وبدون أي رسوم"
 
-#: fuego/base_settings.py:799
+#: fuego/base_settings.py:790
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:995
+#: fuego/base_settings.py:986
 msgid "Date: newest"
 msgstr "بحسب التاريخ: الأحدث"
 
-#: fuego/base_settings.py:996
+#: fuego/base_settings.py:987
 msgid "Date: oldest"
 msgstr "بحسب التاريخ: الأقدم"
 
-#: fuego/base_settings.py:1000
+#: fuego/base_settings.py:991
 msgid "Price: highest"
 msgstr "بحسب السعر: الأعلى"
 
-#: fuego/base_settings.py:1001
+#: fuego/base_settings.py:992
 msgid "Price: lowest"
 msgstr "بحسب السعر: الأدنى"
 
-#: fuego/base_settings.py:1160
+#: fuego/base_settings.py:1153
 msgid "#dubizzle"
 msgstr "#دوبيزل"
 
-#: fuego/base_settings.py:1166
+#: fuego/base_settings.py:1159
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:1168
+#: fuego/base_settings.py:1161
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:1172
+#: fuego/base_settings.py:1165
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:1175
+#: fuego/base_settings.py:1168
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
@@ -933,15 +934,18 @@ msgstr "عربي"
 
 # fuego /kuwait_settings.py translations added
 #: fuego/kuwait_settings.py:670
-msgid "Jobs in Kuwait, Property & Real Estate For Sale & Rent, Cars for Sale - Free Classifieds in Kuwait | dubizzle OLX Kuwait"
+#, fuzzy
+msgid "Jobs in Kuwait, Property & Real Estate For Sale & Rent, Cars for Sale - Free Classifieds in Kuwait | OLX dubizzle Kuwait"
 msgstr "وظائف في الكويت، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في الكويت | دوبيزل اوليكس الكويت"
 
 #: fuego/kuwait_settings.py:674
-msgid "dubizzle OLX is your free and friendly local classifieds website in Kuwait. Jobs, property, real estate, cars and classifieds in Kuwait. Post an ad, browse ads, buy, sell or rent."
+#, fuzzy
+msgid "OLX dubizzle is your free and friendly local classifieds website in Kuwait. Jobs, property, real estate, cars and classifieds in Kuwait. Post an ad, browse ads, buy, sell or rent."
 msgstr "وظائف، عقارات، سيارات و اعلانات مبوبة في الكويت. اضف اعلان، تصفح اعلانات، بيع واشتري وأجر على دوبيزل اوليكس"
 
 #: fuego/kuwait_settings.py:679
-msgid "dubizzle OLX Kuwait, free classifieds, online classifieds, Kuwait classifieds, free classifieds in Kuwait"
+#, fuzzy
+msgid "OLX dubizzle Kuwait, free classifieds, online classifieds, Kuwait classifieds, free classifieds in Kuwait"
 msgstr "دوبيزل اوليكس الكويت، مبوبة مجانيه، اعلانات مبوبة عبر الإنترنت، مبوبة الكويت، اعلانات مبوبة مجانيه في الكويت"
 
 #: fuego/meta_settings.py:62 fuego/meta_settings.py:68
@@ -2657,7 +2661,8 @@ msgid "Report this ad"
 msgstr "بلغ عن هذا الإعلان"
 
 #: templates/listings/get/get_listing.html:203
-msgid "Important tips from dubizzle OLX"
+#, fuzzy
+msgid "Important tips from OLX dubizzle"
 msgstr "نصائح عالسريع علشان يكون عندك صورة واضحة عن دوبيزل اوليكس"
 
 #: templates/listings/get/get_listing.html:208
@@ -3024,6 +3029,7 @@ msgid "dubizzle is an OLX company: OLX is the world's leading classifieds brand.
 msgstr "موقع دوبيزل هو إحدى شركات أوليكس \"OLX\": تُعتبر أوليكس العلامة الرائدة عالمياً في عالم الإعلانات المبوبة، وتضم شبكة من الشركات العالمية في أكثر من 40 سوق عالمية في آسيا وافريقيا والشرق الأوسط وأمريكا اللاتينية إضافة إلى أوروبا. تحظى أوليكس عالمياً بما يفوق الـ 200 مليون زيارة فردية شهرياً، وأكثر من 360 مليون مشاهدة يومية على مستوى العالم."
 
 #: templates/public/home.html:22
+#, python-format
 msgid "Free Classifieds in %(CITY_OR_COUNTRY)s on OLX, powered by dubizzle!"
 msgstr "اعلانات مبوبة مجانية في %(CITY_OR_COUNTRY)s، اوليكس دوبيزل"
 
@@ -3161,7 +3167,8 @@ msgid "Edit filters"
 msgstr "تصفية البحث"
 
 #: templates/search/widget.html:27 templates/search/widget.html.py:44
-msgid "All of dubizzle OLX"
+#, fuzzy
+msgid "All of OLX dubizzle"
 msgstr "الموقع بالكامل"
 
 #: templates/search/widget.html:71
@@ -3620,3 +3627,6 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
+
+#~ msgid "All of dubizzle OLX"
+#~ msgstr "الموقع بالكامل"
