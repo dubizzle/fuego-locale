@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-22 15:04+0400\n"
+"POT-Creation-Date: 2015-08-12 17:46+0400\n"
 "PO-Revision-Date: 2014-08-05 15:02+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: French - Tunisian <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr_TN/>\n"
@@ -214,7 +214,7 @@ msgid "Yalla try it."
 msgstr "Allez-y, essayez."
 
 #: country_templates/shared_landing.html:155
-#: country_templates/shared_landing.html:160 templates/base.html:168
+#: country_templates/shared_landing.html:160 templates/base.html:169
 #: templates/generic.html:96 templates/generic.html.py:103
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
@@ -1031,7 +1031,7 @@ msgstr "Petites Annonces Gratuites à %(full_location)s | %(BRAND_NAME)s"
 msgid "%(BRAND_NAME)s is your free local classifieds website in %(full_location)s. Post ads & browse for real estate, cars, jobs and classifieds in %(country)s."
 msgstr "%(BRAND_NAME)s est votre premier site de petites annonces gratuites à %(full_location)s. Trouvez un emploi, Immobilier, Voitures Occasion et Articles à Vendre à %(country)s. Passez une annonce, achetez et vendez."
 
-#: fuego/tunisie_settings.py:33
+#: fuego/tunisie_settings.py:33 templates/public/_footer.html:68
 msgid "Tunisie"
 msgstr "Tunisie"
 
@@ -1935,52 +1935,52 @@ msgstr "404"
 msgid "Website under maintenance (500)"
 msgstr "Site en maintenance (500)"
 
-#: templates/base.html:102
+#: templates/base.html:103
 msgid "dubizzle is now an OLX company, bringing you the best of both worlds"
 msgstr "dubizzle fait maintenant parti du groupe OLX"
 
-#: templates/base.html:108
+#: templates/base.html:109
 msgid "Happy Eid"
 msgstr ""
 
-#: templates/base.html:112
+#: templates/base.html:113
 msgid "Ramadan Kareem"
 msgstr "Ramadan Kareem"
 
-#: templates/base.html:118
+#: templates/base.html:119
 msgid "Ramadan"
 msgstr "Ramadan"
 
-#: templates/base.html:119
+#: templates/base.html:120
 msgid "Iftar"
 msgstr "Iftar"
 
-#: templates/base.html:119
+#: templates/base.html:120
 msgid "pm"
 msgstr "pm"
 
-#: templates/base.html:120
+#: templates/base.html:121
 msgid "Imsak"
 msgstr "Imsak"
 
-#: templates/base.html:120
+#: templates/base.html:121
 msgid "am"
 msgstr "am"
 
-#: templates/base.html:160
+#: templates/base.html:161
 msgid "Menu"
 msgstr "Menu"
 
-#: templates/base.html:175
+#: templates/base.html:176
 msgid "My account"
 msgstr "Mon compte"
 
 #: templates/base_privacy.html:12 templates/terms_ar.html:178
-#: templates/public/_footer.html:27
+#: templates/public/_footer.html:94
 msgid "Privacy Policy"
 msgstr "Politique de confidentialité"
 
-#: templates/base_terms.html:12 templates/public/_footer.html:23
+#: templates/base_terms.html:12 templates/public/_footer.html:90
 msgid "Terms of Use"
 msgstr "Conditions d'utilisation"
 
@@ -2716,19 +2716,59 @@ msgstr "Envoyer"
 msgid "You have successfully subscribed."
 msgstr ""
 
-#: templates/public/_footer.html:15
+#: templates/public/_footer.html:23
+msgid "Egypt"
+msgstr "مصر"
+
+#: templates/public/_footer.html:28
+msgid "Oman"
+msgstr "عمان"
+
+#: templates/public/_footer.html:33
+msgid "Jordan"
+msgstr "الأردن"
+
+#: templates/public/_footer.html:38
+msgid "Saudi"
+msgstr "السعودية"
+
+#: templates/public/_footer.html:43
+msgid "Kuwait"
+msgstr "الكويت"
+
+#: templates/public/_footer.html:48
+msgid "Bahrain"
+msgstr "البحرين"
+
+#: templates/public/_footer.html:53
+msgid "Lebanon"
+msgstr "لبنان"
+
+#: templates/public/_footer.html:58
+msgid "Qatar"
+msgstr "قطر"
+
+#: templates/public/_footer.html:63
+msgid "Algeria"
+msgstr "الجزائر"
+
+#: templates/public/_footer.html:73
+msgid "UAE"
+msgstr "الإمارات"
+
+#: templates/public/_footer.html:82
 msgid "Help"
 msgstr "Aide"
 
-#: templates/public/_footer.html:19 templates/public/about.html:6
+#: templates/public/_footer.html:86 templates/public/about.html:6
 msgid "About Us"
 msgstr "A propos de nous"
 
-#: templates/public/_footer.html:31
+#: templates/public/_footer.html:98
 msgid "Sitemap"
 msgstr "Plan du site"
 
-#: templates/public/_footer.html:35
+#: templates/public/_footer.html:108
 #, python-format
 msgid ", %(BRAND_NAME)s, All Rights Reserved."
 msgstr ", %(BRAND_NAME)s, Tous droits réservés."
