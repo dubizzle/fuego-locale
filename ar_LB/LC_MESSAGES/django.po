@@ -218,7 +218,7 @@ msgid "Yalla try it."
 msgstr "يلا، جرب وبيع."
 
 #: country_templates/shared_landing.html:155
-#: country_templates/shared_landing.html:160 templates/base.html:168
+#: country_templates/shared_landing.html:160 templates/base.html:169
 #: templates/generic.html:96 templates/generic.html.py:103
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
@@ -343,7 +343,7 @@ msgstr "النوع"
 msgid "No Of Doors"
 msgstr "عدد الابواب"
 
-#: fuego/lebanon_settings.py:32
+#: fuego/lebanon_settings.py:32 templates/public/_footer.html:53
 msgid "Lebanon"
 msgstr "لبنان"
 
@@ -2107,53 +2107,53 @@ msgstr ""
 msgid "Website under maintenance (500)"
 msgstr "الموقع تحت الصيانة"
 
-#: templates/base.html:102
+#: templates/base.html:103
 msgid "dubizzle is now an OLX company, bringing you the best of both worlds"
 msgstr "دوبيزل الآن هو إحدى شركات أوليكس. يعني أنك ستتمتع بأفضل المزايا من عالم دوبيزل وعالم أوليكس."
 
-#: templates/base.html:108
+#: templates/base.html:109
 msgid "Happy Eid"
 msgstr "عيد سعيد"
 
-#: templates/base.html:112
+#: templates/base.html:113
 msgid "Ramadan Kareem"
 msgstr "رمضان كريم"
 
-#: templates/base.html:118
+#: templates/base.html:119
 msgid "Ramadan"
 msgstr "رمضان"
 
-#: templates/base.html:119
+#: templates/base.html:120
 msgid "Iftar"
 msgstr "افطار"
 
-#: templates/base.html:119
+#: templates/base.html:120
 msgid "pm"
 msgstr "مساءً"
 
-#: templates/base.html:120
+#: templates/base.html:121
 msgid "Imsak"
 msgstr "امساك"
 
-#: templates/base.html:120
+#: templates/base.html:121
 msgid "am"
 msgstr "صباحاً"
 
-#: templates/base.html:160
+#: templates/base.html:161
 msgid "Menu"
 msgstr "القائمة"
 
 # not too clear
-#: templates/base.html:175
+#: templates/base.html:176
 msgid "My account"
 msgstr "الحساب"
 
 #: templates/base_privacy.html:12 templates/terms_ar.html:178
-#: templates/public/_footer.html:27
+#: templates/public/_footer.html:94
 msgid "Privacy Policy"
 msgstr "سياسة الخصوصية"
 
-#: templates/base_terms.html:12 templates/public/_footer.html:23
+#: templates/base_terms.html:12 templates/public/_footer.html:90
 msgid "Terms of Use"
 msgstr "شروط الاستخدام"
 
@@ -2891,19 +2891,63 @@ msgstr "أرسل"
 msgid "You have successfully subscribed."
 msgstr "تم انضمامك بنجاح"
 
-#: templates/public/_footer.html:15
+#: templates/public/_footer.html:16
+msgid "dubizzle OLX countries"
+msgstr "دول دوبيزل اوليكس"
+
+#: templates/public/_footer.html:23
+msgid "Egypt"
+msgstr "مصر"
+
+#: templates/public/_footer.html:28
+msgid "Oman"
+msgstr "عمان"
+
+#: templates/public/_footer.html:33
+msgid "Jordan"
+msgstr "الأردن"
+
+#: templates/public/_footer.html:38
+msgid "Saudi"
+msgstr "السعودية"
+
+#: templates/public/_footer.html:43
+msgid "Kuwait"
+msgstr "الكويت"
+
+#: templates/public/_footer.html:48
+msgid "Bahrain"
+msgstr "البحرين"
+
+#: templates/public/_footer.html:58
+msgid "Qatar"
+msgstr "قطر"
+
+#: templates/public/_footer.html:63
+msgid "Algeria"
+msgstr "الجزائر"
+
+#: templates/public/_footer.html:68
+msgid "Tunisie"
+msgstr "تونس"
+
+#: templates/public/_footer.html:73
+msgid "UAE"
+msgstr "الإمارات"
+
+#: templates/public/_footer.html:82
 msgid "Help"
 msgstr "مساعدة"
 
-#: templates/public/_footer.html:19 templates/public/about.html:6
+#: templates/public/_footer.html:86 templates/public/about.html:6
 msgid "About Us"
 msgstr "تعرف علينا"
 
-#: templates/public/_footer.html:31
+#: templates/public/_footer.html:98
 msgid "Sitemap"
 msgstr "خريطة الموقع"
 
-#: templates/public/_footer.html:35
+#: templates/public/_footer.html:108
 #, python-format
 msgid ", %(BRAND_NAME)s, All Rights Reserved."
 msgstr ", %(BRAND_NAME)s, جميع الحقوق محفوظة."
