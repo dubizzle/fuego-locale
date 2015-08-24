@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-16 10:34+0400\n"
+"POT-Creation-Date: 2015-08-24 14:12+0400\n"
 "PO-Revision-Date: 2015-01-18 14:43+0200\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
@@ -222,7 +222,7 @@ msgstr "يلا، جرب وبيع."
 #: country_templates/shared_landing.html:155
 #: country_templates/shared_landing.html:160
 #: country_templates/egypt/public/landing.html:35
-#: country_templates/egypt/public/landing.html:40 templates/base.html:169
+#: country_templates/egypt/public/landing.html:40 templates/base.html:154
 #: templates/generic.html:96 templates/generic.html.py:103
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
@@ -292,101 +292,98 @@ msgstr "مستلزمات رياضة"
 msgid "So much more."
 msgstr "أقسام أكثر"
 
-#: fuego/base_settings.py:572 fuego/management/commands/email_alerts.py:506
+#: fuego/base_settings.py:578 fuego/management/commands/email_alerts.py:506
 #: fuego/management/commands/saved_search_alerts.py:503
 #: search/search_utils.py:107
-msgid "All of dubizzle"
-msgstr "الموقع بالكامل"
+#, fuzzy, python-format
+msgid "All of %s"
+msgstr "كل"
 
-#: fuego/base_settings.py:576
-msgid "OLX dubizzle"
-msgstr "اوليكس دوبيزل"
-
-#: fuego/base_settings.py:640
+#: fuego/base_settings.py:642
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:673 fuego/base_settings.py:1169
+#: fuego/base_settings.py:675 fuego/base_settings.py:1171
 msgid "Spam"
 msgstr "إعلان مزعج"
 
-#: fuego/base_settings.py:674
+#: fuego/base_settings.py:676
 msgid "Scam/Fraud"
 msgstr "سمنود"
 
-#: fuego/base_settings.py:675 fuego/base_settings.py:1164
+#: fuego/base_settings.py:677 fuego/base_settings.py:1166
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:676 fuego/base_settings.py:1166
+#: fuego/base_settings.py:678 fuego/base_settings.py:1168
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:677
+#: fuego/base_settings.py:679
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:678
+#: fuego/base_settings.py:680
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:679 fuego/base_settings.py:1167
+#: fuego/base_settings.py:681 fuego/base_settings.py:1169
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:680
+#: fuego/base_settings.py:682
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:681
+#: fuego/base_settings.py:683
 msgid "No Category"
 msgstr "القسم؟"
 
-#: fuego/base_settings.py:709
+#: fuego/base_settings.py:711
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في القسم غير الصحيحة"
 
-#: fuego/base_settings.py:710
+#: fuego/base_settings.py:712
 msgid "Your ad is misleading"
 msgstr "حاجة ببلاش كده"
 
-#: fuego/base_settings.py:790
+#: fuego/base_settings.py:792
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:986
+#: fuego/base_settings.py:988
 msgid "Date: newest"
 msgstr "بحسب التاريخ: الأحدث"
 
-#: fuego/base_settings.py:987
+#: fuego/base_settings.py:989
 msgid "Date: oldest"
 msgstr "بحسب التاريخ: الأقدم"
 
-#: fuego/base_settings.py:991
+#: fuego/base_settings.py:993
 msgid "Price: highest"
 msgstr "بحسب السعر: الأعلى"
 
-#: fuego/base_settings.py:992
+#: fuego/base_settings.py:994
 msgid "Price: lowest"
 msgstr "بحسب السعر: الأدنى"
 
-#: fuego/base_settings.py:1153
+#: fuego/base_settings.py:1155
 msgid "#dubizzle"
 msgstr "#دوبيزل"
 
-#: fuego/base_settings.py:1159
+#: fuego/base_settings.py:1161
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:1161
+#: fuego/base_settings.py:1163
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:1165
+#: fuego/base_settings.py:1167
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:1168
+#: fuego/base_settings.py:1170
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
@@ -3270,44 +3267,17 @@ msgstr ""
 msgid "Website under maintenance (500)"
 msgstr "الموقع تحت الصيانة"
 
-#: templates/base.html:103
-msgid "dubizzle is now an OLX company, bringing you the best of both worlds"
-msgstr "دوبيزل الآن هو إحدى شركات أوليكس. يعني أنك ستتمتع بأفضل المزايا من عالم دوبيزل وعالم أوليكس."
+#: templates/base.html:114
+#, fuzzy
+msgid "Download the free OLX dubizzle App"
+msgstr "معلومات \"في السريع\" علشان تبقى صاحي ومدقدق"
 
-#: templates/base.html:109
-msgid "Happy Eid"
-msgstr "عيد سعيد"
-
-#: templates/base.html:113
-msgid "Ramadan Kareem"
-msgstr "رمضان كريم"
-
-#: templates/base.html:119
-msgid "Ramadan"
-msgstr "رمضان"
-
-#: templates/base.html:120
-msgid "Iftar"
-msgstr "افطار"
-
-#: templates/base.html:120
-msgid "pm"
-msgstr "مساءً"
-
-#: templates/base.html:121
-msgid "Imsak"
-msgstr "امساك"
-
-#: templates/base.html:121
-msgid "am"
-msgstr "صباحاً"
-
-#: templates/base.html:161
+#: templates/base.html:146
 msgid "Menu"
 msgstr "القائمة"
 
 # not too clear
-#: templates/base.html:176
+#: templates/base.html:161
 msgid "My account"
 msgstr "الحساب"
 
@@ -4835,6 +4805,36 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
+
+#~ msgid "All of dubizzle"
+#~ msgstr "الموقع بالكامل"
+
+#~ msgid "OLX dubizzle"
+#~ msgstr "اوليكس دوبيزل"
+
+#~ msgid "dubizzle is now an OLX company, bringing you the best of both worlds"
+#~ msgstr "دوبيزل الآن هو إحدى شركات أوليكس. يعني أنك ستتمتع بأفضل المزايا من عالم دوبيزل وعالم أوليكس."
+
+#~ msgid "Happy Eid"
+#~ msgstr "عيد سعيد"
+
+#~ msgid "Ramadan Kareem"
+#~ msgstr "رمضان كريم"
+
+#~ msgid "Ramadan"
+#~ msgstr "رمضان"
+
+#~ msgid "Iftar"
+#~ msgstr "افطار"
+
+#~ msgid "pm"
+#~ msgstr "مساءً"
+
+#~ msgid "Imsak"
+#~ msgstr "امساك"
+
+#~ msgid "am"
+#~ msgstr "صباحاً"
 
 #~ msgid "All of dubizzle OLX"
 #~ msgstr "الموقع بالكامل"
