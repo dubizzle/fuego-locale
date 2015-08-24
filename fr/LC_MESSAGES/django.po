@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-24 14:13+0400\n"
+"POT-Creation-Date: 2015-08-24 17:17+0400\n"
 "PO-Revision-Date: 2014-08-05 15:00+0400\n"
 "Language-Team: French <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr/>\n"
 "Language: fr\n"
@@ -774,98 +774,100 @@ msgstr "OLX dubizzle est votre premier site de petites annonces gratuites en Alg
 msgid "OLX dubizzle Algeria, free classifieds, online classifieds, Algeria classifieds, free classifieds in Algeria"
 msgstr "OLX dubizzle Algerie, petites annonces gratuites, petites annonces en ligne, Algerie petites annonces, petites annonces en Algerie"
 
-#: fuego/base_settings.py:578 fuego/management/commands/email_alerts.py:506
-#: fuego/management/commands/saved_search_alerts.py:503
-#: search/search_utils.py:107
-#, fuzzy, python-format
-msgid "All of %s"
-msgstr "Tout - %(city)s"
+#: fuego/base_settings.py:572 templates/search/widget.html:27
+#: templates/search/widget.html.py:44
+msgid "All of OLX dubizzle"
+msgstr "Tout sur OLX dubizzle"
 
-#: fuego/base_settings.py:642
+#: fuego/base_settings.py:576
+msgid "OLX dubizzle"
+msgstr "OLX dubizzle"
+
+#: fuego/base_settings.py:640
 msgid "m&sup2;"
 msgstr "m&sup2;"
 
-#: fuego/base_settings.py:675 fuego/base_settings.py:1171
+#: fuego/base_settings.py:673 fuego/base_settings.py:1169
 msgid "Spam"
 msgstr "Indésirable"
 
-#: fuego/base_settings.py:676
+#: fuego/base_settings.py:674
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:677 fuego/base_settings.py:1166
+#: fuego/base_settings.py:675 fuego/base_settings.py:1164
 msgid "Miscategorized"
 msgstr "Mauvaise catégorie"
 
-#: fuego/base_settings.py:678 fuego/base_settings.py:1168
+#: fuego/base_settings.py:676 fuego/base_settings.py:1166
 msgid "Repetitive"
 msgstr "Répétée"
 
-#: fuego/base_settings.py:679
+#: fuego/base_settings.py:677
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:680
+#: fuego/base_settings.py:678
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:681 fuego/base_settings.py:1169
+#: fuego/base_settings.py:679 fuego/base_settings.py:1167
 msgid "Misleading"
 msgstr "Trompeuse"
 
-#: fuego/base_settings.py:682
+#: fuego/base_settings.py:680
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:683
+#: fuego/base_settings.py:681
 msgid "No Category"
 msgstr "Catégorie"
 
-#: fuego/base_settings.py:711
+#: fuego/base_settings.py:709
 msgid "You have chosen the wrong category."
 msgstr "Votre annonce a été placé dans la mauvaise catégorie"
 
-#: fuego/base_settings.py:712
+#: fuego/base_settings.py:710
 msgid "Your ad is misleading"
 msgstr "Votre annonce est GRATUITE"
 
-#: fuego/base_settings.py:792
+#: fuego/base_settings.py:790
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: fuego/base_settings.py:988
+#: fuego/base_settings.py:986
 msgid "Date: newest"
 msgstr "Date: plus recente"
 
-#: fuego/base_settings.py:989
+#: fuego/base_settings.py:987
 msgid "Date: oldest"
 msgstr "Date: moins recente"
 
-#: fuego/base_settings.py:993
+#: fuego/base_settings.py:991
 msgid "Price: highest"
 msgstr "Prix: plus cher"
 
-#: fuego/base_settings.py:994
+#: fuego/base_settings.py:992
 msgid "Price: lowest"
 msgstr "Prix: moins cher"
 
-#: fuego/base_settings.py:1155
+#: fuego/base_settings.py:1153
 msgid "#dubizzle"
 msgstr "dubizzle démarré"
 
-#: fuego/base_settings.py:1161
+#: fuego/base_settings.py:1159
 msgid "Other"
 msgstr "Autre"
 
-#: fuego/base_settings.py:1163
+#: fuego/base_settings.py:1161
 msgid "Please select"
 msgstr "Choisissez votre raison"
 
-#: fuego/base_settings.py:1167
+#: fuego/base_settings.py:1165
 msgid "Offensive"
 msgstr "Offensive"
 
-#: fuego/base_settings.py:1170
+#: fuego/base_settings.py:1168
 msgid "Possible fraud"
 msgstr "Possible fraude"
 
@@ -3550,10 +3552,6 @@ msgstr[1] ""
 msgid "Edit filters"
 msgstr "Modifier les filtres"
 
-#: templates/search/widget.html:27 templates/search/widget.html.py:44
-msgid "All of OLX dubizzle"
-msgstr "Tout sur OLX dubizzle"
-
 #: templates/search/widget.html:71
 msgid "No results..."
 msgstr "Aucun résultat..."
@@ -3875,11 +3873,12 @@ msgstr "Votre annonce avait impropre photo."
 msgid "Add some suitable photos."
 msgstr "Ajouter quelques photos appropriés."
 
+#, fuzzy
+#~ msgid "All of %s"
+#~ msgstr "Tout - %(city)s"
+
 #~ msgid "All of dubizzle"
 #~ msgstr "Tout sur dubizzle"
-
-#~ msgid "OLX dubizzle"
-#~ msgstr "OLX dubizzle"
 
 #~ msgid "dubizzle is now an OLX company, bringing you the best of both worlds"
 #~ msgstr "dubizzle fait maintenant parti du groupe OLX"
