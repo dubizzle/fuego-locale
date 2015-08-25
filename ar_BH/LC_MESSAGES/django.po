@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-24 17:16+0400\n"
+"POT-Creation-Date: 2015-08-25 18:54+0400\n"
 "PO-Revision-Date: 2014-06-10 15:35+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Bahraini <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_BH/>\n"
@@ -220,7 +220,7 @@ msgstr "يلا، جرب وبيع."
 #: country_templates/shared_landing.html:155
 #: country_templates/shared_landing.html:160
 #: country_templates/bahrain/public/landing.html:47
-#: country_templates/bahrain/public/landing.html:52 templates/base.html:154
+#: country_templates/bahrain/public/landing.html:52 templates/base.html:169
 #: templates/generic.html:96 templates/generic.html.py:103
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
@@ -541,100 +541,98 @@ msgstr "اوليكس دوبيزل هو خيارك الأول للاعلانات 
 msgid "OLX dubizzle Bahrain, free classifieds, online classifieds, Bahrain classifieds, free classifieds in Bahrain"
 msgstr "اوليكس دوبيزل بحرين، مبوبة مجانيه، اعلانات مبوبة عبر الإنترنت، مبوبة البحرين، اعلانات مبوبة مجانيه في بحرين"
 
-#: fuego/base_settings.py:572 templates/search/widget.html:27
-#: templates/search/widget.html.py:44
-msgid "All of OLX dubizzle"
-msgstr "الموقع بالكامل"
+#: fuego/base_settings.py:578 fuego/management/commands/email_alerts.py:506
+#: fuego/management/commands/saved_search_alerts.py:503
+#: search/search_utils.py:107
+#, fuzzy, python-format
+msgid "All of %s"
+msgstr "كل"
 
-#: fuego/base_settings.py:576
-msgid "OLX dubizzle"
-msgstr "اوليكس دوبيزل"
-
-#: fuego/base_settings.py:640
+#: fuego/base_settings.py:642
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:673 fuego/base_settings.py:1169
+#: fuego/base_settings.py:675 fuego/base_settings.py:1171
 msgid "Spam"
 msgstr "إعلان مزعج"
 
-#: fuego/base_settings.py:674
+#: fuego/base_settings.py:676
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:675 fuego/base_settings.py:1164
+#: fuego/base_settings.py:677 fuego/base_settings.py:1166
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:676 fuego/base_settings.py:1166
+#: fuego/base_settings.py:678 fuego/base_settings.py:1168
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:677
+#: fuego/base_settings.py:679
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:678
+#: fuego/base_settings.py:680
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:679 fuego/base_settings.py:1167
+#: fuego/base_settings.py:681 fuego/base_settings.py:1169
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:680
+#: fuego/base_settings.py:682
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:681
+#: fuego/base_settings.py:683
 msgid "No Category"
 msgstr "القسم؟"
 
-#: fuego/base_settings.py:709
+#: fuego/base_settings.py:711
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في القسم غير الصحيحة"
 
-#: fuego/base_settings.py:710
+#: fuego/base_settings.py:712
 msgid "Your ad is misleading"
 msgstr "مجانا وبدون أي رسوم"
 
-#: fuego/base_settings.py:790
+#: fuego/base_settings.py:792
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:986
+#: fuego/base_settings.py:988
 msgid "Date: newest"
 msgstr "بحسب التاريخ: الأحدث"
 
-#: fuego/base_settings.py:987
+#: fuego/base_settings.py:989
 msgid "Date: oldest"
 msgstr "بحسب التاريخ: الأقدم"
 
-#: fuego/base_settings.py:991
+#: fuego/base_settings.py:993
 msgid "Price: highest"
 msgstr "بحسب السعر: الأعلى"
 
-#: fuego/base_settings.py:992
+#: fuego/base_settings.py:994
 msgid "Price: lowest"
 msgstr "بحسب السعر: الأدنى"
 
-#: fuego/base_settings.py:1153
+#: fuego/base_settings.py:1155
 msgid "#dubizzle"
 msgstr "#دوبيزل"
 
-#: fuego/base_settings.py:1159
+#: fuego/base_settings.py:1161
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:1161
+#: fuego/base_settings.py:1163
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:1165
+#: fuego/base_settings.py:1167
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:1168
+#: fuego/base_settings.py:1170
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
@@ -1846,21 +1844,48 @@ msgstr ""
 msgid "Website under maintenance (500)"
 msgstr "الموقع تحت الصيانة"
 
-#: templates/base.html:114
-msgid "Download the free OLX dubizzle App"
-msgstr "حمل تطبيق دوبيزل اوليكس الجديد"
+#: templates/base.html:103
+msgid "dubizzle is now an OLX company, bringing you the best of both worlds"
+msgstr "دوبيزل الآن هو إحدى شركات أوليكس. يعني أنك ستتمتع بأفضل المزايا من عالم دوبيزل وعالم أوليكس."
 
-#: templates/base.html:146
+#: templates/base.html:109
+msgid "Happy Eid"
+msgstr "عيد سعيد"
+
+#: templates/base.html:113
+msgid "Ramadan Kareem"
+msgstr "رمضان كريم"
+
+#: templates/base.html:119
+msgid "Ramadan"
+msgstr "رمضان"
+
+#: templates/base.html:120
+msgid "Iftar"
+msgstr "افطار"
+
+#: templates/base.html:120
+msgid "pm"
+msgstr "مساءً"
+
+#: templates/base.html:121
+msgid "Imsak"
+msgstr "امساك"
+
+#: templates/base.html:121
+msgid "am"
+msgstr "صباحاً"
+
+#: templates/base.html:161
 msgid "Menu"
 msgstr "القائمة"
 
 # not too clear
-#: templates/base.html:161
+#: templates/base.html:176
 msgid "My account"
 msgstr "الحساب"
 
-#: templates/base_privacy.html:12 templates/terms_ar.html:178
-#: templates/public/_footer.html:94
+#: templates/base_privacy.html:12 templates/public/_footer.html:94
 msgid "Privacy Policy"
 msgstr "سياسة الخصوصية"
 
@@ -1869,14 +1894,12 @@ msgid "Terms of Use"
 msgstr "شروط الاستخدام"
 
 #: templates/base_terms.html:16
-msgid ""
-"\n"
-"        THIS IS A LEGAL AGREEMENT BETWEEN YOU AND DUBIZZLE.COM STATING THE TERMS THAT GOVERN YOUR USE OF THE WEBSITE. BY ACCESSING AND USING THE WEBSITE YOU AGREE TO THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS DO NOT USE THE WEBSITE. YOU MUST ACCEPT AND ABIDE BY THESE TERMS AS PRESENTED TO YOU: CHANGES, ADDITIONS OR DELETIONS ARE NOT ACCEPTABLE AND DUBIZZLE MAY REFUSE ACCESS TO THE WEBSITE FOR NONCOMPLIANCE WITH ANY OF THE TERMS OF THIS AGREEMENT\n"
-"    "
-msgstr ""
-"\n"
-"تبين هذه الإتفاقية القانونية بينك وبين موقع dubizzle.com (والمشار إليه لاحقاً بإسم: الموقع) شروط استخدامك الموقع. بمجرد دخولك إلى الموقع واستخدامك إياه، تكون قد قبلت ضمناً بشروط الاستخدام هذه ووافقت على الالتزام بها، أما في حال عدم موافقتك على شروط الموقع، يرجى الخروج منه وعدم استخدامه. يجب عليك الموافقة والخضوع لشروط الاستخدام المذكورة، ولا يقبل موقع دوبيزل حق الاعتراض على أي تغيير، إضافات، أو حذف، ويملك حرية التصرف في منعك من دخول الموقع في حال عدم الاخلال بأي شرط من الشروط المذكورة في الاتفاقية. \n"
-"    "
+msgid "<b>THESE TERMS OF USE WERE UPDATED ON AUGUST 30, 2015</b><br/><br/>"
+msgstr "<b>تم تحديث شروط الاستخدام هذه بتاريخ 30 أغسطس 2015</b>"
+
+#: templates/base_terms.html:17
+msgid "<b>PLEASE CAREFULLY READ THESE TERMS OF USE. BY USING THIS WEBSITE YOU INDICATE YOUR UNDERSTANDING AND ACCEPTANCE OF THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS YOU MAY NOT USE THIS WEBSITE.</b>"
+msgstr "<b>يرجى قراءة شروط الاستخدام هذه بعناية، وباستخدامك لهذا الموقع الالكتروني فأنت تعلن فهمك وقبولك لهذه الشروط. وإذا لم توافق على هذه الشروط، لا يجوز لك استخدام هذا الموقع.</b>"
 
 #: templates/generic.html:27
 #, python-format
@@ -2745,13 +2768,57 @@ msgstr "%(BRAND_NAME)s ساعدني ابيع موبايلي. العملية كا
 msgid "I sold my unused laptop on %(BRAND_NAME)s! It's easy money for the things you don't use anymore!"
 msgstr "بعت اللابتوب بتاعي على %(BRAND_NAME)s. عملت فلوس بسهوله من حاجات أنامكُنتش بستخدمها"
 
+#: templates/public/about.html:15
+msgid "About OLX"
+msgstr "حول أوليكس"
+
 #: templates/public/about.html:16
-msgid "dubizzle.com is the leading classifieds website for users in the Middle East and North Africa. Since its launch in 2005, dubizzle.com has become the number one platform for users to buy, sell, or find anything in their community. A community where underused goods are redistributed to fill a new need, and become wanted again, where non- product assets such as space, skills and money are exchanged and traded in new ways that don’t always require centralized institutions or ‘middlemen’. dubizzle.com is headquartered in the UAE, and is also available in Algeria, Bahrain, Egypt, Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi Arabia and Tunisia."
-msgstr "dubizzle.com هو موقع إلكتروني رائد للإعلانات المبوبة ومجاني للمستخدمين في الشرق الأوسط وشمال أفريقيا. منذ إطلاقه في عام 2005، أصبح موقع دوبيزل البوابة الأولى للمستخدمين للشراء أو البيع أو لإيجاد أي شيء في مجتمعهم. تتجلى رؤية دوبيزل في تكوين مجتمع يقوم على توزيع الأشياء التي لا يستخدمها لكي تلعب دوراً مفيداً لدى أشخاص بحاجة فعلية إليها. يساهم دوبيزل في بناء بيئة لا تتعلق بالمُنتج وتمنح الجمهور أساليب جديدة تُمكنهم من تبادل المكان والكفاءة والقيمة المادية دون الحاجة إلى وسيط تجاري والتعامل وجهاً لوجه مع بعض. تُعتبر الإمارات العربية المتحدة، دبي المقر الرئيسي لموقع دوبيزل، ويتواجد كذلك في الأردن والبحرين وتونس والجزائر وسلطنة عمان وقطر والكويت ولبنان ومصر والمملكة العربية السعودية."
+msgid "OLX is the world’s leading classifieds platform focused on emerging markets, both mobile and online."
+msgstr "تُعتبر أوليكس المنصة الرائدة عالمياً للإعلانات المبوبة عبر الإنترنت والهواتف المتحركة  في الأسواق متسارعة النمو."
+
+#: templates/public/about.html:17
+msgid "OLX operates globally and is present in more than 50 countries."
+msgstr "تُقدم أوليكس خدماتها العالمية على نطاق ما يفوق الـ 50 بلد."
+
+#: templates/public/about.html:19
+msgid "Mission"
+msgstr "الرسالة"
 
 #: templates/public/about.html:20
-msgid "dubizzle is an OLX company: OLX is the world's leading classifieds brand. The OLX network of companies operates in more than 40 growth markets in Asia, Africa, Middle East, Latin America and Europe. Worldwide we get more than 200 million unique visitors monthly generating more than 360 million page views per day."
-msgstr "موقع دوبيزل هو إحدى شركات أوليكس \"OLX\": تُعتبر أوليكس العلامة الرائدة عالمياً في عالم الإعلانات المبوبة، وتضم شبكة من الشركات العالمية في أكثر من 40 سوق عالمية في آسيا وافريقيا والشرق الأوسط وأمريكا اللاتينية إضافة إلى أوروبا. تحظى أوليكس عالمياً بما يفوق الـ 200 مليون زيارة فردية شهرياً، وأكثر من 360 مليون مشاهدة يومية على مستوى العالم."
+msgid "We improve people’s lives by bringing them together for a win-win exchange."
+msgstr "نساهم في تحسين حياة الناس عبر منحهم منصة لتبادل السلع والخدمات ضمن صفقات تُرضي الطرفين ووفقاً لمبدأ 'فيد واستفيد'. "
+
+#: templates/public/about.html:23
+msgid "Presence"
+msgstr "أوليكس حول العالم"
+
+#: templates/public/about.html:26
+msgid "Stats"
+msgstr "إحصائيات وحقائق"
+
+#: templates/public/about.html:32
+msgid "Countries"
+msgstr "عدد الدول"
+
+#: templates/public/about.html:33
+msgid "Languages"
+msgstr "اللغات"
+
+#: templates/public/about.html:49
+msgid "Monthly active users"
+msgstr "عدد المستخدمين شهرياً"
+
+#: templates/public/about.html:50
+msgid "Employees"
+msgstr "عدد الموظفين"
+
+#: templates/public/about.html:65
+msgid "New monthly listings"
+msgstr "الإعلانات المنشورة شهرياً"
+
+#: templates/public/about.html:66
+msgid "Monthly transactions"
+msgstr "عدد صفقات التبادل الشهرية"
 
 #: templates/public/home.html:22
 #, python-format
@@ -2886,6 +2953,10 @@ msgstr[5] ""
 #: templates/search/search.html:117
 msgid "Edit filters"
 msgstr "تصفية البحث"
+
+#: templates/search/widget.html:27 templates/search/widget.html.py:44
+msgid "All of OLX dubizzle"
+msgstr "الموقع بالكامل"
 
 #: templates/search/widget.html:71
 msgid "No results..."
@@ -3344,36 +3415,29 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
 
-#, fuzzy
-#~ msgid "All of %s"
-#~ msgstr "كل"
+#~ msgid "OLX dubizzle"
+#~ msgstr "اوليكس دوبيزل"
+
+#~ msgid "Download the free OLX dubizzle App"
+#~ msgstr "حمل تطبيق دوبيزل اوليكس الجديد"
+
+#~ msgid ""
+#~ "\n"
+#~ "        THIS IS A LEGAL AGREEMENT BETWEEN YOU AND DUBIZZLE.COM STATING THE TERMS THAT GOVERN YOUR USE OF THE WEBSITE. BY ACCESSING AND USING THE WEBSITE YOU AGREE TO THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS DO NOT USE THE WEBSITE. YOU MUST ACCEPT AND ABIDE BY THESE TERMS AS PRESENTED TO YOU: CHANGES, ADDITIONS OR DELETIONS ARE NOT ACCEPTABLE AND DUBIZZLE MAY REFUSE ACCESS TO THE WEBSITE FOR NONCOMPLIANCE WITH ANY OF THE TERMS OF THIS AGREEMENT\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "تبين هذه الإتفاقية القانونية بينك وبين موقع dubizzle.com (والمشار إليه لاحقاً بإسم: الموقع) شروط استخدامك الموقع. بمجرد دخولك إلى الموقع واستخدامك إياه، تكون قد قبلت ضمناً بشروط الاستخدام هذه ووافقت على الالتزام بها، أما في حال عدم موافقتك على شروط الموقع، يرجى الخروج منه وعدم استخدامه. يجب عليك الموافقة والخضوع لشروط الاستخدام المذكورة، ولا يقبل موقع دوبيزل حق الاعتراض على أي تغيير، إضافات، أو حذف، ويملك حرية التصرف في منعك من دخول الموقع في حال عدم الاخلال بأي شرط من الشروط المذكورة في الاتفاقية. \n"
+#~ "    "
+
+#~ msgid "dubizzle.com is the leading classifieds website for users in the Middle East and North Africa. Since its launch in 2005, dubizzle.com has become the number one platform for users to buy, sell, or find anything in their community. A community where underused goods are redistributed to fill a new need, and become wanted again, where non- product assets such as space, skills and money are exchanged and traded in new ways that don’t always require centralized institutions or ‘middlemen’. dubizzle.com is headquartered in the UAE, and is also available in Algeria, Bahrain, Egypt, Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi Arabia and Tunisia."
+#~ msgstr "dubizzle.com هو موقع إلكتروني رائد للإعلانات المبوبة ومجاني للمستخدمين في الشرق الأوسط وشمال أفريقيا. منذ إطلاقه في عام 2005، أصبح موقع دوبيزل البوابة الأولى للمستخدمين للشراء أو البيع أو لإيجاد أي شيء في مجتمعهم. تتجلى رؤية دوبيزل في تكوين مجتمع يقوم على توزيع الأشياء التي لا يستخدمها لكي تلعب دوراً مفيداً لدى أشخاص بحاجة فعلية إليها. يساهم دوبيزل في بناء بيئة لا تتعلق بالمُنتج وتمنح الجمهور أساليب جديدة تُمكنهم من تبادل المكان والكفاءة والقيمة المادية دون الحاجة إلى وسيط تجاري والتعامل وجهاً لوجه مع بعض. تُعتبر الإمارات العربية المتحدة، دبي المقر الرئيسي لموقع دوبيزل، ويتواجد كذلك في الأردن والبحرين وتونس والجزائر وسلطنة عمان وقطر والكويت ولبنان ومصر والمملكة العربية السعودية."
+
+#~ msgid "dubizzle is an OLX company: OLX is the world's leading classifieds brand. The OLX network of companies operates in more than 40 growth markets in Asia, Africa, Middle East, Latin America and Europe. Worldwide we get more than 200 million unique visitors monthly generating more than 360 million page views per day."
+#~ msgstr "موقع دوبيزل هو إحدى شركات أوليكس \"OLX\": تُعتبر أوليكس العلامة الرائدة عالمياً في عالم الإعلانات المبوبة، وتضم شبكة من الشركات العالمية في أكثر من 40 سوق عالمية في آسيا وافريقيا والشرق الأوسط وأمريكا اللاتينية إضافة إلى أوروبا. تحظى أوليكس عالمياً بما يفوق الـ 200 مليون زيارة فردية شهرياً، وأكثر من 360 مليون مشاهدة يومية على مستوى العالم."
 
 #~ msgid "All of dubizzle"
 #~ msgstr "الموقع بالكامل"
-
-#~ msgid "dubizzle is now an OLX company, bringing you the best of both worlds"
-#~ msgstr "دوبيزل الآن هو إحدى شركات أوليكس. يعني أنك ستتمتع بأفضل المزايا من عالم دوبيزل وعالم أوليكس."
-
-#~ msgid "Happy Eid"
-#~ msgstr "عيد سعيد"
-
-#~ msgid "Ramadan Kareem"
-#~ msgstr "رمضان كريم"
-
-#~ msgid "Ramadan"
-#~ msgstr "رمضان"
-
-#~ msgid "Iftar"
-#~ msgstr "افطار"
-
-#~ msgid "pm"
-#~ msgstr "مساءً"
-
-#~ msgid "Imsak"
-#~ msgstr "امساك"
-
-#~ msgid "am"
-#~ msgstr "صباحاً"
 
 #~ msgid "All of dubizzle OLX"
 #~ msgstr "الموقع بالكامل"
