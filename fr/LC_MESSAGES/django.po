@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-25 18:55+0400\n"
+"POT-Creation-Date: 2015-08-26 18:05+0400\n"
 "PO-Revision-Date: 2014-08-05 15:00+0400\n"
 "Language-Team: French <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr/>\n"
 "Language: fr\n"
@@ -213,14 +213,14 @@ msgid "Yalla try it."
 msgstr "Allez-y, essayez."
 
 #: country_templates/shared_landing.html:155
-#: country_templates/shared_landing.html:160 templates/base.html:169
+#: country_templates/shared_landing.html:160 templates/base.html:143
 #: templates/generic.html:96 templates/generic.html.py:103
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
 msgid "Place an ad"
 msgstr "Passer une annonce"
 
-#: fuego/algerie_settings.py:33 templates/public/_footer.html:63
+#: fuego/algerie_settings.py:33 fuego/shared_settings.py:94
 msgid "Algeria"
 msgstr "Algérie"
 
@@ -774,12 +774,14 @@ msgstr "OLX dubizzle est votre premier site de petites annonces gratuites en Alg
 msgid "OLX dubizzle Algeria, free classifieds, online classifieds, Algeria classifieds, free classifieds in Algeria"
 msgstr "OLX dubizzle Algerie, petites annonces gratuites, petites annonces en ligne, Algerie petites annonces, petites annonces en Algerie"
 
-#: fuego/base_settings.py:578 fuego/management/commands/email_alerts.py:506
-#: fuego/management/commands/saved_search_alerts.py:503
-#: search/search_utils.py:107
-#, fuzzy, python-format
-msgid "All of %s"
-msgstr "Tout - %(city)s"
+#: fuego/base_settings.py:574 templates/search/widget.html:27
+#: templates/search/widget.html.py:44
+msgid "All of OLX dubizzle"
+msgstr "Tout sur OLX dubizzle"
+
+#: fuego/base_settings.py:578
+msgid "OLX dubizzle"
+msgstr "OLX dubizzle"
 
 #: fuego/base_settings.py:642
 msgid "m&sup2;"
@@ -1581,7 +1583,39 @@ msgstr "Petites Annonces Gratuites à %(full_location)s | %(BRAND_NAME)s"
 msgid "%(BRAND_NAME)s is your free local classifieds website in %(full_location)s. Post ads & browse for real estate, cars, jobs and classifieds in %(country)s."
 msgstr "%(BRAND_NAME)s est votre premier site de petites annonces gratuites à %(full_location)s. Trouvez un emploi, Immobilier, Voitures Occasion et Articles à Vendre à %(country)s. Passez une annonce, achetez et vendez."
 
-#: fuego/tunisie_settings.py:33 templates/public/_footer.html:68
+#: fuego/shared_settings.py:59
+msgid "Bahrain"
+msgstr ""
+
+#: fuego/shared_settings.py:64
+msgid "Jordan"
+msgstr ""
+
+#: fuego/shared_settings.py:69
+msgid "Saudi"
+msgstr ""
+
+#: fuego/shared_settings.py:74
+msgid "Egypt"
+msgstr ""
+
+#: fuego/shared_settings.py:79
+msgid "Qatar"
+msgstr ""
+
+#: fuego/shared_settings.py:84
+msgid "Oman"
+msgstr ""
+
+#: fuego/shared_settings.py:89
+msgid "Lebanon"
+msgstr ""
+
+#: fuego/shared_settings.py:99
+msgid "Kuwait"
+msgstr ""
+
+#: fuego/shared_settings.py:104 fuego/tunisie_settings.py:33
 msgid "Tunisie"
 msgstr "Tunisie"
 
@@ -2477,61 +2511,32 @@ msgstr "404"
 msgid "Website under maintenance (500)"
 msgstr "Site en maintenance (500)"
 
-#: templates/base.html:103
-msgid "dubizzle is now an OLX company, bringing you the best of both worlds"
-msgstr "dubizzle fait maintenant parti du groupe OLX"
-
-#: templates/base.html:109
-msgid "Happy Eid"
-msgstr ""
-
-#: templates/base.html:113
-msgid "Ramadan Kareem"
-msgstr "Ramadan Kareem"
-
-#: templates/base.html:119
-msgid "Ramadan"
-msgstr "Ramadan"
-
-#: templates/base.html:120
-msgid "Iftar"
-msgstr "Iftar"
-
-#: templates/base.html:120
-msgid "pm"
-msgstr "pm"
-
-#: templates/base.html:121
-msgid "Imsak"
-msgstr "Imsak"
-
-#: templates/base.html:121
-msgid "am"
-msgstr "am"
-
-#: templates/base.html:161
+#: templates/base.html:135
 msgid "Menu"
 msgstr "Menu"
 
-#: templates/base.html:176
+#: templates/base.html:150
 msgid "My account"
 msgstr "Mon compte"
 
-#: templates/base_privacy.html:12 templates/public/_footer.html:94
+#: templates/base_privacy.html:12 templates/terms_ar.html:178
+#: templates/public/_footer.html:51
 msgid "Privacy Policy"
 msgstr "Politique de confidentialité"
 
-#: templates/base_terms.html:12 templates/public/_footer.html:90
+#: templates/base_terms.html:12 templates/public/_footer.html:47
 msgid "Terms of Use"
 msgstr "Conditions d'utilisation"
 
 #: templates/base_terms.html:16
-msgid "<b>THESE TERMS OF USE WERE UPDATED ON AUGUST 30, 2015</b><br/><br/>"
+msgid ""
+"\n"
+"        THIS IS A LEGAL AGREEMENT BETWEEN YOU AND DUBIZZLE.COM STATING THE TERMS THAT GOVERN YOUR USE OF THE WEBSITE. BY ACCESSING AND USING THE WEBSITE YOU AGREE TO THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS DO NOT USE THE WEBSITE. YOU MUST ACCEPT AND ABIDE BY THESE TERMS AS PRESENTED TO YOU: CHANGES, ADDITIONS OR DELETIONS ARE NOT ACCEPTABLE AND DUBIZZLE MAY REFUSE ACCESS TO THE WEBSITE FOR NONCOMPLIANCE WITH ANY OF THE TERMS OF THIS AGREEMENT\n"
+"    "
 msgstr ""
-
-#: templates/base_terms.html:17
-msgid "<b>PLEASE CAREFULLY READ THESE TERMS OF USE. BY USING THIS WEBSITE YOU INDICATE YOUR UNDERSTANDING AND ACCEPTANCE OF THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS YOU MAY NOT USE THIS WEBSITE.</b>"
-msgstr ""
+"\n"
+"CECI EST UN ACCORD JURIDIQUE ENTRE VOUS ET DUBIZZLE.COM PRECISANT LES CONDITIONS QUI REGISSENT VOTRE UTILISATION DU SITE WEB. EN ACCÉDANT ET EN UTILISANT CE SITE WEB VOUS ACCEPTEZ CES CONDITIONS. SI VOUS N'ĘTES PAS D'ACCORD AVEC ELLES N'UTILISEZ PAS LE SITE. VOUS DEVEZ ACCEPTER CES CONDITIONS TELLES QUELLES : LES MODIFICATIONS, AJOUTS OU SUPRESSIONS NE SONT PAS ACCEPTABLES ET DUBIZZLE PEUT REFUSER L'ACCES AU SITE POUR NON CONFORMITE AVEC L'ENSEMBLE DES TERMES DU PRÉSENT CONTRAT.\n"
+"    "
 
 #: templates/generic.html:27
 #, python-format
@@ -2605,6 +2610,11 @@ msgstr "Modifier mot de passe"
 #: templates/generic.html:220 templates/authentication/change_password.html:23
 msgid "Logout"
 msgstr "Déconnexion"
+
+#: templates/generic.html:240
+#, fuzzy
+msgid "Download the free OLX Arabia App"
+msgstr "Télécharger l'application OLX dubizzle gratuitement"
 
 #: templates/authentication/change_password.html:11
 msgid "Change password"
@@ -3256,58 +3266,27 @@ msgid "You have successfully subscribed."
 msgstr ""
 
 #: templates/public/_footer.html:16
-msgid "dubizzle OLX countries"
-msgstr ""
+#, fuzzy
+msgid "OLX dubizzle countries"
+msgstr "OLX dubizzle"
 
-#: templates/public/_footer.html:23
-msgid "Egypt"
-msgstr ""
-
-#: templates/public/_footer.html:28
-msgid "Oman"
-msgstr ""
-
-#: templates/public/_footer.html:33
-msgid "Jordan"
-msgstr ""
-
-#: templates/public/_footer.html:38
-msgid "Saudi"
-msgstr ""
-
-#: templates/public/_footer.html:43
-msgid "Kuwait"
-msgstr ""
-
-#: templates/public/_footer.html:48
-msgid "Bahrain"
-msgstr ""
-
-#: templates/public/_footer.html:53
-msgid "Lebanon"
-msgstr ""
-
-#: templates/public/_footer.html:58
-msgid "Qatar"
-msgstr ""
-
-#: templates/public/_footer.html:73
+#: templates/public/_footer.html:29 templates/public/_footer.html.py:30
 msgid "UAE"
 msgstr ""
 
-#: templates/public/_footer.html:82
+#: templates/public/_footer.html:39
 msgid "Help"
 msgstr "Aide"
 
-#: templates/public/_footer.html:86 templates/public/about.html:6
+#: templates/public/_footer.html:43 templates/public/about.html:6
 msgid "About Us"
 msgstr "A propos de nous"
 
-#: templates/public/_footer.html:98
+#: templates/public/_footer.html:55
 msgid "Sitemap"
 msgstr "Plan du site"
 
-#: templates/public/_footer.html:108
+#: templates/public/_footer.html:65
 #, python-format
 msgid ", %(BRAND_NAME)s, All Rights Reserved."
 msgstr ", %(BRAND_NAME)s, Tous droits réservés."
@@ -3399,57 +3378,13 @@ msgstr ""
 msgid "I sold my unused laptop on %(BRAND_NAME)s! It's easy money for the things you don't use anymore!"
 msgstr ""
 
-#: templates/public/about.html:15
-msgid "About OLX"
-msgstr "A propos d'OLX"
-
 #: templates/public/about.html:16
-msgid "OLX is the world’s leading classifieds platform focused on emerging markets, both mobile and online."
-msgstr "OLX est un champion mondial en terme au plate-forme de petites annonce focalisé au Moyen-Orient ,en portable et en ligne aussi "
-
-#: templates/public/about.html:17
-msgid "OLX operates globally and is present in more than 50 countries."
-msgstr "OLX fonctionne  au niveau mondial et existe  dans plus de 50 pays."
-
-#: templates/public/about.html:19
-msgid "Mission"
-msgstr "Misserghin"
+msgid "dubizzle.com is the leading classifieds website for users in the Middle East and North Africa. Since its launch in 2005, dubizzle.com has become the number one platform for users to buy, sell, or find anything in their community. A community where underused goods are redistributed to fill a new need, and become wanted again, where non- product assets such as space, skills and money are exchanged and traded in new ways that don’t always require centralized institutions or ‘middlemen’. dubizzle.com is headquartered in the UAE, and is also available in Algeria, Bahrain, Egypt, Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi Arabia and Tunisia."
+msgstr ""
 
 #: templates/public/about.html:20
-msgid "We improve people’s lives by bringing them together for a win-win exchange."
-msgstr "Nous perfectionnons la vie des gens de les réunissant pour un échange gagnant-gagnant."
-
-#: templates/public/about.html:23
-msgid "Presence"
-msgstr "Présence"
-
-#: templates/public/about.html:26
-msgid "Stats"
-msgstr "Statistiques"
-
-#: templates/public/about.html:32
-msgid "Countries"
-msgstr "Pays"
-
-#: templates/public/about.html:33
-msgid "Languages"
-msgstr "langues"
-
-#: templates/public/about.html:49
-msgid "Monthly active users"
-msgstr "Actifs utilisateurs mensuels"
-
-#: templates/public/about.html:50
-msgid "Employees"
-msgstr "Employés/ Les employés"
-
-#: templates/public/about.html:65
-msgid "New monthly listings"
-msgstr "Les nouvelles inscriptions mensuelles"
-
-#: templates/public/about.html:66
-msgid "Monthly transactions"
-msgstr "Transactions mensuelles"
+msgid "dubizzle is an OLX company: OLX is the world's leading classifieds brand. The OLX network of companies operates in more than 40 growth markets in Asia, Africa, Middle East, Latin America and Europe. Worldwide we get more than 200 million unique visitors monthly generating more than 360 million page views per day."
+msgstr ""
 
 #: templates/public/home.html:22
 #, python-format
@@ -3618,10 +3553,6 @@ msgstr[1] ""
 #: templates/search/search.html:117
 msgid "Edit filters"
 msgstr "Modifier les filtres"
-
-#: templates/search/widget.html:27 templates/search/widget.html.py:44
-msgid "All of OLX dubizzle"
-msgstr "Tout sur OLX dubizzle"
 
 #: templates/search/widget.html:71
 msgid "No results..."
@@ -3944,20 +3875,69 @@ msgstr "Votre annonce avait impropre photo."
 msgid "Add some suitable photos."
 msgstr "Ajouter quelques photos appropriés."
 
-#~ msgid "OLX dubizzle"
-#~ msgstr "OLX dubizzle"
+#, fuzzy
+#~ msgid "All of %s"
+#~ msgstr "Tout - %(city)s"
 
-#~ msgid "Download the free OLX dubizzle App"
-#~ msgstr "Télécharger l'application OLX dubizzle gratuitement"
+#~ msgid "dubizzle is now an OLX company, bringing you the best of both worlds"
+#~ msgstr "dubizzle fait maintenant parti du groupe OLX"
 
-#~ msgid ""
-#~ "\n"
-#~ "        THIS IS A LEGAL AGREEMENT BETWEEN YOU AND DUBIZZLE.COM STATING THE TERMS THAT GOVERN YOUR USE OF THE WEBSITE. BY ACCESSING AND USING THE WEBSITE YOU AGREE TO THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS DO NOT USE THE WEBSITE. YOU MUST ACCEPT AND ABIDE BY THESE TERMS AS PRESENTED TO YOU: CHANGES, ADDITIONS OR DELETIONS ARE NOT ACCEPTABLE AND DUBIZZLE MAY REFUSE ACCESS TO THE WEBSITE FOR NONCOMPLIANCE WITH ANY OF THE TERMS OF THIS AGREEMENT\n"
-#~ "    "
-#~ msgstr ""
-#~ "\n"
-#~ "CECI EST UN ACCORD JURIDIQUE ENTRE VOUS ET DUBIZZLE.COM PRECISANT LES CONDITIONS QUI REGISSENT VOTRE UTILISATION DU SITE WEB. EN ACCÉDANT ET EN UTILISANT CE SITE WEB VOUS ACCEPTEZ CES CONDITIONS. SI VOUS N'ĘTES PAS D'ACCORD AVEC ELLES N'UTILISEZ PAS LE SITE. VOUS DEVEZ ACCEPTER CES CONDITIONS TELLES QUELLES : LES MODIFICATIONS, AJOUTS OU SUPRESSIONS NE SONT PAS ACCEPTABLES ET DUBIZZLE PEUT REFUSER L'ACCES AU SITE POUR NON CONFORMITE AVEC L'ENSEMBLE DES TERMES DU PRÉSENT CONTRAT.\n"
-#~ "    "
+#~ msgid "Ramadan Kareem"
+#~ msgstr "Ramadan Kareem"
+
+#~ msgid "Ramadan"
+#~ msgstr "Ramadan"
+
+#~ msgid "Iftar"
+#~ msgstr "Iftar"
+
+#~ msgid "pm"
+#~ msgstr "pm"
+
+#~ msgid "Imsak"
+#~ msgstr "Imsak"
+
+#~ msgid "am"
+#~ msgstr "am"
+
+#~ msgid "About OLX"
+#~ msgstr "A propos d'OLX"
+
+#~ msgid "OLX is the world’s leading classifieds platform focused on emerging markets, both mobile and online."
+#~ msgstr "OLX est un champion mondial en terme au plate-forme de petites annonce focalisé au Moyen-Orient ,en portable et en ligne aussi "
+
+#~ msgid "OLX operates globally and is present in more than 50 countries."
+#~ msgstr "OLX fonctionne  au niveau mondial et existe  dans plus de 50 pays."
+
+#~ msgid "Mission"
+#~ msgstr "Misserghin"
+
+#~ msgid "We improve people’s lives by bringing them together for a win-win exchange."
+#~ msgstr "Nous perfectionnons la vie des gens de les réunissant pour un échange gagnant-gagnant."
+
+#~ msgid "Presence"
+#~ msgstr "Présence"
+
+#~ msgid "Stats"
+#~ msgstr "Statistiques"
+
+#~ msgid "Countries"
+#~ msgstr "Pays"
+
+#~ msgid "Languages"
+#~ msgstr "langues"
+
+#~ msgid "Monthly active users"
+#~ msgstr "Actifs utilisateurs mensuels"
+
+#~ msgid "Employees"
+#~ msgstr "Employés/ Les employés"
+
+#~ msgid "New monthly listings"
+#~ msgstr "Les nouvelles inscriptions mensuelles"
+
+#~ msgid "Monthly transactions"
+#~ msgstr "Transactions mensuelles"
 
 #~ msgid "All of dubizzle"
 #~ msgstr "Tout sur dubizzle"
