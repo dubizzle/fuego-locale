@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-27 11:35+0400\n"
+"POT-Creation-Date: 2015-08-27 18:54+0400\n"
 "PO-Revision-Date: 2014-08-05 14:48+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Saudi <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_SA/>\n"
@@ -220,7 +220,7 @@ msgstr "يلا، جرب وبيع."
 #: country_templates/shared_landing.html:155
 #: country_templates/shared_landing.html:160
 #: country_templates/saudi/public/landing.html:60
-#: country_templates/saudi/public/landing.html:65 templates/base.html:143
+#: country_templates/saudi/public/landing.html:65 templates/base.html:145
 #: templates/generic.html:96 templates/generic.html.py:103
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
@@ -287,7 +287,8 @@ msgid "Jazan"
 msgstr "جازان"
 
 #: country_templates/saudi/public/landing.html:24
-msgid "Saudi Arabia's free local online classifieds community on OLX, powered by dubizzle!"
+#: templates/public/landing.html:18
+msgid "Find the best deals from thousands of ads on OLX, powered by dubizzle!"
 msgstr "بيع واشتري أي شيء تتخيله على أوليكس بإدارة دوبيزل"
 
 #: country_templates/saudi/public/landing.html:31
@@ -1583,43 +1584,43 @@ msgstr "وظائف، عقارات، سيارات و إعلانات مبوبة ف
 msgid "OLX dubizzle Saudi Arabia, free classifieds, online classifieds, Saudi Arabia classifieds, free classifieds in Saudi Arabia"
 msgstr "أوليكس دوبيزل السعودية ، مبوبة مجانيه، إعلانات مبوبة عبر الإنترنت، مبوبة السعودية، إعلانات مبوبة مجانيه في السعودية"
 
-#: fuego/shared_settings.py:62
+#: fuego/shared_settings.py:63
 msgid "Bahrain"
 msgstr "البحرين"
 
-#: fuego/shared_settings.py:70
+#: fuego/shared_settings.py:71
 msgid "Jordan"
 msgstr "الأردن"
 
-#: fuego/shared_settings.py:78
+#: fuego/shared_settings.py:79
 msgid "Saudi"
 msgstr "السعودية"
 
-#: fuego/shared_settings.py:86
+#: fuego/shared_settings.py:87
 msgid "Egypt"
 msgstr "مصر"
 
-#: fuego/shared_settings.py:94
+#: fuego/shared_settings.py:95
 msgid "Qatar"
 msgstr "قطر"
 
-#: fuego/shared_settings.py:102
+#: fuego/shared_settings.py:103
 msgid "Oman"
 msgstr "عمان"
 
-#: fuego/shared_settings.py:110
+#: fuego/shared_settings.py:111
 msgid "Lebanon"
 msgstr "لبنان"
 
-#: fuego/shared_settings.py:118
+#: fuego/shared_settings.py:119
 msgid "Algeria"
 msgstr "الجزائر"
 
-#: fuego/shared_settings.py:126
+#: fuego/shared_settings.py:127
 msgid "Kuwait"
 msgstr "الكويت"
 
-#: fuego/shared_settings.py:134
+#: fuego/shared_settings.py:135
 msgid "Tunisie"
 msgstr "تونس"
 
@@ -2119,12 +2120,12 @@ msgstr ""
 msgid "Website under maintenance (500)"
 msgstr "الموقع تحت الصيانة"
 
-#: templates/base.html:135
+#: templates/base.html:137
 msgid "Menu"
 msgstr "القائمة"
 
 # not too clear
-#: templates/base.html:150
+#: templates/base.html:152
 msgid "My account"
 msgstr "الحساب"
 
@@ -3053,10 +3054,6 @@ msgstr ""
 msgid "Load more"
 msgstr "ارني المزيد"
 
-#: templates/public/landing.html:18
-msgid "Find the best deals from thousands of ads on OLX, powered by dubizzle!"
-msgstr "بيع واشتري أي شيء تتخيله على أوليكس بإدارة دوبيزل"
-
 #: templates/public/landing.html:23
 msgid "Selling your items &amp; giving them a new chapter is as easy as 1-2-3"
 msgstr ""
@@ -3625,3 +3622,6 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
+
+#~ msgid "Saudi Arabia's free local online classifieds community on OLX, powered by dubizzle!"
+#~ msgstr "بيع واشتري أي شيء تتخيله على أوليكس بإدارة دوبيزل"
