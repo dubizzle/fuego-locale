@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-27 18:54+0400\n"
+"POT-Creation-Date: 2015-09-06 13:33+0400\n"
 "PO-Revision-Date: 2015-01-11 09:57+0000\n"
 "Last-Translator: Andrea Valdi <andrea@dubizzle.com>\n"
 "Language-Team: Arabic <http://translate.dubizzle.test/projects/fuego/fuego-web/ar_KW/>\n"
@@ -220,14 +220,14 @@ msgstr "يلا، جرب وبيع."
 #: country_templates/shared_landing.html:155
 #: country_templates/shared_landing.html:160
 #: country_templates/kuwait/public/landing.html:47
-#: country_templates/kuwait/public/landing.html:52 templates/base.html:145
+#: country_templates/kuwait/public/landing.html:52 templates/base.html:152
 #: templates/generic.html:96 templates/generic.html.py:103
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
 msgid "Place an ad"
 msgstr "أضف إعلانك"
 
-#: country_templates/kuwait/public/_map.html:80 fuego/kuwait_settings.py:33
+#: country_templates/kuwait/public/_map.html:80 fuego/kuwait_settings.py:35
 #: fuego/shared_settings.py:127
 msgid "Kuwait"
 msgstr "الكويت"
@@ -336,60 +336,60 @@ msgstr "أجهزة وألعاب فيديو"
 msgid "So much more."
 msgstr "أقسام أكثر"
 
-#: fuego/base_settings.py:574 templates/search/widget.html:27
+#: fuego/base_settings.py:572 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of OLX dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:578
+#: fuego/base_settings.py:576
 msgid "OLX dubizzle"
 msgstr "أوليكس دوبيزل"
 
-#: fuego/base_settings.py:642
+#: fuego/base_settings.py:640
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:675 fuego/base_settings.py:1171
+#: fuego/base_settings.py:673 fuego/base_settings.py:1161
 msgid "Spam"
 msgstr "إعلان مزعج"
 
-#: fuego/base_settings.py:676
+#: fuego/base_settings.py:674
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:677 fuego/base_settings.py:1166
+#: fuego/base_settings.py:675 fuego/base_settings.py:1156
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:678 fuego/base_settings.py:1168
+#: fuego/base_settings.py:676 fuego/base_settings.py:1158
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:679
+#: fuego/base_settings.py:677
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:680
+#: fuego/base_settings.py:678
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:681 fuego/base_settings.py:1169
+#: fuego/base_settings.py:679 fuego/base_settings.py:1159
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:682
+#: fuego/base_settings.py:680
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:683
+#: fuego/base_settings.py:681
 msgid "No Category"
 msgstr "القسم؟"
 
-#: fuego/base_settings.py:711
+#: fuego/base_settings.py:709
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في القسم غير الصحيحة"
 
-#: fuego/base_settings.py:712
+#: fuego/base_settings.py:710
 msgid "Your ad is misleading"
 msgstr "مجانا وبدون أي رسوم"
 
@@ -397,39 +397,39 @@ msgstr "مجانا وبدون أي رسوم"
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:988
+#: fuego/base_settings.py:991
 msgid "Date: newest"
 msgstr "بحسب التاريخ: الأحدث"
 
-#: fuego/base_settings.py:989
+#: fuego/base_settings.py:992
 msgid "Date: oldest"
 msgstr "بحسب التاريخ: الأقدم"
 
-#: fuego/base_settings.py:993
+#: fuego/base_settings.py:996
 msgid "Price: highest"
 msgstr "بحسب السعر: الأعلى"
 
-#: fuego/base_settings.py:994
+#: fuego/base_settings.py:997
 msgid "Price: lowest"
 msgstr "بحسب السعر: الأدنى"
 
-#: fuego/base_settings.py:1155
+#: fuego/base_settings.py:1145
 msgid "#dubizzle"
 msgstr "#دوبيزل"
 
-#: fuego/base_settings.py:1161
+#: fuego/base_settings.py:1151
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:1163
+#: fuego/base_settings.py:1153
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:1167
+#: fuego/base_settings.py:1157
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:1170
+#: fuego/base_settings.py:1160
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
@@ -453,494 +453,494 @@ msgstr "النوع"
 msgid "No Of Doors"
 msgstr "عدد الابواب"
 
-#: fuego/kuwait_settings.py:35
+#: fuego/kuwait_settings.py:37
 msgid "KWD"
 msgstr "دينار كويتي"
 
-#: fuego/kuwait_settings.py:47
+#: fuego/kuwait_settings.py:49
 msgid "Kuwait City"
 msgstr "مدينة الكويت"
 
-#: fuego/kuwait_settings.py:80
+#: fuego/kuwait_settings.py:82
 msgid "Dasman"
 msgstr "دسمان"
 
-#: fuego/kuwait_settings.py:85
+#: fuego/kuwait_settings.py:87
 msgid "Al Maqwa"
 msgstr "المقوع"
 
-#: fuego/kuwait_settings.py:90
+#: fuego/kuwait_settings.py:92
 msgid "Bnied Al Qar"
 msgstr "بنيد القار"
 
-#: fuego/kuwait_settings.py:95
+#: fuego/kuwait_settings.py:97
 msgid "Sharq"
 msgstr "الشرق"
 
-#: fuego/kuwait_settings.py:100
+#: fuego/kuwait_settings.py:102
 msgid "Al Bloush"
 msgstr "البلوش"
 
-#: fuego/kuwait_settings.py:105
+#: fuego/kuwait_settings.py:107
 msgid "Al Sawaber"
 msgstr "الصوابر"
 
-#: fuego/kuwait_settings.py:110
+#: fuego/kuwait_settings.py:112
 msgid "Industrial Area"
 msgstr "المنطقة الصناعية"
 
-#: fuego/kuwait_settings.py:115
+#: fuego/kuwait_settings.py:117
 msgid "Al Dasma"
 msgstr "الدسمة"
 
-#: fuego/kuwait_settings.py:120
+#: fuego/kuwait_settings.py:122
 msgid "Al Mansouriya"
 msgstr "المنصورية"
 
-#: fuego/kuwait_settings.py:125
+#: fuego/kuwait_settings.py:127
 msgid "Um Seddah"
 msgstr "ام صدة"
 
-#: fuego/kuwait_settings.py:130
+#: fuego/kuwait_settings.py:132
 msgid "Souq Area"
 msgstr "سوق الديرة"
 
-#: fuego/kuwait_settings.py:135
+#: fuego/kuwait_settings.py:137
 msgid "Qibla"
 msgstr "قبلة"
 
-#: fuego/kuwait_settings.py:140
+#: fuego/kuwait_settings.py:142
 msgid "Al Watiyah"
 msgstr "الوطيه"
 
-#: fuego/kuwait_settings.py:145
+#: fuego/kuwait_settings.py:147
 msgid "Salhiya"
 msgstr "الصالحية"
 
-#: fuego/kuwait_settings.py:150
+#: fuego/kuwait_settings.py:152
 msgid "Al Mirqab"
 msgstr "المرقاب"
 
-#: fuego/kuwait_settings.py:155
+#: fuego/kuwait_settings.py:157
 msgid "Al Dahiya"
 msgstr "الضاحية"
 
-#: fuego/kuwait_settings.py:160
+#: fuego/kuwait_settings.py:162
 msgid "Shamiya"
 msgstr "الشامية"
 
-#: fuego/kuwait_settings.py:165
+#: fuego/kuwait_settings.py:167
 msgid "Shuwaikh Administrative"
 msgstr "شويخ الادارية"
 
-#: fuego/kuwait_settings.py:170
+#: fuego/kuwait_settings.py:172
 msgid "Kaifan"
 msgstr "كيفان"
 
-#: fuego/kuwait_settings.py:175
+#: fuego/kuwait_settings.py:177
 msgid "Faiha"
 msgstr "الفيحاء"
 
-#: fuego/kuwait_settings.py:180
+#: fuego/kuwait_settings.py:182
 msgid "Al Nuzha"
 msgstr "النزهة"
 
-#: fuego/kuwait_settings.py:185
+#: fuego/kuwait_settings.py:187
 msgid "Al Qadsiya"
 msgstr "القادسية"
 
-#: fuego/kuwait_settings.py:190
+#: fuego/kuwait_settings.py:192
 msgid "Al Daiya"
 msgstr "الدعية"
 
-#: fuego/kuwait_settings.py:195
+#: fuego/kuwait_settings.py:197
 msgid "Green Island"
 msgstr "الجزيرة الخضراء"
 
-#: fuego/kuwait_settings.py:200
+#: fuego/kuwait_settings.py:202
 msgid "Sha'ab"
 msgstr "الشعب"
 
-#: fuego/kuwait_settings.py:205
+#: fuego/kuwait_settings.py:207
 msgid "Maidan Hawalli"
 msgstr "ميدان حولي"
 
-#: fuego/kuwait_settings.py:210
+#: fuego/kuwait_settings.py:212
 msgid "Al Rawda"
 msgstr "الروضة"
 
-#: fuego/kuwait_settings.py:215
+#: fuego/kuwait_settings.py:217
 msgid "Al Adailiya"
 msgstr "العديلية"
 
-#: fuego/kuwait_settings.py:220
+#: fuego/kuwait_settings.py:222
 msgid "Al Khaldiya "
 msgstr "الخالدية"
 
-#: fuego/kuwait_settings.py:225
+#: fuego/kuwait_settings.py:227
 msgid "Shuwaikh Industrial"
 msgstr "شويخ الصناعية"
 
-#: fuego/kuwait_settings.py:230
+#: fuego/kuwait_settings.py:232
 msgid "Shuwaikh Port"
 msgstr "ميناء الشويخ"
 
-#: fuego/kuwait_settings.py:235
+#: fuego/kuwait_settings.py:237
 msgid "Kuwait Free Trade Zone"
 msgstr "المنطقة الحرة"
 
-#: fuego/kuwait_settings.py:240
+#: fuego/kuwait_settings.py:242
 msgid "Shuwaikh Educational"
 msgstr "شويخ التعليمية"
 
-#: fuego/kuwait_settings.py:245
+#: fuego/kuwait_settings.py:247
 msgid "Shuwaikh Medical"
 msgstr "شويخ الصحية"
 
-#: fuego/kuwait_settings.py:250
+#: fuego/kuwait_settings.py:252
 msgid "Al Mubarkiya"
 msgstr "معسكراة المباركية"
 
-#: fuego/kuwait_settings.py:255
+#: fuego/kuwait_settings.py:257
 msgid "Al Riggae"
 msgstr "الرقعي"
 
-#: fuego/kuwait_settings.py:260
+#: fuego/kuwait_settings.py:262
 msgid "Al Rai"
 msgstr "الري"
 
-#: fuego/kuwait_settings.py:265
+#: fuego/kuwait_settings.py:267
 msgid "Al Yarmuk"
 msgstr "اليرموك"
 
-#: fuego/kuwait_settings.py:270
+#: fuego/kuwait_settings.py:272
 msgid "Qurtuba"
 msgstr "قرطبة"
 
-#: fuego/kuwait_settings.py:275
+#: fuego/kuwait_settings.py:277
 msgid "Al Surra"
 msgstr "السرة"
 
-#: fuego/kuwait_settings.py:280
+#: fuego/kuwait_settings.py:282
 msgid "Al Jabriya"
 msgstr "الجابرية"
 
-#: fuego/kuwait_settings.py:285
+#: fuego/kuwait_settings.py:287
 msgid "Al Salmiya"
 msgstr "السالمية"
 
-#: fuego/kuwait_settings.py:290
+#: fuego/kuwait_settings.py:292
 msgid "Rumaithiya"
 msgstr "الرميثية"
 
-#: fuego/kuwait_settings.py:295
+#: fuego/kuwait_settings.py:297
 msgid "Salwa"
 msgstr "سلوى"
 
-#: fuego/kuwait_settings.py:300
+#: fuego/kuwait_settings.py:302
 msgid "Al Bida'a"
 msgstr "البدع"
 
-#: fuego/kuwait_settings.py:305
+#: fuego/kuwait_settings.py:307
 msgid "Bayan"
 msgstr "بيان"
 
-#: fuego/kuwait_settings.py:310
+#: fuego/kuwait_settings.py:312
 msgid "Al Salam"
 msgstr "السلام"
 
-#: fuego/kuwait_settings.py:315
+#: fuego/kuwait_settings.py:317
 msgid "Al Siddeeq"
 msgstr "الصديق"
 
-#: fuego/kuwait_settings.py:320
+#: fuego/kuwait_settings.py:322
 msgid "Abraq Khaitan"
 msgstr "ابرق خيطان"
 
-#: fuego/kuwait_settings.py:325
+#: fuego/kuwait_settings.py:327
 msgid "Al Omariya"
 msgstr "العمرية"
 
-#: fuego/kuwait_settings.py:330
+#: fuego/kuwait_settings.py:332
 msgid "Al Farwaniya"
 msgstr "الفروانية"
 
-#: fuego/kuwait_settings.py:335
+#: fuego/kuwait_settings.py:337
 msgid "South Khaitan"
 msgstr "جنوب خيطان"
 
-#: fuego/kuwait_settings.py:340
+#: fuego/kuwait_settings.py:342
 msgid "Al Zahra"
 msgstr "الزهراء"
 
-#: fuego/kuwait_settings.py:345
+#: fuego/kuwait_settings.py:347
 msgid "Ministries Zone"
 msgstr "منطقة الوزراء"
 
-#: fuego/kuwait_settings.py:350
+#: fuego/kuwait_settings.py:352
 msgid "Mubarak Al Abdullah"
 msgstr "ضاحية المبارك عبدالله"
 
-#: fuego/kuwait_settings.py:355
+#: fuego/kuwait_settings.py:357
 msgid "Mishref"
 msgstr "مشرف"
 
-#: fuego/kuwait_settings.py:360
+#: fuego/kuwait_settings.py:362
 msgid "Sabah Al Salem"
 msgstr "صباح السالم"
 
-#: fuego/kuwait_settings.py:365
+#: fuego/kuwait_settings.py:367
 msgid "Al Missila"
 msgstr "المسيلة"
 
-#: fuego/kuwait_settings.py:370
+#: fuego/kuwait_settings.py:372
 msgid "Adan"
 msgstr "عدان"
 
-#: fuego/kuwait_settings.py:375
+#: fuego/kuwait_settings.py:377
 msgid "Fnaitees"
 msgstr "فنيطيس"
 
-#: fuego/kuwait_settings.py:380
+#: fuego/kuwait_settings.py:382
 msgid "Al Qusor"
 msgstr "القصور"
 
-#: fuego/kuwait_settings.py:385
+#: fuego/kuwait_settings.py:387
 msgid "Abu Fatira"
 msgstr "ابو فطيرة"
 
-#: fuego/kuwait_settings.py:390
+#: fuego/kuwait_settings.py:392
 msgid "Al Qurain"
 msgstr "القرين"
 
-#: fuego/kuwait_settings.py:395
+#: fuego/kuwait_settings.py:397
 msgid "Mubarak Al Kabeer"
 msgstr "مبارك الكبير"
 
-#: fuego/kuwait_settings.py:400
+#: fuego/kuwait_settings.py:402
 msgid "Al Fintas"
 msgstr "الفنطاس"
 
-#: fuego/kuwait_settings.py:405
+#: fuego/kuwait_settings.py:407
 msgid "Al Eqaila"
 msgstr "العقيلة"
 
-#: fuego/kuwait_settings.py:410
+#: fuego/kuwait_settings.py:412
 msgid "Jaber Al Ali"
 msgstr "جابر العلي"
 
-#: fuego/kuwait_settings.py:415
+#: fuego/kuwait_settings.py:417
 msgid "Daher"
 msgstr "ظاهر"
 
-#: fuego/kuwait_settings.py:420
+#: fuego/kuwait_settings.py:422
 msgid "Mahboula"
 msgstr "مهبولة"
 
-#: fuego/kuwait_settings.py:425
+#: fuego/kuwait_settings.py:427
 msgid "Al Riqqa"
 msgstr "الرقة"
 
-#: fuego/kuwait_settings.py:430
+#: fuego/kuwait_settings.py:432
 msgid "Hadiya"
 msgstr "هدية"
 
-#: fuego/kuwait_settings.py:435
+#: fuego/kuwait_settings.py:437
 msgid "Abu Halifa"
 msgstr "ابو حليفة"
 
-#: fuego/kuwait_settings.py:440
+#: fuego/kuwait_settings.py:442
 msgid "Fahad Al Ahmed"
 msgstr "فهد الاحمد"
 
-#: fuego/kuwait_settings.py:445
+#: fuego/kuwait_settings.py:447
 msgid "Al Manqaf"
 msgstr "المنقف"
 
-#: fuego/kuwait_settings.py:450
+#: fuego/kuwait_settings.py:452
 msgid "Sabahiya"
 msgstr "صباحية"
 
-#: fuego/kuwait_settings.py:455
+#: fuego/kuwait_settings.py:457
 msgid "Al Fahaiheel"
 msgstr "الفحيحيل"
 
-#: fuego/kuwait_settings.py:460
+#: fuego/kuwait_settings.py:462
 msgid "Wista"
 msgstr "وسطى"
 
-#: fuego/kuwait_settings.py:465
+#: fuego/kuwait_settings.py:467
 msgid "Al Dajeej"
 msgstr "الضجيج"
 
-#: fuego/kuwait_settings.py:470
+#: fuego/kuwait_settings.py:472
 msgid "Jleeb Al Shuyoukh"
 msgstr "جليب الشويخ"
 
-#: fuego/kuwait_settings.py:475
+#: fuego/kuwait_settings.py:477
 msgid "Al Funnayhil"
 msgstr "الفنيحل"
 
-#: fuego/kuwait_settings.py:480
+#: fuego/kuwait_settings.py:482
 msgid "Al Shuhada"
 msgstr "الشهداء"
 
-#: fuego/kuwait_settings.py:485
+#: fuego/kuwait_settings.py:487
 msgid "Hawalli"
 msgstr "حولي"
 
-#: fuego/kuwait_settings.py:490
+#: fuego/kuwait_settings.py:492
 msgid "Hateen"
 msgstr "حطين"
 
 # fuego/kuwait_settings.py 495
-#: fuego/kuwait_settings.py:495
+#: fuego/kuwait_settings.py:497
 msgid "South Al Sorra"
 msgstr "جنوب السرة"
 
 # fuego/kuwait_settings.py 505
-#: fuego/kuwait_settings.py:500
+#: fuego/kuwait_settings.py:502
 msgid "Dahiat Abdullah Al Salem"
 msgstr "عبدالله السالم"
 
 # fuego/kuwait_settings.py 510
-#: fuego/kuwait_settings.py:505
+#: fuego/kuwait_settings.py:507
 msgid "Al Rabiya"
 msgstr "الرابيه"
 
 # fuego/kuwait_settings.py 515
-#: fuego/kuwait_settings.py:510
+#: fuego/kuwait_settings.py:512
 msgid "Al Rehab"
 msgstr "الرحاب"
 
 # fuego/kuwait_settings.py 520
-#: fuego/kuwait_settings.py:515
+#: fuego/kuwait_settings.py:517
 msgid "South Al Rabiya"
 msgstr "جنوب الرابية"
 
 # fuego/kuwait_settings.py 525
-#: fuego/kuwait_settings.py:520
+#: fuego/kuwait_settings.py:522
 msgid "Al Andalous"
 msgstr "الاندلس"
 
 # fuego/kuwait_settings.py 530
-#: fuego/kuwait_settings.py:525
+#: fuego/kuwait_settings.py:527
 msgid "Al Ferdous"
 msgstr "الفردوس"
 
 # fuego/kuwait_settings.py 535
-#: fuego/kuwait_settings.py:530
+#: fuego/kuwait_settings.py:532
 msgid "Al Jahra"
 msgstr "الجهرة"
 
 # fuego/kuwait_settings.py 540
-#: fuego/kuwait_settings.py:535
+#: fuego/kuwait_settings.py:537
 msgid "South Jahra"
 msgstr "الجهرة الجنوبية"
 
 # fuego/kuwait_settings.py 545
-#: fuego/kuwait_settings.py:540
+#: fuego/kuwait_settings.py:542
 msgid "Al Ardiya"
 msgstr "العارضية"
 
 # fuego/kuwait_settings.py 550
-#: fuego/kuwait_settings.py:545
+#: fuego/kuwait_settings.py:547
 msgid "Sabah Al Naseer"
 msgstr "صباح الناصر"
 
 # fuego/kuwait_settings.py 555
-#: fuego/kuwait_settings.py:550
+#: fuego/kuwait_settings.py:552
 msgid "Sulaibikhat"
 msgstr "الصليبخات"
 
 # fuego/kuwait_settings.py 560
-#: fuego/kuwait_settings.py:555
+#: fuego/kuwait_settings.py:557
 msgid "Gernada"
 msgstr "غرناطه"
 
 # fuego/kuwait_settings.py 565
-#: fuego/kuwait_settings.py:560
+#: fuego/kuwait_settings.py:562
 msgid "Amghara"
 msgstr "امغرة"
 
 # fuego/kuwait_settings.py 570
-#: fuego/kuwait_settings.py:565
+#: fuego/kuwait_settings.py:567
 msgid "Al Qasr"
 msgstr "القصر"
 
 # fuego/kuwait_settings.py 575
-#: fuego/kuwait_settings.py:570
+#: fuego/kuwait_settings.py:572
 msgid "Al Naeem"
 msgstr "النعيم"
 
 # fuego/kuwait_settings.py 580
-#: fuego/kuwait_settings.py:575
+#: fuego/kuwait_settings.py:577
 msgid "Taima"
 msgstr "تيماء"
 
 # fuego/kuwait_settings.py 585
-#: fuego/kuwait_settings.py:580
+#: fuego/kuwait_settings.py:582
 msgid "Alnasem"
 msgstr "النسيم"
 
 # fuego/kuwait_settings.py 590
-#: fuego/kuwait_settings.py:585
+#: fuego/kuwait_settings.py:587
 msgid "Alwaha"
 msgstr "الواحه"
 
 # fuego/kuwait_settings.py 595
-#: fuego/kuwait_settings.py:590
+#: fuego/kuwait_settings.py:592
 msgid "Sabhan"
 msgstr "صبحان"
 
 # fuego/kuwait_settings.py 560
-#: fuego/kuwait_settings.py:595
+#: fuego/kuwait_settings.py:597
 msgid "Al Oyoun"
 msgstr "العيون"
 
 # fuego/kuwait_settings.py 565
-#: fuego/kuwait_settings.py:600
+#: fuego/kuwait_settings.py:602
 msgid "Al Solaibiya"
 msgstr "الصليبية"
 
 # fuego/kuwait_settings.py 570
-#: fuego/kuwait_settings.py:605
+#: fuego/kuwait_settings.py:607
 msgid "Al Shaab sea"
 msgstr "الشعب البحري"
 
 # fuego/kuwait_settings.py 575
-#: fuego/kuwait_settings.py:610
+#: fuego/kuwait_settings.py:612
 msgid "Al Doha"
 msgstr "الدوحه"
 
 # fuego/kuwait_settings.py 580
-#: fuego/kuwait_settings.py:615
+#: fuego/kuwait_settings.py:617
 msgid "Kabed"
 msgstr "كبد"
 
 # fuego/kuwait_settings.py 585
-#: fuego/kuwait_settings.py:620
+#: fuego/kuwait_settings.py:622
 msgid "Saad Al Abdullah"
 msgstr "سعد العبدالله"
 
-#: fuego/kuwait_settings.py:659 utils/prettify_filters.py:95
+#: fuego/kuwait_settings.py:661 utils/prettify_filters.py:95
 msgid "English"
 msgstr ""
 
-#: fuego/kuwait_settings.py:660 utils/prettify_filters.py:95
+#: fuego/kuwait_settings.py:662 utils/prettify_filters.py:95
 msgid "Arabic"
 msgstr "عربي"
 
 # fuego /kuwait_settings.py translations added
-#: fuego/kuwait_settings.py:670
+#: fuego/kuwait_settings.py:672
 msgid "Jobs in Kuwait, Property & Real Estate For Sale & Rent, Cars for Sale - Free Classifieds in Kuwait | OLX dubizzle Kuwait"
 msgstr "وظائف في الكويت، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في الكويت | أوليكس دوبيزل الكويت"
 
-#: fuego/kuwait_settings.py:674
+#: fuego/kuwait_settings.py:676
 msgid "OLX dubizzle is your free and friendly local classifieds website in Kuwait. Jobs, property, real estate, cars and classifieds in Kuwait. Post an ad, browse ads, buy, sell or rent."
 msgstr "وظائف، عقارات، سيارات و إعلانات مبوبة في الكويت. اضف اعلان، تصفح إعلانات، بيع واشتري وأجر على أوليكس دوبيزل"
 
-#: fuego/kuwait_settings.py:679
+#: fuego/kuwait_settings.py:681
 msgid "OLX dubizzle Kuwait, free classifieds, online classifieds, Kuwait classifieds, free classifieds in Kuwait"
 msgstr "أوليكس دوبيزل الكويت، مبوبة مجانيه، إعلانات مبوبة عبر الإنترنت، مبوبة الكويت، إعلانات مبوبة مجانيه في الكويت"
 
@@ -1672,6 +1672,11 @@ msgstr "الجزائر"
 msgid "Tunisie"
 msgstr "تونس"
 
+#: fuego/shared_settings.py:143 templates/public/_footer.html:29
+#: templates/public/_footer.html.py:30
+msgid "UAE"
+msgstr "الإمارات"
+
 #: fuego/forms/__init__.py:144
 msgid "Enter your name please, nobody likes to talk to a stranger ;)"
 msgstr "عرفنا على إسمك... \"وعاشت الأسامي\"."
@@ -1735,8 +1740,8 @@ msgstr ""
 #: templates/email_alerts/email_alerts_fr.html:79
 #: templates/feedbox/index_horizontal.html:326
 #: templates/listings/get/get_listing.html:112
-#: templates/listings/get/get_listing.html:240 templates/public/home.html:78
-#: templates/shared/listings.html:62
+#: templates/listings/get/get_listing.html:239 templates/public/home.html:74
+#: templates/shared/listings.html:59
 #: templates/user_profiles/my_listings.html:139
 #: templates/user_profiles/my_listings.html:232
 #: templates/user_profiles/my_listings.html:291
@@ -2168,12 +2173,12 @@ msgstr ""
 msgid "Website under maintenance (500)"
 msgstr "الموقع تحت الصيانة"
 
-#: templates/base.html:137
+#: templates/base.html:144
 msgid "Menu"
 msgstr "القائمة"
 
 # not too clear
-#: templates/base.html:152
+#: templates/base.html:159
 msgid "My account"
 msgstr "الحساب"
 
@@ -2186,12 +2191,12 @@ msgid "Terms of Use"
 msgstr "شروط الاستخدام"
 
 #: templates/base_terms.html:16
-msgid "<b>THESE TERMS OF USE WERE UPDATED ON AUGUST 30, 2015</b><br/><br/>"
-msgstr "<b>تم تحديث شروط الاستخدام هذه بتاريخ 30 أغسطس 2015</b>"
+msgid "THESE TERMS OF USE WERE UPDATED ON AUGUST 30, 2015"
+msgstr "تم تحديث شروط الاستخدام هذه بتاريخ 30 أغسطس 2015"
 
 #: templates/base_terms.html:17
-msgid "<b>PLEASE CAREFULLY READ THESE TERMS OF USE. BY USING THIS WEBSITE YOU INDICATE YOUR UNDERSTANDING AND ACCEPTANCE OF THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS YOU MAY NOT USE THIS WEBSITE.</b>"
-msgstr "<b>يرجى قراءة شروط الاستخدام هذه بعناية، وباستخدامك لهذا الموقع الالكتروني فأنت تعلن فهمك وقبولك لهذه الشروط. وإذا لم توافق على هذه الشروط، لا يجوز لك استخدام هذا الموقع.</b>"
+msgid "PLEASE CAREFULLY READ THESE TERMS OF USE. BY USING THIS WEBSITE YOU INDICATE YOUR UNDERSTANDING AND ACCEPTANCE OF THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS YOU MAY NOT USE THIS WEBSITE."
+msgstr "يرجى قراءة شروط الاستخدام هذه بعناية، وباستخدامك لهذا الموقع الالكتروني فأنت تعلن فهمك وقبولك لهذه الشروط. وإذا لم توافق على هذه الشروط، لا يجوز لك استخدام هذا الموقع."
 
 #: templates/generic.html:27
 #, python-format
@@ -2203,66 +2208,66 @@ msgstr "%(BRAND_NAME)s على موبايلك"
 msgid "Your account"
 msgstr "حسابك"
 
-#: templates/generic.html:132
+#: templates/generic.html:134
 #: templates/user_profiles/my_saved_searches.html:46
 msgid "Filters"
 msgstr "خيارات البحث"
 
-#: templates/generic.html:146
+#: templates/generic.html:148
 #: templates/listings/snippets/_scam_warning.html:12
 msgid "Close"
 msgstr "إغلاق"
 
-#: templates/generic.html:153
+#: templates/generic.html:155
 msgid "Reset"
 msgstr "إعادة ضبط"
 
-#: templates/generic.html:171 templates/search/category_widget.html:18
+#: templates/generic.html:173 templates/search/category_widget.html:18
 #: templates/search/category_widget.html:35
 #, python-format
 msgid "Back to %(BRAND_NAME)s"
 msgstr "الرجوع إلى صفحة %(BRAND_NAME)s"
 
-#: templates/generic.html:178
+#: templates/generic.html:180
 msgid "Login"
 msgstr "تسجيل الدخول"
 
-#: templates/generic.html:183
+#: templates/generic.html:185
 msgid "Your ads"
 msgstr "إعلاناتك"
 
-#: templates/generic.html:188 templates/user_profiles/my_listings.html:99
+#: templates/generic.html:190 templates/user_profiles/my_listings.html:99
 msgid "Your rejected ads"
 msgstr "إعلاناتك المرفوضة"
 
-#: templates/generic.html:193 templates/user_profiles/my_listings.html:198
+#: templates/generic.html:195 templates/user_profiles/my_listings.html:198
 msgid "Your pending ads"
 msgstr "إعلاناتك التي تنتظر الموافقة"
 
-#: templates/generic.html:198 templates/user_profiles/my_listings.html:257
+#: templates/generic.html:200 templates/user_profiles/my_listings.html:257
 msgid "Your live ads"
 msgstr "إعلاناتك المنشورة"
 
-#: templates/generic.html:203 templates/user_profiles/my_listings.html:357
+#: templates/generic.html:205 templates/user_profiles/my_listings.html:357
 msgid "Your expired ads"
 msgstr "إعلاناتك منتهية الصلاحية"
 
-#: templates/generic.html:209
+#: templates/generic.html:211
 #: templates/email_alerts/save_search_button.html:24
 #: templates/user_profiles/my_saved_searches.html:33
 msgid "Your saved searches"
 msgstr "بحوثك المحفوظة"
 
-#: templates/generic.html:215
+#: templates/generic.html:217
 msgctxt "my_listings"
 msgid "Change password"
 msgstr "غير كلمة السر"
 
-#: templates/generic.html:220 templates/authentication/change_password.html:23
+#: templates/generic.html:222 templates/authentication/change_password.html:23
 msgid "Logout"
 msgstr "الخروج من الحساب"
 
-#: templates/generic.html:240
+#: templates/generic.html:242
 msgid "Download the free OLX Arabia App"
 msgstr "حمّل تطبيق أوليكس الجديد"
 
@@ -2610,7 +2615,7 @@ msgid "Back to results"
 msgstr "العودة إلى صفحة الإعلانات"
 
 #: templates/listings/get/get_listing.html:108
-#: templates/listings/get/get_listing.html:236
+#: templates/listings/get/get_listing.html:235
 #, python-format
 msgid ""
 "\n"
@@ -2619,24 +2624,24 @@ msgid ""
 msgstr ""
 
 #: templates/listings/get/get_listing.html:120
-#: templates/listings/get/get_listing.html:277
+#: templates/listings/get/get_listing.html:276
 msgid "This ad has expired."
 msgstr "لقد انتهت صلاحية هذا الاعلان"
 
 #: templates/listings/get/get_listing.html:125
-#: templates/listings/get/get_listing.html:282
+#: templates/listings/get/get_listing.html:281
 #, python-format
 msgid "Looking for %(category_name)s in %(city_name)s?"
 msgstr "هل تبحث عن %(category_name)s في %(city_name)s؟"
 
 #: templates/listings/get/get_listing.html:127
-#: templates/listings/get/get_listing.html:284
+#: templates/listings/get/get_listing.html:283
 #, python-format
 msgid "Looking for %(category_name)s?"
 msgstr "هل تبحث عن %(category_name)s؟"
 
 #: templates/listings/get/get_listing.html:131
-#: templates/listings/get/get_listing.html:288
+#: templates/listings/get/get_listing.html:287
 msgid "See similar ads"
 msgstr "شاهد إعلانات مشابهة"
 
@@ -2649,40 +2654,36 @@ msgstr ""
 msgid "View all details"
 msgstr "أظهر كافة التفاصيل"
 
-#: templates/listings/get/get_listing.html:163
-msgid "Read more"
-msgstr "ارني المزيد"
-
 #: templates/listings/get/get_listing.html:185
 msgid "Share with friends"
 msgstr "شارك مع أصدقائك"
 
-#: templates/listings/get/get_listing.html:192
+#: templates/listings/get/get_listing.html:191
 msgid "Report this ad"
 msgstr "بلغ عن هذا الإعلان"
 
-#: templates/listings/get/get_listing.html:203
+#: templates/listings/get/get_listing.html:202
 msgid "Important tips from OLX dubizzle"
 msgstr "نصائح عالسريع علشان يكون عندك صورة واضحة عن أوليكس دوبيزل"
 
-#: templates/listings/get/get_listing.html:208
+#: templates/listings/get/get_listing.html:207
 msgid "Show"
 msgstr "أظهر"
 
-#: templates/listings/get/get_listing.html:251
+#: templates/listings/get/get_listing.html:250
 msgid "Call"
 msgstr "إتصل"
 
-#: templates/listings/get/get_listing.html:252
+#: templates/listings/get/get_listing.html:251
 msgid "Show number"
 msgstr "اظهر الرقم"
 
-#: templates/listings/get/get_listing.html:260
+#: templates/listings/get/get_listing.html:259
 #: templates/listings/reply/reply_to_listing_include.html:10
 msgid "Reply"
 msgstr "أرسل رسالة"
 
-#: templates/listings/get/get_listing.html:261
+#: templates/listings/get/get_listing.html:260
 #: templates/listings/reply/reply_to_listing_include.html:130
 msgid "Send reply"
 msgstr "أرسل رد"
@@ -2920,10 +2921,6 @@ msgstr "تم انضمامك بنجاح"
 msgid "OLX dubizzle countries"
 msgstr "دول أوليكس دوبيزل"
 
-#: templates/public/_footer.html:29 templates/public/_footer.html.py:30
-msgid "UAE"
-msgstr "الإمارات"
-
 #: templates/public/_footer.html:39
 msgid "Help"
 msgstr "مساعدة"
@@ -3080,25 +3077,25 @@ msgstr "الإعلانات المنشورة شهرياً"
 msgid "Monthly transactions"
 msgstr "عدد صفقات التبادل الشهرية"
 
-#: templates/public/home.html:22
+#: templates/public/home.html:20
 #, python-format
 msgid "Free Classifieds in %(CITY_OR_COUNTRY)s on OLX, powered by dubizzle!"
 msgstr "إعلانات مبوبة مجانية في %(CITY_OR_COUNTRY)s على أوليكس بإدارة دوبيزل"
 
-#: templates/public/home.html:69
+#: templates/public/home.html:65
 #, python-format
 msgid ""
 "\n"
-"                                                        <span class=\"d-listing__price__value\">\n"
-"                                                            %(price)s\n"
-"                                                        </span>\n"
-"                                                        <span class=\"d-listing__price__currency\">\n"
-"                                                            %(translated_currency)s\n"
-"                                                        </span>\n"
-"                                                    "
+"                                                <span class=\"d-listing__price__value\">\n"
+"                                                    %(price)s\n"
+"                                                </span>\n"
+"                                                <span class=\"d-listing__price__currency\">\n"
+"                                                    %(translated_currency)s\n"
+"                                                </span>\n"
+"                                            "
 msgstr ""
 
-#: templates/public/home.html:99
+#: templates/public/home.html:94
 msgid "Load more"
 msgstr "ارني المزيد"
 
@@ -3155,40 +3152,40 @@ msgstr "العودة الى بداية الصفحة"
 msgid "All"
 msgstr "(الكل)"
 
-#: templates/search/search.html:50
+#: templates/search/search.html:49
 msgid "Wosh! This has either expired or been deleted."
 msgstr "ياللهول! الإعلان اختفى إما لانتهاء مدته أو أن صاحبه حذفه."
 
-#: templates/search/search.html:51
+#: templates/search/search.html:50
 msgid "Continue browsing, you might find what you were looking for :)"
 msgstr "لكن على فكرة، مازال بإمكانك الاستمتاع بتصفح الموقع وقد تجد الذي كنت تبحث عنه"
 
-#: templates/search/search.html:62
+#: templates/search/search.html:61
 msgid "in"
 msgstr "في"
 
-#: templates/search/search.html:62
+#: templates/search/search.html:61
 msgid ","
 msgstr "،"
 
-#: templates/search/search.html:65
+#: templates/search/search.html:64
 msgid "Buy, sell and find anything"
 msgstr "بيع واشتري وأعثر على أى شيء "
 
-#: templates/search/search.html:84
+#: templates/search/search.html:82
 msgid "Sort"
 msgstr "رتب"
 
-#: templates/search/search.html:94
-#, python-format
+#: templates/search/search.html:92
+#, fuzzy, python-format
 msgid ""
 "\n"
-"                        We found <span class=\"red\">%(counter)s</span> ad\n"
-"                    "
+"                    We found <span class=\"red\">%(counter)s</span> ad\n"
+"                "
 msgid_plural ""
 "\n"
-"                        We found <span class=\"red\">%(counter)s</span> ads\n"
-"                    "
+"                    We found <span class=\"red\">%(counter)s</span> ads\n"
+"                "
 msgstr[0] ""
 "\n"
 "لم نجد اي إعلانات\n"
@@ -3214,7 +3211,7 @@ msgstr[5] ""
 "وجدنا <span class=\"red\">%(counter)s</span> اعلان\n"
 "                "
 
-#: templates/search/search.html:117
+#: templates/search/search.html:115
 msgid "Edit filters"
 msgstr "تصفية البحث"
 
@@ -3222,15 +3219,15 @@ msgstr "تصفية البحث"
 msgid "No results..."
 msgstr "لا يوجد نتائج..."
 
-#: templates/shared/listings.html:55
+#: templates/shared/listings.html:52
 #, python-format
 msgid ""
 "\n"
-"                                                    %(price)s\n"
-"                                                    <span class=\"d-listing__currency\">\n"
-"                                                        %(translated_currency)s\n"
-"                                                    </span>\n"
-"                                                "
+"                                                %(price)s\n"
+"                                                <span class=\"d-listing__currency\">\n"
+"                                                    %(translated_currency)s\n"
+"                                                </span>\n"
+"                                            "
 msgstr ""
 
 #: templates/sitemaps/sitemap.html:22
@@ -3674,3 +3671,6 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
+
+#~ msgid "Read more"
+#~ msgstr "ارني المزيد"
