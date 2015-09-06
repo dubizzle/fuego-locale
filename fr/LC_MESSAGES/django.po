@@ -1,32 +1,27 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-27 18:54+0400\n"
-"PO-Revision-Date: 2014-08-05 15:05+0400\n"
-"Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
-"Language-Team: Arabic - Algerian <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_DZ/>\n"
-"Language: ar_DZ\n"
+"POT-Creation-Date: 2015-08-27 18:55+0400\n"
+"PO-Revision-Date: 2014-08-05 15:00+0400\n"
+"Language-Team: French <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Weblate 1.3\n"
 
 #: authentication/forms.py:24 authentication/forms.py:100
 #: authentication/forms.py:199 templates/authentication/login.html:80
 msgid "Email address"
-msgstr "عنوان الإيميل"
+msgstr "Adresse email"
 
 #: authentication/forms.py:25 authentication/forms.py:101
 #: authentication/forms.py:200 fuego/forms/__init__.py:148
 msgid "Oh no! Your email is invalid. Try again."
-msgstr "لا تنسى إدخال عنوان إيميل صحيح!"
+msgstr "Oh non! Votre adresse email n'est pas valide. Réessayez."
 
 #. Translators: This is in CrystelCalls new listing interface
 #: authentication/forms.py:27 authentication/forms.py:75
@@ -36,7 +31,7 @@ msgstr "لا تنسى إدخال عنوان إيميل صحيح!"
 #: templates/authentication/register.html:93
 #: templates/listings/add/create_inorganic_listing.html:57
 msgid "Password"
-msgstr "كلمة السر"
+msgstr "Mot de passe"
 
 #: authentication/forms.py:32
 msgid "Token"
@@ -48,47 +43,47 @@ msgstr ""
 
 #: authentication/forms.py:50 authentication/forms.py:213
 msgid "Something's not right. This email address is not associated with a dubizzle account."
-msgstr "يوجد خطآ ما. للأسف لا يوجد لدينا حساب مسجل تحت عنوان الإيميل الذي أدخلته. حاول مرة أخرى."
+msgstr "Quelque chose ne va pas. Cette adresse email n'est pas associée à un compte dubizzle."
 
 #: authentication/forms.py:61
 msgid "Eeek, the password you entered isn't right. Try again."
-msgstr "كلمة السر غير صحيحة (لا تكون سرحان؟؟ تأكد من كون الحروف الانجليزية كبيرة أو صغيرة)."
+msgstr "Aille, le mot de passe que vous avez entré est incorrect. Réessayez."
 
 #: authentication/forms.py:77 authentication/forms.py:105
 msgid "Your password must be a minimum of 6 characters. Try again."
-msgstr "يجب ادخال كلمة سر لا تقل عن 6 أحرف!"
+msgstr "Votre mot de passe doit comprendre un minimum de 6 caractères. Réessayez."
 
 #: authentication/forms.py:107
 msgid "Confirm Email address"
-msgstr "تأكيد عنوان الإيميل"
+msgstr "Confirmez votre adresse email"
 
 #: authentication/forms.py:109
 msgid "Confirm Password"
-msgstr "تأكيد كلمة السر"
+msgstr "Confirmez votre mot de passe"
 
 #: authentication/forms.py:123 authentication/forms.py:243
 msgid "Sorry, please re-enter your password using only English characters."
-msgstr "عفوا, كلمة السر يجب أن تتكون من حروف لاتينية (English)"
+msgstr "Désolé, veuillez entrer de nouveau votre mot de passe en utilisant uniquement des caractères anglophones."
 
 #: authentication/forms.py:141 listings/tests.py:1818
 msgid "This email address is already in use. Click 'Sign in to your account', or use a different email."
-msgstr "عنوان الإيميل هذا مسجل لدينا. إختر \"سجل الدخول لحسابك\" اعلاه أو ادخل عنوان ايميل آخر."
+msgstr "Cette adresse email est déja en cours d'utilisation. Cliquez sur 'Se connecter à votre compte', ou utiliser une autre adresse."
 
 #: authentication/forms.py:158 listings/tests.py:1891
 msgid "Huh... that's not the same one! Try again."
-msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
+msgstr "Oups... ce n'est pas la męme! Réessayez."
 
 #: authentication/forms.py:166 listings/tests.py:1964
 msgid "Hmm... this doesn't match up. Try again."
-msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
+msgstr "Hmm... ça ne marche pas. Réessayez."
 
 #: authentication/forms.py:225
 msgid "Shiny new password"
-msgstr "كلمة السر الجديدة (هالوو!)"
+msgstr "Voici un mot de passe flambant neuf"
 
 #: authentication/forms.py:227 authentication/forms.py:275
 msgid "Your password must be a minimum 6 characters. Try again."
-msgstr "يجب ادخال كلمة سر لا تقل عن 6 أحرف!"
+msgstr "Votre mot de passe doit comprendre un minimum de 6 caractères. Réessayez."
 
 #: authentication/forms.py:229 templates/authentication/register.html:106
 #: templates/authentication/register.html:107
@@ -96,35 +91,35 @@ msgstr "يجب ادخال كلمة سر لا تقل عن 6 أحرف!"
 #: templates/listings/manage_listing.html:274
 #: templates/listings/snippets/_form.html:291
 msgid "Confirm password"
-msgstr "تأكيد كلمة السر"
+msgstr "Confirmez votre mot de passe"
 
 #: authentication/forms.py:260
 msgid "Hmm... that doesn't match up!"
-msgstr "كلمات السر لا تتطابق! حاول مرة أخرى..."
+msgstr "Hmm... ça ne colle pas!"
 
 #: authentication/forms.py:273
 msgid "Ye olde password"
-msgstr "كلمة السر القديمة (باي باي!)"
+msgstr "Votre ancien mot de passe"
 
 #: authentication/forms.py:290
 msgid "Ooops, the password you entered is incorrect."
-msgstr "كلمة السر غير صحيحة (ألو.. ؟! خليك معانا .. تأكد من كون الحروف الانجليزية  كبيرة أو صغيرة)."
+msgstr "Oups, le mot de passe que vous avez entré est incorrect."
 
 #: authentication/views.py:107
 msgid "Please enter the correct Username and Password combination."
-msgstr "البيانات التي ادخلتها غير صحيحة."
+msgstr "Veuillez entrer le bon nom d'utilisateur et le mot de passe correspondant."
 
 #: captcha/fields.py:80
 msgid "Hmm... this doesn't match up. Try again"
-msgstr "خطأ في الرمز المدخل، حاول مرة أخرى."
+msgstr "Hmm... cela ne correspond pas. Réessayez"
 
 #: captcha/fields.py:83
 msgid "Error"
-msgstr "خطأ"
+msgstr "Erreur"
 
 #: captcha/conf/settings.py:58
 msgid "Please enter the correct letters"
-msgstr "من فضلك اكتب الحروف بشكل صحيح"
+msgstr "Veuillez entrer les bonnes lettres"
 
 #: country_templates/shared_landing.html:37
 #, python-format
@@ -134,88 +129,88 @@ msgstr "%(BRAND_NAME)s"
 #: country_templates/shared_landing.html:38
 #, python-format
 msgid "Download the fast and FREE %(BRAND_NAME)s mobile app!"
-msgstr "حمّل تطبيق %(BRAND_NAME)s المجاني و السريع!"
+msgstr ""
 
 #: country_templates/shared_landing.html:41
 msgid "FREE"
-msgstr "مجانا"
+msgstr ""
 
 #: country_templates/shared_landing.html:48 templates/public/landing.html:10
 msgid "Ahlan wa sahlan..."
-msgstr "اهلا وسهلا بكم في دوبيزل..."
+msgstr "Ahlan wa sahlan..."
 
 #: country_templates/shared_landing.html:63
 msgid "Change country"
-msgstr "تغيير الدولة"
+msgstr "Changer de pays"
 
 #: country_templates/shared_landing.html:75
 #, python-format
 msgid "Why use %(BRAND_NAME)s?"
-msgstr "فوائد %(BRAND_NAME)s السبع"
+msgstr "Pourquoi utiliser %(BRAND_NAME)s"
 
 #: country_templates/shared_landing.html:83
 msgid "Make money"
-msgstr "إكسب المال"
+msgstr "faire de l’argent"
 
 #: country_templates/shared_landing.html:84
 msgid "Turn your unused items into cash."
-msgstr "بيع اغراض لست بحاجة لها واستفيد."
+msgstr "Transformez vos produits inutilisés en argent sonnant et trébuchant."
 
 #: country_templates/shared_landing.html:92
 msgid "Your ad is free"
-msgstr "مجانا 100%"
+msgstr "Votre annonce est gratuite"
 
 #: country_templates/shared_landing.html:93
 msgid "No fees, no hidden agendas and no twists or turns. It’s FREE"
-msgstr "إضافة الإعلان على أوليكس دوبيزل مجاناً و بدون أي رسوم على الإطلاق."
+msgstr "Aucun frais caché, aucune embrouille.  c'est gratuit un point c'est tout."
 
 #: country_templates/shared_landing.html:101
 msgid "It's safe"
-msgstr "خليك في الأمان"
+msgstr "C'est sûr"
 
 #: country_templates/shared_landing.html:102
 msgid "No credit cards, no online payments and no money transfers."
-msgstr "بدون كروت إئتمان أو معاملات بنكية أو دفع إلكتروني."
+msgstr "Pas de carte de crédit, paiement en ligne ou transfert d'argent"
 
 #: country_templates/shared_landing.html:110
 msgid "Fast and easy"
-msgstr "سهل وسريع"
+msgstr "Rapide et facile"
 
 #: country_templates/shared_landing.html:111
 msgid "A few simple steps to create your ad in one page only."
-msgstr "إضافة الإعلان في خطوات بسيطة وسريعة وإستخدام الموقع سهل جداً."
+msgstr "Vous pourrez créer votre annonce en quelques étapes simples. une seul page à remplir c'est tout."
 
 #: country_templates/shared_landing.html:121
 msgid "We're local"
-msgstr "تواصل مع مستخدمي أوليكس دوبيزل بكل منطقتك"
+msgstr "Nous ​faisons dans la proximité"
 
 #: country_templates/shared_landing.html:122
 msgid "Find and connect with thousands of buyers in your city and neighborhood."
-msgstr "تواصل مع الآف المشترين والبائعين في مدينتك ومنطقتك."
+msgstr "Recherchez et connectez-vous avec les milliers d'acheteurs de votre ville ou votre quartier."
 
 #: country_templates/shared_landing.html:130
 msgid "Access anytime anywhere"
-msgstr "في أي وقت ومن أي مكان. "
+msgstr "Accès en tout lieu et à tout moment"
 
 #: country_templates/shared_landing.html:131
 msgid "Post your ad, update it and browse from your computer, mobile phone, tablet or Mars."
-msgstr "أضف إعلانك وقم بتعديله من الكمبيوتر أو الموبايل أو التابلت أو حتى من المريخ!"
+msgstr "Publiez, mettez à jour et parcourez des annonces à partir de votre ordinateur, téléphone mobile, Tablette; depuis Mars?!"
 
 #: country_templates/shared_landing.html:139
 msgid "Support 24/7"
-msgstr "نحن معك  24/7"
+msgstr "Service client 24/7"
 
 #: country_templates/shared_landing.html:140
 msgid "Wherever you are, our customer support heros help you post the perfect ad and draw a smile upon your face."
-msgstr "فريق دعم أوليكس دوبيزل يتواصل معك شخصياً في إضافة إعلانك أينما كنت ويسعى لرسم الإبتسامة على وجهك."
+msgstr "Notre assistance clientèle vous aidera à publier l’annonce parfaite qui vous donnera le sourire, où que vous soyez."
 
 #: country_templates/shared_landing.html:148
 msgid "Got something to sell?"
-msgstr "تريد بيع شيء ما؟"
+msgstr "Avez-vous quelque chose à vendre?"
 
 #: country_templates/shared_landing.html:150
 msgid "Yalla try it."
-msgstr "يلا، جرب وبيع."
+msgstr "Allez-y, essayez."
 
 #: country_templates/shared_landing.html:155
 #: country_templates/shared_landing.html:160 templates/base.html:145
@@ -223,11 +218,11 @@ msgstr "يلا، جرب وبيع."
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
 msgid "Place an ad"
-msgstr "أضف إعلانك"
+msgstr "Passer une annonce"
 
 #: fuego/algerie_settings.py:33 fuego/shared_settings.py:119
 msgid "Algeria"
-msgstr "الجزائر"
+msgstr "Algérie"
 
 #: fuego/algerie_settings.py:35
 msgid "DZD"
@@ -235,564 +230,566 @@ msgstr "DZD"
 
 #: fuego/algerie_settings.py:47
 msgid "Algiers"
-msgstr "الجزائر"
+msgstr "Alger"
 
 #: fuego/algerie_settings.py:57 fuego/algerie_settings.py:530
 msgid "Setif"
-msgstr "سطيف"
+msgstr "Setif"
 
 #: fuego/algerie_settings.py:71 fuego/algerie_settings.py:666
 msgid "Oran"
-msgstr "وهران"
+msgstr "Oran"
 
 #: fuego/algerie_settings.py:80 fuego/algerie_settings.py:692
 msgid "Annaba"
-msgstr "عنابة"
+msgstr "Annaba"
 
 #: fuego/algerie_settings.py:94
 msgid "Alger"
-msgstr "الجزائر"
+msgstr "Alger"
 
 #: fuego/algerie_settings.py:99
 msgid "El Mouradia"
-msgstr "المورادية"
+msgstr "El Mouradia"
 
 #: fuego/algerie_settings.py:104
 msgid "Alger Centre"
-msgstr "الجزائر الوسطى"
+msgstr "Alger Centre"
 
 #: fuego/algerie_settings.py:109
 msgid "Bab Ezzouar"
-msgstr "باب الزوار"
+msgstr "Bab Ezzouar"
 
 #: fuego/algerie_settings.py:114
 msgid "Bab El Oued"
-msgstr "باب الواد"
+msgstr "Bab El Oued"
 
 #: fuego/algerie_settings.py:119
 msgid "Hydra"
-msgstr "حيدرة"
+msgstr "Hydra"
 
 #: fuego/algerie_settings.py:124
 msgid "Bachdjerrah"
-msgstr "باش جراح"
+msgstr "Bachdjerrah"
 
 #: fuego/algerie_settings.py:129
 msgid "El Biar"
-msgstr "الابيار"
+msgstr "El Biar"
 
 #: fuego/algerie_settings.py:134
 msgid "Cheraga"
-msgstr "الشراقة"
+msgstr "Cheraga"
 
 #: fuego/algerie_settings.py:139
 msgid "El Madania"
-msgstr "المدنية"
+msgstr "El Madania"
 
 #: fuego/algerie_settings.py:144
 msgid "Bains Romains"
-msgstr "الحمامات الرومانية"
+msgstr "Bains Romains"
 
 #: fuego/algerie_settings.py:149
 msgid "El Achour"
-msgstr "الاشور"
+msgstr "El Achour"
 
 #: fuego/algerie_settings.py:154
 msgid "Bir Mourad Rais"
-msgstr "بير مراد الرايس"
+msgstr "Bir Mourad Rais"
 
 #: fuego/algerie_settings.py:159
 msgid "El Casbah"
-msgstr "القصبة"
+msgstr "El Casbah"
 
 #: fuego/algerie_settings.py:164
 msgid "Kouba"
-msgstr "القبة"
+msgstr "Kouba"
 
 #: fuego/algerie_settings.py:169
 msgid "Ben Aknoun"
-msgstr "بن عكون"
+msgstr "Ben Aknoun"
 
 #: fuego/algerie_settings.py:174
 msgid "Belouizdad"
-msgstr "الحامة"
+msgstr "Belouizdad"
 
 #: fuego/algerie_settings.py:179
 msgid "Ain Benian"
-msgstr "عين البنيان"
+msgstr "Ain Benian"
 
 #: fuego/algerie_settings.py:184
 msgid "Bouzareah"
-msgstr "بوزريعة"
+msgstr "Bouzareah"
 
 #: fuego/algerie_settings.py:189
 msgid "Rouiba"
-msgstr "الرويبة"
+msgstr "Rouiba"
 
 #: fuego/algerie_settings.py:194
 msgid "Zeralda"
-msgstr "زرالدة"
+msgstr "Zeralda"
 
 #: fuego/algerie_settings.py:199
 msgid "Beraki"
-msgstr "براقي"
+msgstr "Beraki"
 
 #: fuego/algerie_settings.py:204
 msgid "Dar El Beida"
-msgstr "دار البيضاء"
+msgstr "Dar El Beida"
 
 #: fuego/algerie_settings.py:209
 msgid "Ain Naadja"
-msgstr "عين النعجة"
+msgstr "Ain Naadja"
 
 #: fuego/algerie_settings.py:214
 msgid "Bordj El Kifan"
-msgstr "برج الكيفان"
+msgstr "Bordj El Kifan"
 
 #: fuego/algerie_settings.py:219
 msgid "Bordj El Bahri"
-msgstr "برج البحري"
+msgstr "Bordj El Bahri"
 
 #: fuego/algerie_settings.py:224
 msgid "Staoueli"
-msgstr "سطاوالي"
+msgstr "Staoueli"
 
 #: fuego/algerie_settings.py:229
 msgid "Ain Taya"
-msgstr "عين طاية"
+msgstr "Ain Taya"
 
 #: fuego/algerie_settings.py:234
 msgid "Ouled Fayet"
-msgstr "ولاد فياة"
+msgstr "Ouled Fayet"
 
 #: fuego/algerie_settings.py:239
 msgid "Mohammadia"
-msgstr "المحمدية"
+msgstr "Mohammadia"
 
 #: fuego/algerie_settings.py:244
 msgid "Hussein Dey"
-msgstr "حسين داي"
+msgstr "Hussein Dey"
 
 #: fuego/algerie_settings.py:249
 msgid "El Hamma"
-msgstr "الحامة"
+msgstr "El Hamma"
 
 #: fuego/algerie_settings.py:254
 msgid "El Magharia"
-msgstr "المقاربة"
+msgstr "El Magharia"
 
 #: fuego/algerie_settings.py:260
 msgid "Ain Abessa"
-msgstr "عين عباسة"
+msgstr "Ain Abessa"
 
 #: fuego/algerie_settings.py:265
 msgid "Ain Arnat"
-msgstr "عين ارناط"
+msgstr "Ain Arnat"
 
 #: fuego/algerie_settings.py:270 fuego/algerie_settings.py:280
 msgid "Ain Azel"
-msgstr "عين ازيل"
+msgstr "Ain Azel"
 
 #: fuego/algerie_settings.py:275
 msgid "Ain El Kebira"
-msgstr "عين الكبيرة"
+msgstr "Ain El Kebira"
 
 #: fuego/algerie_settings.py:285
 msgid "Ain Lahdjar"
-msgstr "عين الاحجار"
+msgstr "Ain Lahdjar"
 
 #: fuego/algerie_settings.py:290
 msgid "Ain Legraj"
-msgstr "عين لڨراج"
+msgstr "Ain Legraj"
 
 #: fuego/algerie_settings.py:295
 msgid "Ain Oulmane"
-msgstr "عين ولمان"
+msgstr "Ain Oulmane"
 
 #: fuego/algerie_settings.py:300
 msgid "Ain Roua"
-msgstr "عين رؤى"
+msgstr "Ain Roua"
 
 #: fuego/algerie_settings.py:305
 msgid "Ain Sebt"
-msgstr "عين سبت"
+msgstr "Ain Sebt"
 
 #: fuego/algerie_settings.py:310
 msgid "Ait Naoual Mezada"
-msgstr "آيت نوال مزادة"
+msgstr "Ait Naoual Mezada"
 
 #: fuego/algerie_settings.py:315
 msgid "Ait Tizi"
-msgstr "آيت تيزي"
+msgstr "Ait Tizi"
 
 #: fuego/algerie_settings.py:320
 msgid "Amoucha"
-msgstr "عموشة"
+msgstr "Amoucha"
 
 #: fuego/algerie_settings.py:325
 msgid "Babor"
-msgstr "بابور"
+msgstr "Babor"
 
 #: fuego/algerie_settings.py:330
 msgid "Bazer Sakhra"
-msgstr "بازر صخرة"
+msgstr "Bazer Sakhra"
 
 #: fuego/algerie_settings.py:335
 msgid "Beidha Bordj"
-msgstr " بيضا برج"
+msgstr "Beidha Bordj"
 
 #: fuego/algerie_settings.py:340
 msgid "Belaa"
-msgstr "بلاعة"
+msgstr "Belaa"
 
 #: fuego/algerie_settings.py:345
 msgid "Beni Aziz"
-msgstr " بني عزيز"
+msgstr "Beni Aziz"
 
 #: fuego/algerie_settings.py:350
 msgid "Beni Chebana"
-msgstr "بني شيبانة"
+msgstr "Beni Chebana"
 
 #: fuego/algerie_settings.py:355
 msgid "Beni Fouda"
-msgstr " بني فودة"
+msgstr "Beni Fouda"
 
 #: fuego/algerie_settings.py:360
 msgid "Beni Hocine"
-msgstr " بني حسين"
+msgstr "Beni Hocine"
 
 #: fuego/algerie_settings.py:365
 msgid "Beni Ourtilane"
-msgstr " بني ورتيلان"
+msgstr "Beni Ourtilane"
 
 #: fuego/algerie_settings.py:370
 msgid "Bir El Arch"
-msgstr " بئر العرش"
+msgstr "Bir El Arch"
 
 #: fuego/algerie_settings.py:375
 msgid "Bir Haddada"
-msgstr " بئر حدادة"
+msgstr "Bir Haddada"
 
 #: fuego/algerie_settings.py:380
 msgid "Bouandas"
-msgstr " بوعنداس"
+msgstr "Bouandas"
 
 #: fuego/algerie_settings.py:385
 msgid "Bougaa"
-msgstr " بوقاعة"
+msgstr "Bougaa"
 
 #: fuego/algerie_settings.py:390
 msgid "Bousselam"
-msgstr " بوسلام"
+msgstr "Bousselam"
 
 #: fuego/algerie_settings.py:395
 msgid "Boutaleb"
-msgstr " بوطالب"
+msgstr "Boutaleb"
 
 #: fuego/algerie_settings.py:400
 msgid "Dehamcha"
-msgstr " دهامشة"
+msgstr "Dehamcha"
 
 #: fuego/algerie_settings.py:405
 msgid "Djemila"
-msgstr " جميلة"
+msgstr "Djemila"
 
 #: fuego/algerie_settings.py:410
 msgid "Draa Kebila"
-msgstr " ذراع قبيلة"
+msgstr "Draa Kebila"
 
 #: fuego/algerie_settings.py:415
 msgid "El Eulma"
-msgstr " العلمة"
+msgstr "El Eulma"
 
 #: fuego/algerie_settings.py:420
 msgid "El Ouldja"
-msgstr "الولجة"
+msgstr "El Ouldja"
 
 #: fuego/algerie_settings.py:425
 msgid "El Ouricia"
-msgstr "أوريسيا"
+msgstr "El Ouricia"
 
 #: fuego/algerie_settings.py:430
 msgid "Guelal"
-msgstr "قلال "
+msgstr "Guelal"
 
 #: fuego/algerie_settings.py:435
 msgid "Guelta Zerka"
-msgstr " القلتة الزرقاء"
+msgstr "Guelta Zerka"
 
 #: fuego/algerie_settings.py:440
 msgid "Guenzet"
-msgstr " قنزات"
+msgstr "Guenzet"
 
 #: fuego/algerie_settings.py:445
 msgid "Guidjel"
-msgstr " قيجل"
+msgstr "Guidjel"
 
 #: fuego/algerie_settings.py:450
 msgid "Hamma"
-msgstr " الحامة"
+msgstr "Hamma"
 
 #: fuego/algerie_settings.py:455
 msgid "Hammam Guergour"
-msgstr " حمام قرقور"
+msgstr "Hammam Guergour"
 
 #: fuego/algerie_settings.py:460
 msgid "Harbil"
-msgstr "حربيل"
+msgstr "Harbil"
 
 #: fuego/algerie_settings.py:465
 msgid "Ksar El Abtal"
-msgstr " قصر الأبطال"
+msgstr "Ksar El Abtal"
 
 #: fuego/algerie_settings.py:470
 msgid "Maaouia"
-msgstr " معاوية"
+msgstr "Maaouia"
 
 #: fuego/algerie_settings.py:475
 msgid "Maoklane"
-msgstr "ماوكلان"
+msgstr "Maoklane"
 
 #: fuego/algerie_settings.py:480
 msgid "Mezloug"
-msgstr " مزلوق"
+msgstr "Mezloug"
 
 #: fuego/algerie_settings.py:485
 msgid "Oued El Barad"
-msgstr " واد البارد"
+msgstr "Oued El Barad"
 
 #: fuego/algerie_settings.py:490
 msgid "Ouled Addouane"
-msgstr " اولاد عدوان"
+msgstr "Ouled Addouane"
 
 #: fuego/algerie_settings.py:495
 msgid "Ouled Sabor"
-msgstr " اولاد صابر"
+msgstr "Ouled Sabor"
 
 #: fuego/algerie_settings.py:500
 msgid "Ouled Si Ahmed"
-msgstr " ولاد السي أحمد"
+msgstr "Ouled Si Ahmed"
 
 #: fuego/algerie_settings.py:505
 msgid "Ouled Tebben"
-msgstr " اولاد تبان"
+msgstr "Ouled Tebben"
 
 #: fuego/algerie_settings.py:510
 msgid "Oum Ladjoul"
-msgstr "ام لعجول"
+msgstr "Oum Ladjoul"
 
 #: fuego/algerie_settings.py:515
 msgid "Rasfa"
-msgstr " رسفة"
+msgstr "Rasfa"
 
 #: fuego/algerie_settings.py:520
 msgid "Salah Bey"
-msgstr " صالح باي"
+msgstr "Salah Bey"
 
 #: fuego/algerie_settings.py:525
 msgid "Serdj El Ghoul"
-msgstr " سرج الغول"
+msgstr "Serdj El Ghoul"
 
 #: fuego/algerie_settings.py:535
 msgid "Tachouda"
-msgstr " تاشودة"
+msgstr "Tachouda"
 
 #: fuego/algerie_settings.py:540
 msgid "Talaifacene"
-msgstr " تالة ايفاسن"
+msgstr "Talaifacene"
 
 #: fuego/algerie_settings.py:545
 msgid "Taya"
-msgstr " الطاية"
+msgstr "Taya"
 
 #: fuego/algerie_settings.py:550
 msgid "Tella"
-msgstr "تلة"
+msgstr "Tella"
 
 #: fuego/algerie_settings.py:555
 msgid "Tizi N'Bechar"
-msgstr "تيزي نبشار"
+msgstr "Tizi N'Bechar"
 
 #: fuego/algerie_settings.py:561
 msgid "Arzew"
-msgstr "ارزيو"
+msgstr "Arzew"
 
 #: fuego/algerie_settings.py:566
 msgid "Ain Bya"
-msgstr "عين بية"
+msgstr "Ain Bya"
 
 #: fuego/algerie_settings.py:571
 msgid "Ain El Kerma"
-msgstr "عين  الكرمة"
+msgstr "Ain El Kerma"
 
 #: fuego/algerie_settings.py:576
 msgid "Ain El Turk"
-msgstr "عين  الترك"
+msgstr "Ain El Turk"
 
 #: fuego/algerie_settings.py:581
 msgid "Ben Freha"
-msgstr "بن فريحة"
+msgstr "Ben Freha"
 
 #: fuego/algerie_settings.py:586
 msgid "Bethioua"
-msgstr "بتحيوة"
+msgstr "Bethioua"
 
 #: fuego/algerie_settings.py:591
 msgid "Bir El Djir"
-msgstr "بير الجير"
+msgstr "Bir El Djir"
 
 #: fuego/algerie_settings.py:596
 msgid "Boufatis"
-msgstr "بوفاطيس"
+msgstr "Boufatis"
 
 #: fuego/algerie_settings.py:601
 msgid "Bousfer"
-msgstr "بوسفير"
+msgstr "Bousfer"
 
 #: fuego/algerie_settings.py:606
 msgid "Boutlelis"
-msgstr "بوتليليس"
+msgstr "Boutlelis"
 
 #: fuego/algerie_settings.py:611
 msgid "El Ancor"
-msgstr "الانصور"
+msgstr "El Ancor"
 
 #: fuego/algerie_settings.py:616
 msgid "El Braya"
-msgstr "البرايا"
+msgstr "El Braya"
 
 #: fuego/algerie_settings.py:621
 msgid "El Kerma"
-msgstr "الكرمة"
+msgstr "El Kerma"
 
 #: fuego/algerie_settings.py:626
 msgid "Es Senia"
-msgstr "السانية"
+msgstr "Es Senia"
 
 #: fuego/algerie_settings.py:631
 msgid "Gdyel"
-msgstr "ڨدايل"
+msgstr "Gdyel"
 
 #: fuego/algerie_settings.py:636
 msgid "Hassi Ben Okba"
-msgstr "حاسي بن عقبة"
+msgstr "Hassi Ben Okba"
 
 #: fuego/algerie_settings.py:641
 msgid "Hassi Bounif"
-msgstr "حاسي بونيف"
+msgstr "Hassi Bounif"
 
 #: fuego/algerie_settings.py:646
 msgid "Hassi Mefsoukh"
-msgstr "حاسي مفسوخ"
+msgstr "Hassi Mefsoukh"
 
 #: fuego/algerie_settings.py:651
 msgid "Mers El Hadjadj"
-msgstr "مرس الحجاج"
+msgstr "Mers El Hadjadj"
 
 #: fuego/algerie_settings.py:656
 msgid "Mers El Kebir"
-msgstr "مرس الكبير"
+msgstr "Mers El Kebir"
 
 #: fuego/algerie_settings.py:661
 msgid "Misserghin"
-msgstr "مسرغين"
+msgstr "Misserghin"
 
 #: fuego/algerie_settings.py:671
 msgid "Oued Tlelat"
-msgstr "واد تلاليت"
+msgstr "Oued Tlelat"
 
 #: fuego/algerie_settings.py:676
 msgid "Sidi Ben Yebka"
-msgstr "سيدي بن يبكى"
+msgstr "Sidi Ben Yebka"
 
 #: fuego/algerie_settings.py:681
 msgid "Sidi Chami"
-msgstr "سيدي شامي"
+msgstr "Sidi Chami"
 
 #: fuego/algerie_settings.py:686
 msgid "Tafraoui"
-msgstr "طفراوي"
+msgstr "Tafraoui"
 
 #: fuego/algerie_settings.py:697
 msgid "Ain Berda"
-msgstr "عين باردة"
+msgstr "Ain Berda"
 
 #: fuego/algerie_settings.py:702
 msgid "Barrahel"
-msgstr "بالراحل"
+msgstr "Barrahel"
 
 #: fuego/algerie_settings.py:707
 msgid "Chetaibi"
-msgstr "شطايبي"
+msgstr "Chetaibi"
 
 #: fuego/algerie_settings.py:712
 msgid "Cheurfa"
-msgstr "شورفة"
+msgstr "Cheurfa"
 
 #: fuego/algerie_settings.py:717
 msgid "El Bouni"
-msgstr "البوني"
+msgstr "El Bouni"
 
 #: fuego/algerie_settings.py:722
 msgid "El Hadjar"
-msgstr "الحجار"
+msgstr "El Hadjar"
 
 #: fuego/algerie_settings.py:727
 msgid "Eulma"
-msgstr "اولمة"
+msgstr "Eulma"
 
 #: fuego/algerie_settings.py:732
 msgid "Oued El Aneb"
-msgstr "واد العنب"
+msgstr "Oued El Aneb"
 
 #: fuego/algerie_settings.py:737
 msgid "Seraidi"
-msgstr "صرايدي"
+msgstr "Seraidi"
 
 #: fuego/algerie_settings.py:742
 msgid "Sidi Amar"
-msgstr "سيدي عمار"
+msgstr "Sidi Amar"
 
 #: fuego/algerie_settings.py:747
 msgid "Treat"
-msgstr "تريت"
+msgstr "Treat"
 
-#: fuego/algerie_settings.py:771 utils/prettify_filters.py:95
+#: fuego/algerie_settings.py:771 fuego/tunisie_settings.py:584
+#: utils/prettify_filters.py:95
 msgid "French"
-msgstr "French"
+msgstr "Français"
 
-#: fuego/algerie_settings.py:772 utils/prettify_filters.py:95
+#: fuego/algerie_settings.py:772 fuego/tunisie_settings.py:585
+#: utils/prettify_filters.py:95
 msgid "Arabic"
-msgstr "عربي"
+msgstr "Arabe"
 
 #: fuego/algerie_settings.py:782
 msgid "Jobs in Algeria, Property & Real Estate For Sale & Rent, Cars for Sale - Free Classifieds in Algeria | OLX dubizzle Algeria"
-msgstr "وظائف في الجزائر، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في الجزائر | أوليكس دوبيزل الجزائر"
+msgstr "Emplois en Algérie, Immobilier ŕ vendre ou ŕ louer, Voitures ŕ vendre - Petites annonces gratuites en Algérie | OLX dubizzle Algérie"
 
 #: fuego/algerie_settings.py:786
 msgid "OLX dubizzle is your free and friendly local classifieds website in Algeria. Jobs, property, real estate, cars and classifieds in Algeria. Post an ad, browse ads, buy, sell or rent."
-msgstr "أوليكس دوبيزل هو الموقع المحلي المجاني للإعلانات المبوبة في %(full_location)s. وظائف شاغرة, عقارات, سيارات و إعلانات مبوبة مجانية في (full_location)s. أضف اعلان, تصفح الإعلانات, بيع واشتري واستأجر"
+msgstr "OLX dubizzle est votre premier site de petites annonces gratuites en Algerie. Trouvez un emploi, des biens et services immobiliers  la vente ainsi que des  voitures  vendre en Algerie."
 
 #: fuego/algerie_settings.py:791
 msgid "OLX dubizzle Algeria, free classifieds, online classifieds, Algeria classifieds, free classifieds in Algeria"
-msgstr "موقع أوليكس دوبيزل الجزائر، إعلانات مبوبة مجانية، الإعلانات المبوبة على الانترنت والجزائر إعلانات مبوبة، الإعلانات المبوبة مجانا في الجزائر"
+msgstr "OLX dubizzle Algerie, petites annonces gratuites, petites annonces en ligne, Algerie petites annonces, petites annonces en Algerie"
 
 #: fuego/base_settings.py:574 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of OLX dubizzle"
-msgstr "الموقع بالكامل"
+msgstr "Tout sur OLX dubizzle"
 
 #: fuego/base_settings.py:578
 msgid "OLX dubizzle"
-msgstr "أوليكس دوبيزل"
+msgstr "OLX dubizzle"
 
 #: fuego/base_settings.py:642
 msgid "m&sup2;"
-msgstr "م٢"
+msgstr "m&sup2;"
 
 #: fuego/base_settings.py:675 fuego/base_settings.py:1171
 msgid "Spam"
-msgstr "إعلان مزعج"
+msgstr "Indésirable"
 
 #: fuego/base_settings.py:676
 msgid "Scam/Fraud"
@@ -800,11 +797,11 @@ msgstr ""
 
 #: fuego/base_settings.py:677 fuego/base_settings.py:1166
 msgid "Miscategorized"
-msgstr "فئة الإعلان خاطئة"
+msgstr "Mauvaise catégorie"
 
 #: fuego/base_settings.py:678 fuego/base_settings.py:1168
 msgid "Repetitive"
-msgstr "الإعلان مُكرر"
+msgstr "Répétée"
 
 #: fuego/base_settings.py:679
 msgid "Illegal Item"
@@ -816,7 +813,7 @@ msgstr ""
 
 #: fuego/base_settings.py:681 fuego/base_settings.py:1169
 msgid "Misleading"
-msgstr "الإعلان مُضلل وغير واضح"
+msgstr "Trompeuse"
 
 #: fuego/base_settings.py:682
 msgid "Outside IP Block"
@@ -824,75 +821,75 @@ msgstr ""
 
 #: fuego/base_settings.py:683
 msgid "No Category"
-msgstr "القسم؟"
+msgstr "Catégorie"
 
 #: fuego/base_settings.py:711
 msgid "You have chosen the wrong category."
-msgstr "لقد قمت بوضع إعلانك في القسم غير الصحيحة"
+msgstr "Votre annonce a été placé dans la mauvaise catégorie"
 
 #: fuego/base_settings.py:712
 msgid "Your ad is misleading"
-msgstr "مجانا وبدون أي رسوم"
+msgstr "Votre annonce est GRATUITE"
 
 #: fuego/base_settings.py:792
 msgid "Unknown"
-msgstr "مجهول"
+msgstr "Inconnu"
 
 #: fuego/base_settings.py:988
 msgid "Date: newest"
-msgstr "بحسب التاريخ: الأحدث"
+msgstr "Date: plus recente"
 
 #: fuego/base_settings.py:989
 msgid "Date: oldest"
-msgstr "بحسب التاريخ: الأقدم"
+msgstr "Date: moins recente"
 
 #: fuego/base_settings.py:993
 msgid "Price: highest"
-msgstr "بحسب السعر: الأعلى"
+msgstr "Prix: plus cher"
 
 #: fuego/base_settings.py:994
 msgid "Price: lowest"
-msgstr "بحسب السعر: الأدنى"
+msgstr "Prix: moins cher"
 
 #: fuego/base_settings.py:1155
 msgid "#dubizzle"
-msgstr "#دوبيزل"
+msgstr "dubizzle démarré"
 
 #: fuego/base_settings.py:1161
 msgid "Other"
-msgstr "لدي سبب آخر"
+msgstr "Autre"
 
 #: fuego/base_settings.py:1163
 msgid "Please select"
-msgstr "الرجاء الإختيار"
+msgstr "Choisissez votre raison"
 
 #: fuego/base_settings.py:1167
 msgid "Offensive"
-msgstr "الإعلان مزعج أو فيه إهانة"
+msgstr "Offensive"
 
 #: fuego/base_settings.py:1170
 msgid "Possible fraud"
-msgstr "يبدو الإعلان كأنه احتيال"
+msgstr "Possible fraude"
 
 #: fuego/dt_translations.py:10
 msgid "neighbourhood"
-msgstr "الحي"
+msgstr "voisinage"
 
 #: fuego/dt_translations.py:11
 msgid "city"
-msgstr "المدينة"
+msgstr "ville"
 
 #: fuego/dt_translations.py:12
 msgid "Engine Size"
-msgstr "سعة المحرك"
+msgstr "Taille du moteur"
 
 #: fuego/dt_translations.py:13
 msgid "Item Type"
-msgstr "النوع"
+msgstr "Type"
 
 #: fuego/dt_translations.py:14
 msgid "No Of Doors"
-msgstr "عدد الابواب"
+msgstr "Nombre de portes"
 
 #: fuego/meta_settings.py:62 fuego/meta_settings.py:68
 #: fuego/meta_settings.py:74 fuego/meta_settings.py:80
@@ -913,755 +910,1151 @@ msgstr "%(ad_description)s"
 #: fuego/meta_settings.py:64
 #, python-format
 msgid "%(ad_title)s, car accessories, cars for sale in %(full_location)s"
-msgstr "%(ad_title)s, زينة سيارات, سيارات للبيع في %(full_location)s"
+msgstr " %(ad_title)s, accessoires voiture, voitures à vendre à %(full_location)s"
 
 #: fuego/meta_settings.py:70
 #, python-format
 msgid "%(ad_title)s, %(category_leaf)s Cars for Sale in %(city)s, cars for sale %(country)s"
-msgstr "%(ad_title)s, %(category_leaf)s سيارات للبيع في %(city)s, سيارات للبيع %(country)s"
+msgstr "%(ad_title)s, Voitures %(category_leaf)s à Vendre à %(city)s, voitures en vente en %(country)s"
 
 #: fuego/meta_settings.py:76
 #, python-format
 msgid "%(ad_title)s, %(category_leaf)s Jobs, %(category_leaf)s Jobs in %(city)s"
-msgstr "%(ad_title)s, %(category_leaf)s وظائف شاغرة, %(category_leaf)s وظائف شاغرة في %(city)s"
+msgstr "%(ad_title)s, %(category_leaf)s Emploi, %(category_leaf)s Emploi à %(city)s"
 
 #: fuego/meta_settings.py:82
 #, python-format
 msgid "%(ad_title)s, post %(category_leaf)s Jobs ads, post %(category_leaf)s Jobs ads in %(city)s"
-msgstr "%(ad_title)s, أضف إعلانات وظائف %(category_leaf)s, أضف إعلانات وظائف %(category_leaf)s في  %(city)s"
+msgstr "%(ad_title)s, passez annonces emploi %(category_leaf)s, postez annonces emploi %(category_leaf)s à %(city)s"
 
 #: fuego/meta_settings.py:88
 #, python-format
 msgid "%(ad_title)s, %(category_leaf)s property-for-sale, %(category_leaf)s in %(country)s"
-msgstr "%(ad_title)s, %(category_leaf)s عقارات للبيع، %(category_leaf)s في %(country)s"
+msgstr "%(ad_title)s, %(category_leaf)s, immobilier à vendre %(category_leaf)s en %(country)s"
 
 #: fuego/meta_settings.py:94
 #, python-format
 msgid "%(ad_title)s, %(category_leaf)s property-for-rent, %(category_leaf)s in %(country)s"
-msgstr "%(ad_title)s, %(category_leaf)s عقارات للايجار، %(category_leaf)s في %(country)s"
+msgstr "%(ad_title)s, %(category_leaf)s immobilier à louer, %(category_leaf)s en %(country)s"
 
 #: fuego/meta_settings.py:100
 #, python-format
 msgid "%(ad_title)s, %(category_leaf)s items-for-sale, %(category_leaf)s in %(country)s"
-msgstr "%(ad_title)s, %(category_leaf)s إعلانات مبوبة مجانية، %(category_leaf)s في %(country)s"
+msgstr "%(ad_title)s, %(category_leaf)s articles à vendre, %(category_leaf)s en %(country)s"
 
 #: fuego/meta_settings.py:108
 #, python-format
 msgid "Second Hand Vehicles & Used Cars for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "سيارات مستعملة للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Voitures et Véhicules d'Occasion à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:109
 #, python-format
 msgid "Find second hand & used cars for sale directly from owners. Click here to see photos and prices of cars from %(full_location)s"
-msgstr "ابحث عن سيارات مستعملة وجديدة من المالك مباشرة على دوبيزل. أضغط هنا لمشاهدة صور وأسعار السيارات في %(full_location)s"
+msgstr "Trouver des voitures d'occasion à vendre directement auprès des propriétaires. Cliquez ici pour voir les photos et les prix des voitures à %(full_location)s"
 
 #: fuego/meta_settings.py:110
 #, python-format
 msgid "used cars, cars for sale, cars for sale, used cars %(country)s, %(country)s cars for sale"
-msgstr "سيارات مستعملة، سيارات للبيع، سيارات مستعملة %(country)s, %(country)s سيارات للبيع"
+msgstr "voitures d'occasion, voitures à vendre, véhicules à vendre, voitures d'occasion en %(country)s, %(country)s voitures à vendre"
 
 #: fuego/meta_settings.py:114
 #, python-format
 msgid "Buy & Sell Car Accessories & Auto Parts in %(city_or_country)s | %(BRAND_NAME)s %(country)s"
-msgstr "بيع وشراء زينة و قطع سيارات في %(city_or_country)s | %(BRAND_NAME)s %(country)s"
+msgstr "Acheter et Vendre des Accessoires de Voitures & Pièces Automobile en %(city_or_country)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:115
 #, python-format
 msgid "Buy & sell new and used car accessories and parts including seat covers, body kits, engine parts and more in %(full_location)s."
-msgstr "بيع وشراء زينة وقطع سيارات جديدة ومستعملة , أغطية مقاعد, مقاعد أطفال, قطع محركات وغيرها في %(full_location)s."
+msgstr "Achat et vente accessoires de voitures neuves et d'occasion, y compris des housses de siège, kits de carrosserie, pièces de moteur et plus en %(full_location)s."
 
 #: fuego/meta_settings.py:116
 #, python-format
 msgid "car parts, auto parts, auto accessories, sale items automobiles to %(city_or_country)s"
-msgstr "زينة وقطع سيارات في %(city_or_country)s"
+msgstr "accessoires de voitures, pièces auto à vendre, accessoires voitures  %(city_or_country)s"
 
 #: fuego/meta_settings.py:120
 #, python-format
 msgid "%(category_leaf)s Cars for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "%(category_leaf)s سيارات للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Véhicules d'Occasion %(category_leaf)s à vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:121
 #, python-format
 msgid "Click here to see prices and photos of used %(category_leaf)s cars for sale in %(full_location)s. Buy directly from owners. No hassles!"
-msgstr "أضغط ها لمشاهدة صور وأسعار سيارات %(category_leaf)s مستعملة للبيع في %(full_location)s. الشراء من البائع مباشرة بسهولة. "
+msgstr "Cliquez ici pour voir les prix et les photos des voitures d'occasion %(category_leaf)s à vendre à %(full_location)s. Acheter directement auprès des propriétaires. Pas de soucis!"
 
 #: fuego/meta_settings.py:122
 #, python-format
 msgid "Cars %(category_leaf)s, Used cars, %(category_leaf)s for sale, %(category_leaf)s cars for sale in %(city_or_country)s"
-msgstr "سيارات %(category_leaf)s، سيارات مستعملة، %(category_leaf)s للبيع، سيارات %(category_leaf)s للبيع في %(city_or_country)s"
+msgstr "Voitures %(category_leaf)s d'occasion, voitures %(category_leaf)s à vendre, voitures %(category_leaf)s à vendre à %(city_or_country)s"
 
 #: fuego/meta_settings.py:126
 #, python-format
 msgid "Careers & Jobs in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "وظائف شاغرة في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Carrières et Emplois à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:127
 #, python-format
 msgid "Looking for vacancies and jobs in %(city_or_country)s? Search for job vacancies updated regularly with %(BRAND_NAME)s %(country)s. Send your CV for FREE."
-msgstr "هل تبحث عن وظيفة شاغرة في %(city_or_country)s؟ أبحث عن الوظائف الخالية أولاً بأول على %(BRAND_NAME)s %(country)s وارسل سيرتك الذاتية مجاناً."
+msgstr "Vous cherchez des offres d'emploi et des emplois en  %(city_or_country)s? Rechercher des offres d'emploi mises à jour régulièrement avec %(BRAND_NAME)s %(country)s. Envoyer votre CV gratuitement."
 
 #: fuego/meta_settings.py:128
 #, python-format
 msgid "jobs in %(city_or_country)s, careers in %(city_or_country)s, %(city_or_country)s job vacancies, recruitment, employment"
-msgstr "وظائف شاغرة في %(city_or_country)s، وظائف خالية في %(city_or_country)s، توظيف%(city_or_country)s، فرص عمل "
+msgstr "emplois en  %(city_or_country)s, carrières en  %(city_or_country)s, Offre d'emplois en  %(city_or_country)s, recruitement  %(city_or_country)s,  %(city_or_country)s recruitement "
 
 #: fuego/meta_settings.py:132
 #, python-format
 msgid "%(category_leaf)s Jobs in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "وظائف %(category_leaf)s شاغرة في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Emplois %(category_leaf)s à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:133
 #, python-format
 msgid "Looking for %(category_leaf)s jobs in %(full_location)s? Search for %(category_leaf)s jobs with dubizzle %(full_location)s. Submit your CV for FREE."
-msgstr "هل تبحث عن وظائف %(category_leaf)s في %(full_location)s؟ أبحث عن وظائف %(category_leaf)s على دوبيزل وأرسل سيرتك الذاتية مجاناً."
+msgstr "Vous recherchez des postes en %(category_leaf)s à %(full_location)s? Cherchez un emploi en %(category_leaf)s avec dubizzle. Envoyez votre CV gratuitement."
 
 #: fuego/meta_settings.py:134
 #, python-format
 msgid "%(category_leaf)s jobs in %(city_or_country)s, %(category_leaf)s careers in %(city_or_country)s, %(category_leaf)s job vacancies, %(category_leaf)s recruitment, %(category_leaf)s employment"
-msgstr "وظائف %(category_leaf)s شاغرة في %(city_or_country)s، وظائف %(category_leaf)s الشاغرة في %(city_or_country)s، وظائف %(category_leaf)s خالية، توظيف %(category_leaf)s"
+msgstr "Emplois %(category_leaf)s en  %(city_or_country)s, carrières en %(category_leaf)s en  %(city_or_country)s,  offres d'emploi en %(category_leaf)s, recrutement %(category_leaf)s,"
 
 #: fuego/meta_settings.py:138
 #, python-format
 msgid "Wanted - Careers & Jobs in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "مطلوب للعمل في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Recherché - Carrières & Emplois à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:139
 #, python-format
 msgid "Looking to land a job in %(full_location)s? Post Your skills and experience on %(BRAND_NAME)s %(country)s's Free Job Classifieds."
-msgstr "هل تبحث عن وظيفة في %(full_location)s؟ أضف خبراتك وسيرتك الذاتية على %(BRAND_NAME)s %(country)s لتشاهد مجموعة من الوظائف الشاغرة"
+msgstr "Vous cherchez à décrocher un emploi à %(full_location)s? Poster vos compétences et votre expérience sur les petites annonces emploi %(BRAND_NAME)s %(country)s."
 
 #: fuego/meta_settings.py:140
 #, python-format
 msgid "post job ads in %(city_or_country)s, job ads for free, job classified listings"
-msgstr "أضف اعلان التوظيف في %(city_or_country)s، إعلانات توظيف مجانية، أعلان وظائف شاغرة"
+msgstr "poster des annonces d'emploi en  %(city_or_country)s, des offres d'emploi gratuites, offres d'emploi classées"
 
 #: fuego/meta_settings.py:144
 #, python-format
 msgid "Wanted %(category_leaf)s Jobs in %(city_or_country)s | %(BRAND_NAME)s %(country)s"
-msgstr "مطلوب للعمل - وظائف %(category_leaf)s في %(city_or_country)s | %(BRAND_NAME)s %(country)s"
+msgstr "Recherché - Emplois %(category_leaf)s en  %(city_or_country)s / %(BRAND_NAME)s %(country)s "
 
 #: fuego/meta_settings.py:145
 #, python-format
 msgid "Looking to land a %(category_leaf)s job in %(full_location)s ? Post Your skills and experience on dubizzle %(full_location)s Free Job Classifieds."
-msgstr "هل تبحث عن وظائف %(category_leaf)s في %(full_location)s ? أضف خبراتك على دوبيزل %(full_location)s إعلانات وظائف مجانية"
+msgstr "Vous cherchez à décrocher un emploi %(category_leaf)s à %(full_location)s? Poster vos compétences et votre expérience sur les petites annonces emploi dubizzle %(full_location)s."
 
 #: fuego/meta_settings.py:146
 #, python-format
 msgid "post %(category_leaf)s job ads in %(city_or_country)s, %(category_leaf)s job ads for free, job classified listings"
-msgstr "أضف اعلان توظيف %(category_leaf)s في %(city_or_country)s، إعلانات وظائف %(category_leaf)s مجانية"
+msgstr "Publier vos annonces d'emploi en %(category_leaf)s en  %(city_or_country)s, offres d'emploi gratuites %(category_leaf)s,petites annonces classées "
 
 #: fuego/meta_settings.py:150
 #, python-format
 msgid "Real Estate & Property for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "عقارات للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Biens Immobiliers et Proriètés à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:151
 #, python-format
 msgid "Buy & sell real estate & properties in %(full_location)s including apartments, flats, villas, houses and commercial buildings and units."
-msgstr "بيع وشراء العقارات في %(full_location)s، فلل، شقق، منازل، أراضي، محلات تجارية، مباني وغيرها "
+msgstr "Acheter & vendre des biens immobiliers à %(full_location)s, y compris des appartements, pavillons, villas, maisons et bâtiments commerciaux et unités."
 
 #: fuego/meta_settings.py:152
 #, python-format
 msgid "Homes for sale in %(city_or_country)s, properties for sale in %(city_or_country)s, properties to rent, properties for sale in %(country)s"
-msgstr "منازل للبيع في %(city_or_country)s، عقارات للبيع في %(city_or_country)s، عقارات للايجار في %(country)s"
+msgstr "Immobilier à vendre - %(city_or_country)s, propriètés à vendre - %(city_or_country)s, %(city_or_country)s, immobilier à louer, propriètés à vendre - %(country)s"
 
 #: fuego/meta_settings.py:156
 #, python-format
 msgid "House & Villas For Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "بيوت وفلل للايجار في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Maisons & Villas à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:157
 #, python-format
 msgid "Buy and sell houses and villas in %(full_location)s Search for holiday villa, luxury villa, city and private villas for sale."
-msgstr "بيع وشراء الفلل في %(full_location)s، ابحث عن فلل للعطلات، فلل فاخرة للبيع"
+msgstr "Acheter et vendre des maisons et villas à %(full_location)s. Rechercher villa de vacances, villa de luxe, villas privées à vendre."
 
 #: fuego/meta_settings.py:158
 #, python-format
 msgid "house for sale, house for sale, houses %(city_or_country)s villas %(city_or_country)s, villas for sale in %(city_or_country)s, houses for sale in %(city_or_country)s, sale villas in %(city_or_country)s"
-msgstr "منازل للبيع، فلل للبيت، منازل في %(city_or_country)s، فلل للبيع، فلل في %(city_or_country)s للبيع، بيع فلل في %(city_or_country)s"
+msgstr "maison à vendre, villa à vendre, maisons %(city_or_country)s, villas %(city_or_country)s, villas à vendre %(city_or_country)s, maisons à vendre %(city_or_country)s, ventes villas %(city_or_country)s"
 
 #: fuego/meta_settings.py:162
 #, python-format
 msgid "Flats & Apartments for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "شقق للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Appartements à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:163
 #, python-format
 msgid "Buy & sell flats apartments in %(full_location)s Search for hotel apartments, furnished apartments, rental apartments, luxury and studio apartments."
-msgstr "بيع وشراء شقق في %(full_location)s. أبحث عن شقق فندقية، غرف مفروشة، غرف للايجار، استديوهات وغيرها "
+msgstr "Achetez et vendez vos appartements à %(full_location)s. Rechercher des appartements d'hôtel, des appartements meublés, des appartements de location, appartements de luxe et studios."
 
 #: fuego/meta_settings.py:164
 #, python-format
 msgid "apartment for sale, apartment for sale, apartments for %(city_or_country)s, apartments for sale in %(city_or_country)s, apartments for sale in %(city_or_country)s, for sale apartments %(city_or_country)s, sale villas in %(city_or_country)s"
-msgstr "شقق للبيع، شقة للبيع، شقق للبيع في %(city_or_country)s، شقق في %(city_or_country)s، فلل للبيع %(city_or_country)s"
+msgstr "appartement à vendre, appartement en vente, appartements %(city_or_country)s, appartements à vendre %(city_or_country)s, appartements en vente %(city_or_country)s, ventes appartements %(city_or_country)s"
 
 #: fuego/meta_settings.py:168
 #, python-format
 msgid "Commercial Property for Sale - Offices, Shops & Buildings | %(BRAND_NAME)s %(country)s"
-msgstr "عقارات ومحلات تجارية للبيع - مكاتب، مقاهي، عمارات | %(BRAND_NAME)s %(country)s"
+msgstr "Local Commercial à Vendre - Bureaux, Commerces et Bâtiments | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:169
 #, python-format
 msgid "Buy & sell commercial property in %(full_location)s Search for offices, shops, buildings, land, and warehouses."
-msgstr "بيع وشراء العقارات التجارية في %(full_location)s. ابحث عن مكاتب، مقاهي، عمارات، أراضي ومخازن"
+msgstr "Acheter & vendre des biens commerciaux à %(full_location)s. Rechercher des bureaux, magasins, immeubles, terrains, et entrepôts."
 
 #: fuego/meta_settings.py:170
 #, python-format
 msgid "commercial property for sale, commercial property for sale in %(city_or_country)s, commercial buildings, commercial property sale, commercial property for sale %(city_or_country)s, commercial property for sale %(city_or_country)s, Commercial for sale %(city_or_country)s, good business for sale %(city_or_country)s"
-msgstr "عقارات تجارية للبيع، عقارات تجارية للبيع في %(city_or_country)s، مباني تجارية، مباني تجارية للبيع، مباني تجارية للبيع %(city_or_country)s، عقارات تجارية للبيع في %(city_or_country)s"
+msgstr "propriété commerciale à vendre, propriété commerciale à vendre %(city_or_country)s, immeubles commerciaux, propriété commerciale en vente, propriété commerciale en vente %(city_or_country)s, local commercial à vendre %(city_or_country)s, bien commerciaux à vendre %(city_or_country)s"
 
 #: fuego/meta_settings.py:174
 #, python-format
 msgid "Towers & Buildings for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "أبراج ومباني للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Tours et Batiments à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s "
 
 #: fuego/meta_settings.py:175
 #, python-format
 msgid "Buy & sell full towers and  %(full_location)s buildings. Search for multiple units, building floors, & other commercial properties in %(full_location)s."
-msgstr "بيع وشراء أبراج ومباني في %(full_location)s. ابحث عن وحدات سكنية متعددة، عمارات و عقارات تجارية في %(full_location)s"
+msgstr "Achetez et vendez vos tours complets et bâtiments à %(full_location)s. Rechercher plusieurs unités, et autres propriétés commerciales à %(full_location)s."
 
 #: fuego/meta_settings.py:176
 #, python-format
 msgid "Buildings for Sale, levels buildings, %(city_or_country)s Buildings, Commercial Buildings, Buildings for sale %(city_or_country)s, sale Buildings %(city_or_country)s, Commercial for sale %(city_or_country)s"
-msgstr "عمارات للبيع، وحدات سكنية في %(city_or_country)s، عقارات تجارية للبيع، عقارات تجارية للبيع في %(city_or_country)s"
+msgstr "Bâtiments à vendre, niveaux bâtiments, %(city_or_country)s Bâtiments, Bâtiments commerciaux, Bâtiments à vendre %(city_or_country)s, vente Bâtiments %(city_or_country)s"
 
 #: fuego/meta_settings.py:180
 #, python-format
 msgid "Plots & Land for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "أراضي للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Parcelles de Terre et Terrains à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:181
 #, python-format
 msgid "Buy & sell plots and land in %(full_location)s. Search for land for sale directly from the owner."
-msgstr "بيع وشراء الاراضي في %(full_location)s. أبحث عن اراضي للبيع من المالك مباشرة."
+msgstr "Acheter & vendre des parcelles de terre et des terrains à %(full_location)s. Rechercher des terres à vendre directement auprès du propriétaire."
 
 #: fuego/meta_settings.py:182
 #, python-format
 msgid "Land for sale in %(city_or_country)s, land %(city_or_country)s, sale Buildings %(city_or_country)s, sale land in %(city_or_country)s"
-msgstr "أراضي للبيع في %(city_or_country)s، أرض في %(city_or_country)s، أراضي للبيع %(city_or_country)s"
+msgstr "Terrain à vendre %(city_or_country)s, Terrain %(city_or_country)s, vente terrain  %(city_or_country)s"
 
 #: fuego/meta_settings.py:186
 #, python-format
 msgid "Real Estate & Property for Rent in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "عقارات للايجار في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Biens Immobilier et Proriètés à Louer à %(full_location)s / %(BRAND_NAME)s %(country)s "
 
 #: fuego/meta_settings.py:187
 #, python-format
 msgid "Click here to view listings on real estate & properties for rent in %(full_location)s - apartments, flats, villas, houses, buildings, and commercial properties."
-msgstr "أضغط هنا لمشاهدة إعلانات تأجير العقارات في %(full_location)s - فلل، شقق، منازل، أراضي، محلات تجارية، مباني وغيرها "
+msgstr "Cliquez ici pour consulter les annonces sur l'immobilier et les propriétés à louer à %(full_location)s - appartements, villas, maisons, bâtiments, et propriétés commerciales."
 
 #: fuego/meta_settings.py:188
 #, python-format
 msgid "properties in %(city_or_country)s, properties %(city_or_country)s, properties to rent, property for rent, property for rent in %(city_or_country)s, property for rent in %(city_or_country)s, properties for rent in %(city_or_country)s, renting real estate in %(city_or_country)s"
-msgstr "عقارات في %(city_or_country)s، عقارات للايجار في %(city_or_country)s، عقارات للايجار، عقار للايجار، ايجار عقارات %(city_or_country)s"
+msgstr "immobilier %(city_or_country)s, propriété %(city_or_country)s, immobilier à louer, propriété à louer, propriété à louer %(city_or_country)s, immobilier à louer %(city_or_country)s, propriètés à louer %(city_or_country)s, location d'immobilier %(city_or_country)s "
 
 #: fuego/meta_settings.py:192
 #, python-format
 msgid "House & Villas for Rent in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "بيوت وفلل للايجار في %(full_location)s - %(BRAND_NAME)s %(country)s"
+msgstr "Maisons & Villas à Louer à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:193
 #, python-format
 msgid "Click here to view listings of houses and villas for rent in %(full_location)s - private villas, luxury Villas, holiday villas & beach villas."
-msgstr "أضغط هنا لمشاهدة إعلانات البيوت والفلل للايجار في %(full_location)s، - فلل للعطلات، فلل فاخرة للبيع، فلل بجميع أنواعها هنا "
+msgstr "Cliquez ici pour consulter les annonces de maisons et villas à louer à %(full_location)s - villas, les villas de luxe, villas de vacances et villas sur la plage."
 
 #: fuego/meta_settings.py:194
 #, python-format
 msgid "house for rent, villa for rent, homes in %(city_or_country)s, villas %(city_or_country)s, villas for rent in %(city_or_country)s, houses for rent in %(city_or_country)s rental homes villas in %(city_or_country)s, beautiful houses for rent at %(city_or_country)s"
-msgstr "بيوت للايجار، فلل للايجار في %(city_or_country)s، فلل في %(city_or_country)s، بيوت للايجار في %(city_or_country)s"
+msgstr "maison à louer, villa à louer, maisons %(city_or_country)s, villas %(city_or_country)s, villas à louer %(city_or_country)s, maisons à louer %(city_or_country)s, location maisons & villas à %(city_or_country)s, belles maisons à louer %(city_or_country)s"
 
 #: fuego/meta_settings.py:198
 #, python-format
 msgid "Flats & Apartments for Rent in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "شقق للايجار في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Appartements à Louer à %(full_location)s | %(BRAND_NAME)s %(country)s "
 
 #: fuego/meta_settings.py:199
 #, python-format
 msgid "Click here to view flats & apartments for rent in %(full_location)s - furnished apartments, studio apartments, service apartments, and more."
-msgstr "أضغط هنا لمشاهدة الشقق للايجار في %(full_location)s - شقق مفروشة، ستوديوهات، شقق فندقية وغيرها"
+msgstr "Cliquez ici pour voir des appartements à louer à %(full_location)s - des appartements meublés, studios, appartements avec services, et plus encore."
 
 #: fuego/meta_settings.py:200
 #, python-format
 msgid "apartment for rent, apartment for rent, apartments for %(city_or_country)s apartments for rent in %(city_or_country)s, apartments in %(city_or_country)s"
-msgstr "شقق للايجار، شقق في %(city_or_country)s، شقق للايجار في %(city_or_country)s، شقة للايجار في %(city_or_country)s"
+msgstr "appartement à louer, appartement en location, appartements %(city_or_country)s, appartements à louer %(city_or_country)s, appartements en location %(city_or_country)s"
 
 #: fuego/meta_settings.py:204
 #, python-format
 msgid "Commercial Property for Rent - Offices, Shops & Buildings | %(BRAND_NAME)s %(country)s"
-msgstr "عقارات ومحلات تجارية للايجار - مكاتب، مقاهي، عمارات | %(BRAND_NAME)s %(country)s"
+msgstr "Local commercial à louer - bureaux, commerces et bâtiments | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:205
 #, python-format
 msgid "Click here to view commercial properties for rent in %(full_location)s including buildings, towers, multiple units, warehouses, offices, shops, and labour camps."
-msgstr "أضغط هنا لمشاهدة العقارات التجارية المعروضة للايجار في %(full_location)s. ابحث عن مكاتب، مقاهي، عمارات، أراضي ومخازن"
+msgstr "Cliquez ici pour afficher les propriétés commerciaux à louer à %(full_location)s, y compris les bâtiments, les tours, des unités multiples, des entrepôts, bureaux, commerces, et camps de travail."
 
 #: fuego/meta_settings.py:206
 #, python-format
 msgid "commercial property to rent, commercial property for rent in %(city_or_country)s, commercial buildings, commercial property leasing, commercial property for rent in %(city_or_country)s, rental commercial properties %(city_or_country)s"
-msgstr "عقارات ومحلات تجارية للايجار، عقارات تجارية في %(city_or_country)s، محلات تجارية للايجار في %(city_or_country)s، محلات تجارية للايجار %(city_or_country)s"
+msgstr "propriété commerciale à louer, propriété commerciale à louer à %(city_or_country)s, immeubles commerciaux, propriété commerciale en location, propriété commerciale en location %(city_or_country)s, location propriètés commerciaux %(city_or_country)s"
 
 #: fuego/meta_settings.py:210
 #, python-format
 msgid "Room for Rent in %(full_location)s - Villas & Apartments | %(BRAND_NAME)s %(country)s"
-msgstr "غرف للايجار في %(full_location)s - شقق وفلل | %(BRAND_NAME)s %(country)s"
+msgstr "Chambre à Louer à %(full_location)s - Villas & Apartments | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:211
 #, python-format
 msgid "Click here to view available rooms for rent in flats, villas, houses, and apartments in %(full_location)s."
-msgstr "أضغط هنا لمشاهدة الغرف المتاحة للايجار داخل الشقق والفلل والمنازل في %(full_location)s"
+msgstr "Cliquez ici pour voir des chambres disponibles à louer dans des appartements, villas et maisons à %(full_location)s."
 
 #: fuego/meta_settings.py:212
 #, python-format
 msgid "room for rent in %(city_or_country)s, rooms for rent, room for one person, double occupancy, rent a room, rent rooms in %(city_or_country)s"
-msgstr "غرف للايجار في %(city_or_country)s، غرف للايجار، غرفة مفردة، ايجار غرفة في %(city_or_country)s"
+msgstr "chambre à louer %(city_or_country)s, chambres à louer, chambre pour une personne, chambre pour deux personnes, louer une chambre, location de chambres %(city_or_country)s"
 
 #: fuego/meta_settings.py:216
 #, python-format
 msgid "Short Term & Vacation Rentals in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "شقق بعقود قصيرة الأمد و شقق سياحية في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Location Court Séjour et Vacances à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:217
 #, python-format
 msgid "Find short term & vacation rentals in %(full_location)s including short term apartments, holiday villas, studio apartments, holiday and hotel apartments."
-msgstr "هنا تجد شقق سياحية وشقق بعقود قصيرة الأمد في %(full_location)s - شقق سياحية، غرف و شقق بعقود يومية او اسبوعية، شقق فندقية وغيرها "
+msgstr "Trouver des locations court séjour et vacances à %(full_location)s, y compris appartements à court séjour, villas de vacances, studios, appartements de vacances et appart-hôtels."
 
 #: fuego/meta_settings.py:218
 msgid "Holiday rentals, short stay rental, apartment for short stay, short stay contract, rent short stay, short stay rental, short stay apartment for rent"
-msgstr "شقق بعقود قصيرة الأمد و شقق سياحية، شقق بعقود يومية او اسبوعية، شقق فندقية وغيرها"
+msgstr "Location Vacances, location à court séjour, appartement à court séjour, contrat à court séjour, louer à court séjour, louer court séjour, appartement pour location court séjour "
 
 #: fuego/meta_settings.py:222
 #, python-format
 msgid "Wanted - Properties for Rent in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "مطلوب عقارات للايجار في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Recherché - Propriètés à Louer à %(full_location)s | %(BRAND_NAME)s %(country)s "
 
 #: fuego/meta_settings.py:223
 #, python-format
 msgid "Looking to rent properties and real estate in %(full_location)s including apartments, villas, houses, and commercial properties? Post what you need now on %(BRAND_NAME)s %(country)s free classifieds."
-msgstr "هل تبحث عن أجار عقارات في %(full_location)s - فلل، منازل، شقق، عقارات تجارية وغيرها؟ أضف اعلانك الان على %(BRAND_NAME)s %(country)s"
+msgstr "Vous cherchez à louer des propriétés et biens immobiliers à %(full_location)s, y compris appartements, villas, maisons, et propriétés commerciales? Poster ce dont vous avez besoin sur %(BRAND_NAME)s %(country)s petites annonces gratuitement."
 
 #: fuego/meta_settings.py:224
 #, python-format
 msgid "looking to rent short stay, short stay rental, short stay rental ads, short stay rental, short stay rental ads for the %(city_or_country)s"
-msgstr "هنا تبحث عن شقق سياحية وشقق بعقود قصيرة الأمد في %(city_or_country)s - شقق سياحية، غرف و شقق بعقود يومية او اسبوعية، شقق فندقية وغيرها "
+msgstr "recherché location à court séjour, location à court séjour, annonces location à court séjour, location court séjour, annonces pour location court séjour %(city_or_country)s"
 
 #: fuego/meta_settings.py:228
 #, python-format
 msgid "Items for Sale in %(full_location)s - Find, Buy & Sell Anything | %(BRAND_NAME)s %(country)s"
-msgstr "إعلانات مبوبة مجانية في %(full_location)s - بيع وشراء اي شيء | %(BRAND_NAME)s %(country)s"
+msgstr "Petites Annonces Gratuites à %(full_location)s - Trouvez, Achetez & Vendez ce que Vous Voulez| %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:229
 #, python-format
 msgid "Free classifieds in %(full_location)s  - Find cars for sale, items for sale, electronics, clothing, furniture, computers, video games, toys & other items."
-msgstr "إعلانات مبوبة مجانية في %(full_location)s - سيارات للبيع، الكترونيات، ملابس، أثاث، كمبيوترات، ألعاب، موبايلات وغيرها الكثير من السلع للبيع"
+msgstr "Annonces gratuites à %(full_location)s - Trouver des voitures à vendre, articles à vendre,électronique, vętements, meubles, ordinateurs, jeux vidéo, jouets et autres articles."
 
 #: fuego/meta_settings.py:230
 #, python-format
 msgid "ads, free ads, %(country)s classifieds"
-msgstr "إعلانات مبوبة، إعلانات مجانية، إعلانات %(country)s"
+msgstr "petites annonces, annonces gratuites, %(country)s petites annonces"
 
 #: fuego/meta_settings.py:234
 #, python-format
 msgid "Buy & Sell Baby Clothes & Items in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "بيع وشراء ملابس ومستلزمات الاطفال في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Acheter & Vendre Vętements de Bébé et Articles à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:235
 #, python-format
 msgid "Find new and used baby items including clothes, toys, car seats, feeding bottles, and nursery furniture in %(full_location)s. Click here to see prices and pictures."
-msgstr "ابحث و جد مستلزمات جديدة ومستعملة للأطفال، ألعاب، مقاعد جلوس وغيرها في %(full_location)s. اضعط هنا لمشاهدة الصور والأسعار"
+msgstr "Recherchez des articles pour bébés neufs et d'occasion, y compris des vêtements, des jouets, sièges auto, biberons, et des meubles de pépinière à %(full_location)s. Cliquez ici pour voir les prix et les photos."
 
 #: fuego/meta_settings.py:236
 #, python-format
 msgid "baby items, clothing, toys, car seats, bottles, nursery furniture in %(city_or_country)s, in %(country)s"
-msgstr "ملابس ومستلزمات الأطفال، ألعاب، مقاعد السيارات للأطفال في %(city_or_country)s، في %(country)s"
+msgstr "articles pour bébés, vêtements, jouets, sièges auto, biberons, meubles de pépinière à %(city_or_country)s, à %(country)s"
 
 #: fuego/meta_settings.py:240
 #, python-format
 msgid "Yachts & Boats for sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "يخوت وقوارب للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Yachts & Bateaux à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:241
 #, python-format
 msgid "Buy or sell a wide range of new and used boats and yachts from direct owners, dealers, and brokers in %(full_location)s. Click here to see prices and photos."
-msgstr "بيع وشراء مجموعة واسعة من القوارب واليخوت الجديدة والمستعملة ومن المالك مباشرة في %(full_location)s. أضغط هنا لمشاهدة الصور والأسعار"
+msgstr "Acheter ou vendre une large gamme de bateaux neufs et d'occasion et des yachts auprès propriétaires directement, distributeurs, courtiers à %(full_location)s. Cliquez ici pour voir les prix et photos."
 
 #: fuego/meta_settings.py:242
 #, python-format
 msgid "boats for sale, yachts for sale, fishing boat, boats, boats for sale, boats in %(city_or_country)s"
-msgstr "يخوت وقوارب للبيع، قوارب صيد الأسماك في %(city_or_country)s"
+msgstr "bateaux à vendre, yacht à vendre, bateau de pęche, voiliers, bateaux d'occasion à vendre %(city_or_country)s"
 
 #: fuego/meta_settings.py:246
 #, python-format
 msgid "Buy & Sell New & Used Books in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "بيع وشراء الكتب الجديدة والمستعملة في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Livres Neufs et d'Occasion à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:247
 #, python-format
 msgid "Buy & sell new and used books including audio books, e-books, fiction & non-fiction books, and texbooks in %(full_location)s. Click here to see prices and photos."
-msgstr "بيع وشراء الكتب الجديدة والمستعملة - كتب ألكترونية، كتب صوتية، كتب خيالية، روايات، وغيرها الكثير في %(full_location)s. اضغط هنا لمشاهدة الصور والأسعار"
+msgstr "Achetez et vendez vos livres neufs et usagés, y compris des livres audio, livres électroniques, livres de fiction et non-fiction, texbooks à %(full_location)s. Cliquez ici pour voir les prix et photos."
 
 #: fuego/meta_settings.py:248
 #, python-format
 msgid "selling books, e-books, textbooks, bestsellers, new and used books for sale in %(city_or_country)s, selling books %(city_or_country)s, textbooks for sale in %(city_or_country)s"
-msgstr "كتب للبيع، كتب ألكترونية، كتب صوتية، كتب خيالية، روايات للبيع في %(city_or_country)s، بيع كتب في %(city_or_country)s، كتب مدرسية للبيع في %(city_or_country)s "
+msgstr "livres à vendre, livres électroniques, livres scolaires, meilleures ventes, livres neufs et d'occasions à vendre à %(city_or_country)s / vente livres à  %(city_or_country)s/ livres scolaires à vendre à %(city_or_country)s "
 
 #: fuego/meta_settings.py:252
 #, python-format
 msgid "Business & Industrial Equipment for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "معدات صناعية للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Équipement Professionnel et Industriel à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:253
 #, python-format
 msgid "Buy & sell business & industrial equipment including heavy equipment, agricultural supplies, and manufacturing equipment in %(full_location)s. Click here to see prices and details."
-msgstr "بيع وشراء المعدات الصناعية الثقيلة من رافعات وغيرها في %(full_location)s. أضغط هنا لمشاهدة الصور والأسعار وكافة التفاصيل"
+msgstr "Achetez et vendez vos affaires et équipements industriels y compris équipement lourd, fournitures agricoles, équipement de fabrication à %(full_location)s. Cliquez ici pour voir les prix et les détails."
 
 #: fuego/meta_settings.py:254
 msgid "Industrial Equipment, Professional Equipment, Heavy Equipment, agricultural equipment, and manufacturing equipment, equipment for sale"
-msgstr "معدات صناعية، معدات ثقيلة، رافعات، خلاطات، معدات ثقيلة للبيع "
+msgstr "Équipement industriel, Équipement Professionnel, Équipement lourd, équipement agricole, et équipement de fabrication, équipement à vendre"
 
 #: fuego/meta_settings.py:258
 #, python-format
 msgid "Camcorders & Cameras for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "كاميرات للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Caméscopes et Appareils Photo à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:259
 #, python-format
 msgid "Buy & sell used cameras, digital cameras, dslr cameras camcorders, binoculars, and camera accessories in %(full_location)s. Click here to see prices and photos."
-msgstr "بيع وشراء كاميرات، كاميرات رقمية، كاميرات ديجيتال، اكسسوارات الكاميرا في %(full_location)s. أضغط هنا لمشاهدة الصور والأسعار."
+msgstr "Achetez et vendez vos caméras utilisées, caméras numériques, appareils photo reflex numériques caméscopes, jumelles et accessoires pour appareils photo à %(full_location)s. Cliquez ici pour voir les prix et photos."
 
 #: fuego/meta_settings.py:260
 msgid "Cameras for sale, camcorders, digital cameras, cameras, nikon, canon, fuji"
-msgstr "كاميرات للبيع، كاميرات ديجيتال، كاميرات رقمية، كاميرات فيديو، كاميرة نيكون، فوجي، كانون "
+msgstr "Appareils Photo à vendre, Caméscopes, caméra numérique, caméras, nikon, canon, fuji"
 
 #: fuego/meta_settings.py:264
 #, python-format
 msgid "Accessories, Clothes & Dresses for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "أكسسوارات, ملابس فساتين للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Accessoires, Vętements et Robes à vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:265
 #, python-format
 msgid "Buy & sell clothing & accessories including dresses, sunglasses, jewelry, handbags, shoes, perfumes and apparel in %(full_location)s. Click here to see prices and photos."
-msgstr "بيع وشراء ملابس واكسسوارات، نظارات شمسية، مجوهرات، حقائب يد، أحذية، عطور وغيرها في %(full_location)s. أضغط هنا لمشاهدة الصور والأسعار."
+msgstr "Achetez et vendez vos vêtementset accessoires, y compris robes, lunettes de soleil, bijoux, sacs à main, chaussures, parfums et vêtements à %(full_location)s. Cliquez ici pour voir les prix et photos."
 
 #: fuego/meta_settings.py:266
 msgid "dresses for sale, clothing, accessories, fashion, men's clothing, women's clothing"
-msgstr "فساتين للبيع، ملابس للبيع، موضة، ملابس ستاتي، ملابس رجال، اكسسوارات"
+msgstr "robes à vendre, vętements, accessories, mode, vętements pour homme, vętements pour femmes"
 
 #: fuego/meta_settings.py:270
 #, python-format
 msgid "Laptops, Tablets & Computers for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "كمبيوترات ولابتوبات للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Ordinateurs Portables, Tablettes et Ordinateurs à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:271
 #, python-format
 msgid "Buy & sell computers, pc, laptops, tablets, ipads, printers, monitors, hard drives and other computer accessories in %(full_location)s. Click here to see prices and photos."
-msgstr "بيع وشراء الكمبيوترات، لابتوبات، كمبيوترات محمولة، آيباد و اكسسوارات الكمبيوتر في %(full_location)s. أضغط هنا لمشاهدة الصور والأسعار."
+msgstr "Achetez et vendez vos ordinateurs, pc, ordinateurs portables, tablettes, iPads, imprimantes, moniteurs, disques durs et autres accessoires informatiques à %(full_location)s. Cliquez ici pour voir les prix et photos."
 
 #: fuego/meta_settings.py:272
 msgid "laptops for sale, computer, computers, ipad, mac, printers"
-msgstr "لابتوبات للبيع، كمبيوترات محمولة، ايباد، طابعة، ماك للبيع"
+msgstr "ordinateurs portables à vendre, ordinateur, ordinateurs, ipad, mac, imprimantes"
 
 #: fuego/meta_settings.py:276
 #, python-format
 msgid "Home Appliances & Electronics for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "أدوات منزلية و ألكترونيات للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Appareils Électroménager  & Electronics à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:277
 #, python-format
 msgid "Discover great deals on used electronics, gadgets, tv's, refrigerators, home theatres, and other home appliances in %(full_location)s. Click here to view prices and pictures."
-msgstr "اكتشف أفضل أسعار الالكترونيات، التلفزيونات، الثلاجات، الأدوات الكترونية وجميع أدوات المنزل في %(full_location)s. أضغط هنا لمشاهدة الصور والأسعار."
+msgstr "Découvrez les meilleures offres sur les produits électroniques utilisés, gadgets, téléviseurs,  réfrigérateurs, home cinéma, et autres appareils ménagers à %(full_location)s. Cliquez ici pour voir les prix et photos."
 
 #: fuego/meta_settings.py:278
 #, python-format
 msgid "Electronics devices, electronic selling, televisions, home theater speakers, washing machine, refrigerator, home theater, best deals on electrical appliances in %(city_or_country)s"
-msgstr "أداوت منزلية و ألكترونيات للبيع، تلفزيونات، سماعات، غسالات، ثلاجات في %(city_or_country)s"
+msgstr "Appareils Électroménager, electroniques à vendre, téléviseurs, home cinéma, haut-parleurs, machine à laver, réfrigérateur,  home cinéma, vente appareil éléctroménager à %(city_or_country)s, meilleures offres sur éléctroménager à %(city_or_country)s"
 
 #: fuego/meta_settings.py:282
 #, python-format
 msgid "Garden & Home Furniture for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "أثاث المنزل والحدائق للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Meubles Jardin & Maison à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:283
 #, python-format
 msgid "Find brand new and used home and garden furniture in %(full_location)s including sofas, chairs, dining tables, beds and other furniture. Click here to see prices and photos."
-msgstr "أبحث و جد أثاث المنزل والحدائق الجديدة والمستعملة في %(full_location)s - مقاعد، كنبايات، طاولات وغيرها من المفروشات. أضغط هنا لمشاهدة الصور والأسعار."
+msgstr "Trouver la meilleure marque neufs et d'occasion pour fourniture jardin et maison à %(full_location)s, y compris des canapés, chaises, tables à manger, lits et autres meubles. Cliquez ici pour voir les prix et photos."
 
 #: fuego/meta_settings.py:284
 #, python-format
 msgid "furniture for sale, home, garden, bed, tables, sofa, wardrobe, lounge, garden furniture and sell houses in %(city_or_country)s"
-msgstr "أثاث المنزل والحدائق للبيع، طاولات، أريكة، سرير، خزانة، غرفة الجلوس في %(city_or_country)s"
+msgstr "meubles à vendre, maison, jardin, lit, tables, canapé, garde-robe, salon,  vente meubles jardin et maisons à %(city_or_country)s "
 
 #: fuego/meta_settings.py:288
 #, python-format
 msgid "Jewelry & Watches for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "مجوهرات وساعات للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Bijoux & Montres à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:289
 msgid "Buy & sell a wide range of jewelry and watches including earrings, necklaces, rings, men's and women's watches. Click here to see prices and photos."
-msgstr "بيع وشراء مجموعة كبيرة من الساعات و المجوهرات بما فيها عقود، حلق، خواتم، ساعات للرجال و النساء. أضغط هنا لمشاهدة الصورة والأسعار."
+msgstr "Achetez et vendez une large gamme de bijoux et de montres, y compris boucles d'oreilles, colliers, bagues, montres pour hommes et femmes. Cliquez ici pour voir les prix et photos."
 
 #: fuego/meta_settings.py:290
 #, python-format
 msgid "watches for sale, jewelry, rings, watches for men, watches for women, necklaces, diamonds, jewelry in %(city_or_country)s"
-msgstr "ساعات للبيع، مجوهرات للبيع، خواتم للبيع، ساعات رجالي، ساعات للنساء، ألماس للبيع في %(city_or_country)s"
+msgstr "montres à vendre, bijoux, bagues, montres pour homme, montres pour femmes, colliers, diamants, ente bijoux à %(city_or_country)s / bijoux hommes, femmes vente à %(city_or_country)s "
 
 #: fuego/meta_settings.py:294
 #, python-format
 msgid "Motorcycle & Bikes for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "دراجات هوائية ودراجات نارية للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Moto & Vélo à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:295
 #, python-format
 msgid "Buy & Sell motorcycles and bikes in %(full_location)s. Find photos and prices of new and second hand motorcycles and bikes from direct owners."
-msgstr "دراجات هوائية ودراجات نارية للبيع في %(full_location)s. ابحث و جد صور وأسعار الدراجات الجديدة والمستعملة واشتري من البائع مباشرة"
+msgstr "Achetez et vendez motos & vélos à %(full_location)s. Trouver des photos et les prix des motos neuves et d'occasion et les vélos directement auprès des propriétaires."
 
 #: fuego/meta_settings.py:296
 #, python-format
 msgid "bikes for sale, motorcycles for sale, honda, suzuzki, harley, kawasaki, bikes, bmx, bikes, motorcycles for sale in %(city_or_country)s"
-msgstr "دراجات للبيع، دراجات هوائية للبيع، دراجات نارية للبيع، هوندا، سوزوكي، موتوسيكل للبيع في %(city_or_country)s"
+msgstr "velos à vendre, motos à vendre, honda, suzuzki, harley, kawasaki, velos, bmx, motos, differentes marques de motos à vendre à %(city_or_country)s "
 
 #: fuego/meta_settings.py:300
 #, python-format
 msgid "Mobile Phones, PDA's & iPhones for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "هواتف محمولة و آيفونات للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Téléphones Mobiles, PDA et iPhone à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:301
 #, python-format
 msgid "Buy & sell a wide range of mobile phones, pda's and iphones including mobile phone accessories in %(full_location)s. Click here to see prices and photos."
-msgstr "بيع وشراء مجموعة كبيرة من الهواتف المحمولة و مستلزماتها، أيفون أيباد وغيرها في %(full_location)s. أضغط هنا لمشاهدة الصور والأسعار."
+msgstr "Achetez et vendez une large gamme de téléphones mobiles, PDA et iPhones y compris les accessoires de téléphones mobiles à %(full_location)s. Cliquez ici pour voir les prix et photos."
 
 #: fuego/meta_settings.py:302
 msgid "iphone for sale, mobile phones, cell phone, smart phone, pda, android phones, handheld, samsung, nokia"
-msgstr "أيفون للبيع، موبايل للبيع، موبايلات للبيع، هواتف ذكية للبيع، موبايل اندرويد، سامسونج، نوكيا"
+msgstr "iphone for sale, mobile phones, cell phone, smart phone, pda, android phones, handheld"
 
 #: fuego/meta_settings.py:306
 #, python-format
 msgid "Music & DVD Movies for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "موسيقى وأفلام ديفيدي للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Musique & Films en DVD à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:307
 #, python-format
 msgid "Buy & sell dvd, blu ray, and high definition movies, cd's, mp3 music, and vinyls in %(full_location)s. Click here to see prices and details."
-msgstr "بيع وشراء أفلام ديفيدي، سيديات، موسيقى ام بي ثري وغيرها في %(full_location)s. أضغط هنا لمشاهدة الصور والأسعار."
+msgstr "Achetez et vendez vos dvd, blu ray, et des films en haute définition, cd, mp3, et vinyles à %(full_location)s. Cliquez ici pour voir les prix et les détails."
 
 #: fuego/meta_settings.py:308
 msgid "dvd for sale, cd's, mp3 music"
-msgstr "أفلام ديفيدي، أفلام ديفيدي للبيع، موسيقى للبيع، أغاني ام بي ثري للبيع"
+msgstr "dvd à vendre, cd's, musique mp3 "
 
 #: fuego/meta_settings.py:312
 #, python-format
 msgid "Musical Instruments for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "آلات موسيقية للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Instruments de Musique à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:313
 #, python-format
 msgid "Buy & sell new and used musical instruments including pianos, guitars, violins, flute, drums and other instruments in %(full_location)s. Click here to see prices and photos."
-msgstr "بيع وشراء آلات موسيقية جديدة ومستعملة بما فيها بيانو، جيتار، كمنجة وغيرها الكثير في %(full_location)s. أضغط هنا لمشاهدة الصور والأسعار."
+msgstr "Achetez et vendez des instruments de musique neufs et d'occasion, y compris pianos, guitares, violons, flűte, tambours et autres instruments à %(full_location)s. Cliquez ici pour voir les prix et photos."
 
 #: fuego/meta_settings.py:314
 #, python-format
 msgid "Musical Instruments for sale, guitars, violins, drums, speakers, musical instruments sales in %(city_or_country)s"
-msgstr "آلات موسيقية للبيع، جيتار، كمنجة، طبل، بيانو، مكبرات الصوت للبيع في %(city_or_country)s"
+msgstr "Instruments de Musique à vendre, guitars, violons, batterie, haut-parleurs, ventes instruments de musique à %(city_or_country)s "
 
 #: fuego/meta_settings.py:318
 #, python-format
 msgid "Animals & Pets in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "حيوانات أليفة للتبني في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Adoption animaux de compagnie à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:319
 #, python-format
 msgid "Want to buy or adopt pets in %(full_location)s Find dogs, puppies, cats, kittens, and birds today."
-msgstr "تبني حيوانات أليفة، كلاب، قطط، طيور وغيرها في %(full_location)s اليوم. أضغط هنا لمشاهدة الصور."
+msgstr "Vous voulez adopter des Animaux de Compagnie à %(full_location)s. Adopter chiens errants, chiots, chats, chatons, oiseaux aujourd'hui."
 
 #: fuego/meta_settings.py:320
 msgid "pets, dogs, cats, puppies, kittens, pets, pet adoption"
-msgstr "حيوانات أليفة للتبني، كلاب، قطط، طيور، حيوانات، حيوانات أليفة للتبني"
+msgstr "animaux de compagnie, chiens, chats, chiots, chatons, animaux, adoption d'animaux"
 
 #: fuego/meta_settings.py:324
 #, python-format
 msgid "Sports & Gym Equipment for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "معدات رياضية للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Équipement de Sport et Gymnase à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:325
 #, python-format
 msgid "Buy & sell new and used sports & gym equipment including treadmills, dumbbells, cross trainers, camping equipment, and sports apparel in  %(full_location)s . Click here to see prices and photos."
-msgstr "بيع وشراء أجهزة و معدات رياضية مثل جهاز المشي وجهاز المعدة و تقوية العضلات والأثقال وغيرها في %(full_location)s . أضغط هنا لمشاهدة الصور والأسعار."
+msgstr "Achetez et vendez équipement de sport & gymnase neufs et d'occasion, y compris  tapis roulants, haltères, formateurs de la Croix, l'équipement de camping, et vêtements de sport à %(full_location)s. Cliquez ici pour voir les prix et photos."
 
 #: fuego/meta_settings.py:326
 msgid "Gym equipment, treadmill, sports, fitness, weight, weights"
-msgstr "معدات رياضية، أجهزة رياضة، جهاز مشي، جهاز معدة، جهاز تقوية عضلا، أثقال"
+msgstr "Équipements salle de sport, tapis roulant, sport, remise en forme, poids, haltères "
 
 #: fuego/meta_settings.py:330
 #, python-format
 msgid "Vouchers, Concert & Airline Tickets for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "كوبونات وقسائم و تذاكر طيارات للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Coupons, Tiket Concert & Billets d'Avion à vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:331
 #, python-format
 msgid "Buy & sell tickets & vouchers including airline tickets, concert tickets, and tickets to movies, and other events in %(full_location)s. Click here to see prices and details."
-msgstr "بيع وشراء كوبونات وقسائم، تذاكر طيارات، تذاكر حفلات، تذاكر سينما، وغيرها الكثير في %(full_location)s. أضغط لمشاهدة الصور والأسعار."
+msgstr "Achetez et vendez vos billets et bons de réduction y compris billets d'avion, billets de concert, et billets pour des films, et d'autres événements à %(full_location)s. Cliquez ici pour voir les prix et les détails."
 
 #: fuego/meta_settings.py:332
 #, python-format
 msgid "concert tickets, vouchersfor sale, Events and Tickets, Concert tickets for sale in %(city_or_country)s"
-msgstr "كوبونات وقسائم وتذاكر طيارات. تذاكر خفلات للبيع في %(city_or_country)s"
+msgstr "concert tickets, coupons, Billets pour Événements et Billets d'Avion, bons de Réduction, tiket Concert & billets d' avion à vendre %(city_or_country)s"
 
 #: fuego/meta_settings.py:336
 #, python-format
 msgid "Collectibles & Toys for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "ألعاب للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Objets de Collection et Jouets à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:337
 #, python-format
 msgid "Buy & sell new and used collectibles and toys including action figures, stuffed animals, educational toys, puzzles, and more in %(full_location)s. Click here to see prices and photos."
-msgstr "بيع وشراء الألعاب والألغار والحزازير في %(full_location)s. أضغط هنا لمشاهدة الصور والأسعار."
+msgstr "Achetez et vendez des objets de collection neufs et d'occasion et jouets, y compris des figurines, des animaux en peluche, jouets éducatifs, puzzles, et bien plus encore à %(full_location)s. Cliquez ici pour voir les prix et photos."
 
 #: fuego/meta_settings.py:338
 msgid "Toys for sale, collectibles, gifts, collectibles, antiques"
-msgstr "ألعاب للبيع، حزازير، ألغاز، المقتنيات"
+msgstr "Jouets à vendre, objets de collection, cadeaux, collections, antiquaires"
 
 #: fuego/meta_settings.py:342
 #, python-format
 msgid "Game Consoles & Video Games for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "أجهزة و ألعاب فيديو للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Consoles de Jeux & Jeux Vidéo à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:343
 #, python-format
 msgid "Buy & sell video games, game consoles, and game accessories in %(full_location)s including PS3, Xbox 360, Nintendo, PSP's, Game Boys and more. Click here to see photos and prices."
-msgstr "بيع وشراء أجهزة و ألعاب الفيديو ومستلزماتها في %(full_location)s بما فيها اكس بوكس، بلايستيشن، وغيرها الكثير. أضغط هنا لمشاهدة الصور والأسعار."
+msgstr "Achetez et vendez vos jeux vidéo, consoles de jeux, et accessoires de jeux à  %(full_location)s, y compris PS3, Xbox 360, Nintendo, PSP, Game Boys et plus encore. Cliquez ici pour voir les photos et les prix."
 
 #: fuego/meta_settings.py:344
 msgid "video games, xbox 360, playstation, ps3, psp, nintendo, pc games"
-msgstr "ألعاب فيديو، بليستيشن، بلايستيشن، أكس بوكس، ألعاب كمبيوتر "
+msgstr "video games, xbox 360, playstation, ps3, psp, nintendo, pc games"
 
 #: fuego/meta_settings.py:348
 #, python-format
 msgid "Items Wanted in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "أشياء مطلوبة في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Articles recherchés à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:349
 #, python-format
 msgid "List your wanted items & stuff for free on %(BRAND_NAME)s %(country)s."
-msgstr "أضف اعلان بالأشياء المطلوبة التي تحتاجها مجاناً على %(BRAND_NAME)s %(country)s"
+msgstr "Publiez vos articles recherchés et plein de trucs gratuitement sur %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:350
 msgid "Items wanted, looking for"
-msgstr "أشياء مطلوبة، سلع مطلوبة"
+msgstr "Articles Recherchés, Recherche articles"
 
 #: fuego/meta_settings.py:354
 #, python-format
 msgid "Other Items for Sale in %(full_location)s | %(BRAND_NAME)s %(country)s"
-msgstr "أشياء أخرى للبيع في %(full_location)s | %(BRAND_NAME)s %(country)s"
+msgstr "Autres Objets à Vendre à %(full_location)s | %(BRAND_NAME)s %(country)s"
 
 #: fuego/meta_settings.py:355
 #, python-format
 msgid "Buy & sell any other items. List your ads for free on %(BRAND_NAME)s %(country)s."
-msgstr "بيع وشراء أشياء أخرى. أضف اعلانك مجاناً على %(BRAND_NAME)s %(country)s"
+msgstr "Achetez et vendez n'importe quel autre article. Publiez vos annonces gratuitement sur %(BRAND_NAME)s %(country)s."
 
 #: fuego/meta_settings.py:356
 #, python-format
 msgid "Other items, items for sale, Other Items for Sale in %(city_or_country)s"
-msgstr "أشياء للبيع، سلع للبيع، أغراض للبيع في %(city_or_country)s"
+msgstr "Autres Articles, articles à vendre, Autres Articles à Vendre %(city_or_country)s"
 
 #: fuego/meta_settings.py:364
 msgid "Buy and sell anything | OLX, powered by dubizzle"
-msgstr "بيع واشتري اي شيء | أوليكس بإدارة دوبيزل"
+msgstr "Petites Annonces Gratuites sur OLX, soutenu par dubizzle"
 
 #: fuego/meta_settings.py:365
 #, python-format
 msgid "Find the best deals from thousands of ads on OLX, powered by dubizzle. Post ads & browse for real estate, cars, jobs and classifieds in %(country)s."
-msgstr "أوليكس بإدارة دوبيزل هو الموقع المحلي المجاني للإعلانات المبوبة في %(country)s. وظائف شاغرة, عقارات, سيارات. أضف اعلان, بيع واشتري واستأجر."
+msgstr "Trouvez un emploi, des biens et services immobiliers à la vente ainsi que des voitures à vendre en %(country)s sur OLX, soutenu par dubizzle."
 
 #: fuego/meta_settings.py:366 fuego/meta_settings.py:372
 #, python-format
 msgid "dubizzle %(full_location)s, free classifieds, online classifieds, %(full_location)s classifieds, free classifieds in %(full_location)s"
-msgstr "دوبيزل  %(full_location)s، مبوبة مجانيه، إعلانات مبوبة عبر الإنترنت، مبوبة  %(full_location)s، إعلانات مبوبة مجانيه في %(full_location)s"
+msgstr "dubizzle %(full_location)s, petites annonces gratuites, petites annonces en ligne, %(full_location)s petites annonces, petites annonces en %(full_location)s"
 
 #: fuego/meta_settings.py:370
 #, python-format
 msgid "Free Classifieds in %(full_location)s | %(BRAND_NAME)s"
-msgstr "إعلانات مبوبة مجانية في %(full_location)s | %(BRAND_NAME)s"
+msgstr "Petites Annonces Gratuites à %(full_location)s | %(BRAND_NAME)s"
 
 #: fuego/meta_settings.py:371
 #, python-format
 msgid "%(BRAND_NAME)s is your free local classifieds website in %(full_location)s. Post ads & browse for real estate, cars, jobs and classifieds in %(country)s."
-msgstr "%(BRAND_NAME)s هو الموقع المحلي المجاني للإعلانات المبوبة في %(full_location)s. وظائف شاغرة، عقارات، سيارات وإعلانات مبوبة. أضف إعلان، تصفح الإعلانات، بيع واشتري واستأجر في %(country)s."
+msgstr "%(BRAND_NAME)s est votre premier site de petites annonces gratuites à %(full_location)s. Trouvez un emploi, Immobilier, Voitures Occasion et Articles à Vendre à %(country)s. Passez une annonce, achetez et vendez."
 
 #: fuego/shared_settings.py:63
 msgid "Bahrain"
-msgstr "البحرين"
+msgstr ""
 
 #: fuego/shared_settings.py:71
 msgid "Jordan"
-msgstr "الأردن"
+msgstr ""
 
 #: fuego/shared_settings.py:79
 msgid "Saudi"
-msgstr "السعودية"
+msgstr ""
 
 #: fuego/shared_settings.py:87
 msgid "Egypt"
-msgstr "مصر"
+msgstr ""
 
 #: fuego/shared_settings.py:95
 msgid "Qatar"
-msgstr "قطر"
+msgstr ""
 
 #: fuego/shared_settings.py:103
 msgid "Oman"
-msgstr "عمان"
+msgstr ""
 
 #: fuego/shared_settings.py:111
 msgid "Lebanon"
-msgstr "لبنان"
+msgstr ""
 
 #: fuego/shared_settings.py:127
 msgid "Kuwait"
-msgstr "الكويت"
+msgstr ""
 
-#: fuego/shared_settings.py:135
+#: fuego/shared_settings.py:135 fuego/tunisie_settings.py:33
 msgid "Tunisie"
-msgstr "تونس"
+msgstr "Tunisie"
+
+#: fuego/tunisie_settings.py:35
+msgid "TND"
+msgstr "TND"
+
+#: fuego/tunisie_settings.py:47
+msgid "Tunis"
+msgstr "Tunis"
+
+#: fuego/tunisie_settings.py:63 fuego/tunisie_settings.py:468
+msgid "Sfax"
+msgstr "Sfax"
+
+#: fuego/tunisie_settings.py:71 fuego/tunisie_settings.py:545
+msgid "Sousse"
+msgstr "Sousse"
+
+#: fuego/tunisie_settings.py:86
+msgid "Carthage"
+msgstr "Carthage"
+
+#: fuego/tunisie_settings.py:91
+msgid "Sidi Bou Said"
+msgstr "Sidi Bou Said"
+
+#: fuego/tunisie_settings.py:96
+msgid "Al Marsa"
+msgstr "Al Marsa"
+
+#: fuego/tunisie_settings.py:101
+msgid "Gammarth"
+msgstr "Gammarth"
+
+#: fuego/tunisie_settings.py:106
+msgid "La soukra"
+msgstr "La soukra"
+
+#: fuego/tunisie_settings.py:111
+msgid "Charguia"
+msgstr "Charguia"
+
+#: fuego/tunisie_settings.py:116
+msgid "Le Kram"
+msgstr "Le Kram"
+
+#: fuego/tunisie_settings.py:121
+msgid "Sidi Daoud"
+msgstr "Sidi Daoud"
+
+#: fuego/tunisie_settings.py:126
+msgid "La Goulette"
+msgstr "La Goulette"
+
+#: fuego/tunisie_settings.py:131
+msgid "Megrine"
+msgstr "Megrine"
+
+#: fuego/tunisie_settings.py:136
+msgid "Ben Arous"
+msgstr "Ben Arous"
+
+#: fuego/tunisie_settings.py:141
+msgid "Rades"
+msgstr "Rades"
+
+#: fuego/tunisie_settings.py:146
+msgid "Ez Zahra"
+msgstr "Ez Zahra"
+
+#: fuego/tunisie_settings.py:151
+msgid "Hammam lif"
+msgstr "Hammam lif"
+
+#: fuego/tunisie_settings.py:156
+msgid "Bou Mhel el-Basatine"
+msgstr "Bou Mhel el-Basatine"
+
+#: fuego/tunisie_settings.py:161
+msgid "Nouvelle Medina"
+msgstr "Nouvelle Medina"
+
+#: fuego/tunisie_settings.py:166
+msgid "El Mourouj"
+msgstr "El Mourouj"
+
+#: fuego/tunisie_settings.py:171
+msgid "Tahar Haddad"
+msgstr "Tahar Haddad"
+
+#: fuego/tunisie_settings.py:176
+msgid "La Cagna"
+msgstr "La Cagna"
+
+#: fuego/tunisie_settings.py:181
+msgid "Sayda El Manoubia"
+msgstr "Sayda El Manoubia"
+
+#: fuego/tunisie_settings.py:186
+msgid "Bab El Gorjani"
+msgstr "Bab El Gorjani"
+
+#: fuego/tunisie_settings.py:191
+msgid "Montfleury"
+msgstr "Montfleury"
+
+#: fuego/tunisie_settings.py:196
+msgid "Bab Alioua"
+msgstr "Bab Alioua"
+
+#: fuego/tunisie_settings.py:201
+msgid "Bab Al Jazera"
+msgstr "Bab Al Jazera"
+
+#: fuego/tunisie_settings.py:206
+msgid "Nouvelle Ville"
+msgstr "Nouvelle Ville"
+
+#: fuego/tunisie_settings.py:211
+msgid "Sidi El Bichir"
+msgstr "Sidi El Bichir"
+
+#: fuego/tunisie_settings.py:216
+msgid "Souks"
+msgstr "Souks"
+
+#: fuego/tunisie_settings.py:221
+msgid "El Hafsia"
+msgstr "El Hafsia"
+
+#: fuego/tunisie_settings.py:226
+msgid "Le Passage"
+msgstr "Le Passage"
+
+#: fuego/tunisie_settings.py:231
+msgid "La Rabta"
+msgstr "La Rabta"
+
+#: fuego/tunisie_settings.py:236
+msgid "El Halfaouine"
+msgstr "El Halfaouine"
+
+#: fuego/tunisie_settings.py:241
+msgid "Lafayette"
+msgstr "Lafayette"
+
+#: fuego/tunisie_settings.py:246
+msgid "Montplaisir"
+msgstr "Montplaisir"
+
+#: fuego/tunisie_settings.py:251
+msgid "Bourgil"
+msgstr "Bourgil"
+
+#: fuego/tunisie_settings.py:256
+msgid "An Najah"
+msgstr "An Najah"
+
+#: fuego/tunisie_settings.py:261
+msgid "Attayarane"
+msgstr "Attayarane"
+
+#: fuego/tunisie_settings.py:266
+msgid "Bou Choucha"
+msgstr "Bou Choucha"
+
+#: fuego/tunisie_settings.py:271
+msgid "Bab Saadoune"
+msgstr "Bab Saadoune"
+
+#: fuego/tunisie_settings.py:276
+msgid "Sous officiers"
+msgstr "Sous officiers"
+
+#: fuego/tunisie_settings.py:281
+msgid "El Agba"
+msgstr "El Agba"
+
+#: fuego/tunisie_settings.py:286
+msgid "Dendan"
+msgstr "Dendan"
+
+#: fuego/tunisie_settings.py:291
+msgid "La Manouba"
+msgstr "La Manouba"
+
+#: fuego/tunisie_settings.py:296
+msgid "El Habib"
+msgstr "El Habib"
+
+#: fuego/tunisie_settings.py:301
+msgid "Le Bardo"
+msgstr "Le Bardo"
+
+#: fuego/tunisie_settings.py:306
+msgid "Ras Ettabia"
+msgstr "Ras Ettabia"
+
+#: fuego/tunisie_settings.py:311
+msgid "Rommana"
+msgstr "Rommana"
+
+#: fuego/tunisie_settings.py:316
+msgid "Jbal Lahmar"
+msgstr "Jbal Lahmar"
+
+#: fuego/tunisie_settings.py:321 fuego/tunisie_settings.py:326
+msgid "El Omrane"
+msgstr "El Omrane"
+
+#: fuego/tunisie_settings.py:331
+msgid "Mutuelleville"
+msgstr "Mutuelleville"
+
+#: fuego/tunisie_settings.py:336
+msgid "Cite Jardins"
+msgstr "Cite Jardins"
+
+#: fuego/tunisie_settings.py:341
+msgid "Cite El Khadra"
+msgstr "Cite El Khadra"
+
+#: fuego/tunisie_settings.py:346
+msgid "Cite Olympique"
+msgstr "Cite Olympique"
+
+#: fuego/tunisie_settings.py:351
+msgid "Al Manzah"
+msgstr "Al Manzah"
+
+#: fuego/tunisie_settings.py:356
+msgid "Al Manar"
+msgstr "Al Manar"
+
+#: fuego/tunisie_settings.py:361
+msgid "Cite Ibn Khaldoun"
+msgstr "Cite Ibn Khaldoun"
+
+#: fuego/tunisie_settings.py:366
+msgid "Cite Ettahrir"
+msgstr "Cite Ettahrir"
+
+#: fuego/tunisie_settings.py:371
+msgid "Ariana"
+msgstr "Ariana"
+
+#: fuego/tunisie_settings.py:376
+msgid "Chotrana"
+msgstr "Chotrana"
+
+#: fuego/tunisie_settings.py:381
+msgid "Sidi Salah"
+msgstr "Sidi Salah"
+
+#: fuego/tunisie_settings.py:386
+msgid "Al Rafaha"
+msgstr "Al Rafaha"
+
+#: fuego/tunisie_settings.py:391
+msgid "Ceti Al Faouz"
+msgstr "Ceti Al Faouz"
+
+#: fuego/tunisie_settings.py:398
+msgid "Agareb"
+msgstr "Agareb"
+
+#: fuego/tunisie_settings.py:403
+msgid "Bir Ali Ben Khelifa"
+msgstr "Bir Ali Ben Khelifa"
+
+#: fuego/tunisie_settings.py:408
+msgid "Bir Salah"
+msgstr "Bir Salah"
+
+#: fuego/tunisie_settings.py:413
+msgid "Chihia"
+msgstr "Chihia"
+
+#: fuego/tunisie_settings.py:418
+msgid "El Ain"
+msgstr "El Ain"
+
+#: fuego/tunisie_settings.py:423
+msgid "Graiba"
+msgstr "Graiba"
+
+#: fuego/tunisie_settings.py:428
+msgid "Gremda"
+msgstr "Gremda"
+
+#: fuego/tunisie_settings.py:433
+msgid "Jebiniana"
+msgstr "Jebiniana"
+
+#: fuego/tunisie_settings.py:438
+msgid "Kerkennah"
+msgstr "Kerkennah"
+
+#: fuego/tunisie_settings.py:443
+msgid "El Hencha"
+msgstr "El Hencha"
+
+#: fuego/tunisie_settings.py:448
+msgid "Mahres"
+msgstr "Mahres"
+
+#: fuego/tunisie_settings.py:453
+msgid "Menzel Chaker"
+msgstr "Menzel Chaker"
+
+#: fuego/tunisie_settings.py:458
+msgid "Sakiet Eddaier"
+msgstr "Sakiet Eddaier"
+
+#: fuego/tunisie_settings.py:463
+msgid "Sakiet Ezzit"
+msgstr "Sakiet Ezzit"
+
+#: fuego/tunisie_settings.py:473
+msgid "Skhira"
+msgstr "Skhira"
+
+#: fuego/tunisie_settings.py:478
+msgid "Thyna"
+msgstr "Thyna"
+
+#: fuego/tunisie_settings.py:485
+msgid "Akouda"
+msgstr "Akouda"
+
+#: fuego/tunisie_settings.py:490
+msgid "Bouficha"
+msgstr "Bouficha"
+
+#: fuego/tunisie_settings.py:495
+msgid "Enfida"
+msgstr "Enfida"
+
+#: fuego/tunisie_settings.py:500
+msgid "Ezzouhour"
+msgstr "Ezzouhour"
+
+#: fuego/tunisie_settings.py:505
+msgid "Hammam Sousse"
+msgstr "Hammam Sousse"
+
+#: fuego/tunisie_settings.py:510
+msgid "Hergla"
+msgstr "Hergla"
+
+#: fuego/tunisie_settings.py:515
+msgid "Kalaa Kebira"
+msgstr "Kalaa Kebira"
+
+#: fuego/tunisie_settings.py:520
+msgid "Kalaa Seghira"
+msgstr "Kalaa Seghira"
+
+#: fuego/tunisie_settings.py:525
+msgid "Kondar"
+msgstr "Kondar"
+
+#: fuego/tunisie_settings.py:530
+msgid "Ksibet Thrayet"
+msgstr "Ksibet Thrayet"
+
+#: fuego/tunisie_settings.py:535
+msgid "Messaadine"
+msgstr "Messaadine"
+
+#: fuego/tunisie_settings.py:540
+msgid "M'saken"
+msgstr "M'saken"
+
+#: fuego/tunisie_settings.py:550
+msgid "Sidi Bou Ali"
+msgstr "Sidi Bou Ali"
+
+#: fuego/tunisie_settings.py:555
+msgid "Sidi El Hani"
+msgstr "Sidi El Hani"
+
+#: fuego/tunisie_settings.py:560
+msgid "Zaouiet Sousse"
+msgstr "Zaouiet Sousse"
+
+#: fuego/tunisie_settings.py:595
+msgid "Jobs in Tunisie, Property & Real Estate For Sale & Rent, Cars for Sale - Free Classifieds in Tunisie | OLX dubizzle Tunisie"
+msgstr "Petites Annonces en Tunisie - Offres d'emploi en Tunisie, Propriétés et Immobiliers à Vendre, Voitures à Vendre - Petites Annonces Gratuites en Tunisie | OLX dubizzle Tunisie"
+
+#: fuego/tunisie_settings.py:599
+msgid "OLX dubizzle is your free and friendly local classifieds website in Tunisie. Jobs, property, real estate, cars and classifieds in Tunisie. Post an ad, browse ads, buy, sell or rent."
+msgstr "OLX dubizzle est votre premier site de petites annonces gratuites en Tunisie. Trouvez un emploi, des biens et services immobiliers à la vente ainsi que des  voitures à vendre en Tunisie"
+
+#: fuego/tunisie_settings.py:604
+msgid "OLX dubizzle Tunisie, free classifieds, online classifieds, Tunisie classifieds, free classifieds in Tunisie"
+msgstr "OLX dubizzle Tunisie, petites annonces gratuites, petites annonces en ligne, Tunisie petites annonces, petites annonces en Tunisie"
 
 #: fuego/forms/__init__.py:144
 msgid "Enter your name please, nobody likes to talk to a stranger ;)"
-msgstr "عرفنا على إسمك... \"وعاشت الأسامي\"."
+msgstr "Veuillez entrer votre nom - personne n'aime s'adresser à un inconnu ;)"
 
 #: fuego/forms/__init__.py:145
 #: templates/listings/reply/reply_to_listing_include.html:49
 #: templates/listings/reply/reply_to_listing_include.html:50
 msgid "Name"
-msgstr "الاسم"
+msgstr "Votre nom"
 
 #: fuego/forms/__init__.py:152 listings/forms.py:159
 #: templates/listings/snippets/_form.html:166
 msgid "Mobile Number"
-msgstr "رقم الموبايل"
+msgstr "Numéro de portable"
 
 #: fuego/forms/__init__.py:156
 msgid "Don't be shy...if you have any questions about the ad, now is the time to ask."
-msgstr "لقد نسيت اضافة رسالتك للمعلن. هل تحتاج لمزيد من المعلومات عن هذا الإعلان؟ لا حرج في السؤال!"
+msgstr "Ne soyez pas timide... si vous avez des questions au sujet de l'annonce, c'est le moment de les poser."
 
 #: fuego/forms/__init__.py:157 listings/forms.py:91
 #: templates/listings/reply/reply_to_listing_include.html:69
 #: templates/listings/reply/reply_to_listing_include.html:70
 #: templates/listings/report/report_listing.html:151
 msgid "Message"
-msgstr "الرسالة"
+msgstr "Message"
 
 #: fuego/forms/__init__.py:184 templates/listings/snippets/_form.html:116
 #: templates/public/landing.html:88
 msgid "Choose your city"
-msgstr "إختر مدينتك"
+msgstr "Choisissez votre ville"
 
 #: fuego/forms/__init__.py:191 search/forms.py:175
 #: templates/public/_change_country.html:15
 msgid "City"
-msgstr "المدينة"
+msgstr "Ville"
 
 #: fuego/forms/__init__.py:199 search/forms.py:50
 #, python-format
 msgid "All of %(country)s"
-msgstr "%(country)s بالكامل"
+msgstr ""
 
 #: fuego/forms/fields.py:37
 msgid "Enter a LangDict value."
@@ -1669,7 +2062,7 @@ msgstr ""
 
 #: fuego/forms/fields.py:143
 msgid "Enter a list of values."
-msgstr "نوع الاستفسار"
+msgstr "Veuillez entrer un sujet"
 
 #: fuego/forms/fields.py:144
 msgid "Could not coerce the list of values"
@@ -1692,12 +2085,12 @@ msgstr ""
 #: templates/user_profiles/my_listings.html:291
 #: templates/user_profiles/my_listings.html:390 utils/prettify_filters.py:132
 msgid "Free"
-msgstr "مجاني"
+msgstr "Gratuite"
 
 #: listings/formatters.py:33
 #, python-format
 msgid "%(currency)s %(price)s"
-msgstr "%(price)s %(currency)s"
+msgstr "%(currency)s %(price)s"
 
 #: listings/formatters.py:47
 #, python-format
@@ -1707,7 +2100,7 @@ msgstr "%(area)s %(unit)s"
 #: listings/formatters.py:62
 #, python-format
 msgid "%(neighbourhood)s, %(city)s"
-msgstr "%(neighbourhood)s، %(city)s"
+msgstr "%(neighbourhood)s, %(city)s"
 
 #: listings/formatters.py:73
 #, python-format
@@ -1717,70 +2110,70 @@ msgstr "%(car_make)s %(car_model)s"
 #: listings/formatters.py:85
 #, python-format
 msgid "%(kilometers)s km"
-msgstr "%(kilometers)s كم"
+msgstr "%(kilometers)s km"
 
 #: listings/formatters.py:96
 #, python-format
 msgid "%(bedrooms)s bedrooms"
-msgstr "%(bedrooms)s نوم"
+msgstr "%(bedrooms)s salles de bains"
 
 #: listings/forms.py:45
 #: templates/listings/reply/reply_to_listing_include.html:83
 msgid "Upload CV"
-msgstr "تحميل السيرة الذاتية"
+msgstr "Déposez votre CV"
 
 #: listings/forms.py:63
 msgid "Sorry, but your file format is not supported."
-msgstr "نوع الملف غير مدعوم، يرجى تحميل ملف من النوع التالي: rtf/doc/pdf/docx"
+msgstr "Désolé, mais votre format de fichier n'est pas pris en charge."
 
 #: listings/forms.py:66
 msgid "That's a bit too heavy. Please keep your file size under 2MB."
-msgstr "من فضلك تأكد أن حجم الملف لا يزيد عن 2 ميغا"
+msgstr "C'est un peu trop lourd. Veillez a ce que la taille de votre fichier reste inférieure à 2 Mo."
 
 #: listings/forms.py:79 templates/listings/report/report_listing.html:134
 msgid "Reason"
-msgstr "السبب"
+msgstr "Raison"
 
 #: listings/forms.py:80 listings/forms.py:107
 msgid "Tell us why you are reporting this ad."
-msgstr "لماذا تريد الإبلاغ عن هذا الإعلان؟"
+msgstr "Dites-nous pourquoi vous signalez cette annonce."
 
 #: listings/forms.py:88 templates/listings/get/get_listing.html:151
 msgid "Details"
-msgstr "التفاصيل"
+msgstr "Détails"
 
 #: listings/forms.py:121
 msgid "Ad Title"
-msgstr "أضف عنوان لإعلانك"
+msgstr "Titre de l'annonce"
 
 #: listings/forms.py:122 templates/listings/snippets/_form.html:59
 msgid "Your title says it all - describe your ad clearly. Please DON'T USE CAPS."
-msgstr "فكر في عنوان واضح ومختصر لإعلانك."
+msgstr "Tout est dans le titre - décrivez votre annonce précisément. Veuillez NE PAS UTILISER DE LETTRES CAPITALES."
 
 #: listings/forms.py:126
 msgid "You're going to need a title."
-msgstr "لا تنسى إضافة عنوان لإعلانك."
+msgstr "On a besoin d'un titre."
 
 #: listings/forms.py:131 templates/listings/get/get_listing.html:164
 #: templates/listings/snippets/_form.html:77
 msgid "Description"
-msgstr "مواصفات الإعلان"
+msgstr "Description"
 
 #: listings/forms.py:132 templates/listings/snippets/_form.html:94
 msgid "Increase the chance of your ad appearing in a search: <br/>- Answer questions your buyer may have (dimensions, functions, availability) <br/>- Highlight benefits and specific details (warranties, features, etc.) <br/>For your safety, email addresses and HTML formatting are not allowed."
-msgstr "الوصف الدقيق هو مفتاح البيع الاسرع: <br/>- حاول الرد على أسئلة المشتري (مثلاً: الحجم والأبعاد)<br/>- إشرح أهم المواصفات والمعلومات (مثلاً: الضمان إن وجد) يرجى عدم اضافة عنوان إيميلك داخل الوصف وهذا لحماية خصوصيتك."
+msgstr "Augmenter les chances de votre annonce d'apparaître dans une recherche: <br/>- Répondez aux questions que votre acheteur pourrait avoir (dimensions, fonctions, disponibilité) <br/>- Mettez en évidence les avantages et détails particuliers (garanties, caractéristiques, etc) <br/>Pour votre sécurité, les adresses email et les formats HTML ne sont pas autorisés."
 
 #: listings/forms.py:135
 msgid "You forgot to add a description. Go on, tell the world about your ad."
-msgstr "لقد نسيت ان تضيف وصف لإعلانك. هنا يمكنك إضافة كل التفاصيل لتجذب إنتباه المشتري. "
+msgstr "Vous avez oublié d'ajouter une description. Allez, informez le monde sur votre annonce."
 
 #: listings/forms.py:140
 msgid "Choose City"
-msgstr "إختر المدينة"
+msgstr "Choisir la ville"
 
 #: listings/forms.py:143
 msgid "Hey, you forgot to tell us where you are."
-msgstr " من فضلك لا تنسى إضافة إسم مدينتك. (الا اذا كنت من الفضاء.)"
+msgstr "Hep! Vous avez oublié de nous dire oů vous ętes."
 
 #: listings/forms.py:148 listings/models.py:134 listings/models.py:362
 #: listings/models.py:401 listings/models.py:437 listings/models.py:462
@@ -1788,28 +2181,28 @@ msgstr " من فضلك لا تنسى إضافة إسم مدينتك. (الا ا�
 #: listings/models.py:636 listings/models.py:673 listings/models.py:711
 #: search/forms.py:181 templates/listings/manage_listing.html:145
 msgid "Neighbourhood"
-msgstr "المنطقة"
+msgstr "Voisinage"
 
 #: listings/forms.py:151
 msgid "We need you to be a little more specific."
-msgstr "نسيت أن تضيف إسم منطقتك."
+msgstr "Soyez un peu plus précis."
 
 #: listings/forms.py:163
 msgid "We need your mobile number for verification."
-msgstr "من فضلك ادخل رقم الموبايل لكي نتأكد من صلاحية حسابك."
+msgstr "Merci de nous communiquer votre numéro de portable pour vérification."
 
 #: listings/forms.py:164
 msgid "Enter a valid mobile number."
-msgstr "لقد قمت بوضع رقم موبايل غير صحيح."
+msgstr "Le numéro de téléphone que vous avez mentionné n'est pas valable"
 
 #: listings/forms.py:166 templates/listings/snippets/_form.html:180
 msgid "We need mobile numbers to verify accounts and to detect scammers. Don't worry, you can choose not to show your mobile number in the ad (see option below)."
-msgstr "لا تقلق، لن نظهر رقم الموبايل على الموقع بدون موافقتك (التفاصيل ادناه)."
+msgstr "Les numéros de téléphone portables sont nécessaires pour la vérification des comptes et la détection des escroqueries. Mais rassurez-vous, vous pouvez choisir de ne pas afficher le vôtre dans l'annonce (voir option ci-dessous)."
 
 #: listings/forms.py:172 templates/listings/manage_listing.html:167
 #: templates/listings/snippets/_form.html:192
 msgid "Show this number on my ad"
-msgstr "اظهر رقمي في الإعلان"
+msgstr "Afficher ce numéro sur mon annonce"
 
 #: listings/forms.py:187
 msgid "Provide a valid mobile number in this format 05XXXXXXXX"
@@ -1817,11 +2210,11 @@ msgstr ""
 
 #: listings/forms.py:237
 msgid "The neighborhood you have selected is not in the city you selected."
-msgstr "يبدو أن هذه المنطقة ليست فى المدينة المحددة."
+msgstr "Le quartier que vous avez choisi n'est pas dans la ville sélectionnée."
 
 #: listings/forms.py:275
 msgid "Oops, something has gone wrong. Let us know and we will fix it."
-msgstr "هناك خطأ ما. راسلنا لكي نصلحه."
+msgstr "Oops, une erreur s'est produite quelque part, aidez nous a améliorer dubizzle faites nous savoir."
 
 #: listings/forms.py:276
 msgid "Photo verifiers did not match photos."
@@ -1829,188 +2222,188 @@ msgstr ""
 
 #: listings/forms.py:277
 msgid "Photo upload failed, please try again."
-msgstr "هناك خطأ في تحميل الصورة. حاول مرة اخرى."
+msgstr "Votre attachement n'a pas été téléchargé, veuillez réssayer de nouveau"
 
 #: listings/forms.py:278
 msgid "Oh no, we can only read jpg, png or gif formats."
-msgstr "هناك مشكلة في نوع الملف. من فضلك حمّل ملف من نوع: jpg, png, gif"
+msgstr "Oh non, votre attachement doit etre une photo d'extension .jpg .png ou .gif."
 
 #: listings/forms.py:279
 msgid "Damn, that file is too big - 5MB maximum."
-msgstr "حاول مرة أخرى وتأكد أن لا يزيد حجم الملف عن 5 ميغا!"
+msgstr "Votre photo dépasse la taille limite acceptée, veuillez attacher une image qui ne dépasse pas 5MB"
 
 #: listings/forms.py:280
 msgid "Max number of photos is 10"
-msgstr "أقصى عدد لتحميل الصور هو 10"
+msgstr "Max de nombre de photos est 10"
 
 #: listings/forms.py:368
 #, python-format
 msgid "When in doubt, check out other ads to see the price range of your item. Please remember to price your ad in %(currency)s."
-msgstr "لو محتار في تحديد السعر إبحث عن أسعار أشياء مماثلة على الموقع. يرجى التأكد أن السعر المطلوب في عملة %(currency)s"
+msgstr "En cas de doute, consultez d'autres annonces pour voir la gamme de prix dans laquelle se trouve votre article. N'oubliez pas le prix de votre annonce en %(currency)s."
 
 #: listings/forms.py:374 listings/forms.py:407 listings/models.py:363
 #: listings/models.py:402 listings/models.py:438 listings/models.py:463
 #: listings/models.py:487 listings/models.py:506 listings/models.py:600
 #: listings/models.py:640 listings/models.py:675 listings/models.py:715
 msgid "Price"
-msgstr "السعر"
+msgstr "Prix"
 
 #: listings/forms.py:377
 msgid "You forgot to add the price."
-msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
+msgstr "Vous avez oublié d'ajouter le prix."
 
 #: listings/forms.py:386
 msgid "Please enter a valid price."
-msgstr "يرجى إدخال السعر المضبوط"
+msgstr "Veuillez entrer un prix valide."
 
 #: listings/forms.py:409
 msgid "Price Type"
-msgstr "السعر"
+msgstr "Prix"
 
 #: listings/forms.py:426
 msgid "You forgot to add the price"
-msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
+msgstr "Vous avez oublié d'ajouter le prix."
 
 #: listings/forms.py:473 listings/forms.py:477 listings/models.py:399
 #: listings/models.py:411
 msgid "Year"
-msgstr "السنة"
+msgstr "Année"
 
 #: listings/forms.py:479
 msgid "Sweet wheels, but how old?"
-msgstr "المحروسة... موديل سنة كم؟"
+msgstr "Jolies roues mais quelle ancienneté?"
 
 #: listings/forms.py:487
 msgid "How many KM?"
-msgstr "عدد الكيلومترات"
+msgstr "Combien de KM?"
 
 #: listings/forms.py:489
 msgid "Great ride, how far has it gone?"
-msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
+msgstr "Joli petit tour! Jusqu'ou ętes-vous allé?"
 
 #: listings/forms.py:494 listings/forms.py:497 listings/models.py:403
 #: listings/models.py:410 search/forms.py:423 search/forms.py:427
 msgid "Model"
-msgstr "موديل"
+msgstr "Modèle"
 
 #: listings/forms.py:496
 msgid "Please specify the model"
-msgstr "الرجاء تحديد الموديل"
+msgstr "Veuillez spécifier le modèle"
 
 #: listings/forms.py:502 listings/forms.py:505 listings/models.py:404
 #: listings/models.py:414 search/forms.py:467 search/forms.py:471
 msgid "Engine Size (CC)"
-msgstr "سعة المحرك (سي سي)"
+msgstr "Cylindrée en cm³"
 
 #: listings/forms.py:504
 msgid "Please specify the engine size"
-msgstr "يرجى تحديد سعة المحرك"
+msgstr "Veuillez spécifier la cylindrée de voiture"
 
 #: listings/forms.py:510 listings/forms.py:513 listings/models.py:405
 #: listings/models.py:412 search/forms.py:456 search/forms.py:460
 msgid "Transmission Type"
-msgstr "ناقل الحركة"
+msgstr "Type de transmission"
 
 #: listings/forms.py:512
 msgid "Please specify the transmission type"
-msgstr "يرجى تحديد نوع ناقل الحركة"
+msgstr "Veuillez spécifier le type de transmission"
 
 #: listings/forms.py:518 listings/forms.py:521 listings/models.py:406
 #: search/forms.py:445 search/forms.py:449
 msgid "Body Type"
-msgstr "هيكل السيارة"
+msgstr "Type de Voiture"
 
 #: listings/forms.py:520
 msgid "Please specify the body type"
-msgstr "الرجاء تحديد هيكل السيارة"
+msgstr "Veuillez spécifier le type de voiture"
 
 #: listings/forms.py:526 listings/forms.py:529 listings/models.py:407
 #: search/forms.py:434 search/forms.py:438
 msgid "Number of Doors"
-msgstr "عدد الابواب"
+msgstr "Nombre de portes"
 
 #: listings/forms.py:528
 msgid "Please specify the number of doors"
-msgstr "يرجى تحديد عدد الابواب"
+msgstr "Veuillez spécifier le nombre de portes"
 
 #: listings/forms.py:559 listings/forms.py:562 listings/models.py:488
 #: listings/models.py:491 listings/models.py:507 listings/models.py:512
 #: search/forms.py:602 search/forms.py:606
 msgid "Type"
-msgstr "النوع"
+msgstr "Type"
 
 #: listings/forms.py:561
 msgid "Please specify the type"
-msgstr "الرجاء تحديد النوع"
+msgstr "Veuillez spécifier le type"
 
 #: listings/forms.py:577 listings/forms.py:580 listings/models.py:508
 #: listings/models.py:513 search/forms.py:613 search/forms.py:617
 msgid "Brand"
-msgstr "الماركة"
+msgstr "Marque"
 
 #: listings/forms.py:579
 msgid "Please specify the brand"
-msgstr "الرجاء تحديد الماركة"
+msgstr "Veuillez spécifier la marque"
 
 #: listings/forms.py:585 listings/forms.py:588 listings/models.py:509
 #: listings/models.py:514 search/forms.py:624 search/forms.py:628
 msgid "Warranty"
-msgstr "الضمان"
+msgstr "Garantie"
 
 #: listings/forms.py:587
 msgid "Please specify the warranty condition"
-msgstr "الرجاء تحديد حالة الضمان"
+msgstr "Veuillez spécifier le statut de garantie"
 
 #: listings/forms.py:647
 #, python-format
 msgid "Area (%(unit)s)"
-msgstr "المساحة (%(unit)s)"
+msgstr "Surface (%(unit)s)"
 
 #: listings/forms.py:650 listings/models.py:601 listings/models.py:641
 #: listings/models.py:676 listings/models.py:716
 msgid "Amenities"
-msgstr "الكماليات"
+msgstr "Commodités"
 
 #: listings/forms.py:663
 msgid "Area "
-msgstr "المساحة"
+msgstr "Surface"
 
 #: listings/forms.py:695 listings/forms.py:696 listings/forms.py:732
 #: listings/forms.py:733 listings/models.py:637 listings/models.py:645
 #: listings/models.py:712 listings/models.py:719
 msgid "Bedrooms"
-msgstr "غرف نوم"
+msgstr "Chambres à coucher"
 
 #: listings/forms.py:697 listings/forms.py:734
 msgid "Nice property, but how many bedrooms?"
-msgstr "حدثنا عن عقارك. كم عدد غرف النوم؟"
+msgstr "Belle propriété, mais combien de chambres?"
 
 #: listings/forms.py:703 listings/forms.py:704 listings/forms.py:740
 #: listings/forms.py:741 listings/models.py:638 listings/models.py:713
 msgid "Bathrooms"
-msgstr "الحمامات"
+msgstr "Salles de bains"
 
 #: listings/forms.py:705 listings/forms.py:742
 msgid "Nice property, but how many bathrooms?"
-msgstr "الرجاء تحديد عدد الحمامات"
+msgstr "Veuillez spécifier combien de salle de bains"
 
 #: listings/forms.py:763 listings/forms.py:766 listings/models.py:754
 #: listings/models.py:790
 msgid "Experience Level"
-msgstr "مستوى الخبرة"
+msgstr "Niveau d’expérience"
 
 #: listings/forms.py:765
 msgid "Please specify the experience level"
-msgstr "الرجاء تحديد مستوى الخبرة"
+msgstr "Veuillez spécifier le niveau d'expérience"
 
 #: listings/forms.py:771 listings/forms.py:774 listings/models.py:753
 #: listings/models.py:789
 msgid "Education Level"
-msgstr "المستوى التعليمي"
+msgstr "Niveau d’études"
 
 #: listings/forms.py:773
 msgid "Please specify the education level"
-msgstr "الرجاء تحديد المستوى التعليمي"
+msgstr "Veuillez spécifier le niveau d'études"
 
 #: listings/forms.py:779
 msgid "Commitment"
@@ -2018,59 +2411,59 @@ msgstr ""
 
 #: listings/forms.py:781
 msgid "Please specify the employment type"
-msgstr "الرجاء تحديد نوع العمل"
+msgstr "Veuillez spécifier le type d'emploi"
 
 #: listings/forms.py:782 listings/models.py:755 listings/models.py:759
 #: listings/models.py:791 listings/models.py:794
 msgid "Employment Type"
-msgstr "نوع العمل"
+msgstr "Type d’emploi"
 
 #: listings/forms.py:787 templates/listings/get/get_listing.html:172
 msgid "Skills"
-msgstr "المهارات"
+msgstr "Compétences"
 
 #: listings/forms.py:802 listings/models.py:756
 msgid "Compensation"
-msgstr "الراتب"
+msgstr "Salaire"
 
 #: listings/models.py:133 listings/models.py:752 listings/models.py:788
 msgid "Posted On"
-msgstr "نُشر بتاريخ"
+msgstr "Posté sur"
 
 #: listings/models.py:361 listings/models.py:398 listings/models.py:436
 #: listings/models.py:461 listings/models.py:485 listings/models.py:504
 #: listings/models.py:597 listings/models.py:635 listings/models.py:672
 #: listings/models.py:710
 msgid "Posted on"
-msgstr "نُشر بتاريخ"
+msgstr "Posté le"
 
 #: listings/models.py:400 listings/models.py:413
 msgid "Kilometers"
-msgstr "كيلومترات"
+msgstr "Kilomètres"
 
 #: listings/models.py:599 listings/models.py:604 listings/models.py:639
 #: listings/models.py:644 listings/models.py:674 listings/models.py:679
 #: listings/models.py:714 listings/models.py:720
 msgid "Area"
-msgstr "المساحة"
+msgstr "Surface"
 
 #: search/forms.py:42
 #, python-format
 msgid "All of %(city)s"
-msgstr "%(city)s بالكامل"
+msgstr "Tout - %(city)s"
 
 #: search/forms.py:51
 msgid "Select your city"
-msgstr "إختر مدينتك"
+msgstr "Sélectionnez votre ville"
 
 #: search/forms.py:170
 msgid "Keywords"
-msgstr "كلمات البحث"
+msgstr "Mots-clés"
 
 #: search/forms.py:347 search/forms.py:500 search/forms.py:556
 #: search/forms.py:652 utils/prettify_filters.py:136
 msgid "Show only ads with photos"
-msgstr "أظهر الإعلانات التي معها صور"
+msgstr "Montrer uniquement les annonces avec photos"
 
 #: search/forms.py:362 search/forms.py:365 search/forms.py:383
 #: search/forms.py:387 search/forms.py:404 search/forms.py:407
@@ -2079,7 +2472,7 @@ msgstr "أظهر الإعلانات التي معها صور"
 #: search/forms.py:688 search/forms.py:727 search/forms.py:731
 #: search/forms.py:749 search/forms.py:753 search/forms.py:772
 msgid "From"
-msgstr "من"
+msgstr "De"
 
 #: search/forms.py:373 search/forms.py:376 search/forms.py:394
 #: search/forms.py:398 search/forms.py:413 search/forms.py:416
@@ -2088,142 +2481,140 @@ msgstr "من"
 #: search/forms.py:695 search/forms.py:738 search/forms.py:742
 #: search/forms.py:760 search/forms.py:764 search/forms.py:779
 msgid "To"
-msgstr "إلى"
+msgstr "A"
 
 #: search/forms.py:567
 msgid "Show only free ads"
-msgstr "أظهر فقط الإعلانات المجانية"
+msgstr "Montrer seulement les annonces gratuites"
 
 #: templates/404-web.html:18
 msgid "Houston... we have problem."
-msgstr "عفواً، لا يوجد لدينا فروع في كواكب أُخرى"
+msgstr "Houston nous avons un problème"
 
 #: templates/404-web.html:21
 msgid "Couldn't find the page. go"
-msgstr "يبدوا أنك وصلت إلى مكان خارج نطاق خدمتنا، للرجوع إلى أوليكس دوبيزل كوكب الأرض،"
+msgstr "Impossible de trouver la page. "
 
 #: templates/404-web.html:21
 msgid "home"
-msgstr "اضغط هنا"
+msgstr "acceuil"
 
 #: templates/404-web.html:24
 msgid "Page not found"
-msgstr "خطأ"
+msgstr "Page non trouvée"
 
 #: templates/404-web.html:24
 msgid "404."
-msgstr ""
+msgstr "404"
 
 #: templates/500-web.html:141
 msgid "Website under maintenance (500)"
-msgstr "الموقع تحت الصيانة"
+msgstr "Site en maintenance (500)"
 
 #: templates/base.html:137
 msgid "Menu"
-msgstr "القائمة"
+msgstr "Menu"
 
-# not too clear
 #: templates/base.html:152
 msgid "My account"
-msgstr "الحساب"
+msgstr "Mon compte"
 
 #: templates/base_privacy.html:12 templates/public/_footer.html:51
 msgid "Privacy Policy"
-msgstr "سياسة الخصوصية"
+msgstr "Politique de confidentialité"
 
 #: templates/base_terms.html:12 templates/public/_footer.html:47
 msgid "Terms of Use"
-msgstr "شروط الاستخدام"
+msgstr "Conditions d'utilisation"
 
 #: templates/base_terms.html:16
 msgid "<b>THESE TERMS OF USE WERE UPDATED ON AUGUST 30, 2015</b><br/><br/>"
-msgstr "<b>تم تحديث شروط الاستخدام هذه بتاريخ 30 أغسطس 2015</b>"
+msgstr ""
 
 #: templates/base_terms.html:17
 msgid "<b>PLEASE CAREFULLY READ THESE TERMS OF USE. BY USING THIS WEBSITE YOU INDICATE YOUR UNDERSTANDING AND ACCEPTANCE OF THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS YOU MAY NOT USE THIS WEBSITE.</b>"
-msgstr "<b>يرجى قراءة شروط الاستخدام هذه بعناية، وباستخدامك لهذا الموقع الالكتروني فأنت تعلن فهمك وقبولك لهذه الشروط. وإذا لم توافق على هذه الشروط، لا يجوز لك استخدام هذا الموقع.</b>"
+msgstr ""
 
 #: templates/generic.html:27
 #, python-format
 msgid "%(BRAND_NAME)s on your phone"
-msgstr "%(BRAND_NAME)s على موبايلك"
+msgstr ""
 
-# not too clear
 #: templates/generic.html:35 templates/user_profiles/my_listings.html:17
 msgid "Your account"
-msgstr "حسابك"
+msgstr "Votre compte"
 
 #: templates/generic.html:44 templates/public/_breadcrumbs.html:14
 #: templates/public/landing.html:70
 msgid "All of"
-msgstr "كل"
+msgstr ""
 
 #: templates/generic.html:132
 #: templates/user_profiles/my_saved_searches.html:46
 msgid "Filters"
-msgstr "خيارات البحث"
+msgstr "Filtrer la recherche"
 
 #: templates/generic.html:146
 #: templates/listings/snippets/_scam_warning.html:12
 msgid "Close"
-msgstr "إغلاق"
+msgstr "Fermer"
 
 #: templates/generic.html:153
 msgid "Reset"
-msgstr "إعادة ضبط"
+msgstr "Remettre"
 
 #: templates/generic.html:171 templates/search/category_widget.html:18
 #: templates/search/category_widget.html:35
 #, python-format
 msgid "Back to %(BRAND_NAME)s"
-msgstr "الرجوع إلى صفحة %(BRAND_NAME)s"
+msgstr "Revenir en %(BRAND_NAME)s"
 
 #: templates/generic.html:178
 msgid "Login"
-msgstr "تسجيل الدخول"
+msgstr ""
 
 #: templates/generic.html:183
 msgid "Your ads"
-msgstr "إعلاناتك"
+msgstr "Vos annonces"
 
 #: templates/generic.html:188 templates/user_profiles/my_listings.html:99
 msgid "Your rejected ads"
-msgstr "إعلاناتك المرفوضة"
+msgstr "Vos annonces rejetées"
 
 #: templates/generic.html:193 templates/user_profiles/my_listings.html:198
 msgid "Your pending ads"
-msgstr "إعلاناتك التي تنتظر الموافقة"
+msgstr "Vos annonces en attente"
 
 #: templates/generic.html:198 templates/user_profiles/my_listings.html:257
 msgid "Your live ads"
-msgstr "إعلاناتك المنشورة"
+msgstr "Vos annonces en ligne"
 
 #: templates/generic.html:203 templates/user_profiles/my_listings.html:357
 msgid "Your expired ads"
-msgstr "إعلاناتك منتهية الصلاحية"
+msgstr "Vos annonces expirées"
 
 #: templates/generic.html:209
 #: templates/email_alerts/save_search_button.html:24
 #: templates/user_profiles/my_saved_searches.html:33
 msgid "Your saved searches"
-msgstr "بحوثك المحفوظة"
+msgstr "Vos recherches favorites"
 
 #: templates/generic.html:215
 msgctxt "my_listings"
 msgid "Change password"
-msgstr "غير كلمة السر"
+msgstr "Modifier mot de passe"
 
 #: templates/generic.html:220 templates/authentication/change_password.html:23
 msgid "Logout"
-msgstr "الخروج من الحساب"
+msgstr "Déconnexion"
 
 #: templates/generic.html:240
 msgid "Download the free OLX Arabia App"
-msgstr "حمّل تطبيق أوليكس الجديد"
+msgstr "Télécharger l'application OLX dubizzle gratuitement"
 
 #: templates/authentication/change_password.html:11
 msgid "Change password"
-msgstr "تأكيد كلمة السر"
+msgstr "Modifier mot de passe"
 
 #: templates/authentication/change_password.html:19
 #, python-format
@@ -2233,7 +2624,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-" لست %(email)s؟"
+" Pas %(email)s?"
 
 #: templates/authentication/change_password.html:40
 #: templates/authentication/forgot_password.html:39
@@ -2242,89 +2633,88 @@ msgstr ""
 #: templates/authentication/reset_password.html:20
 #: templates/listings/report/report_listing.html:51
 msgid "Please fix the errors below"
-msgstr "من فضلك راجع وصحح الاخطاء أدناه. "
+msgstr "Veuillez corriger les erreurs ci-dessous"
 
 #: templates/authentication/change_password.html:95
 #: templates/authentication/reset_password.html:55
 msgid "Change it for me"
-msgstr "تغيير"
+msgstr "Changez-le pour moi"
 
 #: templates/authentication/forgot_password.html:10
 #: templates/authentication/login.html:111
 #: templates/listings/manage_listing.html:268
 #: templates/listings/snippets/_form.html:217
 msgid "Forgot your password?"
-msgstr "نسيت كلمة السر؟"
+msgstr "Mot de passe oublié?"
 
 #: templates/authentication/forgot_password.html:16
 msgid "It's OK, we all forget. Simply enter your email address and we'll email you a link to reset your password."
-msgstr "لا داعى للقلق. فقط ادخل عنوان الإيميل وسنرسل لك رابط لإعادة تعيين كلمة السر."
+msgstr "Pas de soucis, ça nous arrive à tous d'oublier. Veuillez simplement entrer votre adresse email et nous vous enverrons un lien qui vous permettra de réinitialiser votre mot de passe."
 
 #: templates/authentication/forgot_password.html:53
 #: templates/authentication/forgot_password.html:54
 #: templates/authentication/login.html:78
 msgid "Email adress"
-msgstr "عنوان الإيميل"
+msgstr "Adresse email"
 
 #: templates/authentication/forgot_password.html:61
 msgid "Reset password"
-msgstr "اعادة تعيين كلمة السر"
+msgstr "Réinitialiser mot de passe"
 
 #: templates/authentication/forgot_password_complete.html:10
 msgid "Help is on the way. We've e-mailed you a link to reset your password."
-msgstr "لا داعي للقلق. سيصلك إيميل قريباً برابط لإعادة تعيين كلمة السر."
+msgstr "Vous allez bientôt trouver de l'aide. Nous vous avons envoyé un lien par email pour réinitialiser votre mot de passe."
 
 #: templates/authentication/login.html:12
 #: templates/authentication/register.html:143
 msgid "Sign in to your account"
-msgstr "سجل الدخول لحسابك"
+msgstr "Se connecter à votre compte"
 
 #: templates/authentication/login.html:30
 #: templates/listings/manage_listing.html:191
 msgid "Sign in via facebook"
-msgstr "سجل دخولك عبر facebook "
+msgstr "Se Connecter avec Facebook"
 
-# this needs a full stop at end; it's followed by 271
 #: templates/authentication/login.html:116
 #: templates/listings/manage_listing.html:289
 msgid "Sign in"
-msgstr "سجل دخولك"
+msgstr "Se connecter"
 
 #: templates/authentication/login.html:121
 #: templates/listings/manage_listing.html:285
 msgid "Don't have an account?"
-msgstr "ليس لديك حساب؟"
+msgstr "Pas encore membre?"
 
 #: templates/authentication/login.html:125
 #: templates/authentication/register.html:117
 #: templates/listings/manage_listing.html:285
 msgid "Register"
-msgstr "سجل الآن"
+msgstr "Inscription"
 
 #: templates/authentication/login_denied.html:13
 msgid "It seems your account has been blocked or suspended; Contact us for more details."
-msgstr " يبدو أنه تم إيقاف أو تعليق حسابك، اتصل بنا لمزيد من التفاصيل"
+msgstr "Il semble que votre votre compte a été bloqué, ou temporairement suspendu; Contacter nous pour plus d'information. "
 
 #: templates/authentication/login_denied.html:16
 msgid "Contact us"
-msgstr "راسلنا"
+msgstr "Contactez-nous"
 
 #: templates/authentication/logout.html:6
 msgid "You have been Logged Out!"
-msgstr "لقد تم تسجيل خروجك."
+msgstr "Vous avez été déconnecté!"
 
 #: templates/authentication/register.html:11
 #, python-format
 msgid "Create a free account on %(BRAND_NAME)s"
-msgstr "أنشئ حساب مجاني على %(BRAND_NAME)s"
+msgstr "Créer un compte gratuitement sur %(BRAND_NAME)s"
 
 #: templates/authentication/register.html:27
 msgid "Register via facebook"
-msgstr "سجل باستخدام facebook"
+msgstr "S'inscrire avec Facebook"
 
 #: templates/authentication/register.html:35
 msgid "Register via email"
-msgstr "سجل باستخدام الإيميل"
+msgstr "S'inscrire avec e-mail"
 
 #. Translators: This is in CrystelCalls new listing interface
 #: templates/authentication/register.html:60
@@ -2339,7 +2729,7 @@ msgstr "سجل باستخدام الإيميل"
 #: templates/listings/snippets/_form.html:226
 #: templates/listings/snippets/_form.html:228
 msgid "Email"
-msgstr "عنوان الإيميل"
+msgstr "Email"
 
 #: templates/authentication/register.html:77
 #: templates/authentication/register.html:78
@@ -2349,7 +2739,7 @@ msgstr "عنوان الإيميل"
 #: templates/listings/snippets/_form.html:247
 #: templates/listings/snippets/_form.html:248
 msgid "Confirm email"
-msgstr "تأكيد عنوان الإيميل"
+msgstr "Confirmez votre adresse email"
 
 #: templates/authentication/register.html:127
 #, python-format
@@ -2359,21 +2749,21 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"بالضغط على سجل الآن، أنت توافق على <a href=\"%(terms_url)s\" target=\"_blank\" class=\"u-link\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link\">سياسة الخصوصية</a> ل%(BRAND_NAME)s.                    "
+"En cliquant sur Inscription, vous confirmez avoir lu et accepté les <a href=\"%(terms_url)s\" target=\"_blank\" class=\"u-link\">termes et conditions</a> ainsi que la <a href=\"%(privacy_url)s\" target=\"_blank\" class=\"u-link\">politique de confidentialité de %(BRAND_NAME)s.</a>.                    "
 
 #: templates/authentication/register.html:137
 #, python-format
 msgid "Already have a %(BRAND_NAME)s account?"
-msgstr "لديك حساب على %(BRAND_NAME)s؟"
+msgstr "Vous avez déjà un compte %(BRAND_NAME)s?"
 
 #: templates/authentication/reset_password.html:11
 msgctxt "from_reset_pwd"
 msgid "Change password"
-msgstr "غير كلمة السر"
+msgstr "Modifier mot de passe"
 
 #: templates/authentication/reset_password_complete.html:10
 msgid "Phew! Your password has now been changed."
-msgstr "وأخيرا. تم تغيير كلمة السر الخاصة بك."
+msgstr "Ouf! Votre mot de passe a maintenant été modifié."
 
 #: templates/email_alerts/email_alerts_ar.html:91
 #: templates/email_alerts/email_alerts_en.html:92
@@ -2385,184 +2775,184 @@ msgstr ""
 #: templates/email_alerts/email_alerts_en.html:96
 #: templates/user_profiles/my_saved_searches.html:48
 msgid "No Filters"
-msgstr "لا يوجد خيارات بحث"
+msgstr "Sans filtres de recherche"
 
 #: templates/email_alerts/save_search_button.html:7
 msgid "Try Again"
-msgstr "حاول مرة أخرى‎"
+msgstr "essayer encore"
 
 #: templates/email_alerts/save_search_button.html:12
 #: templates/email_alerts/save_search_button.html:18
 msgid "Save search"
-msgstr "احفظ هذا البحث"
+msgstr "Enregistrer cette recherche"
 
 #: templates/listings/delete_listing.html:16
 #: templates/listings/rejected/delete_workspace.html:16
 msgid "Your ad is currently being moderated."
-msgstr "نحن نلقي نظرة على إعلانك الآن."
+msgstr "Votre annonce est en cours de modération."
 
 #: templates/listings/delete_listing.html:18
 #: templates/listings/rejected/delete_workspace.html:18
 msgid "We're working our magic on your ad right now. Please come back a little later."
-msgstr "سنحاول الانتهاء في أسرع وقت ممكن، ألق نظرة على إعلانك لاحقاً."
+msgstr "Nous sommes entrain d'inspecter votre annonce . On vous prie de revenir plus tard."
 
 #: templates/listings/delete_listing.html:21
 #: templates/listings/delete_listing.html:29
 msgid "Back to listing"
-msgstr "العودة إلى الإعلان"
+msgstr "Retour à l'annonce"
 
 #: templates/listings/delete_listing.html:24
 #: templates/listings/rejected/delete_workspace.html:21
 msgid "Are you sure you want to Delete this listing?"
-msgstr "تريد فعلا حذف هذا الإعلان؟"
+msgstr "Ętes-vous sűr de vouloir supprimer cette annonce?"
 
 #: templates/listings/delete_listing.html:26
 #: templates/listings/rejected/delete_workspace.html:23
 msgid "Please click on confirm to delete this listing!"
-msgstr "الرجاء تأكيد طلب الحذف."
+msgstr "Veuillez cliquer sur 'valider' pour supprimer cette annonce!"
 
 #: templates/listings/delete_listing.html:32
 #: templates/listings/rejected/delete_workspace.html:28
 msgid "Confirm"
-msgstr "تأكيد "
+msgstr "Confirmer"
 
 #: templates/listings/manage_listing.html:38
 #: templates/listings/snippets/_form.html:16
 msgid "We're almost there... please review the points below."
-msgstr "لم ننتهي بعد ولكن إقتربنا. من فضلك صحح الأخطاء أدناه. "
+msgstr "Vous avez presque terminé... veuillez examiner les points suivants."
 
 #: templates/listings/manage_listing.html:54
 msgid "Something went wrong, please try again."
-msgstr "هناك خطأ ما. حاول مرة اخرى"
+msgstr "Une erreur s'est produite, éssayez de nouveau."
 
 #: templates/listings/manage_listing.html:74
 #: templates/listings/add/create_inorganic_listing.html:27
 #: templates/listings/snippets/_form.html:28
 msgid "Change"
-msgstr "تعديل"
+msgstr "Changer"
 
 #: templates/listings/manage_listing.html:126
 #: templates/listings/snippets/_form.html:136
 msgid "Neighborhood"
-msgstr "المنطقة"
+msgstr "Quartier"
 
 #: templates/listings/manage_listing.html:179
 msgid "Welcome!"
-msgstr "أهلاً!"
+msgstr "Bienvenue!"
 
 #: templates/listings/manage_listing.html:182
 msgid "That's not you?"
-msgstr "هذا ليس حسابك؟"
+msgstr "Ce n'est pas votre compte?"
 
 #: templates/listings/manage_listing.html:182
 msgid "Sign out"
-msgstr "تسجيل الخروج"
+msgstr "Se déconnecter"
 
 #: templates/listings/manage_listing.html:199
 msgid "or register with your email address"
-msgstr "أو سجل حساب جديد باستخدام إيميلك"
+msgstr "ou inscrivez vous avec votre adresse email"
 
 #: templates/listings/manage_listing.html:201
 msgid "Register with your email address"
-msgstr "سجل دخولك باستخدام إيميلك"
+msgstr "S'enregistrer en utilisant votre adresse e-mail"
 
 #: templates/listings/manage_listing.html:206
 msgid "or sign in with your email address"
-msgstr "أو سجل دخولك باستخدام إيميلك"
+msgstr "ou authentifiez vous avec votre adresse email"
 
 #: templates/listings/manage_listing.html:208
 msgid "Sign in with your email address"
-msgstr "سجل دخولك باستخدام إيميلك"
+msgstr "Ou connectez-vous en utilisant votre adresse e-mail"
 
 #: templates/listings/manage_listing.html:225
 #: templates/listings/snippets/_form.html:236
 msgid "A valid email address ensures your ad will go live."
-msgstr "تأكد من ادخال عنوان ايميل صحيح حتى يتم نشر إعلانك."
+msgstr "Pour que votre annonce soit mise en ligne, il faut une adresse email valable."
 
 #: templates/listings/manage_listing.html:247
 #: templates/listings/manage_listing.html:249
 #: templates/listings/snippets/_form.html:259
 msgid "Password (cAse SenSiTIvE)"
-msgstr "كلمة السر"
+msgstr "Mot de passe (sensible à la police de caractères)"
 
 #: templates/listings/manage_listing.html:261
 #: templates/listings/snippets/_form.html:279
 msgid "Make it safe and secure. Use a mix of numbers and letters, and don't use something obvious like your auntie's friend's cat - well, maybe that's OK."
-msgstr "إختر كلمة سر قوية وآمنة ويستحسن ان لا تكون كلمة السر تخص إسمك أو تاريخ ميلادك أو أي من افراد عائلتك."
+msgstr "Pour une sécurité maximum, utilisez une combinaison de chiffres et de lettres, et ne choisissez pas quelque chose de trop évident comme le chat de l'ami de votre tante - encore que ça ça peut marcher."
 
 #: templates/listings/manage_listing.html:289
 msgid "Have an account?"
-msgstr "لديك حساب؟"
+msgstr "Avez-Vouz un compte?"
 
 #: templates/listings/manage_listing.html:299
 msgid "You are now connected with Facebook"
-msgstr "أنت الآن مسجل بحساب فيسبوك"
+msgstr "Vous êtes désormais connecté à Facebook"
 
 #: templates/listings/manage_listing.html:305
 msgid "Connecting to facebook didn't work"
-msgstr "التسجيل عبر الفيسبوك لم يتم بنجاح"
+msgstr "La connexion à Facebook a échoué"
 
 #: templates/listings/manage_listing.html:335
 #: templates/listings/snippets/_form.html:316
 #, python-format
 msgid "By posting your ad you are agreeing to the %(BRAND_NAME)s <a class=\"u-link\" href=\"%(terms_url)s\" target=\"_blank\">terms & conditions</a> and <a class=\"u-link\" href=\"%(privacy_url)s\" target=\"_blank\">privacy policy</a>."
-msgstr "قيامك بنشر إعلانك، يعني أنك قد وافقت على <a href=\"%(terms_url)s\" target=\"_blank\">الشروط والأحكام</a> و <a href=\"%(privacy_url)s\" target=\"_blank\">سياسة الخصوصية</a> لموقع %(BRAND_NAME)s."
+msgstr "En postant une annonce, vous acceptez tous <a href=\"%(terms_url)s\" class=\"u-link\" target=\"_blank\">les termes et conditions</a> de %(BRAND_NAME)s, <a href=\"%(privacy_url)s\" target=\"_blank\">la politique de confidentialité</a> de %(BRAND_NAME)s."
 
 #: templates/listings/manage_listing.html:342
 #: templates/listings/snippets/_form.html:322
 msgid "Yalla! Publish my ad"
-msgstr "يلا...انشر اعلاني!"
+msgstr "Yalla! Publiez mon annonce"
 
 #. Translators: This is in CrystelCalls new listing interface
 #: templates/listings/add/create_inorganic_listing.html:9
 msgid "CrysTelCall Listing Interface."
-msgstr ""
+msgstr "Interface Liste des CrysTelCall."
 
 #. Translators: This is in CrystelCalls new listing interface
 #: templates/listings/add/create_inorganic_listing.html:14
 msgid "Make this awesome."
-msgstr ""
+msgstr "Rendre le tout absolument génial."
 
 #: templates/listings/add/create_listing.html:12
 msgid "Create a free ad in no time at all."
-msgstr "أضف أسهل وأسرع إعلان مجانا. "
+msgstr "Créer une annonce gratuite en un rien de temps."
 
 #: templates/listings/add/paa_taxonomy.html:27
 msgid "Pick a category"
-msgstr "إختر القسم"
+msgstr "Choisir une catégorie"
 
 #: templates/listings/add/paa_taxonomy.html:38
 msgid "Please select a sub-category."
-msgstr "إختر الفئة المناسبة لإعلانك"
+msgstr "Veuillez choisir une sous catégorie."
 
 #: templates/listings/add/paa_taxonomy.html:90
 msgid "Select an option"
-msgstr "حدد إختيارك"
+msgstr "Choisir une option."
 
 #: templates/listings/add/paa_taxonomy.html:98
 msgid "Select a category"
-msgstr "إختر القسم"
+msgstr "Choisir une catégorie"
 
 #: templates/listings/add/paa_taxonomy.html:101
 #: templates/search/widget.html:66
 msgid "Go"
-msgstr "عرض"
+msgstr "Aller"
 
 #: templates/listings/add/paa_taxonomy.html:124
 msgid "Category"
-msgstr "القسم"
+msgstr "Catégorie"
 
 #: templates/listings/add/paa_taxonomy.html:128
 msgid "Pick a sub-category"
-msgstr "إختر الفئة المناسبة لإعلانك"
+msgstr "Veuillez choisir une sous catégorie."
 
 #: templates/listings/get/get_listing.html:87
 msgid "This ad has already been edited and is awaiting approval. You'll get an email once the changes are live."
-msgstr "عفواً، لن تستطيع تعديل اعلانك حتى تتم الموافقة على نشره. سنرسل لك إيميل عند نشره. لن نتأخر عليك!"
+msgstr "Cette annonce a déjà été modifiée et est en attente de validation. Vous recevrez un email dès que les modifications seront en ligne."
 
 #: templates/listings/get/get_listing.html:98
 msgid "Back to results"
-msgstr "العودة إلى صفحة الإعلانات"
+msgstr "Retour aux résultats"
 
 #: templates/listings/get/get_listing.html:108
 #: templates/listings/get/get_listing.html:236
@@ -2576,24 +2966,24 @@ msgstr ""
 #: templates/listings/get/get_listing.html:120
 #: templates/listings/get/get_listing.html:277
 msgid "This ad has expired."
-msgstr "لقد انتهت صلاحية هذا الاعلان"
+msgstr "Cette annonce a expiré."
 
 #: templates/listings/get/get_listing.html:125
 #: templates/listings/get/get_listing.html:282
 #, python-format
 msgid "Looking for %(category_name)s in %(city_name)s?"
-msgstr "هل تبحث عن %(category_name)s في %(city_name)s؟"
+msgstr "Chercher %(category_name)s dans %(city_name)s?"
 
 #: templates/listings/get/get_listing.html:127
 #: templates/listings/get/get_listing.html:284
 #, python-format
 msgid "Looking for %(category_name)s?"
-msgstr "هل تبحث عن %(category_name)s؟"
+msgstr "Chercher %(category_name)s?"
 
 #: templates/listings/get/get_listing.html:131
 #: templates/listings/get/get_listing.html:288
 msgid "See similar ads"
-msgstr "شاهد إعلانات مشابهة"
+msgstr "Voir les annonces similaires"
 
 #: templates/listings/get/get_listing.html:144
 #, python-format
@@ -2602,92 +2992,92 @@ msgstr ""
 
 #: templates/listings/get/get_listing.html:150
 msgid "View all details"
-msgstr "أظهر كافة التفاصيل"
+msgstr "Voir les details"
 
 #: templates/listings/get/get_listing.html:163
 msgid "Read more"
-msgstr "ارني المزيد"
+msgstr "Charger d'avantage"
 
 #: templates/listings/get/get_listing.html:185
 msgid "Share with friends"
-msgstr "شارك مع أصدقائك"
+msgstr "Partager avec des amis"
 
 #: templates/listings/get/get_listing.html:192
 msgid "Report this ad"
-msgstr "بلغ عن هذا الإعلان"
+msgstr "Signaler cette annonce"
 
 #: templates/listings/get/get_listing.html:203
 msgid "Important tips from OLX dubizzle"
-msgstr "نصائح عالسريع علشان يكون عندك صورة واضحة عن أوليكس دوبيزل"
+msgstr "Conseils importants sur OLX dubizzle"
 
 #: templates/listings/get/get_listing.html:208
 msgid "Show"
-msgstr "أظهر"
+msgstr "Voir"
 
 #: templates/listings/get/get_listing.html:251
 msgid "Call"
-msgstr "إتصل"
+msgstr "Appeler"
 
 #: templates/listings/get/get_listing.html:252
 msgid "Show number"
-msgstr "اظهر الرقم"
+msgstr "Afficher le numéro de téléphone portable"
 
 #: templates/listings/get/get_listing.html:260
 #: templates/listings/reply/reply_to_listing_include.html:10
 msgid "Reply"
-msgstr "أرسل رسالة"
+msgstr "Envoyer un message"
 
 #: templates/listings/get/get_listing.html:261
 #: templates/listings/reply/reply_to_listing_include.html:130
 msgid "Send reply"
-msgstr "أرسل رد"
+msgstr "Envoyer"
 
 #: templates/listings/preview/listing_complete.html:29
 msgid "Hooray! Congratulations, your ad will go live very very soon."
-msgstr "مبروك! لقد اضفت إعلانك بنجاح وسنقوم بنشره قريبا."
+msgstr "Hourra! Félicitations, votre annonce sera mise en ligne très bientôt."
 
 #: templates/listings/preview/listing_complete.html:38
 #, python-format
 msgid "Right now, we're going to quickly review your ad and make sure it's ready for %(BRAND_NAME)s. Once it's up and live, we'll tell you the good news in an email."
-msgstr "سنراجع إعلانك فوراً لنتأكد أنه ملا ئم ل%(BRAND_NAME)s. الأمر لا يستغرق كثيراً ... سنوافيك بالأخبار السعيدة في إيميل عندما يتم نشر إعلانك. لديك شئ آخر تريد بيعه ... إضغط أضف إعلان آخر."
+msgstr "Nous examinons votre annonce tout de suite et la préparons pour %(BRAND_NAME)s. Une fois en ligne, nous vous annoncerons la bonne nouvelle dans un courriel."
 
 #: templates/listings/preview/listing_complete.html:42
 #, python-format
 msgid "Once your ad is approved, it will remain live for %(LISTING_EXPIRE_DAYS)s days. You can go to \"your account\" to edit or delete the ad after it has been approved."
-msgstr "بمجرد نشر اعلانك سيكون ساري المفعول لمدة %(LISTING_EXPIRE_DAYS)s يوم. بامكانك في هذه الاثناء تعديل او حذف اعلانك من صفحة حسابك."
+msgstr "Dès que votre annonce est approuvée, elle restera active pour %(LISTING_EXPIRE_DAYS)s. Vous pouvez aller à \"Votre compte\" pour modifier ou supprimer l'annonce après qu'elle a été approuvé."
 
 #: templates/listings/preview/listing_complete.html:52
 msgid "Back to home page"
-msgstr "العودة الى الصفحة الرئيسية"
+msgstr "Retour à la page d'accueil"
 
 #: templates/listings/preview/listing_complete.html:59
 msgid "Place another ad"
-msgstr "اضف إعلان آخر"
+msgstr "Passez une autre annonce"
 
 #: templates/listings/rejected/rejected_workspace.html:9
 msgid "Resubmit your ad"
-msgstr "إعادة وضع الإعلان"
+msgstr "Redéposer votre annonces"
 
 #: templates/listings/rejected/rejected_workspace.html:21
 #: templates/user_profiles/my_listings.html:146
 msgid "Rejection reason:"
-msgstr "سبب الرفض:"
+msgstr "La raison du rejet:"
 
 #: templates/listings/rejected/rejected_workspace.html:22
 msgid "We suggest:"
-msgstr "إقتراحنا:"
+msgstr "Notre suggestion:"
 
 #: templates/listings/rejected/rejected_workspace.html:29
 msgid "Change category"
-msgstr "إختر القسم"
+msgstr "Changer de pays"
 
 #: templates/listings/rejected/rejected_workspace.html:71
 msgid "Choose"
-msgstr "إختر"
+msgstr "Choisir"
 
 #: templates/listings/rejected/rejected_workspace.html:129
 msgid "Category "
-msgstr "القسم"
+msgstr "Catégorie"
 
 #: templates/listings/rejected/rejected_workspace.html:133
 msgid "Save!"
@@ -2695,131 +3085,131 @@ msgstr ""
 
 #: templates/listings/reply/reply_to_listing_include.html:28
 msgid "Your message was not sent. Please check the errors below."
-msgstr "من فضلك راجع وصحح الاخطاء أدناه."
+msgstr "Votre message n'a pas été envoyé. S'il vous plaît vérifier les erreurs ci-dessous."
 
 #: templates/listings/reply/reply_to_listing_include.html:59
 #: templates/listings/reply/reply_to_listing_include.html:60
 msgid "Phone"
-msgstr "رقم الموبايل"
+msgstr "Numéro de téléphone"
 
 #: templates/listings/reply/reply_to_listing_include.html:87
 msgid "Accepted formats: pdf, doc, txt, rtf"
-msgstr "الملفات المدعومة: rtf/doc/pdf/docx"
+msgstr "Formats acceptés: pdf, doc, txt, rtf"
 
 #: templates/listings/reply/reply_to_listing_include.html:104
 #: templates/listings/report/report_listing.html:166
 msgid "Please enter the 4 letters as shown in the image below"
-msgstr "من فضلك أدخل الحروف في الصورة أدناه"
+msgstr "Veuillez saisir les 4 lettres indiquées dans l'image ci-dessous"
 
 #: templates/listings/reply/reply_to_listing_include.html:107
 #: templates/listings/report/report_listing.html:169
 msgid "Captcha"
-msgstr "نريد أن نتأكد بأنك لست رجل آلي (كابتشا)"
+msgstr "Etes-vous humain? (Captcha)"
 
 #: templates/listings/reply/reply_to_listing_include.html:126
 #, python-format
 msgid "By clicking on 'Send my reply' I agree to the %(BRAND_NAME)s <a target=\"_blank\" class=\"u-link\" href=\"%(terms_url)s\"> terms and conditions</a> and the %(BRAND_NAME)s <a target=\"_blank\" class=\"u-link\" href=\"%(privacy_url)s\">privacy policy</a>"
-msgstr "عند المتابعة بالإرسال فإنك تأكد موافقتك على <a href=\"%(terms_url)s\">شروط وأحكام</a> %(BRAND_NAME)s وعلى <a href=\"%(privacy_url)s\">سياسة الخصوصية</a> %(BRAND_NAME)s"
+msgstr "En cliquant sur 'Envoyer ma réponse', j'accepte les <a href=\"%(terms_url)s\">termes et conditions</a> de %(BRAND_NAME)s et la <a href=\"%(privacy_url)s\">politique de confidentialité</a> de %(BRAND_NAME)s"
 
 #: templates/listings/reply/reply_to_listing_include.html:148
 msgid "You did it...you're one step closer to getting what you want. Never stop searching and you'll find more of what you want."
-msgstr "يا سلام، تمت العملية بنجاح. الآن اضغط على العودة إلى صفحة الإعلانات واستمتع بالبحث دون كلل أو ملل."
+msgstr "C'est fait... vous ętes à deux doigts d'obtenir ce que vous voulez. Continuez vos recherches et vous trouverez davantage encore."
 
 #: templates/listings/reply/reply_to_listing_include.html:153
 #: templates/listings/report/report_listing.html:25
 #: templates/listings/report/report_listing.html:65
 msgid "Back to listings"
-msgstr "العودة إلى صفحة الإعلانات"
+msgstr "Retour aux annonces"
 
 #: templates/listings/report/report_listing.html:21
 msgid "Thank you for reporting an ad on our site!"
-msgstr "شكرا لمساهمتك!"
+msgstr "Merci d'avoir signalé une annonce sur notre site!"
 
 #: templates/listings/report/report_listing.html:69
 msgid "Report"
-msgstr "بلغ عن هذا الإعلان"
+msgstr "Signaler"
 
 #: templates/listings/report/report_listing.html:81
 #: templates/listings/report/report_listing.html:83
 msgid "Your name is?"
-msgstr "الإسم"
+msgstr "Votre nom est?"
 
 #: templates/listings/report/report_listing.html:98
 #: templates/public/_email_form_modal.html:19
 msgid "What&#39;s your email?"
-msgstr "عنوان الإيميل"
+msgstr "Quelle est votre email?"
 
 #: templates/listings/report/report_listing.html:100
 #: templates/public/_email_form_modal.html:20
 msgid "What's your email?"
-msgstr "عنوان الإيميل"
+msgstr "Quelle est votre email?"
 
 #: templates/listings/report/report_listing.html:115
 #: templates/listings/report/report_listing.html:117
 msgid "Your mobile number"
-msgstr "رقم الموبايل"
+msgstr "Votre numéro de téléphone portable"
 
 #: templates/listings/report/report_listing.html:182
 msgid "Report ad"
-msgstr "بلغ عن هذا الإعلان"
+msgstr "Signaler l'annonce"
 
 #: templates/listings/snippets/_form.html:45
 msgid "Your ad title"
-msgstr "موضوع الإعلان"
+msgstr "Titre de votre annonce"
 
 #: templates/listings/snippets/_form.html:168
 msgid "example"
-msgstr "مثال"
+msgstr "exemple"
 
 #: templates/listings/snippets/_form.html:209
 #, python-format
 msgid "I'm new to %(BRAND_NAME)s. I need a password."
-msgstr "ليس لدي حساب على %(BRAND_NAME)s"
+msgstr "Je suis nouveau sur %(BRAND_NAME)s. J'ai besoin d'un mot de passe."
 
 #: templates/listings/snippets/_form.html:215
 msgid "I have an account and a password"
-msgstr "لدي حساب وكلمة سر"
+msgstr "J'ai un compte et un mot de passe"
 
 #: templates/listings/snippets/_scam_warning.html:4
 msgid "Never wire money or financial info to a seller on the internet."
-msgstr "لا تُشارك معلوماتك البنكية أو المالية مع أي شخص تعرفت عليه عن طريق الإنترنت (لا ترسل شيكات أو دفعة مالية مقدمة ولا أي شي مثله)"
+msgstr "Ne jamais envoyer vos coordonees bancaires a un individu a travers internet."
 
 #: templates/listings/snippets/_scam_warning.html:5
 msgid "For your security, all transactions should be done in person."
-msgstr "لأن الحذر واجب، لا تبيع أو تشتري أي شيء بدون لقاء الطرف الثاني شخصياً."
+msgstr "Pour votre securites, toute vos transactions doivent etre face a face avec votre acheteur ou vendeur."
 
 #: templates/listings/snippets/_scam_warning.html:6
 msgid "Inspect the item you wish to buy carefully or ask for the help of one of your friends."
-msgstr " نصيحتنا الأخيرة، إنك تفحص الغرض الذي تريد شراؤه ويُفضل طلب المساعدة من صديق عنده خبرة بالموضوع."
+msgstr "Veuillez inspecter les objets avant de les acheter face a face avec l'autre personne."
 
 #: templates/listings/snippets/_scam_warning.html:7
 msgid "Please report scams."
-msgstr "انتبه من الوقوع في فخ رسائل النصب السكام وساعدنا عن طريق الإبلاغ عنها."
+msgstr "Veuillez denoncer les scams."
 
 #: templates/listings/snippets/fields/typed_list_field.html:17
 #, python-format
 msgid " Add %(label)s "
-msgstr "اضف %(label)s"
+msgstr ""
 
 #: templates/listings/snippets/fields/widgets/hideable_multi_widget.html:9
 msgid "Skill"
-msgstr "المهارات"
+msgstr "Compétences"
 
 #: templates/listings/snippets/photos/_manage_photos.html:23
 msgid "Hey, please re-attach the photo."
-msgstr "عذرا, الرجاء إعادة تحميل الصورة."
+msgstr "Veuillez télecharger l'image de nouveau."
 
 #: templates/listings/snippets/photos/_manage_photos.html:26
 msgid "To delete photos, you'll need to enable Javascript."
-msgstr "لحذف الصور، عليك تفعيل تقنية الجافا سكربت في متصفحك."
+msgstr "Pour supprimer les images, vous avez besoin d'activer Javascript."
 
 #: templates/listings/snippets/photos/_manage_photos.html:57
 msgid "Add some photos"
-msgstr "اضف صور"
+msgstr "Ajouter des photos"
 
 #: templates/listings/snippets/photos/_manage_photos.html:104
 msgid "Add a photo"
-msgstr "اضف صور"
+msgstr "Ajouter une photo"
 
 #: templates/listings/snippets/photos/_manage_photos.html:111
 #, python-format
@@ -2829,22 +3219,22 @@ msgid ""
 "                    "
 msgstr ""
 "\n"
-"هل تعلم أن الصور تؤدي للبيع بمعدل أعلى بكثير؟ يمكنك إضافة %(max_photos)s صور واضحة وأصلية. انواع الملفات المدعومة: jpg, png, gif."
+"Les annonces avec photos ont beaucoup plus de succès. Téléchargez jusqu'à %(max_photos)s photos de bonne qualité. Formats acceptés: jpg, png ou gif."
 
 #: templates/listings/snippets/photos/_photo_preview.html:38
 #: templates/listings/snippets/photos/_photo_preview.html:44
 #: templates/listings/snippets/photos/_photo_preview.html:50
 msgid "Remove"
-msgstr "احذفها"
+msgstr "Supprimer"
 
 #: templates/listings/update/edit_listing.html:16
 msgid "Edit your ad."
-msgstr "تعديل"
+msgstr "Modifier cette annonce"
 
 #: templates/public/_email_form_modal.html:6
 #, python-format
 msgid "Be part of the %(BRAND_NAME)s family"
-msgstr "انضموا الى عائلة %(BRAND_NAME)s"
+msgstr ""
 
 #: templates/public/_email_form_modal.html:10
 #, python-format
@@ -2857,7 +3247,7 @@ msgstr ""
 
 #: templates/public/_email_form_modal.html:23
 msgid "Your phone number"
-msgstr "رقم الموبايل"
+msgstr "Votre numéro de téléphone portable"
 
 #: templates/public/_email_form_modal.html:24
 msgid "e.g. +966 12 000 0000"
@@ -2865,36 +3255,36 @@ msgstr ""
 
 #: templates/public/_email_form_modal.html:29
 msgid "Send"
-msgstr "أرسل"
+msgstr "Envoyer"
 
 #: templates/public/_email_form_modal.html:34
 msgid "You have successfully subscribed."
-msgstr "تم انضمامك بنجاح"
+msgstr ""
 
 #: templates/public/_footer.html:16
 msgid "OLX dubizzle countries"
-msgstr "دول أوليكس دوبيزل"
+msgstr "OLX dubizzle pays"
 
 #: templates/public/_footer.html:29 templates/public/_footer.html.py:30
 msgid "UAE"
-msgstr "الإمارات"
+msgstr "UAE"
 
 #: templates/public/_footer.html:39
 msgid "Help"
-msgstr "مساعدة"
+msgstr "Aide"
 
 #: templates/public/_footer.html:43 templates/public/about.html:6
 msgid "About Us"
-msgstr "تعرف علينا"
+msgstr "A propos de nous"
 
 #: templates/public/_footer.html:55
 msgid "Sitemap"
-msgstr "خريطة الموقع"
+msgstr "Plan du site"
 
 #: templates/public/_footer.html:65
 #, python-format
 msgid ", %(BRAND_NAME)s, All Rights Reserved."
-msgstr ", %(BRAND_NAME)s, جميع الحقوق محفوظة."
+msgstr ", %(BRAND_NAME)s, Tous droits réservés."
 
 #: templates/public/_footer_cat_links.html:7
 #, python-format
@@ -2904,7 +3294,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"السيارات في %(CITY_OR_COUNTRY)s"
+"Automobile en %(CITY_OR_COUNTRY)s"
 
 #: templates/public/_footer_cat_links.html:15
 #, python-format
@@ -2914,7 +3304,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"وظائف خالية في %(CITY_OR_COUNTRY)s\n"
+"Emplois en %(CITY_OR_COUNTRY)s\n"
 "                    "
 
 #: templates/public/_footer_cat_links.html:23
@@ -2925,7 +3315,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"عقارات في %(CITY_OR_COUNTRY)s للبيع"
+"%(CITY_OR_COUNTRY)s Immobilier à vendre"
 
 #: templates/public/_footer_cat_links.html:31
 #, python-format
@@ -2935,7 +3325,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"عقارات للإيجار في %(CITY_OR_COUNTRY)s"
+"Immobilier à louer en %(CITY_OR_COUNTRY)s"
 
 #: templates/public/_footer_cat_links.html:39
 #, python-format
@@ -2945,100 +3335,100 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"معروض للبيع في %(CITY_OR_COUNTRY)s"
+"Articles à vendre en %(CITY_OR_COUNTRY)s"
 
 #: templates/public/_no-results-home.html:7
 #: templates/public/_no-results.html:7
 msgid "We couldn't find any matches :(<br /><strong>It's like a desert out here</strong>"
-msgstr "لم نجد أي نتائج :(<br /><strong> يبدو أنك وصلت إلى صحراء قاحلة</strong>"
+msgstr "Nous n'avons trouvé aucun résultat :(<br /><strong>C'est le désert ici</strong>"
 
 #: templates/public/_no-results-home.html:14
 #: templates/public/_no-results.html:17
 msgid "Go to the homepage"
-msgstr "العودة الى الصفحة الرئيسية"
+msgstr "Aller sur la page d'accueil"
 
 #: templates/public/_testemonials.html:13
 #: templates/public/_testemonials.html:25
 #, python-format
 msgid "Nobody wanted to buy this couch. Until I found %(BRAND_NAME)s and got more than 10 calls in half an hour."
-msgstr "محدش كان عاوز يشتري الكنبة بتاعتي وساعة ما حطتها على %(BRAND_NAME)s جالي عشر مكالمات في نص ساعة"
+msgstr ""
 
 #: templates/public/_testemonials.html:36
 #, python-format
 msgid "I sold this bag on %(BRAND_NAME)s. It's free to post an ad and it's super easy and very fast. I love it!"
-msgstr "أنا بعت شنطتي على %(BRAND_NAME)s والصراحة مفيش أسهل من كده، أنا بجد حبيتها"
+msgstr ""
 
 #: templates/public/_testemonials.html:47
 #, python-format
 msgid "I placed an ad on %(BRAND_NAME)s to sell these brand new shoes. I sold them in 15 minutes!"
-msgstr "جبت جزمة جديدة وبعدها حسيت انها مش ستايلي و مبقتش عارف أعمل ايه لحد ما لقيت %(BRAND_NAME)s فبعتها عليه في ربع ساعة بس"
+msgstr ""
 
 #: templates/public/_testemonials.html:58
 #, python-format
 msgid "%(BRAND_NAME)s helped me sell my second phone. It was completely hassle free! I'll definitely use this site again."
-msgstr "%(BRAND_NAME)s ساعدني ابيع موبايلي. العملية كانت سهلة جداً وأكيد مش هتردد في استخدامُه مرة تانيه"
+msgstr ""
 
 #: templates/public/_testemonials.html:69
 #, python-format
 msgid "I sold my unused laptop on %(BRAND_NAME)s! It's easy money for the things you don't use anymore!"
-msgstr "بعت اللابتوب بتاعي على %(BRAND_NAME)s. عملت فلوس بسهوله من حاجات أنامكُنتش بستخدمها"
+msgstr ""
 
 #: templates/public/about.html:15
 msgid "About OLX"
-msgstr "حول أوليكس"
+msgstr "A propos d'OLX"
 
 #: templates/public/about.html:16
 msgid "OLX is the world’s leading classifieds platform focused on emerging markets, both mobile and online."
-msgstr "تُعتبر أوليكس المنصة الرائدة عالمياً للإعلانات المبوبة عبر الإنترنت والهواتف المتحركة  في الأسواق متسارعة النمو."
+msgstr "OLX est un champion mondial en terme au plate-forme de petites annonce focalisé au Moyen-Orient ,en portable et en ligne aussi "
 
 #: templates/public/about.html:17
 msgid "OLX operates globally and is present in more than 50 countries."
-msgstr "تُقدم أوليكس خدماتها العالمية على نطاق ما يفوق الـ 50 بلد."
+msgstr "OLX fonctionne  au niveau mondial et existe  dans plus de 50 pays."
 
 #: templates/public/about.html:19
 msgid "Mission"
-msgstr "الرسالة"
+msgstr "Misserghin"
 
 #: templates/public/about.html:20
 msgid "We improve people’s lives by bringing them together for a win-win exchange."
-msgstr "نساهم في تحسين حياة الناس عبر منحهم منصة لتبادل السلع والخدمات ضمن صفقات تُرضي الطرفين ووفقاً لمبدأ 'فيد واستفيد'. "
+msgstr "Nous perfectionnons la vie des gens de les réunissant pour un échange gagnant-gagnant."
 
 #: templates/public/about.html:23
 msgid "Presence"
-msgstr "أوليكس حول العالم"
+msgstr "Présence"
 
 #: templates/public/about.html:26
 msgid "Stats"
-msgstr "إحصائيات وحقائق"
+msgstr "Statistiques"
 
 #: templates/public/about.html:32
 msgid "Countries"
-msgstr "عدد الدول"
+msgstr "Pays"
 
 #: templates/public/about.html:33
 msgid "Languages"
-msgstr "اللغات"
+msgstr "langues"
 
 #: templates/public/about.html:49
 msgid "Monthly active users"
-msgstr "عدد المستخدمين شهرياً"
+msgstr "Actifs utilisateurs mensuels"
 
 #: templates/public/about.html:50
 msgid "Employees"
-msgstr "عدد الموظفين"
+msgstr "Employés/ Les employés"
 
 #: templates/public/about.html:65
 msgid "New monthly listings"
-msgstr "الإعلانات المنشورة شهرياً"
+msgstr "Les nouvelles inscriptions mensuelles"
 
 #: templates/public/about.html:66
 msgid "Monthly transactions"
-msgstr "عدد صفقات التبادل الشهرية"
+msgstr "Transactions mensuelles"
 
 #: templates/public/home.html:22
 #, python-format
 msgid "Free Classifieds in %(CITY_OR_COUNTRY)s on OLX, powered by dubizzle!"
-msgstr "إعلانات مبوبة مجانية في %(CITY_OR_COUNTRY)s على أوليكس بإدارة دوبيزل"
+msgstr "Petites Annonces Gratuites à %(CITY_OR_COUNTRY)s - OLX, soutenu par dubizzle"
 
 #: templates/public/home.html:69
 #, python-format
@@ -3055,71 +3445,71 @@ msgstr ""
 
 #: templates/public/home.html:99
 msgid "Load more"
-msgstr "ارني المزيد"
+msgstr "Charger d'avantage"
 
 #: templates/public/landing.html:18
 msgid "Find the best deals from thousands of ads on OLX, powered by dubizzle!"
-msgstr "بيع واشتري أي شيء تتخيله على أوليكس بإدارة دوبيزل"
+msgstr "Trouvez les meilleurs affaires parmi des milliers d'annonces sur OLX, soutenu par dubizzle!"
 
 #: templates/public/landing.html:23
 msgid "Selling your items &amp; giving them a new chapter is as easy as 1-2-3"
-msgstr "يمكنك بكل سهولة أن تبيع أغراضك التي لم تعد تستخدمها على أوليكس دوبيزل لأشخاص بحاجة إليهم."
+msgstr "Vendez vos articles en leur donnant un nouveau souffle, en un claquement de doigt."
 
 #: templates/public/landing.html:28
 msgid "Place your FREE ad."
-msgstr "أضف إعلانك"
+msgstr "Passez une autre annonce"
 
 #: templates/public/landing.html:33
 msgid "Choose a category"
-msgstr "إختر القسم"
+msgstr "Choisissez une catégorie"
 
 #: templates/public/landing.html:37
 msgid "Add photos"
-msgstr "حمّل صُور"
+msgstr "Ajoutez des photos"
 
 #: templates/public/landing.html:41
 msgid "Describe your item"
-msgstr "أضف مواصفات"
+msgstr "Décrivez votre produit"
 
 #: templates/public/landing.html:63
 msgid "Want to buy something? Choose your location or browse our categories."
-msgstr "ترغب بشراء شيء؟ إختر موقعك أو تصفح الفئات المختارة"
+msgstr "Voulez-vous acheter quelque chose? Sélectionnez l'endroit ou vous vivez et parcourez nos catégories."
 
 #: templates/public/landing.html:103
 msgid "Clothing  & accessories"
-msgstr "إكسسوارات و ملابس"
+msgstr "Vêtements & accessoires"
 
 #: templates/public/landing.html:109
 msgid "Jewelry & watches"
-msgstr "مجوهرات وساعات"
+msgstr "Bijoux & montres"
 
 #: templates/public/landing.html:116
 msgid "Jobs"
-msgstr "وظائف"
+msgstr "Offres d'emploi"
 
 #: templates/public/landing.html:122
 msgid "Mobile phones &amp; accessories"
-msgstr "موبايلات وملحقاتها"
+msgstr "Téléphones portables & accessoires"
 
 #: templates/public/landing.html:128
 msgid "Electronics &amp; home appliances"
-msgstr "إلكترونيات وأجهزة منزلية"
+msgstr "Electronique & appareils ménagers"
 
 #: templates/public/landing.html:134
 msgid "Cars"
-msgstr "سيارات"
+msgstr "Voitures"
 
 #: templates/public/landing.html:140
 msgid "Home, furniture &amp; garden"
-msgstr "المنزل والأثاث والحديقة"
+msgstr "Maison & jardinage"
 
 #: templates/public/landing.html:146
 msgid "Tablets &amp; computers "
-msgstr "تابلت/أجهزة لوحية وكمبيوتر"
+msgstr "Ordinateurs & tablettes"
 
 #: templates/public/landing.html:152
 msgid "So much more."
-msgstr "أقسام أكثر"
+msgstr "Et plus encore."
 
 #: templates/search/_pagination.html:41
 #: templates/user_profiles/my_expired_listings.html:23
@@ -3128,63 +3518,63 @@ msgstr "أقسام أكثر"
 #: templates/user_profiles/my_rejected_listings.html:22
 #: templates/user_profiles/my_saved_searches.html:82
 msgid "Next"
-msgstr "التالية"
+msgstr "Suivante"
 
 #: templates/search/_search_bar_snippet.html:11
 msgid "Search"
-msgstr "إبحث"
+msgstr "Rechercher"
 
 #: templates/search/_search_bar_snippet.html:18
 msgid "Click to search"
-msgstr "اضغط للبحث"
+msgstr "Clicker pour rechercher"
 
 #: templates/search/_search_bar_snippet.html:23
 #: templates/search/browse_widget.html:70
 #, python-format
 msgid "Show only %(CURRENT_LANGUAGE)s ads"
-msgstr "أظهر فقط الإعلانات المضافة بال%(CURRENT_LANGUAGE)s"
+msgstr "Afficher seulement les annonces en %(CURRENT_LANGUAGE)s"
 
 #: templates/search/browse_widget.html:94
 msgid "Refine"
-msgstr "تصفية البحث"
+msgstr "Affiner"
 
 #: templates/search/category_widget.html:8
 msgid "or pick a category"
-msgstr "أو إختر القسم "
+msgstr "ou choisir une catégorie"
 
 #: templates/search/category_widget.html:43
 #: templates/search/category_widget.html:64
 #: templates/search/category_widget.html:86
 msgid "back to"
-msgstr "العودة الى بداية الصفحة"
+msgstr "Revenir en haut"
 
 #: templates/search/category_widget.html:54
 msgid "All"
-msgstr "(الكل)"
+msgstr ""
 
 #: templates/search/search.html:50
 msgid "Wosh! This has either expired or been deleted."
-msgstr "ياللهول! الإعلان اختفى إما لانتهاء مدته أو أن صاحبه حذفه."
+msgstr "Wosh! l'annonce a expiree ou a ete supprimee par l'annonceur."
 
 #: templates/search/search.html:51
 msgid "Continue browsing, you might find what you were looking for :)"
-msgstr "لكن على فكرة، مازال بإمكانك الاستمتاع بتصفح الموقع وقد تجد الذي كنت تبحث عنه"
+msgstr "Vous pouvez encore trouver ce que vous chercher en continuant de naviguer :) "
 
 #: templates/search/search.html:62
 msgid "in"
-msgstr "في"
+msgstr "en"
 
 #: templates/search/search.html:62
 msgid ","
-msgstr "،"
+msgstr ","
 
 #: templates/search/search.html:65
 msgid "Buy, sell and find anything"
-msgstr "بيع واشتري وأعثر على أى شيء "
+msgstr "Acheter, vendre et trouver quelque chose"
 
 #: templates/search/search.html:84
 msgid "Sort"
-msgstr "رتب"
+msgstr "Trier"
 
 #: templates/search/search.html:94
 #, python-format
@@ -3197,37 +3587,15 @@ msgid_plural ""
 "                        We found <span class=\"red\">%(counter)s</span> ads\n"
 "                    "
 msgstr[0] ""
-"\n"
-"لم نجد اي إعلانات\n"
-"                "
 msgstr[1] ""
-"\n"
-"وجدنا اعلان\n"
-"                "
-msgstr[2] ""
-"\n"
-"وجدنا اعلانين\n"
-"                "
-msgstr[3] ""
-"\n"
-"وجدنا <span class=\"red\">%(counter)s</span> إعلانات\n"
-"                "
-msgstr[4] ""
-"\n"
-"وجدنا <span class=\"red\">%(counter)s</span> اعلان\n"
-"                "
-msgstr[5] ""
-"\n"
-"وجدنا <span class=\"red\">%(counter)s</span> اعلان\n"
-"                "
 
 #: templates/search/search.html:117
 msgid "Edit filters"
-msgstr "تصفية البحث"
+msgstr "Modifier les filtres"
 
 #: templates/search/widget.html:71
 msgid "No results..."
-msgstr "لا يوجد نتائج..."
+msgstr "Aucun résultat..."
 
 #: templates/shared/listings.html:55
 #, python-format
@@ -3242,15 +3610,15 @@ msgstr ""
 
 #: templates/sitemaps/sitemap.html:22
 msgid "Cities we're in..."
-msgstr "جميع المدن..."
+msgstr "Trouvez nous dans les villes suivantes..."
 
 #: templates/sitemaps/sitemap.html:44
 msgid "You'll find great deals on..."
-msgstr "سوف تشاهد إعلانات مثيرة للانتباه على..."
+msgstr "Trouvez des bonnes affaires dans ces categories..."
 
 #: templates/sitemaps/sitemap.html:68
 msgid "See all"
-msgstr "اظهر الجميع"
+msgstr "Tout voir"
 
 #: templates/user_profiles/my_expired_listings.html:10
 #, python-format
@@ -3263,29 +3631,7 @@ msgid_plural ""
 "        You've got %(counter)s expired ads\n"
 "    "
 msgstr[0] ""
-"\n"
-"ليس لديك إعلانات منتهية الصلاحية\n"
-"    "
 msgstr[1] ""
-"\n"
-"لديك إعلان منتهي الصلاحية\n"
-"    "
-msgstr[2] ""
-"\n"
-"لديك إعلانين منتهيين الصلاحية\n"
-"    "
-msgstr[3] ""
-"\n"
-"لديك %(counter)s إعلانات منتهية الصلاحية\n"
-"    "
-msgstr[4] ""
-"\n"
-"لديك %(counter)s إعلانات منتهية الصلاحية\n"
-"    "
-msgstr[5] ""
-"\n"
-"لديك %(counter)s إعلانات منتهية الصلاحية\n"
-"    "
 
 #: templates/user_profiles/my_listings.html:37
 #, python-format
@@ -3298,55 +3644,29 @@ msgid_plural ""
 "                            You've got %(counter)s ads\n"
 "                        "
 msgstr[0] ""
-"\n"
-"ليس لديك إعلانات\n"
-"                        "
 msgstr[1] ""
-"\n"
-"لديك إعلان واحد\n"
-"                        "
-msgstr[2] ""
-"\n"
-"لديك إعلانين\n"
-"                        "
-msgstr[3] ""
-"\n"
-"لديك %(counter)s إعلانات\n"
-"                        "
-msgstr[4] ""
-"\n"
-"لديك %(counter)s إعلان\n"
-"                        "
-msgstr[5] ""
-"\n"
-"لديك %(counter)s إعلان\n"
-"                        "
 
 #: templates/user_profiles/my_listings.html:59
 #: templates/user_profiles/my_listings.html:182
 #: templates/user_profiles/my_listings.html:240
 #: templates/user_profiles/my_listings.html:340
 msgid "This page is emptier than the Sahara. Come on, let's fill it up by placing some awesome ads."
-msgstr "حسابك كالصحراء - يبدو خالي من أي نشاط. احيي ربعك الخالي بإعلاناتك! "
+msgstr "Cette page est plus vide que le Sahara. Allons la remplir en plaçant des annonces génialissimes."
 
 #: templates/user_profiles/my_listings.html:85
 msgid "Your ad has been successfully deleted"
-msgstr "لقد تم حذف إعلانك بنجاح."
+msgstr "Votre annonce a été supprimée avec succès"
 
 #: templates/user_profiles/my_listings.html:105
 #, python-format
 msgid "The following %(counter)s ad did not meet our rules and has been rejected by %(BRAND_NAME)s support team , however you can correct and resubmit"
 msgid_plural "The following %(counter)s ads did not meet our rules and have been rejected by %(BRAND_NAME)s support team , however you can correct and resubmit"
-msgstr[0] "يبدو أن الإعلانات التالية لم يوافق عليها فريق الدعم في %(BRAND_NAME)s، حيث اتضح لدينا بعد مراجعتها، عدم التزامها بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديلها مرة ثانية وسنقوم بإعادة نشرها"
-msgstr[1] "يبدو أن إعلانك لم يوافق عليه فريق الدعم في %(BRAND_NAME)s، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
-msgstr[2] "يبدو أن الإعلانات التالية لم يوافق عليها فريق الدعم في %(BRAND_NAME)s، حيث اتضح لدينا بعد مراجعتها، عدم التزامها بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديلها مرة ثانية وسنقوم بإعادة نشرها"
-msgstr[3] "يبدو أن الإعلانات التالية لم يوافق عليها فريق الدعم في %(BRAND_NAME)s، حيث اتضح لدينا بعد مراجعتها، عدم التزامها بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديلها مرة ثانية وسنقوم بإعادة نشرها"
-msgstr[4] "يبدو أن إعلانك لم يوافق عليه فريق الدعم في %(BRAND_NAME)s، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره"
-msgstr[5] "يبدو أن إعلانك لم يوافق عليه فريق الدعم في %(BRAND_NAME)s، حيث اتضح لدينا بعد المراجعة، عدم التزامه بشروط النشر الدوبيزلاوية، لكن الخبر الجيد هو أنك تستطيع تعديل إعلانك مرة ثانية وسنقوم بإعادة نشره."
+msgstr[0] ""
+msgstr[1] ""
 
 #: templates/user_profiles/my_listings.html:149
 msgid "Recommended suggestion:"
-msgstr "إقتراحنا:"
+msgstr "Notre suggestion:"
 
 #: templates/user_profiles/my_listings.html:155
 #: templates/user_profiles/my_listings.html:157
@@ -3355,53 +3675,53 @@ msgstr "إقتراحنا:"
 #: templates/user_profiles/my_listings.html:398
 #: templates/user_profiles/my_listings.html:400
 msgid "delete"
-msgstr "حذف"
+msgstr "supprimer"
 
 #: templates/user_profiles/my_listings.html:159
 #: templates/user_profiles/my_listings.html:161
 msgid "resubmit"
-msgstr "إعادة وضع الإعلان"
+msgstr "redéposer"
 
 #: templates/user_profiles/my_listings.html:169
 #: templates/user_profiles/my_listings.html:325
 #: templates/user_profiles/my_listings.html:407
 msgid "Are you sure you want to delete this listing?"
-msgstr "من فضلك أكد طلبك لحذف الإعلان."
+msgstr "Ętes-vous sűr de vouloir supprimer cette annonce?"
 
 #: templates/user_profiles/my_listings.html:175
 #: templates/user_profiles/my_listings.html:330
 #: templates/user_profiles/my_listings.html:412
 msgid "Yes, delete it."
-msgstr "نعم، احذفه."
+msgstr "Oui, la supprimer."
 
 #: templates/user_profiles/my_listings.html:187
 msgid "Show all my rejected ads"
-msgstr "اظهر جميع إعلاناتي المرفوضة"
+msgstr "Montrer toutes les annonces rejetées"
 
 #: templates/user_profiles/my_listings.html:206
 msgid "These ads are awaiting approval and will be live soon."
-msgstr "جاري الآن الموافقة على الإعلان وسيتم نشره في أقرب وقت."
+msgstr "Ces annonces sont en attente de validation et seront bientôt en ligne."
 
 #: templates/user_profiles/my_listings.html:245
 msgid "Show all my pending ads"
-msgstr "اظهر جميع إعلاناتي التي لا زالت تحت المراجعة"
+msgstr "Voir toutes mes annonces en cours"
 
 #: templates/user_profiles/my_listings.html:304
 msgid "Your edits will go live soon."
-msgstr "سنقوم بنشر تعديلاتك قريبا."
+msgstr "Vos modifications seront mis en ligne prochainement."
 
 #: templates/user_profiles/my_listings.html:316
 #: templates/user_profiles/my_listings.html:318
 msgid "edit"
-msgstr "تعديل"
+msgstr "modifier"
 
 #: templates/user_profiles/my_listings.html:346
 msgid "Show all my live ads"
-msgstr "اظهر جميع إعلاناتي المنشورة"
+msgstr "Voir toutes mes annonces en ligne"
 
 #: templates/user_profiles/my_listings.html:424
 msgid "Show all my expired ads"
-msgstr "اظهر جميع إعلاناتي المنتهية الصلاحية"
+msgstr "Voir toutes mes annonces expirées"
 
 #: templates/user_profiles/my_live_listings.html:10
 #, python-format
@@ -3414,29 +3734,7 @@ msgid_plural ""
 "        You've got %(counter)s live ads\n"
 "    "
 msgstr[0] ""
-"\n"
-"ليس لديك إعلانات منشورة\n"
-"    "
 msgstr[1] ""
-"\n"
-"لديك إعلان منشور\n"
-"    "
-msgstr[2] ""
-"\n"
-"لديك إعلانين منشورين\n"
-"    "
-msgstr[3] ""
-"\n"
-"لديك %(counter)s إعلانات منشورة\n"
-"    "
-msgstr[4] ""
-"\n"
-"لديك %(counter)s إعلان منشور\n"
-"    "
-msgstr[5] ""
-"\n"
-"لديك %(counter)s إعلان منشور\n"
-"    "
 
 #: templates/user_profiles/my_pending_listings.html:10
 #, python-format
@@ -3449,29 +3747,7 @@ msgid_plural ""
 "        You've got %(counter)s pending ads\n"
 "    "
 msgstr[0] ""
-"\n"
-"ليس لديك إعلانات تحت المراجعة\n"
-"    "
 msgstr[1] ""
-"\n"
-"لديك إعلان تحت المراجعة\n"
-"    "
-msgstr[2] ""
-"\n"
-"لديك إعلانين تحت المراجعة\n"
-"    "
-msgstr[3] ""
-"\n"
-"لديك %(counter)s إعلانات تحت المراجعة\n"
-"    "
-msgstr[4] ""
-"\n"
-"لديك %(counter)s إعلان تحت المراجعة\n"
-"    "
-msgstr[5] ""
-"\n"
-"لديك %(counter)s إعلان تحت المراجعة\n"
-"    "
 
 #: templates/user_profiles/my_rejected_listings.html:10
 #, python-format
@@ -3484,29 +3760,7 @@ msgid_plural ""
 "        You've got %(counter)s rejected ads\n"
 "    "
 msgstr[0] ""
-"\n"
-"ليس لديك إعلانات مرفوضة\n"
-"    "
 msgstr[1] ""
-"\n"
-"لديك إعلان مرفوض\n"
-"    "
-msgstr[2] ""
-"\n"
-"لديك إعلانين مرفوضين\n"
-"    "
-msgstr[3] ""
-"\n"
-"لديك %(counter)s إعلانات مرفوضة\n"
-"    "
-msgstr[4] ""
-"\n"
-"لديك %(counter)s إعلان مرفوضة\n"
-"    "
-msgstr[5] ""
-"\n"
-"لديك %(counter)s إعلان مرفوضة\n"
-"    "
 
 #: templates/user_profiles/my_saved_searches.html:10
 #, python-format
@@ -3519,67 +3773,45 @@ msgid_plural ""
 "        You've got %(counter)s saved searches\n"
 "    "
 msgstr[0] ""
-"\n"
-"لديك بحث محفوظ واحد\n"
-"    "
 msgstr[1] ""
-"\n"
-"لديك بحث محفوظ واحد\n"
-"    "
-msgstr[2] ""
-"\n"
-"لديك %(counter)s بحوث محفوظة\n"
-"    "
-msgstr[3] ""
-"\n"
-"لديك %(counter)s بحوث محفوظة\n"
-"    "
-msgstr[4] ""
-"\n"
-"لديك %(counter)s بحوث محفوظة\n"
-"    "
-msgstr[5] ""
-"\n"
-"لديك %(counter)s بحوث محفوظة\n"
-"    "
 
 #: templates/user_profiles/my_saved_searches.html:24
 msgid "Your saved search has been deleted."
-msgstr "لقد تم حذف بحثك المحفوظ"
+msgstr "Votre recherche favorite a été supprimée"
 
 #: templates/user_profiles/my_saved_searches.html:62
 msgid "ON"
-msgstr "تشغيل"
+msgstr "ON"
 
 #: templates/user_profiles/my_saved_searches.html:62
 msgid "OFF"
-msgstr "إلغاء"
+msgstr "OFF"
 
 #: templates/user_profiles/my_saved_searches.html:66
 msgid "Email alerts"
-msgstr "تنبيهات الإيميل"
+msgstr "Les alertes par email"
 
 #: templates/user_profiles/my_saved_searches.html:72
 msgid "Delete"
-msgstr "حذف"
+msgstr "Supprimer"
 
 #: utils/meta_builder.py:105
 #, python-format
 msgid "%(city)s, %(country)s"
-msgstr "%(city)s، %(country)s "
+msgstr "%(city)s, %(country)s"
 
 #: utils/meta_builder.py:112
 #, python-format
 msgid "%(neighbourhood)s, %(full_location)s"
-msgstr "%(neighbourhood)s، %(full_location)s"
+msgstr "%(neighbourhood)s, %(full_location)s"
 
 #: utils/prettify_filters.py:84 utils/prettify_filters.py:87
 msgid "Studio"
-msgstr "الاستوديو"
+msgstr ""
 
 #: utils/prettify_filters.py:92
 msgid "km"
-msgstr "كم"
+msgstr ""
 
 #: utils/prettify_filters.py:95
 msgid "English"
@@ -3592,92 +3824,92 @@ msgstr ""
 
 #: utils/prettify_filters.py:116
 msgid "language"
-msgstr "اللغة"
+msgstr "langue"
 
 #: utils/prettify_filters.py:117
 msgid "keywords"
-msgstr "كلمات البحث"
+msgstr "mots-clés"
 
 #: utils/prettify_filters.py:132
 msgid "price"
-msgstr "السعر"
+msgstr "prix"
 
 #: utils/prettify_filters.py:136
 msgid "photos"
-msgstr "الصور"
+msgstr "Ajouter une photo"
 
 #: utils/rejected_context.py:19
 msgid "Your ad is missing some important information that helps you sell your item."
-msgstr "ﺇﻋﻼﻧﻚ ﻳﻨﻘﺼﻪ ﺍﻟﻜﺜﻴﺮ ﻣﻦ ﺍﻟﻤﻌﻠﻮﻣﺎﺕ ﺍﻟﺘﻲ ﺗﺴﺎﻋﺪ ﻓﻲ ﺇﺗﻤﺎﻡ ﻋﻤﻠﻴﺔ ﺍﻟﺒﻴﻊ ﺑﺸﻜﻞ ﺃﺳﺮﻉ."
+msgstr "Votre annonce ne contient les informations nécessaires qui facilitent la vente de votre objet."
 
 #: utils/rejected_context.py:20
 msgid "Check your ad information, your ad title,description, or contact details one of them might be not clear."
-msgstr "تأكد من مواصفات إعلانك أوعنوان إعلانك أو معلومات الإتصال بك من الممكن أن تكون احدى هذه المعلومات غير صحيحة."
+msgstr "Veuillez vérifier le contenu de votre annonce, ils nous semblent que le titre de votre annonces, la description, ou bien vos coordonnées ne sont pas clairs"
 
 #: utils/rejected_context.py:38
 msgid "You have placed your item in the wrong category"
-msgstr "لقد قمت بوضع إعلانك في القسم غير الصحيحة"
+msgstr "Votre annonce a été placé dans la mauvaise catégorie"
 
 #: utils/rejected_context.py:41
 msgid "How about placing your ad in"
-msgstr "ما رأيك بوضع إعلانك ضمن فئة"
+msgstr "Vous pouvez déposer votre annonce dans la catégorie suivante"
 
 #: utils/rejected_context.py:41
 msgid " ?"
-msgstr " ؟"
+msgstr ""
 
 #: utils/rejected_context.py:46
 msgid "Your ad title is not clear or does not reflect your item."
-msgstr "عنوان إعلانك غير واضح أو لا يعكس محتويات إعلانك."
+msgstr "Le titre de votre annonce ne décrit pas suffisamment la nature de votre objet."
 
 #: utils/rejected_context.py:46
 msgid "Make sure your title is detailed but short, no phone number or price"
-msgstr "تأكد أن عنوان إعلانك واضح و قصير في نفس الوقت، لا تضع رقم الإتصال بك أو السعر."
+msgstr "Veuillez vous assurer que le titre de votre annonce décrit clairement et précisément votre objet et qu'il ne contient pas le prix ou votre numéro de Tel. Vous pouvez utiliser jusqu'à 65 caractères. "
 
 #: utils/rejected_context.py:47
 msgid "Your ad description is not clear or does not reflect your item."
-msgstr "مواصفات إعلانك غير واضحة أو لا تعكس إعلانك."
+msgstr "La description de votre annonce ne décrit pas suffisamment la nature de votre objet."
 
 #: utils/rejected_context.py:47
 msgid "Your description should include details of your item (eg. how old it is and why you're selling it) or job (eg. day-to-day duties)"
-msgstr "أخبرنا ضمن مواصفات إعلانك التفاصيل عن سلعتك (مثال عمر سلعتك و لماذا تريد بيعها) للوظائف (مثال تاريخ بدء العمل)"
+msgstr "Vous devez mentionner dans la description où vous avez acheté cet objet et  pourquoi vous allez le vendre."
 
 #: utils/rejected_context.py:48
 msgid "You've provided an incorrect price for your item"
-msgstr "سعر سلعتك غير صحيح."
+msgstr "Le prix que vous avez mentionné ne semble pas correct"
 
 #: utils/rejected_context.py:48
 msgid "Provide relevant price for your item"
-msgstr "زودنا بسعر مناسب لسلعتك لجذب عدد أكبر من المشترين و بيعها في وقت سريع"
+msgstr "veuillez vous assurer de mentionner toujours le bon prix de votre objet."
 
 #: utils/rejected_context.py:49
 msgid "You've provided an invalid mobile phone number."
-msgstr "لقد قمت بوضع رقم موبايل غير صحيح."
+msgstr "Le numéro de téléphone que vous avez mentionné n' est pas valable"
 
 #: utils/rejected_context.py:49
 msgid "Provide valid working mobile phone number to enable buyers or job seekers to contact you directly about your ad"
-msgstr "تأكد أن رقم الموبايل مازال في الخدمة ليتمكن المشترين أو الباحثين عن عمل من التواصل معك بوقت أسرع"
+msgstr "Vous devez mentionner un  numéro de téléphone valable pour que les utilisateurs de notre site puissent vous contacter directement pour faciliter la vente de votre objet"
 
 #: utils/rejected_context.py:50
 msgid "You've written your ad in Franco Arabic."
-msgstr "إعلانك مكتوب بالعربيزي (عربي بحروف إنجليزي)"
+msgstr "Vous avez utilisé les lettres latines en écrivant votre annonce en Arabe."
 
 #: utils/rejected_context.py:50
 msgid "Remove Franco Arabic from your ad (no '3adi, ya3ni, wa7id, etc') and replace it with English or Arabic"
-msgstr "أكتب الإعلان بحروف عربية"
+msgstr "Veuillez vous assurer de ne pas utiliser les lettres latines en écrivant votre annonce en Arabe"
 
 #: utils/rejected_context.py:55
 msgid "Your ad does not have photos."
-msgstr "لا يوجد صورة مرفقة بالاعلان"
+msgstr "Votre annonce ne dispose pas de photos."
 
 #: utils/rejected_context.py:56
 msgid "Add some photos."
-msgstr "قم بأضافة صور لاعلانك"
+msgstr "Ajouter des photos."
 
 #: utils/rejected_context.py:58
 msgid "Your ad had unsuitable photo."
-msgstr "الصورة المرفقة بالاعلان غير مناسبة"
+msgstr "Votre annonce avait impropre photo."
 
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
-msgstr "قم بأضافة صور مناسبة لاعلانك"
+msgstr "Ajouter quelques photos appropriés."
