@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-09 16:27+0400\n"
+"POT-Creation-Date: 2015-09-10 12:34+0400\n"
 "PO-Revision-Date: 2014-08-05 14:25+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Lebanese <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_LB/>\n"
@@ -1610,10 +1610,6 @@ msgstr "إعلانات مبوبة مجانية في %(full_location)s | %(BRAND_
 msgid "%(BRAND_NAME)s is your free local classifieds website in %(full_location)s. Post ads & browse for real estate, cars, jobs and classifieds in %(country)s."
 msgstr "%(BRAND_NAME)s هو الموقع المحلي المجاني للإعلانات المبوبة في %(full_location)s. وظائف شاغرة، عقارات، سيارات وإعلانات مبوبة. أضف إعلان، تصفح الإعلانات، بيع واشتري واستأجر في %(country)s."
 
-#: fuego/meta_settings.py:380
-msgid "%(BRAND_NAME)s | Create an Ad"
-msgstr "%(BRAND_NAME)s | أضف إعلانك"
-
 #: fuego/shared_settings.py:63
 msgid "Bahrain"
 msgstr "البحرين"
@@ -1718,7 +1714,7 @@ msgstr ""
 #: templates/email_alerts/email_alerts_fr.html:79
 #: templates/feedbox/index_horizontal.html:326
 #: templates/listings/get/get_listing.html:112
-#: templates/listings/get/get_listing.html:240 templates/public/home.html:74
+#: templates/listings/get/get_listing.html:239 templates/public/home.html:74
 #: templates/shared/listings.html:59
 #: templates/user_profiles/my_listings.html:139
 #: templates/user_profiles/my_listings.html:232
@@ -2169,12 +2165,12 @@ msgid "Terms of Use"
 msgstr "شروط الاستخدام"
 
 #: templates/base_terms.html:16
-msgid "<b>THESE TERMS OF USE WERE UPDATED ON AUGUST 30, 2015</b><br/><br/>"
-msgstr "<b>تم تحديث شروط الاستخدام هذه بتاريخ 30 أغسطس 2015</b>"
+msgid "THESE TERMS OF USE WERE UPDATED ON AUGUST 30, 2015"
+msgstr "تم تحديث شروط الاستخدام هذه بتاريخ 30 أغسطس 2015"
 
 #: templates/base_terms.html:17
-msgid "<b>PLEASE CAREFULLY READ THESE TERMS OF USE. BY USING THIS WEBSITE YOU INDICATE YOUR UNDERSTANDING AND ACCEPTANCE OF THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS YOU MAY NOT USE THIS WEBSITE.</b>"
-msgstr "<b>يرجى قراءة شروط الاستخدام هذه بعناية، وباستخدامك لهذا الموقع الالكتروني فأنت تعلن فهمك وقبولك لهذه الشروط. وإذا لم توافق على هذه الشروط، لا يجوز لك استخدام هذا الموقع.</b>"
+msgid "PLEASE CAREFULLY READ THESE TERMS OF USE. BY USING THIS WEBSITE YOU INDICATE YOUR UNDERSTANDING AND ACCEPTANCE OF THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS YOU MAY NOT USE THIS WEBSITE."
+msgstr "يرجى قراءة شروط الاستخدام هذه بعناية، وباستخدامك لهذا الموقع الالكتروني فأنت تعلن فهمك وقبولك لهذه الشروط. وإذا لم توافق على هذه الشروط، لا يجوز لك استخدام هذا الموقع."
 
 #: templates/generic.html:27
 #, python-format
@@ -2598,7 +2594,7 @@ msgid "Back to results"
 msgstr "العودة إلى صفحة الإعلانات"
 
 #: templates/listings/get/get_listing.html:108
-#: templates/listings/get/get_listing.html:236
+#: templates/listings/get/get_listing.html:235
 #, python-format
 msgid ""
 "\n"
@@ -2607,24 +2603,24 @@ msgid ""
 msgstr ""
 
 #: templates/listings/get/get_listing.html:120
-#: templates/listings/get/get_listing.html:277
+#: templates/listings/get/get_listing.html:276
 msgid "This ad has expired."
 msgstr "لقد انتهت صلاحية هذا الاعلان"
 
 #: templates/listings/get/get_listing.html:125
-#: templates/listings/get/get_listing.html:282
+#: templates/listings/get/get_listing.html:281
 #, python-format
 msgid "Looking for %(category_name)s in %(city_name)s?"
 msgstr "هل تبحث عن %(category_name)s في %(city_name)s؟"
 
 #: templates/listings/get/get_listing.html:127
-#: templates/listings/get/get_listing.html:284
+#: templates/listings/get/get_listing.html:283
 #, python-format
 msgid "Looking for %(category_name)s?"
 msgstr "هل تبحث عن %(category_name)s؟"
 
 #: templates/listings/get/get_listing.html:131
-#: templates/listings/get/get_listing.html:288
+#: templates/listings/get/get_listing.html:287
 msgid "See similar ads"
 msgstr "شاهد إعلانات مشابهة"
 
@@ -2637,40 +2633,36 @@ msgstr ""
 msgid "View all details"
 msgstr "أظهر كافة التفاصيل"
 
-#: templates/listings/get/get_listing.html:163
-msgid "Read more"
-msgstr "ارني المزيد"
-
 #: templates/listings/get/get_listing.html:185
 msgid "Share with friends"
 msgstr "شارك مع أصدقائك"
 
-#: templates/listings/get/get_listing.html:192
+#: templates/listings/get/get_listing.html:191
 msgid "Report this ad"
 msgstr "بلغ عن هذا الإعلان"
 
-#: templates/listings/get/get_listing.html:203
+#: templates/listings/get/get_listing.html:202
 msgid "Important tips from OLX dubizzle"
 msgstr "نصائح عالسريع علشان يكون عندك صورة واضحة عن أوليكس دوبيزل"
 
-#: templates/listings/get/get_listing.html:208
+#: templates/listings/get/get_listing.html:207
 msgid "Show"
 msgstr "أظهر"
 
-#: templates/listings/get/get_listing.html:251
+#: templates/listings/get/get_listing.html:250
 msgid "Call"
 msgstr "إتصل"
 
-#: templates/listings/get/get_listing.html:252
+#: templates/listings/get/get_listing.html:251
 msgid "Show number"
 msgstr "اظهر الرقم"
 
-#: templates/listings/get/get_listing.html:260
+#: templates/listings/get/get_listing.html:259
 #: templates/listings/reply/reply_to_listing_include.html:10
 msgid "Reply"
 msgstr "أرسل رسالة"
 
-#: templates/listings/get/get_listing.html:261
+#: templates/listings/get/get_listing.html:260
 #: templates/listings/reply/reply_to_listing_include.html:130
 msgid "Send reply"
 msgstr "أرسل رد"
@@ -3216,6 +3208,7 @@ msgid "Sort"
 msgstr "رتب"
 
 #: templates/search/search.html:92
+#, python-format
 msgid ""
 "\n"
 "                    We found <span class=\"red\">%(counter)s</span> ad\n"
@@ -3591,12 +3584,12 @@ msgstr "تنبيهات الإيميل"
 msgid "Delete"
 msgstr "حذف"
 
-#: utils/meta_builder.py:107
+#: utils/meta_builder.py:105
 #, python-format
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
 
-#: utils/meta_builder.py:114
+#: utils/meta_builder.py:112
 #, python-format
 msgid "%(neighbourhood)s, %(full_location)s"
 msgstr "%(neighbourhood)s، %(full_location)s"
@@ -3709,3 +3702,9 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
+
+#~ msgid "%(BRAND_NAME)s | Create an Ad"
+#~ msgstr "%(BRAND_NAME)s | أضف إعلانك"
+
+#~ msgid "Read more"
+#~ msgstr "ارني المزيد"
