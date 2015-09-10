@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-09 16:27+0400\n"
+"POT-Creation-Date: 2015-09-10 12:49+0400\n"
 "PO-Revision-Date: 2015-01-18 14:43+0200\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Egyptian <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_EG/>\n"
@@ -223,7 +223,7 @@ msgstr "يلا، جرب وبيع."
 #: country_templates/shared_landing.html:160
 #: country_templates/egypt/public/landing.html:35
 #: country_templates/egypt/public/landing.html:40 templates/base.html:152
-#: templates/generic.html:96 templates/generic.html.py:103
+#: templates/generic.html:110 templates/generic.html.py:117
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
 msgid "Place an ad"
@@ -2774,6 +2774,7 @@ msgid "%(BRAND_NAME)s is your free local classifieds website in %(full_location)
 msgstr "%(BRAND_NAME)s هو الموقع المحلي المجاني للإعلانات المبوبة في %(full_location)s. وظائف شاغرة، عقارات، سيارات وإعلانات مبوبة. أضف إعلان، تصفح الإعلانات، بيع واشتري واستأجر في %(country)s."
 
 #: fuego/meta_settings.py:380
+#, python-format
 msgid "%(BRAND_NAME)s | Create an Ad"
 msgstr "%(BRAND_NAME)s | أضف إعلانك"
 
@@ -2881,7 +2882,7 @@ msgstr ""
 #: templates/email_alerts/email_alerts_fr.html:79
 #: templates/feedbox/index_horizontal.html:326
 #: templates/listings/get/get_listing.html:112
-#: templates/listings/get/get_listing.html:240 templates/public/home.html:74
+#: templates/listings/get/get_listing.html:239 templates/public/home.html:74
 #: templates/shared/listings.html:59
 #: templates/user_profiles/my_listings.html:139
 #: templates/user_profiles/my_listings.html:232
@@ -3332,12 +3333,12 @@ msgid "Terms of Use"
 msgstr "شروط الاستخدام"
 
 #: templates/base_terms.html:16
-msgid "<b>THESE TERMS OF USE WERE UPDATED ON AUGUST 30, 2015</b><br/><br/>"
-msgstr "<b>تم تحديث شروط الاستخدام هذه بتاريخ 30 أغسطس 2015</b>"
+msgid "THESE TERMS OF USE WERE UPDATED ON AUGUST 30, 2015"
+msgstr "تم تحديث شروط الاستخدام هذه بتاريخ 30 أغسطس 2015"
 
 #: templates/base_terms.html:17
-msgid "<b>PLEASE CAREFULLY READ THESE TERMS OF USE. BY USING THIS WEBSITE YOU INDICATE YOUR UNDERSTANDING AND ACCEPTANCE OF THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS YOU MAY NOT USE THIS WEBSITE.</b>"
-msgstr "<b>يرجى قراءة شروط الاستخدام هذه بعناية، وباستخدامك لهذا الموقع الالكتروني فأنت تعلن فهمك وقبولك لهذه الشروط. وإذا لم توافق على هذه الشروط، لا يجوز لك استخدام هذا الموقع.</b>"
+msgid "PLEASE CAREFULLY READ THESE TERMS OF USE. BY USING THIS WEBSITE YOU INDICATE YOUR UNDERSTANDING AND ACCEPTANCE OF THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS YOU MAY NOT USE THIS WEBSITE."
+msgstr "يرجى قراءة شروط الاستخدام هذه بعناية، وباستخدامك لهذا الموقع الالكتروني فأنت تعلن فهمك وقبولك لهذه الشروط. وإذا لم توافق على هذه الشروط، لا يجوز لك استخدام هذا الموقع."
 
 #: templates/generic.html:27
 #, python-format
@@ -3348,71 +3349,71 @@ msgstr "%(BRAND_NAME)s على موبايلك"
 msgid "Your account"
 msgstr "حسابك"
 
-#: templates/generic.html:44 templates/public/_breadcrumbs.html:14
-#: templates/public/landing.html:70
+#: templates/generic.html:44 templates/generic.html.py:50
+#: templates/public/_breadcrumbs.html:14 templates/public/landing.html:70
 msgid "All of"
 msgstr "كل"
 
-#: templates/generic.html:134
+#: templates/generic.html:148
 #: templates/user_profiles/my_saved_searches.html:46
 msgid "Filters"
 msgstr "خيارات البحث"
 
-#: templates/generic.html:148
+#: templates/generic.html:162
 #: templates/listings/snippets/_scam_warning.html:12
 msgid "Close"
 msgstr "إغلاق"
 
-#: templates/generic.html:155
+#: templates/generic.html:169
 msgid "Reset"
 msgstr "إعادة ضبط"
 
-#: templates/generic.html:173 templates/search/category_widget.html:18
+#: templates/generic.html:187 templates/search/category_widget.html:18
 #: templates/search/category_widget.html:35
 #, python-format
 msgid "Back to %(BRAND_NAME)s"
 msgstr "الرجوع إلى صفحة %(BRAND_NAME)s"
 
-#: templates/generic.html:180
+#: templates/generic.html:194
 msgid "Login"
 msgstr "تسجيل الدخول"
 
-#: templates/generic.html:185
+#: templates/generic.html:199
 msgid "Your ads"
 msgstr "إعلاناتك"
 
-#: templates/generic.html:190 templates/user_profiles/my_listings.html:99
+#: templates/generic.html:204 templates/user_profiles/my_listings.html:99
 msgid "Your rejected ads"
 msgstr "إعلاناتك المرفوضة"
 
-#: templates/generic.html:195 templates/user_profiles/my_listings.html:198
+#: templates/generic.html:209 templates/user_profiles/my_listings.html:198
 msgid "Your pending ads"
 msgstr "إعلاناتك التي تنتظر الموافقة"
 
-#: templates/generic.html:200 templates/user_profiles/my_listings.html:257
+#: templates/generic.html:214 templates/user_profiles/my_listings.html:257
 msgid "Your live ads"
 msgstr "إعلاناتك المنشورة"
 
-#: templates/generic.html:205 templates/user_profiles/my_listings.html:357
+#: templates/generic.html:219 templates/user_profiles/my_listings.html:357
 msgid "Your expired ads"
 msgstr "إعلاناتك منتهية الصلاحية"
 
-#: templates/generic.html:211
+#: templates/generic.html:225
 #: templates/email_alerts/save_search_button.html:24
 #: templates/user_profiles/my_saved_searches.html:33
 msgid "Your saved searches"
 msgstr "بحوثك المحفوظة"
 
-#: templates/generic.html:217
+#: templates/generic.html:231
 msgctxt "my_listings"
 msgid "Change password"
 msgstr "غير كلمة السر"
 
-#: templates/generic.html:222 templates/authentication/change_password.html:23
+#: templates/generic.html:236 templates/authentication/change_password.html:23
 msgid "Logout"
 msgstr "الخروج من الحساب"
 
-#: templates/generic.html:242
+#: templates/generic.html:256
 msgid "Download the free OLX Arabia App"
 msgstr "حمّل تطبيق أوليكس الجديد"
 
@@ -3760,7 +3761,7 @@ msgid "Back to results"
 msgstr "العودة إلى صفحة الإعلانات"
 
 #: templates/listings/get/get_listing.html:108
-#: templates/listings/get/get_listing.html:236
+#: templates/listings/get/get_listing.html:235
 #, python-format
 msgid ""
 "\n"
@@ -3769,24 +3770,24 @@ msgid ""
 msgstr ""
 
 #: templates/listings/get/get_listing.html:120
-#: templates/listings/get/get_listing.html:277
+#: templates/listings/get/get_listing.html:276
 msgid "This ad has expired."
 msgstr "لقد انتهت صلاحية هذا الاعلان"
 
 #: templates/listings/get/get_listing.html:125
-#: templates/listings/get/get_listing.html:282
+#: templates/listings/get/get_listing.html:281
 #, python-format
 msgid "Looking for %(category_name)s in %(city_name)s?"
 msgstr "هل تبحث عن %(category_name)s في %(city_name)s؟"
 
 #: templates/listings/get/get_listing.html:127
-#: templates/listings/get/get_listing.html:284
+#: templates/listings/get/get_listing.html:283
 #, python-format
 msgid "Looking for %(category_name)s?"
 msgstr "هل تبحث عن %(category_name)s؟"
 
 #: templates/listings/get/get_listing.html:131
-#: templates/listings/get/get_listing.html:288
+#: templates/listings/get/get_listing.html:287
 msgid "See similar ads"
 msgstr "شاهد إعلانات مشابهة"
 
@@ -3799,40 +3800,36 @@ msgstr ""
 msgid "View all details"
 msgstr "اظهر كل التفاصيل"
 
-#: templates/listings/get/get_listing.html:163
-msgid "Read more"
-msgstr "ارني المزيد"
-
 #: templates/listings/get/get_listing.html:185
 msgid "Share with friends"
 msgstr "شارك مع أصدقائك"
 
-#: templates/listings/get/get_listing.html:192
+#: templates/listings/get/get_listing.html:191
 msgid "Report this ad"
 msgstr "بلغ عن هذا الإعلان"
 
-#: templates/listings/get/get_listing.html:203
+#: templates/listings/get/get_listing.html:202
 msgid "Important tips from OLX dubizzle"
 msgstr "معلومات \"في السريع\" علشان تبقى صاحي ومدقدق"
 
-#: templates/listings/get/get_listing.html:208
+#: templates/listings/get/get_listing.html:207
 msgid "Show"
 msgstr "أظهر"
 
-#: templates/listings/get/get_listing.html:251
+#: templates/listings/get/get_listing.html:250
 msgid "Call"
 msgstr "إتصل"
 
-#: templates/listings/get/get_listing.html:252
+#: templates/listings/get/get_listing.html:251
 msgid "Show number"
 msgstr "أظهر رقم الهاتف"
 
-#: templates/listings/get/get_listing.html:260
+#: templates/listings/get/get_listing.html:259
 #: templates/listings/reply/reply_to_listing_include.html:10
 msgid "Reply"
 msgstr "أرسل رسالة"
 
-#: templates/listings/get/get_listing.html:261
+#: templates/listings/get/get_listing.html:260
 #: templates/listings/reply/reply_to_listing_include.html:130
 msgid "Send reply"
 msgstr "أرسل رد"
@@ -4354,6 +4351,7 @@ msgid "Sort"
 msgstr "رتب"
 
 #: templates/search/search.html:92
+#, python-format
 msgid ""
 "\n"
 "                    We found <span class=\"red\">%(counter)s</span> ad\n"
@@ -4847,3 +4845,6 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
+
+#~ msgid "Read more"
+#~ msgstr "ارني المزيد"
