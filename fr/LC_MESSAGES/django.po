@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-09 16:28+0400\n"
+"POT-Creation-Date: 2015-09-10 12:49+0400\n"
 "PO-Revision-Date: 2014-08-05 15:00+0400\n"
 "Language-Team: French <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr/>\n"
 "Language: fr\n"
@@ -214,7 +214,7 @@ msgstr "Allez-y, essayez."
 
 #: country_templates/shared_landing.html:155
 #: country_templates/shared_landing.html:160 templates/base.html:152
-#: templates/generic.html:96 templates/generic.html.py:103
+#: templates/generic.html:110 templates/generic.html.py:117
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
 msgid "Place an ad"
@@ -1584,6 +1584,7 @@ msgid "%(BRAND_NAME)s is your free local classifieds website in %(full_location)
 msgstr "%(BRAND_NAME)s est votre premier site de petites annonces gratuites à %(full_location)s. Trouvez un emploi, Immobilier, Voitures Occasion et Articles à Vendre à %(country)s. Passez une annonce, achetez et vendez."
 
 #: fuego/meta_settings.py:380
+#, python-format
 msgid "%(BRAND_NAME)s | Create an Ad"
 msgstr "%(BRAND_NAME)s | Ajouter une Annonce"
 
@@ -2087,7 +2088,7 @@ msgstr ""
 #: templates/email_alerts/email_alerts_fr.html:79
 #: templates/feedbox/index_horizontal.html:326
 #: templates/listings/get/get_listing.html:112
-#: templates/listings/get/get_listing.html:240 templates/public/home.html:74
+#: templates/listings/get/get_listing.html:239 templates/public/home.html:74
 #: templates/shared/listings.html:59
 #: templates/user_profiles/my_listings.html:139
 #: templates/user_profiles/my_listings.html:232
@@ -2537,12 +2538,12 @@ msgid "Terms of Use"
 msgstr "Conditions d'utilisation"
 
 #: templates/base_terms.html:16
-msgid "<b>THESE TERMS OF USE WERE UPDATED ON AUGUST 30, 2015</b><br/><br/>"
-msgstr ""
+msgid "THESE TERMS OF USE WERE UPDATED ON AUGUST 30, 2015"
+msgstr "CES CONDITIONS D’UTILISATION ONT ÉTÉ MISES À JOUR LE 30 AOÛT 2015"
 
 #: templates/base_terms.html:17
-msgid "<b>PLEASE CAREFULLY READ THESE TERMS OF USE. BY USING THIS WEBSITE YOU INDICATE YOUR UNDERSTANDING AND ACCEPTANCE OF THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS YOU MAY NOT USE THIS WEBSITE.</b>"
-msgstr ""
+msgid "PLEASE CAREFULLY READ THESE TERMS OF USE. BY USING THIS WEBSITE YOU INDICATE YOUR UNDERSTANDING AND ACCEPTANCE OF THESE TERMS. IF YOU DO NOT AGREE TO THESE TERMS YOU MAY NOT USE THIS WEBSITE."
+msgstr "VEUILLEZ LIRE ATTENTIVEMENT CES CONDITIONS D’UTILISATION. EN UTILISANT CE SITE WEB, VOUS INDIQUEZ COMPRENDRE ET ACCEPTEZ CES CONDITIONS D’UTILISATION. SI VOUS N’ÊTES PAS D’ACCORD AVEC CES CONDITIONS D’UTILISATION, VOUS NE POURREZ PAS UTILISER CE SITE WEB."
 
 #: templates/generic.html:27
 #, python-format
@@ -2553,71 +2554,71 @@ msgstr ""
 msgid "Your account"
 msgstr "Votre compte"
 
-#: templates/generic.html:44 templates/public/_breadcrumbs.html:14
-#: templates/public/landing.html:70
+#: templates/generic.html:44 templates/generic.html.py:50
+#: templates/public/_breadcrumbs.html:14 templates/public/landing.html:70
 msgid "All of"
 msgstr ""
 
-#: templates/generic.html:134
+#: templates/generic.html:148
 #: templates/user_profiles/my_saved_searches.html:46
 msgid "Filters"
 msgstr "Filtrer la recherche"
 
-#: templates/generic.html:148
+#: templates/generic.html:162
 #: templates/listings/snippets/_scam_warning.html:12
 msgid "Close"
 msgstr "Fermer"
 
-#: templates/generic.html:155
+#: templates/generic.html:169
 msgid "Reset"
 msgstr "Remettre"
 
-#: templates/generic.html:173 templates/search/category_widget.html:18
+#: templates/generic.html:187 templates/search/category_widget.html:18
 #: templates/search/category_widget.html:35
 #, python-format
 msgid "Back to %(BRAND_NAME)s"
 msgstr "Revenir en %(BRAND_NAME)s"
 
-#: templates/generic.html:180
+#: templates/generic.html:194
 msgid "Login"
 msgstr ""
 
-#: templates/generic.html:185
+#: templates/generic.html:199
 msgid "Your ads"
 msgstr "Vos annonces"
 
-#: templates/generic.html:190 templates/user_profiles/my_listings.html:99
+#: templates/generic.html:204 templates/user_profiles/my_listings.html:99
 msgid "Your rejected ads"
 msgstr "Vos annonces rejetées"
 
-#: templates/generic.html:195 templates/user_profiles/my_listings.html:198
+#: templates/generic.html:209 templates/user_profiles/my_listings.html:198
 msgid "Your pending ads"
 msgstr "Vos annonces en attente"
 
-#: templates/generic.html:200 templates/user_profiles/my_listings.html:257
+#: templates/generic.html:214 templates/user_profiles/my_listings.html:257
 msgid "Your live ads"
 msgstr "Vos annonces en ligne"
 
-#: templates/generic.html:205 templates/user_profiles/my_listings.html:357
+#: templates/generic.html:219 templates/user_profiles/my_listings.html:357
 msgid "Your expired ads"
 msgstr "Vos annonces expirées"
 
-#: templates/generic.html:211
+#: templates/generic.html:225
 #: templates/email_alerts/save_search_button.html:24
 #: templates/user_profiles/my_saved_searches.html:33
 msgid "Your saved searches"
 msgstr "Vos recherches favorites"
 
-#: templates/generic.html:217
+#: templates/generic.html:231
 msgctxt "my_listings"
 msgid "Change password"
 msgstr "Modifier mot de passe"
 
-#: templates/generic.html:222 templates/authentication/change_password.html:23
+#: templates/generic.html:236 templates/authentication/change_password.html:23
 msgid "Logout"
 msgstr "Déconnexion"
 
-#: templates/generic.html:242
+#: templates/generic.html:256
 msgid "Download the free OLX Arabia App"
 msgstr "Télécharger l'application OLX dubizzle gratuitement"
 
@@ -2964,7 +2965,7 @@ msgid "Back to results"
 msgstr "Retour aux résultats"
 
 #: templates/listings/get/get_listing.html:108
-#: templates/listings/get/get_listing.html:236
+#: templates/listings/get/get_listing.html:235
 #, python-format
 msgid ""
 "\n"
@@ -2973,24 +2974,24 @@ msgid ""
 msgstr ""
 
 #: templates/listings/get/get_listing.html:120
-#: templates/listings/get/get_listing.html:277
+#: templates/listings/get/get_listing.html:276
 msgid "This ad has expired."
 msgstr "Cette annonce a expiré."
 
 #: templates/listings/get/get_listing.html:125
-#: templates/listings/get/get_listing.html:282
+#: templates/listings/get/get_listing.html:281
 #, python-format
 msgid "Looking for %(category_name)s in %(city_name)s?"
 msgstr "Chercher %(category_name)s dans %(city_name)s?"
 
 #: templates/listings/get/get_listing.html:127
-#: templates/listings/get/get_listing.html:284
+#: templates/listings/get/get_listing.html:283
 #, python-format
 msgid "Looking for %(category_name)s?"
 msgstr "Chercher %(category_name)s?"
 
 #: templates/listings/get/get_listing.html:131
-#: templates/listings/get/get_listing.html:288
+#: templates/listings/get/get_listing.html:287
 msgid "See similar ads"
 msgstr "Voir les annonces similaires"
 
@@ -3003,40 +3004,36 @@ msgstr ""
 msgid "View all details"
 msgstr "Voir les details"
 
-#: templates/listings/get/get_listing.html:163
-msgid "Read more"
-msgstr "Charger d'avantage"
-
 #: templates/listings/get/get_listing.html:185
 msgid "Share with friends"
 msgstr "Partager avec des amis"
 
-#: templates/listings/get/get_listing.html:192
+#: templates/listings/get/get_listing.html:191
 msgid "Report this ad"
 msgstr "Signaler cette annonce"
 
-#: templates/listings/get/get_listing.html:203
+#: templates/listings/get/get_listing.html:202
 msgid "Important tips from OLX dubizzle"
 msgstr "Conseils importants sur OLX dubizzle"
 
-#: templates/listings/get/get_listing.html:208
+#: templates/listings/get/get_listing.html:207
 msgid "Show"
 msgstr "Voir"
 
-#: templates/listings/get/get_listing.html:251
+#: templates/listings/get/get_listing.html:250
 msgid "Call"
 msgstr "Appeler"
 
-#: templates/listings/get/get_listing.html:252
+#: templates/listings/get/get_listing.html:251
 msgid "Show number"
 msgstr "Afficher le numéro de téléphone portable"
 
-#: templates/listings/get/get_listing.html:260
+#: templates/listings/get/get_listing.html:259
 #: templates/listings/reply/reply_to_listing_include.html:10
 msgid "Reply"
 msgstr "Envoyer un message"
 
-#: templates/listings/get/get_listing.html:261
+#: templates/listings/get/get_listing.html:260
 #: templates/listings/reply/reply_to_listing_include.html:130
 msgid "Send reply"
 msgstr "Envoyer"
@@ -3918,3 +3915,6 @@ msgstr "Votre annonce avait impropre photo."
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "Ajouter quelques photos appropriés."
+
+#~ msgid "Read more"
+#~ msgstr "Charger d'avantage"
