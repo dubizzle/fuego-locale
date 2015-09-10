@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-27 18:54+0400\n"
+"POT-Creation-Date: 2015-09-09 16:27+0400\n"
 "PO-Revision-Date: 2014-08-05 14:41+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Qatari <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_QA/>\n"
@@ -220,14 +220,14 @@ msgstr "يلا، جرب وبيع. "
 #: country_templates/shared_landing.html:155
 #: country_templates/shared_landing.html:160
 #: country_templates/qatar/public/landing.html:45
-#: country_templates/qatar/public/landing.html:50 templates/base.html:145
+#: country_templates/qatar/public/landing.html:50 templates/base.html:152
 #: templates/generic.html:96 templates/generic.html.py:103
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
 msgid "Place an ad"
 msgstr "أضف إعلانك"
 
-#: country_templates/qatar/public/_map.html:28 fuego/qatar_settings.py:48
+#: country_templates/qatar/public/_map.html:28 fuego/qatar_settings.py:50
 msgid "Doha"
 msgstr "الدوحة"
 
@@ -320,60 +320,60 @@ msgstr "تابلت/أجهزة لوحية وكمبيوتر"
 msgid "So much more."
 msgstr "أقسام أكثر"
 
-#: fuego/base_settings.py:574 templates/search/widget.html:27
+#: fuego/base_settings.py:572 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of OLX dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:578
+#: fuego/base_settings.py:576
 msgid "OLX dubizzle"
 msgstr "أوليكس دوبيزل"
 
-#: fuego/base_settings.py:642
+#: fuego/base_settings.py:640
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:675 fuego/base_settings.py:1171
+#: fuego/base_settings.py:673 fuego/base_settings.py:1161
 msgid "Spam"
 msgstr "إعلان مزعج"
 
-#: fuego/base_settings.py:676
+#: fuego/base_settings.py:674
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:677 fuego/base_settings.py:1166
+#: fuego/base_settings.py:675 fuego/base_settings.py:1156
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:678 fuego/base_settings.py:1168
+#: fuego/base_settings.py:676 fuego/base_settings.py:1158
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:679
+#: fuego/base_settings.py:677
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:680
+#: fuego/base_settings.py:678
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:681 fuego/base_settings.py:1169
+#: fuego/base_settings.py:679 fuego/base_settings.py:1159
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:682
+#: fuego/base_settings.py:680
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:683
+#: fuego/base_settings.py:681
 msgid "No Category"
 msgstr "القسم؟"
 
-#: fuego/base_settings.py:711
+#: fuego/base_settings.py:709
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في القسم غير الصحيحة"
 
-#: fuego/base_settings.py:712
+#: fuego/base_settings.py:710
 msgid "Your ad is misleading"
 msgstr "مجانا 100%"
 
@@ -381,39 +381,39 @@ msgstr "مجانا 100%"
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:988
+#: fuego/base_settings.py:991
 msgid "Date: newest"
 msgstr "بحسب التاريخ: الأحدث"
 
-#: fuego/base_settings.py:989
+#: fuego/base_settings.py:992
 msgid "Date: oldest"
 msgstr "بحسب التاريخ: الأقدم"
 
-#: fuego/base_settings.py:993
+#: fuego/base_settings.py:996
 msgid "Price: highest"
 msgstr "بحسب السعر: الأعلى"
 
-#: fuego/base_settings.py:994
+#: fuego/base_settings.py:997
 msgid "Price: lowest"
 msgstr "بحسب السعر: الأدنى"
 
-#: fuego/base_settings.py:1155
+#: fuego/base_settings.py:1145
 msgid "#dubizzle"
 msgstr "#دوبيزل"
 
-#: fuego/base_settings.py:1161
+#: fuego/base_settings.py:1151
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:1163
+#: fuego/base_settings.py:1153
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:1167
+#: fuego/base_settings.py:1157
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:1170
+#: fuego/base_settings.py:1160
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
@@ -1129,323 +1129,327 @@ msgstr "إعلانات مبوبة مجانية في %(full_location)s | %(BRAND_
 msgid "%(BRAND_NAME)s is your free local classifieds website in %(full_location)s. Post ads & browse for real estate, cars, jobs and classifieds in %(country)s."
 msgstr "%(BRAND_NAME)s هو الموقع المحلي المجاني للإعلانات المبوبة في %(full_location)s. وظائف شاغرة، عقارات، سيارات وإعلانات مبوبة. أضف إعلان، تصفح الإعلانات، بيع واشتري واستأجر في %(country)s."
 
-#: fuego/qatar_settings.py:34 fuego/shared_settings.py:95
+#: fuego/meta_settings.py:380
+msgid "%(BRAND_NAME)s | Create an Ad"
+msgstr "%(BRAND_NAME)s | أضف إعلانك"
+
+#: fuego/qatar_settings.py:36 fuego/shared_settings.py:95
 msgid "Qatar"
 msgstr "قطر"
 
-#: fuego/qatar_settings.py:36
+#: fuego/qatar_settings.py:38
 msgid "QAR"
 msgstr "ريال قطري"
 
-#: fuego/qatar_settings.py:63 fuego/qatar_settings.py:440
+#: fuego/qatar_settings.py:65 fuego/qatar_settings.py:442
 msgid "Madinat Ash Shamal"
 msgstr "مدينة الشمال"
 
-#: fuego/qatar_settings.py:69 fuego/qatar_settings.py:445
+#: fuego/qatar_settings.py:71 fuego/qatar_settings.py:447
 msgid "Al Khawr"
 msgstr "الخور"
 
-#: fuego/qatar_settings.py:75 fuego/qatar_settings.py:450
+#: fuego/qatar_settings.py:77 fuego/qatar_settings.py:452
 msgid "Umm Salal"
 msgstr "أم صلال"
 
-#: fuego/qatar_settings.py:81 fuego/qatar_settings.py:455
+#: fuego/qatar_settings.py:83 fuego/qatar_settings.py:457
 msgid "Al Daayen"
 msgstr "الضعاين"
 
-#: fuego/qatar_settings.py:87 fuego/qatar_settings.py:460
+#: fuego/qatar_settings.py:89 fuego/qatar_settings.py:462
 msgid "Ar Rayyan"
 msgstr "الريان"
 
-#: fuego/qatar_settings.py:93 fuego/qatar_settings.py:465
+#: fuego/qatar_settings.py:95 fuego/qatar_settings.py:467
 msgid "Al Wakrah"
 msgstr "الوكرة"
 
-#: fuego/qatar_settings.py:105
+#: fuego/qatar_settings.py:107
 msgid "West Bay"
 msgstr "الخليج الغربي"
 
-#: fuego/qatar_settings.py:110
+#: fuego/qatar_settings.py:112
 msgid "Madinat Khalifa"
 msgstr "مدينة خليفة"
 
-#: fuego/qatar_settings.py:115
+#: fuego/qatar_settings.py:117
 msgid "Fereej Bin Mahmoud"
 msgstr "فريج بن محمود"
 
-#: fuego/qatar_settings.py:120
+#: fuego/qatar_settings.py:122
 msgid "Wadi Al Sail"
 msgstr "وادي السيل"
 
-#: fuego/qatar_settings.py:125
+#: fuego/qatar_settings.py:127
 msgid "Al Salata"
 msgstr "السلطة"
 
-#: fuego/qatar_settings.py:130
+#: fuego/qatar_settings.py:132
 msgid "Al Souq"
 msgstr "السوق"
 
-#: fuego/qatar_settings.py:135
+#: fuego/qatar_settings.py:137
 msgid "Al Hitmi"
 msgstr "الهتمي"
 
-#: fuego/qatar_settings.py:140
+#: fuego/qatar_settings.py:142
 msgid "Al Jasra"
 msgstr "الجسرة"
 
-#: fuego/qatar_settings.py:145
+#: fuego/qatar_settings.py:147
 msgid "Al Najada"
 msgstr "النجادة"
 
-#: fuego/qatar_settings.py:150
+#: fuego/qatar_settings.py:152
 msgid "Doha Port"
 msgstr "ميناء دوحة"
 
-#: fuego/qatar_settings.py:155
+#: fuego/qatar_settings.py:157
 msgid "Al Hilal"
 msgstr "الهلال"
 
-#: fuego/qatar_settings.py:160
+#: fuego/qatar_settings.py:162
 msgid "Old Airport"
 msgstr "المطار القديم"
 
-#: fuego/qatar_settings.py:165
+#: fuego/qatar_settings.py:167
 msgid "Nuaija"
 msgstr "النعيجة"
 
-#: fuego/qatar_settings.py:170
+#: fuego/qatar_settings.py:172
 msgid "Fereej Al Ali"
 msgstr "فريج العلي"
 
-#: fuego/qatar_settings.py:175
+#: fuego/qatar_settings.py:177
 msgid "New Slata"
 msgstr "السلطة الجديدة"
 
-#: fuego/qatar_settings.py:180
+#: fuego/qatar_settings.py:182
 msgid "Al Asiri"
 msgstr "العسيري"
 
-#: fuego/qatar_settings.py:185
+#: fuego/qatar_settings.py:187
 msgid "Al Nasr"
 msgstr "النصر"
 
-#: fuego/qatar_settings.py:190
+#: fuego/qatar_settings.py:192
 msgid "Al Mirqab Al Jadeed"
 msgstr "المرقاب الجديد"
 
-#: fuego/qatar_settings.py:195
+#: fuego/qatar_settings.py:197
 msgid "Hamad Medical City"
 msgstr "مدينة حمد الطبية"
 
-#: fuego/qatar_settings.py:200
+#: fuego/qatar_settings.py:202
 msgid "Al Sadd"
 msgstr "السد"
 
-#: fuego/qatar_settings.py:205
+#: fuego/qatar_settings.py:207
 msgid "Al Rumaila West"
 msgstr "الرميلة -غرب"
 
-#: fuego/qatar_settings.py:210
+#: fuego/qatar_settings.py:212
 msgid "Al Rumaila East"
 msgstr "الرميلة -شرق"
 
-#: fuego/qatar_settings.py:215
+#: fuego/qatar_settings.py:217
 msgid "Al Bida"
 msgstr "البدا"
 
-#: fuego/qatar_settings.py:220
+#: fuego/qatar_settings.py:222
 msgid "Al Dafna"
 msgstr "الدفنة"
 
-#: fuego/qatar_settings.py:225
+#: fuego/qatar_settings.py:227
 msgid "Al khuwair"
 msgstr "الخوير"
 
-#: fuego/qatar_settings.py:230
+#: fuego/qatar_settings.py:232
 msgid "Onaiza"
 msgstr "عنيزة"
 
-#: fuego/qatar_settings.py:235
+#: fuego/qatar_settings.py:237
 msgid "Al Corniche"
 msgstr "الكورنيش"
 
-#: fuego/qatar_settings.py:240
+#: fuego/qatar_settings.py:242
 msgid "Diplomatic Area"
 msgstr "المنطقة الدبلوماسية"
 
-#: fuego/qatar_settings.py:245
+#: fuego/qatar_settings.py:247
 msgid "Onaiza 65"
 msgstr "عنيزة 65"
 
-#: fuego/qatar_settings.py:250
+#: fuego/qatar_settings.py:252
 msgid "Onaiza 63"
 msgstr "عنيزة 63"
 
-#: fuego/qatar_settings.py:255
+#: fuego/qatar_settings.py:257
 msgid "The Pearl-Qatar"
 msgstr "الؤلؤة -قطر"
 
-#: fuego/qatar_settings.py:260
+#: fuego/qatar_settings.py:262
 msgid "Al Tarfa"
 msgstr "الطرفة"
 
-#: fuego/qatar_settings.py:265
+#: fuego/qatar_settings.py:267
 msgid "Jeryan Nejaima"
 msgstr "جريان نجيمة"
 
-#: fuego/qatar_settings.py:270
+#: fuego/qatar_settings.py:272
 msgid "Jelaiah"
 msgstr "جلية"
 
-#: fuego/qatar_settings.py:275
+#: fuego/qatar_settings.py:277
 msgid "Al Markhiya"
 msgstr "المرخية"
 
-#: fuego/qatar_settings.py:280
+#: fuego/qatar_settings.py:282
 msgid "Al Duhail"
 msgstr "الدحيل"
 
-#: fuego/qatar_settings.py:285
+#: fuego/qatar_settings.py:287
 msgid "Fereej Kulaib"
 msgstr "فريج كليب"
 
-#: fuego/qatar_settings.py:290
+#: fuego/qatar_settings.py:292
 msgid "Fereej Bin Omran"
 msgstr "فريج بن عمران"
 
-#: fuego/qatar_settings.py:295
+#: fuego/qatar_settings.py:297
 msgid "Al Messila"
 msgstr "المسيلة"
 
-#: fuego/qatar_settings.py:300
+#: fuego/qatar_settings.py:302
 msgid "Fereej Al Amir"
 msgstr "فريج الأمير"
 
-#: fuego/qatar_settings.py:305
+#: fuego/qatar_settings.py:307
 msgid "Al Soudan"
 msgstr "السودان"
 
-#: fuego/qatar_settings.py:310
+#: fuego/qatar_settings.py:312
 msgid "Al Mansoura"
 msgstr "المنصورة"
 
-#: fuego/qatar_settings.py:315
+#: fuego/qatar_settings.py:317
 msgid "Najma"
 msgstr "نجمة"
 
-#: fuego/qatar_settings.py:320
+#: fuego/qatar_settings.py:322
 msgid "Al Muntazah"
 msgstr "المنتزه"
 
-#: fuego/qatar_settings.py:325
+#: fuego/qatar_settings.py:327
 msgid "Musherib"
 msgstr "المشيرب"
 
-#: fuego/qatar_settings.py:330
+#: fuego/qatar_settings.py:332
 msgid "Fereej Abdul Aziz"
 msgstr "فريج عبدالعزيز"
 
-#: fuego/qatar_settings.py:335
+#: fuego/qatar_settings.py:337
 msgid "Al Doha Al Jadeeda"
 msgstr "الدوحة الجديدة"
 
-#: fuego/qatar_settings.py:340
+#: fuego/qatar_settings.py:342
 msgid "Al Ghanim"
 msgstr "الغانم"
 
-#: fuego/qatar_settings.py:345
+#: fuego/qatar_settings.py:347
 msgid "Umm Ghuwailina"
 msgstr "ام غويلينه"
 
-#: fuego/qatar_settings.py:350
+#: fuego/qatar_settings.py:352
 msgid "Al Khulaifat"
 msgstr "الخليفات"
 
-#: fuego/qatar_settings.py:355
+#: fuego/qatar_settings.py:357
 msgid "Doha Airport"
 msgstr "مطار الدوحة"
 
-#: fuego/qatar_settings.py:360
+#: fuego/qatar_settings.py:362
 msgid "Ras Abu Abboud"
 msgstr "راس أبو عبود"
 
-#: fuego/qatar_settings.py:365
+#: fuego/qatar_settings.py:367
 msgid "Al Thumama"
 msgstr "الثمامة"
 
-#: fuego/qatar_settings.py:370
+#: fuego/qatar_settings.py:372
 msgid "The Heart Of Doha"
 msgstr "قلب الدوحة"
 
-#: fuego/qatar_settings.py:375
+#: fuego/qatar_settings.py:377
 msgid "Emiri Diwan"
 msgstr "الديوان الأميري"
 
-#: fuego/qatar_settings.py:380
+#: fuego/qatar_settings.py:382
 msgid "Al Khalifa Al Jadeeda"
 msgstr "الخليفة الجديدة"
 
-#: fuego/qatar_settings.py:385
+#: fuego/qatar_settings.py:387
 msgid "Al Maamoura"
 msgstr "المعمورة"
 
-#: fuego/qatar_settings.py:390
+#: fuego/qatar_settings.py:392
 msgid "Ain Khaled"
 msgstr "عين خالد"
 
-#: fuego/qatar_settings.py:395
+#: fuego/qatar_settings.py:397
 msgid "Al Gharrafa"
 msgstr "الغرافة"
 
-#: fuego/qatar_settings.py:400
+#: fuego/qatar_settings.py:402
 msgid "Al Jebailat"
 msgstr "الجبيلات"
 
-#: fuego/qatar_settings.py:405
+#: fuego/qatar_settings.py:407
 msgid "Al Luqta"
 msgstr "اللقطة"
 
-#: fuego/qatar_settings.py:410
+#: fuego/qatar_settings.py:412
 msgid "Al Qassar"
 msgstr "القصار"
 
-#: fuego/qatar_settings.py:415
+#: fuego/qatar_settings.py:417
 msgid "Al Qutaifiya"
 msgstr "القطيفة"
 
-#: fuego/qatar_settings.py:420
+#: fuego/qatar_settings.py:422
 msgid "Industrial Area"
 msgstr "المدينة الصناعية"
 
-#: fuego/qatar_settings.py:425
+#: fuego/qatar_settings.py:427
 msgid "Al Wajba"
 msgstr "الوجبة"
 
-#: fuego/qatar_settings.py:430
+#: fuego/qatar_settings.py:432
 msgid "Rawdat Al Khail"
 msgstr "روضة الخيل"
 
-#: fuego/qatar_settings.py:435
+#: fuego/qatar_settings.py:437
 msgid "Umm Lekhba"
 msgstr "أم لخبا"
 
-#: fuego/qatar_settings.py:484 utils/prettify_filters.py:95
+#: fuego/qatar_settings.py:486 utils/prettify_filters.py:95
 msgid "English"
 msgstr ""
 
-#: fuego/qatar_settings.py:485 utils/prettify_filters.py:95
+#: fuego/qatar_settings.py:487 utils/prettify_filters.py:95
 msgid "Arabic"
 msgstr "عربي"
 
-#: fuego/qatar_settings.py:495
+#: fuego/qatar_settings.py:497
 msgid "Jobs in Qatar, Property & Real Estate For Sale & Rent, Cars for Sale - Free Classifieds in Qatar | OLX dubizzle Qatar"
 msgstr "وظائف في قطر، عقارات للبيع والإيجار، سيارات للبيع - مبوبة مجانيه في قطر | أوليكس دوبيزل قطر"
 
-#: fuego/qatar_settings.py:499
+#: fuego/qatar_settings.py:501
 msgid "OLX dubizzle is your free and friendly local classifieds website in Qatar. Jobs, property, real estate, cars and classifieds in Qatar. Post an ad, browse ads, buy, sell or rent."
 msgstr "أوليكس دوبيزل قطر موقع الإعلانات المبوبة المجانية المحلية - منتهى السهولة والبساطة. وظائف، عقارات، سيارات و إعلانات مبوبة في قطر. اضف اعلان، تصفح إعلانات، بيع واشتري وأجر."
 
-#: fuego/qatar_settings.py:504
+#: fuego/qatar_settings.py:506
 msgid "OLX dubizzle Qatar, free classifieds, online classifieds, Qatar classifieds, free classifieds in Qatar"
 msgstr "أوليكس دوبيزل قطر، مبوبة مجانيه، إعلانات مبوبة عبر الإنترنت، مبوبة قطر، إعلانات مبوبة مجانيه في قطر"
 
@@ -1484,6 +1488,11 @@ msgstr "الكويت"
 #: fuego/shared_settings.py:135
 msgid "Tunisie"
 msgstr "تونس"
+
+#: fuego/shared_settings.py:143 templates/public/_footer.html:29
+#: templates/public/_footer.html.py:30
+msgid "UAE"
+msgstr "الإمارات"
 
 #: fuego/forms/__init__.py:144
 msgid "Enter your name please, nobody likes to talk to a stranger ;)"
@@ -1548,8 +1557,8 @@ msgstr ""
 #: templates/email_alerts/email_alerts_fr.html:79
 #: templates/feedbox/index_horizontal.html:326
 #: templates/listings/get/get_listing.html:112
-#: templates/listings/get/get_listing.html:240 templates/public/home.html:78
-#: templates/shared/listings.html:62
+#: templates/listings/get/get_listing.html:240 templates/public/home.html:74
+#: templates/shared/listings.html:59
 #: templates/user_profiles/my_listings.html:139
 #: templates/user_profiles/my_listings.html:232
 #: templates/user_profiles/my_listings.html:291
@@ -1981,12 +1990,12 @@ msgstr ""
 msgid "Website under maintenance (500)"
 msgstr "الموقع تحت الصيانة"
 
-#: templates/base.html:137
+#: templates/base.html:144
 msgid "Menu"
 msgstr "القائمة"
 
 # not too clear
-#: templates/base.html:152
+#: templates/base.html:159
 msgid "My account"
 msgstr "الحساب"
 
@@ -2016,66 +2025,66 @@ msgstr "%(BRAND_NAME)s على موبايلك"
 msgid "Your account"
 msgstr "حسابك"
 
-#: templates/generic.html:132
+#: templates/generic.html:134
 #: templates/user_profiles/my_saved_searches.html:46
 msgid "Filters"
 msgstr "خيارات البحث"
 
-#: templates/generic.html:146
+#: templates/generic.html:148
 #: templates/listings/snippets/_scam_warning.html:12
 msgid "Close"
 msgstr "إغلاق"
 
-#: templates/generic.html:153
+#: templates/generic.html:155
 msgid "Reset"
 msgstr "إعادة ضبط"
 
-#: templates/generic.html:171 templates/search/category_widget.html:18
+#: templates/generic.html:173 templates/search/category_widget.html:18
 #: templates/search/category_widget.html:35
 #, python-format
 msgid "Back to %(BRAND_NAME)s"
 msgstr "الرجوع إلى صفحة %(BRAND_NAME)s"
 
-#: templates/generic.html:178
+#: templates/generic.html:180
 msgid "Login"
 msgstr "تسجيل الدخول"
 
-#: templates/generic.html:183
+#: templates/generic.html:185
 msgid "Your ads"
 msgstr "إعلاناتك"
 
-#: templates/generic.html:188 templates/user_profiles/my_listings.html:99
+#: templates/generic.html:190 templates/user_profiles/my_listings.html:99
 msgid "Your rejected ads"
 msgstr "إعلاناتك المرفوضة"
 
-#: templates/generic.html:193 templates/user_profiles/my_listings.html:198
+#: templates/generic.html:195 templates/user_profiles/my_listings.html:198
 msgid "Your pending ads"
 msgstr "إعلاناتك التي تنتظر الموافقة"
 
-#: templates/generic.html:198 templates/user_profiles/my_listings.html:257
+#: templates/generic.html:200 templates/user_profiles/my_listings.html:257
 msgid "Your live ads"
 msgstr "إعلاناتك المنشورة"
 
-#: templates/generic.html:203 templates/user_profiles/my_listings.html:357
+#: templates/generic.html:205 templates/user_profiles/my_listings.html:357
 msgid "Your expired ads"
 msgstr "إعلاناتك منتهية الصلاحية"
 
-#: templates/generic.html:209
+#: templates/generic.html:211
 #: templates/email_alerts/save_search_button.html:24
 #: templates/user_profiles/my_saved_searches.html:33
 msgid "Your saved searches"
 msgstr "بحوثك المحفوظة"
 
-#: templates/generic.html:215
+#: templates/generic.html:217
 msgctxt "my_listings"
 msgid "Change password"
 msgstr "غير كلمة السر"
 
-#: templates/generic.html:220 templates/authentication/change_password.html:23
+#: templates/generic.html:222 templates/authentication/change_password.html:23
 msgid "Logout"
 msgstr "الخروج من الحساب"
 
-#: templates/generic.html:240
+#: templates/generic.html:242
 msgid "Download the free OLX Arabia App"
 msgstr "حمّل تطبيق أوليكس الجديد"
 
@@ -2733,10 +2742,6 @@ msgstr "تم انضمامك بنجاح"
 msgid "OLX dubizzle countries"
 msgstr "دول أوليكس دوبيزل"
 
-#: templates/public/_footer.html:29 templates/public/_footer.html.py:30
-msgid "UAE"
-msgstr "الإمارات"
-
 #: templates/public/_footer.html:39
 msgid "Help"
 msgstr "مساعدة"
@@ -2893,25 +2898,25 @@ msgstr "الإعلانات المنشورة شهرياً"
 msgid "Monthly transactions"
 msgstr "عدد صفقات التبادل الشهرية"
 
-#: templates/public/home.html:22
+#: templates/public/home.html:20
 #, python-format
 msgid "Free Classifieds in %(CITY_OR_COUNTRY)s on OLX, powered by dubizzle!"
 msgstr "إعلانات مبوبة مجانية في %(CITY_OR_COUNTRY)s على أوليكس بإدارة دوبيزل"
 
-#: templates/public/home.html:69
+#: templates/public/home.html:65
 #, python-format
 msgid ""
 "\n"
-"                                                        <span class=\"d-listing__price__value\">\n"
-"                                                            %(price)s\n"
-"                                                        </span>\n"
-"                                                        <span class=\"d-listing__price__currency\">\n"
-"                                                            %(translated_currency)s\n"
-"                                                        </span>\n"
-"                                                    "
+"                                                <span class=\"d-listing__price__value\">\n"
+"                                                    %(price)s\n"
+"                                                </span>\n"
+"                                                <span class=\"d-listing__price__currency\">\n"
+"                                                    %(translated_currency)s\n"
+"                                                </span>\n"
+"                                            "
 msgstr ""
 
-#: templates/public/home.html:99
+#: templates/public/home.html:94
 msgid "Load more"
 msgstr "ارني المزيد"
 
@@ -2964,40 +2969,39 @@ msgstr "العودة الى بداية الصفحة"
 msgid "All"
 msgstr "(الكل)"
 
-#: templates/search/search.html:50
+#: templates/search/search.html:49
 msgid "Wosh! This has either expired or been deleted."
 msgstr "ياللهول! الإعلان اختفى إما لانتهاء مدته أو أن صاحبه حذفه."
 
-#: templates/search/search.html:51
+#: templates/search/search.html:50
 msgid "Continue browsing, you might find what you were looking for :)"
 msgstr "لكن على فكرة، مازال بإمكانك الاستمتاع بتصفح الموقع وقد تجد الذي كنت تبحث عنه"
 
-#: templates/search/search.html:62
+#: templates/search/search.html:61
 msgid "in"
 msgstr "في"
 
-#: templates/search/search.html:62
+#: templates/search/search.html:61
 msgid ","
 msgstr "،"
 
-#: templates/search/search.html:65
+#: templates/search/search.html:64
 msgid "Buy, sell and find anything"
 msgstr "بيع واشتري وأعثر على أى شيء "
 
-#: templates/search/search.html:84
+#: templates/search/search.html:82
 msgid "Sort"
 msgstr "رتب"
 
-#: templates/search/search.html:94
-#, python-format
+#: templates/search/search.html:92
 msgid ""
 "\n"
-"                        We found <span class=\"red\">%(counter)s</span> ad\n"
-"                    "
+"                    We found <span class=\"red\">%(counter)s</span> ad\n"
+"                "
 msgid_plural ""
 "\n"
-"                        We found <span class=\"red\">%(counter)s</span> ads\n"
-"                    "
+"                    We found <span class=\"red\">%(counter)s</span> ads\n"
+"                "
 msgstr[0] ""
 "\n"
 "لم نجد اي إعلانات\n"
@@ -3023,7 +3027,7 @@ msgstr[5] ""
 "وجدنا <span class=\"red\">%(counter)s</span> اعلان\n"
 "                "
 
-#: templates/search/search.html:117
+#: templates/search/search.html:115
 msgid "Edit filters"
 msgstr "تصفية البحث"
 
@@ -3031,15 +3035,15 @@ msgstr "تصفية البحث"
 msgid "No results..."
 msgstr "لا يوجد نتائج..."
 
-#: templates/shared/listings.html:55
+#: templates/shared/listings.html:52
 #, python-format
 msgid ""
 "\n"
-"                                                    %(price)s\n"
-"                                                    <span class=\"d-listing__currency\">\n"
-"                                                        %(translated_currency)s\n"
-"                                                    </span>\n"
-"                                                "
+"                                                %(price)s\n"
+"                                                <span class=\"d-listing__currency\">\n"
+"                                                    %(translated_currency)s\n"
+"                                                </span>\n"
+"                                            "
 msgstr ""
 
 #: templates/sitemaps/sitemap.html:22
@@ -3365,12 +3369,12 @@ msgstr "تنبيهات الإيميل"
 msgid "Delete"
 msgstr "حذف"
 
-#: utils/meta_builder.py:105
+#: utils/meta_builder.py:107
 #, python-format
 msgid "%(city)s, %(country)s"
 msgstr "%(city)s، %(country)s "
 
-#: utils/meta_builder.py:112
+#: utils/meta_builder.py:114
 #, python-format
 msgid "%(neighbourhood)s, %(full_location)s"
 msgstr "%(neighbourhood)s، %(full_location)s"
