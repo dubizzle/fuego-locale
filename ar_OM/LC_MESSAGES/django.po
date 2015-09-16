@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-16 13:57+0400\n"
+"POT-Creation-Date: 2015-09-16 18:03+0400\n"
 "PO-Revision-Date: 2014-08-05 14:30+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Omani <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_OM/>\n"
@@ -223,6 +223,7 @@ msgstr "يلا، جرب وبيع."
 #: country_templates/oman/public/landing.html:50 templates/base.html:160
 #: templates/generic.html:110 templates/generic.html.py:117
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
+#: templates/search/inpage_paa.html:50
 #: templates/user_profiles/my_listings.html:68
 msgid "Place an ad"
 msgstr "أضف إعلانك"
@@ -350,100 +351,100 @@ msgstr "تابلت/أجهزة لوحية وكمبيوتر"
 msgid "So much more."
 msgstr "أقسام أكثر"
 
-#: fuego/base_settings.py:568 templates/search/widget.html:27
+#: fuego/base_settings.py:569 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of OLX dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:572
+#: fuego/base_settings.py:573
 msgid "OLX dubizzle"
 msgstr "أوليكس دوبيزل"
 
-#: fuego/base_settings.py:636
+#: fuego/base_settings.py:637
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:669 fuego/base_settings.py:1157
+#: fuego/base_settings.py:670 fuego/base_settings.py:1155
 msgid "Spam"
 msgstr "إعلان مزعج"
 
-#: fuego/base_settings.py:670
+#: fuego/base_settings.py:671
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:671 fuego/base_settings.py:1152
+#: fuego/base_settings.py:672 fuego/base_settings.py:1150
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:672 fuego/base_settings.py:1154
+#: fuego/base_settings.py:673 fuego/base_settings.py:1152
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:673
+#: fuego/base_settings.py:674
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:674
+#: fuego/base_settings.py:675
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:675 fuego/base_settings.py:1155
+#: fuego/base_settings.py:676 fuego/base_settings.py:1153
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:676
+#: fuego/base_settings.py:677
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:677
+#: fuego/base_settings.py:678
 msgid "No Category"
 msgstr "القسم؟"
 
-#: fuego/base_settings.py:705
+#: fuego/base_settings.py:706
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في القسم غير الصحيحة"
 
-#: fuego/base_settings.py:706
+#: fuego/base_settings.py:707
 msgid "Your ad is misleading"
 msgstr "مجانا 100%"
 
-#: fuego/base_settings.py:788
+#: fuego/base_settings.py:789
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:987
+#: fuego/base_settings.py:985
 msgid "Date: newest"
 msgstr "بحسب التاريخ: الأحدث"
 
-#: fuego/base_settings.py:988
+#: fuego/base_settings.py:986
 msgid "Date: oldest"
 msgstr "بحسب التاريخ: الأقدم"
 
-#: fuego/base_settings.py:992
+#: fuego/base_settings.py:990
 msgid "Price: highest"
 msgstr "بحسب السعر: الأعلى"
 
-#: fuego/base_settings.py:993
+#: fuego/base_settings.py:991
 msgid "Price: lowest"
 msgstr "بحسب السعر: الأدنى"
 
-#: fuego/base_settings.py:1141
+#: fuego/base_settings.py:1139
 msgid "#dubizzle"
 msgstr "#دوبيزل"
 
-#: fuego/base_settings.py:1147
+#: fuego/base_settings.py:1145
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:1149
+#: fuego/base_settings.py:1147
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:1153
+#: fuego/base_settings.py:1151
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:1156
+#: fuego/base_settings.py:1154
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
@@ -1404,11 +1405,11 @@ msgstr "السيب"
 msgid "Qurayyat"
 msgstr "قريات"
 
-#: fuego/oman_settings.py:460 utils/prettify_filters.py:95
+#: fuego/oman_settings.py:460 utils/prettify_filters.py:101
 msgid "English"
 msgstr ""
 
-#: fuego/oman_settings.py:461 utils/prettify_filters.py:95
+#: fuego/oman_settings.py:461 utils/prettify_filters.py:101
 msgid "Arabic"
 msgstr "عربي"
 
@@ -1459,11 +1460,6 @@ msgstr "الكويت"
 #: fuego/shared_settings.py:135
 msgid "Tunisie"
 msgstr "تونس"
-
-#: fuego/shared_settings.py:143 templates/public/_footer.html:29
-#: templates/public/_footer.html.py:30
-msgid "UAE"
-msgstr "الإمارات"
 
 #: fuego/forms/__init__.py:144
 msgid "Enter your name please, nobody likes to talk to a stranger ;)"
@@ -1518,9 +1514,9 @@ msgid "Lists too large."
 msgstr ""
 
 #: listings/formatters.py:31 listings/forms.py:407
-#: templates/email_alerts/email_alerts_ar.html:77
-#: templates/email_alerts/email_alerts_en.html:78
-#: templates/email_alerts/email_alerts_fr.html:79
+#: templates/email_alerts/email_alerts_ar.html:78
+#: templates/email_alerts/email_alerts_en.html:79
+#: templates/email_alerts/email_alerts_fr.html:80
 #: templates/feedbox/index_horizontal.html:326
 #: templates/listings/get/get_listing.html:112
 #: templates/listings/get/get_listing.html:239 templates/public/home.html:74
@@ -1528,7 +1524,7 @@ msgstr ""
 #: templates/user_profiles/my_listings.html:139
 #: templates/user_profiles/my_listings.html:232
 #: templates/user_profiles/my_listings.html:291
-#: templates/user_profiles/my_listings.html:390 utils/prettify_filters.py:132
+#: templates/user_profiles/my_listings.html:390 utils/prettify_filters.py:139
 msgid "Free"
 msgstr "مجاني"
 
@@ -1587,7 +1583,7 @@ msgstr "لماذا تريد الإبلاغ عن هذا الإعلان؟"
 msgid "Details"
 msgstr "التفاصيل"
 
-#: listings/forms.py:121
+#: listings/forms.py:121 templates/search/inpage_paa.html:26
 msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
@@ -1595,7 +1591,7 @@ msgstr "أضف عنوان لإعلانك"
 msgid "Your title says it all - describe your ad clearly. Please DON'T USE CAPS."
 msgstr "فكر في عنوان واضح ومختصر لإعلانك."
 
-#: listings/forms.py:126
+#: listings/forms.py:126 templates/search/inpage_paa.html:27
 msgid "You're going to need a title."
 msgstr "لا تنسى إضافة عنوان لإعلانك."
 
@@ -1690,6 +1686,7 @@ msgstr "لو محتار في تحديد السعر إبحث عن أسعار أش
 #: listings/models.py:402 listings/models.py:438 listings/models.py:463
 #: listings/models.py:487 listings/models.py:506 listings/models.py:600
 #: listings/models.py:640 listings/models.py:675 listings/models.py:715
+#: templates/search/inpage_paa.html:41
 msgid "Price"
 msgstr "السعر"
 
@@ -1705,7 +1702,7 @@ msgstr "يرجى إدخال السعر المضبوط"
 msgid "Price Type"
 msgstr "السعر"
 
-#: listings/forms.py:426
+#: listings/forms.py:426 templates/search/inpage_paa.html:42
 msgid "You forgot to add the price"
 msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 
@@ -1906,7 +1903,7 @@ msgid "Keywords"
 msgstr "كلمات البحث"
 
 #: search/forms.py:347 search/forms.py:500 search/forms.py:556
-#: search/forms.py:652 utils/prettify_filters.py:136
+#: search/forms.py:652 utils/prettify_filters.py:143
 msgid "Show only ads with photos"
 msgstr "أظهر الإعلانات التي معها صور"
 
@@ -2211,14 +2208,14 @@ msgstr "غير كلمة السر"
 msgid "Phew! Your password has now been changed."
 msgstr "وأخيرا. تم تغيير كلمة السر الخاصة بك."
 
-#: templates/email_alerts/email_alerts_ar.html:91
-#: templates/email_alerts/email_alerts_en.html:92
-#: templates/email_alerts/email_alerts_fr.html:93
+#: templates/email_alerts/email_alerts_ar.html:92
+#: templates/email_alerts/email_alerts_en.html:93
+#: templates/email_alerts/email_alerts_fr.html:94
 #, python-format
 msgid "%(value)s"
 msgstr ""
 
-#: templates/email_alerts/email_alerts_en.html:96
+#: templates/email_alerts/email_alerts_en.html:97
 #: templates/user_profiles/my_saved_searches.html:48
 msgid "No Filters"
 msgstr "لا يوجد خيارات بحث"
@@ -2389,6 +2386,7 @@ msgid "Category"
 msgstr "القسم"
 
 #: templates/listings/add/paa_taxonomy.html:128
+#: templates/search/inpage_paa.html:33
 msgid "Pick a sub-category"
 msgstr "إختر الفئة المناسبة لإعلانك"
 
@@ -2707,6 +2705,10 @@ msgstr "تم انضمامك بنجاح"
 msgid "OLX dubizzle countries"
 msgstr "دول أوليكس دوبيزل"
 
+#: templates/public/_footer.html:29 templates/public/_footer.html.py:30
+msgid "UAE"
+msgstr "الإمارات"
+
 #: templates/public/_footer.html:39
 msgid "Help"
 msgstr "مساعدة"
@@ -2937,6 +2939,22 @@ msgstr "العودة الى بداية الصفحة"
 #: templates/search/category_widget.html:54
 msgid "All"
 msgstr "(الكل)"
+
+#: templates/search/inpage_paa.html:12
+msgid "If you want to sell your car in less than 24 hours , post it on OLX and enjoy your money!"
+msgstr "إذا أردت أن تبيع سيارتك فى أقل من 24 ساعة إعرضها على أوليكس ومبروك عليك فلوسك"
+
+#: templates/search/inpage_paa.html:14
+msgid "If you have an apartment, a shop, a vacation rental or a villa and want to sell it as soon as possible without mediators , post it on OLX and enjoy your money!"
+msgstr "إذا كنت تمتلك شقة، محل، شاليه أو فيلا وتريد بيعها فى أسرع وقت و بدون عمولة إعرضها على أوليكس ومبروك عليك فلوسك"
+
+#: templates/search/inpage_paa.html:16
+msgid " If you have an apartment, a shop, a vacation rental or a villa and want to rent it out as soon as possible without mediators , post it on OLX and enjoy your money!"
+msgstr "إذا كنت تمتلك شقة، محل، شاليه أو فيلا وتريد تأجيرها فى أسرع وقت و بدون عمولة إعرضها على أوليكس ومبروك عليك فلوسك"
+
+#: templates/search/inpage_paa.html:18
+msgid "Around you there are at least 3 items you can sell on OLX and enjoy your money!"
+msgstr "حواليك ثلاثة أشياء علي الأقل ممكن تبيعهم على أوليكس ومبروك عليك فلوسك"
 
 #: templates/search/search.html:49
 msgid "Wosh! This has either expired or been deleted."
@@ -3349,36 +3367,36 @@ msgstr "%(city)s، %(country)s "
 msgid "%(neighbourhood)s, %(full_location)s"
 msgstr "%(neighbourhood)s، %(full_location)s"
 
-#: utils/prettify_filters.py:84 utils/prettify_filters.py:87
+#: utils/prettify_filters.py:85 utils/prettify_filters.py:88
 msgid "Studio"
 msgstr "الاستوديو"
 
-#: utils/prettify_filters.py:92
+#: utils/prettify_filters.py:94
 msgid "km"
 msgstr "كم"
 
-#: utils/prettify_filters.py:95
+#: utils/prettify_filters.py:101
 msgid "French"
 msgstr ""
 
-#: utils/prettify_filters.py:114 utils/prettify_filters.py:115
+#: utils/prettify_filters.py:121 utils/prettify_filters.py:122
 #, python-format
 msgid "%s"
 msgstr ""
 
-#: utils/prettify_filters.py:116
+#: utils/prettify_filters.py:123
 msgid "language"
 msgstr "اللغة"
 
-#: utils/prettify_filters.py:117
+#: utils/prettify_filters.py:124
 msgid "keywords"
 msgstr "كلمات البحث"
 
-#: utils/prettify_filters.py:132
+#: utils/prettify_filters.py:139
 msgid "price"
 msgstr "السعر"
 
-#: utils/prettify_filters.py:136
+#: utils/prettify_filters.py:143
 msgid "photos"
 msgstr "الصور"
 
