@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-16 18:04+0400\n"
+"POT-Creation-Date: 2015-09-17 10:15+0400\n"
 "PO-Revision-Date: 2014-08-05 15:00+0400\n"
 "Language-Team: French <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr/>\n"
 "Language: fr\n"
@@ -216,7 +216,6 @@ msgstr "Allez-y, essayez."
 #: country_templates/shared_landing.html:160 templates/base.html:160
 #: templates/generic.html:110 templates/generic.html.py:117
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
-#: templates/search/inpage_paa.html:50
 #: templates/user_profiles/my_listings.html:68
 msgid "Place an ad"
 msgstr "Passer une annonce"
@@ -2148,7 +2147,7 @@ msgstr "Dites-nous pourquoi vous signalez cette annonce."
 msgid "Details"
 msgstr "Détails"
 
-#: listings/forms.py:121 templates/search/inpage_paa.html:26
+#: listings/forms.py:121
 msgid "Ad Title"
 msgstr "Titre de l'annonce"
 
@@ -2156,7 +2155,7 @@ msgstr "Titre de l'annonce"
 msgid "Your title says it all - describe your ad clearly. Please DON'T USE CAPS."
 msgstr "Tout est dans le titre - décrivez votre annonce précisément. Veuillez NE PAS UTILISER DE LETTRES CAPITALES."
 
-#: listings/forms.py:126 templates/search/inpage_paa.html:27
+#: listings/forms.py:126
 msgid "You're going to need a title."
 msgstr "On a besoin d'un titre."
 
@@ -2251,7 +2250,6 @@ msgstr "En cas de doute, consultez d'autres annonces pour voir la gamme de prix 
 #: listings/models.py:402 listings/models.py:438 listings/models.py:463
 #: listings/models.py:487 listings/models.py:506 listings/models.py:600
 #: listings/models.py:640 listings/models.py:675 listings/models.py:715
-#: templates/search/inpage_paa.html:41
 msgid "Price"
 msgstr "Prix"
 
@@ -2267,7 +2265,7 @@ msgstr "Veuillez entrer un prix valide."
 msgid "Price Type"
 msgstr "Prix"
 
-#: listings/forms.py:426 templates/search/inpage_paa.html:42
+#: listings/forms.py:426
 msgid "You forgot to add the price"
 msgstr "Vous avez oublié d'ajouter le prix."
 
@@ -2954,7 +2952,6 @@ msgid "Category"
 msgstr "Catégorie"
 
 #: templates/listings/add/paa_taxonomy.html:128
-#: templates/search/inpage_paa.html:33
 msgid "Pick a sub-category"
 msgstr "Veuillez choisir une sous catégorie."
 
@@ -3558,22 +3555,6 @@ msgstr "Revenir en haut"
 
 #: templates/search/category_widget.html:54
 msgid "All"
-msgstr ""
-
-#: templates/search/inpage_paa.html:12
-msgid "If you want to sell your car in less than 24 hours , post it on OLX and enjoy your money!"
-msgstr ""
-
-#: templates/search/inpage_paa.html:14
-msgid "If you have an apartment, a shop, a vacation rental or a villa and want to sell it as soon as possible without mediators , post it on OLX and enjoy your money!"
-msgstr ""
-
-#: templates/search/inpage_paa.html:16
-msgid " If you have an apartment, a shop, a vacation rental or a villa and want to rent it out as soon as possible without mediators , post it on OLX and enjoy your money!"
-msgstr ""
-
-#: templates/search/inpage_paa.html:18
-msgid "Around you there are at least 3 items you can sell on OLX and enjoy your money!"
 msgstr ""
 
 #: templates/search/search.html:49

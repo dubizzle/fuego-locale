@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-16 18:03+0400\n"
+"POT-Creation-Date: 2015-09-17 10:15+0400\n"
 "PO-Revision-Date: 2014-08-05 14:48+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Saudi <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_SA/>\n"
@@ -223,7 +223,6 @@ msgstr "يلا، جرب وبيع."
 #: country_templates/saudi/public/landing.html:65 templates/base.html:160
 #: templates/generic.html:110 templates/generic.html.py:117
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
-#: templates/search/inpage_paa.html:50
 #: templates/user_profiles/my_listings.html:68
 msgid "Place an ad"
 msgstr "أضف إعلانك مجاناً"
@@ -1758,7 +1757,7 @@ msgstr "لماذا تريد الإبلاغ عن هذا الإعلان؟"
 msgid "Details"
 msgstr "التفاصيل"
 
-#: listings/forms.py:121 templates/search/inpage_paa.html:26
+#: listings/forms.py:121
 msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
@@ -1766,7 +1765,7 @@ msgstr "أضف عنوان لإعلانك"
 msgid "Your title says it all - describe your ad clearly. Please DON'T USE CAPS."
 msgstr "فكر في عنوان واضح ومختصر لإعلانك."
 
-#: listings/forms.py:126 templates/search/inpage_paa.html:27
+#: listings/forms.py:126
 msgid "You're going to need a title."
 msgstr "لا تنسى إضافة عنوان لإعلانك."
 
@@ -1861,7 +1860,6 @@ msgstr "ضع السعر المناسب لإعلانك .. إطلاعك على إ�
 #: listings/models.py:402 listings/models.py:438 listings/models.py:463
 #: listings/models.py:487 listings/models.py:506 listings/models.py:600
 #: listings/models.py:640 listings/models.py:675 listings/models.py:715
-#: templates/search/inpage_paa.html:41
 msgid "Price"
 msgstr "السعر"
 
@@ -1877,7 +1875,7 @@ msgstr "يرجى إدخال السعر المضبوط"
 msgid "Price Type"
 msgstr "السعر"
 
-#: listings/forms.py:426 templates/search/inpage_paa.html:42
+#: listings/forms.py:426
 msgid "You forgot to add the price"
 msgstr " لقد نسيت اضافة السعر المطلوب."
 
@@ -2561,7 +2559,6 @@ msgid "Category"
 msgstr "القسم"
 
 #: templates/listings/add/paa_taxonomy.html:128
-#: templates/search/inpage_paa.html:33
 msgid "Pick a sub-category"
 msgstr "إختر فئة إعلانك الفرعية"
 
@@ -3111,22 +3108,6 @@ msgstr "العودة الى بداية الصفحة"
 msgid "All"
 msgstr "(الكل)"
 
-#: templates/search/inpage_paa.html:12
-msgid "If you want to sell your car in less than 24 hours , post it on OLX and enjoy your money!"
-msgstr "إذا أردت أن تبيع سيارتك فى أقل من 24 ساعة إعرضها على أوليكس ومبروك عليك فلوسك"
-
-#: templates/search/inpage_paa.html:14
-msgid "If you have an apartment, a shop, a vacation rental or a villa and want to sell it as soon as possible without mediators , post it on OLX and enjoy your money!"
-msgstr "إذا كنت تمتلك شقة، محل، شاليه أو فيلا وتريد بيعها فى أسرع وقت و بدون عمولة إعرضها على أوليكس ومبروك عليك فلوسك"
-
-#: templates/search/inpage_paa.html:16
-msgid " If you have an apartment, a shop, a vacation rental or a villa and want to rent it out as soon as possible without mediators , post it on OLX and enjoy your money!"
-msgstr "إذا كنت تمتلك شقة، محل، شاليه أو فيلا وتريد تأجيرها فى أسرع وقت و بدون عمولة إعرضها على أوليكس ومبروك عليك فلوسك"
-
-#: templates/search/inpage_paa.html:18
-msgid "Around you there are at least 3 items you can sell on OLX and enjoy your money!"
-msgstr "حواليك ثلاثة أشياء علي الأقل ممكن تبيعهم على أوليكس ومبروك عليك فلوسك"
-
 #: templates/search/search.html:49
 msgid "Wosh! This has either expired or been deleted."
 msgstr "الإعلان الذي تبحث عنه غير موجود الآن."
@@ -3646,6 +3627,18 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
+
+#~ msgid "If you want to sell your car in less than 24 hours , post it on OLX and enjoy your money!"
+#~ msgstr "إذا أردت أن تبيع سيارتك فى أقل من 24 ساعة إعرضها على أوليكس ومبروك عليك فلوسك"
+
+#~ msgid "If you have an apartment, a shop, a vacation rental or a villa and want to sell it as soon as possible without mediators , post it on OLX and enjoy your money!"
+#~ msgstr "إذا كنت تمتلك شقة، محل، شاليه أو فيلا وتريد بيعها فى أسرع وقت و بدون عمولة إعرضها على أوليكس ومبروك عليك فلوسك"
+
+#~ msgid " If you have an apartment, a shop, a vacation rental or a villa and want to rent it out as soon as possible without mediators , post it on OLX and enjoy your money!"
+#~ msgstr "إذا كنت تمتلك شقة، محل، شاليه أو فيلا وتريد تأجيرها فى أسرع وقت و بدون عمولة إعرضها على أوليكس ومبروك عليك فلوسك"
+
+#~ msgid "Around you there are at least 3 items you can sell on OLX and enjoy your money!"
+#~ msgstr "حواليك ثلاثة أشياء علي الأقل ممكن تبيعهم على أوليكس ومبروك عليك فلوسك"
 
 #~ msgid "Saudi Arabia's free local online classifieds community on OLX, powered by dubizzle!"
 #~ msgstr "بيع واشتري أي شيء تتخيله على أوليكس بإدارة دوبيزل"
