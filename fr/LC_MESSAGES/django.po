@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-10 12:49+0400\n"
+"POT-Creation-Date: 2015-09-17 10:15+0400\n"
 "PO-Revision-Date: 2014-08-05 15:00+0400\n"
 "Language-Team: French <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr/>\n"
 "Language: fr\n"
@@ -213,7 +213,7 @@ msgid "Yalla try it."
 msgstr "Allez-y, essayez."
 
 #: country_templates/shared_landing.html:155
-#: country_templates/shared_landing.html:160 templates/base.html:152
+#: country_templates/shared_landing.html:160 templates/base.html:160
 #: templates/generic.html:110 templates/generic.html.py:117
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
@@ -753,12 +753,12 @@ msgid "Treat"
 msgstr "Treat"
 
 #: fuego/algerie_settings.py:771 fuego/tunisie_settings.py:585
-#: utils/prettify_filters.py:95
+#: utils/prettify_filters.py:101
 msgid "French"
 msgstr "Français"
 
 #: fuego/algerie_settings.py:772 fuego/tunisie_settings.py:586
-#: utils/prettify_filters.py:95
+#: utils/prettify_filters.py:101
 msgid "Arabic"
 msgstr "Arabe"
 
@@ -774,100 +774,100 @@ msgstr "OLX dubizzle est votre premier site de petites annonces gratuites en Alg
 msgid "OLX dubizzle Algeria, free classifieds, online classifieds, Algeria classifieds, free classifieds in Algeria"
 msgstr "OLX dubizzle Algerie, petites annonces gratuites, petites annonces en ligne, Algerie petites annonces, petites annonces en Algerie"
 
-#: fuego/base_settings.py:572 templates/search/widget.html:27
+#: fuego/base_settings.py:569 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of OLX dubizzle"
 msgstr "Tout sur OLX dubizzle"
 
-#: fuego/base_settings.py:576
+#: fuego/base_settings.py:573
 msgid "OLX dubizzle"
 msgstr "OLX dubizzle"
 
-#: fuego/base_settings.py:640
+#: fuego/base_settings.py:637
 msgid "m&sup2;"
 msgstr "m&sup2;"
 
-#: fuego/base_settings.py:673 fuego/base_settings.py:1161
+#: fuego/base_settings.py:670 fuego/base_settings.py:1155
 msgid "Spam"
 msgstr "Indésirable"
 
-#: fuego/base_settings.py:674
+#: fuego/base_settings.py:671
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:675 fuego/base_settings.py:1156
+#: fuego/base_settings.py:672 fuego/base_settings.py:1150
 msgid "Miscategorized"
 msgstr "Mauvaise catégorie"
 
-#: fuego/base_settings.py:676 fuego/base_settings.py:1158
+#: fuego/base_settings.py:673 fuego/base_settings.py:1152
 msgid "Repetitive"
 msgstr "Répétée"
 
-#: fuego/base_settings.py:677
+#: fuego/base_settings.py:674
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:678
+#: fuego/base_settings.py:675
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:679 fuego/base_settings.py:1159
+#: fuego/base_settings.py:676 fuego/base_settings.py:1153
 msgid "Misleading"
 msgstr "Trompeuse"
 
-#: fuego/base_settings.py:680
+#: fuego/base_settings.py:677
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:681
+#: fuego/base_settings.py:678
 msgid "No Category"
 msgstr "Catégorie"
 
-#: fuego/base_settings.py:709
+#: fuego/base_settings.py:706
 msgid "You have chosen the wrong category."
 msgstr "Votre annonce a été placé dans la mauvaise catégorie"
 
-#: fuego/base_settings.py:710
+#: fuego/base_settings.py:707
 msgid "Your ad is misleading"
 msgstr "Votre annonce est GRATUITE"
 
-#: fuego/base_settings.py:792
+#: fuego/base_settings.py:789
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: fuego/base_settings.py:991
+#: fuego/base_settings.py:985
 msgid "Date: newest"
 msgstr "Date: plus recente"
 
-#: fuego/base_settings.py:992
+#: fuego/base_settings.py:986
 msgid "Date: oldest"
 msgstr "Date: moins recente"
 
-#: fuego/base_settings.py:996
+#: fuego/base_settings.py:990
 msgid "Price: highest"
 msgstr "Prix: plus cher"
 
-#: fuego/base_settings.py:997
+#: fuego/base_settings.py:991
 msgid "Price: lowest"
 msgstr "Prix: moins cher"
 
-#: fuego/base_settings.py:1145
+#: fuego/base_settings.py:1139
 msgid "#dubizzle"
 msgstr "dubizzle démarré"
 
-#: fuego/base_settings.py:1151
+#: fuego/base_settings.py:1145
 msgid "Other"
 msgstr "Autre"
 
-#: fuego/base_settings.py:1153
+#: fuego/base_settings.py:1147
 msgid "Please select"
 msgstr "Choisissez votre raison"
 
-#: fuego/base_settings.py:1157
+#: fuego/base_settings.py:1151
 msgid "Offensive"
 msgstr "Offensive"
 
-#: fuego/base_settings.py:1160
+#: fuego/base_settings.py:1154
 msgid "Possible fraud"
 msgstr "Possible fraude"
 
@@ -1624,11 +1624,6 @@ msgstr ""
 msgid "Tunisie"
 msgstr "Tunisie"
 
-#: fuego/shared_settings.py:143 templates/public/_footer.html:29
-#: templates/public/_footer.html.py:30
-msgid "UAE"
-msgstr "UAE"
-
 #: fuego/tunisie_settings.py:36
 msgid "TND"
 msgstr "TND"
@@ -2083,9 +2078,9 @@ msgid "Lists too large."
 msgstr ""
 
 #: listings/formatters.py:31 listings/forms.py:407
-#: templates/email_alerts/email_alerts_ar.html:77
-#: templates/email_alerts/email_alerts_en.html:78
-#: templates/email_alerts/email_alerts_fr.html:79
+#: templates/email_alerts/email_alerts_ar.html:78
+#: templates/email_alerts/email_alerts_en.html:79
+#: templates/email_alerts/email_alerts_fr.html:80
 #: templates/feedbox/index_horizontal.html:326
 #: templates/listings/get/get_listing.html:112
 #: templates/listings/get/get_listing.html:239 templates/public/home.html:74
@@ -2093,7 +2088,7 @@ msgstr ""
 #: templates/user_profiles/my_listings.html:139
 #: templates/user_profiles/my_listings.html:232
 #: templates/user_profiles/my_listings.html:291
-#: templates/user_profiles/my_listings.html:390 utils/prettify_filters.py:132
+#: templates/user_profiles/my_listings.html:390 utils/prettify_filters.py:139
 msgid "Free"
 msgstr "Gratuite"
 
@@ -2471,7 +2466,7 @@ msgid "Keywords"
 msgstr "Mots-clés"
 
 #: search/forms.py:347 search/forms.py:500 search/forms.py:556
-#: search/forms.py:652 utils/prettify_filters.py:136
+#: search/forms.py:652 utils/prettify_filters.py:143
 msgid "Show only ads with photos"
 msgstr "Montrer uniquement les annonces avec photos"
 
@@ -2521,11 +2516,15 @@ msgstr "404"
 msgid "Website under maintenance (500)"
 msgstr "Site en maintenance (500)"
 
-#: templates/base.html:144
+#: templates/base.html:110
+msgid "Happy Eid"
+msgstr "Joyeux Aïd"
+
+#: templates/base.html:152
 msgid "Menu"
 msgstr "Menu"
 
-#: templates/base.html:159
+#: templates/base.html:167
 msgid "My account"
 msgstr "Mon compte"
 
@@ -2775,14 +2774,14 @@ msgstr "Modifier mot de passe"
 msgid "Phew! Your password has now been changed."
 msgstr "Ouf! Votre mot de passe a maintenant été modifié."
 
-#: templates/email_alerts/email_alerts_ar.html:91
-#: templates/email_alerts/email_alerts_en.html:92
-#: templates/email_alerts/email_alerts_fr.html:93
+#: templates/email_alerts/email_alerts_ar.html:92
+#: templates/email_alerts/email_alerts_en.html:93
+#: templates/email_alerts/email_alerts_fr.html:94
 #, python-format
 msgid "%(value)s"
 msgstr ""
 
-#: templates/email_alerts/email_alerts_en.html:96
+#: templates/email_alerts/email_alerts_en.html:97
 #: templates/user_profiles/my_saved_searches.html:48
 msgid "No Filters"
 msgstr "Sans filtres de recherche"
@@ -3270,6 +3269,10 @@ msgstr ""
 #: templates/public/_footer.html:16
 msgid "OLX dubizzle countries"
 msgstr "OLX dubizzle pays"
+
+#: templates/public/_footer.html:29 templates/public/_footer.html.py:30
+msgid "UAE"
+msgstr "UAE"
 
 #: templates/public/_footer.html:39
 msgid "Help"
@@ -3807,36 +3810,36 @@ msgstr "%(city)s, %(country)s"
 msgid "%(neighbourhood)s, %(full_location)s"
 msgstr "%(neighbourhood)s, %(full_location)s"
 
-#: utils/prettify_filters.py:84 utils/prettify_filters.py:87
+#: utils/prettify_filters.py:85 utils/prettify_filters.py:88
 msgid "Studio"
 msgstr ""
 
-#: utils/prettify_filters.py:92
+#: utils/prettify_filters.py:94
 msgid "km"
 msgstr ""
 
-#: utils/prettify_filters.py:95
+#: utils/prettify_filters.py:101
 msgid "English"
 msgstr ""
 
-#: utils/prettify_filters.py:114 utils/prettify_filters.py:115
+#: utils/prettify_filters.py:121 utils/prettify_filters.py:122
 #, python-format
 msgid "%s"
 msgstr ""
 
-#: utils/prettify_filters.py:116
+#: utils/prettify_filters.py:123
 msgid "language"
 msgstr "langue"
 
-#: utils/prettify_filters.py:117
+#: utils/prettify_filters.py:124
 msgid "keywords"
 msgstr "mots-clés"
 
-#: utils/prettify_filters.py:132
+#: utils/prettify_filters.py:139
 msgid "price"
 msgstr "prix"
 
-#: utils/prettify_filters.py:136
+#: utils/prettify_filters.py:143
 msgid "photos"
 msgstr "Ajouter une photo"
 
@@ -3915,6 +3918,3 @@ msgstr "Votre annonce avait impropre photo."
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "Ajouter quelques photos appropriés."
-
-#~ msgid "Read more"
-#~ msgstr "Charger d'avantage"
