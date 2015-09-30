@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-17 10:15+0400\n"
+"POT-Creation-Date: 2015-09-30 19:09+0400\n"
 "PO-Revision-Date: 2014-08-05 14:48+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Saudi <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_SA/>\n"
@@ -223,6 +223,7 @@ msgstr "يلا، جرب وبيع."
 #: country_templates/saudi/public/landing.html:65 templates/base.html:160
 #: templates/generic.html:110 templates/generic.html.py:117
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
+#: templates/search/inpage_paa.html:50
 #: templates/user_profiles/my_listings.html:68
 msgid "Place an ad"
 msgstr "أضف إعلانك مجاناً"
@@ -412,100 +413,100 @@ msgstr "حبيت أشكركم على ما تقدمونه من دعم لأنني 
 msgid "Download our mobile app"
 msgstr "حمَل تطبيق الجوال"
 
-#: fuego/base_settings.py:569 templates/search/widget.html:27
+#: fuego/base_settings.py:573 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of OLX dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:573
+#: fuego/base_settings.py:577
 msgid "OLX dubizzle"
 msgstr "أوليكس دوبيزل"
 
-#: fuego/base_settings.py:637
+#: fuego/base_settings.py:641
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:670 fuego/base_settings.py:1155
+#: fuego/base_settings.py:674 fuego/base_settings.py:1159
 msgid "Spam"
 msgstr "إعلان مزعج"
 
-#: fuego/base_settings.py:671
+#: fuego/base_settings.py:675
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:672 fuego/base_settings.py:1150
+#: fuego/base_settings.py:676 fuego/base_settings.py:1154
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:673 fuego/base_settings.py:1152
+#: fuego/base_settings.py:677 fuego/base_settings.py:1156
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:674
+#: fuego/base_settings.py:678
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:675
+#: fuego/base_settings.py:679
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:676 fuego/base_settings.py:1153
+#: fuego/base_settings.py:680 fuego/base_settings.py:1157
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:677
+#: fuego/base_settings.py:681
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:678
+#: fuego/base_settings.py:682
 msgid "No Category"
 msgstr "القسم؟"
 
-#: fuego/base_settings.py:706
+#: fuego/base_settings.py:710
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في الفئة غير الصحيحة"
 
-#: fuego/base_settings.py:707
+#: fuego/base_settings.py:711
 msgid "Your ad is misleading"
 msgstr "مجانا 100%"
 
-#: fuego/base_settings.py:789
+#: fuego/base_settings.py:793
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:985
+#: fuego/base_settings.py:989
 msgid "Date: newest"
 msgstr "بحسب التاريخ: الأحدث"
 
-#: fuego/base_settings.py:986
+#: fuego/base_settings.py:990
 msgid "Date: oldest"
 msgstr "بحسب التاريخ: الأقدم"
 
-#: fuego/base_settings.py:990
+#: fuego/base_settings.py:994
 msgid "Price: highest"
 msgstr "بحسب السعر: الأعلى"
 
-#: fuego/base_settings.py:991
+#: fuego/base_settings.py:995
 msgid "Price: lowest"
 msgstr "بحسب السعر: الأدنى"
 
-#: fuego/base_settings.py:1139 fuego/saudi_settings.py:745
+#: fuego/base_settings.py:1143 fuego/saudi_settings.py:745
 msgid "#dubizzle"
 msgstr "#دوبيزل"
 
-#: fuego/base_settings.py:1145
+#: fuego/base_settings.py:1149
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:1147
+#: fuego/base_settings.py:1151
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:1151
+#: fuego/base_settings.py:1155
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:1154
+#: fuego/base_settings.py:1158
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
@@ -1757,7 +1758,7 @@ msgstr "لماذا تريد الإبلاغ عن هذا الإعلان؟"
 msgid "Details"
 msgstr "التفاصيل"
 
-#: listings/forms.py:121
+#: listings/forms.py:121 templates/search/inpage_paa.html:26
 msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
@@ -1765,7 +1766,7 @@ msgstr "أضف عنوان لإعلانك"
 msgid "Your title says it all - describe your ad clearly. Please DON'T USE CAPS."
 msgstr "فكر في عنوان واضح ومختصر لإعلانك."
 
-#: listings/forms.py:126
+#: listings/forms.py:126 templates/search/inpage_paa.html:27
 msgid "You're going to need a title."
 msgstr "لا تنسى إضافة عنوان لإعلانك."
 
@@ -1860,6 +1861,7 @@ msgstr "ضع السعر المناسب لإعلانك .. إطلاعك على إ�
 #: listings/models.py:402 listings/models.py:438 listings/models.py:463
 #: listings/models.py:487 listings/models.py:506 listings/models.py:600
 #: listings/models.py:640 listings/models.py:675 listings/models.py:715
+#: templates/search/inpage_paa.html:41
 msgid "Price"
 msgstr "السعر"
 
@@ -1875,7 +1877,7 @@ msgstr "يرجى إدخال السعر المضبوط"
 msgid "Price Type"
 msgstr "السعر"
 
-#: listings/forms.py:426
+#: listings/forms.py:426 templates/search/inpage_paa.html:42
 msgid "You forgot to add the price"
 msgstr " لقد نسيت اضافة السعر المطلوب."
 
@@ -2559,6 +2561,7 @@ msgid "Category"
 msgstr "القسم"
 
 #: templates/listings/add/paa_taxonomy.html:128
+#: templates/search/inpage_paa.html:33 templates/search/inpage_paa.html:38
 msgid "Pick a sub-category"
 msgstr "إختر فئة إعلانك الفرعية"
 
@@ -3108,6 +3111,22 @@ msgstr "العودة الى بداية الصفحة"
 msgid "All"
 msgstr "(الكل)"
 
+#: templates/search/inpage_paa.html:12
+msgid "If you want to sell your car in less than 24 hours , post it on OLX and enjoy your money!"
+msgstr "إذا أردت بيع سيارتك فى أقل من 24 ساعة إعرضها على أوليكس ومبروك عليك نقودك"
+
+#: templates/search/inpage_paa.html:14
+msgid "If you have an apartment, a shop, a vacation rental or a villa and want to sell it as soon as possible without mediators , post it on OLX and enjoy your money!"
+msgstr "إذا كانت لديك شقة، محل، شاليه أو فيلا وتريد بيعها فى أسرع وقت و بدون عمولة إعرضها على أوليكس ومبروك عليك نقودك"
+
+#: templates/search/inpage_paa.html:16
+msgid " If you have an apartment, a shop, a vacation rental or a villa and want to rent it out as soon as possible without mediators , post it on OLX and enjoy your money!"
+msgstr "إذا كانت لديك شقة، محل، شاليه أو فيلا وتريد تأجيرها فى أسرع وقت و بدون عمولة إعرضها على أوليكس ومبروك عليك نقودك"
+
+#: templates/search/inpage_paa.html:18
+msgid "Around you there are at least 3 items you can sell on OLX and enjoy your money!"
+msgstr "حواليك الان ثلاثة أشياء على الأقل ممكن بيعهم على أوليكس ومبروك عليك نقودك"
+
 #: templates/search/search.html:49
 msgid "Wosh! This has either expired or been deleted."
 msgstr "الإعلان الذي تبحث عنه غير موجود الآن."
@@ -3627,18 +3646,6 @@ msgstr "الصورة المرفقة بالاعلان غير مناسبة"
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "قم بأضافة صور مناسبة لاعلانك"
-
-#~ msgid "If you want to sell your car in less than 24 hours , post it on OLX and enjoy your money!"
-#~ msgstr "إذا أردت أن تبيع سيارتك فى أقل من 24 ساعة إعرضها على أوليكس ومبروك عليك فلوسك"
-
-#~ msgid "If you have an apartment, a shop, a vacation rental or a villa and want to sell it as soon as possible without mediators , post it on OLX and enjoy your money!"
-#~ msgstr "إذا كنت تمتلك شقة، محل، شاليه أو فيلا وتريد بيعها فى أسرع وقت و بدون عمولة إعرضها على أوليكس ومبروك عليك فلوسك"
-
-#~ msgid " If you have an apartment, a shop, a vacation rental or a villa and want to rent it out as soon as possible without mediators , post it on OLX and enjoy your money!"
-#~ msgstr "إذا كنت تمتلك شقة، محل، شاليه أو فيلا وتريد تأجيرها فى أسرع وقت و بدون عمولة إعرضها على أوليكس ومبروك عليك فلوسك"
-
-#~ msgid "Around you there are at least 3 items you can sell on OLX and enjoy your money!"
-#~ msgstr "حواليك ثلاثة أشياء علي الأقل ممكن تبيعهم على أوليكس ومبروك عليك فلوسك"
 
 #~ msgid "Saudi Arabia's free local online classifieds community on OLX, powered by dubizzle!"
 #~ msgstr "بيع واشتري أي شيء تتخيله على أوليكس بإدارة دوبيزل"

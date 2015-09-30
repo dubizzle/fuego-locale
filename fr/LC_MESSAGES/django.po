@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-17 10:15+0400\n"
+"POT-Creation-Date: 2015-09-30 19:10+0400\n"
 "PO-Revision-Date: 2014-08-05 15:00+0400\n"
 "Language-Team: French <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr/>\n"
 "Language: fr\n"
@@ -216,6 +216,7 @@ msgstr "Allez-y, essayez."
 #: country_templates/shared_landing.html:160 templates/base.html:160
 #: templates/generic.html:110 templates/generic.html.py:117
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
+#: templates/search/inpage_paa.html:50
 #: templates/user_profiles/my_listings.html:68
 msgid "Place an ad"
 msgstr "Passer une annonce"
@@ -774,100 +775,100 @@ msgstr "OLX dubizzle est votre premier site de petites annonces gratuites en Alg
 msgid "OLX dubizzle Algeria, free classifieds, online classifieds, Algeria classifieds, free classifieds in Algeria"
 msgstr "OLX dubizzle Algerie, petites annonces gratuites, petites annonces en ligne, Algerie petites annonces, petites annonces en Algerie"
 
-#: fuego/base_settings.py:569 templates/search/widget.html:27
+#: fuego/base_settings.py:573 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of OLX dubizzle"
 msgstr "Tout sur OLX dubizzle"
 
-#: fuego/base_settings.py:573
+#: fuego/base_settings.py:577
 msgid "OLX dubizzle"
 msgstr "OLX dubizzle"
 
-#: fuego/base_settings.py:637
+#: fuego/base_settings.py:641
 msgid "m&sup2;"
 msgstr "m&sup2;"
 
-#: fuego/base_settings.py:670 fuego/base_settings.py:1155
+#: fuego/base_settings.py:674 fuego/base_settings.py:1159
 msgid "Spam"
 msgstr "Indésirable"
 
-#: fuego/base_settings.py:671
+#: fuego/base_settings.py:675
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:672 fuego/base_settings.py:1150
+#: fuego/base_settings.py:676 fuego/base_settings.py:1154
 msgid "Miscategorized"
 msgstr "Mauvaise catégorie"
 
-#: fuego/base_settings.py:673 fuego/base_settings.py:1152
+#: fuego/base_settings.py:677 fuego/base_settings.py:1156
 msgid "Repetitive"
 msgstr "Répétée"
 
-#: fuego/base_settings.py:674
+#: fuego/base_settings.py:678
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:675
+#: fuego/base_settings.py:679
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:676 fuego/base_settings.py:1153
+#: fuego/base_settings.py:680 fuego/base_settings.py:1157
 msgid "Misleading"
 msgstr "Trompeuse"
 
-#: fuego/base_settings.py:677
+#: fuego/base_settings.py:681
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:678
+#: fuego/base_settings.py:682
 msgid "No Category"
 msgstr "Catégorie"
 
-#: fuego/base_settings.py:706
+#: fuego/base_settings.py:710
 msgid "You have chosen the wrong category."
 msgstr "Votre annonce a été placé dans la mauvaise catégorie"
 
-#: fuego/base_settings.py:707
+#: fuego/base_settings.py:711
 msgid "Your ad is misleading"
 msgstr "Votre annonce est GRATUITE"
 
-#: fuego/base_settings.py:789
+#: fuego/base_settings.py:793
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: fuego/base_settings.py:985
+#: fuego/base_settings.py:989
 msgid "Date: newest"
 msgstr "Date: plus recente"
 
-#: fuego/base_settings.py:986
+#: fuego/base_settings.py:990
 msgid "Date: oldest"
 msgstr "Date: moins recente"
 
-#: fuego/base_settings.py:990
+#: fuego/base_settings.py:994
 msgid "Price: highest"
 msgstr "Prix: plus cher"
 
-#: fuego/base_settings.py:991
+#: fuego/base_settings.py:995
 msgid "Price: lowest"
 msgstr "Prix: moins cher"
 
-#: fuego/base_settings.py:1139
+#: fuego/base_settings.py:1143
 msgid "#dubizzle"
 msgstr "dubizzle démarré"
 
-#: fuego/base_settings.py:1145
+#: fuego/base_settings.py:1149
 msgid "Other"
 msgstr "Autre"
 
-#: fuego/base_settings.py:1147
+#: fuego/base_settings.py:1151
 msgid "Please select"
 msgstr "Choisissez votre raison"
 
-#: fuego/base_settings.py:1151
+#: fuego/base_settings.py:1155
 msgid "Offensive"
 msgstr "Offensive"
 
-#: fuego/base_settings.py:1154
+#: fuego/base_settings.py:1158
 msgid "Possible fraud"
 msgstr "Possible fraude"
 
@@ -2147,7 +2148,7 @@ msgstr "Dites-nous pourquoi vous signalez cette annonce."
 msgid "Details"
 msgstr "Détails"
 
-#: listings/forms.py:121
+#: listings/forms.py:121 templates/search/inpage_paa.html:26
 msgid "Ad Title"
 msgstr "Titre de l'annonce"
 
@@ -2155,7 +2156,7 @@ msgstr "Titre de l'annonce"
 msgid "Your title says it all - describe your ad clearly. Please DON'T USE CAPS."
 msgstr "Tout est dans le titre - décrivez votre annonce précisément. Veuillez NE PAS UTILISER DE LETTRES CAPITALES."
 
-#: listings/forms.py:126
+#: listings/forms.py:126 templates/search/inpage_paa.html:27
 msgid "You're going to need a title."
 msgstr "On a besoin d'un titre."
 
@@ -2250,6 +2251,7 @@ msgstr "En cas de doute, consultez d'autres annonces pour voir la gamme de prix 
 #: listings/models.py:402 listings/models.py:438 listings/models.py:463
 #: listings/models.py:487 listings/models.py:506 listings/models.py:600
 #: listings/models.py:640 listings/models.py:675 listings/models.py:715
+#: templates/search/inpage_paa.html:41
 msgid "Price"
 msgstr "Prix"
 
@@ -2265,7 +2267,7 @@ msgstr "Veuillez entrer un prix valide."
 msgid "Price Type"
 msgstr "Prix"
 
-#: listings/forms.py:426
+#: listings/forms.py:426 templates/search/inpage_paa.html:42
 msgid "You forgot to add the price"
 msgstr "Vous avez oublié d'ajouter le prix."
 
@@ -2952,6 +2954,7 @@ msgid "Category"
 msgstr "Catégorie"
 
 #: templates/listings/add/paa_taxonomy.html:128
+#: templates/search/inpage_paa.html:33 templates/search/inpage_paa.html:38
 msgid "Pick a sub-category"
 msgstr "Veuillez choisir une sous catégorie."
 
@@ -3555,6 +3558,22 @@ msgstr "Revenir en haut"
 
 #: templates/search/category_widget.html:54
 msgid "All"
+msgstr ""
+
+#: templates/search/inpage_paa.html:12
+msgid "If you want to sell your car in less than 24 hours , post it on OLX and enjoy your money!"
+msgstr ""
+
+#: templates/search/inpage_paa.html:14
+msgid "If you have an apartment, a shop, a vacation rental or a villa and want to sell it as soon as possible without mediators , post it on OLX and enjoy your money!"
+msgstr ""
+
+#: templates/search/inpage_paa.html:16
+msgid " If you have an apartment, a shop, a vacation rental or a villa and want to rent it out as soon as possible without mediators , post it on OLX and enjoy your money!"
+msgstr ""
+
+#: templates/search/inpage_paa.html:18
+msgid "Around you there are at least 3 items you can sell on OLX and enjoy your money!"
 msgstr ""
 
 #: templates/search/search.html:49
