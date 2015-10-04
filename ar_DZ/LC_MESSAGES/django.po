@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-30 19:10+0400\n"
+"POT-Creation-Date: 2015-10-04 09:37+0400\n"
 "PO-Revision-Date: 2014-08-05 15:05+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Algerian <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_DZ/>\n"
@@ -221,7 +221,7 @@ msgstr "يلا، جرب وبيع."
 #: country_templates/shared_landing.html:160 templates/base.html:160
 #: templates/generic.html:110 templates/generic.html.py:117
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
-#: templates/search/inpage_paa.html:50
+#: templates/search/inpage_paa.html:57
 #: templates/user_profiles/my_listings.html:68
 msgid "Place an ad"
 msgstr "أضف إعلانك"
@@ -1755,7 +1755,7 @@ msgstr "لماذا تريد الإبلاغ عن هذا الإعلان؟"
 msgid "Details"
 msgstr "التفاصيل"
 
-#: listings/forms.py:121 templates/search/inpage_paa.html:26
+#: listings/forms.py:121 templates/search/inpage_paa.html:28
 msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
@@ -1763,7 +1763,7 @@ msgstr "أضف عنوان لإعلانك"
 msgid "Your title says it all - describe your ad clearly. Please DON'T USE CAPS."
 msgstr "فكر في عنوان واضح ومختصر لإعلانك."
 
-#: listings/forms.py:126 templates/search/inpage_paa.html:27
+#: listings/forms.py:126 templates/search/inpage_paa.html:29
 msgid "You're going to need a title."
 msgstr "لا تنسى إضافة عنوان لإعلانك."
 
@@ -1858,7 +1858,7 @@ msgstr "لو محتار في تحديد السعر إبحث عن أسعار أش
 #: listings/models.py:402 listings/models.py:438 listings/models.py:463
 #: listings/models.py:487 listings/models.py:506 listings/models.py:600
 #: listings/models.py:640 listings/models.py:675 listings/models.py:715
-#: templates/search/inpage_paa.html:41
+#: templates/search/inpage_paa.html:44
 msgid "Price"
 msgstr "السعر"
 
@@ -1874,7 +1874,7 @@ msgstr "يرجى إدخال السعر المضبوط"
 msgid "Price Type"
 msgstr "السعر"
 
-#: listings/forms.py:426 templates/search/inpage_paa.html:42
+#: listings/forms.py:426 templates/search/inpage_paa.html:45
 msgid "You forgot to add the price"
 msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 
@@ -2520,6 +2520,7 @@ msgstr "قيامك بنشر إعلانك، يعني أنك قد وافقت عل�
 
 #: templates/listings/manage_listing.html:342
 #: templates/listings/snippets/_form.html:322
+#: templates/search/inpage_paa.html:55
 msgid "Yalla! Publish my ad"
 msgstr "يلا...انشر اعلاني!"
 
@@ -2563,7 +2564,7 @@ msgid "Category"
 msgstr "القسم"
 
 #: templates/listings/add/paa_taxonomy.html:128
-#: templates/search/inpage_paa.html:33 templates/search/inpage_paa.html:38
+#: templates/search/inpage_paa.html:35 templates/search/inpage_paa.html:40
 msgid "Pick a sub-category"
 msgstr "إختر الفئة المناسبة لإعلانك"
 
@@ -3182,6 +3183,10 @@ msgid " If you have an apartment, a shop, a vacation rental or a villa and want 
 msgstr "إذا كانت لديك شقة، محل، شاليه أو فيلا وتريد تأجيرها فى أسرع وقت و بدون عمولة إعرضها على أوليكس ومبروك عليك نقودك"
 
 #: templates/search/inpage_paa.html:18
+msgid "whether you are offering a job or looking for one, place an ad on OLX and good luck!"
+msgstr "في حال كنت تود الإعلان عن وظائف او كنت تبحث عن عمل , ضع إعلان على أوليكس و بالتوفيق"
+
+#: templates/search/inpage_paa.html:20
 msgid "Around you there are at least 3 items you can sell on OLX and enjoy your money!"
 msgstr "حواليك الان ثلاثة أشياء على الأقل ممكن بيعهم على أوليكس ومبروك عليك نقودك"
 
