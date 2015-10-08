@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-07 19:25+0400\n"
+"POT-Creation-Date: 2015-10-08 18:15+0400\n"
 "PO-Revision-Date: 2014-08-05 15:00+0400\n"
 "Language-Team: French <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr/>\n"
 "Language: fr\n"
@@ -213,7 +213,7 @@ msgid "Yalla try it."
 msgstr "Allez-y, essayez."
 
 #: country_templates/shared_landing.html:155
-#: country_templates/shared_landing.html:160 templates/base.html:161
+#: country_templates/shared_landing.html:160 templates/base.html:173
 #: templates/generic.html:110 templates/generic.html.py:117
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
@@ -2092,8 +2092,8 @@ msgstr ""
 #: templates/shared/listings.html:59
 #: templates/user_profiles/my_listings.html:139
 #: templates/user_profiles/my_listings.html:233
-#: templates/user_profiles/my_listings.html:309
-#: templates/user_profiles/my_listings.html:408 utils/prettify_filters.py:139
+#: templates/user_profiles/my_listings.html:307
+#: templates/user_profiles/my_listings.html:406 utils/prettify_filters.py:139
 msgid "Free"
 msgstr "Gratuite"
 
@@ -2526,11 +2526,20 @@ msgstr "Site en maintenance (500)"
 msgid "Happy Eid"
 msgstr "Joyeux Aïd"
 
-#: templates/base.html:153
+#: templates/base.html:138
+msgid "You should verify you mobile number, to get you ads live! Go to "
+msgstr ""
+
+#: templates/base.html:138 templates/generic.html:35
+#: templates/user_profiles/my_listings.html:17
+msgid "Your account"
+msgstr "Votre compte"
+
+#: templates/base.html:165
 msgid "Menu"
 msgstr "Menu"
 
-#: templates/base.html:168
+#: templates/base.html:180
 msgid "My account"
 msgstr "Mon compte"
 
@@ -2554,10 +2563,6 @@ msgstr "VEUILLEZ LIRE ATTENTIVEMENT CES CONDITIONS D’UTILISATION. EN UTILISANT
 #, python-format
 msgid "%(BRAND_NAME)s on your phone"
 msgstr ""
-
-#: templates/generic.html:35 templates/user_profiles/my_listings.html:17
-msgid "Your account"
-msgstr "Votre compte"
 
 #: templates/generic.html:44 templates/generic.html.py:50
 #: templates/public/_breadcrumbs.html:14 templates/public/landing.html:70
@@ -2600,11 +2605,11 @@ msgstr "Vos annonces rejetées"
 msgid "Your pending ads"
 msgstr "Vos annonces en attente"
 
-#: templates/generic.html:214 templates/user_profiles/my_listings.html:275
+#: templates/generic.html:214 templates/user_profiles/my_listings.html:273
 msgid "Your live ads"
 msgstr "Vos annonces en ligne"
 
-#: templates/generic.html:219 templates/user_profiles/my_listings.html:375
+#: templates/generic.html:219 templates/user_profiles/my_listings.html:373
 msgid "Your expired ads"
 msgstr "Vos annonces expirées"
 
@@ -3639,22 +3644,21 @@ msgstr "Trouvez des bonnes affaires dans ces categories..."
 msgid "See all"
 msgstr "Tout voir"
 
-#: templates/user_profiles/_mobile_verification_form.html:5
-#, python-format
-msgid "We just sent you an SMS to your mobile number (%(mobile_number)s). Please insert the 6-digits code in the following field:"
-msgstr ""
-
-#: templates/user_profiles/_mobile_verification_form.html:10
-msgid "Verify!"
-msgstr ""
-
-#: templates/user_profiles/_verification.html:10
+#: templates/user_profiles/_verification.html:8
 msgid "A text message with your verification code was just sent to"
 msgstr ""
 
+#: templates/user_profiles/_verification.html:13
+msgid " verification code: e.g. 123456 "
+msgstr ""
+
 #: templates/user_profiles/_verification.html:14
-#: templates/user_profiles/_verification.html:15
 msgid "verification code: e.g. 123456"
+msgstr ""
+
+#: templates/user_profiles/_verification.html:15
+#: templates/user_profiles/_verification.html:43
+msgid "Something went wrong. Please try again."
 msgstr ""
 
 #: templates/user_profiles/_verification.html:21
@@ -3662,23 +3666,19 @@ msgid "Verify"
 msgstr ""
 
 #: templates/user_profiles/_verification.html:26
-#: templates/user_profiles/_verification.html:33
+#: templates/user_profiles/_verification.html:44
 msgid "Resend code"
 msgstr ""
 
-#: templates/user_profiles/_verification.html:32
-msgid "Something went wrong. Please try again."
-msgstr ""
-
-#: templates/user_profiles/_verification.html:37
+#: templates/user_profiles/_verification.html:36
 msgid "Sending SMS. Check your phone."
 msgstr ""
 
-#: templates/user_profiles/_verification.html:38
+#: templates/user_profiles/_verification.html:40
 msgid "Please wait while we verify the PIN."
 msgstr ""
 
-#: templates/user_profiles/_verification.html:43
+#: templates/user_profiles/_verification.html:47
 msgid "WOOOHOO...!!! Your mobile number is verified."
 msgstr ""
 
@@ -3710,8 +3710,8 @@ msgstr[1] ""
 
 #: templates/user_profiles/my_listings.html:59
 #: templates/user_profiles/my_listings.html:182
-#: templates/user_profiles/my_listings.html:258
-#: templates/user_profiles/my_listings.html:358
+#: templates/user_profiles/my_listings.html:256
+#: templates/user_profiles/my_listings.html:356
 msgid "This page is emptier than the Sahara. Come on, let's fill it up by placing some awesome ads."
 msgstr "Cette page est plus vide que le Sahara. Allons la remplir en plaçant des annonces génialissimes."
 
@@ -3732,10 +3732,10 @@ msgstr "Notre suggestion:"
 
 #: templates/user_profiles/my_listings.html:155
 #: templates/user_profiles/my_listings.html:157
+#: templates/user_profiles/my_listings.html:328
 #: templates/user_profiles/my_listings.html:330
-#: templates/user_profiles/my_listings.html:332
+#: templates/user_profiles/my_listings.html:414
 #: templates/user_profiles/my_listings.html:416
-#: templates/user_profiles/my_listings.html:418
 msgid "delete"
 msgstr "supprimer"
 
@@ -3745,14 +3745,14 @@ msgid "resubmit"
 msgstr "redéposer"
 
 #: templates/user_profiles/my_listings.html:169
-#: templates/user_profiles/my_listings.html:343
-#: templates/user_profiles/my_listings.html:425
+#: templates/user_profiles/my_listings.html:341
+#: templates/user_profiles/my_listings.html:423
 msgid "Are you sure you want to delete this listing?"
 msgstr "Ętes-vous sűr de vouloir supprimer cette annonce?"
 
 #: templates/user_profiles/my_listings.html:175
-#: templates/user_profiles/my_listings.html:348
-#: templates/user_profiles/my_listings.html:430
+#: templates/user_profiles/my_listings.html:346
+#: templates/user_profiles/my_listings.html:428
 msgid "Yes, delete it."
 msgstr "Oui, la supprimer."
 
@@ -3764,29 +3764,29 @@ msgstr "Montrer toutes les annonces rejetées"
 msgid "These ads are awaiting approval and will be live soon."
 msgstr "Ces annonces sont en attente de validation et seront bientôt en ligne."
 
+#: templates/user_profiles/my_listings.html:243
 #: templates/user_profiles/my_listings.html:245
-#: templates/user_profiles/my_listings.html:247
 msgid "verify mobile number"
 msgstr ""
 
-#: templates/user_profiles/my_listings.html:263
+#: templates/user_profiles/my_listings.html:261
 msgid "Show all my pending ads"
 msgstr "Voir toutes mes annonces en cours"
 
-#: templates/user_profiles/my_listings.html:322
+#: templates/user_profiles/my_listings.html:320
 msgid "Your edits will go live soon."
 msgstr "Vos modifications seront mis en ligne prochainement."
 
+#: templates/user_profiles/my_listings.html:332
 #: templates/user_profiles/my_listings.html:334
-#: templates/user_profiles/my_listings.html:336
 msgid "edit"
 msgstr "modifier"
 
-#: templates/user_profiles/my_listings.html:364
+#: templates/user_profiles/my_listings.html:362
 msgid "Show all my live ads"
 msgstr "Voir toutes mes annonces en ligne"
 
-#: templates/user_profiles/my_listings.html:442
+#: templates/user_profiles/my_listings.html:440
 msgid "Show all my expired ads"
 msgstr "Voir toutes mes annonces expirées"
 

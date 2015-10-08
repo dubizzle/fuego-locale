@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-07 19:25+0400\n"
+"POT-Creation-Date: 2015-10-08 18:14+0400\n"
 "PO-Revision-Date: 2014-08-05 14:30+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Omani <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_OM/>\n"
@@ -220,7 +220,7 @@ msgstr "يلا، جرب وبيع."
 #: country_templates/shared_landing.html:155
 #: country_templates/shared_landing.html:160
 #: country_templates/oman/public/landing.html:45
-#: country_templates/oman/public/landing.html:50 templates/base.html:161
+#: country_templates/oman/public/landing.html:50 templates/base.html:173
 #: templates/generic.html:110 templates/generic.html.py:117
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
@@ -1527,8 +1527,8 @@ msgstr ""
 #: templates/shared/listings.html:59
 #: templates/user_profiles/my_listings.html:139
 #: templates/user_profiles/my_listings.html:233
-#: templates/user_profiles/my_listings.html:309
-#: templates/user_profiles/my_listings.html:408 utils/prettify_filters.py:139
+#: templates/user_profiles/my_listings.html:307
+#: templates/user_profiles/my_listings.html:406 utils/prettify_filters.py:139
 msgid "Free"
 msgstr "مجاني"
 
@@ -1650,9 +1650,9 @@ msgid "Show this number on my ad"
 msgstr "اظهر رقمي في الإعلان"
 
 #: listings/forms.py:187
-#, fuzzy, python-format
 msgid "Provide a valid mobile number in this format %s"
-msgstr "لقد قمت بوضع رقم موبايل غير صحيح."
+msgstr "الرجاء ادخال رقم موبايل صحيح بالشكل التالي"
+
 
 #: listings/forms.py:238
 msgid "The neighborhood you have selected is not in the city you selected."
@@ -1961,12 +1961,21 @@ msgstr "الموقع تحت الصيانة"
 msgid "Happy Eid"
 msgstr "عيد أضحى سعيد"
 
-#: templates/base.html:153
+#: templates/base.html:138
+msgid "You should verify you mobile number, to get you ads live! Go to "
+msgstr ""
+
+#: templates/base.html:138 templates/generic.html:35
+#: templates/user_profiles/my_listings.html:17
+msgid "Your account"
+msgstr "حسابك"
+
+#: templates/base.html:165
 msgid "Menu"
 msgstr "القائمة"
 
 # not too clear
-#: templates/base.html:168
+#: templates/base.html:180
 msgid "My account"
 msgstr "الحساب"
 
@@ -1990,10 +1999,6 @@ msgstr "يرجى قراءة شروط الاستخدام هذه بعناية، و
 #, python-format
 msgid "%(BRAND_NAME)s on your phone"
 msgstr "%(BRAND_NAME)s على موبايلك"
-
-#: templates/generic.html:35 templates/user_profiles/my_listings.html:17
-msgid "Your account"
-msgstr "حسابك"
 
 #: templates/generic.html:148
 #: templates/user_profiles/my_saved_searches.html:46
@@ -2031,11 +2036,11 @@ msgstr "إعلاناتك المرفوضة"
 msgid "Your pending ads"
 msgstr "إعلاناتك التي تنتظر الموافقة"
 
-#: templates/generic.html:214 templates/user_profiles/my_listings.html:275
+#: templates/generic.html:214 templates/user_profiles/my_listings.html:273
 msgid "Your live ads"
 msgstr "إعلاناتك المنشورة"
 
-#: templates/generic.html:219 templates/user_profiles/my_listings.html:375
+#: templates/generic.html:219 templates/user_profiles/my_listings.html:373
 msgid "Your expired ads"
 msgstr "إعلاناتك منتهية الصلاحية"
 
@@ -3041,46 +3046,41 @@ msgstr "سوف تشاهد إعلانات مثيرة للانتباه على..."
 msgid "See all"
 msgstr "اظهر الجميع"
 
-#: templates/user_profiles/_mobile_verification_form.html:5
-#, python-format
-msgid "We just sent you an SMS to your mobile number (%(mobile_number)s). Please insert the 6-digits code in the following field:"
-msgstr ""
-
-#: templates/user_profiles/_mobile_verification_form.html:10
-msgid "Verify!"
-msgstr ""
-
-#: templates/user_profiles/_verification.html:10
+#: templates/user_profiles/_verification.html:8
 msgid "A text message with your verification code was just sent to"
-msgstr "لقد تم الآن ارسال رسالة نصية برمز التفعيل الى"
+msgstr "لقد تم ارسال رسالة نصية برمز التفعيل الى"
+
+#: templates/user_profiles/_verification.html:13
+msgid " verification code: e.g. 123456 "
+msgstr "مثال على رمز التفعيل: 123456"
 
 #: templates/user_profiles/_verification.html:14
-#: templates/user_profiles/_verification.html:15
 msgid "verification code: e.g. 123456"
 msgstr "مثال على رمز التفعيل: 123456"
+
+#: templates/user_profiles/_verification.html:15
+#: templates/user_profiles/_verification.html:43
+msgid "Something went wrong. Please try again."
+msgstr "حدث خطأ ما! من فضلك حاول مرة اخرى"
 
 #: templates/user_profiles/_verification.html:21
 msgid "Verify"
 msgstr "تفعيل"
 
 #: templates/user_profiles/_verification.html:26
-#: templates/user_profiles/_verification.html:33
+#: templates/user_profiles/_verification.html:44
 msgid "Resend code"
 msgstr "ارسل الرمز مرة أخرى"
 
-#: templates/user_profiles/_verification.html:32
-msgid "Something went wrong. Please try again."
-msgstr "حدث خطأ ما! من فضلك حاول مرة اخري"
-
-#: templates/user_profiles/_verification.html:37
+#: templates/user_profiles/_verification.html:36
 msgid "Sending SMS. Check your phone."
-msgstr "الرساالة بطريقها اليك. الرجاء التحقق."
+msgstr "الرسالة بطريقها اليك. الرجاء التحقق."
 
-#: templates/user_profiles/_verification.html:38
+#: templates/user_profiles/_verification.html:40
 msgid "Please wait while we verify the PIN."
-msgstr "انتظر من فضلك، يتم الأن تفعيل رقم موبايل"
+msgstr "انتظر من فضلك، يتم الان تفعيل رقم موبايلك"
 
-#: templates/user_profiles/_verification.html:43
+#: templates/user_profiles/_verification.html:47
 msgid "WOOOHOO...!!! Your mobile number is verified."
 msgstr "لقد تم تفعيل رقم موبايلك"
 
@@ -3156,8 +3156,8 @@ msgstr[5] ""
 
 #: templates/user_profiles/my_listings.html:59
 #: templates/user_profiles/my_listings.html:182
-#: templates/user_profiles/my_listings.html:258
-#: templates/user_profiles/my_listings.html:358
+#: templates/user_profiles/my_listings.html:256
+#: templates/user_profiles/my_listings.html:356
 msgid "This page is emptier than the Sahara. Come on, let's fill it up by placing some awesome ads."
 msgstr "حسابك كالصحراء - يبدو خالي من أي نشاط. احيي ربعك الخالي بإعلاناتك! "
 
@@ -3182,10 +3182,10 @@ msgstr "إقتراحنا:"
 
 #: templates/user_profiles/my_listings.html:155
 #: templates/user_profiles/my_listings.html:157
+#: templates/user_profiles/my_listings.html:328
 #: templates/user_profiles/my_listings.html:330
-#: templates/user_profiles/my_listings.html:332
+#: templates/user_profiles/my_listings.html:414
 #: templates/user_profiles/my_listings.html:416
-#: templates/user_profiles/my_listings.html:418
 msgid "delete"
 msgstr "حذف"
 
@@ -3195,14 +3195,14 @@ msgid "resubmit"
 msgstr "إعادة وضع الإعلان"
 
 #: templates/user_profiles/my_listings.html:169
-#: templates/user_profiles/my_listings.html:343
-#: templates/user_profiles/my_listings.html:425
+#: templates/user_profiles/my_listings.html:341
+#: templates/user_profiles/my_listings.html:423
 msgid "Are you sure you want to delete this listing?"
 msgstr "من فضلك أكد طلبك لحذف الإعلان."
 
 #: templates/user_profiles/my_listings.html:175
-#: templates/user_profiles/my_listings.html:348
-#: templates/user_profiles/my_listings.html:430
+#: templates/user_profiles/my_listings.html:346
+#: templates/user_profiles/my_listings.html:428
 msgid "Yes, delete it."
 msgstr "نعم، احذفه."
 
@@ -3214,29 +3214,29 @@ msgstr "اظهر جميع إعلاناتي المرفوضة"
 msgid "These ads are awaiting approval and will be live soon."
 msgstr "جاري الآن الموافقة على الإعلان وسيتم نشره في أقرب وقت."
 
+#: templates/user_profiles/my_listings.html:243
 #: templates/user_profiles/my_listings.html:245
-#: templates/user_profiles/my_listings.html:247
 msgid "verify mobile number"
 msgstr "يجب تفعيل رقم موبايلك"
 
-#: templates/user_profiles/my_listings.html:263
+#: templates/user_profiles/my_listings.html:261
 msgid "Show all my pending ads"
 msgstr "اظهر جميع إعلاناتي التي لا زالت تحت المراجعة"
 
-#: templates/user_profiles/my_listings.html:322
+#: templates/user_profiles/my_listings.html:320
 msgid "Your edits will go live soon."
 msgstr "سنقوم بنشر تعديلاتك قريبا."
 
+#: templates/user_profiles/my_listings.html:332
 #: templates/user_profiles/my_listings.html:334
-#: templates/user_profiles/my_listings.html:336
 msgid "edit"
 msgstr "تعديل"
 
-#: templates/user_profiles/my_listings.html:364
+#: templates/user_profiles/my_listings.html:362
 msgid "Show all my live ads"
 msgstr "اظهر جميع إعلاناتي المنشورة"
 
-#: templates/user_profiles/my_listings.html:442
+#: templates/user_profiles/my_listings.html:440
 msgid "Show all my expired ads"
 msgstr "اظهر جميع إعلاناتي المنتهية الصلاحية"
 
