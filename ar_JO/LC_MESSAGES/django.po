@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-30 19:09+0400\n"
+"POT-Creation-Date: 2015-10-08 18:14+0400\n"
 "PO-Revision-Date: 2014-08-05 13:57+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Jordanian <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_JO/>\n"
@@ -70,15 +70,15 @@ msgstr "تأكيد كلمة السر"
 msgid "Sorry, please re-enter your password using only English characters."
 msgstr "عفوا, كلمة السر يجب أن تتكون من حروف لاتينية (English)"
 
-#: authentication/forms.py:141 listings/tests.py:1818
+#: authentication/forms.py:141 listings/tests.py:1817
 msgid "This email address is already in use. Click 'Sign in to your account', or use a different email."
 msgstr "عنوان الإيميل هذا مسجل لدينا. إختر \"سجل الدخول لحسابك\" اعلاه أو ادخل عنوان ايميل آخر."
 
-#: authentication/forms.py:158 listings/tests.py:1891
+#: authentication/forms.py:158 listings/tests.py:1890
 msgid "Huh... that's not the same one! Try again."
 msgstr "يجب إدخال عنوان الإيميل نفسه في كل مرة."
 
-#: authentication/forms.py:166 listings/tests.py:1964
+#: authentication/forms.py:166 listings/tests.py:1963
 msgid "Hmm... this doesn't match up. Try again."
 msgstr "كلمات السر لا تتطابق. حاول مرة أخرى."
 
@@ -218,108 +218,112 @@ msgid "Yalla try it."
 msgstr "يلا، جرب وبيع."
 
 #: country_templates/shared_landing.html:155
-#: country_templates/shared_landing.html:160 templates/base.html:160
+#: country_templates/shared_landing.html:160 templates/base.html:173
 #: templates/generic.html:110 templates/generic.html.py:117
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
-#: templates/search/inpage_paa.html:50
 #: templates/user_profiles/my_listings.html:68
 msgid "Place an ad"
 msgstr "أضف إعلانك"
 
-#: fuego/base_settings.py:573 templates/search/widget.html:27
+#: fuego/base_settings.py:575 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of OLX dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:577
+#: fuego/base_settings.py:579
 msgid "OLX dubizzle"
 msgstr "أوليكس دوبيزل"
 
-#: fuego/base_settings.py:641
+#: fuego/base_settings.py:643
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:674 fuego/base_settings.py:1159
+#: fuego/base_settings.py:676 fuego/base_settings.py:1178
 msgid "Spam"
 msgstr "إعلان مزعج"
 
-#: fuego/base_settings.py:675
+#: fuego/base_settings.py:677
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:676 fuego/base_settings.py:1154
+#: fuego/base_settings.py:678 fuego/base_settings.py:1173
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:677 fuego/base_settings.py:1156
+#: fuego/base_settings.py:679 fuego/base_settings.py:1175
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:678
+#: fuego/base_settings.py:680
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:679
+#: fuego/base_settings.py:681
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:680 fuego/base_settings.py:1157
+#: fuego/base_settings.py:682 fuego/base_settings.py:1176
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:681
+#: fuego/base_settings.py:683
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:682
+#: fuego/base_settings.py:684
 msgid "No Category"
 msgstr "القسم؟"
 
-#: fuego/base_settings.py:710
+#: fuego/base_settings.py:712
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في القسم غير الصحيحة"
 
-#: fuego/base_settings.py:711
+#: fuego/base_settings.py:713
 msgid "Your ad is misleading"
 msgstr "مجانا وبدون أي رسوم"
 
-#: fuego/base_settings.py:793
+#: fuego/base_settings.py:795
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:989
+#: fuego/base_settings.py:991
 msgid "Date: newest"
 msgstr "بحسب التاريخ: الأحدث"
 
-#: fuego/base_settings.py:990
+#: fuego/base_settings.py:992
 msgid "Date: oldest"
 msgstr "بحسب التاريخ: الأقدم"
 
-#: fuego/base_settings.py:994
+#: fuego/base_settings.py:996
 msgid "Price: highest"
 msgstr "بحسب السعر: الأعلى"
 
-#: fuego/base_settings.py:995
+#: fuego/base_settings.py:997
 msgid "Price: lowest"
 msgstr "بحسب السعر: الأدنى"
 
-#: fuego/base_settings.py:1143
+#: fuego/base_settings.py:1145
 msgid "#dubizzle"
 msgstr "#دوبيزل"
 
-#: fuego/base_settings.py:1149
+#: fuego/base_settings.py:1160
+#, python-format
+msgid "Your OLX verification code is %s"
+msgstr "اليك رمز تفعيل رقم موبايلك لدى أوليكس %s"
+
+#: fuego/base_settings.py:1168
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:1151
+#: fuego/base_settings.py:1170
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:1155
+#: fuego/base_settings.py:1174
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:1158
+#: fuego/base_settings.py:1177
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
@@ -1578,7 +1582,7 @@ msgstr "عرفنا على إسمك... \"وعاشت الأسامي\"."
 msgid "Name"
 msgstr "الاسم"
 
-#: fuego/forms/__init__.py:152 listings/forms.py:159
+#: fuego/forms/__init__.py:152 listings/forms.py:157
 #: templates/listings/snippets/_form.html:166
 msgid "Mobile Number"
 msgstr "رقم الموبايل"
@@ -1587,7 +1591,7 @@ msgstr "رقم الموبايل"
 msgid "Don't be shy...if you have any questions about the ad, now is the time to ask."
 msgstr "لقد نسيت اضافة رسالتك للمعلن. هل تحتاج لمزيد من المعلومات عن هذا الإعلان؟ لا حرج في السؤال!"
 
-#: fuego/forms/__init__.py:157 listings/forms.py:91
+#: fuego/forms/__init__.py:157 listings/forms.py:89
 #: templates/listings/reply/reply_to_listing_include.html:69
 #: templates/listings/reply/reply_to_listing_include.html:70
 #: templates/listings/report/report_listing.html:151
@@ -1625,7 +1629,7 @@ msgstr ""
 msgid "Lists too large."
 msgstr ""
 
-#: listings/formatters.py:31 listings/forms.py:407
+#: listings/formatters.py:31 listings/forms.py:420
 #: templates/email_alerts/email_alerts_ar.html:78
 #: templates/email_alerts/email_alerts_en.html:79
 #: templates/email_alerts/email_alerts_fr.html:80
@@ -1634,9 +1638,9 @@ msgstr ""
 #: templates/listings/get/get_listing.html:239 templates/public/home.html:74
 #: templates/shared/listings.html:59
 #: templates/user_profiles/my_listings.html:139
-#: templates/user_profiles/my_listings.html:232
-#: templates/user_profiles/my_listings.html:291
-#: templates/user_profiles/my_listings.html:390 utils/prettify_filters.py:139
+#: templates/user_profiles/my_listings.html:233
+#: templates/user_profiles/my_listings.html:307
+#: templates/user_profiles/my_listings.html:406 utils/prettify_filters.py:139
 msgid "Free"
 msgstr "مجاني"
 
@@ -1670,65 +1674,65 @@ msgstr "%(kilometers)s كم"
 msgid "%(bedrooms)s bedrooms"
 msgstr "%(bedrooms)s نوم"
 
-#: listings/forms.py:45
+#: listings/forms.py:43
 #: templates/listings/reply/reply_to_listing_include.html:83
 msgid "Upload CV"
 msgstr "تحميل السيرة الذاتية"
 
-#: listings/forms.py:63
+#: listings/forms.py:61
 msgid "Sorry, but your file format is not supported."
 msgstr "نوع الملف غير مدعوم، يرجى تحميل ملف من النوع التالي: rtf/doc/pdf/docx"
 
-#: listings/forms.py:66
+#: listings/forms.py:64
 msgid "That's a bit too heavy. Please keep your file size under 2MB."
 msgstr "من فضلك تأكد أن حجم الملف لا يزيد عن 2 ميغا"
 
-#: listings/forms.py:79 templates/listings/report/report_listing.html:134
+#: listings/forms.py:77 templates/listings/report/report_listing.html:134
 msgid "Reason"
 msgstr "السبب"
 
-#: listings/forms.py:80 listings/forms.py:107
+#: listings/forms.py:78 listings/forms.py:105
 msgid "Tell us why you are reporting this ad."
 msgstr "لماذا تريد الإبلاغ عن هذا الإعلان؟"
 
-#: listings/forms.py:88 templates/listings/get/get_listing.html:151
+#: listings/forms.py:86 templates/listings/get/get_listing.html:151
 msgid "Details"
 msgstr "التفاصيل"
 
-#: listings/forms.py:121 templates/search/inpage_paa.html:26
+#: listings/forms.py:119
 msgid "Ad Title"
 msgstr "أضف عنوان لإعلانك"
 
-#: listings/forms.py:122 templates/listings/snippets/_form.html:59
+#: listings/forms.py:120 templates/listings/snippets/_form.html:59
 msgid "Your title says it all - describe your ad clearly. Please DON'T USE CAPS."
 msgstr "فكر في عنوان واضح ومختصر لإعلانك."
 
-#: listings/forms.py:126 templates/search/inpage_paa.html:27
+#: listings/forms.py:124
 msgid "You're going to need a title."
 msgstr "لا تنسى إضافة عنوان لإعلانك."
 
-#: listings/forms.py:131 templates/listings/get/get_listing.html:164
+#: listings/forms.py:129 templates/listings/get/get_listing.html:164
 #: templates/listings/snippets/_form.html:77
 msgid "Description"
 msgstr "مواصفات الإعلان"
 
-#: listings/forms.py:132 templates/listings/snippets/_form.html:94
+#: listings/forms.py:130 templates/listings/snippets/_form.html:94
 msgid "Increase the chance of your ad appearing in a search: <br/>- Answer questions your buyer may have (dimensions, functions, availability) <br/>- Highlight benefits and specific details (warranties, features, etc.) <br/>For your safety, email addresses and HTML formatting are not allowed."
 msgstr "الوصف الدقيق هو مفتاح البيع الاسرع: <br/>- حاول الرد على أسئلة المشتري (مثلاً: الحجم والأبعاد)<br/>- إشرح أهم المواصفات والمعلومات (مثلاً: الضمان إن وجد) يرجى عدم اضافة عنوان إيميلك داخل الوصف وهذا لحماية خصوصيتك."
 
-#: listings/forms.py:135
+#: listings/forms.py:133
 msgid "You forgot to add a description. Go on, tell the world about your ad."
 msgstr "لقد نسيت ان تضيف وصف لإعلانك. هنا يمكنك إضافة كل التفاصيل لتجذب إنتباه المشتري. "
 
-#: listings/forms.py:140
+#: listings/forms.py:138
 msgid "Choose City"
 msgstr "إختر المدينة"
 
-#: listings/forms.py:143
+#: listings/forms.py:141
 msgid "Hey, you forgot to tell us where you are."
 msgstr " من فضلك لا تنسى إضافة إسم مدينتك. (الا اذا كنت من الفضاء.)"
 
-#: listings/forms.py:148 listings/models.py:134 listings/models.py:362
+#: listings/forms.py:146 listings/models.py:134 listings/models.py:362
 #: listings/models.py:401 listings/models.py:437 listings/models.py:462
 #: listings/models.py:486 listings/models.py:505 listings/models.py:598
 #: listings/models.py:636 listings/models.py:673 listings/models.py:711
@@ -1736,247 +1740,247 @@ msgstr " من فضلك لا تنسى إضافة إسم مدينتك. (الا ا�
 msgid "Neighbourhood"
 msgstr "المنطقة"
 
-#: listings/forms.py:151
+#: listings/forms.py:149
 msgid "We need you to be a little more specific."
 msgstr "نسيت أن تضيف إسم منطقتك."
 
-#: listings/forms.py:163
+#: listings/forms.py:162
 msgid "We need your mobile number for verification."
 msgstr "من فضلك ادخل رقم الموبايل لكي نتأكد من صلاحية حسابك."
 
-#: listings/forms.py:164
+#: listings/forms.py:163
 msgid "Enter a valid mobile number."
 msgstr "لقد قمت بوضع رقم موبايل غير صحيح."
 
-#: listings/forms.py:166 templates/listings/snippets/_form.html:180
+#: listings/forms.py:165 templates/listings/snippets/_form.html:180
 msgid "We need mobile numbers to verify accounts and to detect scammers. Don't worry, you can choose not to show your mobile number in the ad (see option below)."
 msgstr "لا تقلق، لن نظهر رقم الموبايل على الموقع بدون موافقتك (التفاصيل ادناه)."
 
-#: listings/forms.py:172 templates/listings/manage_listing.html:167
+#: listings/forms.py:171 templates/listings/manage_listing.html:167
 #: templates/listings/snippets/_form.html:192
 msgid "Show this number on my ad"
 msgstr "اظهر رقمي في الإعلان"
 
 #: listings/forms.py:187
-msgid "Provide a valid mobile number in this format 05XXXXXXXX"
-msgstr ""
+msgid "Provide a valid mobile number in this format %s"
+msgstr "الرجاء ادخال رقم موبايل صحيح بالشكل التالي"
 
-#: listings/forms.py:237
+
+#: listings/forms.py:238
 msgid "The neighborhood you have selected is not in the city you selected."
 msgstr "يبدو أن هذه المنطقة ليست فى المدينة المحددة."
 
-#: listings/forms.py:275
+#: listings/forms.py:288
 msgid "Oops, something has gone wrong. Let us know and we will fix it."
 msgstr "هناك خطأ ما. راسلنا لكي نصلحه."
 
-#: listings/forms.py:276
+#: listings/forms.py:289
 msgid "Photo verifiers did not match photos."
 msgstr ""
 
-#: listings/forms.py:277
+#: listings/forms.py:290
 msgid "Photo upload failed, please try again."
 msgstr "هناك خطأ في تحميل الصورة. حاول مرة اخرى."
 
-#: listings/forms.py:278
+#: listings/forms.py:291
 msgid "Oh no, we can only read jpg, png or gif formats."
 msgstr "هناك مشكلة في نوع الملف. من فضلك حمّل ملف من نوع: jpg, png, gif"
 
-#: listings/forms.py:279
+#: listings/forms.py:292
 msgid "Damn, that file is too big - 5MB maximum."
 msgstr "حاول مرة أخرى وتأكد أن لا يزيد حجم الملف عن 5 ميغا!"
 
-#: listings/forms.py:280
+#: listings/forms.py:293
 msgid "Max number of photos is 10"
 msgstr "أقصى عدد لتحميل الصور هو 10"
 
-#: listings/forms.py:368
+#: listings/forms.py:381
 #, python-format
 msgid "When in doubt, check out other ads to see the price range of your item. Please remember to price your ad in %(currency)s."
 msgstr "لو محتار في تحديد السعر إبحث عن أسعار أشياء مماثلة على الموقع. يرجى التأكد أن السعر المطلوب في عملة %(currency)s"
 
-#: listings/forms.py:374 listings/forms.py:407 listings/models.py:363
+#: listings/forms.py:387 listings/forms.py:420 listings/models.py:363
 #: listings/models.py:402 listings/models.py:438 listings/models.py:463
 #: listings/models.py:487 listings/models.py:506 listings/models.py:600
 #: listings/models.py:640 listings/models.py:675 listings/models.py:715
-#: templates/search/inpage_paa.html:41
 msgid "Price"
 msgstr "السعر"
 
-#: listings/forms.py:377
+#: listings/forms.py:390
 msgid "You forgot to add the price."
 msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 
-#: listings/forms.py:386
+#: listings/forms.py:399
 msgid "Please enter a valid price."
 msgstr "يرجى إدخال السعر المضبوط"
 
-#: listings/forms.py:409
+#: listings/forms.py:422
 msgid "Price Type"
 msgstr "السعر"
 
-#: listings/forms.py:426 templates/search/inpage_paa.html:42
+#: listings/forms.py:439
 msgid "You forgot to add the price"
 msgstr "يا كابتن ... لا تنسى اضافة السعر المطلوب."
 
-#: listings/forms.py:473 listings/forms.py:477 listings/models.py:399
+#: listings/forms.py:486 listings/forms.py:490 listings/models.py:399
 #: listings/models.py:411
 msgid "Year"
 msgstr "السنة"
 
-#: listings/forms.py:479
+#: listings/forms.py:492
 msgid "Sweet wheels, but how old?"
 msgstr "المحروسة... موديل سنة كم؟"
 
-#: listings/forms.py:487
+#: listings/forms.py:500
 msgid "How many KM?"
 msgstr "عدد الكيلومترات"
 
-#: listings/forms.py:489
+#: listings/forms.py:502
 msgid "Great ride, how far has it gone?"
 msgstr "سيارتك فعلاً غييير. كم عدد الكيلومترات؟"
 
-#: listings/forms.py:494 listings/forms.py:497 listings/models.py:403
+#: listings/forms.py:507 listings/forms.py:510 listings/models.py:403
 #: listings/models.py:410 search/forms.py:423 search/forms.py:427
 msgid "Model"
 msgstr "موديل"
 
-#: listings/forms.py:496
+#: listings/forms.py:509
 msgid "Please specify the model"
 msgstr "الرجاء تحديد الموديل"
 
-#: listings/forms.py:502 listings/forms.py:505 listings/models.py:404
+#: listings/forms.py:515 listings/forms.py:518 listings/models.py:404
 #: listings/models.py:414 search/forms.py:467 search/forms.py:471
 msgid "Engine Size (CC)"
 msgstr "سعة المحرك (سي سي)"
 
-#: listings/forms.py:504
+#: listings/forms.py:517
 msgid "Please specify the engine size"
 msgstr "يرجى تحديد سعة المحرك"
 
-#: listings/forms.py:510 listings/forms.py:513 listings/models.py:405
+#: listings/forms.py:523 listings/forms.py:526 listings/models.py:405
 #: listings/models.py:412 search/forms.py:456 search/forms.py:460
 msgid "Transmission Type"
 msgstr "ناقل الحركة"
 
-#: listings/forms.py:512
+#: listings/forms.py:525
 msgid "Please specify the transmission type"
 msgstr "يرجى تحديد نوع ناقل الحركة"
 
-#: listings/forms.py:518 listings/forms.py:521 listings/models.py:406
+#: listings/forms.py:531 listings/forms.py:534 listings/models.py:406
 #: search/forms.py:445 search/forms.py:449
 msgid "Body Type"
 msgstr "هيكل السيارة"
 
-#: listings/forms.py:520
+#: listings/forms.py:533
 msgid "Please specify the body type"
 msgstr "الرجاء تحديد هيكل السيارة"
 
-#: listings/forms.py:526 listings/forms.py:529 listings/models.py:407
+#: listings/forms.py:539 listings/forms.py:542 listings/models.py:407
 #: search/forms.py:434 search/forms.py:438
 msgid "Number of Doors"
 msgstr "عدد الابواب"
 
-#: listings/forms.py:528
+#: listings/forms.py:541
 msgid "Please specify the number of doors"
 msgstr "يرجى تحديد عدد الابواب"
 
-#: listings/forms.py:559 listings/forms.py:562 listings/models.py:488
+#: listings/forms.py:572 listings/forms.py:575 listings/models.py:488
 #: listings/models.py:491 listings/models.py:507 listings/models.py:512
 #: search/forms.py:602 search/forms.py:606
 msgid "Type"
 msgstr "النوع"
 
-#: listings/forms.py:561
+#: listings/forms.py:574
 msgid "Please specify the type"
 msgstr "الرجاء تحديد النوع"
 
-#: listings/forms.py:577 listings/forms.py:580 listings/models.py:508
+#: listings/forms.py:590 listings/forms.py:593 listings/models.py:508
 #: listings/models.py:513 search/forms.py:613 search/forms.py:617
 msgid "Brand"
 msgstr "الماركة"
 
-#: listings/forms.py:579
+#: listings/forms.py:592
 msgid "Please specify the brand"
 msgstr "الرجاء تحديد الماركة"
 
-#: listings/forms.py:585 listings/forms.py:588 listings/models.py:509
+#: listings/forms.py:598 listings/forms.py:601 listings/models.py:509
 #: listings/models.py:514 search/forms.py:624 search/forms.py:628
 msgid "Warranty"
 msgstr "الضمان"
 
-#: listings/forms.py:587
+#: listings/forms.py:600
 msgid "Please specify the warranty condition"
 msgstr "الرجاء تحديد حالة الضمان"
 
-#: listings/forms.py:647
+#: listings/forms.py:660
 #, python-format
 msgid "Area (%(unit)s)"
 msgstr "المساحة (%(unit)s)"
 
-#: listings/forms.py:650 listings/models.py:601 listings/models.py:641
+#: listings/forms.py:663 listings/models.py:601 listings/models.py:641
 #: listings/models.py:676 listings/models.py:716
 msgid "Amenities"
 msgstr "الكماليات"
 
-#: listings/forms.py:663
+#: listings/forms.py:676
 msgid "Area "
 msgstr "المساحة"
 
-#: listings/forms.py:695 listings/forms.py:696 listings/forms.py:732
-#: listings/forms.py:733 listings/models.py:637 listings/models.py:645
+#: listings/forms.py:708 listings/forms.py:709 listings/forms.py:745
+#: listings/forms.py:746 listings/models.py:637 listings/models.py:645
 #: listings/models.py:712 listings/models.py:719
 msgid "Bedrooms"
 msgstr "غرف نوم"
 
-#: listings/forms.py:697 listings/forms.py:734
+#: listings/forms.py:710 listings/forms.py:747
 msgid "Nice property, but how many bedrooms?"
 msgstr "حدثنا عن عقارك. كم عدد غرف النوم؟"
 
-#: listings/forms.py:703 listings/forms.py:704 listings/forms.py:740
-#: listings/forms.py:741 listings/models.py:638 listings/models.py:713
+#: listings/forms.py:716 listings/forms.py:717 listings/forms.py:753
+#: listings/forms.py:754 listings/models.py:638 listings/models.py:713
 msgid "Bathrooms"
 msgstr "الحمامات"
 
-#: listings/forms.py:705 listings/forms.py:742
+#: listings/forms.py:718 listings/forms.py:755
 msgid "Nice property, but how many bathrooms?"
 msgstr "الرجاء تحديد عدد الحمامات"
 
-#: listings/forms.py:763 listings/forms.py:766 listings/models.py:754
+#: listings/forms.py:776 listings/forms.py:779 listings/models.py:754
 #: listings/models.py:790
 msgid "Experience Level"
 msgstr "مستوى الخبرة"
 
-#: listings/forms.py:765
+#: listings/forms.py:778
 msgid "Please specify the experience level"
 msgstr "الرجاء تحديد مستوى الخبرة"
 
-#: listings/forms.py:771 listings/forms.py:774 listings/models.py:753
+#: listings/forms.py:784 listings/forms.py:787 listings/models.py:753
 #: listings/models.py:789
 msgid "Education Level"
 msgstr "المستوى التعليمي"
 
-#: listings/forms.py:773
+#: listings/forms.py:786
 msgid "Please specify the education level"
 msgstr "الرجاء تحديد المستوى التعليمي"
 
-#: listings/forms.py:779
+#: listings/forms.py:792
 msgid "Commitment"
 msgstr ""
 
-#: listings/forms.py:781
+#: listings/forms.py:794
 msgid "Please specify the employment type"
 msgstr "الرجاء تحديد نوع العمل"
 
-#: listings/forms.py:782 listings/models.py:755 listings/models.py:759
+#: listings/forms.py:795 listings/models.py:755 listings/models.py:759
 #: listings/models.py:791 listings/models.py:794
 msgid "Employment Type"
 msgstr "نوع العمل"
 
-#: listings/forms.py:787 templates/listings/get/get_listing.html:172
+#: listings/forms.py:800 templates/listings/get/get_listing.html:172
 msgid "Skills"
 msgstr "المهارات"
 
-#: listings/forms.py:802 listings/models.py:756
+#: listings/forms.py:815 listings/models.py:756
 msgid "Compensation"
 msgstr "الراتب"
 
@@ -2065,16 +2069,25 @@ msgstr ""
 msgid "Website under maintenance (500)"
 msgstr "الموقع تحت الصيانة"
 
-#: templates/base.html:110
+#: templates/base.html:111
 msgid "Happy Eid"
 msgstr "عيد أضحى سعيد"
 
-#: templates/base.html:152
+#: templates/base.html:138
+msgid "You should verify you mobile number, to get you ads live! Go to "
+msgstr ""
+
+#: templates/base.html:138 templates/generic.html:35
+#: templates/user_profiles/my_listings.html:17
+msgid "Your account"
+msgstr "حسابك"
+
+#: templates/base.html:165
 msgid "Menu"
 msgstr "القائمة"
 
 # not too clear
-#: templates/base.html:167
+#: templates/base.html:180
 msgid "My account"
 msgstr "الحساب"
 
@@ -2098,10 +2111,6 @@ msgstr "يرجى قراءة شروط الاستخدام هذه بعناية، و
 #, python-format
 msgid "%(BRAND_NAME)s on your phone"
 msgstr "%(BRAND_NAME)s على موبايلك"
-
-#: templates/generic.html:35 templates/user_profiles/my_listings.html:17
-msgid "Your account"
-msgstr "حسابك"
 
 #: templates/generic.html:44 templates/generic.html.py:50
 #: templates/public/_breadcrumbs.html:14 templates/public/landing.html:70
@@ -2144,11 +2153,11 @@ msgstr "إعلاناتك المرفوضة"
 msgid "Your pending ads"
 msgstr "إعلاناتك التي تنتظر الموافقة"
 
-#: templates/generic.html:214 templates/user_profiles/my_listings.html:257
+#: templates/generic.html:214 templates/user_profiles/my_listings.html:273
 msgid "Your live ads"
 msgstr "إعلاناتك المنشورة"
 
-#: templates/generic.html:219 templates/user_profiles/my_listings.html:357
+#: templates/generic.html:219 templates/user_profiles/my_listings.html:373
 msgid "Your expired ads"
 msgstr "إعلاناتك منتهية الصلاحية"
 
@@ -2503,7 +2512,6 @@ msgid "Category"
 msgstr "القسم"
 
 #: templates/listings/add/paa_taxonomy.html:128
-#: templates/search/inpage_paa.html:33 templates/search/inpage_paa.html:38
 msgid "Pick a sub-category"
 msgstr "إختر الفئة المناسبة لإعلانك"
 
@@ -2589,25 +2597,33 @@ msgstr "أرسل رسالة"
 msgid "Send reply"
 msgstr "أرسل رد"
 
-#: templates/listings/preview/listing_complete.html:29
+#: templates/listings/preview/listing_complete.html:30
 msgid "Hooray! Congratulations, your ad will go live very very soon."
 msgstr "مبروك! لقد اضفت إعلانك بنجاح وسنقوم بنشره قريبا."
 
-#: templates/listings/preview/listing_complete.html:38
+#: templates/listings/preview/listing_complete.html:32
+msgid "Hold on. Your Ad is not live yet."
+msgstr "مهلا, هذا الإعلان لم ينشر بعد."
+
+#: templates/listings/preview/listing_complete.html:43
 #, python-format
 msgid "Right now, we're going to quickly review your ad and make sure it's ready for %(BRAND_NAME)s. Once it's up and live, we'll tell you the good news in an email."
 msgstr "سنراجع إعلانك فوراً لنتأكد أنه ملا ئم ل%(BRAND_NAME)s. الأمر لا يستغرق كثيراً ... سنوافيك بالأخبار السعيدة في إيميل عندما يتم نشر إعلانك. لديك شئ آخر تريد بيعه ... إضغط أضف إعلان آخر."
 
-#: templates/listings/preview/listing_complete.html:42
+#: templates/listings/preview/listing_complete.html:47
 #, python-format
 msgid "Once your ad is approved, it will remain live for %(LISTING_EXPIRE_DAYS)s days. You can go to \"your account\" to edit or delete the ad after it has been approved."
 msgstr "بمجرد نشر اعلانك سيكون ساري المفعول لمدة %(LISTING_EXPIRE_DAYS)s يوم. بامكانك في هذه الاثناء تعديل او حذف اعلانك من صفحة حسابك."
 
-#: templates/listings/preview/listing_complete.html:52
+#: templates/listings/preview/listing_complete.html:59
+msgid "Please verify your phone number. It'll be easy!"
+msgstr "الرجاء تفعيل رقم موبايلك. لا تقلق انها عملية سهلة !"
+
+#: templates/listings/preview/listing_complete.html:72
 msgid "Back to home page"
 msgstr "العودة الى الصفحة الرئيسية"
 
-#: templates/listings/preview/listing_complete.html:59
+#: templates/listings/preview/listing_complete.html:79
 msgid "Place another ad"
 msgstr "اضف إعلان آخر"
 
@@ -3109,22 +3125,6 @@ msgstr "العودة الى بداية الصفحة"
 msgid "All"
 msgstr "(الكل)"
 
-#: templates/search/inpage_paa.html:12
-msgid "If you want to sell your car in less than 24 hours , post it on OLX and enjoy your money!"
-msgstr "إذا أردت بيع سيارتك فى أقل من 24 ساعة إعرضها على أوليكس ومبروك عليك نقودك"
-
-#: templates/search/inpage_paa.html:14
-msgid "If you have an apartment, a shop, a vacation rental or a villa and want to sell it as soon as possible without mediators , post it on OLX and enjoy your money!"
-msgstr "إذا كانت لديك شقة، محل، شاليه أو فيلا وتريد بيعها فى أسرع وقت و بدون عمولة إعرضها على أوليكس ومبروك عليك نقودك"
-
-#: templates/search/inpage_paa.html:16
-msgid " If you have an apartment, a shop, a vacation rental or a villa and want to rent it out as soon as possible without mediators , post it on OLX and enjoy your money!"
-msgstr "إذا كانت لديك شقة، محل، شاليه أو فيلا وتريد تأجيرها فى أسرع وقت و بدون عمولة إعرضها على أوليكس ومبروك عليك نقودك"
-
-#: templates/search/inpage_paa.html:18
-msgid "Around you there are at least 3 items you can sell on OLX and enjoy your money!"
-msgstr "حواليك الان ثلاثة أشياء على الأقل ممكن بيعهم على أوليكس ومبروك عليك نقودك"
-
 #: templates/search/search.html:49
 msgid "Wosh! This has either expired or been deleted."
 msgstr "ياللهول! الإعلان اختفى إما لانتهاء مدته أو أن صاحبه حذفه."
@@ -3215,6 +3215,44 @@ msgstr "سوف تشاهد إعلانات مثيرة للانتباه على..."
 msgid "See all"
 msgstr "اظهر الجميع"
 
+#: templates/user_profiles/_verification.html:8
+msgid "A text message with your verification code was just sent to"
+msgstr "لقد تم ارسال رسالة نصية برمز التفعيل الى"
+
+#: templates/user_profiles/_verification.html:13
+msgid " verification code: e.g. 123456 "
+msgstr "مثال على رمز التفعيل: 123456"
+
+#: templates/user_profiles/_verification.html:14
+msgid "verification code: e.g. 123456"
+msgstr "مثال على رمز التفعيل: 123456"
+
+#: templates/user_profiles/_verification.html:15
+#: templates/user_profiles/_verification.html:43
+msgid "Something went wrong. Please try again."
+msgstr "حدث خطأ ما! من فضلك حاول مرة اخرى"
+
+#: templates/user_profiles/_verification.html:21
+msgid "Verify"
+msgstr "تفعيل"
+
+#: templates/user_profiles/_verification.html:26
+#: templates/user_profiles/_verification.html:44
+msgid "Resend code"
+msgstr "ارسل الرمز مرة أخرى"
+
+#: templates/user_profiles/_verification.html:36
+msgid "Sending SMS. Check your phone."
+msgstr "الرسالة بطريقها اليك. الرجاء التحقق."
+
+#: templates/user_profiles/_verification.html:40
+msgid "Please wait while we verify the PIN."
+msgstr "انتظر من فضلك، يتم الان تفعيل رقم موبايلك"
+
+#: templates/user_profiles/_verification.html:47
+msgid "WOOOHOO...!!! Your mobile number is verified."
+msgstr "لقد تم تفعيل رقم موبايلك"
+
 #: templates/user_profiles/my_expired_listings.html:10
 #, python-format
 msgid ""
@@ -3287,8 +3325,8 @@ msgstr[5] ""
 
 #: templates/user_profiles/my_listings.html:59
 #: templates/user_profiles/my_listings.html:182
-#: templates/user_profiles/my_listings.html:240
-#: templates/user_profiles/my_listings.html:340
+#: templates/user_profiles/my_listings.html:256
+#: templates/user_profiles/my_listings.html:356
 msgid "This page is emptier than the Sahara. Come on, let's fill it up by placing some awesome ads."
 msgstr "حسابك كالصحراء - يبدو خالي من أي نشاط. احيي ربعك الخالي بإعلاناتك! "
 
@@ -3313,10 +3351,10 @@ msgstr "إقتراحنا:"
 
 #: templates/user_profiles/my_listings.html:155
 #: templates/user_profiles/my_listings.html:157
-#: templates/user_profiles/my_listings.html:312
-#: templates/user_profiles/my_listings.html:314
-#: templates/user_profiles/my_listings.html:398
-#: templates/user_profiles/my_listings.html:400
+#: templates/user_profiles/my_listings.html:328
+#: templates/user_profiles/my_listings.html:330
+#: templates/user_profiles/my_listings.html:414
+#: templates/user_profiles/my_listings.html:416
 msgid "delete"
 msgstr "حذف"
 
@@ -3326,14 +3364,14 @@ msgid "resubmit"
 msgstr "إعادة وضع الإعلان"
 
 #: templates/user_profiles/my_listings.html:169
-#: templates/user_profiles/my_listings.html:325
-#: templates/user_profiles/my_listings.html:407
+#: templates/user_profiles/my_listings.html:341
+#: templates/user_profiles/my_listings.html:423
 msgid "Are you sure you want to delete this listing?"
 msgstr "من فضلك أكد طلبك لحذف الإعلان."
 
 #: templates/user_profiles/my_listings.html:175
-#: templates/user_profiles/my_listings.html:330
-#: templates/user_profiles/my_listings.html:412
+#: templates/user_profiles/my_listings.html:346
+#: templates/user_profiles/my_listings.html:428
 msgid "Yes, delete it."
 msgstr "نعم، احذفه."
 
@@ -3345,24 +3383,29 @@ msgstr "اظهر جميع إعلاناتي المرفوضة"
 msgid "These ads are awaiting approval and will be live soon."
 msgstr "جاري الآن الموافقة على الإعلان وسيتم نشره في أقرب وقت."
 
+#: templates/user_profiles/my_listings.html:243
 #: templates/user_profiles/my_listings.html:245
+msgid "verify mobile number"
+msgstr "يجب تفعيل رقم موبايلك"
+
+#: templates/user_profiles/my_listings.html:261
 msgid "Show all my pending ads"
 msgstr "اظهر جميع إعلاناتي التي لا زالت تحت المراجعة"
 
-#: templates/user_profiles/my_listings.html:304
+#: templates/user_profiles/my_listings.html:320
 msgid "Your edits will go live soon."
 msgstr "سنقوم بنشر تعديلاتك قريبا."
 
-#: templates/user_profiles/my_listings.html:316
-#: templates/user_profiles/my_listings.html:318
+#: templates/user_profiles/my_listings.html:332
+#: templates/user_profiles/my_listings.html:334
 msgid "edit"
 msgstr "تعديل"
 
-#: templates/user_profiles/my_listings.html:346
+#: templates/user_profiles/my_listings.html:362
 msgid "Show all my live ads"
 msgstr "اظهر جميع إعلاناتي المنشورة"
 
-#: templates/user_profiles/my_listings.html:424
+#: templates/user_profiles/my_listings.html:440
 msgid "Show all my expired ads"
 msgstr "اظهر جميع إعلاناتي المنتهية الصلاحية"
 
