@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-08 18:14+0400\n"
+"POT-Creation-Date: 2015-10-13 15:06+0400\n"
 "PO-Revision-Date: 2014-08-05 14:25+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Lebanese <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_LB/>\n"
@@ -218,112 +218,112 @@ msgid "Yalla try it."
 msgstr "يلا، جرب وبيع."
 
 #: country_templates/shared_landing.html:155
-#: country_templates/shared_landing.html:160 templates/base.html:173
+#: country_templates/shared_landing.html:160 templates/base.html:180
 #: templates/generic.html:110 templates/generic.html.py:117
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
 msgid "Place an ad"
 msgstr "أضف إعلانك"
 
-#: fuego/base_settings.py:575 templates/search/widget.html:27
+#: fuego/base_settings.py:578 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of OLX dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:579
+#: fuego/base_settings.py:582
 msgid "OLX dubizzle"
 msgstr "أوليكس دوبيزل"
 
-#: fuego/base_settings.py:643
+#: fuego/base_settings.py:646
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:676 fuego/base_settings.py:1178
+#: fuego/base_settings.py:679 fuego/base_settings.py:1181
 msgid "Spam"
 msgstr "إعلان مزعج"
 
-#: fuego/base_settings.py:677
+#: fuego/base_settings.py:680
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:678 fuego/base_settings.py:1173
+#: fuego/base_settings.py:681 fuego/base_settings.py:1176
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:679 fuego/base_settings.py:1175
+#: fuego/base_settings.py:682 fuego/base_settings.py:1178
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:680
+#: fuego/base_settings.py:683
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:681
+#: fuego/base_settings.py:684
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:682 fuego/base_settings.py:1176
+#: fuego/base_settings.py:685 fuego/base_settings.py:1179
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:683
+#: fuego/base_settings.py:686
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:684
+#: fuego/base_settings.py:687
 msgid "No Category"
 msgstr "القسم؟"
 
-#: fuego/base_settings.py:712
+#: fuego/base_settings.py:715
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في القسم غير الصحيحة"
 
-#: fuego/base_settings.py:713
+#: fuego/base_settings.py:716
 msgid "Your ad is misleading"
 msgstr "مجانا وبدون أي رسوم"
 
-#: fuego/base_settings.py:795
+#: fuego/base_settings.py:798
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:991
+#: fuego/base_settings.py:994
 msgid "Date: newest"
 msgstr "بحسب التاريخ: الأحدث"
 
-#: fuego/base_settings.py:992
+#: fuego/base_settings.py:995
 msgid "Date: oldest"
 msgstr "بحسب التاريخ: الأقدم"
 
-#: fuego/base_settings.py:996
+#: fuego/base_settings.py:999
 msgid "Price: highest"
 msgstr "بحسب السعر: الأعلى"
 
-#: fuego/base_settings.py:997
+#: fuego/base_settings.py:1000
 msgid "Price: lowest"
 msgstr "بحسب السعر: الأدنى"
 
-#: fuego/base_settings.py:1145
+#: fuego/base_settings.py:1148
 msgid "#dubizzle"
 msgstr "#دوبيزل"
 
-#: fuego/base_settings.py:1160
+#: fuego/base_settings.py:1163
 #, python-format
 msgid "Your OLX verification code is %s"
 msgstr "اليك رمز تفعيل رقم موبايلك لدى أوليكس %s"
 
-#: fuego/base_settings.py:1168
+#: fuego/base_settings.py:1171
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:1170
+#: fuego/base_settings.py:1173
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:1174
+#: fuego/base_settings.py:1177
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:1177
+#: fuego/base_settings.py:1180
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
@@ -1846,9 +1846,9 @@ msgid "Show this number on my ad"
 msgstr "اظهر رقمي في الإعلان"
 
 #: listings/forms.py:187
+#, python-format
 msgid "Provide a valid mobile number in this format %s"
 msgstr "الرجاء ادخال رقم موبايل صحيح بالشكل التالي %s"
-
 
 #: listings/forms.py:238
 msgid "The neighborhood you have selected is not in the city you selected."
@@ -2153,25 +2153,36 @@ msgstr ""
 msgid "Website under maintenance (500)"
 msgstr "الموقع تحت الصيانة"
 
-#: templates/base.html:111
+#: templates/base.html:106
+msgid "Hey There! Looks like you are using an outdated browser."
+msgstr "مرحبا، يبدو انك تستخدم متصفح قديم جدا"
+
+#: templates/base.html:107
+msgid "This site might not display properly on your browser. <br/>Please download Google Chrome, FireFox or Update your Internet Explorer. <br/>even better, download our mobile app from "
+msgstr "فقد لا يعمل موقعنا بشكل فعّال على متصفحك الحالي.<br/>لأفضل أداء ننصحك باستخدام جوجل كروم، فايرفوكس أو تحديث الإنترنت إكسبلورر. <br/> ومن الأفضل تحميل تطبيقنا الجديد من على "
+
+#: templates/base.html:107
+msgid "Google play"
+msgstr "جوجل بلاي"
+
+#: templates/base.html:107
+msgid "or"
+msgstr "أو"
+
+#: templates/base.html:107
+msgid "Apple store"
+msgstr "أبل ستور"
+
+#: templates/base.html:130
 msgid "Happy Eid"
 msgstr "عيد أضحى سعيد"
 
-#: templates/base.html:138
-msgid "You should verify you mobile number, to get you ads live! Go to "
-msgstr ""
-
-#: templates/base.html:138 templates/generic.html:35
-#: templates/user_profiles/my_listings.html:17
-msgid "Your account"
-msgstr "حسابك"
-
-#: templates/base.html:165
+#: templates/base.html:172
 msgid "Menu"
 msgstr "القائمة"
 
 # not too clear
-#: templates/base.html:180
+#: templates/base.html:187
 msgid "My account"
 msgstr "الحساب"
 
@@ -2195,6 +2206,10 @@ msgstr "يرجى قراءة شروط الاستخدام هذه بعناية، و
 #, python-format
 msgid "%(BRAND_NAME)s on your phone"
 msgstr "%(BRAND_NAME)s على موبايلك"
+
+#: templates/generic.html:35 templates/user_profiles/my_listings.html:17
+msgid "Your account"
+msgstr "حسابك"
 
 #: templates/generic.html:44 templates/generic.html.py:50
 #: templates/public/_breadcrumbs.html:14 templates/public/landing.html:70
