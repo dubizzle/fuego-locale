@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-13 11:53+0400\n"
+"POT-Creation-Date: 2015-12-15 13:02+0400\n"
 "PO-Revision-Date: 2014-08-05 15:00+0400\n"
 "Language-Team: French <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr/>\n"
 "Language: fr\n"
@@ -774,105 +774,105 @@ msgstr "OLX dubizzle est votre premier site de petites annonces gratuites en Alg
 msgid "OLX dubizzle Algeria, free classifieds, online classifieds, Algeria classifieds, free classifieds in Algeria"
 msgstr "OLX dubizzle Algerie, petites annonces gratuites, petites annonces en ligne, Algerie petites annonces, petites annonces en Algerie"
 
-#: fuego/base_settings.py:583 templates/search/widget.html:27
+#: fuego/base_settings.py:585 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of OLX dubizzle"
 msgstr "Tout sur OLX dubizzle"
 
-#: fuego/base_settings.py:587
+#: fuego/base_settings.py:589
 msgid "OLX dubizzle"
 msgstr "OLX dubizzle"
 
-#: fuego/base_settings.py:651
+#: fuego/base_settings.py:653
 msgid "m&sup2;"
 msgstr "m&sup2;"
 
-#: fuego/base_settings.py:684 fuego/base_settings.py:1190
+#: fuego/base_settings.py:686 fuego/base_settings.py:1194
 msgid "Spam"
 msgstr "Indésirable"
 
-#: fuego/base_settings.py:685
+#: fuego/base_settings.py:687
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:686 fuego/base_settings.py:1185
+#: fuego/base_settings.py:688 fuego/base_settings.py:1189
 msgid "Miscategorized"
 msgstr "Mauvaise catégorie"
 
-#: fuego/base_settings.py:687 fuego/base_settings.py:1187
+#: fuego/base_settings.py:689 fuego/base_settings.py:1191
 msgid "Repetitive"
 msgstr "Répétée"
 
-#: fuego/base_settings.py:688
+#: fuego/base_settings.py:690
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:689
+#: fuego/base_settings.py:691
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:690 fuego/base_settings.py:1188
+#: fuego/base_settings.py:692 fuego/base_settings.py:1192
 msgid "Misleading"
 msgstr "Trompeuse"
 
-#: fuego/base_settings.py:691
+#: fuego/base_settings.py:693
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:692
+#: fuego/base_settings.py:694
 msgid "No Category"
 msgstr "Catégorie"
 
-#: fuego/base_settings.py:724
+#: fuego/base_settings.py:726
 msgid "You have chosen the wrong category."
 msgstr "Votre annonce a été placé dans la mauvaise catégorie"
 
-#: fuego/base_settings.py:725
+#: fuego/base_settings.py:727
 msgid "Your ad is misleading"
 msgstr "Votre annonce est GRATUITE"
 
-#: fuego/base_settings.py:807
+#: fuego/base_settings.py:809
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: fuego/base_settings.py:1003
+#: fuego/base_settings.py:1005
 msgid "Date: newest"
 msgstr "Date: plus recente"
 
-#: fuego/base_settings.py:1004
+#: fuego/base_settings.py:1006
 msgid "Date: oldest"
 msgstr "Date: moins recente"
 
-#: fuego/base_settings.py:1008
+#: fuego/base_settings.py:1010
 msgid "Price: highest"
 msgstr "Prix: plus cher"
 
-#: fuego/base_settings.py:1009
+#: fuego/base_settings.py:1011
 msgid "Price: lowest"
 msgstr "Prix: moins cher"
 
-#: fuego/base_settings.py:1157
+#: fuego/base_settings.py:1161
 msgid "#dubizzle"
 msgstr "dubizzle démarré"
 
-#: fuego/base_settings.py:1172
+#: fuego/base_settings.py:1176
 #, python-format
 msgid "Your OLX verification code is %s"
 msgstr ""
 
-#: fuego/base_settings.py:1180
+#: fuego/base_settings.py:1184
 msgid "Other"
 msgstr "Autre"
 
-#: fuego/base_settings.py:1182
+#: fuego/base_settings.py:1186
 msgid "Please select"
 msgstr "Choisissez votre raison"
 
-#: fuego/base_settings.py:1186
+#: fuego/base_settings.py:1190
 msgid "Offensive"
 msgstr "Offensive"
 
-#: fuego/base_settings.py:1189
+#: fuego/base_settings.py:1193
 msgid "Possible fraud"
 msgstr "Possible fraude"
 
@@ -3447,8 +3447,8 @@ msgid "Countries"
 msgstr "Pays"
 
 #: templates/public/about.html:33
-msgid "Languages"
-msgstr "langues"
+msgid "Offices"
+msgstr ""
 
 #: templates/public/about.html:49
 msgid "Monthly active users"
@@ -3458,13 +3458,26 @@ msgstr "Actifs utilisateurs mensuels"
 msgid "Employees"
 msgstr "Employés/ Les employés"
 
-#: templates/public/about.html:65
+#: templates/public/about.html:64
 msgid "New monthly listings"
 msgstr "Les nouvelles inscriptions mensuelles"
 
-#: templates/public/about.html:66
+#: templates/public/about.html:65
 msgid "Monthly transactions"
 msgstr "Transactions mensuelles"
+
+#: templates/public/about.html:79
+msgid "Downloads mobile app"
+msgstr ""
+
+#: templates/public/about.html:80
+#, fuzzy
+msgid "Monthly page views"
+msgstr ""
+
+#: templates/public/about.html:95
+msgid "#1 app in 17 countries (Footnote: Google PlayStore, categories: shopping/lifestyle)"
+msgstr ""
 
 #: templates/public/home.html:20
 #, python-format
@@ -3997,3 +4010,6 @@ msgstr "Votre annonce avait impropre photo."
 #: utils/rejected_context.py:59
 msgid "Add some suitable photos."
 msgstr "Ajouter quelques photos appropriés."
+
+#~ msgid "Languages"
+#~ msgstr "langues"
