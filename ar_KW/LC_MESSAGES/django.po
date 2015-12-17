@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-17 10:53+0400\n"
+"POT-Creation-Date: 2015-12-17 15:59+0400\n"
 "PO-Revision-Date: 2015-01-11 09:57+0000\n"
 "Last-Translator: Andrea Valdi <andrea@dubizzle.com>\n"
 "Language-Team: Arabic <http://translate.dubizzle.test/projects/fuego/fuego-web/ar_KW/>\n"
@@ -220,7 +220,7 @@ msgstr "يلا، جرب وبيع."
 #: country_templates/shared_landing.html:155
 #: country_templates/shared_landing.html:160
 #: country_templates/kuwait/public/landing.html:47
-#: country_templates/kuwait/public/landing.html:52 templates/base.html:160
+#: country_templates/kuwait/public/landing.html:52 templates/base.html:153
 #: templates/generic.html:110 templates/generic.html.py:117
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
@@ -2189,16 +2189,16 @@ msgstr ""
 msgid "Website under maintenance (500)"
 msgstr "الموقع تحت الصيانة"
 
-#: templates/base.html:110
+#: templates/base.html:103
 msgid "Happy Eid"
 msgstr "عيد أضحى سعيد"
 
-#: templates/base.html:152
+#: templates/base.html:145
 msgid "Menu"
 msgstr "القائمة"
 
 # not too clear
-#: templates/base.html:167
+#: templates/base.html:160
 msgid "My account"
 msgstr "الحساب"
 
@@ -2227,13 +2227,11 @@ msgstr "%(BRAND_NAME)s على موبايلك"
 msgid "Your account"
 msgstr "حسابك"
 
-#: templates/generic.html:148
-#: templates/user_profiles/my_saved_searches.html:46
+#: templates/generic.html:148 templates/user_profiles/my_saved_searches.html:46
 msgid "Filters"
 msgstr "خيارات البحث"
 
-#: templates/generic.html:162
-#: templates/listings/snippets/_scam_warning.html:12
+#: templates/generic.html:162 templates/listings/snippets/_scam_warning.html:12
 msgid "Close"
 msgstr "إغلاق"
 
@@ -2271,8 +2269,7 @@ msgstr "إعلاناتك المنشورة"
 msgid "Your expired ads"
 msgstr "إعلاناتك منتهية الصلاحية"
 
-#: templates/generic.html:225
-#: templates/email_alerts/save_search_button.html:24
+#: templates/generic.html:225 templates/email_alerts/save_search_button.html:24
 #: templates/user_profiles/my_saved_searches.html:33
 msgid "Your saved searches"
 msgstr "بحوثك المحفوظة"
@@ -2625,8 +2622,7 @@ msgstr "حدد إختيارك"
 msgid "Select a category"
 msgstr "إختر القسم"
 
-#: templates/listings/add/paa_taxonomy.html:101
-#: templates/search/widget.html:66
+#: templates/listings/add/paa_taxonomy.html:101 templates/search/widget.html:66
 msgid "Go"
 msgstr "عرض"
 
@@ -2977,7 +2973,11 @@ msgstr "تعرف علينا"
 msgid "Sitemap"
 msgstr "خريطة الموقع"
 
-#: templates/public/_footer.html:65
+#: templates/public/_footer.html:59
+msgid "Join OLX"
+msgstr "إنضم إلى مجموعة أوليكس"
+
+#: templates/public/_footer.html:69
 #, python-format
 msgid ", %(BRAND_NAME)s, All Rights Reserved."
 msgstr ", %(BRAND_NAME)s, جميع الحقوق محفوظة."
@@ -3033,8 +3033,7 @@ msgstr ""
 "\n"
 "معروض للبيع في %(CITY_OR_COUNTRY)s"
 
-#: templates/public/_no-results-home.html:7
-#: templates/public/_no-results.html:7
+#: templates/public/_no-results-home.html:7 templates/public/_no-results.html:7
 msgid "We couldn't find any matches :(<br /><strong>It's like a desert out here</strong>"
 msgstr "لم نجد أي نتائج :(<br /><strong> يبدو أنك وصلت إلى صحراء قاحلة</strong>"
 

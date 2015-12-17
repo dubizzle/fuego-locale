@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-17 10:54+0400\n"
+"POT-Creation-Date: 2015-12-17 15:59+0400\n"
 "PO-Revision-Date: 2014-08-05 15:00+0400\n"
 "Language-Team: French <http://translate.dubizzlecloud.com/projects/fuego/fuego/fr/>\n"
 "Language: fr\n"
@@ -213,7 +213,7 @@ msgid "Yalla try it."
 msgstr "Allez-y, essayez."
 
 #: country_templates/shared_landing.html:155
-#: country_templates/shared_landing.html:160 templates/base.html:160
+#: country_templates/shared_landing.html:160 templates/base.html:153
 #: templates/generic.html:110 templates/generic.html.py:117
 #: templates/public/landing.html:49 templates/public/landing.html.py:54
 #: templates/user_profiles/my_listings.html:68
@@ -2531,15 +2531,15 @@ msgstr "404"
 msgid "Website under maintenance (500)"
 msgstr "Site en maintenance (500)"
 
-#: templates/base.html:110
+#: templates/base.html:103
 msgid "Happy Eid"
 msgstr "Joyeux Aïd"
 
-#: templates/base.html:152
+#: templates/base.html:145
 msgid "Menu"
 msgstr "Menu"
 
-#: templates/base.html:167
+#: templates/base.html:160
 msgid "My account"
 msgstr "Mon compte"
 
@@ -2573,13 +2573,11 @@ msgstr "Votre compte"
 msgid "All of"
 msgstr ""
 
-#: templates/generic.html:148
-#: templates/user_profiles/my_saved_searches.html:46
+#: templates/generic.html:148 templates/user_profiles/my_saved_searches.html:46
 msgid "Filters"
 msgstr "Filtrer la recherche"
 
-#: templates/generic.html:162
-#: templates/listings/snippets/_scam_warning.html:12
+#: templates/generic.html:162 templates/listings/snippets/_scam_warning.html:12
 msgid "Close"
 msgstr "Fermer"
 
@@ -2617,8 +2615,7 @@ msgstr "Vos annonces en ligne"
 msgid "Your expired ads"
 msgstr "Vos annonces expirées"
 
-#: templates/generic.html:225
-#: templates/email_alerts/save_search_button.html:24
+#: templates/generic.html:225 templates/email_alerts/save_search_button.html:24
 #: templates/user_profiles/my_saved_searches.html:33
 msgid "Your saved searches"
 msgstr "Vos recherches favorites"
@@ -2970,8 +2967,7 @@ msgstr "Choisir une option."
 msgid "Select a category"
 msgstr "Choisir une catégorie"
 
-#: templates/listings/add/paa_taxonomy.html:101
-#: templates/search/widget.html:66
+#: templates/listings/add/paa_taxonomy.html:101 templates/search/widget.html:66
 msgid "Go"
 msgstr "Aller"
 
@@ -3322,7 +3318,11 @@ msgstr "A propos de nous"
 msgid "Sitemap"
 msgstr "Plan du site"
 
-#: templates/public/_footer.html:65
+#: templates/public/_footer.html:59
+msgid "Join OLX"
+msgstr "Rejoin OLX"
+
+#: templates/public/_footer.html:69
 #, python-format
 msgid ", %(BRAND_NAME)s, All Rights Reserved."
 msgstr ", %(BRAND_NAME)s, Tous droits réservés."
@@ -3378,8 +3378,7 @@ msgstr ""
 "\n"
 "Articles à vendre en %(CITY_OR_COUNTRY)s"
 
-#: templates/public/_no-results-home.html:7
-#: templates/public/_no-results.html:7
+#: templates/public/_no-results-home.html:7 templates/public/_no-results.html:7
 msgid "We couldn't find any matches :(<br /><strong>It's like a desert out here</strong>"
 msgstr "Nous n'avons trouvé aucun résultat :(<br /><strong>C'est le désert ici</strong>"
 
