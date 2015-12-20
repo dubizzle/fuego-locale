@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-17 15:58+0400\n"
+"POT-Creation-Date: 2015-12-20 16:19+0400\n"
 "PO-Revision-Date: 2014-08-05 14:41+0400\n"
 "Last-Translator: Tariq Zabian <tariq@dubizzle.com>\n"
 "Language-Team: Arabic - Qatari <http://translate.dubizzlecloud.com/projects/fuego/fuego/ar_QA/>\n"
@@ -321,105 +321,105 @@ msgstr "تابلت/أجهزة لوحية وكمبيوتر"
 msgid "So much more."
 msgstr "أقسام أكثر"
 
-#: fuego/base_settings.py:585 templates/search/widget.html:27
+#: fuego/base_settings.py:595 templates/search/widget.html:27
 #: templates/search/widget.html.py:44
 msgid "All of OLX dubizzle"
 msgstr "الموقع بالكامل"
 
-#: fuego/base_settings.py:589
+#: fuego/base_settings.py:599
 msgid "OLX dubizzle"
 msgstr "أوليكس دوبيزل"
 
-#: fuego/base_settings.py:653
+#: fuego/base_settings.py:663
 msgid "m&sup2;"
 msgstr "م٢"
 
-#: fuego/base_settings.py:686 fuego/base_settings.py:1194
+#: fuego/base_settings.py:696 fuego/base_settings.py:1204
 msgid "Spam"
 msgstr "إعلان مزعج"
 
-#: fuego/base_settings.py:687
+#: fuego/base_settings.py:697
 msgid "Scam/Fraud"
 msgstr ""
 
-#: fuego/base_settings.py:688 fuego/base_settings.py:1189
+#: fuego/base_settings.py:698 fuego/base_settings.py:1199
 msgid "Miscategorized"
 msgstr "فئة الإعلان خاطئة"
 
-#: fuego/base_settings.py:689 fuego/base_settings.py:1191
+#: fuego/base_settings.py:699 fuego/base_settings.py:1201
 msgid "Repetitive"
 msgstr "الإعلان مُكرر"
 
-#: fuego/base_settings.py:690
+#: fuego/base_settings.py:700
 msgid "Illegal Item"
 msgstr ""
 
-#: fuego/base_settings.py:691
+#: fuego/base_settings.py:701
 msgid "Prohibited"
 msgstr ""
 
-#: fuego/base_settings.py:692 fuego/base_settings.py:1192
+#: fuego/base_settings.py:702 fuego/base_settings.py:1202
 msgid "Misleading"
 msgstr "الإعلان مُضلل وغير واضح"
 
-#: fuego/base_settings.py:693
+#: fuego/base_settings.py:703
 msgid "Outside IP Block"
 msgstr ""
 
-#: fuego/base_settings.py:694
+#: fuego/base_settings.py:704
 msgid "No Category"
 msgstr "القسم؟"
 
-#: fuego/base_settings.py:726
+#: fuego/base_settings.py:736
 msgid "You have chosen the wrong category."
 msgstr "لقد قمت بوضع إعلانك في القسم غير الصحيحة"
 
-#: fuego/base_settings.py:727
+#: fuego/base_settings.py:737
 msgid "Your ad is misleading"
 msgstr "مجانا 100%"
 
-#: fuego/base_settings.py:809
+#: fuego/base_settings.py:819
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fuego/base_settings.py:1005
+#: fuego/base_settings.py:1015
 msgid "Date: newest"
 msgstr "بحسب التاريخ: الأحدث"
 
-#: fuego/base_settings.py:1006
+#: fuego/base_settings.py:1016
 msgid "Date: oldest"
 msgstr "بحسب التاريخ: الأقدم"
 
-#: fuego/base_settings.py:1010
+#: fuego/base_settings.py:1020
 msgid "Price: highest"
 msgstr "بحسب السعر: الأعلى"
 
-#: fuego/base_settings.py:1011
+#: fuego/base_settings.py:1021
 msgid "Price: lowest"
 msgstr "بحسب السعر: الأدنى"
 
-#: fuego/base_settings.py:1161
+#: fuego/base_settings.py:1171
 msgid "#dubizzle"
 msgstr "#دوبيزل"
 
-#: fuego/base_settings.py:1176
+#: fuego/base_settings.py:1186
 #, python-format
 msgid "Your OLX verification code is %s"
 msgstr "اليك رمز تفعيل رقم موبايلك لدى أوليكس %s"
 
-#: fuego/base_settings.py:1184
+#: fuego/base_settings.py:1194
 msgid "Other"
 msgstr "لدي سبب آخر"
 
-#: fuego/base_settings.py:1186
+#: fuego/base_settings.py:1196
 msgid "Please select"
 msgstr "الرجاء الإختيار"
 
-#: fuego/base_settings.py:1190
+#: fuego/base_settings.py:1200
 msgid "Offensive"
 msgstr "الإعلان مزعج أو فيه إهانة"
 
-#: fuego/base_settings.py:1193
+#: fuego/base_settings.py:1203
 msgid "Possible fraud"
 msgstr "يبدو الإعلان كأنه احتيال"
 
@@ -2942,8 +2942,12 @@ msgid "Monthly page views"
 msgstr "مشاهدة الصفحات شهرياً"
 
 #: templates/public/about.html:95
-msgid "#1 app in 17 countries (Footnote: Google PlayStore, categories: shopping/lifestyle)"
-msgstr "تطبيق رقم ١ في ١٧ بلد حول العالم، في فئة التسوق ونمط الحياة على جوجل بلاي"
+msgid "#1 app in 17 countries"
+msgstr "تطبيق رقم ١ في ١٧ بلد حول العالم"
+
+#: templates/public/about.html:95
+msgid "(Google PlayStore, categories: shopping/lifestyle)"
+msgstr "(على جوجل بلاي في فئة التسوق ونمط الحياة)"
 
 #: templates/public/home.html:20
 #, python-format
